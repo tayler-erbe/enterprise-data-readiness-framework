@@ -1,0 +1,649 @@
+table,column,case,verdict,issue,meaning,true_reading,other_readings,settled_by,fix,rows,rows_changed,helper_columns,domain,variation
+retail_order_v00_00,service_date,r_date_iso,READY,Dates in year-month-day order.,date,,,values,,120,0,,retail,0
+retail_order_v00_00,postal_code,f_leading_zero_lost,FIXABLE,"Postal codes stored as numbers, so leading zeros are gone.",postal_code,,,name,keep_as_text,120,68,,retail,0
+retail_order_v00_00,btrg_er,f_decimal_comma,FIXABLE,Numbers written with a comma for the decimal point and a full stop for thousands.,number,,,values,parse_number,120,120,,retail,0
+retail_order_v00_00,stipend,n_amount_period,NEEDS_CONTEXT,A pay figure that could be per month or per year.,pay,monthly,annual,nothing,scale_number,120,120,,retail,0
+retail_order_v00_00,satisfaction_score,f_sentinel_number,FIXABLE,A score from 0 to 100 where an impossible number stands in for missing.,score_0_to_100,,,name and values,replace_missing_marker,120,18,,retail,0
+retail_order_v00_00,checked_in,n_timestamp_zone,NEEDS_CONTEXT,Date and time with no time zone.,timestamp,utc,local_utc_minus_6,nothing,parse_timestamp,120,120,,retail,0
+retail_order_v00_00,account_id,f_id_as_float,FIXABLE,Identifiers that picked up a decimal point on the way in.,identifier,,,name,keep_as_text,120,120,,retail,0
+retail_order_v00_00,amount,g_wrong_values_mixed_in,GARBAGE,"A money column where many rows hold dates, names or codes instead.",money,,,values,,120,0,,retail,0
+clinic_visit_v00_01,amount,n_currency_unknown,NEEDS_CONTEXT,A money amount with nothing to say which currency.,money,usd,cad,nothing,,120,0,,clinic,0
+clinic_visit_v00_01,weekday_no,n_weekday_number_alone,NEEDS_CONTEXT,A weekday number with no date beside it to show which day is 1.,weekday_name,monday_is_1,sunday_is_1,nothing,decode_values,120,120,,clinic,0
+clinic_visit_v00_01,region,n_state_or_country,NEEDS_CONTEXT,Two-letter codes that are valid both as US states and as countries.,place_code,us_state,country,nothing,decode_values,120,0,,clinic,0
+clinic_visit_v00_01,closed_date,f_sentinel_date,FIXABLE,A far-future or far-past date stands in for no date.,date,,,values,replace_missing_marker,120,36,,clinic,0
+clinic_visit_v00_01,typ,n_opaque_codes,NEEDS_CONTEXT,Short codes with no description anywhere in the table.,code,,,nothing,decode_values,120,0,,clinic,0
+clinic_visit_v00_01,qty,f_quantity_packs_with_total,FIXABLE,Quantity is counted in six-packs; the unit price and line total beside it show that.,quantity_units,,,neighbours,convert_unit,120,120,unit_price; line_total,clinic,0
+clinic_visit_v00_01,comment,g_placeholder_text,GARBAGE,"Most rows hold filler such as test, asdf or TBD.",unknown,,,values,,120,0,,clinic,0
+clinic_visit_v00_01,height,f_units_mixed_separable,FIXABLE,"Heights in inches and centimetres mixed, with no unit shown, but the two ranges cannot overlap.",height_cm,,,name and values,convert_unit,120,48,,clinic,0
+logistics_shipment_v00_02,customer_name,f_mojibake,FIXABLE,Accented letters arrive garbled because the file was read in the wrong encoding.,person_name,,,values,repair_encoding,120,60,,logistics,0
+logistics_shipment_v00_02,tmp1,g_random_noise,GARBAGE,Random strings under a name that says nothing.,unknown,,,values,,120,0,,logistics,0
+logistics_shipment_v00_02,height,f_units_written,FIXABLE,"Heights written three ways, each stating its unit.",height_cm,,,values,convert_unit,120,120,,logistics,0
+logistics_shipment_v00_02,shr,f_percent_sign,FIXABLE,Percentages stored as text with a percent sign.,percent_0_to_100,,,values,parse_number,120,120,,logistics,0
+logistics_shipment_v00_02,priority,n_flag_1_2,NEEDS_CONTEXT,A flag holding 1 and 2 with nothing to say which means yes.,yes_no_flag,1_is_yes,2_is_yes,nothing,decode_values,120,120,,logistics,0
+logistics_shipment_v00_02,visit_dow,f_weekday_number_with_date,FIXABLE,A weekday number whose convention can be worked out from the date beside it.,weekday_name,monday_is_1,sunday_is_1,neighbours,decode_values,120,120,visit_date,logistics,0
+logistics_shipment_v00_02,weight,n_unit_unknown,NEEDS_CONTEXT,A weight that could be pounds or kilograms.,weight,pounds,kilograms,nothing,convert_unit,120,120,,logistics,0
+logistics_shipment_v00_02,group_name,f_whitespace_case,FIXABLE,The same value appears with stray spaces and mixed capitals.,category,,,values,normalise_categories,120,48,,logistics,0
+banking_account_v00_03,customer_class,f_category_typos,FIXABLE,A few values are one keystroke away from a common value.,category,,,values,normalise_categories,120,9,,banking,0
+banking_account_v00_03,ship_date,f_excel_serial_date,FIXABLE,Dates stored as spreadsheet day numbers.,date,,,name,parse_date,120,120,,banking,0
+banking_account_v00_03,logged_at,f_epoch_seconds,FIXABLE,Timestamps stored as seconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,banking,0
+banking_account_v00_03,referral_source,f_sentinel_text,FIXABLE,Words such as N/A and NULL stand in for missing.,category,,,values,replace_missing_marker,120,24,,banking,0
+banking_account_v00_03,price,f_currency_symbol,FIXABLE,Money stored as text with a dollar sign and separators.,money_usd,,,values,parse_number,120,120,,banking,0
+banking_account_v00_03,revenue_usd,f_number_text_separators,FIXABLE,Numbers stored as text with thousands separators.,number,,,values,parse_number,120,120,,banking,0
+banking_account_v00_03,charge_usd,r_amount_named,READY,A money amount whose name states the currency.,money_usd,,,name,,120,0,,banking,0
+banking_account_v00_03,payment_method,f_category_variants,FIXABLE,One category spelled with different punctuation and capitals.,category,,,values,normalise_categories,120,36,,banking,0
+hotel_booking_v00_04,late_days,n_zero_missing_or_real,NEEDS_CONTEXT,Many zeros that could mean none or could mean not recorded.,count,zero_is_real,zero_is_missing,nothing,replace_missing_marker,120,0,,hotel,0
+hotel_booking_v00_04,discount_pct,r_percent_named,READY,A percentage from 0 to 100 with a clear name.,percent_0_to_100,,,name,,120,0,,hotel,0
+hotel_booking_v00_04,bkng_id,r_identifier,READY,A plain record identifier.,identifier,,,values,,120,0,,hotel,0
+hotel_booking_v00_04,eml,r_email,READY,Email addresses.,email,,,values,,120,0,,hotel,0
+hotel_booking_v00_04,status_cd,r_code_with_description,READY,A code column with its description in the next column.,status_code,,,neighbours,,120,0,status_desc,hotel,0
+hotel_booking_v00_04,channel,r_category_words,READY,A category written as consistent words.,category,,,values,,120,0,,hotel,0
+hotel_booking_v00_04,invc_dt,f_date_slash_order,FIXABLE,"Slash dates where some row has a day above 12, which settles the order.",date,day_first,month_first,a row with a day above 12,parse_date,120,120,,hotel,0
+hotel_booking_v00_04,contact,g_truncated,GARBAGE,"Text cut off at a fixed length, so the rest is lost.",email,,,values,,120,0,,hotel,0
+utilities_meter_v00_05,charge,n_amount_cents_or_dollars,NEEDS_CONTEXT,Whole numbers that could be dollars or cents.,money,cents,dollars,nothing,scale_number,120,120,,utilities,0
+utilities_meter_v00_05,mmbr,f_embedded_values,FIXABLE,Several facts packed into one cell in a regular pattern.,person_name_and_birth_date,,,values,split_values,120,120,,utilities,0
+utilities_meter_v00_05,start_date,f_date_mixed_formats,FIXABLE,"Dates are written several different ways in one column, each one unambiguous.",date,,,values,parse_date,120,81,,utilities,0
+utilities_meter_v00_05,dy,r_weekday_name,READY,Days of the week written out.,weekday_name,,,values,,120,0,,utilities,0
+utilities_meter_v00_05,age,f_outlier_impossible,FIXABLE,A few ages that no person can have.,age_years,,,name and values,remove_impossible_values,120,4,,utilities,0
+utilities_meter_v00_05,posted_date,n_date_slash_unresolvable,NEEDS_CONTEXT,Slash dates where every day and month is 12 or below.,date,month_first,day_first,nothing,parse_date,120,120,,utilities,0
+utilities_meter_v00_05,is_active,f_boolean_variants,FIXABLE,Yes and no written many ways.,yes_no_flag,,,values,normalise_categories,120,120,,utilities,0
+utilities_meter_v00_05,alt_code,g_mostly_missing,GARBAGE,Nearly every row is blank.,unknown,,,values,,120,0,,utilities,0
+retail_order_v00_06,cntct_nm,r_person_name,READY,"Names of people, cleanly written.",person_name,,,values,,120,0,,retail,0
+retail_order_v00_06,qty,n_quantity_alone,NEEDS_CONTEXT,A quantity with nothing to say whether it counts units or packs.,quantity,packs_of_6,units,nothing,convert_unit,120,120,,retail,0
+retail_order_v00_06,batch_flag,g_constant,GARBAGE,Every row holds the same value.,unknown,,,values,,120,0,,retail,0
+retail_order_v00_06,line_count,r_count_named,READY,A whole-number count with a clear name.,count,,,name,,120,0,,retail,0
+retail_order_v00_06,event_ts,f_epoch_millis,FIXABLE,Timestamps stored as milliseconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,retail,0
+retail_order_v00_06,v3,n_cryptic_number,NEEDS_CONTEXT,Plausible numbers under a name that says nothing.,unknown_measure,,,nothing,,120,0,,retail,0
+clinic_visit_v01_00,opted_in,f_boolean_variants,FIXABLE,Yes and no written many ways.,yes_no_flag,,,values,normalise_categories,120,120,,clinic,1
+clinic_visit_v01_00,ticket_id,f_id_as_float,FIXABLE,Identifiers that picked up a decimal point on the way in.,identifier,,,name,keep_as_text,120,120,,clinic,1
+clinic_visit_v01_00,rvn_usd,f_number_text_separators,FIXABLE,Numbers stored as text with thousands separators.,number,,,values,parse_number,120,120,,clinic,1
+clinic_visit_v01_00,category,r_category_words,READY,A category written as consistent words.,category,,,values,,120,0,,clinic,1
+clinic_visit_v01_00,due_date,n_date_slash_unresolvable,NEEDS_CONTEXT,Slash dates where every day and month is 12 or below.,date,month_first,day_first,nothing,parse_date,120,120,,clinic,1
+clinic_visit_v01_00,fld_12,n_cryptic_number,NEEDS_CONTEXT,Plausible numbers under a name that says nothing.,unknown_measure,,,nothing,,120,0,,clinic,1
+clinic_visit_v01_00,postal_code,f_leading_zero_lost,FIXABLE,"Postal codes stored as numbers, so leading zeros are gone.",postal_code,,,name,keep_as_text,120,56,,clinic,1
+clinic_visit_v01_00,origin,n_state_or_country,NEEDS_CONTEXT,Two-letter codes that are valid both as US states and as countries.,place_code,us_state,country,nothing,decode_values,120,0,,clinic,1
+logistics_shipment_v01_01,weight,n_unit_unknown,NEEDS_CONTEXT,A weight that could be pounds or kilograms.,weight,pounds,kilograms,nothing,convert_unit,120,120,,logistics,1
+logistics_shipment_v01_01,total_usd,r_amount_named,READY,A money amount whose name states the currency.,money_usd,,,name,,120,0,,logistics,1
+logistics_shipment_v01_01,dow,r_weekday_name,READY,Days of the week written out.,weekday_name,,,values,,120,0,,logistics,1
+logistics_shipment_v01_01,received_date,f_date_mixed_formats,FIXABLE,"Dates are written several different ways in one column, each one unambiguous.",date,,,values,parse_date,120,96,,logistics,1
+logistics_shipment_v01_01,col_x,g_random_noise,GARBAGE,Random strings under a name that says nothing.,unknown,,,values,,120,0,,logistics,1
+logistics_shipment_v01_01,member,f_embedded_values,FIXABLE,Several facts packed into one cell in a regular pattern.,person_name_and_birth_date,,,values,split_values,120,120,,logistics,1
+logistics_shipment_v01_01,sgmnt,f_whitespace_case,FIXABLE,The same value appears with stray spaces and mixed capitals.,category,,,values,normalise_categories,120,48,,logistics,1
+logistics_shipment_v01_01,created_date,r_date_iso,READY,Dates in year-month-day order.,date,,,values,,120,0,,logistics,1
+banking_account_v01_02,visit_dow,f_weekday_number_with_date,FIXABLE,A weekday number whose convention can be worked out from the date beside it.,weekday_name,monday_is_1,sunday_is_1,neighbours,decode_values,120,120,visit_date,banking,1
+banking_account_v01_02,height,f_units_mixed_separable,FIXABLE,"Heights in inches and centimetres mixed, with no unit shown, but the two ranges cannot overlap.",height_cm,,,name and values,convert_unit,120,48,,banking,1
+banking_account_v01_02,total,g_wrong_values_mixed_in,GARBAGE,"A money column where many rows hold dates, names or codes instead.",money,,,values,,120,0,,banking,1
+banking_account_v01_02,closed_date,f_sentinel_date,FIXABLE,A far-future or far-past date stands in for no date.,date,,,values,replace_missing_marker,120,36,,banking,1
+banking_account_v01_02,qty,n_quantity_alone,NEEDS_CONTEXT,A quantity with nothing to say whether it counts units or packs.,quantity,units,packs_of_6,nothing,convert_unit,120,0,,banking,1
+banking_account_v01_02,price,n_currency_unknown,NEEDS_CONTEXT,A money amount with nothing to say which currency.,money,cad,usd,nothing,,120,0,,banking,1
+banking_account_v01_02,stipend,n_amount_period,NEEDS_CONTEXT,A pay figure that could be per month or per year.,pay,annual,monthly,nothing,scale_number,120,0,,banking,1
+banking_account_v01_02,returns,n_zero_missing_or_real,NEEDS_CONTEXT,Many zeros that could mean none or could mean not recorded.,count,zero_is_real,zero_is_missing,nothing,replace_missing_marker,120,0,,banking,1
+hotel_booking_v01_03,status_cd,r_code_with_description,READY,A code column with its description in the next column.,status_code,,,neighbours,,120,0,status_desc,hotel,1
+hotel_booking_v01_03,satisfaction_score,f_sentinel_number,FIXABLE,A score from 0 to 100 where an impossible number stands in for missing.,score_0_to_100,,,name and values,replace_missing_marker,120,18,,hotel,1
+hotel_booking_v01_03,recorded_at,n_timestamp_zone,NEEDS_CONTEXT,Date and time with no time zone.,timestamp,utc,local_utc_minus_6,nothing,parse_timestamp,120,120,,hotel,1
+hotel_booking_v01_03,src,g_constant,GARBAGE,Every row holds the same value.,unknown,,,values,,120,0,,hotel,1
+hotel_booking_v01_03,charge,n_amount_cents_or_dollars,NEEDS_CONTEXT,Whole numbers that could be dollars or cents.,money,dollars,cents,nothing,scale_number,120,0,,hotel,1
+hotel_booking_v01_03,item_count,r_count_named,READY,A whole-number count with a clear name.,count,,,name,,120,0,,hotel,1
+hotel_booking_v01_03,created_at,f_epoch_seconds,FIXABLE,Timestamps stored as seconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,hotel,1
+hotel_booking_v01_03,customer_name,f_mojibake,FIXABLE,Accented letters arrive garbled because the file was read in the wrong encoding.,person_name,,,values,repair_encoding,120,60,,hotel,1
+utilities_meter_v01_04,age,f_outlier_impossible,FIXABLE,A few ages that no person can have.,age_years,,,name and values,remove_impossible_values,120,4,,utilities,1
+utilities_meter_v01_04,margin,f_percent_sign,FIXABLE,Percentages stored as text with a percent sign.,percent_0_to_100,,,values,parse_number,120,120,,utilities,1
+utilities_meter_v01_04,hght,f_units_written,FIXABLE,"Heights written three ways, each stating its unit.",height_cm,,,values,convert_unit,120,120,,utilities,1
+utilities_meter_v01_04,referral_source,f_sentinel_text,FIXABLE,Words such as N/A and NULL stand in for missing.,category,,,values,replace_missing_marker,120,24,,utilities,1
+utilities_meter_v01_04,mtr_id,r_identifier,READY,A plain record identifier.,identifier,,,values,,120,0,,utilities,1
+utilities_meter_v01_04,invoice_date,f_date_slash_order,FIXABLE,"Slash dates where some row has a day above 12, which settles the order.",date,month_first,day_first,a row with a day above 12,parse_date,120,120,,utilities,1
+utilities_meter_v01_04,dow,n_weekday_number_alone,NEEDS_CONTEXT,A weekday number with no date beside it to show which day is 1.,weekday_name,monday_is_1,sunday_is_1,nothing,decode_values,120,120,,utilities,1
+utilities_meter_v01_04,comment,g_placeholder_text,GARBAGE,"Most rows hold filler such as test, asdf or TBD.",unknown,,,values,,120,0,,utilities,1
+retail_order_v01_05,typ,n_opaque_codes,NEEDS_CONTEXT,Short codes with no description anywhere in the table.,code,,,nothing,decode_values,120,0,,retail,1
+retail_order_v01_05,alt_cd,g_mostly_missing,GARBAGE,Nearly every row is blank.,unknown,,,values,,120,0,,retail,1
+retail_order_v01_05,ship_date,f_excel_serial_date,FIXABLE,Dates stored as spreadsheet day numbers.,date,,,name,parse_date,120,120,,retail,1
+retail_order_v01_05,completion_pct,r_percent_named,READY,A percentage from 0 to 100 with a clear name.,percent_0_to_100,,,name,,120,0,,retail,1
+retail_order_v01_05,event_ts,f_epoch_millis,FIXABLE,Timestamps stored as milliseconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,retail,1
+retail_order_v01_05,pay_type,f_category_variants,FIXABLE,One category spelled with different punctuation and capitals.,category,,,values,normalise_categories,120,36,,retail,1
+retail_order_v01_05,priority,n_flag_1_2,NEEDS_CONTEXT,A flag holding 1 and 2 with nothing to say which means yes.,yes_no_flag,1_is_yes,2_is_yes,nothing,decode_values,120,120,,retail,1
+retail_order_v01_05,site_type,f_category_typos,FIXABLE,A few values are one keystroke away from a common value.,category,,,values,normalise_categories,120,9,,retail,1
+clinic_visit_v01_06,contact,g_truncated,GARBAGE,"Text cut off at a fixed length, so the rest is lost.",email,,,values,,120,0,,clinic,1
+clinic_visit_v01_06,amount_paid,f_currency_symbol,FIXABLE,Money stored as text with a dollar sign and separators.,money_usd,,,values,parse_number,120,120,,clinic,1
+clinic_visit_v01_06,full_name,r_person_name,READY,"Names of people, cleanly written.",person_name,,,values,,120,0,,clinic,1
+clinic_visit_v01_06,betrag_eur,f_decimal_comma,FIXABLE,Numbers written with a comma for the decimal point and a full stop for thousands.,number,,,values,parse_number,120,120,,clinic,1
+clinic_visit_v01_06,contact_email,r_email,READY,Email addresses.,email,,,values,,120,0,,clinic,1
+clinic_visit_v01_06,qty,f_quantity_packs_with_total,FIXABLE,Quantity is counted in six-packs; the unit price and line total beside it show that.,quantity_units,,,neighbours,convert_unit,120,120,unit_price; line_total,clinic,1
+logistics_shipment_v02_00,end_dt,f_sentinel_date,FIXABLE,A far-future or far-past date stands in for no date.,date,,,values,replace_missing_marker,120,36,,logistics,2
+logistics_shipment_v02_00,qty,n_quantity_alone,NEEDS_CONTEXT,A quantity with nothing to say whether it counts units or packs.,quantity,units,packs_of_6,nothing,convert_unit,120,0,,logistics,2
+logistics_shipment_v02_00,btrg_er,f_decimal_comma,FIXABLE,Numbers written with a comma for the decimal point and a full stop for thousands.,number,,,values,parse_number,120,120,,logistics,2
+logistics_shipment_v02_00,price,f_currency_symbol,FIXABLE,Money stored as text with a dollar sign and separators.,money_usd,,,values,parse_number,120,120,,logistics,2
+logistics_shipment_v02_00,ship_date,f_excel_serial_date,FIXABLE,Dates stored as spreadsheet day numbers.,date,,,name,parse_date,120,120,,logistics,2
+logistics_shipment_v02_00,contact,g_truncated,GARBAGE,"Text cut off at a fixed length, so the rest is lost.",email,,,values,,120,0,,logistics,2
+logistics_shipment_v02_00,fld_12,n_cryptic_number,NEEDS_CONTEXT,Plausible numbers under a name that says nothing.,unknown_measure,,,nothing,,120,0,,logistics,2
+logistics_shipment_v02_00,type,r_category_words,READY,A category written as consistent words.,category,,,values,,120,0,,logistics,2
+banking_account_v02_01,age,f_outlier_impossible,FIXABLE,A few ages that no person can have.,age_years,,,name and values,remove_impossible_values,120,4,,banking,2
+banking_account_v02_01,visit_date,f_date_slash_order,FIXABLE,"Slash dates where some row has a day above 12, which settles the order.",date,day_first,month_first,a row with a day above 12,parse_date,120,120,,banking,2
+banking_account_v02_01,updated_at,f_epoch_millis,FIXABLE,Timestamps stored as milliseconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,banking,2
+banking_account_v02_01,dow,n_weekday_number_alone,NEEDS_CONTEXT,A weekday number with no date beside it to show which day is 1.,weekday_name,sunday_is_1,monday_is_1,nothing,decode_values,120,120,,banking,2
+banking_account_v02_01,fll_nm,r_person_name,READY,"Names of people, cleanly written.",person_name,,,values,,120,0,,banking,2
+banking_account_v02_01,height,f_units_mixed_separable,FIXABLE,"Heights in inches and centimetres mixed, with no unit shown, but the two ranges cannot overlap.",height_cm,,,name and values,convert_unit,120,48,,banking,2
+banking_account_v02_01,revenue_usd,f_number_text_separators,FIXABLE,Numbers stored as text with thousands separators.,number,,,values,parse_number,120,120,,banking,2
+banking_account_v02_01,quality_score,f_sentinel_number,FIXABLE,A score from 0 to 100 where an impossible number stands in for missing.,score_0_to_100,,,name and values,replace_missing_marker,120,18,,banking,2
+hotel_booking_v02_02,origin,n_state_or_country,NEEDS_CONTEXT,Two-letter codes that are valid both as US states and as countries.,place_code,country,us_state,nothing,decode_values,120,0,,hotel,2
+hotel_booking_v02_02,typ,n_opaque_codes,NEEDS_CONTEXT,Short codes with no description anywhere in the table.,code,,,nothing,decode_values,120,0,,hotel,2
+hotel_booking_v02_02,member,f_embedded_values,FIXABLE,Several facts packed into one cell in a regular pattern.,person_name_and_birth_date,,,values,split_values,120,120,,hotel,2
+hotel_booking_v02_02,total,g_wrong_values_mixed_in,GARBAGE,"A money column where many rows hold dates, names or codes instead.",money,,,values,,120,0,,hotel,2
+hotel_booking_v02_02,height,f_units_written,FIXABLE,"Heights written three ways, each stating its unit.",height_cm,,,values,convert_unit,120,120,,hotel,2
+hotel_booking_v02_02,postal_code,f_leading_zero_lost,FIXABLE,"Postal codes stored as numbers, so leading zeros are gone.",postal_code,,,name,keep_as_text,120,67,,hotel,2
+hotel_booking_v02_02,ticket_id,f_id_as_float,FIXABLE,Identifiers that picked up a decimal point on the way in.,identifier,,,name,keep_as_text,120,120,,hotel,2
+hotel_booking_v02_02,share,f_percent_sign,FIXABLE,Percentages stored as text with a percent sign.,percent_0_to_100,,,values,parse_number,120,120,,hotel,2
+utilities_meter_v02_03,meter_id,r_identifier,READY,A plain record identifier.,identifier,,,values,,120,0,,utilities,2
+utilities_meter_v02_03,notes_2,g_mostly_missing,GARBAGE,Nearly every row is blank.,unknown,,,values,,120,0,,utilities,2
+utilities_meter_v02_03,returns,n_zero_missing_or_real,NEEDS_CONTEXT,Many zeros that could mean none or could mean not recorded.,count,zero_is_real,zero_is_missing,nothing,replace_missing_marker,120,0,,utilities,2
+utilities_meter_v02_03,email,r_email,READY,Email addresses.,email,,,values,,120,0,,utilities,2
+utilities_meter_v02_03,start_date,f_date_mixed_formats,FIXABLE,"Dates are written several different ways in one column, each one unambiguous.",date,,,values,parse_date,120,94,,utilities,2
+utilities_meter_v02_03,consent,n_flag_1_2,NEEDS_CONTEXT,A flag holding 1 and 2 with nothing to say which means yes.,yes_no_flag,2_is_yes,1_is_yes,nothing,decode_values,120,120,,utilities,2
+utilities_meter_v02_03,rate,n_amount_period,NEEDS_CONTEXT,A pay figure that could be per month or per year.,pay,monthly,annual,nothing,scale_number,120,120,,utilities,2
+utilities_meter_v02_03,logged_at,f_epoch_seconds,FIXABLE,Timestamps stored as seconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,utilities,2
+retail_order_v02_04,payment_method,f_category_variants,FIXABLE,One category spelled with different punctuation and capitals.,category,,,values,normalise_categories,120,36,,retail,2
+retail_order_v02_04,opted_in,f_boolean_variants,FIXABLE,Yes and no written many ways.,yes_no_flag,,,values,normalise_categories,120,120,,retail,2
+retail_order_v02_04,parcel_weight,n_unit_unknown,NEEDS_CONTEXT,A weight that could be pounds or kilograms.,weight,pounds,kilograms,nothing,convert_unit,120,120,,retail,2
+retail_order_v02_04,weekday,r_weekday_name,READY,Days of the week written out.,weekday_name,,,values,,120,0,,retail,2
+retail_order_v02_04,visit_count,r_count_named,READY,A whole-number count with a clear name.,count,,,name,,120,0,,retail,2
+retail_order_v02_04,ver,g_constant,GARBAGE,Every row holds the same value.,unknown,,,values,,120,0,,retail,2
+retail_order_v02_04,visit_dow,f_weekday_number_with_date,FIXABLE,A weekday number whose convention can be worked out from the date beside it.,weekday_name,sunday_is_1,monday_is_1,neighbours,decode_values,120,120,visit_date,retail,2
+retail_order_v02_04,amount,n_currency_unknown,NEEDS_CONTEXT,A money amount with nothing to say which currency.,money,usd,cad,nothing,,120,0,,retail,2
+clinic_visit_v02_05,rfrrl_src,f_sentinel_text,FIXABLE,Words such as N/A and NULL stand in for missing.,category,,,values,replace_missing_marker,120,24,,clinic,2
+clinic_visit_v02_05,st_typ,f_category_typos,FIXABLE,A few values are one keystroke away from a common value.,category,,,values,normalise_categories,120,8,,clinic,2
+clinic_visit_v02_05,qty,f_quantity_packs_with_total,FIXABLE,Quantity is counted in six-packs; the unit price and line total beside it show that.,quantity_units,,,neighbours,convert_unit,120,120,unit_price; line_total,clinic,2
+clinic_visit_v02_05,total_usd,r_amount_named,READY,A money amount whose name states the currency.,money_usd,,,name,,120,0,,clinic,2
+clinic_visit_v02_05,category,f_whitespace_case,FIXABLE,The same value appears with stray spaces and mixed capitals.,category,,,values,normalise_categories,120,48,,clinic,2
+clinic_visit_v02_05,cstmr_nm,f_mojibake,FIXABLE,Accented letters arrive garbled because the file was read in the wrong encoding.,person_name,,,values,repair_encoding,120,60,,clinic,2
+clinic_visit_v02_05,description,g_placeholder_text,GARBAGE,"Most rows hold filler such as test, asdf or TBD.",unknown,,,values,,120,0,,clinic,2
+clinic_visit_v02_05,posted_date,n_date_slash_unresolvable,NEEDS_CONTEXT,Slash dates where every day and month is 12 or below.,date,day_first,month_first,nothing,parse_date,120,120,,clinic,2
+logistics_shipment_v02_06,amount,n_amount_cents_or_dollars,NEEDS_CONTEXT,Whole numbers that could be dollars or cents.,money,cents,dollars,nothing,scale_number,120,120,,logistics,2
+logistics_shipment_v02_06,service_date,r_date_iso,READY,Dates in year-month-day order.,date,,,values,,120,0,,logistics,2
+logistics_shipment_v02_06,checked_in,n_timestamp_zone,NEEDS_CONTEXT,Date and time with no time zone.,timestamp,local_utc_minus_6,utc,nothing,parse_timestamp,120,120,,logistics,2
+logistics_shipment_v02_06,discount_pct,r_percent_named,READY,A percentage from 0 to 100 with a clear name.,percent_0_to_100,,,name,,120,0,,logistics,2
+logistics_shipment_v02_06,status_cd,r_code_with_description,READY,A code column with its description in the next column.,status_code,,,neighbours,,120,0,status_desc,logistics,2
+logistics_shipment_v02_06,tmp1,g_random_noise,GARBAGE,Random strings under a name that says nothing.,unknown,,,values,,120,0,,logistics,2
+banking_account_v03_00,end_date,f_sentinel_date,FIXABLE,A far-future or far-past date stands in for no date.,date,,,values,replace_missing_marker,120,36,,banking,3
+banking_account_v03_00,reason,f_sentinel_text,FIXABLE,Words such as N/A and NULL stand in for missing.,category,,,values,replace_missing_marker,120,24,,banking,3
+banking_account_v03_00,full_name,r_person_name,READY,"Names of people, cleanly written.",person_name,,,values,,120,0,,banking,3
+banking_account_v03_00,parcel_weight,n_unit_unknown,NEEDS_CONTEXT,A weight that could be pounds or kilograms.,weight,kilograms,pounds,nothing,convert_unit,120,0,,banking,3
+banking_account_v03_00,dy,r_weekday_name,READY,Days of the week written out.,weekday_name,,,values,,120,0,,banking,3
+banking_account_v03_00,charge,n_amount_cents_or_dollars,NEEDS_CONTEXT,Whole numbers that could be dollars or cents.,money,cents,dollars,nothing,scale_number,120,120,,banking,3
+banking_account_v03_00,x7,n_cryptic_number,NEEDS_CONTEXT,Plausible numbers under a name that says nothing.,unknown_measure,,,nothing,,120,0,,banking,3
+banking_account_v03_00,price,f_currency_symbol,FIXABLE,Money stored as text with a dollar sign and separators.,money_usd,,,values,parse_number,120,120,,banking,3
+hotel_booking_v03_01,rcvd_dt,f_date_mixed_formats,FIXABLE,"Dates are written several different ways in one column, each one unambiguous.",date,,,values,parse_date,120,90,,hotel,3
+hotel_booking_v03_01,height,f_units_written,FIXABLE,"Heights written three ways, each stating its unit.",height_cm,,,values,convert_unit,120,120,,hotel,3
+hotel_booking_v03_01,fill_pct,r_percent_named,READY,A percentage from 0 to 100 with a clear name.,percent_0_to_100,,,name,,120,0,,hotel,3
+hotel_booking_v03_01,btch_flg,g_constant,GARBAGE,Every row holds the same value.,unknown,,,values,,120,0,,hotel,3
+hotel_booking_v03_01,loc,n_state_or_country,NEEDS_CONTEXT,Two-letter codes that are valid both as US states and as countries.,place_code,country,us_state,nothing,decode_values,120,0,,hotel,3
+hotel_booking_v03_01,contact,g_truncated,GARBAGE,"Text cut off at a fixed length, so the rest is lost.",email,,,values,,120,0,,hotel,3
+hotel_booking_v03_01,chnnl,r_category_words,READY,A category written as consistent words.,category,,,values,,120,0,,hotel,3
+hotel_booking_v03_01,cstmr_nm,f_mojibake,FIXABLE,Accented letters arrive garbled because the file was read in the wrong encoding.,person_name,,,values,repair_encoding,120,60,,hotel,3
+utilities_meter_v03_02,amount,n_currency_unknown,NEEDS_CONTEXT,A money amount with nothing to say which currency.,money,cad,usd,nothing,,120,0,,utilities,3
+utilities_meter_v03_02,event_ts,f_epoch_millis,FIXABLE,Timestamps stored as milliseconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,utilities,3
+utilities_meter_v03_02,betrag_eur,f_decimal_comma,FIXABLE,Numbers written with a comma for the decimal point and a full stop for thousands.,number,,,values,parse_number,120,120,,utilities,3
+utilities_meter_v03_02,weekday_no,n_weekday_number_alone,NEEDS_CONTEXT,A weekday number with no date beside it to show which day is 1.,weekday_name,sunday_is_1,monday_is_1,nothing,decode_values,120,120,,utilities,3
+utilities_meter_v03_02,contact_email,r_email,READY,Email addresses.,email,,,values,,120,0,,utilities,3
+utilities_meter_v03_02,created_date,r_date_iso,READY,Dates in year-month-day order.,date,,,values,,120,0,,utilities,3
+utilities_meter_v03_02,is_active,f_boolean_variants,FIXABLE,Yes and no written many ways.,yes_no_flag,,,values,normalise_categories,120,120,,utilities,3
+utilities_meter_v03_02,height,f_units_mixed_separable,FIXABLE,"Heights in inches and centimetres mixed, with no unit shown, but the two ranges cannot overlap.",height_cm,,,name and values,convert_unit,120,48,,utilities,3
+retail_order_v03_03,postal_code,f_leading_zero_lost,FIXABLE,"Postal codes stored as numbers, so leading zeros are gone.",postal_code,,,name,keep_as_text,120,67,,retail,3
+retail_order_v03_03,total,g_wrong_values_mixed_in,GARBAGE,"A money column where many rows hold dates, names or codes instead.",money,,,values,,120,0,,retail,3
+retail_order_v03_03,nts_2,g_mostly_missing,GARBAGE,Nearly every row is blank.,unknown,,,values,,120,0,,retail,3
+retail_order_v03_03,grp_nm,f_whitespace_case,FIXABLE,The same value appears with stray spaces and mixed capitals.,category,,,values,normalise_categories,120,48,,retail,3
+retail_order_v03_03,member,f_embedded_values,FIXABLE,Several facts packed into one cell in a regular pattern.,person_name_and_birth_date,,,values,split_values,120,120,,retail,3
+retail_order_v03_03,tmp1,g_random_noise,GARBAGE,Random strings under a name that says nothing.,unknown,,,values,,120,0,,retail,3
+retail_order_v03_03,created_at,f_epoch_seconds,FIXABLE,Timestamps stored as seconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,retail,3
+retail_order_v03_03,posted_date,n_date_slash_unresolvable,NEEDS_CONTEXT,Slash dates where every day and month is 12 or below.,date,month_first,day_first,nothing,parse_date,120,120,,retail,3
+clinic_visit_v03_04,visit_count,r_count_named,READY,A whole-number count with a clear name.,count,,,name,,120,0,,clinic,3
+clinic_visit_v03_04,qty,f_quantity_packs_with_total,FIXABLE,Quantity is counted in six-packs; the unit price and line total beside it show that.,quantity_units,,,neighbours,convert_unit,120,120,unit_price; line_total,clinic,3
+clinic_visit_v03_04,account_id,f_id_as_float,FIXABLE,Identifiers that picked up a decimal point on the way in.,identifier,,,name,keep_as_text,120,120,,clinic,3
+clinic_visit_v03_04,site_type,f_category_typos,FIXABLE,A few values are one keystroke away from a common value.,category,,,values,normalise_categories,120,9,,clinic,3
+clinic_visit_v03_04,share,f_percent_sign,FIXABLE,Percentages stored as text with a percent sign.,percent_0_to_100,,,values,parse_number,120,120,,clinic,3
+clinic_visit_v03_04,vst_dt,f_date_slash_order,FIXABLE,"Slash dates where some row has a day above 12, which settles the order.",date,month_first,day_first,a row with a day above 12,parse_date,120,120,,clinic,3
+clinic_visit_v03_04,cls,n_opaque_codes,NEEDS_CONTEXT,Short codes with no description anywhere in the table.,code,,,nothing,decode_values,120,0,,clinic,3
+clinic_visit_v03_04,status_cd,r_code_with_description,READY,A code column with its description in the next column.,status_code,,,neighbours,,120,0,status_desc,clinic,3
+logistics_shipment_v03_05,shipment_id,r_identifier,READY,A plain record identifier.,identifier,,,values,,120,0,,logistics,3
+logistics_shipment_v03_05,pymnt_mthd,f_category_variants,FIXABLE,One category spelled with different punctuation and capitals.,category,,,values,normalise_categories,120,36,,logistics,3
+logistics_shipment_v03_05,consent,n_flag_1_2,NEEDS_CONTEXT,A flag holding 1 and 2 with nothing to say which means yes.,yes_no_flag,2_is_yes,1_is_yes,nothing,decode_values,120,120,,logistics,3
+logistics_shipment_v03_05,checked_in,n_timestamp_zone,NEEDS_CONTEXT,Date and time with no time zone.,timestamp,utc,local_utc_minus_6,nothing,parse_timestamp,120,120,,logistics,3
+logistics_shipment_v03_05,ship_date,f_excel_serial_date,FIXABLE,Dates stored as spreadsheet day numbers.,date,,,name,parse_date,120,120,,logistics,3
+logistics_shipment_v03_05,rvn_usd,f_number_text_separators,FIXABLE,Numbers stored as text with thousands separators.,number,,,values,parse_number,120,120,,logistics,3
+logistics_shipment_v03_05,description,g_placeholder_text,GARBAGE,"Most rows hold filler such as test, asdf or TBD.",unknown,,,values,,120,0,,logistics,3
+logistics_shipment_v03_05,quality_score,f_sentinel_number,FIXABLE,A score from 0 to 100 where an impossible number stands in for missing.,score_0_to_100,,,name and values,replace_missing_marker,120,18,,logistics,3
+banking_account_v03_06,visit_dow,f_weekday_number_with_date,FIXABLE,A weekday number whose convention can be worked out from the date beside it.,weekday_name,monday_is_1,sunday_is_1,neighbours,decode_values,120,120,visit_date,banking,3
+banking_account_v03_06,age,f_outlier_impossible,FIXABLE,A few ages that no person can have.,age_years,,,name and values,remove_impossible_values,120,4,,banking,3
+banking_account_v03_06,complaints,n_zero_missing_or_real,NEEDS_CONTEXT,Many zeros that could mean none or could mean not recorded.,count,zero_is_missing,zero_is_real,nothing,replace_missing_marker,120,43,,banking,3
+banking_account_v03_06,total_usd,r_amount_named,READY,A money amount whose name states the currency.,money_usd,,,name,,120,0,,banking,3
+banking_account_v03_06,qty,n_quantity_alone,NEEDS_CONTEXT,A quantity with nothing to say whether it counts units or packs.,quantity,packs_of_6,units,nothing,convert_unit,120,120,,banking,3
+banking_account_v03_06,rate,n_amount_period,NEEDS_CONTEXT,A pay figure that could be per month or per year.,pay,monthly,annual,nothing,scale_number,120,120,,banking,3
+hotel_booking_v04_00,line_count,r_count_named,READY,A whole-number count with a clear name.,count,,,name,,120,0,,hotel,4
+hotel_booking_v04_00,contact,g_truncated,GARBAGE,"Text cut off at a fixed length, so the rest is lost.",email,,,values,,120,0,,hotel,4
+hotel_booking_v04_00,complaints,n_zero_missing_or_real,NEEDS_CONTEXT,Many zeros that could mean none or could mean not recorded.,count,zero_is_missing,zero_is_real,nothing,replace_missing_marker,120,43,,hotel,4
+hotel_booking_v04_00,contact_email,r_email,READY,Email addresses.,email,,,values,,120,0,,hotel,4
+hotel_booking_v04_00,ctgry,r_category_words,READY,A category written as consistent words.,category,,,values,,120,0,,hotel,4
+hotel_booking_v04_00,referral_source,f_sentinel_text,FIXABLE,Words such as N/A and NULL stand in for missing.,category,,,values,replace_missing_marker,120,24,,hotel,4
+hotel_booking_v04_00,qty,f_quantity_packs_with_total,FIXABLE,Quantity is counted in six-packs; the unit price and line total beside it show that.,quantity_units,,,neighbours,convert_unit,120,120,unit_price; line_total,hotel,4
+hotel_booking_v04_00,strt_dt,f_date_mixed_formats,FIXABLE,"Dates are written several different ways in one column, each one unambiguous.",date,,,values,parse_date,120,92,,hotel,4
+utilities_meter_v04_01,quantity,n_quantity_alone,NEEDS_CONTEXT,A quantity with nothing to say whether it counts units or packs.,quantity,units,packs_of_6,nothing,convert_unit,120,0,,utilities,4
+utilities_meter_v04_01,amount_paid,f_currency_symbol,FIXABLE,Money stored as text with a dollar sign and separators.,money_usd,,,values,parse_number,120,120,,utilities,4
+utilities_meter_v04_01,height,f_units_written,FIXABLE,"Heights written three ways, each stating its unit.",height_cm,,,values,convert_unit,120,120,,utilities,4
+utilities_meter_v04_01,vst_dt,f_date_slash_order,FIXABLE,"Slash dates where some row has a day above 12, which settles the order.",date,day_first,month_first,a row with a day above 12,parse_date,120,120,,utilities,4
+utilities_meter_v04_01,full_name,r_person_name,READY,"Names of people, cleanly written.",person_name,,,values,,120,0,,utilities,4
+utilities_meter_v04_01,checked_in,n_timestamp_zone,NEEDS_CONTEXT,Date and time with no time zone.,timestamp,local_utc_minus_6,utc,nothing,parse_timestamp,120,120,,utilities,4
+utilities_meter_v04_01,balance_usd,f_number_text_separators,FIXABLE,Numbers stored as text with thousands separators.,number,,,values,parse_number,120,120,,utilities,4
+utilities_meter_v04_01,legacy_flag,g_mostly_missing,GARBAGE,Nearly every row is blank.,unknown,,,values,,120,0,,utilities,4
+retail_order_v04_02,category,f_whitespace_case,FIXABLE,The same value appears with stray spaces and mixed capitals.,category,,,values,normalise_categories,120,48,,retail,4
+retail_order_v04_02,quality_score,f_sentinel_number,FIXABLE,A score from 0 to 100 where an impossible number stands in for missing.,score_0_to_100,,,name and values,replace_missing_marker,120,18,,retail,4
+retail_order_v04_02,order_date,f_excel_serial_date,FIXABLE,Dates stored as spreadsheet day numbers.,date,,,name,parse_date,120,120,,retail,4
+retail_order_v04_02,comment,g_placeholder_text,GARBAGE,"Most rows hold filler such as test, asdf or TBD.",unknown,,,values,,120,0,,retail,4
+retail_order_v04_02,renewal,n_flag_1_2,NEEDS_CONTEXT,A flag holding 1 and 2 with nothing to say which means yes.,yes_no_flag,2_is_yes,1_is_yes,nothing,decode_values,120,120,,retail,4
+retail_order_v04_02,montant_eur,f_decimal_comma,FIXABLE,Numbers written with a comma for the decimal point and a full stop for thousands.,number,,,values,parse_number,120,120,,retail,4
+retail_order_v04_02,zz,g_random_noise,GARBAGE,Random strings under a name that says nothing.,unknown,,,values,,120,0,,retail,4
+retail_order_v04_02,pay_type,f_category_variants,FIXABLE,One category spelled with different punctuation and capitals.,category,,,values,normalise_categories,120,36,,retail,4
+clinic_visit_v04_03,pay,n_amount_period,NEEDS_CONTEXT,A pay figure that could be per month or per year.,pay,monthly,annual,nothing,scale_number,120,120,,clinic,4
+clinic_visit_v04_03,mrgn,f_percent_sign,FIXABLE,Percentages stored as text with a percent sign.,percent_0_to_100,,,values,parse_number,120,120,,clinic,4
+clinic_visit_v04_03,height,f_units_mixed_separable,FIXABLE,"Heights in inches and centimetres mixed, with no unit shown, but the two ranges cannot overlap.",height_cm,,,name and values,convert_unit,120,48,,clinic,4
+clinic_visit_v04_03,amount_usd,r_amount_named,READY,A money amount whose name states the currency.,money_usd,,,name,,120,0,,clinic,4
+clinic_visit_v04_03,fee,n_amount_cents_or_dollars,NEEDS_CONTEXT,Whole numbers that could be dollars or cents.,money,cents,dollars,nothing,scale_number,120,120,,clinic,4
+clinic_visit_v04_03,created_at,f_epoch_seconds,FIXABLE,Timestamps stored as seconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,clinic,4
+clinic_visit_v04_03,typ,n_opaque_codes,NEEDS_CONTEXT,Short codes with no description anywhere in the table.,code,,,nothing,decode_values,120,0,,clinic,4
+clinic_visit_v04_03,customer_name,f_mojibake,FIXABLE,Accented letters arrive garbled because the file was read in the wrong encoding.,person_name,,,values,repair_encoding,120,60,,clinic,4
+logistics_shipment_v04_04,visit_dow,f_weekday_number_with_date,FIXABLE,A weekday number whose convention can be worked out from the date beside it.,weekday_name,sunday_is_1,monday_is_1,neighbours,decode_values,120,120,visit_date,logistics,4
+logistics_shipment_v04_04,closed_date,f_sentinel_date,FIXABLE,A far-future or far-past date stands in for no date.,date,,,values,replace_missing_marker,120,36,,logistics,4
+logistics_shipment_v04_04,batch_flag,g_constant,GARBAGE,Every row holds the same value.,unknown,,,values,,120,0,,logistics,4
+logistics_shipment_v04_04,posted_date,n_date_slash_unresolvable,NEEDS_CONTEXT,Slash dates where every day and month is 12 or below.,date,day_first,month_first,nothing,parse_date,120,120,,logistics,4
+logistics_shipment_v04_04,price,n_currency_unknown,NEEDS_CONTEXT,A money amount with nothing to say which currency.,money,usd,cad,nothing,,120,0,,logistics,4
+logistics_shipment_v04_04,parcel_weight,n_unit_unknown,NEEDS_CONTEXT,A weight that could be pounds or kilograms.,weight,pounds,kilograms,nothing,convert_unit,120,120,,logistics,4
+logistics_shipment_v04_04,shpmnt_id,r_identifier,READY,A plain record identifier.,identifier,,,values,,120,0,,logistics,4
+logistics_shipment_v04_04,status_cd,r_code_with_description,READY,A code column with its description in the next column.,status_code,,,neighbours,,120,0,status_desc,logistics,4
+banking_account_v04_05,v3,n_cryptic_number,NEEDS_CONTEXT,Plausible numbers under a name that says nothing.,unknown_measure,,,nothing,,120,0,,banking,4
+banking_account_v04_05,event_ts,f_epoch_millis,FIXABLE,Timestamps stored as milliseconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,banking,4
+banking_account_v04_05,member,f_embedded_values,FIXABLE,Several facts packed into one cell in a regular pattern.,person_name_and_birth_date,,,values,split_values,120,120,,banking,4
+banking_account_v04_05,created_date,r_date_iso,READY,Dates in year-month-day order.,date,,,values,,120,0,,banking,4
+banking_account_v04_05,account_id,f_id_as_float,FIXABLE,Identifiers that picked up a decimal point on the way in.,identifier,,,name,keep_as_text,120,120,,banking,4
+banking_account_v04_05,zip,f_leading_zero_lost,FIXABLE,"Postal codes stored as numbers, so leading zeros are gone.",postal_code,,,name,keep_as_text,120,55,,banking,4
+banking_account_v04_05,dow,n_weekday_number_alone,NEEDS_CONTEXT,A weekday number with no date beside it to show which day is 1.,weekday_name,sunday_is_1,monday_is_1,nothing,decode_values,120,120,,banking,4
+banking_account_v04_05,is_active,f_boolean_variants,FIXABLE,Yes and no written many ways.,yes_no_flag,,,values,normalise_categories,120,120,,banking,4
+hotel_booking_v04_06,age,f_outlier_impossible,FIXABLE,A few ages that no person can have.,age_years,,,name and values,remove_impossible_values,120,4,,hotel,4
+hotel_booking_v04_06,site_type,f_category_typos,FIXABLE,A few values are one keystroke away from a common value.,category,,,values,normalise_categories,120,9,,hotel,4
+hotel_booking_v04_06,total,g_wrong_values_mixed_in,GARBAGE,"A money column where many rows hold dates, names or codes instead.",money,,,values,,120,0,,hotel,4
+hotel_booking_v04_06,loc,n_state_or_country,NEEDS_CONTEXT,Two-letter codes that are valid both as US states and as countries.,place_code,us_state,country,nothing,decode_values,120,0,,hotel,4
+hotel_booking_v04_06,day,r_weekday_name,READY,Days of the week written out.,weekday_name,,,values,,120,0,,hotel,4
+hotel_booking_v04_06,completion_pct,r_percent_named,READY,A percentage from 0 to 100 with a clear name.,percent_0_to_100,,,name,,120,0,,hotel,4
+utilities_meter_v05_00,total,g_wrong_values_mixed_in,GARBAGE,"A money column where many rows hold dates, names or codes instead.",money,,,values,,120,0,,utilities,5
+utilities_meter_v05_00,posted_date,n_date_slash_unresolvable,NEEDS_CONTEXT,Slash dates where every day and month is 12 or below.,date,day_first,month_first,nothing,parse_date,120,120,,utilities,5
+utilities_meter_v05_00,amount_paid,f_currency_symbol,FIXABLE,Money stored as text with a dollar sign and separators.,money_usd,,,values,parse_number,120,120,,utilities,5
+utilities_meter_v05_00,balance_usd,f_number_text_separators,FIXABLE,Numbers stored as text with thousands separators.,number,,,values,parse_number,120,120,,utilities,5
+utilities_meter_v05_00,opted_in,f_boolean_variants,FIXABLE,Yes and no written many ways.,yes_no_flag,,,values,normalise_categories,120,120,,utilities,5
+utilities_meter_v05_00,notes_2,g_mostly_missing,GARBAGE,Nearly every row is blank.,unknown,,,values,,120,0,,utilities,5
+utilities_meter_v05_00,evnt_ts,f_epoch_millis,FIXABLE,Timestamps stored as milliseconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,utilities,5
+utilities_meter_v05_00,quality_score,f_sentinel_number,FIXABLE,A score from 0 to 100 where an impossible number stands in for missing.,score_0_to_100,,,name and values,replace_missing_marker,120,18,,utilities,5
+retail_order_v05_01,channel,r_category_words,READY,A category written as consistent words.,category,,,values,,120,0,,retail,5
+retail_order_v05_01,fee,n_amount_cents_or_dollars,NEEDS_CONTEXT,Whole numbers that could be dollars or cents.,money,cents,dollars,nothing,scale_number,120,120,,retail,5
+retail_order_v05_01,renewal,n_flag_1_2,NEEDS_CONTEXT,A flag holding 1 and 2 with nothing to say which means yes.,yes_no_flag,1_is_yes,2_is_yes,nothing,decode_values,120,120,,retail,5
+retail_order_v05_01,start_date,f_date_mixed_formats,FIXABLE,"Dates are written several different ways in one column, each one unambiguous.",date,,,values,parse_date,120,101,,retail,5
+retail_order_v05_01,email,r_email,READY,Email addresses.,email,,,values,,120,0,,retail,5
+retail_order_v05_01,charge_usd,r_amount_named,READY,A money amount whose name states the currency.,money_usd,,,name,,120,0,,retail,5
+retail_order_v05_01,visit_dow,f_weekday_number_with_date,FIXABLE,A weekday number whose convention can be worked out from the date beside it.,weekday_name,sunday_is_1,monday_is_1,neighbours,decode_values,120,120,visit_date,retail,5
+retail_order_v05_01,order_id,r_identifier,READY,A plain record identifier.,identifier,,,values,,120,0,,retail,5
+clinic_visit_v05_02,height,f_units_mixed_separable,FIXABLE,"Heights in inches and centimetres mixed, with no unit shown, but the two ranges cannot overlap.",height_cm,,,name and values,convert_unit,120,48,,clinic,5
+clinic_visit_v05_02,rsn_cd,n_opaque_codes,NEEDS_CONTEXT,Short codes with no description anywhere in the table.,code,,,nothing,decode_values,120,0,,clinic,5
+clinic_visit_v05_02,lggd_at,f_epoch_seconds,FIXABLE,Timestamps stored as seconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,clinic,5
+clinic_visit_v05_02,stipend,n_amount_period,NEEDS_CONTEXT,A pay figure that could be per month or per year.,pay,monthly,annual,nothing,scale_number,120,120,,clinic,5
+clinic_visit_v05_02,site_type,f_category_typos,FIXABLE,A few values are one keystroke away from a common value.,category,,,values,normalise_categories,120,9,,clinic,5
+clinic_visit_v05_02,order_date,f_excel_serial_date,FIXABLE,Dates stored as spreadsheet day numbers.,date,,,name,parse_date,120,120,,clinic,5
+clinic_visit_v05_02,dow,r_weekday_name,READY,Days of the week written out.,weekday_name,,,values,,120,0,,clinic,5
+clinic_visit_v05_02,qty,f_quantity_packs_with_total,FIXABLE,Quantity is counted in six-packs; the unit price and line total beside it show that.,quantity_units,,,neighbours,convert_unit,120,120,unit_price; line_total,clinic,5
+logistics_shipment_v05_03,weight,n_unit_unknown,NEEDS_CONTEXT,A weight that could be pounds or kilograms.,weight,pounds,kilograms,nothing,convert_unit,120,120,,logistics,5
+logistics_shipment_v05_03,handled_by,r_person_name,READY,"Names of people, cleanly written.",person_name,,,values,,120,0,,logistics,5
+logistics_shipment_v05_03,contact,g_truncated,GARBAGE,"Text cut off at a fixed length, so the rest is lost.",email,,,values,,120,0,,logistics,5
+logistics_shipment_v05_03,person,f_embedded_values,FIXABLE,Several facts packed into one cell in a regular pattern.,person_name_and_birth_date,,,values,split_values,120,120,,logistics,5
+logistics_shipment_v05_03,comment,g_placeholder_text,GARBAGE,"Most rows hold filler such as test, asdf or TBD.",unknown,,,values,,120,0,,logistics,5
+logistics_shipment_v05_03,segment,f_whitespace_case,FIXABLE,The same value appears with stray spaces and mixed capitals.,category,,,values,normalise_categories,120,48,,logistics,5
+logistics_shipment_v05_03,reason,f_sentinel_text,FIXABLE,Words such as N/A and NULL stand in for missing.,category,,,values,replace_missing_marker,120,24,,logistics,5
+logistics_shipment_v05_03,created_date,r_date_iso,READY,Dates in year-month-day order.,date,,,values,,120,0,,logistics,5
+banking_account_v05_04,visit_count,r_count_named,READY,A whole-number count with a clear name.,count,,,name,,120,0,,banking,5
+banking_account_v05_04,clsd_dt,f_sentinel_date,FIXABLE,A far-future or far-past date stands in for no date.,date,,,values,replace_missing_marker,120,36,,banking,5
+banking_account_v05_04,pay_type,f_category_variants,FIXABLE,One category spelled with different punctuation and capitals.,category,,,values,normalise_categories,120,36,,banking,5
+banking_account_v05_04,weekday_no,n_weekday_number_alone,NEEDS_CONTEXT,A weekday number with no date beside it to show which day is 1.,weekday_name,sunday_is_1,monday_is_1,nothing,decode_values,120,120,,banking,5
+banking_account_v05_04,age,f_outlier_impossible,FIXABLE,A few ages that no person can have.,age_years,,,name and values,remove_impossible_values,120,4,,banking,5
+banking_account_v05_04,zz,g_random_noise,GARBAGE,Random strings under a name that says nothing.,unknown,,,values,,120,0,,banking,5
+banking_account_v05_04,montant_eur,f_decimal_comma,FIXABLE,Numbers written with a comma for the decimal point and a full stop for thousands.,number,,,values,parse_number,120,120,,banking,5
+banking_account_v05_04,batch_flag,g_constant,GARBAGE,Every row holds the same value.,unknown,,,values,,120,0,,banking,5
+hotel_booking_v05_05,customer_name,f_mojibake,FIXABLE,Accented letters arrive garbled because the file was read in the wrong encoding.,person_name,,,values,repair_encoding,120,60,,hotel,5
+hotel_booking_v05_05,status_cd,r_code_with_description,READY,A code column with its description in the next column.,status_code,,,neighbours,,120,0,status_desc,hotel,5
+hotel_booking_v05_05,height,f_units_written,FIXABLE,"Heights written three ways, each stating its unit.",height_cm,,,values,convert_unit,120,120,,hotel,5
+hotel_booking_v05_05,checked_in,n_timestamp_zone,NEEDS_CONTEXT,Date and time with no time zone.,timestamp,utc,local_utc_minus_6,nothing,parse_timestamp,120,120,,hotel,5
+hotel_booking_v05_05,mrgn,f_percent_sign,FIXABLE,Percentages stored as text with a percent sign.,percent_0_to_100,,,values,parse_number,120,120,,hotel,5
+hotel_booking_v05_05,quantity,n_quantity_alone,NEEDS_CONTEXT,A quantity with nothing to say whether it counts units or packs.,quantity,units,packs_of_6,nothing,convert_unit,120,0,,hotel,5
+hotel_booking_v05_05,region,n_state_or_country,NEEDS_CONTEXT,Two-letter codes that are valid both as US states and as countries.,place_code,us_state,country,nothing,decode_values,120,0,,hotel,5
+hotel_booking_v05_05,ticket_id,f_id_as_float,FIXABLE,Identifiers that picked up a decimal point on the way in.,identifier,,,name,keep_as_text,120,120,,hotel,5
+utilities_meter_v05_06,fill_pct,r_percent_named,READY,A percentage from 0 to 100 with a clear name.,percent_0_to_100,,,name,,120,0,,utilities,5
+utilities_meter_v05_06,price,n_currency_unknown,NEEDS_CONTEXT,A money amount with nothing to say which currency.,money,usd,cad,nothing,,120,0,,utilities,5
+utilities_meter_v05_06,complaints,n_zero_missing_or_real,NEEDS_CONTEXT,Many zeros that could mean none or could mean not recorded.,count,zero_is_real,zero_is_missing,nothing,replace_missing_marker,120,0,,utilities,5
+utilities_meter_v05_06,invoice_date,f_date_slash_order,FIXABLE,"Slash dates where some row has a day above 12, which settles the order.",date,month_first,day_first,a row with a day above 12,parse_date,120,120,,utilities,5
+utilities_meter_v05_06,v3,n_cryptic_number,NEEDS_CONTEXT,Plausible numbers under a name that says nothing.,unknown_measure,,,nothing,,120,0,,utilities,5
+utilities_meter_v05_06,zip,f_leading_zero_lost,FIXABLE,"Postal codes stored as numbers, so leading zeros are gone.",postal_code,,,name,keep_as_text,120,55,,utilities,5
+retail_order_v06_00,age,f_outlier_impossible,FIXABLE,A few ages that no person can have.,age_years,,,name and values,remove_impossible_values,120,4,,retail,6
+retail_order_v06_00,amount_paid,f_currency_symbol,FIXABLE,Money stored as text with a dollar sign and separators.,money_usd,,,values,parse_number,120,120,,retail,6
+retail_order_v06_00,contact_email,r_email,READY,Email addresses.,email,,,values,,120,0,,retail,6
+retail_order_v06_00,weekday_no,n_weekday_number_alone,NEEDS_CONTEXT,A weekday number with no date beside it to show which day is 1.,weekday_name,sunday_is_1,monday_is_1,nothing,decode_values,120,120,,retail,6
+retail_order_v06_00,height,f_units_written,FIXABLE,"Heights written three ways, each stating its unit.",height_cm,,,values,convert_unit,120,120,,retail,6
+retail_order_v06_00,posted_date,n_date_slash_unresolvable,NEEDS_CONTEXT,Slash dates where every day and month is 12 or below.,date,month_first,day_first,nothing,parse_date,120,120,,retail,6
+retail_order_v06_00,is_active,f_boolean_variants,FIXABLE,Yes and no written many ways.,yes_no_flag,,,values,normalise_categories,120,120,,retail,6
+retail_order_v06_00,lggd_at,f_epoch_seconds,FIXABLE,Timestamps stored as seconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,retail,6
+clinic_visit_v06_01,email,g_truncated,GARBAGE,"Text cut off at a fixed length, so the rest is lost.",email,,,values,,120,0,,clinic,6
+clinic_visit_v06_01,cstmr_nm,f_mojibake,FIXABLE,Accented letters arrive garbled because the file was read in the wrong encoding.,person_name,,,values,repair_encoding,120,60,,clinic,6
+clinic_visit_v06_01,day,r_weekday_name,READY,Days of the week written out.,weekday_name,,,values,,120,0,,clinic,6
+clinic_visit_v06_01,vst_id,r_identifier,READY,A plain record identifier.,identifier,,,values,,120,0,,clinic,6
+clinic_visit_v06_01,total_usd,r_amount_named,READY,A money amount whose name states the currency.,money_usd,,,name,,120,0,,clinic,6
+clinic_visit_v06_01,priority,n_flag_1_2,NEEDS_CONTEXT,A flag holding 1 and 2 with nothing to say which means yes.,yes_no_flag,1_is_yes,2_is_yes,nothing,decode_values,120,120,,clinic,6
+clinic_visit_v06_01,opened_on,r_date_iso,READY,Dates in year-month-day order.,date,,,values,,120,0,,clinic,6
+clinic_visit_v06_01,detail,g_placeholder_text,GARBAGE,"Most rows hold filler such as test, asdf or TBD.",unknown,,,values,,120,0,,clinic,6
+logistics_shipment_v06_02,alt_cd,g_mostly_missing,GARBAGE,Nearly every row is blank.,unknown,,,values,,120,0,,logistics,6
+logistics_shipment_v06_02,betrag_eur,f_decimal_comma,FIXABLE,Numbers written with a comma for the decimal point and a full stop for thousands.,number,,,values,parse_number,120,120,,logistics,6
+logistics_shipment_v06_02,height,f_units_mixed_separable,FIXABLE,"Heights in inches and centimetres mixed, with no unit shown, but the two ranges cannot overlap.",height_cm,,,name and values,convert_unit,120,48,,logistics,6
+logistics_shipment_v06_02,invoice_date,f_date_slash_order,FIXABLE,"Slash dates where some row has a day above 12, which settles the order.",date,month_first,day_first,a row with a day above 12,parse_date,120,120,,logistics,6
+logistics_shipment_v06_02,referral_source,f_sentinel_text,FIXABLE,Words such as N/A and NULL stand in for missing.,category,,,values,replace_missing_marker,120,24,,logistics,6
+logistics_shipment_v06_02,charge,n_amount_cents_or_dollars,NEEDS_CONTEXT,Whole numbers that could be dollars or cents.,money,cents,dollars,nothing,scale_number,120,120,,logistics,6
+logistics_shipment_v06_02,order_date,f_excel_serial_date,FIXABLE,Dates stored as spreadsheet day numbers.,date,,,name,parse_date,120,120,,logistics,6
+logistics_shipment_v06_02,status_cd,r_code_with_description,READY,A code column with its description in the next column.,status_code,,,neighbours,,120,0,status_desc,logistics,6
+banking_account_v06_03,event_ts,f_epoch_millis,FIXABLE,Timestamps stored as milliseconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,banking,6
+banking_account_v06_03,quantity,n_quantity_alone,NEEDS_CONTEXT,A quantity with nothing to say whether it counts units or packs.,quantity,units,packs_of_6,nothing,convert_unit,120,0,,banking,6
+banking_account_v06_03,visit_dow,f_weekday_number_with_date,FIXABLE,A weekday number whose convention can be worked out from the date beside it.,weekday_name,sunday_is_1,monday_is_1,neighbours,decode_values,120,120,visit_date,banking,6
+banking_account_v06_03,typ,n_opaque_codes,NEEDS_CONTEXT,Short codes with no description anywhere in the table.,code,,,nothing,decode_values,120,0,,banking,6
+banking_account_v06_03,ctgry,r_category_words,READY,A category written as consistent words.,category,,,values,,120,0,,banking,6
+banking_account_v06_03,item_count,r_count_named,READY,A whole-number count with a clear name.,count,,,name,,120,0,,banking,6
+banking_account_v06_03,payment_method,f_category_variants,FIXABLE,One category spelled with different punctuation and capitals.,category,,,values,normalise_categories,120,36,,banking,6
+banking_account_v06_03,amount,n_currency_unknown,NEEDS_CONTEXT,A money amount with nothing to say which currency.,money,cad,usd,nothing,,120,0,,banking,6
+hotel_booking_v06_04,col_x,g_random_noise,GARBAGE,Random strings under a name that says nothing.,unknown,,,values,,120,0,,hotel,6
+hotel_booking_v06_04,postal_code,f_leading_zero_lost,FIXABLE,"Postal codes stored as numbers, so leading zeros are gone.",postal_code,,,name,keep_as_text,120,59,,hotel,6
+hotel_booking_v06_04,v3,n_cryptic_number,NEEDS_CONTEXT,Plausible numbers under a name that says nothing.,unknown_measure,,,nothing,,120,0,,hotel,6
+hotel_booking_v06_04,recorded_at,n_timestamp_zone,NEEDS_CONTEXT,Date and time with no time zone.,timestamp,utc,local_utc_minus_6,nothing,parse_timestamp,120,120,,hotel,6
+hotel_booking_v06_04,batch_flag,g_constant,GARBAGE,Every row holds the same value.,unknown,,,values,,120,0,,hotel,6
+hotel_booking_v06_04,handled_by,r_person_name,READY,"Names of people, cleanly written.",person_name,,,values,,120,0,,hotel,6
+hotel_booking_v06_04,ticket_id,f_id_as_float,FIXABLE,Identifiers that picked up a decimal point on the way in.,identifier,,,name,keep_as_text,120,120,,hotel,6
+hotel_booking_v06_04,person,f_embedded_values,FIXABLE,Several facts packed into one cell in a regular pattern.,person_name_and_birth_date,,,values,split_values,120,120,,hotel,6
+utilities_meter_v06_05,parcel_weight,n_unit_unknown,NEEDS_CONTEXT,A weight that could be pounds or kilograms.,weight,kilograms,pounds,nothing,convert_unit,120,0,,utilities,6
+utilities_meter_v06_05,ctgry,f_whitespace_case,FIXABLE,The same value appears with stray spaces and mixed capitals.,category,,,values,normalise_categories,120,48,,utilities,6
+utilities_meter_v06_05,qty,f_quantity_packs_with_total,FIXABLE,Quantity is counted in six-packs; the unit price and line total beside it show that.,quantity_units,,,neighbours,convert_unit,120,120,unit_price; line_total,utilities,6
+utilities_meter_v06_05,late_days,n_zero_missing_or_real,NEEDS_CONTEXT,Many zeros that could mean none or could mean not recorded.,count,zero_is_real,zero_is_missing,nothing,replace_missing_marker,120,0,,utilities,6
+utilities_meter_v06_05,rvn_usd,f_number_text_separators,FIXABLE,Numbers stored as text with thousands separators.,number,,,values,parse_number,120,120,,utilities,6
+utilities_meter_v06_05,region,n_state_or_country,NEEDS_CONTEXT,Two-letter codes that are valid both as US states and as countries.,place_code,country,us_state,nothing,decode_values,120,0,,utilities,6
+utilities_meter_v06_05,amount,g_wrong_values_mixed_in,GARBAGE,"A money column where many rows hold dates, names or codes instead.",money,,,values,,120,0,,utilities,6
+utilities_meter_v06_05,quality_score,f_sentinel_number,FIXABLE,A score from 0 to 100 where an impossible number stands in for missing.,score_0_to_100,,,name and values,replace_missing_marker,120,18,,utilities,6
+retail_order_v06_06,end_date,f_sentinel_date,FIXABLE,A far-future or far-past date stands in for no date.,date,,,values,replace_missing_marker,120,36,,retail,6
+retail_order_v06_06,cstmr_clss,f_category_typos,FIXABLE,A few values are one keystroke away from a common value.,category,,,values,normalise_categories,120,9,,retail,6
+retail_order_v06_06,margin,f_percent_sign,FIXABLE,Percentages stored as text with a percent sign.,percent_0_to_100,,,values,parse_number,120,120,,retail,6
+retail_order_v06_06,received_date,f_date_mixed_formats,FIXABLE,"Dates are written several different ways in one column, each one unambiguous.",date,,,values,parse_date,120,91,,retail,6
+retail_order_v06_06,completion_pct,r_percent_named,READY,A percentage from 0 to 100 with a clear name.,percent_0_to_100,,,name,,120,0,,retail,6
+retail_order_v06_06,rate,n_amount_period,NEEDS_CONTEXT,A pay figure that could be per month or per year.,pay,monthly,annual,nothing,scale_number,120,120,,retail,6
+clinic_visit_v07_00,weight,n_unit_unknown,NEEDS_CONTEXT,A weight that could be pounds or kilograms.,weight,kilograms,pounds,nothing,convert_unit,120,0,,clinic,7
+clinic_visit_v07_00,opened_on,r_date_iso,READY,Dates in year-month-day order.,date,,,values,,120,0,,clinic,7
+clinic_visit_v07_00,returns,n_zero_missing_or_real,NEEDS_CONTEXT,Many zeros that could mean none or could mean not recorded.,count,zero_is_real,zero_is_missing,nothing,replace_missing_marker,120,0,,clinic,7
+clinic_visit_v07_00,ship_date,f_excel_serial_date,FIXABLE,Dates stored as spreadsheet day numbers.,date,,,name,parse_date,120,120,,clinic,7
+clinic_visit_v07_00,typ,n_opaque_codes,NEEDS_CONTEXT,Short codes with no description anywhere in the table.,code,,,nothing,decode_values,120,0,,clinic,7
+clinic_visit_v07_00,amount,n_currency_unknown,NEEDS_CONTEXT,A money amount with nothing to say which currency.,money,cad,usd,nothing,,120,0,,clinic,7
+clinic_visit_v07_00,origin,n_state_or_country,NEEDS_CONTEXT,Two-letter codes that are valid both as US states and as countries.,place_code,country,us_state,nothing,decode_values,120,0,,clinic,7
+clinic_visit_v07_00,src,g_constant,GARBAGE,Every row holds the same value.,unknown,,,values,,120,0,,clinic,7
+logistics_shipment_v07_01,closed_date,f_sentinel_date,FIXABLE,A far-future or far-past date stands in for no date.,date,,,values,replace_missing_marker,120,36,,logistics,7
+logistics_shipment_v07_01,payment_method,f_category_variants,FIXABLE,One category spelled with different punctuation and capitals.,category,,,values,normalise_categories,120,36,,logistics,7
+logistics_shipment_v07_01,received_date,f_date_mixed_formats,FIXABLE,"Dates are written several different ways in one column, each one unambiguous.",date,,,values,parse_date,120,100,,logistics,7
+logistics_shipment_v07_01,amount,g_wrong_values_mixed_in,GARBAGE,"A money column where many rows hold dates, names or codes instead.",money,,,values,,120,0,,logistics,7
+logistics_shipment_v07_01,cstmr_nm,f_mojibake,FIXABLE,Accented letters arrive garbled because the file was read in the wrong encoding.,person_name,,,values,repair_encoding,120,60,,logistics,7
+logistics_shipment_v07_01,fld_12,n_cryptic_number,NEEDS_CONTEXT,Plausible numbers under a name that says nothing.,unknown_measure,,,nothing,,120,0,,logistics,7
+logistics_shipment_v07_01,email,g_truncated,GARBAGE,"Text cut off at a fixed length, so the rest is lost.",email,,,values,,120,0,,logistics,7
+logistics_shipment_v07_01,col_x,g_random_noise,GARBAGE,Random strings under a name that says nothing.,unknown,,,values,,120,0,,logistics,7
+banking_account_v07_02,day,r_weekday_name,READY,Days of the week written out.,weekday_name,,,values,,120,0,,banking,7
+banking_account_v07_02,updated_at,f_epoch_millis,FIXABLE,Timestamps stored as milliseconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,banking,7
+banking_account_v07_02,hndld_by,r_person_name,READY,"Names of people, cleanly written.",person_name,,,values,,120,0,,banking,7
+banking_account_v07_02,email,r_email,READY,Email addresses.,email,,,values,,120,0,,banking,7
+banking_account_v07_02,renewal,n_flag_1_2,NEEDS_CONTEXT,A flag holding 1 and 2 with nothing to say which means yes.,yes_no_flag,2_is_yes,1_is_yes,nothing,decode_values,120,120,,banking,7
+banking_account_v07_02,share,f_percent_sign,FIXABLE,Percentages stored as text with a percent sign.,percent_0_to_100,,,values,parse_number,120,120,,banking,7
+banking_account_v07_02,comment,g_placeholder_text,GARBAGE,"Most rows hold filler such as test, asdf or TBD.",unknown,,,values,,120,0,,banking,7
+banking_account_v07_02,status_cd,r_code_with_description,READY,A code column with its description in the next column.,status_code,,,neighbours,,120,0,status_desc,banking,7
+hotel_booking_v07_03,fill_pct,r_percent_named,READY,A percentage from 0 to 100 with a clear name.,percent_0_to_100,,,name,,120,0,,hotel,7
+hotel_booking_v07_03,posted_date,n_date_slash_unresolvable,NEEDS_CONTEXT,Slash dates where every day and month is 12 or below.,date,month_first,day_first,nothing,parse_date,120,120,,hotel,7
+hotel_booking_v07_03,qty,n_quantity_alone,NEEDS_CONTEXT,A quantity with nothing to say whether it counts units or packs.,quantity,packs_of_6,units,nothing,convert_unit,120,120,,hotel,7
+hotel_booking_v07_03,ctgry,r_category_words,READY,A category written as consistent words.,category,,,values,,120,0,,hotel,7
+hotel_booking_v07_03,invoice_date,f_date_slash_order,FIXABLE,"Slash dates where some row has a day above 12, which settles the order.",date,day_first,month_first,a row with a day above 12,parse_date,120,120,,hotel,7
+hotel_booking_v07_03,height,f_units_mixed_separable,FIXABLE,"Heights in inches and centimetres mixed, with no unit shown, but the two ranges cannot overlap.",height_cm,,,name and values,convert_unit,120,48,,hotel,7
+hotel_booking_v07_03,site_type,f_category_typos,FIXABLE,A few values are one keystroke away from a common value.,category,,,values,normalise_categories,120,9,,hotel,7
+hotel_booking_v07_03,balance_usd,f_number_text_separators,FIXABLE,Numbers stored as text with thousands separators.,number,,,values,parse_number,120,120,,hotel,7
+utilities_meter_v07_04,logged_at,f_epoch_seconds,FIXABLE,Timestamps stored as seconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,utilities,7
+utilities_meter_v07_04,hght,f_units_written,FIXABLE,"Heights written three ways, each stating its unit.",height_cm,,,values,convert_unit,120,120,,utilities,7
+utilities_meter_v07_04,meter_id,r_identifier,READY,A plain record identifier.,identifier,,,values,,120,0,,utilities,7
+utilities_meter_v07_04,zip,f_leading_zero_lost,FIXABLE,"Postal codes stored as numbers, so leading zeros are gone.",postal_code,,,name,keep_as_text,120,51,,utilities,7
+utilities_meter_v07_04,dow,n_weekday_number_alone,NEEDS_CONTEXT,A weekday number with no date beside it to show which day is 1.,weekday_name,sunday_is_1,monday_is_1,nothing,decode_values,120,120,,utilities,7
+utilities_meter_v07_04,pay,n_amount_period,NEEDS_CONTEXT,A pay figure that could be per month or per year.,pay,annual,monthly,nothing,scale_number,120,0,,utilities,7
+utilities_meter_v07_04,amount_paid,f_currency_symbol,FIXABLE,Money stored as text with a dollar sign and separators.,money_usd,,,values,parse_number,120,120,,utilities,7
+utilities_meter_v07_04,segment,f_whitespace_case,FIXABLE,The same value appears with stray spaces and mixed capitals.,category,,,values,normalise_categories,120,48,,utilities,7
+retail_order_v07_05,amount,n_amount_cents_or_dollars,NEEDS_CONTEXT,Whole numbers that could be dollars or cents.,money,dollars,cents,nothing,scale_number,120,0,,retail,7
+retail_order_v07_05,reason,f_sentinel_text,FIXABLE,Words such as N/A and NULL stand in for missing.,category,,,values,replace_missing_marker,120,24,,retail,7
+retail_order_v07_05,member,f_embedded_values,FIXABLE,Several facts packed into one cell in a regular pattern.,person_name_and_birth_date,,,values,split_values,120,120,,retail,7
+retail_order_v07_05,is_active,f_boolean_variants,FIXABLE,Yes and no written many ways.,yes_no_flag,,,values,normalise_categories,120,120,,retail,7
+retail_order_v07_05,satisfaction_score,f_sentinel_number,FIXABLE,A score from 0 to 100 where an impossible number stands in for missing.,score_0_to_100,,,name and values,replace_missing_marker,120,18,,retail,7
+retail_order_v07_05,legacy_flag,g_mostly_missing,GARBAGE,Nearly every row is blank.,unknown,,,values,,120,0,,retail,7
+retail_order_v07_05,recorded_at,n_timestamp_zone,NEEDS_CONTEXT,Date and time with no time zone.,timestamp,utc,local_utc_minus_6,nothing,parse_timestamp,120,120,,retail,7
+retail_order_v07_05,account_id,f_id_as_float,FIXABLE,Identifiers that picked up a decimal point on the way in.,identifier,,,name,keep_as_text,120,120,,retail,7
+clinic_visit_v07_06,age,f_outlier_impossible,FIXABLE,A few ages that no person can have.,age_years,,,name and values,remove_impossible_values,120,4,,clinic,7
+clinic_visit_v07_06,qty,f_quantity_packs_with_total,FIXABLE,Quantity is counted in six-packs; the unit price and line total beside it show that.,quantity_units,,,neighbours,convert_unit,120,120,unit_price; line_total,clinic,7
+clinic_visit_v07_06,btrg_er,f_decimal_comma,FIXABLE,Numbers written with a comma for the decimal point and a full stop for thousands.,number,,,values,parse_number,120,120,,clinic,7
+clinic_visit_v07_06,visit_dow,f_weekday_number_with_date,FIXABLE,A weekday number whose convention can be worked out from the date beside it.,weekday_name,monday_is_1,sunday_is_1,neighbours,decode_values,120,120,visit_date,clinic,7
+clinic_visit_v07_06,charge_usd,r_amount_named,READY,A money amount whose name states the currency.,money_usd,,,name,,120,0,,clinic,7
+clinic_visit_v07_06,visit_count,r_count_named,READY,A whole-number count with a clear name.,count,,,name,,120,0,,clinic,7
+logistics_shipment_v08_00,status_cd,r_code_with_description,READY,A code column with its description in the next column.,status_code,,,neighbours,,120,0,status_desc,logistics,8
+logistics_shipment_v08_00,btrg_er,f_decimal_comma,FIXABLE,Numbers written with a comma for the decimal point and a full stop for thousands.,number,,,values,parse_number,120,120,,logistics,8
+logistics_shipment_v08_00,pay_type,f_category_variants,FIXABLE,One category spelled with different punctuation and capitals.,category,,,values,normalise_categories,120,36,,logistics,8
+logistics_shipment_v08_00,full_name,r_person_name,READY,"Names of people, cleanly written.",person_name,,,values,,120,0,,logistics,8
+logistics_shipment_v08_00,total,n_currency_unknown,NEEDS_CONTEXT,A money amount with nothing to say which currency.,money,usd,cad,nothing,,120,0,,logistics,8
+logistics_shipment_v08_00,v3,n_cryptic_number,NEEDS_CONTEXT,Plausible numbers under a name that says nothing.,unknown_measure,,,nothing,,120,0,,logistics,8
+logistics_shipment_v08_00,qty,f_quantity_packs_with_total,FIXABLE,Quantity is counted in six-packs; the unit price and line total beside it show that.,quantity_units,,,neighbours,convert_unit,120,120,unit_price; line_total,logistics,8
+logistics_shipment_v08_00,cls,n_opaque_codes,NEEDS_CONTEXT,Short codes with no description anywhere in the table.,code,,,nothing,decode_values,120,0,,logistics,8
+banking_account_v08_01,member,f_embedded_values,FIXABLE,Several facts packed into one cell in a regular pattern.,person_name_and_birth_date,,,values,split_values,120,120,,banking,8
+banking_account_v08_01,contact,g_truncated,GARBAGE,"Text cut off at a fixed length, so the rest is lost.",email,,,values,,120,0,,banking,8
+banking_account_v08_01,channel,r_category_words,READY,A category written as consistent words.,category,,,values,,120,0,,banking,8
+banking_account_v08_01,alt_code,g_mostly_missing,GARBAGE,Nearly every row is blank.,unknown,,,values,,120,0,,banking,8
+banking_account_v08_01,priority,n_flag_1_2,NEEDS_CONTEXT,A flag holding 1 and 2 with nothing to say which means yes.,yes_no_flag,2_is_yes,1_is_yes,nothing,decode_values,120,120,,banking,8
+banking_account_v08_01,age,f_outlier_impossible,FIXABLE,A few ages that no person can have.,age_years,,,name and values,remove_impossible_values,120,4,,banking,8
+banking_account_v08_01,stipend,n_amount_period,NEEDS_CONTEXT,A pay figure that could be per month or per year.,pay,annual,monthly,nothing,scale_number,120,0,,banking,8
+banking_account_v08_01,posted_date,n_date_slash_unresolvable,NEEDS_CONTEXT,Slash dates where every day and month is 12 or below.,date,month_first,day_first,nothing,parse_date,120,120,,banking,8
+hotel_booking_v08_02,visit_dow,f_weekday_number_with_date,FIXABLE,A weekday number whose convention can be worked out from the date beside it.,weekday_name,sunday_is_1,monday_is_1,neighbours,decode_values,120,120,visit_date,hotel,8
+hotel_booking_v08_02,end_date,f_sentinel_date,FIXABLE,A far-future or far-past date stands in for no date.,date,,,values,replace_missing_marker,120,36,,hotel,8
+hotel_booking_v08_02,updated_at,f_epoch_millis,FIXABLE,Timestamps stored as milliseconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,hotel,8
+hotel_booking_v08_02,site_type,f_category_typos,FIXABLE,A few values are one keystroke away from a common value.,category,,,values,normalise_categories,120,8,,hotel,8
+hotel_booking_v08_02,line_count,r_count_named,READY,A whole-number count with a clear name.,count,,,name,,120,0,,hotel,8
+hotel_booking_v08_02,ver,g_constant,GARBAGE,Every row holds the same value.,unknown,,,values,,120,0,,hotel,8
+hotel_booking_v08_02,customer_name,f_mojibake,FIXABLE,Accented letters arrive garbled because the file was read in the wrong encoding.,person_name,,,values,repair_encoding,120,60,,hotel,8
+hotel_booking_v08_02,height,f_units_written,FIXABLE,"Heights written three ways, each stating its unit.",height_cm,,,values,convert_unit,120,120,,hotel,8
+utilities_meter_v08_03,discount_pct,r_percent_named,READY,A percentage from 0 to 100 with a clear name.,percent_0_to_100,,,name,,120,0,,utilities,8
+utilities_meter_v08_03,is_active,f_boolean_variants,FIXABLE,Yes and no written many ways.,yes_no_flag,,,values,normalise_categories,120,120,,utilities,8
+utilities_meter_v08_03,late_days,n_zero_missing_or_real,NEEDS_CONTEXT,Many zeros that could mean none or could mean not recorded.,count,zero_is_real,zero_is_missing,nothing,replace_missing_marker,120,0,,utilities,8
+utilities_meter_v08_03,ctgry,f_whitespace_case,FIXABLE,The same value appears with stray spaces and mixed capitals.,category,,,values,normalise_categories,120,48,,utilities,8
+utilities_meter_v08_03,postal_code,f_leading_zero_lost,FIXABLE,"Postal codes stored as numbers, so leading zeros are gone.",postal_code,,,name,keep_as_text,120,51,,utilities,8
+utilities_meter_v08_03,detail,g_placeholder_text,GARBAGE,"Most rows hold filler such as test, asdf or TBD.",unknown,,,values,,120,0,,utilities,8
+utilities_meter_v08_03,email,r_email,READY,Email addresses.,email,,,values,,120,0,,utilities,8
+utilities_meter_v08_03,srvc_dt,r_date_iso,READY,Dates in year-month-day order.,date,,,values,,120,0,,utilities,8
+retail_order_v08_04,revenue_usd,f_number_text_separators,FIXABLE,Numbers stored as text with thousands separators.,number,,,values,parse_number,120,120,,retail,8
+retail_order_v08_04,account_id,f_id_as_float,FIXABLE,Identifiers that picked up a decimal point on the way in.,identifier,,,name,keep_as_text,120,120,,retail,8
+retail_order_v08_04,created_at,f_epoch_seconds,FIXABLE,Timestamps stored as seconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,retail,8
+retail_order_v08_04,referral_source,f_sentinel_text,FIXABLE,Words such as N/A and NULL stand in for missing.,category,,,values,replace_missing_marker,120,24,,retail,8
+retail_order_v08_04,invoice_date,f_date_slash_order,FIXABLE,"Slash dates where some row has a day above 12, which settles the order.",date,day_first,month_first,a row with a day above 12,parse_date,120,120,,retail,8
+retail_order_v08_04,amount_paid,f_currency_symbol,FIXABLE,Money stored as text with a dollar sign and separators.,money_usd,,,values,parse_number,120,120,,retail,8
+retail_order_v08_04,received_date,f_date_mixed_formats,FIXABLE,"Dates are written several different ways in one column, each one unambiguous.",date,,,values,parse_date,120,91,,retail,8
+retail_order_v08_04,checked_in,n_timestamp_zone,NEEDS_CONTEXT,Date and time with no time zone.,timestamp,local_utc_minus_6,utc,nothing,parse_timestamp,120,120,,retail,8
+clinic_visit_v08_05,total,g_wrong_values_mixed_in,GARBAGE,"A money column where many rows hold dates, names or codes instead.",money,,,values,,120,0,,clinic,8
+clinic_visit_v08_05,amount,n_amount_cents_or_dollars,NEEDS_CONTEXT,Whole numbers that could be dollars or cents.,money,dollars,cents,nothing,scale_number,120,0,,clinic,8
+clinic_visit_v08_05,quantity,n_quantity_alone,NEEDS_CONTEXT,A quantity with nothing to say whether it counts units or packs.,quantity,packs_of_6,units,nothing,convert_unit,120,120,,clinic,8
+clinic_visit_v08_05,margin,f_percent_sign,FIXABLE,Percentages stored as text with a percent sign.,percent_0_to_100,,,values,parse_number,120,120,,clinic,8
+clinic_visit_v08_05,region,n_state_or_country,NEEDS_CONTEXT,Two-letter codes that are valid both as US states and as countries.,place_code,country,us_state,nothing,decode_values,120,0,,clinic,8
+clinic_visit_v08_05,charge_usd,r_amount_named,READY,A money amount whose name states the currency.,money_usd,,,name,,120,0,,clinic,8
+clinic_visit_v08_05,dow,r_weekday_name,READY,Days of the week written out.,weekday_name,,,values,,120,0,,clinic,8
+clinic_visit_v08_05,parcel_weight,n_unit_unknown,NEEDS_CONTEXT,A weight that could be pounds or kilograms.,weight,kilograms,pounds,nothing,convert_unit,120,0,,clinic,8
+logistics_shipment_v08_06,weekday_no,n_weekday_number_alone,NEEDS_CONTEXT,A weekday number with no date beside it to show which day is 1.,weekday_name,sunday_is_1,monday_is_1,nothing,decode_values,120,120,,logistics,8
+logistics_shipment_v08_06,height,f_units_mixed_separable,FIXABLE,"Heights in inches and centimetres mixed, with no unit shown, but the two ranges cannot overlap.",height_cm,,,name and values,convert_unit,120,48,,logistics,8
+logistics_shipment_v08_06,shipment_id,r_identifier,READY,A plain record identifier.,identifier,,,values,,120,0,,logistics,8
+logistics_shipment_v08_06,satisfaction_score,f_sentinel_number,FIXABLE,A score from 0 to 100 where an impossible number stands in for missing.,score_0_to_100,,,name and values,replace_missing_marker,120,18,,logistics,8
+logistics_shipment_v08_06,ship_date,f_excel_serial_date,FIXABLE,Dates stored as spreadsheet day numbers.,date,,,name,parse_date,120,120,,logistics,8
+logistics_shipment_v08_06,tmp1,g_random_noise,GARBAGE,Random strings under a name that says nothing.,unknown,,,values,,120,0,,logistics,8
+banking_account_v09_00,posted_date,n_date_slash_unresolvable,NEEDS_CONTEXT,Slash dates where every day and month is 12 or below.,date,day_first,month_first,nothing,parse_date,120,120,,banking,9
+banking_account_v09_00,visit_dow,f_weekday_number_with_date,FIXABLE,A weekday number whose convention can be worked out from the date beside it.,weekday_name,monday_is_1,sunday_is_1,neighbours,decode_values,120,120,visit_date,banking,9
+banking_account_v09_00,pymnt_mthd,f_category_variants,FIXABLE,One category spelled with different punctuation and capitals.,category,,,values,normalise_categories,120,36,,banking,9
+banking_account_v09_00,dow,n_weekday_number_alone,NEEDS_CONTEXT,A weekday number with no date beside it to show which day is 1.,weekday_name,sunday_is_1,monday_is_1,nothing,decode_values,120,120,,banking,9
+banking_account_v09_00,quality_score,f_sentinel_number,FIXABLE,A score from 0 to 100 where an impossible number stands in for missing.,score_0_to_100,,,name and values,replace_missing_marker,120,18,,banking,9
+banking_account_v09_00,qty,f_quantity_packs_with_total,FIXABLE,Quantity is counted in six-packs; the unit price and line total beside it show that.,quantity_units,,,neighbours,convert_unit,120,120,unit_price; line_total,banking,9
+banking_account_v09_00,height,f_units_written,FIXABLE,"Heights written three ways, each stating its unit.",height_cm,,,values,convert_unit,120,120,,banking,9
+banking_account_v09_00,category,r_category_words,READY,A category written as consistent words.,category,,,values,,120,0,,banking,9
+hotel_booking_v09_01,amount,n_currency_unknown,NEEDS_CONTEXT,A money amount with nothing to say which currency.,money,usd,cad,nothing,,120,0,,hotel,9
+hotel_booking_v09_01,completion_pct,r_percent_named,READY,A percentage from 0 to 100 with a clear name.,percent_0_to_100,,,name,,120,0,,hotel,9
+hotel_booking_v09_01,status_cd,r_code_with_description,READY,A code column with its description in the next column.,status_code,,,neighbours,,120,0,status_desc,hotel,9
+hotel_booking_v09_01,bkng_id,r_identifier,READY,A plain record identifier.,identifier,,,values,,120,0,,hotel,9
+hotel_booking_v09_01,src,g_constant,GARBAGE,Every row holds the same value.,unknown,,,values,,120,0,,hotel,9
+hotel_booking_v09_01,loc,n_state_or_country,NEEDS_CONTEXT,Two-letter codes that are valid both as US states and as countries.,place_code,country,us_state,nothing,decode_values,120,0,,hotel,9
+hotel_booking_v09_01,account_id,f_id_as_float,FIXABLE,Identifiers that picked up a decimal point on the way in.,identifier,,,name,keep_as_text,120,120,,hotel,9
+hotel_booking_v09_01,is_actv,f_boolean_variants,FIXABLE,Yes and no written many ways.,yes_no_flag,,,values,normalise_categories,120,120,,hotel,9
+utilities_meter_v09_02,amount_paid,f_currency_symbol,FIXABLE,Money stored as text with a dollar sign and separators.,money_usd,,,values,parse_number,120,120,,utilities,9
+utilities_meter_v09_02,eml,r_email,READY,Email addresses.,email,,,values,,120,0,,utilities,9
+utilities_meter_v09_02,total_usd,r_amount_named,READY,A money amount whose name states the currency.,money_usd,,,name,,120,0,,utilities,9
+utilities_meter_v09_02,age,f_outlier_impossible,FIXABLE,A few ages that no person can have.,age_years,,,name and values,remove_impossible_values,120,4,,utilities,9
+utilities_meter_v09_02,rate,n_amount_period,NEEDS_CONTEXT,A pay figure that could be per month or per year.,pay,annual,monthly,nothing,scale_number,120,0,,utilities,9
+utilities_meter_v09_02,contact,g_truncated,GARBAGE,"Text cut off at a fixed length, so the rest is lost.",email,,,values,,120,0,,utilities,9
+utilities_meter_v09_02,rsn_cd,n_opaque_codes,NEEDS_CONTEXT,Short codes with no description anywhere in the table.,code,,,nothing,decode_values,120,0,,utilities,9
+utilities_meter_v09_02,person,f_embedded_values,FIXABLE,Several facts packed into one cell in a regular pattern.,person_name_and_birth_date,,,values,split_values,120,120,,utilities,9
+retail_order_v09_03,dy,r_weekday_name,READY,Days of the week written out.,weekday_name,,,values,,120,0,,retail,9
+retail_order_v09_03,reason,f_sentinel_text,FIXABLE,Words such as N/A and NULL stand in for missing.,category,,,values,replace_missing_marker,120,24,,retail,9
+retail_order_v09_03,legacy_flag,g_mostly_missing,GARBAGE,Nearly every row is blank.,unknown,,,values,,120,0,,retail,9
+retail_order_v09_03,st_typ,f_category_typos,FIXABLE,A few values are one keystroke away from a common value.,category,,,values,normalise_categories,120,8,,retail,9
+retail_order_v09_03,strt_dt,f_date_mixed_formats,FIXABLE,"Dates are written several different ways in one column, each one unambiguous.",date,,,values,parse_date,120,87,,retail,9
+retail_order_v09_03,revenue_usd,f_number_text_separators,FIXABLE,Numbers stored as text with thousands separators.,number,,,values,parse_number,120,120,,retail,9
+retail_order_v09_03,tmp1,g_random_noise,GARBAGE,Random strings under a name that says nothing.,unknown,,,values,,120,0,,retail,9
+retail_order_v09_03,created_at,f_epoch_seconds,FIXABLE,Timestamps stored as seconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,retail,9
+clinic_visit_v09_04,renewal,n_flag_1_2,NEEDS_CONTEXT,A flag holding 1 and 2 with nothing to say which means yes.,yes_no_flag,1_is_yes,2_is_yes,nothing,decode_values,120,120,,clinic,9
+clinic_visit_v09_04,evnt_ts,f_epoch_millis,FIXABLE,Timestamps stored as milliseconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,clinic,9
+clinic_visit_v09_04,comment,g_placeholder_text,GARBAGE,"Most rows hold filler such as test, asdf or TBD.",unknown,,,values,,120,0,,clinic,9
+clinic_visit_v09_04,opened_on,r_date_iso,READY,Dates in year-month-day order.,date,,,values,,120,0,,clinic,9
+clinic_visit_v09_04,customer_name,f_mojibake,FIXABLE,Accented letters arrive garbled because the file was read in the wrong encoding.,person_name,,,values,repair_encoding,120,60,,clinic,9
+clinic_visit_v09_04,hndld_by,r_person_name,READY,"Names of people, cleanly written.",person_name,,,values,,120,0,,clinic,9
+clinic_visit_v09_04,betrag_eur,f_decimal_comma,FIXABLE,Numbers written with a comma for the decimal point and a full stop for thousands.,number,,,values,parse_number,120,120,,clinic,9
+clinic_visit_v09_04,parcel_weight,n_unit_unknown,NEEDS_CONTEXT,A weight that could be pounds or kilograms.,weight,kilograms,pounds,nothing,convert_unit,120,0,,clinic,9
+logistics_shipment_v09_05,category,f_whitespace_case,FIXABLE,The same value appears with stray spaces and mixed capitals.,category,,,values,normalise_categories,120,48,,logistics,9
+logistics_shipment_v09_05,qty,n_quantity_alone,NEEDS_CONTEXT,A quantity with nothing to say whether it counts units or packs.,quantity,packs_of_6,units,nothing,convert_unit,120,120,,logistics,9
+logistics_shipment_v09_05,checked_in,n_timestamp_zone,NEEDS_CONTEXT,Date and time with no time zone.,timestamp,utc,local_utc_minus_6,nothing,parse_timestamp,120,120,,logistics,9
+logistics_shipment_v09_05,end_date,f_sentinel_date,FIXABLE,A far-future or far-past date stands in for no date.,date,,,values,replace_missing_marker,120,36,,logistics,9
+logistics_shipment_v09_05,visit_count,r_count_named,READY,A whole-number count with a clear name.,count,,,name,,120,0,,logistics,9
+logistics_shipment_v09_05,visit_date,f_date_slash_order,FIXABLE,"Slash dates where some row has a day above 12, which settles the order.",date,day_first,month_first,a row with a day above 12,parse_date,120,120,,logistics,9
+logistics_shipment_v09_05,margin,f_percent_sign,FIXABLE,Percentages stored as text with a percent sign.,percent_0_to_100,,,values,parse_number,120,120,,logistics,9
+logistics_shipment_v09_05,x7,n_cryptic_number,NEEDS_CONTEXT,Plausible numbers under a name that says nothing.,unknown_measure,,,nothing,,120,0,,logistics,9
+banking_account_v09_06,zip,f_leading_zero_lost,FIXABLE,"Postal codes stored as numbers, so leading zeros are gone.",postal_code,,,name,keep_as_text,120,71,,banking,9
+banking_account_v09_06,ship_date,f_excel_serial_date,FIXABLE,Dates stored as spreadsheet day numbers.,date,,,name,parse_date,120,120,,banking,9
+banking_account_v09_06,fee,n_amount_cents_or_dollars,NEEDS_CONTEXT,Whole numbers that could be dollars or cents.,money,dollars,cents,nothing,scale_number,120,0,,banking,9
+banking_account_v09_06,total,g_wrong_values_mixed_in,GARBAGE,"A money column where many rows hold dates, names or codes instead.",money,,,values,,120,0,,banking,9
+banking_account_v09_06,late_days,n_zero_missing_or_real,NEEDS_CONTEXT,Many zeros that could mean none or could mean not recorded.,count,zero_is_missing,zero_is_real,nothing,replace_missing_marker,120,33,,banking,9
+banking_account_v09_06,height,f_units_mixed_separable,FIXABLE,"Heights in inches and centimetres mixed, with no unit shown, but the two ranges cannot overlap.",height_cm,,,name and values,convert_unit,120,48,,banking,9
+hotel_booking_v10_00,contact,g_truncated,GARBAGE,"Text cut off at a fixed length, so the rest is lost.",email,,,values,,120,0,,hotel,10
+hotel_booking_v10_00,price,f_currency_symbol,FIXABLE,Money stored as text with a dollar sign and separators.,money_usd,,,values,parse_number,120,120,,hotel,10
+hotel_booking_v10_00,dow,n_weekday_number_alone,NEEDS_CONTEXT,A weekday number with no date beside it to show which day is 1.,weekday_name,sunday_is_1,monday_is_1,nothing,decode_values,120,120,,hotel,10
+hotel_booking_v10_00,ticket_id,f_id_as_float,FIXABLE,Identifiers that picked up a decimal point on the way in.,identifier,,,name,keep_as_text,120,120,,hotel,10
+hotel_booking_v10_00,tmp1,g_random_noise,GARBAGE,Random strings under a name that says nothing.,unknown,,,values,,120,0,,hotel,10
+hotel_booking_v10_00,rsn,f_sentinel_text,FIXABLE,Words such as N/A and NULL stand in for missing.,category,,,values,replace_missing_marker,120,24,,hotel,10
+hotel_booking_v10_00,handled_by,r_person_name,READY,"Names of people, cleanly written.",person_name,,,values,,120,0,,hotel,10
+hotel_booking_v10_00,item_count,r_count_named,READY,A whole-number count with a clear name.,count,,,name,,120,0,,hotel,10
+utilities_meter_v10_01,recorded_at,n_timestamp_zone,NEEDS_CONTEXT,Date and time with no time zone.,timestamp,utc,local_utc_minus_6,nothing,parse_timestamp,120,120,,utilities,10
+utilities_meter_v10_01,grp_nm,f_whitespace_case,FIXABLE,The same value appears with stray spaces and mixed capitals.,category,,,values,normalise_categories,120,48,,utilities,10
+utilities_meter_v10_01,region,n_state_or_country,NEEDS_CONTEXT,Two-letter codes that are valid both as US states and as countries.,place_code,us_state,country,nothing,decode_values,120,0,,utilities,10
+utilities_meter_v10_01,total,g_wrong_values_mixed_in,GARBAGE,"A money column where many rows hold dates, names or codes instead.",money,,,values,,120,0,,utilities,10
+utilities_meter_v10_01,start_date,f_date_mixed_formats,FIXABLE,"Dates are written several different ways in one column, each one unambiguous.",date,,,values,parse_date,120,96,,utilities,10
+utilities_meter_v10_01,postal_code,f_leading_zero_lost,FIXABLE,"Postal codes stored as numbers, so leading zeros are gone.",postal_code,,,name,keep_as_text,120,58,,utilities,10
+utilities_meter_v10_01,src,g_constant,GARBAGE,Every row holds the same value.,unknown,,,values,,120,0,,utilities,10
+utilities_meter_v10_01,email,r_email,READY,Email addresses.,email,,,values,,120,0,,utilities,10
+retail_order_v10_02,shr,f_percent_sign,FIXABLE,Percentages stored as text with a percent sign.,percent_0_to_100,,,values,parse_number,120,120,,retail,10
+retail_order_v10_02,evnt_ts,f_epoch_millis,FIXABLE,Timestamps stored as milliseconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,retail,10
+retail_order_v10_02,posted_date,n_date_slash_unresolvable,NEEDS_CONTEXT,Slash dates where every day and month is 12 or below.,date,month_first,day_first,nothing,parse_date,120,120,,retail,10
+retail_order_v10_02,weight,n_unit_unknown,NEEDS_CONTEXT,A weight that could be pounds or kilograms.,weight,pounds,kilograms,nothing,convert_unit,120,120,,retail,10
+retail_order_v10_02,fld_12,n_cryptic_number,NEEDS_CONTEXT,Plausible numbers under a name that says nothing.,unknown_measure,,,nothing,,120,0,,retail,10
+retail_order_v10_02,satisfaction_score,f_sentinel_number,FIXABLE,A score from 0 to 100 where an impossible number stands in for missing.,score_0_to_100,,,name and values,replace_missing_marker,120,18,,retail,10
+retail_order_v10_02,order_date,f_excel_serial_date,FIXABLE,Dates stored as spreadsheet day numbers.,date,,,name,parse_date,120,120,,retail,10
+retail_order_v10_02,logged_at,f_epoch_seconds,FIXABLE,Timestamps stored as seconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,retail,10
+clinic_visit_v10_03,qty,n_quantity_alone,NEEDS_CONTEXT,A quantity with nothing to say whether it counts units or packs.,quantity,packs_of_6,units,nothing,convert_unit,120,120,,clinic,10
+clinic_visit_v10_03,priority,n_flag_1_2,NEEDS_CONTEXT,A flag holding 1 and 2 with nothing to say which means yes.,yes_no_flag,1_is_yes,2_is_yes,nothing,decode_values,120,120,,clinic,10
+clinic_visit_v10_03,pay,n_amount_period,NEEDS_CONTEXT,A pay figure that could be per month or per year.,pay,annual,monthly,nothing,scale_number,120,0,,clinic,10
+clinic_visit_v10_03,late_days,n_zero_missing_or_real,NEEDS_CONTEXT,Many zeros that could mean none or could mean not recorded.,count,zero_is_real,zero_is_missing,nothing,replace_missing_marker,120,0,,clinic,10
+clinic_visit_v10_03,btrg_er,f_decimal_comma,FIXABLE,Numbers written with a comma for the decimal point and a full stop for thousands.,number,,,values,parse_number,120,120,,clinic,10
+clinic_visit_v10_03,height,f_units_mixed_separable,FIXABLE,"Heights in inches and centimetres mixed, with no unit shown, but the two ranges cannot overlap.",height_cm,,,name and values,convert_unit,120,48,,clinic,10
+clinic_visit_v10_03,hght,f_units_written,FIXABLE,"Heights written three ways, each stating its unit.",height_cm,,,values,convert_unit,120,120,,clinic,10
+clinic_visit_v10_03,category,r_category_words,READY,A category written as consistent words.,category,,,values,,120,0,,clinic,10
+logistics_shipment_v10_04,service_date,r_date_iso,READY,Dates in year-month-day order.,date,,,values,,120,0,,logistics,10
+logistics_shipment_v10_04,invoice_date,f_date_slash_order,FIXABLE,"Slash dates where some row has a day above 12, which settles the order.",date,month_first,day_first,a row with a day above 12,parse_date,120,120,,logistics,10
+logistics_shipment_v10_04,typ,n_opaque_codes,NEEDS_CONTEXT,Short codes with no description anywhere in the table.,code,,,nothing,decode_values,120,0,,logistics,10
+logistics_shipment_v10_04,status_cd,r_code_with_description,READY,A code column with its description in the next column.,status_code,,,neighbours,,120,0,status_desc,logistics,10
+logistics_shipment_v10_04,closed_date,f_sentinel_date,FIXABLE,A far-future or far-past date stands in for no date.,date,,,values,replace_missing_marker,120,36,,logistics,10
+logistics_shipment_v10_04,price,n_currency_unknown,NEEDS_CONTEXT,A money amount with nothing to say which currency.,money,cad,usd,nothing,,120,0,,logistics,10
+logistics_shipment_v10_04,qty,f_quantity_packs_with_total,FIXABLE,Quantity is counted in six-packs; the unit price and line total beside it show that.,quantity_units,,,neighbours,convert_unit,120,120,unit_price; line_total,logistics,10
+logistics_shipment_v10_04,balance_usd,f_number_text_separators,FIXABLE,Numbers stored as text with thousands separators.,number,,,values,parse_number,120,120,,logistics,10
+banking_account_v10_05,age,f_outlier_impossible,FIXABLE,A few ages that no person can have.,age_years,,,name and values,remove_impossible_values,120,4,,banking,10
+banking_account_v10_05,is_actv,f_boolean_variants,FIXABLE,Yes and no written many ways.,yes_no_flag,,,values,normalise_categories,120,120,,banking,10
+banking_account_v10_05,total_usd,r_amount_named,READY,A money amount whose name states the currency.,money_usd,,,name,,120,0,,banking,10
+banking_account_v10_05,pay_type,f_category_variants,FIXABLE,One category spelled with different punctuation and capitals.,category,,,values,normalise_categories,120,36,,banking,10
+banking_account_v10_05,site_type,f_category_typos,FIXABLE,A few values are one keystroke away from a common value.,category,,,values,normalise_categories,120,9,,banking,10
+banking_account_v10_05,accnt_id,r_identifier,READY,A plain record identifier.,identifier,,,values,,120,0,,banking,10
+banking_account_v10_05,visit_dow,f_weekday_number_with_date,FIXABLE,A weekday number whose convention can be worked out from the date beside it.,weekday_name,sunday_is_1,monday_is_1,neighbours,decode_values,120,120,visit_date,banking,10
+banking_account_v10_05,comment,g_placeholder_text,GARBAGE,"Most rows hold filler such as test, asdf or TBD.",unknown,,,values,,120,0,,banking,10
+hotel_booking_v10_06,completion_pct,r_percent_named,READY,A percentage from 0 to 100 with a clear name.,percent_0_to_100,,,name,,120,0,,hotel,10
+hotel_booking_v10_06,person,f_embedded_values,FIXABLE,Several facts packed into one cell in a regular pattern.,person_name_and_birth_date,,,values,split_values,120,120,,hotel,10
+hotel_booking_v10_06,full_name,f_mojibake,FIXABLE,Accented letters arrive garbled because the file was read in the wrong encoding.,person_name,,,values,repair_encoding,120,60,,hotel,10
+hotel_booking_v10_06,nts_2,g_mostly_missing,GARBAGE,Nearly every row is blank.,unknown,,,values,,120,0,,hotel,10
+hotel_booking_v10_06,fee,n_amount_cents_or_dollars,NEEDS_CONTEXT,Whole numbers that could be dollars or cents.,money,dollars,cents,nothing,scale_number,120,0,,hotel,10
+hotel_booking_v10_06,dw,r_weekday_name,READY,Days of the week written out.,weekday_name,,,values,,120,0,,hotel,10
+utilities_meter_v11_00,due_date,n_date_slash_unresolvable,NEEDS_CONTEXT,Slash dates where every day and month is 12 or below.,date,month_first,day_first,nothing,parse_date,120,120,,utilities,11
+utilities_meter_v11_00,price,n_currency_unknown,NEEDS_CONTEXT,A money amount with nothing to say which currency.,money,cad,usd,nothing,,120,0,,utilities,11
+utilities_meter_v11_00,closed_date,f_sentinel_date,FIXABLE,A far-future or far-past date stands in for no date.,date,,,values,replace_missing_marker,120,36,,utilities,11
+utilities_meter_v11_00,customer_name,f_mojibake,FIXABLE,Accented letters arrive garbled because the file was read in the wrong encoding.,person_name,,,values,repair_encoding,120,60,,utilities,11
+utilities_meter_v11_00,visit_dow,f_weekday_number_with_date,FIXABLE,A weekday number whose convention can be worked out from the date beside it.,weekday_name,monday_is_1,sunday_is_1,neighbours,decode_values,120,120,visit_date,utilities,11
+utilities_meter_v11_00,email,g_truncated,GARBAGE,"Text cut off at a fixed length, so the rest is lost.",email,,,values,,120,0,,utilities,11
+utilities_meter_v11_00,returns,n_zero_missing_or_real,NEEDS_CONTEXT,Many zeros that could mean none or could mean not recorded.,count,zero_is_missing,zero_is_real,nothing,replace_missing_marker,120,33,,utilities,11
+utilities_meter_v11_00,recorded_at,n_timestamp_zone,NEEDS_CONTEXT,Date and time with no time zone.,timestamp,local_utc_minus_6,utc,nothing,parse_timestamp,120,120,,utilities,11
+retail_order_v11_01,channel,r_category_words,READY,A category written as consistent words.,category,,,values,,120,0,,retail,11
+retail_order_v11_01,ver,g_constant,GARBAGE,Every row holds the same value.,unknown,,,values,,120,0,,retail,11
+retail_order_v11_01,pymnt_mthd,f_category_variants,FIXABLE,One category spelled with different punctuation and capitals.,category,,,values,normalise_categories,120,36,,retail,11
+retail_order_v11_01,category,f_whitespace_case,FIXABLE,The same value appears with stray spaces and mixed capitals.,category,,,values,normalise_categories,120,48,,retail,11
+retail_order_v11_01,full_name,r_person_name,READY,"Names of people, cleanly written.",person_name,,,values,,120,0,,retail,11
+retail_order_v11_01,height,f_units_mixed_separable,FIXABLE,"Heights in inches and centimetres mixed, with no unit shown, but the two ranges cannot overlap.",height_cm,,,name and values,convert_unit,120,48,,retail,11
+retail_order_v11_01,crtd_at,f_epoch_seconds,FIXABLE,Timestamps stored as seconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,retail,11
+retail_order_v11_01,status_cd,r_code_with_description,READY,A code column with its description in the next column.,status_code,,,neighbours,,120,0,status_desc,retail,11
+clinic_visit_v11_02,origin,n_state_or_country,NEEDS_CONTEXT,Two-letter codes that are valid both as US states and as countries.,place_code,country,us_state,nothing,decode_values,120,0,,clinic,11
+clinic_visit_v11_02,item_count,r_count_named,READY,A whole-number count with a clear name.,count,,,name,,120,0,,clinic,11
+clinic_visit_v11_02,blnc_usd,f_number_text_separators,FIXABLE,Numbers stored as text with thousands separators.,number,,,values,parse_number,120,120,,clinic,11
+clinic_visit_v11_02,betrag_eur,f_decimal_comma,FIXABLE,Numbers written with a comma for the decimal point and a full stop for thousands.,number,,,values,parse_number,120,120,,clinic,11
+clinic_visit_v11_02,opted_in,f_boolean_variants,FIXABLE,Yes and no written many ways.,yes_no_flag,,,values,normalise_categories,120,120,,clinic,11
+clinic_visit_v11_02,reason,f_sentinel_text,FIXABLE,Words such as N/A and NULL stand in for missing.,category,,,values,replace_missing_marker,120,24,,clinic,11
+clinic_visit_v11_02,invoice_date,f_date_slash_order,FIXABLE,"Slash dates where some row has a day above 12, which settles the order.",date,day_first,month_first,a row with a day above 12,parse_date,120,120,,clinic,11
+clinic_visit_v11_02,order_date,f_excel_serial_date,FIXABLE,Dates stored as spreadsheet day numbers.,date,,,name,parse_date,120,120,,clinic,11
+logistics_shipment_v11_03,person,f_embedded_values,FIXABLE,Several facts packed into one cell in a regular pattern.,person_name_and_birth_date,,,values,split_values,120,120,,logistics,11
+logistics_shipment_v11_03,age,f_outlier_impossible,FIXABLE,A few ages that no person can have.,age_years,,,name and values,remove_impossible_values,120,4,,logistics,11
+logistics_shipment_v11_03,qty,f_quantity_packs_with_total,FIXABLE,Quantity is counted in six-packs; the unit price and line total beside it show that.,quantity_units,,,neighbours,convert_unit,120,120,unit_price; line_total,logistics,11
+logistics_shipment_v11_03,account_id,f_id_as_float,FIXABLE,Identifiers that picked up a decimal point on the way in.,identifier,,,name,keep_as_text,120,120,,logistics,11
+logistics_shipment_v11_03,typ,n_opaque_codes,NEEDS_CONTEXT,Short codes with no description anywhere in the table.,code,,,nothing,decode_values,120,0,,logistics,11
+logistics_shipment_v11_03,comment,g_placeholder_text,GARBAGE,"Most rows hold filler such as test, asdf or TBD.",unknown,,,values,,120,0,,logistics,11
+logistics_shipment_v11_03,amount_usd,r_amount_named,READY,A money amount whose name states the currency.,money_usd,,,name,,120,0,,logistics,11
+logistics_shipment_v11_03,height,f_units_written,FIXABLE,"Heights written three ways, each stating its unit.",height_cm,,,values,convert_unit,120,120,,logistics,11
+banking_account_v11_04,day,r_weekday_name,READY,Days of the week written out.,weekday_name,,,values,,120,0,,banking,11
+banking_account_v11_04,opened_on,r_date_iso,READY,Dates in year-month-day order.,date,,,values,,120,0,,banking,11
+banking_account_v11_04,weekday_no,n_weekday_number_alone,NEEDS_CONTEXT,A weekday number with no date beside it to show which day is 1.,weekday_name,monday_is_1,sunday_is_1,nothing,decode_values,120,120,,banking,11
+banking_account_v11_04,rate,n_amount_period,NEEDS_CONTEXT,A pay figure that could be per month or per year.,pay,annual,monthly,nothing,scale_number,120,0,,banking,11
+banking_account_v11_04,evnt_ts,f_epoch_millis,FIXABLE,Timestamps stored as milliseconds since 1970.,timestamp,,,values,parse_timestamp,120,120,,banking,11
+banking_account_v11_04,nts_2,g_mostly_missing,GARBAGE,Nearly every row is blank.,unknown,,,values,,120,0,,banking,11
+banking_account_v11_04,postal_code,f_leading_zero_lost,FIXABLE,"Postal codes stored as numbers, so leading zeros are gone.",postal_code,,,name,keep_as_text,120,68,,banking,11
+banking_account_v11_04,price,f_currency_symbol,FIXABLE,Money stored as text with a dollar sign and separators.,money_usd,,,values,parse_number,120,120,,banking,11
+hotel_booking_v11_05,start_date,f_date_mixed_formats,FIXABLE,"Dates are written several different ways in one column, each one unambiguous.",date,,,values,parse_date,120,92,,hotel,11
+hotel_booking_v11_05,fee,n_amount_cents_or_dollars,NEEDS_CONTEXT,Whole numbers that could be dollars or cents.,money,dollars,cents,nothing,scale_number,120,0,,hotel,11
+hotel_booking_v11_05,x7,n_cryptic_number,NEEDS_CONTEXT,Plausible numbers under a name that says nothing.,unknown_measure,,,nothing,,120,0,,hotel,11
+hotel_booking_v11_05,booking_id,r_identifier,READY,A plain record identifier.,identifier,,,values,,120,0,,hotel,11
+hotel_booking_v11_05,zz,g_random_noise,GARBAGE,Random strings under a name that says nothing.,unknown,,,values,,120,0,,hotel,11
+hotel_booking_v11_05,mrgn,f_percent_sign,FIXABLE,Percentages stored as text with a percent sign.,percent_0_to_100,,,values,parse_number,120,120,,hotel,11
+hotel_booking_v11_05,customer_class,f_category_typos,FIXABLE,A few values are one keystroke away from a common value.,category,,,values,normalise_categories,120,9,,hotel,11
+hotel_booking_v11_05,fill_pct,r_percent_named,READY,A percentage from 0 to 100 with a clear name.,percent_0_to_100,,,name,,120,0,,hotel,11
+utilities_meter_v11_06,renewal,n_flag_1_2,NEEDS_CONTEXT,A flag holding 1 and 2 with nothing to say which means yes.,yes_no_flag,2_is_yes,1_is_yes,nothing,decode_values,120,120,,utilities,11
+utilities_meter_v11_06,qty,n_quantity_alone,NEEDS_CONTEXT,A quantity with nothing to say whether it counts units or packs.,quantity,units,packs_of_6,nothing,convert_unit,120,0,,utilities,11
+utilities_meter_v11_06,quality_score,f_sentinel_number,FIXABLE,A score from 0 to 100 where an impossible number stands in for missing.,score_0_to_100,,,name and values,replace_missing_marker,120,18,,utilities,11
+utilities_meter_v11_06,weight,n_unit_unknown,NEEDS_CONTEXT,A weight that could be pounds or kilograms.,weight,kilograms,pounds,nothing,convert_unit,120,0,,utilities,11
+utilities_meter_v11_06,amount,g_wrong_values_mixed_in,GARBAGE,"A money column where many rows hold dates, names or codes instead.",money,,,values,,120,0,,utilities,11
+utilities_meter_v11_06,contact_email,r_email,READY,Email addresses.,email,,,values,,120,0,,utilities,11

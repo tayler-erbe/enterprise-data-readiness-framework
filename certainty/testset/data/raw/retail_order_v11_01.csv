@@ -1,0 +1,121 @@
+channel,ver,pymnt_mthd,category,full_name,height,crtd_at,status_cd,status_desc
+Online,DEFAULT,Gift Voucher,Marketplace  ,Dev Brandt,75,1784379971,D4,Cancelled
+Phone,DEFAULT,Credit Card.,Store,Ines Koval,149.9,1775389970,D4,Cancelled
+Phone,DEFAULT,Credit Card,Phone,Noor Abel,193.0,1786608498,A1,Open
+Store,DEFAULT,Direct Debit,Marketplace,Noor Haas,162.6,1778458603,A1,Open
+Online,DEFAULT,bank transfer,store,Noor Ito,177.8,1772931023,B2,In review
+Online,DEFAULT,bank transfer,Phone,Noor Nwosu,147.3,1767925346,A1,Open
+Online,DEFAULT,Credit Card,Store,Chloe Jensen,74,1783105975,D4,Cancelled
+Phone,DEFAULT,Bank Transfer,online,Noor Farrow,147.3,1773461333,C3,Closed
+Store,DEFAULT,Credit Card,Marketplace,Chloe Moreau,165.1,1768645363,C3,Closed
+Store,DEFAULT,Gift Voucher,ONLINE,Jon Haas,160.0,1775704324,C3,Closed
+Store,DEFAULT,Direct-Debit,Online,Ines Brandt,167.6,1781861772,A1,Open
+Online,DEFAULT,Credit Card,phone,Noor Lindqvist,70,1783660801,B2,In review
+Online,DEFAULT,Gift Voucher,Online,Farid Jensen,172.7,1775390692,C3,Closed
+Phone,DEFAULT,Gift Voucher,Phone  ,Ana Ito,180.3,1775797984,B2,In review
+Phone,DEFAULT,Direct Debit,online,Omar Farrow,78,1782498905,A1,Open
+Phone,DEFAULT,Bank Transfer,Phone,Jon Lindqvist,157.5,1785342319,A1,Open
+Store,DEFAULT,Bank  Transfer,Store,Kemi Jensen,188.0,1783767653,B2,In review
+Store,DEFAULT,Direct Debit,Phone,Hiro Ortiz,65,1772937650,D4,Cancelled
+Phone,DEFAULT,Credit Card,ONLINE,Luca Dunne,175.3,1774082296,D4,Cancelled
+Marketplace,DEFAULT,Gift Voucher,Store,Luca Lindqvist,195.6,1776974969,D4,Cancelled
+Store,DEFAULT,Bank  Transfer,phone,Ana Farrow,177.8,1780836532,B2,In review
+Online,DEFAULT,BANK TRANSFER,Online,Omar Moreau,175.3,1791569600,B2,In review
+Online,DEFAULT,CREDIT CARD, Phone,Kemi Petrov,66,1783633745,D4,Cancelled
+Store,DEFAULT,Gift Voucher,Marketplace  ,Chloe Brandt,149.9,1767508418,C3,Closed
+Store,DEFAULT,Direct Debit,Phone,Jon Abel,193.0,1777596691,B2,In review
+Phone,DEFAULT,Direct Debit.,Store,Ines Nwosu,61,1786002467,B2,In review
+Store,DEFAULT,Gift Voucher, Online,Ben Abel,149.9,1789135698,A1,Open
+Phone,DEFAULT,Gift-Voucher,Store  ,Dev Brandt,160.0,1773590196,B2,In review
+Phone,DEFAULT,Bank Transfer,Marketplace,Chloe Petrov,180.3,1781877558,D4,Cancelled
+Marketplace,DEFAULT,Direct Debit,ONLINE,Luca Farrow,59,1787068278,A1,Open
+Online,DEFAULT,Credit-Card,MARKETPLACE,Farid Ito,69,1771076311,D4,Cancelled
+Marketplace,DEFAULT,Gift Voucher,Phone,Ines Petrov,72,1776894335,C3,Closed
+Online,DEFAULT,Gift Voucher, Marketplace,Jon Nwosu,149.9,1767698091,C3,Closed
+Marketplace,DEFAULT,gift voucher, Marketplace,Farid Farrow,195.6,1777396090,C3,Closed
+Store,DEFAULT,Direct Debit,Store  ,Chloe Ito,170.2,1781350092,B2,In review
+Marketplace,DEFAULT,Bank Transfer,Store,Mona Nwosu,60,1779327457,A1,Open
+Online,DEFAULT,gift voucher,Marketplace,Luca Ito,195.6,1789195843,C3,Closed
+Online,DEFAULT,Credit Card.,Online,Farid Castro,72,1792271032,A1,Open
+Phone,DEFAULT,Credit Card, Online,Noor Ito,175.3,1788992557,B2,In review
+Store,DEFAULT,Direct Debit,Store,Omar Lindqvist,72,1773633591,C3,Closed
+Online,DEFAULT,Credit  Card,ONLINE,Hiro Brandt,63,1771785475,A1,Open
+Online,DEFAULT,Direct Debit,marketplace,Kemi Jensen,147.3,1790623626,B2,In review
+Phone,DEFAULT,Gift Voucher,MARKETPLACE,Farid Farrow,60,1775402025,A1,Open
+Online,DEFAULT,Bank Transfer, Phone,Ben Petrov,74,1780366385,D4,Cancelled
+Store,DEFAULT,Bank Transfer,marketplace,Ben Abel,165.1,1778993181,C3,Closed
+Marketplace,DEFAULT,Gift Voucher,MARKETPLACE,Hiro Farrow,160.0,1783689291,C3,Closed
+Marketplace,DEFAULT,Gift Voucher,Marketplace,Omar Gallo,182.9,1770652464,C3,Closed
+Phone,DEFAULT,Bank-Transfer,Marketplace,Mona Moreau,165.1,1771940810,D4,Cancelled
+Marketplace,DEFAULT,Bank Transfer,Marketplace,Dev Dunne,180.3,1792043862,B2,In review
+Store,DEFAULT,DIRECT DEBIT, Store,Luca Petrov,152.4,1781723245,C3,Closed
+Phone,DEFAULT,Bank Transfer,online,Noor Dunne,188.0,1773127514,C3,Closed
+Phone,DEFAULT,Bank Transfer,phone,Mona Koval,160.0,1769131282,A1,Open
+Phone,DEFAULT,Bank Transfer,Online,Chloe Ortiz,160.0,1778766288,C3,Closed
+Store,DEFAULT,Gift Voucher.,online,Jon Haas,77,1792102024,B2,In review
+Store,DEFAULT,Bank Transfer,Phone,Mona Farrow,77,1781398118,A1,Open
+Online,DEFAULT,DIRECT DEBIT,Phone,Luca Castro,65,1779014346,A1,Open
+Phone,DEFAULT,Credit Card,STORE,Omar Koval,65,1769934402,B2,In review
+Store,DEFAULT,Direct Debit,Store,Farid Farrow,177.8,1774621824,A1,Open
+Online,DEFAULT,BANK TRANSFER,Store,Elif Brandt,59,1784081098,B2,In review
+Phone,DEFAULT,Bank Transfer,Phone,Hiro Petrov,185.4,1769367624,B2,In review
+Marketplace,DEFAULT,Credit Card,online,Luca Koval,76,1786931469,B2,In review
+Online,DEFAULT,DIRECT DEBIT,Marketplace,Noor Ortiz,160.0,1784793870,C3,Closed
+Phone,DEFAULT,gift voucher,Online,Luca Castro,157.5,1784996220,D4,Cancelled
+Store,DEFAULT,Gift Voucher,Phone,Hiro Nwosu,157.5,1791441967,C3,Closed
+Store,DEFAULT,Bank Transfer,Store,Hiro Ortiz,61,1782978761,C3,Closed
+Marketplace,DEFAULT,Direct Debit,Online,Noor Moreau,66,1788571002,C3,Closed
+Online,DEFAULT,Gift-Voucher,Phone,Luca Eze,190.5,1790672239,D4,Cancelled
+Phone,DEFAULT,Direct Debit,Marketplace,Elif Ortiz,195.6,1779787172,D4,Cancelled
+Store,DEFAULT,Credit-Card,Store,Hiro Castro,62,1778153846,C3,Closed
+Store,DEFAULT,Direct Debit., Phone,Ben Gallo,61,1774333321,A1,Open
+Store,DEFAULT,Direct Debit,Online,Hiro Ito,188.0,1770157122,D4,Cancelled
+Phone,DEFAULT,gift voucher,Phone,Priya Dunne,60,1767953529,A1,Open
+Marketplace,DEFAULT,Credit Card,Online,Omar Moreau,180.3,1767712812,D4,Cancelled
+Online,DEFAULT,Gift Voucher,Marketplace,Grace Petrov,172.7,1778660731,D4,Cancelled
+Marketplace,DEFAULT,Credit Card,Phone,Omar Dunne,154.9,1774931335,B2,In review
+Store,DEFAULT,Bank Transfer,PHONE,Luca Jensen,68,1785166180,B2,In review
+Phone,DEFAULT,Gift Voucher,Online,Priya Gallo,147.3,1768435471,B2,In review
+Online,DEFAULT,Credit Card,MARKETPLACE,Hiro Gallo,64,1769904280,C3,Closed
+Store,DEFAULT,Bank Transfer,Store,Dev Ortiz,154.9,1769994644,D4,Cancelled
+Store,DEFAULT,Credit Card,Store,Priya Castro,76,1792412835,A1,Open
+Store,DEFAULT,Gift Voucher,Marketplace,Jon Moreau,162.6,1790601876,D4,Cancelled
+Online,DEFAULT,Credit Card,Store,Grace Haas,147.3,1772994475,A1,Open
+Online,DEFAULT,Bank Transfer,Online,Ana Brandt,65,1779882553,D4,Cancelled
+Online,DEFAULT,Gift Voucher,Store,Jon Lindqvist,185.4,1780443029,A1,Open
+Store,DEFAULT,Credit Card,Online,Ines Dunne,167.6,1776692718,C3,Closed
+Online,DEFAULT,Bank Transfer,Marketplace,Chloe Abel,198.1,1780006509,D4,Cancelled
+Store,DEFAULT,Gift Voucher,Store,Jon Farrow,68,1771402309,C3,Closed
+Online,DEFAULT,Credit Card,ONLINE,Hiro Ortiz,70,1784684323,C3,Closed
+Phone,DEFAULT,Bank-Transfer,Phone,Farid Lindqvist,165.1,1769790597,D4,Cancelled
+Phone,DEFAULT,Gift Voucher,Phone,Omar Koval,78,1772542866,B2,In review
+Online,DEFAULT,bank transfer,online,Luca Moreau,157.5,1785374565,D4,Cancelled
+Phone,DEFAULT,Credit Card,Phone  ,Dev Eze,73,1779531299,B2,In review
+Marketplace,DEFAULT,Direct Debit,Store,Ben Dunne,78,1768669096,B2,In review
+Marketplace,DEFAULT,Gift Voucher.,Store,Dev Petrov,72,1789404281,A1,Open
+Store,DEFAULT,Direct Debit,Phone,Jon Brandt,68,1793041443,C3,Closed
+Online,DEFAULT,Bank Transfer,Online,Grace Farrow,74,1792559392,D4,Cancelled
+Marketplace,DEFAULT,Direct Debit,ONLINE,Noor Jensen,77,1768950161,B2,In review
+Online,DEFAULT,GIFT VOUCHER,Phone,Hiro Castro,157.5,1784369142,C3,Closed
+Online,DEFAULT,Direct Debit,Phone,Mona Jensen,65,1789257844,A1,Open
+Marketplace,DEFAULT,Gift Voucher.,Phone,Ben Castro,188.0,1786844531,B2,In review
+Store,DEFAULT,Direct Debit,Store,Omar Gallo,188.0,1791124743,D4,Cancelled
+Online,DEFAULT,Gift Voucher, Store,Jon Lindqvist,76,1770050596,C3,Closed
+Store,DEFAULT,Gift Voucher,Phone,Farid Lindqvist,195.6,1789874587,A1,Open
+Online,DEFAULT,Direct Debit,phone,Priya Jensen,180.3,1770544532,B2,In review
+Phone,DEFAULT,Gift Voucher,Phone,Elif Moreau,149.9,1779667928,D4,Cancelled
+Phone,DEFAULT,Gift Voucher,marketplace,Ines Castro,195.6,1771418749,A1,Open
+Marketplace,DEFAULT,bank transfer,Phone  ,Luca Eze,73,1779159575,A1,Open
+Phone,DEFAULT,Gift Voucher,Store,Mona Nwosu,157.5,1783529846,A1,Open
+Marketplace,DEFAULT,Bank Transfer,Marketplace,Kemi Nwosu,61,1769183741,A1,Open
+Marketplace,DEFAULT,Direct Debit,Marketplace  ,Hiro Abel,172.7,1769310247,A1,Open
+Phone,DEFAULT,Direct Debit,Marketplace,Elif Moreau,167.6,1770556810,C3,Closed
+Store,DEFAULT,Direct Debit.,phone,Ines Haas,77,1773910188,A1,Open
+Marketplace,DEFAULT,Gift Voucher.,Store,Jon Koval,177.8,1770833637,A1,Open
+Phone,DEFAULT,Bank Transfer, Phone,Ben Koval,198.1,1769860350,C3,Closed
+Phone,DEFAULT,Credit-Card,Phone,Mona Moreau,58,1783615413,A1,Open
+Marketplace,DEFAULT,Gift Voucher,Online  ,Farid Castro,75,1774374310,B2,In review
+Marketplace,DEFAULT,Bank Transfer, Phone,Ben Moreau,149.9,1773648441,D4,Cancelled
+Store,DEFAULT,Credit Card,Phone,Jon Dunne,177.8,1790648127,A1,Open
+Online,DEFAULT,Bank Transfer,Store,Noor Moreau,73,1780655612,D4,Cancelled
+Store,DEFAULT,BANK TRANSFER,Marketplace  ,Ines Ortiz,157.5,1776339830,C3,Closed

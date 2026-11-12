@@ -1,0 +1,121 @@
+channel,ver,pymnt_mthd,category,full_name,height,crtd_at,status_cd,status_desc
+Online,DEFAULT,Gift Voucher,Marketplace,Dev Brandt,190.5,2026-07-18T13:06:11Z,D4,Cancelled
+Phone,DEFAULT,Credit Card,Store,Ines Koval,149.9,2026-04-05T11:52:50Z,D4,Cancelled
+Phone,DEFAULT,Credit Card,Phone,Noor Abel,193.0,2026-08-13T08:08:18Z,A1,Open
+Store,DEFAULT,Direct Debit,Marketplace,Noor Haas,162.6,2026-05-11T00:16:43Z,A1,Open
+Online,DEFAULT,Bank Transfer,Store,Noor Ito,177.8,2026-03-08T00:50:23Z,B2,In review
+Online,DEFAULT,Bank Transfer,Phone,Noor Nwosu,147.3,2026-01-09T02:22:26Z,A1,Open
+Online,DEFAULT,Credit Card,Store,Chloe Jensen,188.0,2026-07-03T19:12:55Z,D4,Cancelled
+Phone,DEFAULT,Bank Transfer,Online,Noor Farrow,147.3,2026-03-14T04:08:53Z,C3,Closed
+Store,DEFAULT,Credit Card,Marketplace,Chloe Moreau,165.1,2026-01-17T10:22:43Z,C3,Closed
+Store,DEFAULT,Gift Voucher,Online,Jon Haas,160.0,2026-04-09T03:12:04Z,C3,Closed
+Store,DEFAULT,Direct Debit,Online,Ines Brandt,167.6,2026-06-19T09:36:12Z,A1,Open
+Online,DEFAULT,Credit Card,Phone,Noor Lindqvist,177.8,2026-07-10T05:20:01Z,B2,In review
+Online,DEFAULT,Gift Voucher,Online,Farid Jensen,172.7,2026-04-05T12:04:52Z,C3,Closed
+Phone,DEFAULT,Gift Voucher,Phone,Ana Ito,180.3,2026-04-10T05:13:04Z,B2,In review
+Phone,DEFAULT,Direct Debit,Online,Omar Farrow,198.1,2026-06-26T18:35:05Z,A1,Open
+Phone,DEFAULT,Bank Transfer,Phone,Jon Lindqvist,157.5,2026-07-29T16:25:19Z,A1,Open
+Store,DEFAULT,Bank Transfer,Store,Kemi Jensen,188.0,2026-07-11T11:00:53Z,B2,In review
+Store,DEFAULT,Direct Debit,Phone,Hiro Ortiz,165.1,2026-03-08T02:40:50Z,D4,Cancelled
+Phone,DEFAULT,Credit Card,Online,Luca Dunne,175.3,2026-03-21T08:38:16Z,D4,Cancelled
+Marketplace,DEFAULT,Gift Voucher,Store,Luca Lindqvist,195.6,2026-04-23T20:09:29Z,D4,Cancelled
+Store,DEFAULT,Bank Transfer,Phone,Ana Farrow,177.8,2026-06-07T12:48:52Z,B2,In review
+Online,DEFAULT,Bank Transfer,Online,Omar Moreau,175.3,2026-10-09T18:13:20Z,B2,In review
+Online,DEFAULT,Credit Card,Phone,Kemi Petrov,167.6,2026-07-09T21:49:05Z,D4,Cancelled
+Store,DEFAULT,Gift Voucher,Marketplace,Chloe Brandt,149.9,2026-01-04T06:33:38Z,C3,Closed
+Store,DEFAULT,Direct Debit,Phone,Jon Abel,193.0,2026-05-01T00:51:31Z,B2,In review
+Phone,DEFAULT,Direct Debit,Store,Ines Nwosu,154.9,2026-08-06T07:47:47Z,B2,In review
+Store,DEFAULT,Gift Voucher,Online,Ben Abel,149.9,2026-09-11T14:08:18Z,A1,Open
+Phone,DEFAULT,Gift Voucher,Store,Dev Brandt,160.0,2026-03-15T15:56:36Z,B2,In review
+Phone,DEFAULT,Bank Transfer,Marketplace,Chloe Petrov,180.3,2026-06-19T13:59:18Z,D4,Cancelled
+Marketplace,DEFAULT,Direct Debit,Online,Luca Farrow,149.9,2026-08-18T15:51:18Z,A1,Open
+Online,DEFAULT,Credit Card,Marketplace,Farid Ito,175.3,2026-02-14T13:38:31Z,D4,Cancelled
+Marketplace,DEFAULT,Gift Voucher,Phone,Ines Petrov,182.9,2026-04-22T21:45:35Z,C3,Closed
+Online,DEFAULT,Gift Voucher,Marketplace,Jon Nwosu,149.9,2026-01-06T11:14:51Z,C3,Closed
+Marketplace,DEFAULT,Gift Voucher,Marketplace,Farid Farrow,195.6,2026-04-28T17:08:10Z,C3,Closed
+Store,DEFAULT,Direct Debit,Store,Chloe Ito,170.2,2026-06-13T11:28:12Z,B2,In review
+Marketplace,DEFAULT,Bank Transfer,Store,Mona Nwosu,152.4,2026-05-21T01:37:37Z,A1,Open
+Online,DEFAULT,Gift Voucher,Marketplace,Luca Ito,195.6,2026-09-12T06:50:43Z,C3,Closed
+Online,DEFAULT,Credit Card,Online,Farid Castro,182.9,2026-10-17T21:03:52Z,A1,Open
+Phone,DEFAULT,Credit Card,Online,Noor Ito,175.3,2026-09-09T22:22:37Z,B2,In review
+Store,DEFAULT,Direct Debit,Store,Omar Lindqvist,182.9,2026-03-16T03:59:51Z,C3,Closed
+Online,DEFAULT,Credit Card,Online,Hiro Brandt,160.0,2026-02-22T18:37:55Z,A1,Open
+Online,DEFAULT,Direct Debit,Marketplace,Kemi Jensen,147.3,2026-09-28T19:27:06Z,B2,In review
+Phone,DEFAULT,Gift Voucher,Marketplace,Farid Farrow,152.4,2026-04-05T15:13:45Z,A1,Open
+Online,DEFAULT,Bank Transfer,Phone,Ben Petrov,188.0,2026-06-02T02:13:05Z,D4,Cancelled
+Store,DEFAULT,Bank Transfer,Marketplace,Ben Abel,165.1,2026-05-17T04:46:21Z,C3,Closed
+Marketplace,DEFAULT,Gift Voucher,Marketplace,Hiro Farrow,160.0,2026-07-10T13:14:51Z,C3,Closed
+Marketplace,DEFAULT,Gift Voucher,Marketplace,Omar Gallo,182.9,2026-02-09T15:54:24Z,C3,Closed
+Phone,DEFAULT,Bank Transfer,Marketplace,Mona Moreau,165.1,2026-02-24T13:46:50Z,D4,Cancelled
+Marketplace,DEFAULT,Bank Transfer,Marketplace,Dev Dunne,180.3,2026-10-15T05:57:42Z,B2,In review
+Store,DEFAULT,Direct Debit,Store,Luca Petrov,152.4,2026-06-17T19:07:25Z,C3,Closed
+Phone,DEFAULT,Bank Transfer,Online,Noor Dunne,188.0,2026-03-10T07:25:14Z,C3,Closed
+Phone,DEFAULT,Bank Transfer,Phone,Mona Koval,160.0,2026-01-23T01:21:22Z,A1,Open
+Phone,DEFAULT,Bank Transfer,Online,Chloe Ortiz,160.0,2026-05-14T13:44:48Z,C3,Closed
+Store,DEFAULT,Gift Voucher,Online,Jon Haas,195.6,2026-10-15T22:07:04Z,B2,In review
+Store,DEFAULT,Bank Transfer,Phone,Mona Farrow,195.6,2026-06-14T00:48:38Z,A1,Open
+Online,DEFAULT,Direct Debit,Phone,Luca Castro,165.1,2026-05-17T10:39:06Z,A1,Open
+Phone,DEFAULT,Credit Card,Store,Omar Koval,165.1,2026-02-01T08:26:42Z,B2,In review
+Store,DEFAULT,Direct Debit,Store,Farid Farrow,177.8,2026-03-27T14:30:24Z,A1,Open
+Online,DEFAULT,Bank Transfer,Store,Elif Brandt,149.9,2026-07-15T02:04:58Z,B2,In review
+Phone,DEFAULT,Bank Transfer,Phone,Hiro Petrov,185.4,2026-01-25T19:00:24Z,B2,In review
+Marketplace,DEFAULT,Credit Card,Online,Luca Koval,193.0,2026-08-17T01:51:09Z,B2,In review
+Online,DEFAULT,Direct Debit,Marketplace,Noor Ortiz,160.0,2026-07-23T08:04:30Z,C3,Closed
+Phone,DEFAULT,Gift Voucher,Online,Luca Castro,157.5,2026-07-25T16:17:00Z,D4,Cancelled
+Store,DEFAULT,Gift Voucher,Phone,Hiro Nwosu,157.5,2026-10-08T06:46:07Z,C3,Closed
+Store,DEFAULT,Bank Transfer,Store,Hiro Ortiz,154.9,2026-07-02T07:52:41Z,C3,Closed
+Marketplace,DEFAULT,Direct Debit,Online,Noor Moreau,167.6,2026-09-05T01:16:42Z,C3,Closed
+Online,DEFAULT,Gift Voucher,Phone,Luca Eze,190.5,2026-09-29T08:57:19Z,D4,Cancelled
+Phone,DEFAULT,Direct Debit,Marketplace,Elif Ortiz,195.6,2026-05-26T09:19:32Z,D4,Cancelled
+Store,DEFAULT,Credit Card,Store,Hiro Castro,157.5,2026-05-07T11:37:26Z,C3,Closed
+Store,DEFAULT,Direct Debit,Phone,Ben Gallo,154.9,2026-03-24T06:22:01Z,A1,Open
+Store,DEFAULT,Direct Debit,Online,Hiro Ito,188.0,2026-02-03T22:18:42Z,D4,Cancelled
+Phone,DEFAULT,Gift Voucher,Phone,Priya Dunne,152.4,2026-01-09T10:12:09Z,A1,Open
+Marketplace,DEFAULT,Credit Card,Online,Omar Moreau,180.3,2026-01-06T15:20:12Z,D4,Cancelled
+Online,DEFAULT,Gift Voucher,Marketplace,Grace Petrov,172.7,2026-05-13T08:25:31Z,D4,Cancelled
+Marketplace,DEFAULT,Credit Card,Phone,Omar Dunne,154.9,2026-03-31T04:28:55Z,B2,In review
+Store,DEFAULT,Bank Transfer,Phone,Luca Jensen,172.7,2026-07-27T15:29:40Z,B2,In review
+Phone,DEFAULT,Gift Voucher,Online,Priya Gallo,147.3,2026-01-15T00:04:31Z,B2,In review
+Online,DEFAULT,Credit Card,Marketplace,Hiro Gallo,162.6,2026-02-01T00:04:40Z,C3,Closed
+Store,DEFAULT,Bank Transfer,Store,Dev Ortiz,154.9,2026-02-02T01:10:44Z,D4,Cancelled
+Store,DEFAULT,Credit Card,Store,Priya Castro,193.0,2026-10-19T12:27:15Z,A1,Open
+Store,DEFAULT,Gift Voucher,Marketplace,Jon Moreau,162.6,2026-09-28T13:24:36Z,D4,Cancelled
+Online,DEFAULT,Credit Card,Store,Grace Haas,147.3,2026-03-08T18:27:55Z,A1,Open
+Online,DEFAULT,Bank Transfer,Online,Ana Brandt,165.1,2026-05-27T11:49:13Z,D4,Cancelled
+Online,DEFAULT,Gift Voucher,Store,Jon Lindqvist,185.4,2026-06-02T23:30:29Z,A1,Open
+Store,DEFAULT,Credit Card,Online,Ines Dunne,167.6,2026-04-20T13:45:18Z,C3,Closed
+Online,DEFAULT,Bank Transfer,Marketplace,Chloe Abel,198.1,2026-05-28T22:15:09Z,D4,Cancelled
+Store,DEFAULT,Gift Voucher,Store,Jon Farrow,172.7,2026-02-18T08:11:49Z,C3,Closed
+Online,DEFAULT,Credit Card,Online,Hiro Ortiz,177.8,2026-07-22T01:38:43Z,C3,Closed
+Phone,DEFAULT,Bank Transfer,Phone,Farid Lindqvist,165.1,2026-01-30T16:29:57Z,D4,Cancelled
+Phone,DEFAULT,Gift Voucher,Phone,Omar Koval,198.1,2026-03-03T13:01:06Z,B2,In review
+Online,DEFAULT,Bank Transfer,Online,Luca Moreau,157.5,2026-07-30T01:22:45Z,D4,Cancelled
+Phone,DEFAULT,Credit Card,Phone,Dev Eze,185.4,2026-05-23T10:14:59Z,B2,In review
+Marketplace,DEFAULT,Direct Debit,Store,Ben Dunne,198.1,2026-01-17T16:58:16Z,B2,In review
+Marketplace,DEFAULT,Gift Voucher,Store,Dev Petrov,182.9,2026-09-14T16:44:41Z,A1,Open
+Store,DEFAULT,Direct Debit,Phone,Jon Brandt,172.7,2026-10-26T19:04:03Z,C3,Closed
+Online,DEFAULT,Bank Transfer,Online,Grace Farrow,188.0,2026-10-21T05:09:52Z,D4,Cancelled
+Marketplace,DEFAULT,Direct Debit,Online,Noor Jensen,195.6,2026-01-20T23:02:41Z,B2,In review
+Online,DEFAULT,Gift Voucher,Phone,Hiro Castro,157.5,2026-07-18T10:05:42Z,C3,Closed
+Online,DEFAULT,Direct Debit,Phone,Mona Jensen,165.1,2026-09-13T00:04:04Z,A1,Open
+Marketplace,DEFAULT,Gift Voucher,Phone,Ben Castro,188.0,2026-08-16T01:42:11Z,B2,In review
+Store,DEFAULT,Direct Debit,Store,Omar Gallo,188.0,2026-10-04T14:39:03Z,D4,Cancelled
+Online,DEFAULT,Gift Voucher,Store,Jon Lindqvist,193.0,2026-02-02T16:43:16Z,C3,Closed
+Store,DEFAULT,Gift Voucher,Phone,Farid Lindqvist,195.6,2026-09-20T03:23:07Z,A1,Open
+Online,DEFAULT,Direct Debit,Phone,Priya Jensen,180.3,2026-02-08T09:55:32Z,B2,In review
+Phone,DEFAULT,Gift Voucher,Phone,Elif Moreau,149.9,2026-05-25T00:12:08Z,D4,Cancelled
+Phone,DEFAULT,Gift Voucher,Marketplace,Ines Castro,195.6,2026-02-18T12:45:49Z,A1,Open
+Marketplace,DEFAULT,Bank Transfer,Phone,Luca Eze,185.4,2026-05-19T02:59:35Z,A1,Open
+Phone,DEFAULT,Gift Voucher,Store,Mona Nwosu,157.5,2026-07-08T16:57:26Z,A1,Open
+Marketplace,DEFAULT,Bank Transfer,Marketplace,Kemi Nwosu,154.9,2026-01-23T15:55:41Z,A1,Open
+Marketplace,DEFAULT,Direct Debit,Marketplace,Hiro Abel,172.7,2026-01-25T03:04:07Z,A1,Open
+Phone,DEFAULT,Direct Debit,Marketplace,Elif Moreau,167.6,2026-02-08T13:20:10Z,C3,Closed
+Store,DEFAULT,Direct Debit,Phone,Ines Haas,195.6,2026-03-19T08:49:48Z,A1,Open
+Marketplace,DEFAULT,Gift Voucher,Store,Jon Koval,177.8,2026-02-11T18:13:57Z,A1,Open
+Phone,DEFAULT,Bank Transfer,Phone,Ben Koval,198.1,2026-01-31T11:52:30Z,C3,Closed
+Phone,DEFAULT,Credit Card,Phone,Mona Moreau,147.3,2026-07-09T16:43:33Z,A1,Open
+Marketplace,DEFAULT,Gift Voucher,Online,Farid Castro,190.5,2026-03-24T17:45:10Z,B2,In review
+Marketplace,DEFAULT,Bank Transfer,Phone,Ben Moreau,149.9,2026-03-16T08:07:21Z,D4,Cancelled
+Store,DEFAULT,Credit Card,Phone,Jon Dunne,177.8,2026-09-29T02:15:27Z,A1,Open
+Online,DEFAULT,Bank Transfer,Store,Noor Moreau,185.4,2026-06-05T10:33:32Z,D4,Cancelled
+Store,DEFAULT,Bank Transfer,Marketplace,Ines Ortiz,157.5,2026-04-16T11:43:50Z,C3,Closed

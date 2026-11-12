@@ -1,0 +1,121 @@
+status_cd,status_desc,btrg_er,pay_type,full_name,total,v3,qty,unit_price,line_total,cls
+C3,Closed,141115.57,Direct Debit,Grace Ortiz,458.73,65,6,28.93,173.58,Q4
+C3,Closed,54623.08,Gift Voucher,Hiro Jensen,6.92,67,6,36.22,217.32,Z9
+A1,Open,249715.09,Bank Transfer,Kemi Lindqvist,758.07,59,6,22.59,135.54,K1
+B2,In review,59848.64,Gift Voucher,Noor Jensen,706.94,59,30,37.3,1119.0,K1
+C3,Closed,234694.65,Direct Debit,Priya Koval,293.19,73,12,6.98,83.76,Z9
+D4,Cancelled,20338.64,Gift Voucher,Ines Ortiz,16.79,67,24,7.44,178.56,K2
+D4,Cancelled,29370.78,Gift Voucher,Ines Jensen,376.17,58,18,39.53,711.54,Q4
+C3,Closed,82593.46,Bank Transfer,Noor Nwosu,667.35,71,36,38.23,1376.28,Q4
+A1,Open,41048.69,Credit Card,Elif Ortiz,892.28,71,30,10.1,303.0,K2
+C3,Closed,23461.31,Credit Card,Elif Dunne,760.65,61,12,30.45,365.4,Q4
+A1,Open,48592.67,Direct Debit,Elif Jensen,346.76,64,12,8.51,102.12,K1
+C3,Closed,144008.25,Direct Debit,Mona Petrov,191.34,70,30,10.25,307.5,K2
+A1,Open,238325.25,Direct Debit,Dev Eze,634.56,69,6,7.67,46.02,K1
+A1,Open,160783.51,Gift Voucher,Hiro Ortiz,578.66,70,24,10.06,241.44,R7
+D4,Cancelled,169938.92,Bank Transfer,Omar Dunne,797.8,70,18,24.31,437.58,K2
+A1,Open,141235.64,Credit Card,Ines Brandt,266.31,59,18,2.73,49.14,Z9
+D4,Cancelled,241295.51,Bank Transfer,Farid Gallo,348.95,63,30,28.11,843.3,R7
+B2,In review,47837.45,Direct Debit,Dev Moreau,157.41,62,24,38.28,918.72,K1
+C3,Closed,241598.01,Direct Debit,Grace Brandt,790.14,71,12,36.2,434.4,K2
+D4,Cancelled,56087.13,Credit Card,Noor Nwosu,213.68,62,6,2.7,16.2,Q4
+B2,In review,187462.29,Gift Voucher,Jon Ito,516.06,68,24,27.75,666.0,K1
+B2,In review,16505.71,Direct Debit,Elif Ito,39.73,74,6,5.94,35.64,K2
+D4,Cancelled,78443.32,Gift Voucher,Ana Ito,846.45,68,6,22.41,134.46,Z9
+D4,Cancelled,237379.86,Credit Card,Omar Ortiz,283.6,75,12,14.0,168.0,R7
+A1,Open,125774.61,Direct Debit,Mona Moreau,372.98,72,18,38.66,695.88,K1
+B2,In review,85943.12,Bank Transfer,Ben Brandt,612.42,68,36,35.91,1292.76,Q4
+A1,Open,235605.35,Gift Voucher,Ana Lindqvist,262.98,74,6,9.74,58.44,Z9
+D4,Cancelled,122736.08,Gift Voucher,Noor Abel,376.24,65,30,2.63,78.9,Z9
+B2,In review,246832.67,Credit Card,Ana Koval,667.48,67,36,15.8,568.8,Z9
+A1,Open,50798.75,Gift Voucher,Ana Petrov,776.41,76,12,24.47,293.64,Q4
+C3,Closed,104928.37,Gift Voucher,Dev Ito,621.75,67,12,22.66,271.92,Z9
+A1,Open,160715.21,Direct Debit,Grace Petrov,826.73,63,24,2.75,66.0,K2
+C3,Closed,44486.94,Bank Transfer,Jon Lindqvist,37.76,70,6,2.43,14.58,Z9
+A1,Open,168505.16,Gift Voucher,Ines Eze,561.61,75,6,3.6,21.6,K2
+D4,Cancelled,159516.72,Credit Card,Kemi Lindqvist,571.57,66,6,2.68,16.08,K2
+C3,Closed,26082.77,Direct Debit,Omar Petrov,544.0,71,12,9.03,108.36,Q4
+A1,Open,24352.56,Direct Debit,Hiro Lindqvist,621.92,64,36,17.38,625.68,K1
+A1,Open,124392.16,Bank Transfer,Jon Eze,608.37,70,24,9.72,233.28,K1
+B2,In review,243888.39,Credit Card,Omar Brandt,796.94,74,18,33.14,596.52,Q4
+D4,Cancelled,76983.25,Gift Voucher,Noor Castro,160.06,76,18,2.73,49.14,Q4
+B2,In review,206612.18,Bank Transfer,Ben Ortiz,671.64,75,30,24.76,742.8,Q4
+A1,Open,143066.66,Gift Voucher,Noor Jensen,881.15,70,12,8.73,104.76,R7
+A1,Open,91103.16,Credit Card,Luca Gallo,515.66,64,18,17.86,321.48,K1
+D4,Cancelled,216977.56,Direct Debit,Hiro Farrow,211.66,63,24,13.12,314.88,K1
+B2,In review,6302.59,Credit Card,Grace Ortiz,25.77,59,30,19.29,578.7,Z9
+D4,Cancelled,51801.96,Credit Card,Chloe Jensen,712.6,65,18,36.26,652.68,K2
+B2,In review,5353.4,Credit Card,Grace Abel,158.8,68,18,5.34,96.12,R7
+C3,Closed,181320.33,Credit Card,Grace Nwosu,640.02,64,30,19.65,589.5,Z9
+D4,Cancelled,233734.83,Bank Transfer,Elif Moreau,554.04,59,30,17.2,516.0,Q4
+D4,Cancelled,92485.17,Bank Transfer,Noor Haas,300.61,75,24,6.61,158.64,Z9
+C3,Closed,205742.05,Gift Voucher,Chloe Eze,334.55,73,18,32.37,582.66,Z9
+B2,In review,101921.36,Credit Card,Mona Nwosu,354.44,67,12,15.43,185.16,R7
+A1,Open,33083.16,Direct Debit,Ana Haas,882.05,69,18,20.85,375.3,Q4
+B2,In review,132259.42,Bank Transfer,Jon Farrow,96.55,67,6,38.83,232.98,Z9
+C3,Closed,144057.46,Gift Voucher,Priya Nwosu,845.69,67,12,2.46,29.52,K2
+A1,Open,134968.67,Direct Debit,Luca Jensen,695.91,67,36,31.97,1150.92,Q4
+D4,Cancelled,132890.93,Credit Card,Omar Petrov,303.58,62,30,34.02,1020.6,R7
+B2,In review,205026.85,Credit Card,Mona Nwosu,291.13,71,36,21.24,764.64,Z9
+B2,In review,182745.5,Gift Voucher,Ana Eze,600.28,74,18,6.22,111.96,K1
+A1,Open,24384.25,Direct Debit,Ines Ortiz,731.07,64,30,32.62,978.6,Z9
+C3,Closed,235537.48,Bank Transfer,Grace Haas,218.65,61,24,4.94,118.56,Q4
+A1,Open,101543.85,Gift Voucher,Grace Haas,261.54,64,24,33.19,796.56,K1
+A1,Open,94767.29,Credit Card,Chloe Koval,203.63,71,36,31.43,1131.48,Z9
+C3,Closed,117451.83,Gift Voucher,Priya Eze,497.9,69,18,14.26,256.68,Z9
+A1,Open,199025.24,Credit Card,Ben Jensen,420.26,70,36,18.31,659.16,K1
+D4,Cancelled,50696.74,Direct Debit,Ines Ortiz,526.25,74,24,16.23,389.52,K2
+A1,Open,185420.32,Credit Card,Hiro Moreau,805.2,76,12,12.56,150.72,K2
+C3,Closed,162805.51,Bank Transfer,Dev Haas,19.16,75,6,28.8,172.8,K2
+A1,Open,214997.15,Gift Voucher,Kemi Moreau,132.57,72,6,31.72,190.32,Q4
+A1,Open,112667.77,Direct Debit,Luca Ortiz,581.25,63,18,10.61,190.98,Z9
+B2,In review,113183.14,Credit Card,Ana Castro,295.68,65,36,11.93,429.48,Z9
+D4,Cancelled,64687.71,Gift Voucher,Kemi Gallo,226.6,64,12,8.62,103.44,R7
+D4,Cancelled,174908.66,Direct Debit,Luca Koval,110.68,61,30,34.8,1044.0,Q4
+C3,Closed,198816.77,Bank Transfer,Hiro Petrov,730.01,73,36,38.21,1375.56,R7
+B2,In review,236873.59,Gift Voucher,Kemi Dunne,532.23,66,30,27.45,823.5,Q4
+D4,Cancelled,180043.47,Bank Transfer,Grace Jensen,443.2,62,30,21.85,655.5,K1
+D4,Cancelled,56551.83,Credit Card,Hiro Koval,482.77,59,24,24.04,576.96,K2
+D4,Cancelled,205786.32,Bank Transfer,Hiro Abel,361.28,60,6,34.53,207.18,Q4
+B2,In review,196077.55,Credit Card,Omar Lindqvist,736.27,62,24,18.28,438.72,K1
+B2,In review,22344.3,Credit Card,Noor Gallo,388.49,64,6,14.25,85.5,K1
+A1,Open,155862.67,Credit Card,Priya Brandt,293.02,74,30,5.44,163.2,K2
+D4,Cancelled,121064.54,Direct Debit,Hiro Moreau,130.17,73,6,6.14,36.84,K1
+D4,Cancelled,171199.25,Credit Card,Chloe Moreau,32.35,74,18,6.9,124.2,R7
+C3,Closed,111336.8,Bank Transfer,Grace Ito,181.31,62,18,3.62,65.16,R7
+D4,Cancelled,53352.62,Credit Card,Priya Petrov,655.82,64,12,12.54,150.48,K2
+B2,In review,116140.13,Credit Card,Luca Petrov,88.78,61,36,36.35,1308.6,R7
+C3,Closed,111193.59,Bank Transfer,Ana Nwosu,231.1,72,12,37.69,452.28,K1
+B2,In review,167748.13,Direct Debit,Hiro Abel,436.27,72,12,10.72,128.64,R7
+C3,Closed,23905.69,Bank Transfer,Grace Brandt,399.51,68,36,39.75,1431.0,R7
+D4,Cancelled,195539.33,Credit Card,Elif Eze,281.73,58,6,8.23,49.38,K2
+D4,Cancelled,110739.59,Bank Transfer,Omar Koval,420.42,65,12,12.82,153.84,K1
+A1,Open,80404.05,Direct Debit,Luca Lindqvist,6.18,64,12,10.62,127.44,Q4
+D4,Cancelled,100431.64,Gift Voucher,Ben Gallo,682.07,69,18,3.78,68.04,Q4
+A1,Open,215123.91,Direct Debit,Kemi Petrov,749.47,58,30,2.62,78.6,K1
+B2,In review,77201.59,Direct Debit,Jon Nwosu,278.5,67,12,33.52,402.24,Q4
+A1,Open,169828.11,Credit Card,Chloe Koval,798.3,61,12,19.01,228.12,K2
+D4,Cancelled,70618.04,Direct Debit,Grace Farrow,772.29,61,18,16.59,298.62,K1
+C3,Closed,33312.13,Gift Voucher,Dev Lindqvist,68.39,59,30,16.6,498.0,Z9
+C3,Closed,82257.31,Bank Transfer,Grace Castro,327.41,60,30,32.37,971.1,Q4
+A1,Open,85329.11,Bank Transfer,Kemi Dunne,796.13,62,24,9.08,217.92,Q4
+D4,Cancelled,92532.38,Direct Debit,Ben Moreau,593.59,61,12,38.55,462.6,K1
+C3,Closed,165508.78,Direct Debit,Ana Petrov,199.7,68,18,21.68,390.24,K2
+D4,Cancelled,25789.41,Credit Card,Hiro Castro,594.88,62,6,20.85,125.1,K2
+B2,In review,65938.62,Gift Voucher,Noor Nwosu,815.27,72,12,6.8,81.6,Q4
+D4,Cancelled,47409.13,Gift Voucher,Priya Koval,546.58,71,18,5.59,100.62,K1
+D4,Cancelled,236616.36,Gift Voucher,Jon Eze,302.81,69,18,24.71,444.78,Q4
+D4,Cancelled,185417.56,Gift Voucher,Ines Abel,589.41,68,12,21.9,262.8,Q4
+C3,Closed,71045.53,Gift Voucher,Omar Koval,62.47,58,30,27.19,815.7,Q4
+C3,Closed,223594.84,Credit Card,Luca Brandt,658.14,58,6,33.2,199.2,R7
+C3,Closed,38816.07,Gift Voucher,Elif Lindqvist,313.98,66,6,19.38,116.28,Z9
+C3,Closed,125046.45,Gift Voucher,Ben Gallo,401.15,60,36,19.64,707.04,R7
+B2,In review,248873.58,Gift Voucher,Ines Gallo,297.56,60,30,19.55,586.5,K1
+C3,Closed,110250.93,Bank Transfer,Ana Haas,183.03,74,6,10.39,62.34,K2
+A1,Open,80368.73,Credit Card,Priya Ortiz,217.38,58,30,36.69,1100.7,Q4
+C3,Closed,148202.09,Credit Card,Farid Jensen,464.65,75,6,28.1,168.6,K1
+C3,Closed,75520.61,Credit Card,Ben Castro,865.11,63,30,22.25,667.5,Q4
+B2,In review,66995.46,Bank Transfer,Chloe Jensen,393.18,62,24,19.97,479.28,Z9
+A1,Open,237428.49,Credit Card,Chloe Koval,856.46,58,24,10.69,256.56,Z9
+D4,Cancelled,59920.18,Gift Voucher,Mona Koval,815.43,67,30,33.81,1014.3,K2
+B2,In review,193056.08,Gift Voucher,Hiro Nwosu,553.9,73,36,22.94,825.84,Z9

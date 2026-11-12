@@ -27,6 +27,7 @@ While building accessible chart descriptions, I found that AI chart errors are m
 | [`scorer/`](scorer/) | Prototype scorer: reads a data dictionary export, assigns each table a level, writes a scorecard and owner work lists |
 | [`docs/openmetadata.md`](docs/openmetadata.md) | What OpenMetadata covers, and why the scorer reads from it instead of living inside it |
 | [`certainty/`](certainty/) | Two tests of how certain a model is about what data means, and whether that certainty is earned |
+| [`certainty/testset/`](certainty/testset/) | 648 labelled columns in raw and clean form, covering 54 kinds of case from ready to garbage, with a tested answer key |
 | [Proposal page](https://tayler-erbe.github.io/enterprise-data-readiness-framework/) | The idea on one page |
 
 ## Status

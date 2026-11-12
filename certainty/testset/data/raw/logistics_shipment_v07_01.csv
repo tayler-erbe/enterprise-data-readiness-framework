@@ -1,0 +1,121 @@
+closed_date,payment_method,received_date,amount,cstmr_nm,fld_12,email,col_x
+1900-01-01,Credit Card,2022/12/29,Rail,JÃ¼rgen KÃ¶hler,61,elif.koval,a897abf67b4e
+2025-06-08,Credit Card,"Nov 06, 2026",716.96,Zoë Müller,61,chloe.lind,a15420479e16
+1900-01-01,Gift  Voucher,2022/08/09,11.45,JÃ¼rgen KÃ¶hler,62,chloe.eze@,6d961977ef4f
+2022-04-29,Gift-Voucher,21 Jul 2026,317.84,RenÃ©e FranÃ§ois,74,hiro.abel@,2696637aa5dd
+2026-02-05,gift voucher,"Dec 06, 2024",641.86,Jürgen Köhler,66,mona.koval,b857b1206394
+2024-02-17,Bank-Transfer,27 Mar 2025,536.04,ChloÃ© LefÃ¨vre,72,farid.farr,0e7da4b49623
+1900-01-01,Credit Card,2021-12-18,2022-12-22,Noémie Güell,65,ana.moreau,0b835b898a58
+1900-01-01,Gift Voucher,"Dec 15, 2021",2023-10-20,Renée François,67,hiro.gallo,a8967aff193f
+1900-01-01,Bank Transfer,18 May 2022,109.65,Noémie Güell,69,ben.dunne@,44b6ec4eced0
+2024-10-27,direct debit,2025/03/21,Dunne,Zoë Müller,68,jon.ito@ex,d3e3911ae4e5
+2022-11-03,Gift  Voucher,07 Dec 2021,2023-09-18,ZoÃ« MÃ¼ller,74,chloe.haas,43f8c50538b2
+2024-07-10,Credit Card,"Sep 03, 2026",192.12,Renée François,75,mona.brand,692da703a777
+2024-10-30,Bank Transfer.,2023-03-04,211.11,Zoë Müller,72,priya.cast,9cca7a53a39a
+2021-08-05,Credit Card,2021/07/14,647.79,Zoë Müller,58,kemi.jense,bbdae72e2e5f
+2022-02-09,Gift Voucher,2024/08/11,839.14,Chloé Lefèvre,63,noor.nwosu,3edc27e51f6a
+1900-01-01,Gift Voucher.,2023/12/20,#REF!,JÃ¼rgen KÃ¶hler,70,noor.lindq,e89800a1fbbe
+1900-01-01,Direct Debit,"Sep 04, 2026",145.96,RenÃ©e FranÃ§ois,65,ben.nwosu@,5b3d5ffb9489
+1900-01-01,Gift Voucher,"Dec 09, 2025",685.84,IÃ±igo PeÃ±a,73,elif.farro,5a9a48ce9372
+1900-01-01,Bank Transfer,2022/04/29,Nwosu,Jürgen Köhler,58,kemi.dunne,9d06ce4389ea
+2024-04-06,Direct Debit,2026-04-20,836.05,José Núñez,75,kemi.eze@e,a02e67d0eab7
+1900-01-01,Gift Voucher,"May 04, 2025",597.25,Renée François,62,chloe.bran,c17f7e89e581
+2023-08-14,CREDIT CARD,2026-04-21,Rail,Noémie Güell,75,chloe.nwos,1600e05e72b9
+1900-01-01,Direct Debit,2021/12/13,793.99,Jürgen Köhler,74,luca.eze@e,dbbe8697c31c
+1900-01-01,CREDIT CARD,2026/07/24,588.85,IÃ±igo PeÃ±a,63,noor.ortiz,e3fea11f919b
+2026-09-20,Gift Voucher.,"Jan 15, 2023",#REF!,ChloÃ© LefÃ¨vre,72,chloe.orti,5fae9a62c295
+1900-01-01,Gift Voucher,2022-09-23,2026-06-28,ChloÃ© LefÃ¨vre,61,ines.brand,b195fa82f322
+2026-09-05,Bank Transfer,11 Nov 2024,755.98,RenÃ©e FranÃ§ois,64,luca.morea,cdd3c4172a30
+2021-12-25,Direct Debit,13 Jun 2022,2026-10-07,SÃ¸ren Aaberg,74,jon.nwosu@,3d87e0b074c3
+2023-10-10,Credit Card,2021/08/08,275.31,José Núñez,68,ines.haas@,7624ae63fc81
+1900-01-01,DIRECT DEBIT,"May 24, 2024",Petrov,Renée François,63,dev.lindqv,a42948ad89ef
+1900-01-01,Credit Card,2022/08/11,77.01,Jürgen Köhler,75,ben.petrov,1e6b4be1f631
+2025-03-19,Bank Transfer.,21 Jan 2022,537.07,ZoÃ« MÃ¼ller,66,omar.gallo,d4a1f0967ed2
+2026-05-27,Credit Card,2024-01-27,543.17,Søren Aaberg,65,hiro.koval,030a9ce121a3
+2023-12-02,Direct  Debit,2023-07-04,Castro,SÃ¸ren Aaberg,72,dev.dunne@,0144653039c5
+2026-12-16,Bank Transfer,2023-03-08,373.78,José Núñez,58,grace.farr,efb56ce031c9
+1900-01-01,GIFT VOUCHER,2025/04/29,864.3,Renée François,68,kemi.ito@e,08d8c61e78bb
+2021-12-01,Direct Debit,"Oct 08, 2024",624.37,Chloé Lefèvre,71,dev.gallo@,460eda0d8e8a
+2023-03-16,direct debit,28 May 2026,251.96,José Núñez,75,farid.cast,99cfbcdd9912
+2022-09-06,Gift Voucher,19 Jun 2023,823.7,RenÃ©e FranÃ§ois,72,grace.ito@,bf908067c78a
+2025-05-13,Gift Voucher,24 Oct 2026,#REF!,Zoë Müller,67,grace.abel,9b0207405a58
+2021-01-22,Credit Card,2026/05/29,#REF!,JÃ¼rgen KÃ¶hler,62,hiro.gallo,4f0ddb2f9863
+2022-03-26,Gift-Voucher,"Apr 20, 2026",#REF!,JosÃ© NÃºÃ±ez,59,kemi.jense,3f5b3e943a08
+2023-12-06,Gift Voucher.,2023-10-06,Sea,ZoÃ« MÃ¼ller,69,ben.brandt,741034e05a7e
+2025-04-27,Direct Debit,"Oct 02, 2026",697.74,IÃ±igo PeÃ±a,61,ana.castro,aca10652b185
+2023-06-25,Gift Voucher,2024/07/10,497.86,Iñigo Peña,74,noor.nwosu,601d39c2449c
+1900-01-01,Direct Debit,"May 25, 2026",Road,IÃ±igo PeÃ±a,66,omar.ortiz,fa3c99d5cfe8
+2024-10-19,Credit Card,2024/11/06,518.58,IÃ±igo PeÃ±a,60,jon.koval@,84ab268d9d0f
+1900-01-01,Gift Voucher,15 Feb 2025,Sea,Zoë Müller,58,chloe.more,f9428c2e5e2a
+2022-05-07,Bank Transfer,"Jul 04, 2024",Sea,Renée François,74,noor.morea,688d02574ef2
+1900-01-01,Credit Card.,2024/03/23,Castro,JosÃ© NÃºÃ±ez,69,luca.farro,429310cb0a7d
+2026-08-04,gift voucher,08 Nov 2025,654.04,SÃ¸ren Aaberg,65,jon.eze@ex,bcc069c05220
+2021-09-12,Credit Card,2023/03/08,Sea,Noémie Güell,58,kemi.farro,124126c6e6f4
+2024-11-04,Direct Debit,"Jul 25, 2021",329.71,SÃ¸ren Aaberg,76,elif.brand,9c65c2f8ca3f
+2026-06-28,Direct Debit,2022/01/12,189.11,JÃ¼rgen KÃ¶hler,67,luca.eze@e,48e151c5f3b2
+2023-08-23,Gift Voucher,"Jul 06, 2026",Air,JÃ¼rgen KÃ¶hler,66,elif.haas@,ea97e2662dfe
+2023-07-23,Bank Transfer,"Jan 22, 2026",2024-05-19,ZoÃ« MÃ¼ller,68,noor.castr,6b5bf57c385c
+1900-01-01,Gift Voucher,2021/02/20,649.3,Søren Aaberg,61,priya.jens,1d77f2f40895
+2022-10-08,Direct-Debit,"Sep 21, 2026",321.68,Noémie Güell,58,omar.castr,a7a34bb7bfe9
+1900-01-01,Credit Card,10 Feb 2021,446.81,JosÃ© NÃºÃ±ez,70,ana.castro,c9c08b5c185e
+2024-07-02,Credit Card,2025/02/24,Sea,ZoÃ« MÃ¼ller,58,grace.farr,e914c96fcfcc
+1900-01-01,Direct Debit,2021-03-13,668.38,Zoë Müller,65,jon.farrow,eac5266997d3
+2023-12-22,Gift Voucher,2022/12/18,845.49,NoÃ©mie GÃ¼ell,66,farid.petr,7b460ed5f0ca
+2024-06-02,Direct-Debit,2021/11/05,2025-04-25,ChloÃ© LefÃ¨vre,76,ana.eze@ex,95c66fe911f2
+2022-02-20,Gift Voucher,14 Aug 2024,Haas,ZoÃ« MÃ¼ller,60,chloe.nwos,6c5e5d734262
+2021-07-21,Gift Voucher,21 Jul 2026,170.65,José Núñez,76,omar.koval,b45d0bde9f6c
+2026-07-02,Bank-Transfer,2024-04-06,#REF!,Zoë Müller,58,ines.jense,0d66744514cd
+2026-05-26,Bank Transfer,2022/12/10,Road,ChloÃ© LefÃ¨vre,74,chloe.petr,088c58c0e04c
+2024-08-03,Bank Transfer,2021/11/07,74.82,Iñigo Peña,75,priya.dunn,aec3b1777315
+1900-01-01,Bank Transfer,"Jul 19, 2023",116.88,Noémie Güell,65,farid.eze@,758d4af7d30c
+1900-01-01,Direct Debit,2022/07/23,#REF!,Zoë Müller,67,ines.morea,66bd48278499
+2026-03-18,Bank Transfer,"Oct 10, 2021",502.85,JosÃ© NÃºÃ±ez,60,farid.nwos,f56e7febe920
+2026-09-20,direct debit,19 Nov 2021,#REF!,IÃ±igo PeÃ±a,73,chloe.gall,74d0b59289e1
+1900-01-01,Gift Voucher.,2026/02/27,446.59,NoÃ©mie GÃ¼ell,68,luca.castr,96e2f2faaff4
+2023-02-25,bank transfer,"Apr 03, 2026",Road,RenÃ©e FranÃ§ois,66,mona.jense,1819b51f51d8
+2021-01-13,Gift Voucher,06 Nov 2022,500.85,IÃ±igo PeÃ±a,70,jon.jensen,4ac245c41849
+2021-11-15,Bank Transfer,2026/11/24,72.8,JosÃ© NÃºÃ±ez,61,luca.koval,62ebfebaff66
+2026-03-01,Direct Debit,2024-02-21,2022-04-28,ZoÃ« MÃ¼ller,71,mona.dunne,4b98550abf16
+1900-01-01,Direct Debit,"Aug 20, 2025",92.33,Zoë Müller,69,kemi.brand,7fbc996adf3e
+2022-11-21,BANK TRANSFER,"Jul 05, 2025",#REF!,IÃ±igo PeÃ±a,74,noor.gallo,b73899ca31af
+1900-01-01,Credit Card,2024-12-28,505.3,Renée François,76,chloe.ito@,07f7b4a29e7a
+2025-11-12,Bank Transfer,2026/03/02,570.88,NoÃ©mie GÃ¼ell,58,ben.nwosu@,9f4a90fbfc14
+2023-06-11,Credit Card,2024/01/04,626.55,Renée François,61,noor.dunne,ab79a79fa312
+1900-01-01,Direct Debit,28 Aug 2021,#REF!,Renée François,66,dev.ortiz@,bcf9e9b1542b
+2026-01-09,Gift Voucher,2025/03/17,152.32,JosÃ© NÃºÃ±ez,76,ines.brand,fdfa075f8c52
+2026-07-28,Credit-Card,2025/03/28,404.99,Iñigo Peña,74,mona.farro,4d3cf2b624ec
+1900-01-01,Bank Transfer,14 Jan 2024,Haas,Søren Aaberg,69,ana.nwosu@,1fb50fb2e8e1
+2025-05-25,Direct Debit,2026-03-04,293.73,Noémie Güell,60,jon.eze@ex,d20b77a54340
+1900-01-01,Gift Voucher,2025/01/03,Air,NoÃ©mie GÃ¼ell,64,noor.nwosu,c30b6d3b9b96
+2025-04-15,bank transfer,"Mar 21, 2023",119.05,ZoÃ« MÃ¼ller,72,farid.haas,17e4023f29d1
+2022-01-27,Direct Debit,"Jun 26, 2023",165.25,JÃ¼rgen KÃ¶hler,59,hiro.nwosu,9372fa96f7eb
+2021-03-17,Bank Transfer,02 Jan 2021,Ito,Renée François,68,farid.abel,c5e430b23332
+1900-01-01,Direct Debit,"Feb 12, 2022",82.08,Jürgen Köhler,66,grace.bran,51ad34d1da5c
+2021-06-06,gift voucher,2025-06-20,263.14,RenÃ©e FranÃ§ois,75,luca.farro,2b12469df951
+2026-10-11,Gift Voucher.,2021/03/01,173.68,SÃ¸ren Aaberg,72,ben.farrow,f859a90c605f
+2023-10-17,Direct Debit,2026-09-23,667.82,Jürgen Köhler,68,mona.eze@e,0c68730daca7
+1900-01-01,Gift Voucher,2023-03-05,228.49,Jürgen Köhler,65,ines.dunne,47a63644eda9
+2026-06-01,Bank Transfer,"Dec 01, 2022",371.83,Iñigo Peña,66,kemi.ito@e,7cd3075f305b
+2024-05-24,Gift Voucher,2024/09/19,#REF!,Noémie Güell,62,ines.petro,bd3fcafdf15f
+2026-09-23,GIFT VOUCHER,03 Mar 2024,19.58,JÃ¼rgen KÃ¶hler,58,noor.eze@e,98861bfe30de
+1900-01-01,Gift Voucher,2025/02/26,244.54,Jürgen Köhler,66,priya.petr,4ed20fce1b1e
+2023-04-27,Bank-Transfer,2022-09-17,Brandt,Renée François,73,hiro.ito@e,6c581f606974
+1900-01-01,Gift Voucher,"Apr 11, 2024",805.81,Renée François,73,hiro.jense,120e2d09fe21
+1900-01-01,Bank Transfer,"Feb 03, 2024",350.2,IÃ±igo PeÃ±a,70,elif.eze@e,ae08bf6d872e
+2024-03-16,Bank Transfer,14 Mar 2024,369.26,Chloé Lefèvre,58,mona.petro,05d334e4924e
+2022-10-30,Bank Transfer,19 Aug 2022,Rail,JÃ¼rgen KÃ¶hler,70,kemi.abel@,be62a75f48c5
+2026-03-01,Gift Voucher,2022/05/31,#REF!,José Núñez,73,elif.ito@e,d2f8bf59c5e3
+2023-07-20,Credit  Card,24 Aug 2023,657.3,RenÃ©e FranÃ§ois,66,mona.castr,f1761203590c
+2022-11-28,Gift Voucher,2026-06-30,834.99,SÃ¸ren Aaberg,73,chloe.lind,2bc3e9bce8e8
+2022-09-13,Gift Voucher,11 Dec 2022,Nwosu,ZoÃ« MÃ¼ller,61,elif.brand,bb7918d4ead8
+2024-07-23,Gift Voucher,2022/11/03,#REF!,JosÃ© NÃºÃ±ez,62,grace.nwos,4c213bd02c90
+2021-06-15,Bank Transfer,09 Mar 2025,561.96,Renée François,74,noor.haas@,31928944fc9f
+2023-04-23,bank transfer,2021/10/24,#REF!,Renée François,73,jon.moreau,ff4ca3865063
+1900-01-01,Direct Debit,2026-08-29,645.82,Iñigo Peña,70,omar.ito@e,69e27d09ac45
+2023-03-21,Bank Transfer,14 Jun 2023,Dunne,Noémie Güell,75,omar.morea,2a2b7f3606fb
+2021-05-11,Bank-Transfer,2022/02/02,#REF!,José Núñez,67,jon.dunne@,bdf3cede174a
+2024-06-01,Credit Card,2021/01/27,768.78,ZoÃ« MÃ¼ller,72,ben.petrov,bf5104ff0073
+2022-06-14,Bank Transfer,21 Jun 2023,Brandt,SÃ¸ren Aaberg,71,luca.abel@,38d7f1b0214b
+2024-02-23,Direct Debit,2026/06/16,493.91,RenÃ©e FranÃ§ois,71,chloe.bran,159b209c6a9b
+2021-06-09,Direct Debit,"Jul 07, 2025",615.64,Iñigo Peña,64,omar.castr,ba23ae60a64f
+2021-06-17,Gift Voucher,27 Oct 2022,772.95,RenÃ©e FranÃ§ois,67,grace.petr,d2d03b29b27d

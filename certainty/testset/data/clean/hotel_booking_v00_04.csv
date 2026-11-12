@@ -1,0 +1,121 @@
+late_days,discount_pct,bkng_id,eml,status_cd,status_desc,channel,invc_dt,contact
+5,66.3,BKG-63746,ines.brandt42@example.com,B2,In review,Corporate,2021-09-03,priya.more
+0,54.9,BKG-44964,omar.haas49@example.com,A1,Open,Group,2023-04-17,luca.gallo
+7,65.0,BKG-88522,ana.gallo5@example.com,A1,Open,Leisure,2025-02-14,hiro.abel@
+7,5.3,BKG-82185,priya.brandt94@example.com,A1,Open,Event,2026-09-03,noor.morea
+11,98.2,BKG-38930,omar.abel96@example.com,A1,Open,Event,2021-01-30,chloe.abel
+11,21.2,BKG-60895,priya.dunne60@example.com,A1,Open,Leisure,2024-08-01,jon.castro
+0,64.2,BKG-22673,noor.gallo72@example.com,B2,In review,Event,2026-03-05,farid.eze@
+10,1.8,BKG-50691,hiro.jensen30@example.com,C3,Closed,Event,2026-03-15,farid.dunn
+3,93.8,BKG-71076,grace.ito76@example.com,D4,Cancelled,Leisure,2023-11-25,jon.ito@ex
+8,37.0,BKG-88519,luca.dunne61@example.com,B2,In review,Leisure,2021-03-15,ines.castr
+1,40.3,BKG-89958,mona.brandt69@example.com,A1,Open,Corporate,2026-01-13,ben.abel@e
+2,58.9,BKG-41993,jon.koval65@example.com,B2,In review,Corporate,2022-12-18,priya.bran
+0,13.7,BKG-18346,ben.brandt70@example.com,B2,In review,Event,2025-09-03,elif.lindq
+5,38.6,BKG-62278,hiro.moreau69@example.com,B2,In review,Leisure,2022-05-28,ana.dunne@
+2,37.1,BKG-47017,ines.jensen75@example.com,A1,Open,Corporate,2026-09-05,noor.petro
+9,19.6,BKG-24051,dev.koval62@example.com,B2,In review,Corporate,2025-05-06,dev.nwosu@
+7,38.9,BKG-11992,omar.farrow87@example.com,C3,Closed,Group,2024-02-07,elif.koval
+0,34.5,BKG-45176,dev.castro61@example.com,B2,In review,Group,2021-01-16,grace.ito@
+10,78.2,BKG-24263,ana.dunne9@example.com,D4,Cancelled,Corporate,2024-11-20,luca.morea
+3,33.7,BKG-19638,noor.ito64@example.com,A1,Open,Corporate,2025-09-27,grace.haas
+7,6.1,BKG-92527,omar.gallo56@example.com,A1,Open,Group,2026-06-03,grace.ito@
+3,31.1,BKG-76038,jon.lindqvist30@example.com,A1,Open,Group,2023-10-31,elif.gallo
+4,59.7,BKG-22137,ines.ortiz16@example.com,A1,Open,Leisure,2022-02-17,elif.lindq
+0,81.2,BKG-98163,jon.jensen94@example.com,A1,Open,Leisure,2025-04-07,omar.morea
+1,24.3,BKG-45524,farid.jensen15@example.com,D4,Cancelled,Group,2021-02-02,priya.ito@
+0,38.6,BKG-55088,mona.brandt86@example.com,B2,In review,Leisure,2025-09-16,ana.brandt
+1,90.4,BKG-47557,luca.koval65@example.com,D4,Cancelled,Event,2023-06-02,omar.abel@
+3,5.4,BKG-62103,ben.dunne83@example.com,A1,Open,Event,2025-11-26,kemi.jense
+1,83.8,BKG-60840,chloe.eze14@example.com,A1,Open,Leisure,2021-12-05,dev.petrov
+4,19.4,BKG-51868,grace.haas76@example.com,A1,Open,Leisure,2024-04-21,ben.ito@ex
+0,2.9,BKG-51923,omar.moreau82@example.com,D4,Cancelled,Group,2025-08-08,elif.petro
+0,64.4,BKG-79326,chloe.ito6@example.com,B2,In review,Leisure,2023-07-15,ines.nwosu
+1,45.3,BKG-36961,omar.koval78@example.com,B2,In review,Leisure,2024-04-26,hiro.haas@
+12,41.9,BKG-95009,farid.castro86@example.com,A1,Open,Group,2024-03-07,kemi.jense
+7,0.2,BKG-80363,jon.eze89@example.com,D4,Cancelled,Group,2023-07-05,elif.lindq
+1,20.8,BKG-41243,omar.haas25@example.com,C3,Closed,Corporate,2022-12-02,farid.eze@
+0,9.8,BKG-70145,jon.brandt77@example.com,B2,In review,Group,2026-06-21,ana.moreau
+0,11.7,BKG-52771,hiro.castro22@example.com,D4,Cancelled,Corporate,2023-05-15,ana.moreau
+3,50.6,BKG-10461,grace.haas42@example.com,A1,Open,Leisure,2022-09-27,ben.koval@
+2,36.3,BKG-58677,elif.moreau10@example.com,A1,Open,Leisure,2025-03-19,mona.lindq
+4,7.2,BKG-10194,elif.koval82@example.com,D4,Cancelled,Corporate,2023-09-01,ines.nwosu
+1,75.0,BKG-37375,noor.lindqvist91@example.com,C3,Closed,Leisure,2026-09-22,ben.nwosu@
+6,13.0,BKG-52438,luca.ortiz20@example.com,C3,Closed,Corporate,2026-03-31,kemi.jense
+5,21.3,BKG-11557,mona.castro93@example.com,A1,Open,Leisure,2026-06-14,priya.farr
+10,93.5,BKG-14493,omar.farrow4@example.com,C3,Closed,Group,2021-07-23,hiro.abel@
+0,87.1,BKG-32407,kemi.haas70@example.com,C3,Closed,Leisure,2026-04-06,mona.castr
+9,67.8,BKG-49916,kemi.castro54@example.com,A1,Open,Event,2025-04-01,farid.nwos
+6,71.8,BKG-52536,dev.abel10@example.com,D4,Cancelled,Leisure,2021-10-05,noor.ortiz
+8,92.4,BKG-32268,luca.lindqvist35@example.com,B2,In review,Group,2022-12-05,grace.bran
+0,98.1,BKG-24227,priya.petrov86@example.com,A1,Open,Event,2026-05-30,priya.kova
+7,34.1,BKG-80047,farid.jensen32@example.com,A1,Open,Corporate,2026-12-28,omar.dunne
+4,51.8,BKG-37131,mona.ito85@example.com,B2,In review,Event,2021-12-29,luca.jense
+6,51.1,BKG-45094,dev.lindqvist26@example.com,B2,In review,Event,2023-06-30,grace.more
+12,80.7,BKG-42926,hiro.moreau77@example.com,A1,Open,Leisure,2024-04-10,luca.dunne
+9,58.5,BKG-99327,omar.lindqvist35@example.com,A1,Open,Leisure,2024-12-07,ana.dunne@
+8,3.4,BKG-43788,chloe.haas76@example.com,A1,Open,Corporate,2021-07-18,luca.farro
+0,78.0,BKG-22293,farid.abel45@example.com,A1,Open,Leisure,2026-06-19,farid.dunn
+11,60.9,BKG-19003,grace.ortiz63@example.com,B2,In review,Event,2024-03-09,noor.jense
+8,2.2,BKG-73465,luca.ito48@example.com,A1,Open,Corporate,2024-06-21,chloe.gall
+3,10.7,BKG-81636,ines.jensen73@example.com,C3,Closed,Corporate,2026-04-14,grace.abel
+9,61.1,BKG-31513,grace.castro77@example.com,A1,Open,Event,2023-10-21,chloe.jens
+7,94.4,BKG-63339,luca.petrov41@example.com,B2,In review,Leisure,2025-03-16,hiro.dunne
+10,74.1,BKG-89167,mona.ortiz50@example.com,C3,Closed,Corporate,2023-07-02,jon.petrov
+1,86.9,BKG-77537,ben.ito14@example.com,C3,Closed,Group,2025-11-21,dev.koval@
+0,71.5,BKG-78006,hiro.eze22@example.com,D4,Cancelled,Leisure,2022-02-24,mona.haas@
+1,35.8,BKG-11985,ben.lindqvist73@example.com,D4,Cancelled,Corporate,2024-03-14,kemi.farro
+8,9.3,BKG-33057,jon.lindqvist8@example.com,B2,In review,Group,2024-04-05,elif.abel@
+10,96.1,BKG-98419,farid.castro29@example.com,B2,In review,Leisure,2021-07-12,kemi.haas@
+0,76.3,BKG-70759,elif.abel95@example.com,D4,Cancelled,Event,2024-04-12,priya.more
+2,99.3,BKG-16832,grace.dunne97@example.com,A1,Open,Corporate,2023-11-26,elif.castr
+0,21.3,BKG-66807,ana.moreau85@example.com,A1,Open,Event,2024-01-06,dev.nwosu@
+0,82.9,BKG-67444,hiro.ito36@example.com,D4,Cancelled,Leisure,2026-09-01,elif.jense
+11,7.2,BKG-72738,priya.castro92@example.com,D4,Cancelled,Leisure,2025-09-13,noor.lindq
+9,36.0,BKG-50363,chloe.jensen66@example.com,B2,In review,Leisure,2021-01-22,grace.farr
+11,45.4,BKG-55611,ana.jensen55@example.com,B2,In review,Event,2023-07-18,chloe.petr
+0,46.0,BKG-94056,priya.haas18@example.com,C3,Closed,Group,2022-05-30,jon.ortiz@
+0,78.5,BKG-40026,luca.abel61@example.com,B2,In review,Corporate,2021-04-03,luca.farro
+8,16.3,BKG-98190,chloe.abel39@example.com,A1,Open,Corporate,2025-09-16,luca.nwosu
+8,96.0,BKG-55334,farid.nwosu69@example.com,D4,Cancelled,Corporate,2021-08-12,kemi.abel@
+9,38.3,BKG-99468,ines.ortiz25@example.com,B2,In review,Event,2023-04-18,ines.castr
+9,64.3,BKG-32505,ines.ortiz70@example.com,D4,Cancelled,Event,2025-05-31,ines.brand
+7,29.2,BKG-75591,kemi.ortiz85@example.com,C3,Closed,Group,2026-12-21,mona.morea
+6,70.0,BKG-33265,ines.eze27@example.com,D4,Cancelled,Leisure,2025-03-03,luca.abel@
+9,12.5,BKG-67744,dev.dunne91@example.com,D4,Cancelled,Event,2021-03-08,luca.petro
+0,13.6,BKG-49601,ines.petrov71@example.com,A1,Open,Corporate,2026-09-13,hiro.castr
+7,95.5,BKG-39245,chloe.moreau11@example.com,B2,In review,Event,2021-09-12,omar.brand
+0,76.9,BKG-39322,luca.abel30@example.com,A1,Open,Corporate,2021-09-09,grace.lind
+5,87.9,BKG-98065,grace.dunne13@example.com,A1,Open,Event,2026-04-02,ben.moreau
+10,45.3,BKG-65188,dev.eze92@example.com,D4,Cancelled,Event,2024-12-23,chloe.farr
+0,45.4,BKG-84464,priya.gallo13@example.com,C3,Closed,Leisure,2026-02-28,elif.ortiz
+11,68.7,BKG-85706,noor.castro33@example.com,B2,In review,Corporate,2021-12-30,mona.ortiz
+7,27.4,BKG-43902,omar.abel76@example.com,C3,Closed,Event,2025-11-30,ines.morea
+0,7.0,BKG-22540,grace.haas13@example.com,C3,Closed,Leisure,2023-10-09,noor.lindq
+7,65.7,BKG-50434,noor.koval7@example.com,B2,In review,Corporate,2024-12-07,ines.koval
+6,30.2,BKG-75642,ben.petrov73@example.com,B2,In review,Leisure,2023-07-30,ines.eze@e
+9,17.2,BKG-63589,chloe.gallo89@example.com,D4,Cancelled,Corporate,2026-11-05,ines.abel@
+0,94.1,BKG-39928,ben.gallo59@example.com,A1,Open,Leisure,2021-04-28,priya.bran
+4,66.3,BKG-48170,kemi.gallo1@example.com,C3,Closed,Corporate,2021-02-04,noor.koval
+8,99.8,BKG-65429,mona.nwosu26@example.com,D4,Cancelled,Corporate,2023-06-28,luca.farro
+9,47.3,BKG-66388,hiro.koval42@example.com,C3,Closed,Corporate,2025-02-07,luca.haas@
+2,0.9,BKG-69341,grace.haas10@example.com,D4,Cancelled,Corporate,2023-11-13,noor.nwosu
+1,83.8,BKG-12749,ines.haas19@example.com,D4,Cancelled,Event,2022-02-27,chloe.cast
+8,14.6,BKG-89763,ben.abel2@example.com,B2,In review,Corporate,2023-11-02,farid.jens
+0,23.5,BKG-67224,luca.koval38@example.com,C3,Closed,Event,2022-01-29,mona.nwosu
+11,5.4,BKG-47705,omar.ito66@example.com,A1,Open,Leisure,2025-07-03,farid.ito@
+0,41.2,BKG-29564,elif.koval86@example.com,A1,Open,Leisure,2022-11-26,dev.abel@e
+0,55.1,BKG-91539,elif.castro15@example.com,B2,In review,Leisure,2026-01-04,kemi.nwosu
+1,55.2,BKG-17233,ines.brandt19@example.com,D4,Cancelled,Leisure,2023-05-12,jon.brandt
+6,55.7,BKG-72774,hiro.haas87@example.com,D4,Cancelled,Event,2022-11-06,elif.lindq
+11,46.6,BKG-17275,ines.brandt68@example.com,C3,Closed,Leisure,2026-05-10,elif.abel@
+1,7.0,BKG-85290,dev.ortiz70@example.com,B2,In review,Leisure,2026-09-27,noor.gallo
+5,74.0,BKG-12513,chloe.brandt27@example.com,D4,Cancelled,Corporate,2025-04-13,elif.petro
+11,88.1,BKG-88979,ana.moreau53@example.com,C3,Closed,Group,2023-11-18,ben.gallo@
+2,71.2,BKG-91333,luca.gallo6@example.com,A1,Open,Corporate,2024-12-23,kemi.brand
+0,38.1,BKG-62630,noor.ortiz75@example.com,A1,Open,Group,2021-10-28,luca.brand
+0,73.6,BKG-40884,ines.lindqvist78@example.com,A1,Open,Leisure,2026-02-14,jon.farrow
+0,77.3,BKG-11147,luca.farrow33@example.com,B2,In review,Corporate,2024-07-01,mona.ortiz
+0,87.8,BKG-85303,priya.eze9@example.com,C3,Closed,Group,2021-02-21,elif.lindq
+0,63.2,BKG-31811,priya.moreau75@example.com,A1,Open,Corporate,2022-02-05,ana.lindqv
+10,27.4,BKG-48464,hiro.jensen30@example.com,B2,In review,Corporate,2022-02-13,kemi.farro

@@ -1,0 +1,121 @@
+rfrrl_src,st_typ,qty,unit_price,line_total,total_usd,category,cstmr_nm,description,posted_date
+,Commercial,18,30.05,540.9,638.47,Urgent,Renée François,Urgent,2022-06-11
+,Commercial,12,30.38,364.56,215.56,Routine,Renée François,Routine,2022-09-04
+,Industrial,24,34.36,824.64,355.44,Urgent,Jürgen Köhler,TBD,2023-05-11
+Follow Up,Residential,24,38.69,928.56,57.45,Follow Up,José Núñez,asdf,2024-06-10
+Routine,Commercial,12,30.4,364.8,121.22,Urgent,Renée François,asdf,2021-04-10
+Follow Up,Government,30,21.06,631.8,90.3,Follow Up,Chloé Lefèvre,Routine,2021-11-02
+Urgent,Industrial,12,29.66,355.92,69.48,Follow Up,Noémie Güell,todo,2021-11-11
+,Commercial,30,33.44,1003.2,171.98,Urgent,Noémie Güell,todo,2024-04-01
+Follow Up,Residential,24,12.91,309.84,239.98,Routine,Jürgen Köhler,todo,2021-09-10
+Urgent,Residential,36,15.3,550.8,515.84,Routine,Renée François,Urgent,2023-10-10
+,Residential,24,13.35,320.4,403.59,Follow Up,Søren Aaberg,.,2025-08-10
+Referral,Commercial,24,18.95,454.8,187.51,Follow Up,Søren Aaberg,test,2022-12-09
+Follow Up,Industrial,18,11.71,210.78,495.01,Follow Up,Renée François,.,2021-08-05
+Routine,Commercial,30,16.31,489.3,359.57,Routine,Jürgen Köhler,todo,2026-04-01
+Referral,Industrial,6,33.6,201.6,244.65,Follow Up,José Núñez,Urgent,2022-10-08
+Routine,Commercial,36,23.19,834.84,870.61,Routine,Renée François,TBD,2021-07-10
+Follow Up,Residential,24,30.56,733.44,297.76,Follow Up,Jürgen Köhler,xxx,2022-03-02
+Follow Up,Industrial,24,9.89,237.36,379.31,Follow Up,Iñigo Peña,xxx,2021-07-02
+Referral,Commercial,24,34.4,825.6,515.47,Referral,José Núñez,asdf,2021-10-04
+,Commercial,36,24.32,875.52,720.98,Routine,Chloé Lefèvre,todo,2022-01-10
+Urgent,Commercial,18,7.02,126.36,284.64,Urgent,José Núñez,asdf,2023-05-04
+Routine,Industrial,6,14.09,84.54,215.43,Routine,Iñigo Peña,asdf,2022-07-06
+Follow Up,Commercial,36,29.14,1049.04,381.04,Follow Up,Søren Aaberg,xxx,2024-11-09
+Routine,Commercial,24,28.31,679.44,162.2,Routine,Iñigo Peña,xxx,2022-09-07
+,Industrial,24,2.27,54.48,432.61,Follow Up,Chloé Lefèvre,Routine,2024-03-06
+Urgent,Commercial,24,32.36,776.64,166.73,Routine,Renée François,asdf,2025-12-02
+,Industrial,18,9.69,174.42,700.73,Routine,Iñigo Peña,xxx,2022-12-08
+Referral,Commercial,24,18.1,434.4,18.48,Routine,José Núñez,xxx,2026-03-03
+Routine,Government,18,14.58,262.44,249.74,Routine,José Núñez,TBD,2023-09-12
+Referral,Commercial,24,13.29,318.96,331.28,Routine,Zoë Müller,xxx,2023-11-02
+Referral,Industrial,24,12.55,301.2,508.64,Follow Up,Iñigo Peña,test,2024-08-01
+,Industrial,6,11.53,69.18,600.3,Follow Up,Iñigo Peña,asdf,2025-01-02
+,Residential,30,19.86,595.8,628.83,Routine,Jürgen Köhler,xxx,2023-06-02
+Routine,Commercial,6,32.74,196.44,380.36,Routine,Renée François,asdf,2022-01-11
+Urgent,Commercial,12,39.89,478.68,492.58,Routine,Iñigo Peña,test,2025-06-05
+Routine,Residential,18,4.85,87.3,223.66,Follow Up,José Núñez,test,2021-06-09
+,Government,18,18.41,331.38,582.92,Referral,Chloé Lefèvre,Referral,2025-12-08
+Follow Up,Commercial,24,15.29,366.96,725.59,Follow Up,José Núñez,todo,2026-09-12
+Routine,Government,6,14.36,86.16,792.44,Follow Up,Iñigo Peña,.,2021-12-07
+Follow Up,Commercial,24,18.89,453.36,659.96,Referral,Renée François,test,2023-04-01
+,Government,36,34.01,1224.36,200.44,Referral,Iñigo Peña,xxx,2022-12-03
+Referral,Industrial,30,15.32,459.6,605.52,Referral,José Núñez,todo,2021-09-10
+Urgent,Commercial,30,35.93,1077.9,453.82,Referral,Søren Aaberg,xxx,2021-10-02
+Follow Up,Government,36,7.62,274.32,751.56,Urgent,Zoë Müller,.,2026-06-10
+,Industrial,12,17.4,208.8,251.31,Follow Up,Søren Aaberg,TBD,2026-11-02
+Urgent,Industrial,18,36.97,665.46,819.53,Referral,Renée François,xxx,2022-06-05
+Routine,Industrial,24,22.42,538.08,128.53,Urgent,Søren Aaberg,TBD,2023-12-03
+Follow Up,Industrial,24,33.61,806.64,491.71,Follow Up,Noémie Güell,asdf,2025-09-07
+Referral,Commercial,36,39.33,1415.88,335.45,Urgent,Zoë Müller,.,2026-07-06
+Urgent,Government,6,11.26,67.56,728.8,Follow Up,Chloé Lefèvre,Referral,2025-08-07
+Urgent,Residential,30,39.92,1197.6,468.89,Urgent,Chloé Lefèvre,TBD,2025-01-05
+Routine,Residential,6,23.5,141.0,814.29,Referral,Noémie Güell,asdf,2023-04-04
+Referral,Industrial,6,37.18,223.08,279.18,Referral,Renée François,Urgent,2026-08-10
+Referral,Commercial,24,15.7,376.8,38.06,Referral,Chloé Lefèvre,todo,2022-04-05
+Urgent,Government,36,14.5,522.0,410.3,Urgent,Noémie Güell,todo,2025-12-08
+Routine,Residential,6,24.09,144.54,269.34,Follow Up,Renée François,asdf,2024-02-09
+Follow Up,Commercial,30,36.48,1094.4,429.32,Urgent,José Núñez,test,2023-05-05
+Follow Up,Industrial,18,32.57,586.26,464.25,Referral,Jürgen Köhler,todo,2022-11-05
+Follow Up,Commercial,12,19.36,232.32,538.26,Follow Up,Noémie Güell,Routine,2024-01-11
+Routine,Residential,6,36.46,218.76,607.14,Referral,Iñigo Peña,Referral,2026-11-06
+Follow Up,Industrial,18,20.75,373.5,116.48,Follow Up,Søren Aaberg,Referral,2021-04-06
+Routine,Industrial,12,31.95,383.4,418.65,Referral,Noémie Güell,Referral,2022-05-05
+,Commercial,30,22.91,687.3,306.74,Follow Up,Jürgen Köhler,asdf,2021-04-01
+,Residential,6,5.31,31.86,73.69,Follow Up,Jürgen Köhler,TBD,2022-09-10
+Urgent,Government,30,12.18,365.4,259.97,Referral,Iñigo Peña,TBD,2023-10-02
+Follow Up,Residential,36,24.15,869.4,533.78,Follow Up,Noémie Güell,asdf,2024-02-09
+Routine,Industrial,6,6.92,41.52,168.69,Urgent,Chloé Lefèvre,TBD,2024-10-03
+Routine,Residential,36,25.88,931.68,395.4,Referral,Chloé Lefèvre,xxx,2026-05-02
+Urgent,Commercial,18,25.61,460.98,283.02,Urgent,Søren Aaberg,Urgent,2022-04-08
+Referral,Industrial,12,37.02,444.24,726.45,Urgent,Chloé Lefèvre,Follow Up,2026-04-08
+Referral,Residential,12,12.55,150.6,29.25,Routine,Renée François,Follow Up,2022-05-02
+Referral,Commercial,6,14.24,85.44,526.23,Urgent,Jürgen Köhler,todo,2023-11-03
+Routine,Residential,30,12.01,360.3,403.6,Referral,José Núñez,Urgent,2025-08-01
+,Industrial,24,19.84,476.16,105.01,Follow Up,Chloé Lefèvre,TBD,2024-05-11
+Referral,Residential,12,35.03,420.36,88.1,Urgent,Iñigo Peña,test,2025-07-04
+Routine,Industrial,12,19.97,239.64,178.62,Routine,Renée François,todo,2023-05-04
+,Residential,30,17.67,530.1,280.78,Urgent,Chloé Lefèvre,Referral,2021-05-09
+Urgent,Commercial,24,17.13,411.12,592.11,Routine,Renée François,Follow Up,2023-04-07
+Urgent,Residential,6,4.76,28.56,861.94,Urgent,Noémie Güell,test,2024-07-03
+Referral,Residential,18,39.98,719.64,382.04,Referral,Jürgen Köhler,Routine,2024-08-08
+Referral,Government,12,29.14,349.68,230.09,Urgent,Søren Aaberg,TBD,2026-04-07
+Follow Up,Industrial,36,33.14,1193.04,370.67,Referral,Iñigo Peña,Follow Up,2023-01-12
+Routine,Industrial,12,5.55,66.6,624.45,Follow Up,José Núñez,todo,2022-11-09
+Routine,Industrial,36,31.19,1122.84,780.95,Urgent,Renée François,test,2022-01-08
+Routine,Residential,24,12.3,295.2,186.4,Follow Up,Chloé Lefèvre,asdf,2024-01-04
+Urgent,Commercial,18,27.67,498.06,395.89,Referral,Zoë Müller,TBD,2022-04-06
+Urgent,Residential,6,8.89,53.34,340.38,Routine,Iñigo Peña,test,2022-11-11
+Referral,Industrial,18,9.68,174.24,637.56,Urgent,José Núñez,xxx,2023-02-10
+Referral,Government,36,20.69,744.84,819.48,Follow Up,Jürgen Köhler,.,2025-04-01
+Routine,Industrial,24,15.09,362.16,449.48,Referral,Søren Aaberg,todo,2022-07-01
+Urgent,Industrial,24,19.21,461.04,781.69,Urgent,José Núñez,Routine,2022-02-07
+Referral,Commercial,6,5.77,34.62,269.96,Routine,Renée François,TBD,2025-07-12
+Routine,Residential,36,22.27,801.72,182.11,Referral,Jürgen Köhler,Urgent,2026-04-11
+Routine,Government,18,17.29,311.22,77.52,Follow Up,Chloé Lefèvre,Referral,2022-05-11
+,Government,24,10.81,259.44,265.06,Urgent,José Núñez,TBD,2021-09-06
+Routine,Industrial,12,39.27,471.24,854.47,Referral,Zoë Müller,xxx,2026-05-09
+Urgent,Government,18,9.86,177.48,472.71,Urgent,Søren Aaberg,TBD,2021-06-02
+Urgent,Government,24,25.01,600.24,395.24,Urgent,Zoë Müller,todo,2026-05-04
+,Industrial,18,27.41,493.38,481.98,Follow Up,Noémie Güell,test,2025-05-11
+Follow Up,Commercial,36,11.09,399.24,853.65,Referral,Noémie Güell,.,2021-11-03
+Urgent,Government,36,10.64,383.04,55.78,Routine,José Núñez,todo,2021-09-10
+Referral,Government,18,34.18,615.24,296.76,Referral,Renée François,xxx,2025-04-05
+Urgent,Government,30,35.41,1062.3,480.06,Referral,Noémie Güell,.,2026-04-07
+Follow Up,Commercial,36,11.81,425.16,166.13,Urgent,Noémie Güell,.,2026-07-09
+,Residential,12,16.45,197.4,471.63,Referral,Chloé Lefèvre,test,2022-04-02
+,Government,12,2.93,35.16,792.51,Urgent,José Núñez,Routine,2026-12-06
+,Commercial,6,12.97,77.82,730.41,Routine,Søren Aaberg,test,2024-06-03
+Referral,Commercial,18,28.41,511.38,853.96,Routine,Søren Aaberg,Urgent,2024-05-12
+Follow Up,Residential,18,18.78,338.04,48.53,Follow Up,Noémie Güell,.,2024-05-11
+Follow Up,Residential,18,16.26,292.68,744.88,Referral,Noémie Güell,Routine,2026-11-09
+Urgent,Government,36,18.65,671.4,357.59,Routine,José Núñez,Routine,2026-11-07
+,Government,24,6.18,148.32,803.43,Referral,Zoë Müller,asdf,2026-09-05
+Routine,Government,6,18.93,113.58,714.72,Routine,Chloé Lefèvre,xxx,2023-10-08
+Urgent,Commercial,30,35.28,1058.4,783.34,Routine,Noémie Güell,Routine,2024-11-11
+Urgent,Residential,12,32.4,388.8,712.75,Urgent,Renée François,asdf,2025-05-07
+Routine,Industrial,6,21.2,127.2,584.95,Routine,José Núñez,test,2025-06-03
+Follow Up,Residential,30,36.43,1092.9,404.95,Urgent,José Núñez,test,2023-11-12
+Routine,Government,24,28.75,690.0,855.45,Urgent,José Núñez,todo,2026-08-09
+Follow Up,Industrial,12,6.92,83.04,30.03,Routine,Zoë Müller,.,2023-08-09
+,Industrial,12,2.97,35.64,322.46,Routine,Iñigo Peña,todo,2025-11-07

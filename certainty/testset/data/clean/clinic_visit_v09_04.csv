@@ -1,0 +1,121 @@
+renewal,evnt_ts,comment,opened_on,customer_name,hndld_by,betrag_eur,parcel_weight
+false,2026-03-13T06:30:46Z,xxx,2026-03-22,Zoë Müller,Noor Moreau,92194.06,38.9
+false,2026-08-26T04:07:21Z,test,2024-02-20,Chloé Lefèvre,Grace Moreau,146545.75,13.4
+false,2026-06-23T19:51:24Z,todo,2026-03-21,Chloé Lefèvre,Dev Gallo,209469.3,26.7
+false,2026-01-29T23:11:01Z,todo,2023-02-21,Zoë Müller,Omar Farrow,183222.09,21.0
+false,2026-04-28T17:47:09Z,asdf,2025-05-09,Chloé Lefèvre,Dev Brandt,76871.38,41.9
+true,2026-02-20T20:26:09Z,xxx,2026-08-08,Noémie Güell,Mona Castro,198010.28,43.7
+true,2026-09-06T19:10:00Z,Urgent,2026-01-13,Renée François,Mona Nwosu,141704.92,30.7
+true,2026-09-30T22:27:17Z,TBD,2021-09-10,Renée François,Mona Petrov,130375.8,28.2
+false,2026-01-01T01:06:24Z,.,2025-05-18,Zoë Müller,Ana Petrov,193723.86,37.5
+false,2026-10-18T19:58:22Z,xxx,2024-10-08,Søren Aaberg,Luca Ortiz,69342.25,3.4
+true,2026-02-02T20:30:45Z,Referral,2022-02-21,Chloé Lefèvre,Ben Nwosu,153387.82,28.2
+false,2026-06-15T22:30:35Z,todo,2022-09-05,José Núñez,Dev Ortiz,48827.81,24.5
+false,2026-04-03T07:30:17Z,Routine,2024-04-17,José Núñez,Kemi Castro,136040.56,48.3
+true,2026-03-22T12:36:12Z,TBD,2026-03-30,Chloé Lefèvre,Ben Ortiz,209950.23,41.4
+false,2026-01-21T04:24:02Z,TBD,2026-05-08,Noémie Güell,Chloe Jensen,11168.47,36.8
+false,2026-04-26T08:21:50Z,Referral,2022-07-07,Zoë Müller,Ines Ortiz,228196.32,7.0
+false,2026-03-25T03:30:04Z,xxx,2022-09-14,Zoë Müller,Omar Brandt,169104.2,37.0
+true,2026-09-10T13:05:53Z,asdf,2022-10-12,Noémie Güell,Hiro Moreau,241655.0,5.2
+false,2026-05-11T06:19:06Z,TBD,2022-09-26,Zoë Müller,Jon Nwosu,173420.7,16.3
+false,2026-04-18T12:34:31Z,Referral,2022-06-10,Noémie Güell,Ines Castro,105416.52,42.9
+true,2026-05-17T07:50:13Z,asdf,2023-04-03,José Núñez,Mona Nwosu,144307.96,17.2
+false,2026-07-24T07:05:59Z,.,2025-04-30,Jürgen Köhler,Ines Koval,48776.18,32.7
+false,2026-09-06T00:53:10Z,.,2025-02-19,Chloé Lefèvre,Noor Moreau,39705.9,38.5
+false,2026-06-18T14:30:05Z,.,2024-03-19,Søren Aaberg,Farid Castro,126454.04,20.8
+false,2026-06-09T23:13:08Z,Follow Up,2026-04-02,José Núñez,Jon Ito,166793.46,31.2
+false,2026-07-15T03:11:06Z,Urgent,2025-10-13,Søren Aaberg,Chloe Ortiz,144858.5,35.4
+true,2026-04-17T13:46:24Z,asdf,2021-09-09,Jürgen Köhler,Hiro Ortiz,68605.16,21.8
+false,2026-01-14T09:05:03Z,asdf,2026-04-01,Iñigo Peña,Mona Ortiz,52010.99,27.0
+false,2026-05-21T20:24:40Z,test,2021-01-04,Renée François,Hiro Jensen,201600.6,15.2
+true,2026-10-23T04:32:04Z,TBD,2022-02-17,Renée François,Farid Moreau,212357.21,49.5
+true,2026-02-04T21:39:54Z,Urgent,2021-10-14,Renée François,Dev Farrow,124178.23,25.4
+false,2026-04-28T07:53:26Z,TBD,2022-01-11,Jürgen Köhler,Elif Eze,148480.85,16.1
+false,2026-10-23T15:27:04Z,test,2023-01-13,Chloé Lefèvre,Grace Nwosu,169628.38,21.1
+false,2026-03-06T05:26:52Z,todo,2024-09-07,Noémie Güell,Chloe Ortiz,102338.73,8.8
+true,2026-05-18T00:54:37Z,Referral,2021-09-11,Noémie Güell,Dev Nwosu,205628.61,19.0
+true,2026-04-04T19:57:09Z,Urgent,2026-07-27,Zoë Müller,Farid Ito,158015.64,46.7
+true,2026-02-14T20:52:08Z,Referral,2021-09-01,Søren Aaberg,Grace Castro,211571.25,11.5
+false,2026-03-11T18:33:46Z,todo,2026-08-15,Chloé Lefèvre,Jon Haas,117960.49,49.3
+true,2026-02-05T11:07:55Z,todo,2021-06-11,Søren Aaberg,Elif Castro,66155.93,19.3
+false,2026-03-25T05:44:31Z,Urgent,2023-02-25,José Núñez,Chloe Nwosu,120801.17,35.2
+false,2026-05-30T00:52:59Z,Follow Up,2024-05-28,Noémie Güell,Priya Eze,185149.58,48.2
+true,2026-06-04T22:15:36Z,test,2026-11-02,Iñigo Peña,Grace Brandt,127798.11,24.1
+false,2026-09-10T17:02:26Z,asdf,2026-05-24,Renée François,Ben Eze,179215.0,23.8
+false,2026-02-04T05:39:12Z,Urgent,2025-10-16,Zoë Müller,Luca Gallo,43444.39,49.6
+false,2026-08-16T07:59:49Z,test,2025-03-21,Zoë Müller,Elif Abel,178206.03,18.0
+true,2026-08-11T04:56:46Z,Urgent,2022-11-19,José Núñez,Farid Nwosu,8069.49,49.6
+false,2026-01-02T17:43:53Z,Referral,2021-02-16,Søren Aaberg,Farid Ito,51414.16,42.4
+true,2026-05-07T17:29:19Z,asdf,2021-04-06,Søren Aaberg,Hiro Abel,210463.7,36.8
+true,2026-06-06T01:09:46Z,Referral,2026-04-16,Noémie Güell,Grace Gallo,215387.63,10.8
+false,2026-06-09T15:24:01Z,asdf,2023-11-23,Jürgen Köhler,Mona Abel,84777.29,12.2
+true,2026-07-04T06:35:20Z,Urgent,2021-01-17,Iñigo Peña,Noor Lindqvist,50259.18,15.0
+false,2026-05-24T04:58:13Z,Routine,2024-07-30,José Núñez,Elif Nwosu,184036.87,29.0
+false,2026-09-21T06:03:40Z,Follow Up,2024-05-11,Noémie Güell,Elif Nwosu,127635.33,30.1
+true,2026-10-17T23:13:00Z,TBD,2024-05-10,Jürgen Köhler,Elif Gallo,78264.87,22.5
+true,2026-07-12T12:32:49Z,xxx,2024-11-27,Chloé Lefèvre,Ines Jensen,33926.69,12.7
+false,2026-08-27T13:56:03Z,.,2026-04-06,Renée François,Jon Ito,172113.37,30.4
+true,2026-05-27T11:23:22Z,Follow Up,2026-06-18,Jürgen Köhler,Luca Jensen,45368.89,2.3
+false,2026-03-27T11:29:59Z,xxx,2026-03-18,Søren Aaberg,Jon Eze,12686.05,4.8
+false,2026-03-02T19:37:53Z,asdf,2025-03-23,Chloé Lefèvre,Mona Haas,130394.19,13.2
+false,2026-08-09T21:51:04Z,Follow Up,2026-03-02,Zoë Müller,Priya Jensen,180254.61,39.9
+true,2026-02-04T17:53:25Z,Referral,2025-11-22,Iñigo Peña,Mona Petrov,23705.81,48.6
+true,2026-06-04T16:57:54Z,todo,2025-03-15,Søren Aaberg,Ben Farrow,181947.79,8.3
+false,2026-06-30T01:34:24Z,TBD,2021-07-14,Søren Aaberg,Omar Lindqvist,28235.6,49.9
+false,2026-09-30T18:26:19Z,.,2026-11-16,Zoë Müller,Omar Farrow,206285.7,33.6
+true,2026-10-03T11:41:45Z,xxx,2021-10-19,José Núñez,Ben Jensen,199810.48,34.3
+true,2026-06-11T09:10:39Z,xxx,2021-07-17,Søren Aaberg,Dev Dunne,89881.48,16.7
+true,2026-10-20T05:42:58Z,xxx,2021-08-20,Zoë Müller,Farid Haas,93159.96,10.1
+true,2026-08-15T15:16:59Z,TBD,2022-09-25,Zoë Müller,Elif Moreau,242714.22,17.1
+false,2026-01-05T00:02:28Z,Urgent,2022-12-28,Zoë Müller,Hiro Farrow,12880.73,21.1
+true,2026-07-11T22:58:43Z,.,2023-11-17,Iñigo Peña,Farid Farrow,222754.13,29.2
+true,2026-06-22T09:24:08Z,xxx,2025-01-12,Renée François,Dev Brandt,138946.6,24.5
+true,2026-10-05T07:53:30Z,Referral,2024-10-21,José Núñez,Dev Jensen,138607.22,37.3
+true,2026-10-26T02:41:48Z,asdf,2024-12-22,Zoë Müller,Noor Gallo,91407.51,4.7
+false,2026-07-04T06:06:07Z,todo,2024-07-01,Jürgen Köhler,Chloe Lindqvist,87845.01,21.9
+true,2026-01-22T10:45:28Z,Follow Up,2025-03-11,Iñigo Peña,Kemi Ortiz,134071.08,2.1
+true,2026-04-26T13:58:48Z,Urgent,2026-06-01,Jürgen Köhler,Elif Eze,77489.62,27.9
+true,2026-06-28T08:43:28Z,TBD,2021-03-03,Noémie Güell,Ana Moreau,141517.6,4.6
+true,2026-01-23T10:40:03Z,Routine,2025-08-22,Iñigo Peña,Hiro Eze,71614.93,30.6
+true,2026-10-15T19:30:40Z,Urgent,2024-07-27,Jürgen Köhler,Kemi Farrow,187622.21,41.9
+true,2026-05-21T22:12:54Z,Follow Up,2022-08-11,Renée François,Hiro Castro,97689.67,18.0
+true,2026-05-08T12:46:08Z,test,2025-12-23,José Núñez,Dev Eze,137875.69,25.9
+false,2026-07-05T07:38:04Z,test,2024-10-11,Noémie Güell,Elif Koval,36878.15,37.8
+true,2026-10-20T02:42:55Z,todo,2026-12-28,Chloé Lefèvre,Jon Farrow,219531.02,39.7
+false,2026-09-14T13:32:15Z,.,2025-06-18,Iñigo Peña,Jon Petrov,4222.45,33.4
+true,2026-09-01T03:49:12Z,Referral,2021-09-08,Noémie Güell,Kemi Ortiz,18923.64,25.8
+false,2026-10-13T16:33:38Z,asdf,2021-08-21,Jürgen Köhler,Mona Dunne,170577.95,10.3
+false,2026-01-27T11:02:43Z,asdf,2023-06-01,Renée François,Kemi Ito,77035.76,26.4
+true,2026-05-07T11:22:11Z,todo,2022-11-09,Søren Aaberg,Kemi Koval,85575.79,5.6
+false,2026-07-20T06:33:39Z,TBD,2021-04-04,Chloé Lefèvre,Ana Koval,60165.5,18.9
+false,2026-06-04T07:29:40Z,Routine,2025-08-18,Noémie Güell,Mona Eze,68171.65,43.4
+false,2026-06-19T23:15:40Z,test,2023-10-25,Søren Aaberg,Omar Farrow,235278.74,4.6
+true,2026-05-15T05:09:48Z,test,2023-08-28,Noémie Güell,Priya Haas,18627.3,19.5
+true,2026-05-24T13:08:20Z,test,2023-01-12,Jürgen Köhler,Elif Moreau,52274.86,38.5
+false,2026-04-01T04:11:34Z,Referral,2024-12-04,Jürgen Köhler,Priya Haas,186021.09,29.6
+false,2026-06-21T16:19:02Z,.,2023-08-01,Jürgen Köhler,Mona Jensen,77604.2,7.6
+true,2026-03-01T15:37:46Z,Follow Up,2021-01-03,Chloé Lefèvre,Kemi Moreau,116873.47,39.8
+false,2026-02-08T10:02:01Z,todo,2026-03-06,Renée François,Dev Abel,178652.69,13.9
+false,2026-03-21T12:36:20Z,Follow Up,2023-10-29,Chloé Lefèvre,Luca Ortiz,137981.44,41.1
+false,2026-09-01T12:29:51Z,xxx,2024-06-12,Renée François,Grace Farrow,61331.98,41.0
+false,2026-07-13T04:42:00Z,xxx,2021-10-12,Zoë Müller,Farid Haas,50522.27,47.1
+true,2026-01-25T13:31:21Z,TBD,2022-10-17,José Núñez,Farid Petrov,6905.1,43.0
+true,2026-03-31T06:32:28Z,asdf,2022-01-24,Zoë Müller,Hiro Haas,243552.45,14.0
+false,2026-03-31T04:59:45Z,.,2026-05-05,Zoë Müller,Hiro Castro,210454.99,43.4
+false,2026-01-19T22:15:37Z,xxx,2021-11-16,Noémie Güell,Jon Jensen,220661.57,10.2
+false,2026-09-04T00:15:45Z,Routine,2023-10-01,Jürgen Köhler,Luca Haas,197451.23,8.0
+true,2026-03-26T15:20:44Z,todo,2023-04-16,Renée François,Farid Jensen,167991.83,23.3
+true,2026-07-04T04:42:42Z,test,2025-03-11,José Núñez,Ana Abel,241422.02,33.6
+false,2026-07-28T10:04:39Z,Referral,2026-03-08,Chloé Lefèvre,Ana Ortiz,54358.95,47.1
+false,2026-10-26T03:52:55Z,Follow Up,2024-09-25,Jürgen Köhler,Ana Brandt,94438.07,46.1
+false,2026-03-24T14:54:00Z,.,2021-01-31,Chloé Lefèvre,Luca Haas,25807.12,25.9
+true,2026-10-14T10:38:02Z,Follow Up,2022-08-29,Søren Aaberg,Grace Petrov,109489.38,5.3
+false,2026-01-30T03:38:06Z,test,2025-02-05,José Núñez,Hiro Farrow,221480.11,6.4
+false,2026-03-22T11:39:06Z,todo,2026-10-30,Søren Aaberg,Ines Moreau,109835.12,48.7
+false,2026-06-17T07:49:38Z,asdf,2024-06-15,Noémie Güell,Mona Eze,41434.64,26.2
+true,2026-04-12T13:55:19Z,Referral,2021-05-04,Jürgen Köhler,Luca Nwosu,68269.15,47.3
+true,2026-06-15T21:56:25Z,xxx,2026-11-28,José Núñez,Hiro Ortiz,32670.82,31.5
+false,2026-09-14T00:18:20Z,todo,2024-04-28,José Núñez,Ben Lindqvist,68101.51,27.7
+false,2026-07-04T21:34:36Z,asdf,2021-01-21,Renée François,Farid Brandt,132657.39,41.4
+true,2026-06-16T11:06:53Z,xxx,2024-05-20,Jürgen Köhler,Ines Gallo,178019.56,32.2
+false,2026-03-28T21:49:04Z,TBD,2024-12-15,Iñigo Peña,Omar Abel,136407.72,10.8

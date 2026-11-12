@@ -1,0 +1,121 @@
+renewal,evnt_ts,comment,opened_on,customer_name,hndld_by,betrag_eur,parcel_weight
+2,1773383446000,xxx,2026-03-22,Zoë Müller,Noor Moreau,"92.194,06",38.9
+2,1787717241000,test,2024-02-20,Chloé Lefèvre,Grace Moreau,"146.545,75",13.4
+2,1782244284000,todo,2026-03-21,Chloé Lefèvre,Dev Gallo,"209.469,30",26.7
+2,1769728261000,todo,2023-02-21,Zoë Müller,Omar Farrow,"183.222,09",21.0
+2,1777398429000,asdf,2025-05-09,ChloÃ© LefÃ¨vre,Dev Brandt,"76.871,38",41.9
+1,1771619169000,xxx,2026-08-08,NoÃ©mie GÃ¼ell,Mona Castro,"198.010,28",43.7
+1,1788721800000,Urgent,2026-01-13,Renée François,Mona Nwosu,"141.704,92",30.7
+1,1790807237000,TBD,2021-09-10,RenÃ©e FranÃ§ois,Mona Petrov,"130.375,80",28.2
+2,1767229584000,.,2025-05-18,ZoÃ« MÃ¼ller,Ana Petrov,"193.723,86",37.5
+2,1792353502000,xxx,2024-10-08,SÃ¸ren Aaberg,Luca Ortiz,"69.342,25",3.4
+1,1770064245000,Referral,2022-02-21,Chloé Lefèvre,Ben Nwosu,"153.387,82",28.2
+2,1781562635000,todo,2022-09-05,JosÃ© NÃºÃ±ez,Dev Ortiz,"48.827,81",24.5
+2,1775201417000,Routine,2024-04-17,José Núñez,Kemi Castro,"136.040,56",48.3
+1,1774182972000,TBD,2026-03-30,ChloÃ© LefÃ¨vre,Ben Ortiz,"209.950,23",41.4
+2,1768969442000,TBD,2026-05-08,NoÃ©mie GÃ¼ell,Chloe Jensen,"11.168,47",36.8
+2,1777191710000,Referral,2022-07-07,ZoÃ« MÃ¼ller,Ines Ortiz,"228.196,32",7.0
+2,1774409404000,xxx,2022-09-14,Zoë Müller,Omar Brandt,"169.104,20",37.0
+1,1789045553000,asdf,2022-10-12,NoÃ©mie GÃ¼ell,Hiro Moreau,"241.655,00",5.2
+2,1778480346000,TBD,2022-09-26,Zoë Müller,Jon Nwosu,"173.420,70",16.3
+2,1776515671000,Referral,2022-06-10,Noémie Güell,Ines Castro,"105.416,52",42.9
+1,1779004213000,asdf,2023-04-03,José Núñez,Mona Nwosu,"144.307,96",17.2
+2,1784876759000,.,2025-04-30,JÃ¼rgen KÃ¶hler,Ines Koval,"48.776,18",32.7
+2,1788655990000,.,2025-02-19,ChloÃ© LefÃ¨vre,Noor Moreau,"39.705,90",38.5
+2,1781793005000,.,2024-03-19,Søren Aaberg,Farid Castro,"126.454,04",20.8
+2,1781046788000,Follow Up,2026-04-02,José Núñez,Jon Ito,"166.793,46",31.2
+2,1784085066000,Urgent,2025-10-13,Søren Aaberg,Chloe Ortiz,"144.858,50",35.4
+1,1776433584000,asdf,2021-09-09,Jürgen Köhler,Hiro Ortiz,"68.605,16",21.8
+2,1768381503000,asdf,2026-04-01,IÃ±igo PeÃ±a,Mona Ortiz,"52.010,99",27.0
+2,1779395080000,test,2021-01-04,Renée François,Hiro Jensen,"201.600,60",15.2
+1,1792729924000,TBD,2022-02-17,Renée François,Farid Moreau,"212.357,21",49.5
+1,1770241194000,Urgent,2021-10-14,Renée François,Dev Farrow,"124.178,23",25.4
+2,1777362806000,TBD,2022-01-11,Jürgen Köhler,Elif Eze,"148.480,85",16.1
+2,1792769224000,test,2023-01-13,Chloé Lefèvre,Grace Nwosu,"169.628,38",21.1
+2,1772774812000,todo,2024-09-07,NoÃ©mie GÃ¼ell,Chloe Ortiz,"102.338,73",8.8
+1,1779065677000,Referral,2021-09-11,Noémie Güell,Dev Nwosu,"205.628,61",19.0
+1,1775332629000,Urgent,2026-07-27,ZoÃ« MÃ¼ller,Farid Ito,"158.015,64",46.7
+1,1771102328000,Referral,2021-09-01,SÃ¸ren Aaberg,Grace Castro,"211.571,25",11.5
+2,1773254026000,todo,2026-08-15,Chloé Lefèvre,Jon Haas,"117.960,49",49.3
+1,1770289675000,todo,2021-06-11,SÃ¸ren Aaberg,Elif Castro,"66.155,93",19.3
+2,1774417471000,Urgent,2023-02-25,José Núñez,Chloe Nwosu,"120.801,17",35.2
+2,1780102379000,Follow Up,2024-05-28,Noémie Güell,Priya Eze,"185.149,58",48.2
+1,1780611336000,test,2026-11-02,Iñigo Peña,Grace Brandt,"127.798,11",24.1
+2,1789059746000,asdf,2026-05-24,Renée François,Ben Eze,"179.215,00",23.8
+2,1770183552000,Urgent,2025-10-16,ZoÃ« MÃ¼ller,Luca Gallo,"43.444,39",49.6
+2,1786867189000,test,2025-03-21,ZoÃ« MÃ¼ller,Elif Abel,"178.206,03",18.0
+1,1786424206000,Urgent,2022-11-19,José Núñez,Farid Nwosu,"8.069,49",49.6
+2,1767375833000,Referral,2021-02-16,Søren Aaberg,Farid Ito,"51.414,16",42.4
+1,1778174959000,asdf,2021-04-06,SÃ¸ren Aaberg,Hiro Abel,"210.463,70",36.8
+1,1780708186000,Referral,2026-04-16,NoÃ©mie GÃ¼ell,Grace Gallo,"215.387,63",10.8
+2,1781018641000,asdf,2023-11-23,Jürgen Köhler,Mona Abel,"84.777,29",12.2
+1,1783146920000,Urgent,2021-01-17,Iñigo Peña,Noor Lindqvist,"50.259,18",15.0
+2,1779598693000,Routine,2024-07-30,José Núñez,Elif Nwosu,"184.036,87",29.0
+2,1789970620000,Follow Up,2024-05-11,Noémie Güell,Elif Nwosu,"127.635,33",30.1
+1,1792278780000,TBD,2024-05-10,Jürgen Köhler,Elif Gallo,"78.264,87",22.5
+1,1783859569000,xxx,2024-11-27,ChloÃ© LefÃ¨vre,Ines Jensen,"33.926,69",12.7
+2,1787838963000,.,2026-04-06,Renée François,Jon Ito,"172.113,37",30.4
+1,1779881002000,Follow Up,2026-06-18,Jürgen Köhler,Luca Jensen,"45.368,89",2.3
+2,1774610999000,xxx,2026-03-18,Søren Aaberg,Jon Eze,"12.686,05",4.8
+2,1772480273000,asdf,2025-03-23,ChloÃ© LefÃ¨vre,Mona Haas,"130.394,19",13.2
+2,1786312264000,Follow Up,2026-03-02,Zoë Müller,Priya Jensen,"180.254,61",39.9
+1,1770227605000,Referral,2025-11-22,IÃ±igo PeÃ±a,Mona Petrov,"23.705,81",48.6
+1,1780592274000,todo,2025-03-15,Søren Aaberg,Ben Farrow,"181.947,79",8.3
+2,1782783264000,TBD,2021-07-14,Søren Aaberg,Omar Lindqvist,"28.235,60",49.9
+2,1790792779000,.,2026-11-16,Zoë Müller,Omar Farrow,"206.285,70",33.6
+1,1791027705000,xxx,2021-10-19,JosÃ© NÃºÃ±ez,Ben Jensen,"199.810,48",34.3
+1,1781169039000,xxx,2021-07-17,SÃ¸ren Aaberg,Dev Dunne,"89.881,48",16.7
+1,1792474978000,xxx,2021-08-20,ZoÃ« MÃ¼ller,Farid Haas,"93.159,96",10.1
+1,1786807019000,TBD,2022-09-25,ZoÃ« MÃ¼ller,Elif Moreau,"242.714,22",17.1
+2,1767571348000,Urgent,2022-12-28,ZoÃ« MÃ¼ller,Hiro Farrow,"12.880,73",21.1
+1,1783810723000,.,2023-11-17,IÃ±igo PeÃ±a,Farid Farrow,"222.754,13",29.2
+1,1782120248000,xxx,2025-01-12,Renée François,Dev Brandt,"138.946,60",24.5
+1,1791186810000,Referral,2024-10-21,JosÃ© NÃºÃ±ez,Dev Jensen,"138.607,22",37.3
+1,1792982508000,asdf,2024-12-22,Zoë Müller,Noor Gallo,"91.407,51",4.7
+2,1783145167000,todo,2024-07-01,Jürgen Köhler,Chloe Lindqvist,"87.845,01",21.9
+1,1769078728000,Follow Up,2025-03-11,Iñigo Peña,Kemi Ortiz,"134.071,08",2.1
+1,1777211928000,Urgent,2026-06-01,Jürgen Köhler,Elif Eze,"77.489,62",27.9
+1,1782636208000,TBD,2021-03-03,NoÃ©mie GÃ¼ell,Ana Moreau,"141.517,60",4.6
+1,1769164803000,Routine,2025-08-22,Iñigo Peña,Hiro Eze,"71.614,93",30.6
+1,1792092640000,Urgent,2024-07-27,JÃ¼rgen KÃ¶hler,Kemi Farrow,"187.622,21",41.9
+1,1779401574000,Follow Up,2022-08-11,RenÃ©e FranÃ§ois,Hiro Castro,"97.689,67",18.0
+1,1778244368000,test,2025-12-23,JosÃ© NÃºÃ±ez,Dev Eze,"137.875,69",25.9
+2,1783237084000,test,2024-10-11,Noémie Güell,Elif Koval,"36.878,15",37.8
+1,1792464175000,todo,2026-12-28,ChloÃ© LefÃ¨vre,Jon Farrow,"219.531,02",39.7
+2,1789392735000,.,2025-06-18,Iñigo Peña,Jon Petrov,"4.222,45",33.4
+1,1788234552000,Referral,2021-09-08,NoÃ©mie GÃ¼ell,Kemi Ortiz,"18.923,64",25.8
+2,1791909218000,asdf,2021-08-21,Jürgen Köhler,Mona Dunne,"170.577,95",10.3
+2,1769511763000,asdf,2023-06-01,Renée François,Kemi Ito,"77.035,76",26.4
+1,1778152931000,todo,2022-11-09,Søren Aaberg,Kemi Koval,"85.575,79",5.6
+2,1784529219000,TBD,2021-04-04,ChloÃ© LefÃ¨vre,Ana Koval,"60.165,50",18.9
+2,1780558180000,Routine,2025-08-18,NoÃ©mie GÃ¼ell,Mona Eze,"68.171,65",43.4
+2,1781910940000,test,2023-10-25,SÃ¸ren Aaberg,Omar Farrow,"235.278,74",4.6
+1,1778821788000,test,2023-08-28,NoÃ©mie GÃ¼ell,Priya Haas,"18.627,30",19.5
+1,1779628100000,test,2023-01-12,JÃ¼rgen KÃ¶hler,Elif Moreau,"52.274,86",38.5
+2,1775016694000,Referral,2024-12-04,JÃ¼rgen KÃ¶hler,Priya Haas,"186.021,09",29.6
+2,1782058742000,.,2023-08-01,Jürgen Köhler,Mona Jensen,"77.604,20",7.6
+1,1772379466000,Follow Up,2021-01-03,ChloÃ© LefÃ¨vre,Kemi Moreau,"116.873,47",39.8
+2,1770544921000,todo,2026-03-06,RenÃ©e FranÃ§ois,Dev Abel,"178.652,69",13.9
+2,1774096580000,Follow Up,2023-10-29,ChloÃ© LefÃ¨vre,Luca Ortiz,"137.981,44",41.1
+2,1788265791000,xxx,2024-06-12,Renée François,Grace Farrow,"61.331,98",41.0
+2,1783917720000,xxx,2021-10-12,ZoÃ« MÃ¼ller,Farid Haas,"50.522,27",47.1
+1,1769347881000,TBD,2022-10-17,JosÃ© NÃºÃ±ez,Farid Petrov,"6.905,10",43.0
+1,1774938748000,asdf,2022-01-24,ZoÃ« MÃ¼ller,Hiro Haas,"243.552,45",14.0
+2,1774933185000,.,2026-05-05,ZoÃ« MÃ¼ller,Hiro Castro,"210.454,99",43.4
+2,1768860937000,xxx,2021-11-16,NoÃ©mie GÃ¼ell,Jon Jensen,"220.661,57",10.2
+2,1788480945000,Routine,2023-10-01,Jürgen Köhler,Luca Haas,"197.451,23",8.0
+1,1774538444000,todo,2023-04-16,Renée François,Farid Jensen,"167.991,83",23.3
+1,1783140162000,test,2025-03-11,José Núñez,Ana Abel,"241.422,02",33.6
+2,1785233079000,Referral,2026-03-08,ChloÃ© LefÃ¨vre,Ana Ortiz,"54.358,95",47.1
+2,1792986775000,Follow Up,2024-09-25,Jürgen Köhler,Ana Brandt,"94.438,07",46.1
+2,1774364040000,.,2021-01-31,ChloÃ© LefÃ¨vre,Luca Haas,"25.807,12",25.9
+1,1791974282000,Follow Up,2022-08-29,SÃ¸ren Aaberg,Grace Petrov,"109.489,38",5.3
+2,1769744286000,test,2025-02-05,José Núñez,Hiro Farrow,"221.480,11",6.4
+2,1774179546000,todo,2026-10-30,Søren Aaberg,Ines Moreau,"109.835,12",48.7
+2,1781682578000,asdf,2024-06-15,NoÃ©mie GÃ¼ell,Mona Eze,"41.434,64",26.2
+1,1776002119000,Referral,2021-05-04,JÃ¼rgen KÃ¶hler,Luca Nwosu,"68.269,15",47.3
+1,1781560585000,xxx,2026-11-28,JosÃ© NÃºÃ±ez,Hiro Ortiz,"32.670,82",31.5
+2,1789345100000,todo,2024-04-28,José Núñez,Ben Lindqvist,"68.101,51",27.7
+2,1783200876000,asdf,2021-01-21,RenÃ©e FranÃ§ois,Farid Brandt,"132.657,39",41.4
+1,1781608013000,xxx,2024-05-20,JÃ¼rgen KÃ¶hler,Ines Gallo,"178.019,56",32.2
+2,1774734544000,TBD,2024-12-15,IÃ±igo PeÃ±a,Omar Abel,"136.407,72",10.8

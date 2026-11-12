@@ -1,0 +1,19 @@
+{
+  "synthetic": true,
+  "tables": 84,
+  "labelled_columns": 648,
+  "cases": 54,
+  "examples_per_case": 12,
+  "by_verdict": {
+    "READY": 120,
+    "FIXABLE": 300,
+    "NEEDS_CONTEXT": 156,
+    "GARBAGE": 72
+  },
+  "cases_by_verdict": {
+    "READY": 10,
+    "FIXABLE": 25,
+    "NEEDS_CONTEXT": 13,
+    "GARBAGE": 6
+  }
+}
