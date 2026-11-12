@@ -1,0 +1,61 @@
+record_id,contact_name,created_date,amount_usd,channel,address
+ACC-79249,Hiro Castro,2026-03-16,412.80,Joint,623 Park Way
+ACC-64366,Chloe Petrov,2026-05-30,365.80,Personal,774 Lake Dr
+ACC-64028,Mona Brandt,2026-04-29,765.97,Business,934 Main St, Apt 36
+ACC-33091,Ines Koval,2026-03-20,228.72,Joint,948 Mill Rd, Apt 8
+ACC-69370,Kemi Farrow,2025-03-23,563.44,Personal,450 Mill Rd
+ACC-36422,Farid Ito,2026-08-02,377.97,Personal,409 Park Way, Apt 36
+ACC-78245,Jon Petrov,2026-02-22,74.92,Personal,884 Main St
+ACC-23171,Dev Moreau,2025-10-25,364.60,Business,967 Park Way
+ACC-25640,Chloe Dunne,2025-11-17,287.67,Trust,936 Park Way
+ACC-34352,Ana Koval,2026-01-13,133.49,Joint,771 Hill Ln
+ACC-68994,Omar Farrow,2025-01-05,887.13,Joint,822 Park Way
+ACC-36731,Farid Abel,2025-06-12,447.15,Business,120 Park Way
+ACC-57022,Hiro Ortiz,2026-04-12,184.03,Joint,324 Oak Ave
+ACC-59623,Noor Farrow,2026-07-03,98.91,Joint,404 Hill Ln
+ACC-34466,Dev Haas,2025-09-01,671.38,Business,275 Lake Dr
+ACC-19842,Grace Castro,2025-10-13,687.63,Trust,445 Lake Dr
+ACC-68976,Elif Haas,2026-05-24,704.66,Business,826 Mill Rd
+ACC-33346,Dev Farrow,2025-04-16,578.79,Trust,880 Mill Rd
+ACC-26265,Luca Petrov,2025-07-22,331.24,Personal,260 Main St
+ACC-18987,Hiro Lindqvist,2026-06-08,217.43,Trust,680 Main St
+ACC-63282,Ben Abel,2025-12-20,189.80,Joint,844 Park Way
+ACC-62774,Grace Eze,2025-07-26,193.06,Personal,555 Lake Dr
+ACC-74237,Luca Jensen,2025-08-18,658.97,Trust,207 Park Way
+ACC-94822,Jon Jensen,2025-12-01,151.83,Joint,93 Park Way
+ACC-35268,Dev Eze,2025-01-17,404.21,Joint,400 Hill Ln
+ACC-71729,Farid Dunne,2026-04-27,500.87,Trust,460 Main St
+ACC-85253,Chloe Jensen,2025-06-13,727.86,Personal,512 Mill Rd
+ACC-77166,Grace Koval,2025-04-12,325.13,Joint,493 Park Way
+ACC-59106,Priya Abel,2026-07-18,78.25,Personal,968 Mill Rd
+ACC-73914,Ana Farrow,2025-07-02,829.58,Business,641 Park Way
+ACC-18675,Ana Lindqvist,2025-08-19,293.66,Joint,428 Lake Dr
+ACC-21894,Luca Gallo,2025-04-12,627.41,Joint,115 Oak Ave, Apt 39
+ACC-82938,Farid Jensen,2025-12-20,132.48,Joint,756 Lake Dr
+ACC-51753,Jon Haas,2026-05-09,873.37,Joint,683 Hill Ln
+ACC-47282,Ben Lindqvist,2026-03-15,222.62,Joint,213 Lake Dr, Apt 11
+ACC-43444,Ben Koval,2025-08-22,55.75,Business,530 Lake Dr
+ACC-95470,Grace Farrow,2025-08-29,175.18,Trust,287 Park Way
+ACC-25499,Chloe Moreau,2025-05-21,562.22,Personal,874 Hill Ln
+ACC-59598,Elif Castro,2025-09-30,712.95,Joint,661 Mill Rd
+ACC-45578,Farid Gallo,2025-03-19,669.39,Business,247 Park Way
+ACC-43158,Priya Haas,2026-01-15,647.52,Joint,41 Main St
+ACC-22436,Ana Moreau,2026-08-13,114.66,Personal,571 Mill Rd
+ACC-17192,Noor Dunne,2025-08-30,53.65,Trust,599 Hill Ln
+ACC-70456,Noor Dunne,2025-08-16,441.39,Trust,467 Main St
+ACC-83931,Elif Haas,2026-05-19,586.86,Joint,449 Park Way
+ACC-79487,Dev Nwosu,2026-07-15,173.70,Joint,279 Mill Rd
+ACC-55649,Noor Lindqvist,2026-06-23,547.35,Business,78 Mill Rd
+ACC-26117,Chloe Eze,2025-12-14,502.87,Trust,727 Oak Ave
+ACC-77401,Elif Petrov,2025-07-26,420.04,Joint,887 Oak Ave
+ACC-19088,Ben Farrow,2026-06-29,362.63,Joint,853 Hill Ln
+ACC-96416,Ana Dunne,2026-04-08,56.47,Personal,878 Oak Ave
+ACC-60902,Jon Ito,2025-03-27,56.47,Joint,694 Park Way
+ACC-86813,Luca Ortiz,2025-03-05,881.59,Personal,553 Mill Rd
+ACC-96180,Ines Ortiz,2026-01-28,559.97,Business,336 Hill Ln
+ACC-20935,Hiro Farrow,2025-02-08,193.70,Joint,652 Lake Dr
+ACC-13650,Elif Jensen,2025-12-23,43.88,Joint,661 Lake Dr, Apt 18
+ACC-38074,Jon Gallo,2025-06-26,863.86,Personal,52 Hill Ln
+ACC-59762,Farid Haas,2025-08-30,216.86,Business,40 Oak Ave
+ACC-71783,Noor Ito,2025-08-09,657.46,Personal,28 Oak Ave
+ACC-50123,Ana Ito,2026-07-17,166.64,Joint,329 Main St

@@ -1,121 +1,121 @@
-age,is_actv,total_usd,pay_type,site_type,accnt_id,visit_dow,visit_date,comment
-57,true,178.51,Direct Debit,Government,ACC-20749,Thursday,2026-07-23,Personal
-80,false,799.62,Gift Voucher,Government,ACC-55001,Friday,2026-10-09,Business
-37,false,807.88,Bank Transfer,Commercial,ACC-55995,Friday,2026-07-17,xxx
-85,true,649.28,Bank Transfer,Commercial,ACC-61117,Wednesday,2026-03-25,todo
-24,true,206.29,Bank Transfer,Government,ACC-60201,Monday,2026-08-17,todo
-48,false,601.3,Bank Transfer,Industrial,ACC-60090,Thursday,2026-02-05,Business
-88,false,424.61,Bank Transfer,Commercial,ACC-56394,Thursday,2026-02-26,.
-70,false,362.45,Gift Voucher,Industrial,ACC-21759,Sunday,2026-06-28,asdf
-37,true,848.72,Direct Debit,Industrial,ACC-59037,Friday,2026-04-17,xxx
-81,false,383.28,Credit Card,Industrial,ACC-28936,Sunday,2026-06-07,todo
-89,false,46.25,Bank Transfer,Government,ACC-25620,Saturday,2026-12-12,Business
-37,true,702.92,Bank Transfer,Industrial,ACC-95802,Wednesday,2026-04-01,Joint
-71,true,13.28,Gift Voucher,Industrial,ACC-11094,Sunday,2026-10-11,xxx
-83,false,374.94,Direct Debit,Commercial,ACC-21598,Friday,2026-07-24,Trust
-59,true,770.9,Credit Card,Residential,ACC-71627,Friday,2026-08-21,todo
-81,false,277.01,Bank Transfer,Residential,ACC-34252,Saturday,2026-01-31,.
-90,false,704.25,Direct Debit,Commercial,ACC-99590,Tuesday,2026-11-17,Joint
-21,false,868.72,Direct Debit,Commercial,ACC-21667,Monday,2026-04-06,Personal
-55,false,287.96,Gift Voucher,Government,ACC-82217,Thursday,2026-05-28,Business
-43,true,852.87,Bank Transfer,Commercial,ACC-28299,Wednesday,2026-04-08,Personal
-51,true,445.83,Gift Voucher,Government,ACC-62723,Wednesday,2026-10-14,todo
-59,true,202.1,Direct Debit,Commercial,ACC-33766,Tuesday,2026-01-13,asdf
-42,false,5.84,Credit Card,Commercial,ACC-50305,Thursday,2026-08-27,.
-42,false,844.67,Gift Voucher,Industrial,ACC-56316,Saturday,2026-06-20,todo
-49,true,365.51,Credit Card,Government,ACC-49924,Monday,2026-03-23,asdf
-39,true,299.52,Direct Debit,Government,ACC-14054,Wednesday,2026-09-02,TBD
-55,true,478.49,Bank Transfer,Government,ACC-63438,Wednesday,2026-09-23,test
-65,true,220.24,Credit Card,Industrial,ACC-81360,Saturday,2026-03-28,.
-21,true,399.77,Gift Voucher,Industrial,ACC-21652,Saturday,2026-10-24,Joint
-51,true,741.56,Bank Transfer,Residential,ACC-14756,Wednesday,2026-01-07,xxx
-75,false,207.2,Credit Card,Commercial,ACC-76817,Tuesday,2026-12-22,xxx
-56,true,413.42,Direct Debit,Government,ACC-90671,Tuesday,2026-12-29,.
-48,false,64.7,Credit Card,Commercial,ACC-18516,Friday,2026-05-08,.
-40,true,662.68,Bank Transfer,Government,ACC-81083,Saturday,2026-12-12,Joint
-20,false,677.47,Direct Debit,Commercial,ACC-83578,Saturday,2026-04-25,todo
-61,false,629.21,Gift Voucher,Industrial,ACC-37859,Tuesday,2026-02-24,Personal
-41,false,225.09,Credit Card,Commercial,ACC-63401,Monday,2026-11-23,xxx
-40,true,62.77,Direct Debit,Residential,ACC-20843,Saturday,2026-01-24,.
-,true,557.98,Direct Debit,Commercial,ACC-67679,Monday,2026-01-05,TBD
-56,true,785.61,Gift Voucher,Industrial,ACC-22876,Tuesday,2026-03-03,Trust
-76,true,670.44,Gift Voucher,Industrial,ACC-81190,Sunday,2026-06-28,TBD
-85,false,201.82,Direct Debit,Commercial,ACC-60417,Monday,2026-07-20,asdf
-73,false,273.83,Gift Voucher,Industrial,ACC-87239,Sunday,2026-02-15,.
-23,true,96.88,Gift Voucher,Residential,ACC-69686,Thursday,2026-05-28,.
-22,false,158.12,Gift Voucher,Residential,ACC-47674,Monday,2026-11-30,Trust
-34,true,23.67,Direct Debit,Government,ACC-78604,Sunday,2026-05-17,TBD
-26,false,691.17,Direct Debit,Residential,ACC-93775,Friday,2026-07-03,TBD
-60,false,205.91,Direct Debit,Commercial,ACC-79565,Monday,2026-03-02,Joint
-79,true,589.48,Credit Card,Industrial,ACC-42312,Thursday,2026-02-19,asdf
-41,true,121.32,Credit Card,Residential,ACC-45716,Friday,2026-10-23,asdf
-26,false,203.12,Bank Transfer,Government,ACC-98797,Friday,2026-04-24,asdf
-81,true,571.54,Gift Voucher,Government,ACC-65601,Wednesday,2026-02-25,todo
-45,false,78.23,Credit Card,Residential,ACC-54395,Saturday,2026-12-26,.
-,true,605.14,Credit Card,Government,ACC-84938,Saturday,2026-10-03,xxx
-53,false,595.41,Direct Debit,Residential,ACC-69229,Saturday,2026-01-31,asdf
-62,true,278.58,Bank Transfer,Government,ACC-98841,Friday,2026-11-06,asdf
-79,true,226.05,Gift Voucher,Residential,ACC-98529,Wednesday,2026-06-03,Personal
-37,false,70.13,Direct Debit,Commercial,ACC-48080,Thursday,2026-01-08,todo
-52,false,230.92,Gift Voucher,Government,ACC-95897,Wednesday,2026-02-11,asdf
-49,false,742.58,Gift Voucher,Commercial,ACC-10883,Friday,2026-09-11,test
-37,false,547.01,Bank Transfer,Residential,ACC-14119,Wednesday,2026-07-15,Joint
-80,true,423.19,Direct Debit,Government,ACC-27448,Thursday,2026-03-26,Joint
-20,true,655.53,Gift Voucher,Government,ACC-33068,Monday,2026-02-23,Trust
-36,true,306.11,Bank Transfer,Industrial,ACC-14213,Monday,2026-02-16,Joint
-,false,238.03,Direct Debit,Industrial,ACC-69211,Thursday,2026-01-22,Personal
-31,true,883.56,Credit Card,Commercial,ACC-27555,Sunday,2026-07-05,xxx
-72,true,820.4,Bank Transfer,Commercial,ACC-30869,Thursday,2026-10-08,Trust
-88,false,546.84,Gift Voucher,Residential,ACC-75191,Friday,2026-01-23,Joint
-47,true,885.99,Credit Card,Residential,ACC-31659,Sunday,2026-09-20,xxx
-78,false,253.3,Bank Transfer,Government,ACC-43848,Saturday,2026-04-25,test
-80,false,163.72,Credit Card,Government,ACC-53072,Sunday,2026-12-06,Personal
-86,true,213.82,Gift Voucher,Government,ACC-92540,Monday,2026-01-19,.
-73,true,458.48,Direct Debit,Residential,ACC-55034,Wednesday,2026-12-23,asdf
-84,true,105.33,Direct Debit,Industrial,ACC-36194,Thursday,2026-09-10,Joint
-22,true,60.33,Bank Transfer,Government,ACC-33780,Sunday,2026-01-04,test
-30,false,60.03,Direct Debit,Commercial,ACC-90587,Tuesday,2026-06-16,TBD
-90,false,252.02,Bank Transfer,Commercial,ACC-39570,Tuesday,2026-05-12,Trust
-19,false,200.14,Gift Voucher,Industrial,ACC-44121,Wednesday,2026-11-25,Trust
-58,true,323.33,Bank Transfer,Commercial,ACC-83264,Thursday,2026-02-26,todo
-24,true,302.75,Credit Card,Residential,ACC-77438,Saturday,2026-12-26,test
-84,false,91.05,Bank Transfer,Residential,ACC-25348,Wednesday,2026-08-05,Joint
-44,false,683.95,Bank Transfer,Government,ACC-35175,Sunday,2026-09-06,Personal
-67,true,579.67,Bank Transfer,Industrial,ACC-77463,Monday,2026-04-06,test
-44,true,836.34,Gift Voucher,Government,ACC-21366,Saturday,2026-08-15,.
-76,false,116.03,Gift Voucher,Industrial,ACC-31393,Friday,2026-06-12,asdf
-54,false,421.17,Gift Voucher,Residential,ACC-14986,Tuesday,2026-08-11,xxx
-75,false,522.88,Gift Voucher,Residential,ACC-40683,Wednesday,2026-04-08,todo
-21,true,397.19,Direct Debit,Commercial,ACC-33103,Thursday,2026-10-22,test
-57,false,402.12,Gift Voucher,Commercial,ACC-34250,Thursday,2026-06-18,todo
-24,false,481.6,Credit Card,Residential,ACC-79023,Tuesday,2026-11-17,Business
-24,true,684.15,Credit Card,Commercial,ACC-78351,Thursday,2026-04-30,xxx
-86,true,84.05,Credit Card,Government,ACC-43512,Sunday,2026-06-28,.
-52,false,288.39,Direct Debit,Industrial,ACC-56022,Sunday,2026-04-12,xxx
-56,true,893.87,Bank Transfer,Government,ACC-54927,Wednesday,2026-02-18,xxx
-27,false,628.51,Direct Debit,Government,ACC-25936,Tuesday,2026-07-21,Trust
-43,true,71.58,Bank Transfer,Industrial,ACC-92981,Monday,2026-05-04,.
-89,false,478.91,Direct Debit,Residential,ACC-72834,Wednesday,2026-09-02,todo
-,false,26.79,Credit Card,Industrial,ACC-74409,Sunday,2026-09-20,test
-39,true,367.72,Gift Voucher,Commercial,ACC-14672,Wednesday,2026-06-24,asdf
-73,false,888.64,Bank Transfer,Government,ACC-72386,Wednesday,2026-10-14,todo
-51,true,124.74,Bank Transfer,Commercial,ACC-85842,Tuesday,2026-04-14,test
-23,false,455.78,Bank Transfer,Commercial,ACC-12101,Tuesday,2026-05-19,Joint
-70,false,329.13,Gift Voucher,Commercial,ACC-21838,Monday,2026-11-02,xxx
-66,false,641.81,Direct Debit,Commercial,ACC-95861,Tuesday,2026-03-03,xxx
-62,false,514.59,Credit Card,Industrial,ACC-29439,Saturday,2026-07-11,todo
-43,false,104.92,Direct Debit,Industrial,ACC-41954,Wednesday,2026-07-08,test
-21,false,549.14,Credit Card,Commercial,ACC-79943,Saturday,2026-05-02,Business
-19,false,723.37,Direct Debit,Residential,ACC-37261,Thursday,2026-03-19,xxx
-18,false,873.26,Bank Transfer,Commercial,ACC-78911,Sunday,2026-11-08,Personal
-20,true,431.28,Gift Voucher,Residential,ACC-16568,Sunday,2026-08-30,Joint
-63,false,346.51,Bank Transfer,Commercial,ACC-82917,Friday,2026-05-15,.
-44,true,298.51,Credit Card,Residential,ACC-88521,Thursday,2026-04-09,TBD
-42,true,547.82,Bank Transfer,Commercial,ACC-79423,Friday,2026-04-24,.
-44,false,873.39,Bank Transfer,Industrial,ACC-33642,Wednesday,2026-08-19,todo
-49,true,121.18,Credit Card,Residential,ACC-46925,Monday,2026-06-08,Trust
-52,false,468.0,Gift Voucher,Commercial,ACC-94012,Monday,2026-01-05,.
-76,false,436.31,Credit Card,Residential,ACC-50952,Tuesday,2026-11-03,.
-89,true,99.68,Gift Voucher,Residential,ACC-71022,Thursday,2026-03-26,Joint
-22,false,446.71,Bank Transfer,Industrial,ACC-40017,Monday,2026-12-21,Business
-61,false,391.01,Bank Transfer,Industrial,ACC-53098,Thursday,2026-01-08,Trust
+weight,status_cd,status_desc,closed_date,price,qty,unit_price,line_total,blnc_usd,age,is_active
+1.45,A1,Open,,93.38,24,30.39,729.36,40980.85,57,true
+10.16,B2,In review,,410.15,6,17.88,107.28,201016.56,80,false
+7.39,B2,In review,2026-06-28,251.35,24,15.78,378.72,243221.08,37,false
+15.33,C3,Closed,,639.96,18,22.66,407.88,112282.68,85,true
+13.02,B2,In review,2025-07-12,804.96,30,34.25,1027.5,213130.31,24,true
+10.8,A1,Open,2026-08-03,490.42,30,37.56,1126.8,95418.77,48,false
+18.14,D4,Cancelled,2023-03-06,457.84,36,37.3,1342.8,85647.05,88,false
+1.95,D4,Cancelled,2024-05-25,457.61,30,28.56,856.8,68963.07,70,false
+12.16,D4,Cancelled,2025-05-25,650.47,24,18.05,433.2,73633.26,37,true
+9.34,C3,Closed,2024-06-12,719.99,12,36.96,443.52,61633.59,81,false
+3.99,D4,Cancelled,2023-01-20,281.13,18,24.31,437.58,11485.26,89,false
+7.62,C3,Closed,2021-03-13,9.18,36,20.08,722.88,218782.09,37,true
+22.36,C3,Closed,2021-06-08,6.45,30,30.69,920.7,107540.49,71,true
+16.1,D4,Cancelled,2022-08-28,554.39,36,22.56,812.16,56511.19,83,false
+11.57,C3,Closed,2022-09-22,376.84,30,37.76,1132.8,21731.63,59,true
+12.93,A1,Open,2025-03-19,273.99,24,34.84,836.16,95223.36,81,false
+14.29,A1,Open,2023-12-28,728.47,36,25.17,906.12,143181.04,90,false
+3.04,D4,Cancelled,,486.7,24,39.68,952.32,114772.15,21,false
+12.7,A1,Open,2024-07-23,693.93,18,22.54,405.72,9072.32,55,false
+22.36,D4,Cancelled,2022-05-14,864.64,12,7.46,89.52,38098.22,43,true
+17.92,D4,Cancelled,2025-09-13,233.6,12,22.9,274.8,150982.44,51,true
+17.24,D4,Cancelled,,122.44,24,36.92,886.08,80000.49,59,true
+14.79,A1,Open,,127.59,24,6.69,160.56,13213.75,42,false
+11.7,C3,Closed,2022-07-06,205.33,12,11.95,143.4,201094.33,42,false
+7.08,D4,Cancelled,,327.78,18,11.55,207.9,210220.49,49,true
+9.3,A1,Open,,61.16,30,13.94,418.2,162405.64,39,true
+15.74,C3,Closed,,892.04,6,7.36,44.16,224572.68,55,true
+13.11,A1,Open,2025-10-29,672.84,6,3.36,20.16,43775.65,65,true
+11.39,A1,Open,2025-12-02,16.65,6,39.03,234.18,152891.35,21,true
+20.41,D4,Cancelled,2024-10-18,69.13,18,30.29,545.22,223971.95,51,true
+3.67,B2,In review,,704.33,6,26.68,160.08,168918.44,75,false
+12.07,C3,Closed,2024-03-08,527.78,30,35.58,1067.4,167637.37,56,true
+14.02,D4,Cancelled,2021-07-14,113.3,12,30.45,365.4,222451.33,48,false
+22.27,A1,Open,2022-03-19,769.2,30,36.84,1105.2,160248.17,40,true
+8.66,C3,Closed,2022-03-24,474.13,12,15.21,182.52,180004.99,20,false
+13.47,C3,Closed,2021-05-23,45.67,6,32.58,195.48,245659.26,61,false
+4.72,C3,Closed,2026-06-03,53.95,24,3.64,87.36,166621.37,41,false
+8.57,A1,Open,2026-07-24,34.49,12,26.51,318.12,164406.01,40,true
+8.44,A1,Open,2024-05-16,287.64,36,24.77,891.72,202180.95,,true
+5.94,A1,Open,,519.56,18,29.47,530.46,79015.95,56,true
+1.81,C3,Closed,2025-05-31,837.31,12,15.06,180.72,153563.45,76,true
+3.81,B2,In review,,818.22,30,36.77,1103.1,170677.89,85,false
+17.24,A1,Open,2024-04-25,771.01,18,27.67,498.06,198350.37,73,false
+12.52,A1,Open,2024-11-24,299.43,36,16.6,597.6,227467.88,23,true
+5.22,D4,Cancelled,2026-09-07,658.14,6,30.31,181.86,219986.89,22,false
+8.89,B2,In review,2023-11-23,834.98,6,22.28,133.68,142832.76,34,true
+2.9,A1,Open,2022-02-08,747.95,24,6.86,164.64,114479.06,26,false
+21.82,A1,Open,,447.86,30,34.43,1032.9,171243.79,60,false
+19.14,B2,In review,2024-10-16,84.63,36,13.57,488.52,202825.96,79,true
+18.42,A1,Open,,532.73,30,11.88,356.4,182631.12,41,true
+7.8,C3,Closed,,444.95,12,16.79,201.48,10090.1,26,false
+3.9,D4,Cancelled,,81.88,30,31.19,935.7,227045.59,81,true
+7.21,B2,In review,2026-07-23,367.56,30,22.44,673.2,99158.78,45,false
+9.03,A1,Open,2021-06-21,231.02,12,17.39,208.68,201623.85,,true
+18.82,A1,Open,,41.23,36,16.2,583.2,153632.45,53,false
+21.41,A1,Open,,891.82,6,36.58,219.48,101270.5,62,true
+15.65,A1,Open,,666.16,30,25.54,766.2,68656.13,79,true
+20.05,C3,Closed,2024-08-23,11.02,12,11.31,135.72,243289.13,37,false
+18.92,A1,Open,2022-01-14,795.9,24,5.53,132.72,10035.58,52,false
+21.73,A1,Open,,228.88,18,19.45,350.1,5704.03,49,false
+8.03,D4,Cancelled,,162.86,36,5.63,202.68,56549.34,37,false
+17.65,D4,Cancelled,2023-05-05,102.01,18,17.92,322.56,203431.28,80,true
+1.04,C3,Closed,2023-03-14,179.41,24,14.68,352.32,13132.16,20,true
+12.43,D4,Cancelled,2021-12-08,851.58,24,29.56,709.44,54750.97,36,true
+7.67,D4,Cancelled,2022-03-13,311.35,24,5.66,135.84,112631.21,,false
+12.25,B2,In review,,747.43,18,5.99,107.82,58578.51,31,true
+9.21,D4,Cancelled,2024-03-21,357.38,36,21.43,771.48,92955.32,72,true
+2.31,D4,Cancelled,2021-11-09,331.45,12,3.13,37.56,119816.99,88,false
+20.96,A1,Open,2025-11-22,98.07,6,5.86,35.16,100888.93,47,true
+6.71,A1,Open,2024-01-11,828.86,18,8.31,149.58,241089.63,78,false
+4.72,C3,Closed,2025-03-14,849.16,6,5.03,30.18,92516.84,80,false
+13.88,B2,In review,2026-03-05,535.03,24,5.14,123.36,98937.71,86,true
+14.52,D4,Cancelled,,682.81,18,31.06,559.08,103692.8,73,true
+8.16,A1,Open,2021-05-08,229.57,12,6.1,73.2,247956.12,84,true
+17.28,A1,Open,2023-10-16,829.43,12,22.78,273.36,102082.64,22,true
+1.36,D4,Cancelled,2026-06-14,254.83,18,31.63,569.34,119679.06,30,false
+4.4,A1,Open,2026-10-10,275.93,30,33.33,999.9,73055.24,90,false
+7.67,B2,In review,2023-07-27,356.2,18,4.87,87.66,139104.52,19,false
+10.16,B2,In review,2022-04-17,466.58,30,37.96,1138.8,109420.51,58,true
+15.83,C3,Closed,,321.63,24,4.65,111.6,92474.9,24,true
+11.2,B2,In review,2022-07-12,50.81,24,15.38,369.12,109282.86,84,false
+2.81,B2,In review,2021-10-09,792.25,36,35.93,1293.48,83173.95,44,false
+5.31,C3,Closed,,250.04,12,2.27,27.24,189006.79,67,true
+7.26,B2,In review,,113.17,6,2.75,16.5,9968.62,44,true
+1.59,C3,Closed,,630.17,12,16.67,200.04,59547.61,76,false
+7.48,D4,Cancelled,2023-04-07,239.25,12,14.8,177.6,120771.31,54,false
+14.42,C3,Closed,2026-12-28,276.42,24,2.88,69.12,66720.98,75,false
+1.45,A1,Open,2022-09-02,890.62,6,4.88,29.28,206233.84,21,true
+22.5,C3,Closed,2021-04-29,897.22,36,12.63,454.68,71095.57,57,false
+20.77,B2,In review,2026-12-26,716.69,6,23.1,138.6,156267.11,24,false
+19.91,A1,Open,2025-06-07,702.58,30,26.87,806.1,133845.71,24,true
+15.06,C3,Closed,2022-05-26,174.82,36,37.83,1361.88,142001.4,86,true
+6.8,C3,Closed,2023-07-07,643.1,12,15.7,188.4,140632.38,52,false
+13.29,C3,Closed,2022-12-18,744.12,18,35.9,646.2,54125.59,56,true
+8.94,A1,Open,2022-08-14,218.89,6,30.25,181.5,221438.33,27,false
+8.85,B2,In review,2022-04-29,201.79,30,17.09,512.7,23681.92,43,true
+21.09,C3,Closed,,603.66,30,6.9,207.0,143617.93,89,false
+1.95,D4,Cancelled,2024-01-26,434.0,24,12.3,295.2,142959.62,,false
+15.69,A1,Open,2025-10-25,285.88,30,27.84,835.2,84983.16,39,true
+7.12,C3,Closed,2026-06-01,800.0,12,34.63,415.56,240421.68,73,false
+5.03,C3,Closed,2022-02-05,49.74,36,38.51,1386.36,5047.51,51,true
+6.17,B2,In review,2023-10-08,421.54,30,10.91,327.3,149178.81,23,false
+21.05,C3,Closed,,747.62,18,16.86,303.48,184706.21,70,false
+6.08,A1,Open,,580.09,18,6.49,116.82,60482.05,66,false
+19.01,A1,Open,,809.88,36,24.03,865.08,172883.71,62,false
+3.31,B2,In review,,89.67,24,11.44,274.56,66172.83,43,false
+10.8,C3,Closed,2024-11-13,353.31,24,35.38,849.12,15759.42,21,false
+18.19,A1,Open,,516.56,6,6.48,38.88,222126.32,19,false
+17.19,A1,Open,,532.71,24,18.76,450.24,248589.78,18,false
+21.32,C3,Closed,2025-03-21,730.54,36,2.99,107.64,132229.15,20,true
+18.37,C3,Closed,2026-04-08,155.96,30,17.16,514.8,217312.66,63,false
+12.47,B2,In review,,527.73,30,28.46,853.8,33286.5,44,true
+20.91,D4,Cancelled,2021-12-20,871.07,30,3.01,90.3,222448.66,42,true
+15.51,A1,Open,2023-11-29,567.36,30,6.89,206.7,86425.37,44,false
+14.11,A1,Open,2022-03-15,859.73,36,13.94,501.84,185403.25,49,true
+13.65,A1,Open,2022-11-26,295.57,6,19.36,116.16,139439.87,52,false
+4.54,A1,Open,2023-08-09,769.29,24,36.71,881.04,14724.88,76,false
+21.77,C3,Closed,,478.59,30,4.53,135.9,225060.94,89,true
+8.35,B2,In review,2025-04-13,446.66,12,2.41,28.92,98443.5,22,false
+12.34,A1,Open,2024-04-30,200.15,30,31.51,945.3,90087.75,61,false

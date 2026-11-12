@@ -1,0 +1,61 @@
+record_id,contact_name,created_date,amount_usd,channel,address
+ORD-34336,Noor Lindqvist,2026-01-28,274.08,Store,"662 Main St, Apt 28"
+ORD-26995,Hiro Castro,2026-06-24,856.42,Online,26 Oak Ave
+ORD-16650,Mona Koval,2026-03-13,183.22,Online,291 Main St
+ORD-45106,Noor Eze,2026-01-23,814.04,Phone,539 Mill Rd
+ORD-56385,Ben Gallo,2025-12-07,173.39,Online,836 Main St
+ORD-28097,Noor Farrow,2025-11-17,816.03,Store,418 Main St
+ORD-66553,Farid Ortiz,2026-06-20,449.58,Phone,758 Oak Ave
+ORD-22299,Noor Ortiz,2025-01-19,458.56,Online,587 Hill Ln
+ORD-12477,Omar Castro,2025-01-31,96.13,Phone,618 Oak Ave
+ORD-67710,Dev Gallo,2025-07-09,460.23,Marketplace,401 Lake Dr
+ORD-83056,Noor Eze,2026-06-03,769.62,Store,"171 Hill Ln, Apt 7"
+ORD-20192,Kemi Brandt,2025-03-04,728.72,Marketplace,966 Hill Ln
+ORD-73702,Farid Ito,2025-01-18,123.83,Store,425 Park Way
+ORD-89776,Ana Castro,2025-09-21,747.19,Marketplace,287 Main St
+ORD-54945,Luca Nwosu,2025-05-28,500.82,Phone,889 Main St
+ORD-44259,Ben Castro,2026-07-31,384.21,Phone,635 Oak Ave
+ORD-49477,Noor Eze,2025-07-01,837.88,Store,185 Mill Rd
+ORD-74586,Luca Brandt,2026-07-03,546.65,Store,"908 Lake Dr, Apt 34"
+ORD-24558,Omar Lindqvist,2026-01-05,283.97,Phone,701 Park Way
+ORD-18100,Kemi Dunne,2025-01-14,370.16,Phone,217 Hill Ln
+ORD-17813,Ines Petrov,2026-08-04,575.03,Phone,904 Hill Ln
+ORD-80642,Priya Brandt,2026-08-07,602.58,Marketplace,450 Oak Ave
+ORD-58269,Luca Petrov,2025-06-24,853.02,Phone,872 Mill Rd
+ORD-90341,Jon Lindqvist,2025-12-15,365.53,Online,812 Oak Ave
+ORD-87752,Noor Koval,2025-01-19,750.64,Online,75 Main St
+ORD-83626,Dev Moreau,2025-08-25,409.18,Phone,546 Mill Rd
+ORD-21614,Ana Dunne,2026-04-02,332.57,Store,119 Oak Ave
+ORD-58955,Jon Gallo,2025-02-06,546.61,Phone,156 Main St
+ORD-20641,Chloe Ito,2025-04-22,875.90,Phone,824 Hill Ln
+ORD-97493,Elif Gallo,2026-03-15,854.12,Online,317 Main St
+ORD-41896,Ines Ortiz,2025-05-02,701.89,Marketplace,568 Mill Rd
+ORD-17501,Dev Gallo,2026-06-12,303.09,Online,466 Main St
+ORD-76278,Elif Lindqvist,2025-02-16,452.22,Marketplace,"310 Park Way, Apt 6"
+ORD-90233,Elif Lindqvist,2026-01-13,242.21,Store,93 Mill Rd
+ORD-77690,Hiro Eze,2025-04-13,603.75,Marketplace,"43 Lake Dr, Apt 8"
+ORD-46415,Dev Petrov,2025-09-18,505.23,Online,442 Main St
+ORD-80651,Kemi Jensen,2025-10-28,458.13,Phone,137 Lake Dr
+ORD-49021,Kemi Haas,2026-06-24,611.70,Phone,739 Main St
+ORD-39037,Grace Gallo,2025-09-21,236.55,Online,460 Oak Ave
+ORD-72089,Mona Gallo,2026-04-20,214.34,Store,911 Oak Ave
+ORD-92994,Jon Moreau,2026-06-19,148.11,Marketplace,835 Park Way
+ORD-93093,Ines Petrov,2025-08-20,450.46,Phone,87 Hill Ln
+ORD-43157,Elif Petrov,2026-07-30,342.96,Online,635 Main St
+ORD-63932,Elif Eze,2025-02-03,865.21,Store,804 Hill Ln
+ORD-51578,Omar Jensen,2026-04-11,568.24,Online,65 Oak Ave
+ORD-53701,Omar Farrow,2025-09-14,342.17,Phone,813 Oak Ave
+ORD-24236,Chloe Haas,2025-07-29,738.44,Store,670 Hill Ln
+ORD-88448,Hiro Petrov,2025-03-25,293.54,Online,948 Main St
+ORD-97679,Omar Nwosu,2025-08-22,291.91,Phone,805 Mill Rd
+ORD-32141,Dev Nwosu,2026-06-27,753.69,Phone,73 Lake Dr
+ORD-29135,Kemi Brandt,2026-04-29,460.79,Marketplace,224 Mill Rd
+ORD-26924,Grace Jensen,2025-09-22,557.06,Marketplace,167 Lake Dr
+ORD-24408,Farid Jensen,2026-05-25,438.41,Online,163 Oak Ave
+ORD-80120,Priya Dunne,2026-06-23,476.93,Store,863 Lake Dr
+ORD-60324,Elif Ortiz,2025-05-14,327.49,Marketplace,"573 Park Way, Apt 30"
+ORD-36418,Omar Gallo,2025-01-25,454.02,Phone,32 Hill Ln
+ORD-57339,Dev Dunne,2026-04-09,288.02,Marketplace,75 Main St
+ORD-16509,Chloe Ortiz,2025-01-20,399.31,Phone,850 Mill Rd
+ORD-40246,Dev Castro,2025-12-21,627.42,Phone,689 Oak Ave
+ORD-50879,Jon Abel,2026-04-05,315.05,Store,330 Park Way

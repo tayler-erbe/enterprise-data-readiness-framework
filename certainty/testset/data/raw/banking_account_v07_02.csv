@@ -1,121 +1,121 @@
-day,updated_at,hndld_by,email,renewal,share,comment,status_cd,status_desc
-Saturday,1784527451000,Mona Koval,chloe.petrov85@example.com,2,34.6%,todo,D4,Cancelled
-Thursday,1777571180000,Jon Ito,ines.gallo6@example.com,2,87.9%,Trust,C3,Closed
-Tuesday,1783434536000,Hiro Farrow,ines.ortiz66@example.com,2,60.9%,test,A1,Open
-Sunday,1769626233000,Priya Lindqvist,chloe.petrov21@example.com,2,14.6%,Joint,A1,Open
-Wednesday,1783030104000,Omar Dunne,omar.ortiz67@example.com,1,44.8%,TBD,B2,In review
-Sunday,1769943607000,Hiro Jensen,dev.gallo70@example.com,1,94.0%,.,B2,In review
-Monday,1781208212000,Ben Koval,hiro.abel43@example.com,2,98.8%,.,C3,Closed
-Monday,1779273936000,Chloe Castro,omar.abel38@example.com,2,97.6%,Personal,D4,Cancelled
-Monday,1777975913000,Grace Jensen,noor.gallo87@example.com,1,12.0%,.,A1,Open
-Saturday,1779567943000,Omar Lindqvist,elif.koval37@example.com,2,77.2%,xxx,B2,In review
-Monday,1778072696000,Chloe Farrow,dev.koval37@example.com,2,73.0%,xxx,B2,In review
-Monday,1788500587000,Ben Eze,priya.dunne92@example.com,1,19.9%,Business,C3,Closed
-Wednesday,1768300777000,Ana Haas,priya.ito6@example.com,1,74.7%,Personal,A1,Open
-Wednesday,1767695422000,Elif Castro,hiro.ortiz26@example.com,1,75.0%,Personal,A1,Open
-Wednesday,1785261311000,Grace Lindqvist,omar.jensen53@example.com,1,12.5%,xxx,C3,Closed
-Tuesday,1777711533000,Ana Ito,priya.moreau1@example.com,2,48.2%,Business,A1,Open
-Thursday,1776952685000,Jon Nwosu,ben.lindqvist45@example.com,2,50.9%,Joint,B2,In review
-Thursday,1767706652000,Dev Nwosu,mona.ortiz31@example.com,2,47.5%,Trust,A1,Open
-Thursday,1780266153000,Priya Dunne,mona.haas65@example.com,1,35.2%,.,B2,In review
-Wednesday,1784638174000,Elif Lindqvist,farid.ortiz77@example.com,2,93.6%,TBD,B2,In review
-Tuesday,1778895736000,Priya Castro,noor.dunne26@example.com,1,84.1%,test,C3,Closed
-Tuesday,1784544324000,Mona Dunne,luca.petrov6@example.com,2,81.9%,asdf,B2,In review
-Friday,1775769894000,Noor Lindqvist,grace.nwosu53@example.com,2,92.5%,todo,A1,Open
-Tuesday,1771640725000,Hiro Nwosu,dev.koval63@example.com,2,13.8%,xxx,C3,Closed
-Friday,1769157461000,Noor Ortiz,omar.nwosu11@example.com,1,47.3%,.,D4,Cancelled
-Monday,1773768730000,Ines Lindqvist,noor.nwosu99@example.com,2,86.6%,Personal,B2,In review
-Tuesday,1773517808000,Ana Brandt,farid.ortiz50@example.com,1,50.7%,xxx,A1,Open
-Tuesday,1776877893000,Ana Castro,noor.petrov89@example.com,1,88.6%,Business,A1,Open
-Wednesday,1786973214000,Elif Eze,grace.abel33@example.com,1,83.6%,Joint,D4,Cancelled
-Tuesday,1771809622000,Ines Dunne,noor.lindqvist40@example.com,1,11.1%,Trust,A1,Open
-Tuesday,1793066886000,Ben Eze,elif.moreau97@example.com,2,91.5%,todo,D4,Cancelled
-Saturday,1776282250000,Luca Castro,ben.brandt81@example.com,2,6.3%,Joint,B2,In review
-Wednesday,1769865151000,Ben Lindqvist,ana.farrow34@example.com,1,33.5%,.,D4,Cancelled
-Sunday,1777880285000,Hiro Ito,ines.eze90@example.com,2,9.9%,asdf,D4,Cancelled
-Saturday,1785210988000,Farid Ito,hiro.dunne59@example.com,1,46.9%,asdf,C3,Closed
-Wednesday,1777645403000,Dev Dunne,ines.petrov19@example.com,2,12.4%,TBD,B2,In review
-Sunday,1786401802000,Ines Ito,priya.lindqvist51@example.com,1,54.1%,Joint,B2,In review
-Sunday,1772828442000,Grace Eze,dev.haas79@example.com,2,96.2%,Trust,B2,In review
-Saturday,1780717771000,Elif Ortiz,hiro.ortiz39@example.com,1,61.8%,test,A1,Open
-Sunday,1786127382000,Kemi Brandt,chloe.ortiz3@example.com,1,1.8%,asdf,B2,In review
-Saturday,1792885485000,Chloe Brandt,ines.farrow43@example.com,1,35.9%,xxx,B2,In review
-Wednesday,1785478637000,Ana Castro,grace.nwosu35@example.com,2,34.7%,.,D4,Cancelled
-Monday,1781354017000,Ben Castro,luca.eze61@example.com,1,98.3%,xxx,C3,Closed
-Sunday,1778037493000,Chloe Koval,kemi.nwosu40@example.com,2,37.7%,.,C3,Closed
-Saturday,1785661632000,Jon Ito,luca.gallo55@example.com,1,33.4%,.,D4,Cancelled
-Monday,1781123901000,Dev Ortiz,kemi.nwosu70@example.com,2,47.8%,Business,C3,Closed
-Friday,1790597396000,Chloe Moreau,chloe.lindqvist44@example.com,2,47.2%,.,A1,Open
-Monday,1772490350000,Noor Jensen,omar.petrov15@example.com,2,21.4%,Business,D4,Cancelled
-Thursday,1769295158000,Jon Petrov,ben.koval56@example.com,2,89.3%,.,C3,Closed
-Saturday,1772242761000,Ben Lindqvist,noor.nwosu56@example.com,1,17.2%,asdf,A1,Open
-Monday,1770619456000,Hiro Nwosu,grace.nwosu2@example.com,1,13.4%,TBD,C3,Closed
-Thursday,1775383928000,Noor Brandt,grace.ortiz49@example.com,1,3.1%,test,A1,Open
-Monday,1780388294000,Grace Ortiz,farid.castro21@example.com,2,64.6%,.,B2,In review
-Tuesday,1773799201000,Dev Castro,priya.haas57@example.com,2,70.7%,Trust,B2,In review
-Monday,1785767285000,Dev Ortiz,kemi.ortiz91@example.com,2,90.3%,xxx,B2,In review
-Tuesday,1780025462000,Grace Gallo,ines.moreau10@example.com,2,10.0%,asdf,D4,Cancelled
-Monday,1774905353000,Elif Ito,luca.petrov56@example.com,2,10.1%,TBD,A1,Open
-Wednesday,1776474495000,Dev Moreau,omar.moreau14@example.com,1,46.3%,.,B2,In review
-Saturday,1774631765000,Ana Koval,noor.petrov78@example.com,2,1.2%,.,B2,In review
-Tuesday,1767273900000,Priya Brandt,hiro.farrow93@example.com,2,60.6%,test,B2,In review
-Tuesday,1776532054000,Kemi Koval,luca.castro7@example.com,2,52.7%,xxx,D4,Cancelled
-Tuesday,1790090264000,Elif Ito,ana.ortiz3@example.com,2,27.2%,Trust,D4,Cancelled
-Saturday,1789960165000,Ana Petrov,hiro.ortiz2@example.com,1,50.1%,test,A1,Open
-Tuesday,1772148351000,Hiro Castro,kemi.ito89@example.com,2,8.9%,TBD,B2,In review
-Monday,1773633547000,Mona Nwosu,farid.ito27@example.com,2,20.3%,test,C3,Closed
-Thursday,1791907740000,Elif Lindqvist,kemi.lindqvist58@example.com,2,28.5%,asdf,C3,Closed
-Tuesday,1768431652000,Jon Moreau,jon.dunne49@example.com,1,46.5%,xxx,D4,Cancelled
-Friday,1774580424000,Ben Farrow,noor.jensen24@example.com,1,26.4%,todo,A1,Open
-Wednesday,1781558315000,Jon Koval,luca.eze77@example.com,2,75.0%,Trust,B2,In review
-Tuesday,1789162124000,Hiro Moreau,farid.haas93@example.com,1,71.4%,todo,D4,Cancelled
-Saturday,1778932675000,Kemi Jensen,omar.moreau38@example.com,2,85.2%,.,D4,Cancelled
-Thursday,1777962126000,Grace Lindqvist,ben.gallo90@example.com,1,47.9%,Trust,A1,Open
-Saturday,1769548338000,Ines Dunne,jon.moreau54@example.com,1,96.2%,Personal,A1,Open
-Wednesday,1774085303000,Grace Petrov,grace.dunne79@example.com,1,55.3%,TBD,A1,Open
-Sunday,1779247141000,Grace Moreau,elif.moreau23@example.com,2,69.0%,TBD,A1,Open
-Thursday,1790463113000,Farid Farrow,chloe.nwosu29@example.com,2,1.0%,Joint,B2,In review
-Wednesday,1792792152000,Ana Koval,jon.dunne35@example.com,2,41.8%,asdf,C3,Closed
-Wednesday,1791752411000,Kemi Lindqvist,chloe.lindqvist70@example.com,1,51.6%,.,D4,Cancelled
-Thursday,1776369650000,Kemi Brandt,omar.ito30@example.com,1,6.7%,TBD,A1,Open
-Thursday,1769107015000,Luca Jensen,elif.ito19@example.com,1,43.8%,TBD,A1,Open
-Saturday,1779381423000,Kemi Ortiz,ana.ito34@example.com,1,71.2%,xxx,D4,Cancelled
-Thursday,1771605790000,Luca Eze,hiro.ortiz72@example.com,1,60.9%,test,A1,Open
-Wednesday,1783932718000,Luca Dunne,ana.abel61@example.com,2,87.7%,.,C3,Closed
-Sunday,1767592100000,Chloe Brandt,ben.farrow93@example.com,1,14.4%,todo,B2,In review
-Wednesday,1769297772000,Omar Gallo,hiro.lindqvist90@example.com,2,80.5%,xxx,D4,Cancelled
-Saturday,1771771270000,Jon Moreau,farid.moreau50@example.com,2,88.5%,test,A1,Open
-Sunday,1779964563000,Grace Nwosu,grace.eze17@example.com,2,63.1%,xxx,B2,In review
-Saturday,1792482054000,Jon Ito,mona.moreau80@example.com,1,0.4%,.,D4,Cancelled
-Friday,1788255561000,Omar Eze,elif.petrov80@example.com,1,66.8%,Business,B2,In review
-Thursday,1780304005000,Hiro Castro,kemi.castro82@example.com,2,53.5%,Trust,C3,Closed
-Wednesday,1790525334000,Ben Castro,elif.gallo85@example.com,2,58.1%,test,A1,Open
-Thursday,1782450838000,Elif Dunne,jon.dunne84@example.com,2,79.7%,todo,D4,Cancelled
-Saturday,1783016328000,Priya Eze,priya.lindqvist20@example.com,1,18.4%,TBD,A1,Open
-Tuesday,1767854350000,Priya Lindqvist,hiro.petrov43@example.com,2,60.2%,Business,B2,In review
-Monday,1778887108000,Farid Farrow,farid.koval43@example.com,1,88.9%,Business,C3,Closed
-Sunday,1770916894000,Chloe Haas,mona.lindqvist42@example.com,1,88.5%,Trust,A1,Open
-Saturday,1773200366000,Luca Petrov,noor.petrov1@example.com,1,96.9%,Business,D4,Cancelled
-Tuesday,1783059004000,Hiro Brandt,kemi.eze73@example.com,2,68.2%,test,B2,In review
-Monday,1781373673000,Ana Abel,hiro.nwosu77@example.com,1,77.0%,TBD,B2,In review
-Friday,1777591380000,Ines Abel,mona.petrov26@example.com,1,34.3%,asdf,A1,Open
-Sunday,1783591757000,Priya Ortiz,ben.moreau5@example.com,1,34.9%,xxx,B2,In review
-Wednesday,1775218749000,Dev Petrov,dev.brandt36@example.com,2,88.3%,test,C3,Closed
-Sunday,1783648505000,Farid Gallo,mona.eze35@example.com,1,86.7%,Trust,A1,Open
-Wednesday,1781508228000,Priya Eze,jon.moreau30@example.com,2,89.2%,Joint,A1,Open
-Friday,1783288659000,Ines Moreau,chloe.abel47@example.com,2,29.0%,TBD,B2,In review
-Sunday,1777573340000,Ben Lindqvist,ben.jensen36@example.com,2,84.4%,todo,A1,Open
-Saturday,1784951324000,Hiro Eze,priya.brandt98@example.com,1,16.5%,xxx,D4,Cancelled
-Tuesday,1774409330000,Priya Dunne,noor.moreau83@example.com,2,19.5%,Trust,B2,In review
-Thursday,1777518791000,Jon Ito,dev.ito58@example.com,1,72.0%,asdf,B2,In review
-Wednesday,1769855288000,Chloe Nwosu,ana.koval7@example.com,2,56.8%,.,C3,Closed
-Thursday,1769226115000,Luca Koval,dev.koval43@example.com,2,98.9%,xxx,B2,In review
-Thursday,1787009630000,Mona Nwosu,ana.ortiz30@example.com,1,19.5%,Personal,D4,Cancelled
-Tuesday,1788638265000,Chloe Jensen,priya.farrow99@example.com,1,79.7%,test,C3,Closed
-Friday,1778727732000,Hiro Dunne,noor.lindqvist39@example.com,2,44.1%,TBD,A1,Open
-Tuesday,1777347783000,Noor Jensen,dev.abel75@example.com,1,97.3%,.,B2,In review
-Friday,1791854886000,Noor Castro,mona.koval35@example.com,2,30.1%,todo,D4,Cancelled
-Tuesday,1778934072000,Kemi Jensen,omar.dunne12@example.com,2,6.9%,.,D4,Cancelled
-Wednesday,1777793211000,Luca Gallo,chloe.petrov33@example.com,2,70.3%,xxx,C3,Closed
-Wednesday,1785769804000,Mona Brandt,ines.ortiz85@example.com,2,49.1%,Personal,D4,Cancelled
-Monday,1786460913000,Ana Koval,mona.gallo87@example.com,1,37.0%,.,B2,In review
+origin,pay,returns,end_date,start_date,comment,day,updated_at,payment_method
+IL,5650,0,2026-01-03,2025-11-27,todo,Saturday,1784527451000,Credit Card
+MO,7952,0,2024-08-23,2024-07-03,Trust,Thursday,1777571180000,Credit Card
+ME,9266,0,2025-03-27,2025-03-15,test,Tuesday,1783434536000,Gift  Voucher
+ME,9222,0,2025-11-19,2025-11-07,Joint,Sunday,1769626233000,Gift-Voucher
+MN,6863,9,2024-09-14,2024-08-04,TBD,Wednesday,1783030104000,gift voucher
+MT,5540,0,2025-09-14,2025-07-30,.,Sunday,1769943607000,Bank-Transfer
+VA,2946,6,2024-04-19,2024-04-17,.,Monday,1781208212000,Credit Card
+AL,8182,2,2024-09-25,2024-07-14,Personal,Monday,1779273936000,Gift Voucher
+PA,6631,6,2024-09-12,2024-07-29,.,Monday,1777975913000,Bank Transfer
+PA,5904,2,2024-07-03,2024-05-18,xxx,Saturday,1779567943000,direct debit
+LA,4022,1,2025-06-20,2025-05-21,xxx,Monday,1778072696000,Gift  Voucher
+DE,2707,5,2025-08-06,2025-05-21,Business,Monday,1788500587000,Credit Card
+MO,2556,7,2024-07-10,2024-04-27,Personal,Wednesday,1768300777000,Bank Transfer.
+MO,2587,0,2024-07-10,2024-05-27,Personal,Wednesday,1767695422000,Credit Card
+CA,4519,6,2024-08-19,2024-06-04,xxx,Wednesday,1785261311000,Gift Voucher
+AR,5430,5,2024-06-24,2024-05-21,Business,Tuesday,1777711533000,Gift Voucher.
+LA,8189,5,2024-07-12,2024-05-29,Joint,Thursday,1776952685000,Direct Debit
+GA,6379,4,2025-12-10,2025-11-20,Trust,Thursday,1767706652000,Gift Voucher
+IL,6857,0,2025-01-23,2024-10-25,.,Thursday,1780266153000,Bank Transfer
+MA,9294,6,2025-04-28,2025-03-31,TBD,Wednesday,1784638174000,Direct Debit
+SD,8119,0,2025-04-03,2025-02-28,test,Tuesday,1778895736000,Gift Voucher
+IN,5551,0,2025-07-02,2025-06-06,asdf,Tuesday,1784544324000,CREDIT CARD
+ID,3782,3,2024-08-18,2024-07-23,todo,Friday,1775769894000,Direct Debit
+VA,3759,0,2025-05-22,2025-03-11,xxx,Tuesday,1771640725000,CREDIT CARD
+MD,7670,4,2025-08-26,2025-06-26,.,Friday,1769157461000,Gift Voucher.
+IN,6193,8,2025-05-02,2025-03-02,Personal,Monday,1773768730000,Gift Voucher
+DE,6288,0,2025-11-16,2025-10-10,xxx,Tuesday,1773517808000,Bank Transfer
+ME,4785,0,2024-05-01,2024-04-21,Business,Tuesday,1776877893000,Direct Debit
+MN,4117,5,2025-05-28,2025-03-05,Joint,Wednesday,1786973214000,Credit Card
+MD,3015,0,2024-12-13,2024-11-11,Trust,Tuesday,1771809622000,DIRECT DEBIT
+LA,3546,10,2025-08-05,2025-05-25,todo,Tuesday,1793066886000,Credit Card
+CA,3550,2,2025-05-29,2025-11-16,Joint,Saturday,1776282250000,Bank Transfer.
+SC,3397,6,2024-06-05,2024-03-20,.,Wednesday,1769865151000,Credit Card
+DE,7496,0,2024-06-22,2024-06-06,asdf,Sunday,1777880285000,Direct  Debit
+TN,4275,0,2024-10-07,2024-09-03,asdf,Saturday,1785210988000,Bank Transfer
+NE,7267,3,2025-04-28,2025-02-02,TBD,Wednesday,1777645403000,GIFT VOUCHER
+NE,8945,12,2024-01-05,2024-03-20,Joint,Sunday,1786401802000,Direct Debit
+PA,6215,5,2025-10-15,2025-07-27,Trust,Sunday,1772828442000,direct debit
+DE,4954,5,2024-10-17,2024-07-22,test,Saturday,1780717771000,Gift Voucher
+AL,5190,0,2025-11-23,2025-11-13,asdf,Sunday,1786127382000,Gift Voucher
+ID,3125,9,2024-03-07,2024-01-28,xxx,Saturday,1792885485000,Credit Card
+AL,8097,6,2024-12-09,2024-09-28,.,Wednesday,1785478637000,Gift-Voucher
+IN,5614,0,2025-12-05,2025-09-29,xxx,Monday,1781354017000,Gift Voucher.
+CO,6337,0,2024-09-16,2024-06-22,.,Sunday,1778037493000,Direct Debit
+LA,5059,12,2024-11-13,2024-10-27,.,Saturday,1785661632000,Gift Voucher
+GA,4728,0,2025-10-05,2025-07-27,Business,Monday,1781123901000,Direct Debit
+NC,6501,0,2025-01-02,2024-10-08,.,Friday,1790597396000,Credit Card
+VA,4276,4,2025-12-09,2025-10-22,Business,Monday,1772490350000,Gift Voucher
+ID,2619,1,2024-04-14,2024-02-24,.,Thursday,1769295158000,Bank Transfer
+LA,8059,5,2023-07-23,2024-01-10,asdf,Saturday,1772242761000,Credit Card.
+DE,8484,0,2025-05-29,2025-03-22,TBD,Monday,1770619456000,gift voucher
+MN,4924,0,2024-06-28,2024-06-19,test,Thursday,1775383928000,Credit Card
+MN,3434,9,2024-06-09,2024-05-11,.,Monday,1780388294000,Direct Debit
+CA,4159,0,2025-11-15,2025-09-10,Trust,Tuesday,1773799201000,Direct Debit
+CA,6907,0,2025-07-15,2025-06-22,xxx,Monday,1785767285000,Gift Voucher
+IL,4111,3,2023-12-02,2024-07-19,asdf,Tuesday,1780025462000,Bank Transfer
+TN,9469,9,2025-03-23,2025-05-23,TBD,Monday,1774905353000,Gift Voucher
+CO,3547,0,2024-08-08,2024-10-11,.,Wednesday,1776474495000,Direct-Debit
+GA,7621,0,2024-10-02,2024-07-04,.,Saturday,1774631765000,Credit Card
+MD,5531,0,2025-01-29,2025-01-18,test,Tuesday,1767273900000,Credit Card
+TN,8157,7,2024-01-09,2024-01-05,xxx,Tuesday,1776532054000,Direct Debit
+NC,5941,0,2023-09-16,2024-01-20,Trust,Tuesday,1790090264000,Gift Voucher
+CA,8054,1,2025-05-09,2025-04-08,test,Saturday,1789960165000,Direct-Debit
+AR,9412,1,2025-01-21,2024-11-02,TBD,Tuesday,1772148351000,Gift Voucher
+SD,5017,0,2025-11-15,2025-10-14,test,Monday,1773633547000,Gift Voucher
+ID,8114,6,2024-08-08,2024-07-17,asdf,Thursday,1791907740000,Bank-Transfer
+SC,5517,5,2025-10-12,2025-09-02,xxx,Tuesday,1768431652000,Bank Transfer
+NC,7419,9,2024-06-04,2024-04-14,todo,Friday,1774580424000,Bank Transfer
+SD,6296,0,2024-02-16,2024-01-07,Trust,Wednesday,1781558315000,Bank Transfer
+AL,8257,3,2025-07-10,2025-06-16,todo,Tuesday,1789162124000,Direct Debit
+LA,5363,0,2026-01-25,2025-11-23,.,Saturday,1778932675000,Bank Transfer
+LA,8835,7,2024-06-14,2024-05-08,Trust,Thursday,1777962126000,direct debit
+DE,4643,3,2024-11-20,2024-09-30,Personal,Saturday,1769548338000,Gift Voucher.
+SD,9085,0,2025-11-20,2025-09-08,TBD,Wednesday,1774085303000,bank transfer
+PA,5140,0,2024-11-20,2024-08-30,TBD,Sunday,1779247141000,Gift Voucher
+AL,3545,0,2026-01-04,2025-12-01,Joint,Thursday,1790463113000,Bank Transfer
+PA,5954,11,2024-12-18,2024-09-25,asdf,Wednesday,1792792152000,Direct Debit
+ME,8338,0,2026-02-25,2025-12-20,.,Wednesday,1791752411000,Direct Debit
+DE,8236,11,2024-12-10,2024-11-04,TBD,Thursday,1776369650000,BANK TRANSFER
+VA,4733,3,2024-08-01,2024-06-20,TBD,Thursday,1769107015000,Credit Card
+NC,4406,2,2025-07-06,2025-04-17,xxx,Saturday,1779381423000,Bank Transfer
+MN,8483,4,2025-12-20,2025-12-04,test,Thursday,1771605790000,Credit Card
+VA,3653,0,2025-09-09,2025-08-29,.,Wednesday,1783932718000,Direct Debit
+TN,4974,8,2024-09-05,2024-08-04,todo,Sunday,1767592100000,Gift Voucher
+ID,6800,9,2024-02-29,2024-02-06,xxx,Wednesday,1769297772000,Credit-Card
+CO,3486,0,2025-07-18,2025-05-12,test,Saturday,1771771270000,Bank Transfer
+IN,2721,1,2026-01-15,2025-11-11,xxx,Sunday,1779964563000,Direct Debit
+CO,6919,0,2025-05-10,2025-03-17,.,Saturday,1792482054000,Gift Voucher
+VA,2987,3,2024-11-03,2024-10-10,Business,Friday,1788255561000,bank transfer
+CO,9186,0,2024-12-26,2024-12-09,Trust,Thursday,1780304005000,Direct Debit
+DE,6850,7,2024-04-12,2024-03-24,test,Wednesday,1790525334000,Bank Transfer
+AR,6311,6,2025-02-18,2025-01-02,todo,Thursday,1782450838000,Direct Debit
+MD,9066,8,2025-01-02,2024-10-15,TBD,Saturday,1783016328000,gift voucher
+MD,8243,0,2024-11-18,2024-09-10,Business,Tuesday,1767854350000,Gift Voucher.
+IN,5456,8,2025-03-14,2025-02-07,Business,Monday,1778887108000,Direct Debit
+MA,7068,0,2024-04-04,2024-02-09,Trust,Sunday,1770916894000,Gift Voucher
+GA,3400,3,2025-06-19,2025-06-14,Business,Saturday,1773200366000,Bank Transfer
+MO,6845,7,2024-07-24,2024-06-06,test,Tuesday,1783059004000,Gift Voucher
+MN,5046,10,2024-09-17,2024-08-17,TBD,Monday,1781373673000,GIFT VOUCHER
+DE,3795,9,2025-01-27,2024-12-01,asdf,Friday,1777591380000,Gift Voucher
+TN,7840,9,2025-08-12,2025-05-27,xxx,Sunday,1783591757000,Bank-Transfer
+LA,3509,9,2024-04-01,2024-03-11,test,Wednesday,1775218749000,Gift Voucher
+MO,2500,12,2025-04-11,2025-03-31,Trust,Sunday,1783648505000,Bank Transfer
+ID,6677,6,2024-06-07,2024-04-04,Joint,Wednesday,1781508228000,Bank Transfer
+AR,2874,9,2025-11-27,2025-11-21,TBD,Friday,1783288659000,Bank Transfer
+MN,4679,0,2025-07-05,2025-06-10,todo,Sunday,1777573340000,Gift Voucher
+SC,3004,10,2025-08-19,2025-11-29,xxx,Saturday,1784951324000,Credit  Card
+IN,3231,4,2024-10-05,2024-08-15,Trust,Tuesday,1774409330000,Gift Voucher
+MO,7870,2,2025-08-02,2025-07-01,asdf,Thursday,1777518791000,Gift Voucher
+PA,3773,0,2024-06-05,2024-05-31,.,Wednesday,1769855288000,Gift Voucher
+NE,3838,0,2024-07-13,2024-04-19,xxx,Thursday,1769226115000,Bank Transfer
+MA,5025,9,2025-02-18,2025-02-04,Personal,Thursday,1787009630000,bank transfer
+AL,4465,0,2024-02-10,2024-06-19,test,Tuesday,1788638265000,Direct Debit
+MA,6999,11,2024-09-12,2024-08-27,TBD,Friday,1778727732000,Bank Transfer
+MN,6767,12,2024-04-07,2024-02-10,.,Tuesday,1777347783000,Bank-Transfer
+IN,4762,0,2024-10-11,2024-09-01,todo,Friday,1791854886000,Credit Card
+MD,6134,11,2024-08-20,2024-07-22,.,Tuesday,1778934072000,Bank Transfer
+VA,5365,4,2025-06-01,2025-04-28,xxx,Wednesday,1777793211000,Direct Debit
+MT,7375,3,2025-11-06,2025-08-13,Personal,Wednesday,1785769804000,Direct Debit
+NE,3463,0,2025-06-19,2025-05-24,.,Monday,1786460913000,Gift Voucher

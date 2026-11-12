@@ -1,76 +1,93 @@
 # Test set: can a detector tell usable data from garbage?
 
-648 labelled columns across 84 tables. Every column is one of 54 kinds of case, and each case appears 12 times with different values, names and subject areas. Every table exists twice: `raw`, as the data arrives, and `clean`, as it should be after correct preparation.
+720 labelled columns across 96 tables, plus 120 whole files. Every one is an example of one of 70 kinds of case, and each case appears 12 times with different values, names and subject areas. Everything exists twice: `raw`, as the data arrives, and `clean`, as it should be after correct preparation.
 
-**Status: the data is built and its answer key is tested. No model has been run on it yet.**
+**Status: the data, its answer key and the scoring harness are built and tested. No model has been run on it yet.**
 
 ## Four verdicts
 
-Each column carries the verdict a careful reviewer should reach.
+Each column or file carries the verdict a careful reviewer should reach.
 
-| Verdict | Meaning | Cases | Columns |
-| --- | --- | ---: | ---: |
-| READY | Usable as it is | 10 | 120 |
-| FIXABLE | Usable after a fix the data itself determines | 25 | 300 |
-| NEEDS_CONTEXT | Can't be read reliably without a data dictionary or the owner | 13 | 156 |
-| GARBAGE | No fix recovers it | 6 | 72 |
+| Verdict | Meaning | Column cases | Columns | File cases | Files |
+| --- | --- | ---: | ---: | ---: | ---: |
+| READY | Usable as it is | 11 | 132 | 1 | 12 |
+| FIXABLE | Usable after a fix the data itself determines | 27 | 324 | 7 | 84 |
+| NEEDS_CONTEXT | Can't be read reliably without a data dictionary or the owner | 16 | 192 | 1 | 12 |
+| GARBAGE | No fix recovers it | 6 | 72 | 1 | 12 |
 
-The costly mistake is treating NEEDS_CONTEXT as FIXABLE: assuming a meaning, applying a confident fix, and being wrong. This set is built to catch that.
+The costly mistake is treating NEEDS_CONTEXT as FIXABLE: assuming a meaning, applying a confident fix, and being wrong. The harness calls that **dangerous** and reports it separately, because an analysis agent would run on that column and report a result.
 
 ## The cases
 
-**READY (10).** Controls. Identifiers, names, ISO dates, amounts whose name states the currency, clean categories, named counts, weekday names, emails, named percentages, and a code column with its description beside it.
+**READY (11 column, 1 file).** Controls. Identifiers, names, ISO dates, amounts whose name states the currency, clean categories, named counts, weekday names, emails, named percentages, a code column with its description beside it, amounts with a currency column beside them, and a tidy file.
 
-**FIXABLE (25).**
+**FIXABLE (27 column, 7 file).**
 
 | Kind | Cases |
 | --- | --- |
 | Text | Stray spaces and mixed capitals; garbled accented letters; one category spelled several ways; typos one keystroke from a common value; yes and no written many ways; several facts packed into one cell |
 | Dates and times | Several unambiguous formats in one column; slash dates settled by a day above 12; spreadsheet day numbers; seconds since 1970; milliseconds since 1970 |
 | Numbers | Thousands separators; decimal commas; currency symbols; percent signs; identifiers that picked up a decimal point; postal codes that lost leading zeros |
-| Units | Heights written three ways with their units; inches and centimetres mixed where the ranges can't overlap; six-packs revealed by the line total |
+| Units | Heights written three ways with their units; inches and centimetres mixed where the ranges can't overlap; six-packs revealed by the line total; pounds and kilograms with a unit column beside them |
 | Missing and impossible | An impossible number standing in for missing; N/A and NULL as words; a far-future date for no date; ages no person can have |
-| Codes | A weekday number whose convention the date beside it reveals |
+| Across columns | A weekday number whose convention the date beside it reveals; a line total that disagrees with quantity times price |
+| Whole file | Duplicate rows; title lines above the header; the header repeated part-way down; subtotal and total rows among the data; blank rows and a blank column; an unquoted comma that shifts part of a row sideways; months spread across columns |
 
-**NEEDS_CONTEXT (13).** Slash dates where every day and month is 12 or below; a currency nobody named; whole numbers that could be dollars or cents; pay that could be monthly or annual; weight in pounds or kilograms; a 1/2 flag; zeros that mean none or not recorded; two-letter codes valid as both states and countries; a timestamp with no zone; a weekday number alone; a quantity alone; opaque codes; plausible numbers under a meaningless name.
+**NEEDS_CONTEXT (16 column, 1 file).** Slash dates where every day and month is 12 or below; a currency nobody named; whole numbers that could be dollars or cents; pay that could be monthly or annual; weight in pounds or kilograms; a 1/2 flag; zeros that mean none or not recorded; two-letter codes valid as both states and countries; a timestamp with no zone; a weekday number alone; a quantity alone; opaque codes; plausible numbers under a meaningless name; rows that end before they start; a state that contradicts its postal code; one code with two descriptions; a file with no header and only ambiguous numbers.
 
-**GARBAGE (6).** Nearly all blank; one value in every row; random strings; text cut off at ten characters; a money column full of dates and names; filler such as "test" and "asdf".
+**GARBAGE (6 column, 1 file).** Nearly all blank; one value in every row; random strings; text cut off at ten characters; a money column full of dates and names; filler such as "test" and "asdf"; a saved error page in place of a data file.
 
 ## Why the answer key can be trusted
 
-Collected data comes with a question: did whoever cleaned it get it right? Here the clean table is made first and the raw one is derived from it, so the key is exact by construction. Three tests then check it with separate code.
+Collected data comes with a question: did whoever cleaned it get it right? Here the clean version is made first and the raw one is derived from it, so the key is exact by construction. Separate code then checks it.
 
-1. **Every FIXABLE case has a second, independent fixer.** It reads only the raw column and must reproduce the clean column exactly. This is checked on 25 seeds in 6 subject areas for each case.
-2. **Every NEEDS_CONTEXT case with competing readings is generated under each reading from the same seed, and the raw columns must be identical.** That proves the values can't settle it. Eleven cases are checked this way.
-3. **Every READY and GARBAGE case is checked for the property it claims**, such as raw equal to clean, or at least 90% blank.
+1. **Every FIXABLE case has a second, independent fixer.** It reads only the raw column or file and must reproduce the clean one exactly. Checked on 25 seeds in 6 subject areas for each of the 34 fixable cases.
+2. **Every NEEDS_CONTEXT case with competing readings is generated under each reading from the same seed, and the raw values must be identical.** That proves the values can't settle it. Eleven cases are checked this way.
+3. **Every conflict case is checked to really contain the conflict**, and every READY and GARBAGE case for the property it claims.
 
 Nothing here has been published before, so no model has seen it.
+
+## The harness
+
+`detect.py` shows a model one raw table (name, columns, types and ten sample rows) and asks about one column: the verdict, the fix, its certainty, any assumption it made, and the cleaned values for the first five rows. Those values are compared with the clean table, so a model that says "fixable" has to show the fix. Whole files are shown as numbered lines and judged for layout.
+
+The sample always includes some of the rows that need changing. Ten random rows would often miss the problem, and READY would then be the honest answer.
+
+The report gives the share of verdicts right, the dangerous share, the over-cautious share, whether fixes were named and carried out, whether stated certainty separates right from wrong, a table of what the model said against the truth, and a line for every kind of case. On two-reading columns it also reports how often a guessed fix landed on the true reading. Near 50% means guessing.
+
+```bash
+cd certainty/testset
+python -m unittest discover -s tests                 # 42 checks
+python build.py --variations 12                      # rebuilds data/; raise the number for more examples
+python detect.py --dry-run                           # the pipeline, with made-up replies
+python detect.py --base-url http://localhost:8000/v1 --model <model name>
+```
+
+Building and testing need Python 3.10 or later and nothing else. Running a model also needs `duckdb`, for code shared with the other tests. A full run is (720 columns + 120 files) x 3 repeats = 2,520 short requests. A stopped run continues when you repeat the command.
 
 ## Files
 
 | File | Contents |
 | --- | --- |
-| [`cases.py`](cases.py) | The 54 cases, with their fixers |
+| [`cases.py`](cases.py) | The 60 column cases, with their fixers |
+| [`tables.py`](tables.py) | The 10 whole-file cases, with their fixers |
 | [`build.py`](build.py) | Deals the cases into tables and writes the files |
-| [`data/raw/`](data/raw/), [`data/clean/`](data/clean/) | 84 tables, 120 rows each, in both forms |
+| [`detect.py`](detect.py), [`score_detect.py`](score_detect.py) | The harness and its report |
+| [`data/raw/`](data/raw/), [`data/clean/`](data/clean/) | 96 tables, 120 rows each, in both forms |
 | [`data/labels.csv`](data/labels.csv) | One row per labelled column: verdict, issue, meaning, the true reading and the others that fit, what settles it, the fix, how many rows change |
-| [`tests/`](tests/) | The checks above |
+| [`data/files_raw/`](data/files_raw/), [`data/files_clean/`](data/files_clean/), [`data/file_labels.csv`](data/file_labels.csv) | The 120 whole files and their labels |
 
-```bash
-cd certainty/testset
-python -m unittest discover -s tests
-python build.py --variations 12        # rebuilds data/; raise the number for more examples
-```
+## Real tables, as a control
 
-Python 3.10 or later. Nothing to install.
+[`../realdata/`](../realdata/) downloads five public dirty-and-clean table pairs (66 columns, 45 with known errors) and runs the same detector on them. They're widely used and probably memorised, so they're a control group and not part of the main test.
 
-## What is not in it yet
+## Limits
 
-- **Table-level failures.** Duplicate rows, a missing or misplaced header row, columns shifted sideways, tables at the wrong grain.
-- **Cross-column rules.** A city that doesn't match its postal code; an end date before a start date.
-- **Real tables.** Generated errors are cleaner than real ones. A small set of real dirty-and-clean pairs would check realism. The well-known public ones are probably memorised by models, so they belong in a control group, not the main test.
-- **Wide tables.** These have about eight columns. Real ones have dozens.
-- **A harness.** The code that shows these tables to a model and scores its verdicts isn't written. The [column meaning test](../columns/) has the parts it needs.
-- **More subject areas.** Six now: retail, clinic, logistics, banking, hotel, utilities.
+- **Generated errors are tidier than real ones.** Each column here has one problem. Real columns have several at once.
+- **The tables are narrow.** About eight columns. Real ones have dozens, and the evidence for one column can be far from it.
+- **Six subject areas**: retail, clinic, logistics, banking, hotel, utilities.
+- **Twelve examples per case** is enough to see whether a model handles a kind of failure, and too few to measure small differences between models.
+- **The verdict labels are mine.** FIXABLE and NEEDS_CONTEXT cases are backed by tests. Whether a nearly blank column is GARBAGE or merely low-value is a judgement.
+- **Not covered yet:** tables at the wrong grain, values that are plausible and wrong, drift over time, free-text fields, several problems in one column.
 
 Kinds of failure and where they come from are catalogued in [`research/column-meaning-and-test-data.md`](../../research/column-meaning-and-test-data.md).

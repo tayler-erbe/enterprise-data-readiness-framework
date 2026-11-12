@@ -604,3 +604,71 @@ DOMAINS = {
     "hotel": {"entity": "booking", "prefix": "BKG", "categories": ["Leisure", "Corporate", "Group", "Event"]},
     "utilities": {"entity": "meter", "prefix": "MTR", "categories": ["Electric", "Gas", "Water", "Solar"]},
 }
+
+
+# ---------- cross-column cases: the evidence, or the conflict, is in another column ----------
+
+ZIP_STATE = [("02134", "MA"), ("07030", "NJ"), ("10001", "NY"), ("60614", "IL"), ("94110", "CA"), ("30301", "GA"), ("73301", "TX"), ("80202", "CO")]
+
+
+def fix_recompute_total(raw, helpers):
+    return [round(q * p, 2) for q, p in zip(helpers["qty"], helpers["unit_price"])]
+
+
+def fix_weight_by_unit(raw, helpers):
+    return [round(v * 0.4536, 2) if u == "lb" else v for v, u in zip(raw, helpers["weight_unit"])]
+
+
+@case("x_amount_with_currency_column", READY, "Amounts in several currencies, with the currency named in the next column.", "money", settled_by="neighbours")
+def _(rng, n, dom, truth=None):
+    v = [round(rng.uniform(5, 900), 2) for _ in range(n)]
+    return {"name": "amount", "raw": v, "clean": list(v), "helpers": {"currency": [rng.choice(["USD", "EUR", "GBP"]) for _ in range(n)]}}
+
+
+@case("x_weight_with_unit_column", FIXABLE, "Weights in pounds and kilograms mixed, with the unit named in the next column.", "weight_kg", "convert_unit", settled_by="neighbours",
+      fix=fix_weight_by_unit)
+def _(rng, n, dom, truth=None):
+    v = [round(rng.uniform(1, 50), 1) for _ in range(n)]
+    unit = [rng.choice(["kg", "lb"]) for _ in range(n)]
+    return {"name": "weight", "raw": v, "clean": [round(x * 0.4536, 2) if u == "lb" else x for x, u in zip(v, unit)], "helpers": {"weight_unit": unit}}
+
+
+@case("x_total_recomputable", FIXABLE, "A line total that disagrees with quantity times unit price in some rows.", "money", "recompute_derived", settled_by="neighbours",
+      fix=fix_recompute_total)
+def _(rng, n, dom, truth=None):
+    qty = [rng.randint(1, 12) for _ in range(n)]
+    price = [round(rng.uniform(2, 40), 2) for _ in range(n)]
+    clean = [round(q * p, 2) for q, p in zip(qty, price)]
+    raw = list(clean)
+    for i in sprinkle(rng, n, 0.06):
+        raw[i] = round(clean[i] * rng.choice([10, 0.1, 2]) + rng.choice([0, 1]), 2)
+    return {"name": "line_total_usd", "raw": raw, "clean": clean, "helpers": {"qty": qty, "unit_price": price}}
+
+
+@case("x_end_before_start", NEEDS_CONTEXT, "Some rows end before they start, and nothing says which date is wrong.", "date", settled_by="nothing")
+def _(rng, n, dom, truth=None):
+    start = rand_dates(rng, n, 2024, 2025)
+    end = [s + dt.timedelta(days=rng.randint(1, 90)) for s in start]
+    for i in sprinkle(rng, n, 0.08):
+        end[i] = start[i] - dt.timedelta(days=rng.randint(5, 300))
+    v = [d.isoformat() for d in end]
+    return {"name": "end_date", "raw": v, "clean": list(v), "helpers": {"start_date": [d.isoformat() for d in start]}}
+
+
+@case("x_state_zip_conflict", NEEDS_CONTEXT, "Some rows have a state that does not match the postal code, and nothing says which is wrong.", "us_state", settled_by="nothing")
+def _(rng, n, dom, truth=None):
+    pairs = [rng.choice(ZIP_STATE) for _ in range(n)]
+    state = [s for _, s in pairs]
+    for i in sprinkle(rng, n, 0.08):
+        state[i] = rng.choice([s for _, s in ZIP_STATE if s != pairs[i][1]])
+    return {"name": "state", "raw": state, "clean": list(state), "helpers": {"zip": [z for z, _ in pairs]}}
+
+
+@case("x_code_description_conflict", NEEDS_CONTEXT, "The same code carries different descriptions in different rows.", "status_code", "decode_values", settled_by="nothing")
+def _(rng, n, dom, truth=None):
+    table = {"A1": "Open", "B2": "In review", "C3": "Closed", "D4": "Cancelled"}
+    v = [rng.choice(list(table)) for _ in range(n)]
+    desc = [table[c] for c in v]
+    for i in sprinkle(rng, n, 0.1):
+        desc[i] = rng.choice([d for d in table.values() if d != table[v[i]]])
+    return {"name": "status_cd", "raw": v, "clean": list(v), "helpers": {"status_desc": desc}}

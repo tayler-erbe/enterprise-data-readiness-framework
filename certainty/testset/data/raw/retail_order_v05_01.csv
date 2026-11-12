@@ -1,121 +1,121 @@
-channel,fee,renewal,start_date,email,charge_usd,visit_dow,visit_date,order_id
-Store,506,1,"Aug 13, 2023",mona.haas49@example.com,686.13,4,2026-03-11,ORD-77733
-Marketplace,8120,1,2023-04-06,ines.gallo83@example.com,718.71,2,2026-09-14,ORD-95501
-Store,6181,1,2025/08/12,dev.abel53@example.com,189.34,3,2026-10-27,ORD-61859
-Store,5593,1,2022-08-16,farid.brandt57@example.com,402.3,1,2026-07-26,ORD-49351
-Online,8166,2,2022-02-21,jon.gallo34@example.com,260.12,5,2026-11-26,ORD-11919
-Phone,6013,1,"Jun 03, 2022",priya.dunne35@example.com,798.95,7,2026-01-03,ORD-81775
-Marketplace,7006,1,2025-07-27,jon.brandt68@example.com,864.99,3,2026-04-07,ORD-48771
-Phone,2228,1,2024-09-07,chloe.dunne16@example.com,744.21,6,2026-09-04,ORD-25808
-Marketplace,6434,1,"Jan 07, 2022",jon.koval48@example.com,165.26,2,2026-03-09,ORD-39135
-Store,8850,2,2025-05-01,omar.nwosu14@example.com,413.65,4,2026-03-25,ORD-13994
-Phone,5645,1,2021-07-12,chloe.castro11@example.com,439.89,1,2026-06-21,ORD-47973
-Phone,6216,2,2022/02/15,elif.gallo34@example.com,379.74,4,2026-02-18,ORD-78252
-Marketplace,1445,1,2022/12/07,ines.moreau12@example.com,452.17,3,2026-11-24,ORD-39304
-Online,7327,2,28 Dec 2025,grace.eze43@example.com,269.06,1,2026-11-08,ORD-96192
-Phone,2505,2,2025-05-25,dev.moreau19@example.com,836.09,3,2026-01-27,ORD-65974
-Marketplace,5900,1,"Aug 10, 2026",dev.castro22@example.com,578.14,6,2026-12-18,ORD-36103
-Store,3159,2,30 Jun 2025,dev.farrow20@example.com,107.07,1,2026-08-02,ORD-36641
-Store,5356,1,"Mar 16, 2021",priya.lindqvist94@example.com,709.79,1,2026-11-15,ORD-88224
-Online,3197,1,2021/09/14,farid.petrov70@example.com,36.35,3,2026-06-16,ORD-87142
-Online,5137,2,2024/10/22,mona.ortiz9@example.com,298.31,4,2026-04-22,ORD-34407
-Phone,2309,2,2023/04/07,farid.haas53@example.com,866.09,3,2026-04-28,ORD-71993
-Online,1050,2,"Jan 27, 2025",priya.castro29@example.com,879.29,2,2026-05-04,ORD-59334
-Phone,1475,1,"Jul 28, 2025",farid.dunne67@example.com,408.41,3,2026-11-17,ORD-59887
-Marketplace,8962,1,"Dec 04, 2022",ines.ito21@example.com,577.38,3,2026-06-23,ORD-62253
-Marketplace,4190,2,2026/04/02,elif.ortiz68@example.com,884.14,5,2026-11-12,ORD-85587
-Phone,2846,2,2025/04/24,ben.farrow8@example.com,797.76,1,2026-12-27,ORD-70422
-Online,5028,1,05 Sep 2024,farid.haas50@example.com,319.11,4,2026-09-23,ORD-52336
-Store,4639,1,"Mar 20, 2026",grace.gallo86@example.com,582.63,3,2026-08-18,ORD-43871
-Phone,3905,2,21 Aug 2022,chloe.moreau36@example.com,703.75,2,2026-08-10,ORD-99597
-Phone,7724,1,2021-01-31,ines.petrov11@example.com,788.23,5,2026-04-23,ORD-91255
-Phone,6244,2,2021/09/07,chloe.haas70@example.com,52.45,7,2026-10-17,ORD-19782
-Phone,2552,2,"May 13, 2026",dev.nwosu99@example.com,609.04,7,2026-05-23,ORD-93555
-Store,7000,1,16 Jun 2026,hiro.farrow52@example.com,848.05,7,2026-04-18,ORD-67999
-Online,6265,2,"Jan 22, 2026",grace.moreau5@example.com,62.51,7,2026-12-12,ORD-59592
-Phone,3925,2,2024/03/12,noor.eze51@example.com,389.85,1,2026-08-30,ORD-44856
-Store,1740,1,25 Feb 2026,kemi.castro97@example.com,744.87,5,2026-01-22,ORD-53122
-Phone,2771,1,"Aug 16, 2021",luca.castro43@example.com,622.09,6,2026-01-09,ORD-64815
-Store,4927,1,2022/01/11,omar.eze48@example.com,295.46,7,2026-06-06,ORD-29253
-Marketplace,7856,1,2022/04/05,ana.brandt52@example.com,474.14,2,2026-05-25,ORD-41956
-Store,1783,1,2022-10-18,priya.eze82@example.com,336.87,3,2026-12-15,ORD-65783
-Store,6946,1,2022/06/04,luca.abel91@example.com,342.55,4,2026-10-07,ORD-48984
-Online,3134,1,14 Sep 2025,ben.eze12@example.com,295.74,7,2026-10-10,ORD-47816
-Online,7585,2,2023/01/20,ben.dunne48@example.com,254.9,6,2026-03-20,ORD-27541
-Marketplace,5305,1,2026/07/10,dev.petrov3@example.com,863.34,5,2026-05-14,ORD-77338
-Store,4734,2,27 May 2021,farid.ito5@example.com,375.96,6,2026-01-30,ORD-44418
-Store,3892,1,"Oct 19, 2025",ines.abel68@example.com,157.5,1,2026-09-13,ORD-85635
-Phone,4385,1,"Jul 21, 2024",ben.abel26@example.com,223.56,4,2026-07-08,ORD-41429
-Online,4039,2,2026/12/13,omar.nwosu42@example.com,150.61,1,2026-11-08,ORD-85993
-Phone,4071,2,2025/09/02,elif.brandt13@example.com,124.99,3,2026-02-10,ORD-39773
-Store,2918,2,2023/03/30,omar.lindqvist86@example.com,538.76,2,2026-12-21,ORD-82835
-Store,6457,1,2023/06/20,kemi.lindqvist22@example.com,494.37,3,2026-10-27,ORD-92177
-Online,7682,2,08 Jan 2025,dev.abel7@example.com,18.28,7,2026-11-14,ORD-43242
-Store,3284,2,2023/02/10,hiro.dunne12@example.com,536.82,4,2026-11-04,ORD-18858
-Store,2698,2,"Aug 04, 2024",ana.lindqvist3@example.com,662.42,6,2026-08-21,ORD-15397
-Phone,1030,2,2025-04-11,farid.farrow34@example.com,50.03,7,2026-07-11,ORD-56995
-Online,2702,2,2022/04/19,omar.lindqvist28@example.com,260.61,1,2026-03-22,ORD-51266
-Phone,5537,2,"Jun 27, 2022",priya.brandt64@example.com,778.98,5,2026-05-21,ORD-51234
-Marketplace,8737,1,2025/01/31,noor.nwosu79@example.com,193.33,4,2026-08-05,ORD-73285
-Store,4431,2,2025/11/14,ana.nwosu22@example.com,419.12,6,2026-02-06,ORD-82249
-Marketplace,1041,2,"Sep 13, 2023",jon.lindqvist19@example.com,54.74,4,2026-05-13,ORD-25520
-Phone,4959,2,"Apr 14, 2021",noor.brandt94@example.com,419.84,6,2026-06-26,ORD-95651
-Online,666,2,2023/09/13,kemi.ortiz58@example.com,669.91,7,2026-04-04,ORD-56555
-Online,3850,1,29 May 2023,farid.farrow47@example.com,830.59,2,2026-10-12,ORD-10827
-Online,4816,1,06 Mar 2021,farid.gallo53@example.com,257.5,4,2026-05-13,ORD-64139
-Phone,5763,1,2023/01/14,jon.koval92@example.com,532.39,5,2026-12-17,ORD-47830
-Phone,7338,2,"May 28, 2023",luca.petrov76@example.com,754.38,5,2026-08-06,ORD-46955
-Phone,1733,1,2026/02/27,omar.brandt97@example.com,606.15,2,2026-02-02,ORD-51973
-Store,1110,1,"Sep 13, 2026",dev.dunne57@example.com,306.22,7,2026-10-17,ORD-18477
-Online,4063,1,2023/11/04,chloe.jensen62@example.com,374.49,1,2026-08-23,ORD-34787
-Marketplace,5011,2,2024/06/03,ines.petrov96@example.com,437.09,3,2026-11-10,ORD-46899
-Store,5831,1,2023/02/10,farid.petrov81@example.com,285.25,2,2026-03-30,ORD-34622
-Marketplace,1631,1,12 May 2024,ben.castro75@example.com,447.88,5,2026-10-08,ORD-75904
-Marketplace,2192,2,2024-04-15,priya.brandt68@example.com,595.14,4,2026-12-30,ORD-38801
-Marketplace,713,1,2022/11/02,elif.ito60@example.com,130.5,3,2026-12-29,ORD-23712
-Marketplace,1325,2,"Aug 17, 2024",ben.gallo5@example.com,807.75,2,2026-03-16,ORD-73672
-Store,4569,1,"Jul 06, 2026",dev.ito22@example.com,607.12,5,2026-05-28,ORD-14105
-Store,8880,1,"Mar 19, 2021",ines.lindqvist82@example.com,301.77,4,2026-09-16,ORD-41490
-Phone,7062,1,2025/05/17,ana.jensen72@example.com,638.91,4,2026-04-29,ORD-21417
-Marketplace,5326,1,"Nov 18, 2021",priya.dunne52@example.com,108.24,3,2026-11-17,ORD-25052
-Store,3440,1,"May 05, 2021",dev.ortiz95@example.com,692.84,4,2026-07-22,ORD-86207
-Online,8011,1,"Mar 16, 2025",kemi.haas84@example.com,387.59,3,2026-09-01,ORD-49928
-Online,2507,1,2023-11-13,ana.lindqvist78@example.com,325.03,2,2026-09-28,ORD-67897
-Store,2776,2,2024-10-22,omar.brandt55@example.com,81.22,7,2026-04-25,ORD-62674
-Store,6792,2,"Dec 28, 2026",priya.gallo38@example.com,85.53,7,2026-01-03,ORD-93800
-Marketplace,2909,2,27 Jul 2023,farid.ito50@example.com,243.84,4,2026-02-11,ORD-93834
-Online,1870,1,2023-03-16,priya.jensen57@example.com,635.31,3,2026-08-11,ORD-98222
-Phone,1620,2,30 Apr 2023,ben.nwosu47@example.com,241.24,1,2026-12-13,ORD-61966
-Marketplace,4409,2,"Apr 13, 2021",chloe.dunne91@example.com,217.06,4,2026-01-14,ORD-25422
-Phone,8079,1,2021-07-05,farid.ortiz75@example.com,49.99,6,2026-11-27,ORD-46773
-Marketplace,4592,2,12 Aug 2023,ben.ito18@example.com,162.51,4,2026-07-01,ORD-92029
-Online,7027,2,2024/10/19,farid.lindqvist58@example.com,613.36,4,2026-09-16,ORD-78523
-Store,4334,2,2025/10/27,luca.gallo52@example.com,472.52,1,2026-01-18,ORD-89562
-Store,937,1,12 Jun 2025,ines.dunne62@example.com,194.9,2,2026-10-12,ORD-84616
-Online,7399,1,2021/07/09,elif.petrov13@example.com,379.58,4,2026-01-28,ORD-50404
-Marketplace,4916,1,08 Dec 2025,grace.moreau67@example.com,557.32,5,2026-04-16,ORD-85622
-Phone,690,1,17 May 2024,grace.haas73@example.com,78.83,6,2026-12-11,ORD-31785
-Online,2393,1,"Dec 20, 2026",grace.petrov66@example.com,275.91,7,2026-05-16,ORD-30344
-Online,3246,1,2021/04/20,priya.dunne37@example.com,892.31,5,2026-03-05,ORD-40754
-Online,5099,1,21 Mar 2023,priya.castro89@example.com,149.16,3,2026-05-05,ORD-61340
-Marketplace,4979,1,2025/12/11,elif.dunne58@example.com,806.56,4,2026-10-28,ORD-51529
-Phone,8507,2,"Nov 28, 2022",jon.moreau90@example.com,74.8,4,2026-07-15,ORD-82562
-Store,8526,2,17 Nov 2021,omar.jensen10@example.com,561.08,3,2026-03-10,ORD-66200
-Online,7083,1,02 Sep 2026,ben.gallo6@example.com,22.91,2,2026-12-21,ORD-21423
-Online,2752,1,"May 13, 2025",ana.ortiz60@example.com,18.36,7,2026-02-28,ORD-80190
-Store,2298,1,26 Apr 2023,chloe.moreau28@example.com,898.16,4,2026-07-01,ORD-74428
-Online,644,1,12 May 2023,priya.farrow22@example.com,537.05,1,2026-03-22,ORD-90355
-Store,1335,2,26 Sep 2024,hiro.jensen43@example.com,735.39,4,2026-09-02,ORD-35117
-Phone,8942,2,"Feb 23, 2026",kemi.farrow68@example.com,635.35,2,2026-06-29,ORD-32853
-Marketplace,1126,2,2026/03/23,mona.gallo35@example.com,476.62,7,2026-07-25,ORD-65500
-Store,3388,1,"Jan 21, 2021",mona.moreau98@example.com,363.84,2,2026-04-06,ORD-96347
-Phone,7764,1,2022-07-18,omar.dunne62@example.com,607.06,7,2026-10-10,ORD-18925
-Online,1925,1,2024-11-28,omar.brandt83@example.com,27.64,3,2026-03-24,ORD-46725
-Online,791,2,"Apr 07, 2023",hiro.eze57@example.com,673.43,1,2026-10-11,ORD-69780
-Online,6692,1,12 May 2023,grace.jensen74@example.com,334.72,6,2026-01-09,ORD-24376
-Phone,4340,1,28 Jul 2021,luca.gallo92@example.com,872.3,3,2026-08-11,ORD-11478
-Online,1288,2,22 Mar 2021,elif.abel36@example.com,138.09,3,2026-12-01,ORD-78224
-Phone,2412,2,2021/12/02,ana.brandt85@example.com,340.22,1,2026-07-19,ORD-44275
-Marketplace,1794,1,"Jul 19, 2024",grace.jensen95@example.com,147.14,7,2026-12-26,ORD-76780
-Store,8451,1,"Apr 08, 2025",kemi.abel37@example.com,370.21,3,2026-03-17,ORD-85474
-Store,5616,1,2024-07-22,mona.petrov4@example.com,585.93,6,2026-07-24,ORD-37148
+site_type,evnt_ts,line_total_usd,qty,unit_price,opted_in,weekday_no,weight,state,zip,email
+Residential,1784060815000,411.4,11,3.74,TRUE,2,12.4,NJ,07030,mona.haas49@example.com
+Residential,1786560841000,17.16,4,4.29,TRUE,1,7.3,NY,10001,ines.gallo83@example.com
+Commercial,1787044668000,277.48,7,39.64,Y,6,9.1,IL,60614,dev.abel53@example.com
+Industrial,1785013563000,91.68,8,11.46,FALSE,1,48.1,CA,94110,farid.brandt57@example.com
+Residential,1792224697000,245.76,8,30.72,yes,7,20.0,GA,30301,jon.gallo34@example.com
+Government,1788351944000,70.38,3,23.46,TRUE,4,2.7,IL,60614,priya.dunne35@example.com
+Government,1777851028000,71.17,11,6.47,0,1,4.7,GA,30301,jon.brandt68@example.com
+Governmnt,1791867699000,217.68,8,27.21,Yes,5,10.5,CO,80202,chloe.dunne16@example.com
+Commercial,1772205150000,18.18,2,9.09,yes,7,20.1,GA,30301,jon.koval48@example.com
+Industrial,1779800661000,185.7,6,30.95,N,5,31.9,NY,10001,omar.nwosu14@example.com
+Commercial,1767684417000,41.58,9,4.62,No,6,45.0,GA,30301,chloe.castro11@example.com
+Residential,1786617865000,43.56,4,10.89,No,6,33.0,TX,73301,elif.gallo34@example.com
+Industrial,1770070703000,66.72,4,16.68,1,7,19.4,CA,94110,ines.moreau12@example.com
+Industrial,1787266649000,226.56,6,37.76,yes,7,22.3,CA,94110,grace.eze43@example.com
+Residential,1771957613000,90.68,4,22.67,FALSE,7,30.7,GA,60614,dev.moreau19@example.com
+Commercial,1791087131000,39.56,1,39.56,Y,5,45.6,IL,60614,dev.castro22@example.com
+Commercial,1782738052000,60.74,2,30.37,Y,1,33.3,CO,80202,dev.farrow20@example.com
+Commercial,1768035761000,3.7,1,26.97,No,4,28.6,CA,94110,priya.lindqvist94@example.com
+Residential,1774483020000,284.4,9,31.6,0,3,18.4,TX,73301,farid.petrov70@example.com
+Commercial,1777542984000,35.36,2,17.68,Y,7,30.2,NJ,07030,mona.ortiz9@example.com
+Commercial,1788327874000,85.44,8,10.68,No,1,28.2,CA,94110,farid.haas53@example.com
+Residential,1775907843000,128.25,5,25.65,TRUE,3,29.5,NY,10001,priya.castro29@example.com
+Industrial,1786762435000,271.92,8,33.99,Yes,3,37.1,GA,30301,farid.dunne67@example.com
+Commercial,1776404466000,300.48,12,25.04,1,4,32.5,MA,02134,ines.ito21@example.com
+Residential,1767580018000,270.88,8,33.86,N,3,46.2,GA,30301,elif.ortiz68@example.com
+Government,1785763266000,82.05,5,16.41,N,1,43.3,IL,60614,ben.farrow8@example.com
+Government,1778337642000,4.72,8,5.9,No,7,40.6,CO,80202,farid.haas50@example.com
+Government,1772946168000,191.88,6,31.98,TRUE,1,3.5,NJ,07030,grace.gallo86@example.com
+Commercial,1779204706000,34.76,11,3.16,yes,6,1.1,IL,60614,chloe.moreau36@example.com
+Commerical,1784027528000,143.91,9,15.99,0,7,35.2,NY,10001,ines.petrov11@example.com
+Industrial,1778474128000,150.9,5,30.18,0,4,21.6,IL,60614,chloe.haas70@example.com
+Government,1783011233000,186.12,6,31.02,Yes,4,22.7,IL,60614,dev.nwosu99@example.com
+Industrial,1770995828000,66.56,4,16.64,no,6,10.5,NJ,07030,hiro.farrow52@example.com
+Industrial,1773340932000,43.7,10,4.37,No,3,19.8,GA,30301,grace.moreau5@example.com
+Commercial,1789731058000,207.36,8,25.92,yes,3,38.0,TX,73301,noor.eze51@example.com
+Government,1785571322000,74.48,7,10.64,N,1,48.0,CO,80202,kemi.castro97@example.com
+Residential,1791410875000,14.08,4,3.52,no,7,3.5,CA,94110,luca.castro43@example.com
+Comercial,1772374332000,135.88,4,33.97,N,7,1.9,NY,10001,omar.eze48@example.com
+Commercial,1792437989000,2.06,1,2.06,Y,1,24.2,IL,60614,ana.brandt52@example.com
+Residential,1786163008000,135.8,7,19.4,Yes,3,49.7,NY,10001,priya.eze82@example.com
+Residential,1777229558000,51.8,2,25.9,Y,5,46.6,IL,60614,luca.abel91@example.com
+Industrial,1782612663000,233.7,10,23.37,Yes,5,15.3,IL,60614,ben.eze12@example.com
+Commercial,1781302602000,68.97,11,6.27,0,3,34.3,NY,10001,ben.dunne48@example.com
+Industrial,1793057814000,113.33,7,16.19,0,3,43.8,GA,30301,dev.petrov3@example.com
+Government,1784671504000,177.2,10,17.72,Yes,7,45.6,CA,94110,farid.ito5@example.com
+Residential,1784353411000,122.49,9,13.61,yes,5,30.4,MA,02134,ines.abel68@example.com
+Industrial,1789200509000,142.88,4,35.72,FALSE,2,34.3,CA,94110,ben.abel26@example.com
+Commercial,1792656824000,404.91,11,36.81,N,5,15.4,NJ,07030,omar.nwosu42@example.com
+Government,1776963684000,128.76,4,32.19,yes,7,10.3,MA,02134,elif.brandt13@example.com
+Government,1785992447000,35.21,7,5.03,1,2,32.1,NY,10001,omar.lindqvist86@example.com
+Commercial,1776047442000,30.96,4,7.74,FALSE,6,3.4,GA,30301,kemi.lindqvist22@example.com
+Residnetial,1778423206000,467.76,12,38.98,1,5,38.9,TX,73301,dev.abel7@example.com
+Industrial,1767570027000,330.6,12,27.55,1,3,2.4,CO,80202,hiro.dunne12@example.com
+Industrial,1787224867000,199.57,7,28.51,yes,2,12.9,NJ,07030,ana.lindqvist3@example.com
+Government,1789701433000,124.3,5,24.86,1,2,36.2,GA,30301,farid.farrow34@example.com
+Commercial,1783373582000,11.86,1,11.86,FALSE,1,38.5,CO,80202,omar.lindqvist28@example.com
+Industrial,1785491813000,62.2,5,12.44,FALSE,5,42.5,MA,02134,priya.brandt64@example.com
+Government,1770235161000,47.5,10,4.75,1,1,10.7,CA,94110,noor.nwosu79@example.com
+Industrial,1786509113000,150.76,4,37.69,yes,1,24.6,TX,73301,ana.nwosu22@example.com
+Industrial,1792514208000,121.95,5,24.39,FALSE,3,21.8,NY,10001,jon.lindqvist19@example.com
+Industrial,1783180806000,98.88,4,24.72,yes,3,8.5,TX,73301,noor.brandt94@example.com
+Residential,1785308154000,262.1,5,26.11,1,4,46.8,CO,80202,kemi.ortiz58@example.com
+Industrial,1778998389000,19.6,8,2.45,yes,7,33.6,MA,02134,farid.farrow47@example.com
+Government,1768745523000,208.56,6,34.76,Y,6,3.3,NY,10001,farid.gallo53@example.com
+Industrial,1775771585000,447.84,12,37.32,Yes,6,38.3,NJ,07030,jon.koval92@example.com
+Industrial,1772857181000,390.5,1,39.05,yes,1,42.9,MA,02134,luca.petrov76@example.com
+Industrial,1768734549000,57.0,2,28.5,TRUE,1,47.6,MA,02134,omar.brandt97@example.com
+Residetnial,1773696459000,99.2,4,24.8,N,7,32.9,MA,02134,dev.dunne57@example.com
+Commercail,1781417300000,12.86,2,6.43,0,1,28.6,NY,10001,chloe.jensen62@example.com
+Residential,1767350191000,43.0,5,8.6,0,6,42.4,MA,30301,ines.petrov96@example.com
+Industrial,1785964192000,1.95,2,4.73,No,1,25.8,CA,07030,farid.petrov81@example.com
+Industrial,1792340185000,59.2,8,7.4,yes,7,17.6,CA,94110,ben.castro75@example.com
+Commercial,1775408909000,47.31,3,15.77,yes,3,46.5,NY,30301,priya.brandt68@example.com
+Commercial,1789090677000,179.82,9,19.98,Y,5,48.7,CA,94110,elif.ito60@example.com
+Residential,1791799523000,103.26,3,34.42,Yes,6,11.8,NJ,07030,ben.gallo5@example.com
+Government,1784194899000,165.84,6,27.64,N,7,22.7,IL,60614,dev.ito22@example.com
+Commercial,1783743447000,5.37,1,5.37,FALSE,6,4.3,GA,30301,ines.lindqvist82@example.com
+Residential,1770359478000,22.36,4,5.59,yes,5,25.0,MA,02134,ana.jensen72@example.com
+Government,1771590887000,257.94,9,28.66,1,4,32.8,MA,02134,priya.dunne52@example.com
+Industrial,1771753248000,153.63,9,17.07,1,7,36.2,GA,30301,dev.ortiz95@example.com
+Commercial,1769900768000,102.48,12,8.54,Yes,5,8.4,IL,60614,kemi.haas84@example.com
+Residential,1790544871000,58.23,9,6.47,yes,4,7.4,GA,30301,ana.lindqvist78@example.com
+Industrial,1768644744000,71.85,5,14.37,0,3,44.6,TX,73301,omar.brandt55@example.com
+Residential,1781314529000,386.43,11,35.13,no,4,48.6,NJ,07030,priya.gallo38@example.com
+Commercial,1783807976000,99.54,9,11.06,N,1,26.3,MA,02134,farid.ito50@example.com
+Government,1773411423000,255.5,7,36.5,no,5,17.3,NY,10001,priya.jensen57@example.com
+Govrenment,1788546578000,137.5,11,12.5,TRUE,2,32.4,CA,94110,ben.nwosu47@example.com
+Commercial,1784135642000,39.08,1,39.08,N,7,11.0,CO,80202,chloe.dunne91@example.com
+Industrial,1790519934000,16.24,10,15.24,1,2,18.7,NJ,07030,farid.ortiz75@example.com
+Government,1768087537000,159.06,11,14.46,Y,1,30.9,NY,10001,ben.ito18@example.com
+Government,1782273756000,27.15,5,5.43,N,1,9.1,NJ,07030,farid.lindqvist58@example.com
+Commecrial,1789708282000,34.04,1,34.04,FALSE,5,36.6,TX,73301,luca.gallo52@example.com
+Industrial,1790762241000,29.34,3,9.78,No,1,13.9,MA,02134,ines.dunne62@example.com
+Commercial,1774083156000,103.04,8,12.88,N,7,20.9,IL,73301,elif.petrov13@example.com
+Commercial,1782527871000,118.7,5,23.74,no,6,26.0,GA,07030,grace.moreau67@example.com
+Industrial,1780421169000,3.47,1,3.47,yes,1,6.4,GA,30301,grace.haas73@example.com
+Commercial,1772561045000,63.69,3,21.23,no,1,26.2,GA,30301,grace.petrov66@example.com
+Government,1787213509000,92.32,4,23.08,Y,3,12.6,TX,07030,priya.dunne37@example.com
+Government,1785658129000,199.74,6,33.29,No,4,13.3,GA,30301,priya.castro89@example.com
+Commercial,1769823821000,79.03,7,11.29,No,1,10.5,IL,60614,elif.dunne58@example.com
+Industrial,1783811936000,108.3,6,18.05,N,3,42.3,CO,80202,jon.moreau90@example.com
+Government,1767365445000,312.5,10,31.25,no,4,13.3,MA,07030,omar.jensen10@example.com
+Industrial,1770316857000,395.78,11,35.98,no,7,7.4,CA,94110,ben.gallo6@example.com
+Industrial,1776364441000,452.4,12,37.7,TRUE,5,1.3,CA,94110,ana.ortiz60@example.com
+Commercal,1781108153000,185.57,7,26.51,No,7,17.9,GA,30301,chloe.moreau28@example.com
+Commercial,1783207848000,99.12,3,33.04,1,2,3.9,NJ,07030,priya.farrow22@example.com
+Industrial,1790284581000,347.8,10,34.78,N,7,46.7,CO,80202,hiro.jensen43@example.com
+Residential,1772099715000,15.64,4,3.91,TRUE,5,43.9,TX,60614,kemi.farrow68@example.com
+Commercial,1788049922000,9.52,2,4.76,FALSE,3,25.0,IL,60614,mona.gallo35@example.com
+Residential,1777436586000,23.94,9,2.66,1,5,8.0,NY,10001,mona.moreau98@example.com
+Industrial,1769711744000,23.94,6,3.99,N,1,47.5,TX,73301,omar.dunne62@example.com
+Industrial,1770264449000,62.28,3,20.76,N,3,5.4,MA,02134,omar.brandt83@example.com
+Residential,1792900928000,351.63,9,39.07,No,1,39.8,MA,02134,hiro.eze57@example.com
+Commercial,1783510356000,27.66,6,4.61,TRUE,7,43.1,TX,73301,grace.jensen74@example.com
+Industrial,1792348951000,151.91,11,13.81,no,4,37.3,IL,60614,luca.gallo92@example.com
+Commercial,1769963768000,199.56,12,16.63,no,6,30.0,CO,80202,elif.abel36@example.com
+Industrial,1774213515000,162.36,9,18.04,Y,2,44.5,CO,80202,ana.brandt85@example.com
+Government,1773874996000,51.1,5,10.22,no,2,27.4,MA,02134,grace.jensen95@example.com
+Government,1778786122000,62.88,6,10.48,N,5,15.9,NJ,07030,kemi.abel37@example.com
+Commercial,1779601528000,325.68,12,27.14,yes,6,28.5,NJ,07030,mona.petrov4@example.com

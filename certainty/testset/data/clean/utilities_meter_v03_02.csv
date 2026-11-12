@@ -1,121 +1,121 @@
-amount,event_ts,betrag_eur,weekday_no,contact_email,created_date,is_active,height
-351.87,2026-08-28T08:05:29Z,121009.64,Sunday,ben.haas50@example.com,2023-09-02,true,195.6
-580.59,2026-01-05T09:57:33Z,213175.12,Monday,chloe.eze57@example.com,2023-01-27,false,190.5
-593.87,2026-08-19T05:38:16Z,168999.78,Sunday,hiro.koval40@example.com,2023-07-27,false,170.2
-707.22,2026-07-16T03:37:37Z,45815.84,Tuesday,noor.haas23@example.com,2025-12-25,false,154.9
-544.84,2026-07-22T17:01:57Z,119097.65,Wednesday,ben.brandt8@example.com,2023-09-23,false,193.0
-725.13,2026-03-17T22:41:08Z,26337.5,Monday,jon.moreau89@example.com,2022-03-03,true,177.8
-382.71,2026-01-18T03:56:31Z,189432.07,Saturday,elif.ortiz84@example.com,2021-12-27,true,172.7
-269.08,2026-03-26T03:22:08Z,113400.22,Thursday,mona.ortiz35@example.com,2024-01-27,true,167.6
-211.44,2026-09-04T21:15:58Z,68034.02,Friday,chloe.moreau36@example.com,2025-10-15,false,198.1
-454.84,2026-01-17T20:13:35Z,176157.45,Monday,ana.koval86@example.com,2026-07-29,false,190.5
-819.44,2026-06-10T19:14:35Z,58374.33,Monday,priya.koval52@example.com,2024-06-12,false,190.5
-438.53,2026-02-19T22:43:06Z,141326.74,Thursday,ben.ortiz77@example.com,2025-10-16,true,154.9
-263.29,2026-02-19T07:19:11Z,62896.38,Thursday,grace.moreau89@example.com,2024-10-20,false,162.6
-818.77,2026-03-08T05:36:21Z,7124.68,Tuesday,chloe.petrov55@example.com,2026-10-28,false,175.3
-725.61,2026-08-08T08:25:20Z,239042.49,Sunday,chloe.gallo11@example.com,2025-07-13,false,149.9
-313.2,2026-07-11T15:16:25Z,181055.35,Monday,ana.haas4@example.com,2024-04-07,true,167.6
-110.47,2026-04-09T23:05:18Z,162967.95,Friday,noor.moreau66@example.com,2022-08-15,true,193.0
-860.84,2026-08-07T10:59:39Z,58125.64,Tuesday,hiro.farrow36@example.com,2026-08-21,true,160.0
-133.26,2026-01-14T01:44:16Z,242721.52,Sunday,noor.nwosu21@example.com,2023-06-17,false,165.1
-833.31,2026-05-08T18:59:58Z,233355.19,Thursday,dev.ito79@example.com,2022-02-16,true,195.6
-535.78,2026-02-16T01:55:23Z,27429.34,Sunday,priya.haas23@example.com,2025-04-06,true,172.7
-728.73,2026-02-19T13:39:56Z,243511.61,Sunday,ines.abel76@example.com,2024-02-20,true,185.4
-748.69,2026-04-16T18:20:31Z,172602.82,Tuesday,noor.farrow83@example.com,2026-11-20,false,198.1
-543.81,2026-09-30T13:08:23Z,79854.21,Friday,ben.haas84@example.com,2023-05-25,true,149.9
-320.55,2026-03-19T18:24:18Z,138812.18,Sunday,luca.eze78@example.com,2021-04-22,true,160.0
-469.17,2026-10-18T18:04:06Z,159898.21,Sunday,hiro.ortiz76@example.com,2024-06-06,true,152.4
-91.27,2026-01-14T23:11:49Z,16999.74,Sunday,hiro.farrow83@example.com,2021-07-20,true,177.8
-26.46,2026-08-04T07:40:53Z,219298.8,Thursday,omar.haas54@example.com,2025-05-15,true,185.4
-471.32,2026-01-15T03:37:57Z,124327.76,Tuesday,jon.petrov33@example.com,2025-04-29,false,157.5
-759.44,2026-04-30T13:25:26Z,246854.15,Friday,priya.lindqvist59@example.com,2022-09-01,false,190.5
-365.69,2026-10-25T03:08:37Z,203367.25,Wednesday,noor.jensen63@example.com,2026-09-22,true,177.8
-815.62,2026-09-21T19:44:50Z,223421.54,Thursday,chloe.jensen27@example.com,2024-12-22,true,193.0
-771.09,2026-07-10T04:47:54Z,213042.08,Monday,ana.dunne82@example.com,2025-12-20,false,165.1
-210.62,2026-02-17T06:10:55Z,225585.82,Monday,priya.ito2@example.com,2021-05-20,true,147.3
-378.59,2026-04-26T08:32:31Z,132082.76,Tuesday,ben.abel68@example.com,2024-05-28,false,162.6
-149.59,2026-06-09T23:32:53Z,235755.37,Saturday,hiro.haas88@example.com,2022-05-29,false,193.0
-691.1,2026-06-22T21:18:56Z,116753.97,Thursday,ben.brandt24@example.com,2024-04-01,true,157.5
-807.43,2026-05-07T00:01:09Z,178166.54,Saturday,hiro.brandt22@example.com,2026-05-04,false,175.3
-199.39,2026-03-07T17:33:58Z,69715.55,Friday,ana.moreau19@example.com,2026-01-24,true,180.3
-899.45,2026-03-04T10:51:41Z,199437.63,Friday,kemi.moreau11@example.com,2024-01-12,true,167.6
-535.01,2026-04-08T20:02:00Z,22595.8,Sunday,priya.eze76@example.com,2024-12-17,true,198.1
-397.98,2026-04-01T12:52:18Z,69729.8,Tuesday,kemi.haas71@example.com,2025-03-24,true,162.6
-390.35,2026-05-14T09:28:23Z,66171.93,Saturday,omar.eze49@example.com,2023-05-27,true,190.5
-202.58,2026-06-13T02:31:55Z,65668.6,Sunday,farid.brandt73@example.com,2025-08-25,false,193.0
-173.55,2026-03-06T11:51:28Z,4158.6,Monday,dev.koval17@example.com,2023-01-25,true,152.4
-427.14,2026-08-07T04:27:05Z,108887.89,Thursday,grace.nwosu33@example.com,2026-02-09,false,162.6
-49.12,2026-04-28T07:41:07Z,132779.77,Thursday,luca.ito93@example.com,2026-12-28,true,193.0
-258.53,2026-04-23T09:50:46Z,98194.53,Wednesday,noor.lindqvist52@example.com,2022-05-15,false,160.0
-460.27,2026-06-14T06:19:20Z,86506.46,Thursday,noor.jensen30@example.com,2022-08-24,false,162.6
-121.85,2026-07-21T21:51:32Z,20326.05,Sunday,kemi.nwosu90@example.com,2025-06-29,true,193.0
-313.81,2026-07-09T17:22:07Z,47892.55,Saturday,noor.abel10@example.com,2022-05-26,true,152.4
-564.27,2026-01-13T18:50:26Z,84629.22,Friday,luca.eze47@example.com,2023-12-25,false,188.0
-206.74,2026-10-04T01:14:26Z,203535.75,Saturday,noor.eze44@example.com,2025-07-04,false,175.3
-543.3,2026-02-01T12:49:07Z,131079.13,Thursday,hiro.ito10@example.com,2021-01-04,false,190.5
-501.62,2026-06-01T00:52:56Z,56862.42,Saturday,ana.eze96@example.com,2021-09-21,false,182.9
-624.38,2026-01-08T22:11:20Z,198311.08,Sunday,omar.brandt8@example.com,2026-10-18,true,185.4
-124.85,2026-01-05T05:04:10Z,20081.35,Thursday,grace.brandt78@example.com,2021-08-26,false,188.0
-805.62,2026-08-24T03:15:45Z,236041.69,Saturday,dev.haas92@example.com,2022-01-26,true,177.8
-882.07,2026-05-03T22:24:36Z,151863.83,Thursday,mona.castro4@example.com,2021-05-29,true,185.4
-752.79,2026-09-12T19:26:00Z,3343.54,Sunday,ines.eze18@example.com,2024-06-02,false,154.9
-377.94,2026-10-27T08:52:00Z,239743.14,Saturday,chloe.moreau88@example.com,2023-09-30,true,160.0
-144.07,2026-05-27T16:16:42Z,157341.78,Sunday,priya.ortiz79@example.com,2023-05-26,true,154.9
-107.0,2026-09-26T23:08:26Z,228931.36,Thursday,elif.eze36@example.com,2025-07-14,false,177.8
-418.07,2026-05-29T05:48:44Z,70455.66,Sunday,kemi.petrov10@example.com,2022-06-14,true,165.1
-705.96,2026-05-06T22:26:26Z,234311.24,Friday,chloe.ortiz91@example.com,2022-10-10,false,165.1
-74.1,2026-07-13T05:37:31Z,42797.2,Friday,ines.eze82@example.com,2026-02-08,false,147.3
-344.65,2026-05-14T13:26:42Z,16240.26,Tuesday,grace.dunne64@example.com,2026-12-12,true,149.9
-443.88,2026-08-26T04:32:57Z,16342.7,Friday,priya.moreau14@example.com,2021-11-25,true,165.1
-779.06,2026-05-23T00:33:39Z,112639.39,Monday,elif.koval51@example.com,2026-03-08,true,185.4
-48.31,2026-09-01T07:59:44Z,201142.06,Sunday,elif.dunne7@example.com,2023-09-21,false,180.3
-763.26,2026-02-23T21:10:05Z,112074.59,Wednesday,farid.brandt95@example.com,2026-03-14,true,165.1
-596.76,2026-05-12T10:45:42Z,185969.58,Friday,omar.petrov18@example.com,2023-07-15,true,160.0
-464.99,2026-05-15T06:24:36Z,17042.64,Wednesday,luca.ito6@example.com,2023-03-12,true,188.0
-503.22,2026-07-14T16:04:57Z,105902.19,Monday,priya.dunne36@example.com,2024-07-17,false,167.6
-526.28,2026-04-12T17:06:21Z,192943.26,Tuesday,grace.jensen61@example.com,2022-08-02,true,188.0
-509.8,2026-05-21T00:05:41Z,5714.62,Tuesday,luca.castro39@example.com,2021-06-09,false,167.6
-844.38,2026-02-03T21:32:10Z,85793.15,Wednesday,chloe.castro2@example.com,2024-07-15,true,195.6
-554.53,2026-07-24T01:38:12Z,20389.15,Saturday,dev.petrov9@example.com,2025-07-03,false,190.5
-290.48,2026-07-05T10:21:14Z,161366.53,Sunday,hiro.ortiz38@example.com,2024-03-29,false,162.6
-207.35,2026-08-05T14:32:05Z,151684.47,Monday,ana.moreau6@example.com,2026-11-23,false,188.0
-144.12,2026-06-27T20:59:17Z,14639.4,Monday,chloe.dunne25@example.com,2021-08-25,false,152.4
-208.19,2026-03-12T02:11:40Z,213790.74,Saturday,dev.koval70@example.com,2025-03-18,false,162.6
-71.12,2026-09-16T08:58:16Z,237877.3,Friday,ana.farrow4@example.com,2026-04-04,true,198.1
-506.31,2026-09-17T13:55:16Z,32433.23,Thursday,mona.ito42@example.com,2025-05-10,false,175.3
-99.25,2026-10-09T13:13:09Z,148209.41,Monday,chloe.nwosu2@example.com,2025-10-06,true,193.0
-484.29,2026-04-20T06:39:28Z,59979.31,Tuesday,hiro.nwosu5@example.com,2023-05-28,true,162.6
-49.82,2026-07-05T15:58:57Z,69731.11,Tuesday,jon.abel11@example.com,2026-03-24,true,149.9
-183.33,2026-03-15T05:33:03Z,124743.14,Saturday,chloe.lindqvist36@example.com,2023-04-22,true,188.0
-897.2,2026-09-10T17:21:26Z,101310.44,Monday,ines.eze82@example.com,2024-07-02,false,147.3
-344.96,2026-05-24T18:33:15Z,223273.95,Saturday,ines.ortiz3@example.com,2021-04-22,true,198.1
-81.7,2026-09-02T00:05:36Z,208431.46,Monday,mona.brandt46@example.com,2026-11-04,true,190.5
-625.31,2026-02-10T07:55:22Z,163169.59,Sunday,priya.ortiz55@example.com,2021-04-20,true,195.6
-551.3,2026-04-16T16:27:30Z,123340.81,Sunday,ben.castro58@example.com,2026-03-14,true,175.3
-40.61,2026-02-18T03:30:09Z,192021.79,Saturday,elif.jensen97@example.com,2023-04-13,true,162.6
-808.68,2026-01-03T08:53:14Z,96664.54,Saturday,kemi.moreau29@example.com,2023-11-03,true,152.4
-269.16,2026-02-02T06:29:26Z,196405.87,Saturday,elif.lindqvist49@example.com,2023-07-18,false,198.1
-639.27,2026-08-30T00:28:39Z,27175.35,Monday,elif.eze10@example.com,2026-06-24,true,154.9
-719.06,2026-03-02T10:35:05Z,209202.11,Monday,dev.abel74@example.com,2022-04-14,false,182.9
-659.12,2026-10-26T03:35:22Z,208124.13,Saturday,hiro.moreau70@example.com,2023-09-24,true,172.7
-631.87,2026-07-28T17:05:59Z,129727.17,Monday,ines.abel73@example.com,2026-03-08,false,190.5
-115.34,2026-02-19T01:16:56Z,140875.87,Tuesday,elif.haas61@example.com,2023-08-12,true,149.9
-478.4,2026-02-18T18:08:14Z,47695.24,Tuesday,ana.ito1@example.com,2023-09-15,true,147.3
-154.13,2026-04-20T05:25:07Z,66294.12,Wednesday,ben.castro57@example.com,2025-04-08,false,172.7
-93.55,2026-06-11T12:56:39Z,212570.06,Thursday,priya.ortiz76@example.com,2023-01-23,true,180.3
-755.11,2026-10-15T03:10:51Z,154589.17,Wednesday,mona.ito60@example.com,2023-09-30,true,193.0
-733.98,2026-09-17T18:20:32Z,29228.06,Monday,dev.lindqvist74@example.com,2021-09-15,true,193.0
-839.11,2026-04-24T18:09:33Z,157652.88,Tuesday,grace.haas89@example.com,2024-10-15,true,177.8
-353.29,2026-06-05T11:30:43Z,182716.93,Sunday,ben.eze53@example.com,2021-12-13,true,165.1
-680.91,2026-06-30T21:41:04Z,235131.41,Tuesday,chloe.eze62@example.com,2025-04-27,false,167.6
-825.68,2026-03-02T20:53:20Z,244972.9,Tuesday,luca.jensen43@example.com,2023-04-21,true,147.3
-135.47,2026-06-09T19:38:18Z,38273.91,Sunday,mona.brandt56@example.com,2021-11-11,true,152.4
-193.94,2026-07-11T16:17:09Z,36156.89,Monday,elif.lindqvist74@example.com,2026-01-03,false,162.6
-747.0,2026-09-06T04:40:36Z,115755.36,Monday,chloe.ortiz95@example.com,2022-04-30,false,172.7
-266.74,2026-07-02T13:26:41Z,61630.52,Wednesday,jon.gallo32@example.com,2022-08-09,false,195.6
-111.66,2026-10-01T15:37:46Z,43395.79,Friday,elif.farrow38@example.com,2024-01-08,true,195.6
-170.43,2026-06-07T15:11:06Z,249145.01,Sunday,hiro.abel63@example.com,2024-01-19,false,154.9
-422.71,2026-04-14T11:10:09Z,143046.41,Saturday,hiro.petrov52@example.com,2026-07-18,false,195.6
-796.24,2026-02-24T17:10:57Z,152255.21,Sunday,grace.lindqvist48@example.com,2026-09-25,true,175.3
-610.84,2026-01-15T01:52:40Z,170624.62,Sunday,omar.lindqvist55@example.com,2024-03-11,false,162.6
-132.99,2026-02-25T03:07:23Z,102561.35,Sunday,farid.koval75@example.com,2022-03-13,true,162.6
+postal_code,full_name,channel,end_dt,grp_nm,cls,day,fill_pct
+00501,Chloe Castro,Solar,2024-07-21,Water,K2,Sunday,29.8
+30301,Grace Dunne,Solar,,Gas,R7,Tuesday,96.5
+80202,Dev Haas,Water,,Electric,R7,Monday,97.5
+06510,Ben Moreau,Gas,2025-02-13,Water,Z9,Monday,78.4
+06510,Noor Gallo,Water,2026-09-12,Electric,Z9,Saturday,52.8
+10001,Ben Jensen,Solar,2021-06-02,Gas,Q4,Sunday,45.4
+73301,Elif Petrov,Solar,2022-04-09,Electric,K2,Saturday,95.3
+08540,Grace Ito,Gas,2023-01-11,Electric,R7,Friday,70.8
+94110,Dev Castro,Electric,2026-01-13,Solar,K1,Sunday,67.7
+30301,Jon Jensen,Gas,2021-01-03,Gas,Q4,Saturday,69.8
+06510,Farid Farrow,Electric,,Water,K2,Tuesday,48.9
+01002,Noor Abel,Solar,,Gas,Q4,Monday,99.9
+60614,Jon Gallo,Electric,2021-08-30,Gas,R7,Thursday,93.2
+06510,Grace Nwosu,Gas,2022-11-23,Solar,K1,Sunday,74.5
+01002,Omar Haas,Solar,2023-09-12,Electric,R7,Thursday,63.1
+08540,Luca Ortiz,Solar,,Water,R7,Saturday,23.6
+07030,Farid Ito,Solar,,Water,K2,Saturday,70.2
+07030,Farid Lindqvist,Gas,2025-03-01,Solar,K2,Thursday,39.9
+80202,Ana Koval,Water,2026-11-09,Solar,Q4,Sunday,92.1
+73301,Mona Gallo,Gas,2021-04-01,Solar,R7,Thursday,19.7
+06510,Mona Petrov,Solar,2025-05-29,Gas,Z9,Friday,32.2
+30301,Ana Koval,Electric,2021-11-29,Water,K2,Friday,47.0
+30301,Priya Moreau,Electric,2026-06-07,Gas,R7,Monday,43.2
+08540,Omar Brandt,Gas,2024-10-03,Electric,K1,Sunday,69.0
+08540,Luca Petrov,Gas,2024-12-03,Electric,K2,Thursday,81.8
+10001,Ben Haas,Water,2022-12-19,Water,Q4,Tuesday,37.1
+01002,Ana Ito,Gas,,Solar,K1,Thursday,55.3
+02134,Farid Ortiz,Electric,2025-02-28,Water,K1,Friday,74.5
+02134,Jon Ortiz,Electric,2023-12-16,Electric,K1,Monday,56.6
+80202,Jon Moreau,Gas,2024-02-09,Gas,Z9,Monday,62.1
+07030,Elif Jensen,Gas,,Water,R7,Wednesday,56.3
+06510,Luca Petrov,Gas,2023-02-16,Water,K2,Thursday,75.5
+80202,Omar Eze,Water,2023-03-09,Gas,K2,Friday,66.9
+60614,Chloe Eze,Gas,2023-03-25,Gas,K1,Thursday,97.9
+06510,Luca Dunne,Water,2025-02-14,Electric,K2,Friday,65.3
+10001,Jon Petrov,Gas,2022-10-28,Solar,K2,Friday,63.6
+08540,Chloe Petrov,Water,2026-02-18,Solar,K2,Wednesday,59.0
+10001,Dev Jensen,Water,2022-09-01,Solar,Z9,Thursday,9.8
+01002,Luca Eze,Gas,2021-06-19,Gas,K1,Tuesday,55.0
+07030,Jon Jensen,Electric,2025-02-15,Solar,R7,Sunday,84.4
+02134,Ben Brandt,Gas,2021-10-10,Gas,K1,Monday,91.0
+02134,Elif Lindqvist,Gas,,Gas,Q4,Sunday,17.6
+02134,Ines Ito,Water,2023-10-19,Solar,R7,Monday,39.0
+94110,Ben Ortiz,Solar,2023-12-08,Water,Q4,Thursday,91.1
+60614,Omar Haas,Water,2021-10-05,Gas,R7,Thursday,8.1
+80202,Dev Koval,Solar,2022-01-14,Solar,Q4,Saturday,5.1
+00501,Elif Nwosu,Solar,,Electric,R7,Friday,96.4
+80202,Ben Petrov,Gas,2024-04-09,Electric,Q4,Thursday,47.4
+07030,Grace Abel,Gas,2021-04-10,Water,R7,Monday,88.0
+94110,Hiro Farrow,Gas,2022-11-07,Gas,K1,Wednesday,44.7
+00501,Ben Gallo,Gas,2021-02-15,Solar,K1,Wednesday,87.5
+80202,Elif Brandt,Gas,2023-01-13,Gas,Z9,Monday,43.6
+08540,Mona Dunne,Solar,,Solar,Q4,Sunday,78.5
+10001,Noor Brandt,Solar,2025-08-30,Solar,K1,Wednesday,45.4
+02134,Farid Castro,Electric,,Electric,K2,Thursday,54.4
+00501,Noor Castro,Water,,Electric,K1,Thursday,79.0
+60614,Kemi Dunne,Solar,,Solar,Z9,Sunday,32.2
+02134,Luca Abel,Water,,Solar,Z9,Friday,43.2
+07030,Hiro Farrow,Solar,2026-07-23,Water,R7,Friday,23.5
+06510,Jon Brandt,Electric,,Electric,K2,Saturday,83.9
+94110,Noor Ortiz,Electric,2024-10-17,Water,R7,Monday,0.7
+07030,Elif Jensen,Solar,2021-10-31,Gas,Q4,Saturday,72.9
+00501,Mona Jensen,Water,,Electric,K2,Thursday,49.3
+01002,Priya Lindqvist,Gas,,Electric,K1,Saturday,80.1
+00501,Ana Abel,Electric,2025-11-26,Gas,Z9,Monday,25.7
+10001,Omar Nwosu,Water,,Water,K1,Wednesday,38.9
+60614,Grace Ito,Electric,2023-03-10,Electric,Q4,Saturday,18.8
+80202,Elif Dunne,Solar,2024-12-05,Water,R7,Sunday,42.4
+73301,Dev Moreau,Electric,2024-07-29,Gas,Q4,Thursday,14.4
+02134,Mona Haas,Solar,2024-03-29,Water,R7,Friday,20.6
+07030,Omar Gallo,Water,,Electric,R7,Saturday,71.4
+30301,Hiro Haas,Solar,2025-01-31,Electric,R7,Monday,88.9
+94110,Mona Haas,Gas,2025-04-10,Electric,K1,Thursday,21.6
+07030,Luca Moreau,Water,2023-04-23,Gas,Z9,Monday,12.2
+00501,Chloe Castro,Gas,,Solar,K2,Saturday,55.5
+01002,Ana Castro,Gas,2025-03-28,Gas,K1,Sunday,95.3
+80202,Noor Jensen,Water,,Solar,R7,Monday,19.4
+02134,Hiro Farrow,Gas,2021-12-10,Electric,K1,Tuesday,5.3
+01002,Dev Dunne,Gas,,Gas,K1,Saturday,80.1
+06510,Chloe Jensen,Gas,2025-12-19,Gas,Z9,Tuesday,30.8
+01002,Mona Farrow,Gas,2025-03-26,Electric,Q4,Wednesday,11.6
+60614,Ben Nwosu,Gas,2021-06-01,Solar,K2,Monday,70.4
+80202,Elif Ito,Electric,2023-05-08,Gas,Q4,Sunday,93.7
+01002,Elif Farrow,Gas,2026-12-08,Water,K1,Saturday,36.4
+08540,Omar Petrov,Electric,2026-12-31,Water,R7,Wednesday,91.5
+73301,Chloe Dunne,Solar,2023-08-19,Electric,Z9,Tuesday,92.4
+73301,Jon Brandt,Electric,,Electric,Q4,Tuesday,78.1
+80202,Mona Lindqvist,Water,,Gas,R7,Thursday,31.2
+01002,Omar Ortiz,Electric,,Solar,Q4,Friday,17.6
+02134,Priya Nwosu,Solar,2026-07-09,Solar,R7,Tuesday,30.4
+02134,Jon Brandt,Electric,2021-12-21,Solar,Z9,Saturday,62.9
+94110,Jon Lindqvist,Gas,2024-11-04,Solar,Q4,Monday,87.8
+00501,Farid Lindqvist,Water,2021-09-14,Electric,K1,Friday,34.1
+02134,Ana Farrow,Electric,2022-11-14,Water,Q4,Wednesday,0.3
+06510,Jon Petrov,Water,2022-11-17,Gas,K1,Thursday,91.8
+80202,Ana Ito,Water,,Gas,R7,Thursday,11.2
+94110,Ana Ortiz,Solar,,Electric,K2,Monday,89.1
+30301,Farid Dunne,Solar,2025-04-05,Solar,R7,Tuesday,72.2
+01002,Ines Petrov,Electric,2021-03-26,Water,Q4,Monday,38.4
+00501,Elif Brandt,Solar,2026-02-16,Electric,Q4,Saturday,32.6
+60614,Chloe Gallo,Electric,,Electric,Q4,Sunday,1.2
+80202,Mona Jensen,Solar,2021-07-09,Gas,K1,Friday,23.2
+02134,Mona Jensen,Solar,2023-04-11,Water,Z9,Saturday,84.8
+01002,Elif Nwosu,Water,,Gas,Q4,Saturday,30.7
+10001,Ines Petrov,Gas,2026-08-16,Solar,K1,Friday,90.4
+10001,Ben Petrov,Solar,2021-11-08,Electric,Q4,Thursday,71.9
+00501,Ben Haas,Solar,2024-04-19,Gas,Q4,Saturday,60.6
+08540,Kemi Haas,Solar,,Water,K2,Thursday,83.2
+02134,Grace Koval,Gas,2024-10-07,Solar,K1,Friday,43.1
+00501,Grace Haas,Gas,2022-05-22,Electric,K2,Monday,77.4
+30301,Jon Dunne,Gas,2024-12-08,Electric,Q4,Monday,82.5
+80202,Farid Abel,Electric,2023-02-09,Water,R7,Thursday,58.6
+00501,Jon Abel,Solar,,Electric,K2,Monday,63.7
+73301,Elif Castro,Water,2026-07-17,Water,Q4,Wednesday,50.6
+10001,Ben Jensen,Gas,,Gas,R7,Wednesday,39.1
+80202,Kemi Eze,Water,,Water,K1,Thursday,83.0
+06510,Hiro Gallo,Solar,,Gas,K2,Friday,92.3
+73301,Grace Moreau,Gas,2021-12-25,Solar,R7,Thursday,36.5
+10001,Grace Moreau,Electric,2026-04-28,Water,R7,Sunday,14.0
+00501,Elif Nwosu,Solar,,Solar,Z9,Friday,80.3

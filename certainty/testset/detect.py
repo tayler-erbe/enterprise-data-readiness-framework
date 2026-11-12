@@ -24,6 +24,7 @@ sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(HERE.parent))
 
 import build  # noqa: E402
+import tables as file_cases  # noqa: E402
 import run  # noqa: E402  (model connection shared with the other tests)
 
 VERDICTS = ["READY", "FIXABLE", "NEEDS_CONTEXT", "GARBAGE"]
@@ -40,6 +41,7 @@ FIXES = {
     "repair_encoding": "Repair letters garbled by the wrong text encoding",
     "split_values": "Split several facts packed into one cell",
     "decode_values": "Replace codes with what they mean",
+    "recompute_derived": "Recompute a value from the columns it is derived from",
 }
 SHOW_CLEANED = 5
 
@@ -61,6 +63,45 @@ SYSTEM = (
     'Dates as YYYY-MM-DD, date-times as YYYY-MM-DDTHH:MM:SSZ, numbers as numbers, missing as "". '
     "Give [] if the verdict is NEEDS_CONTEXT or GARBAGE."
 )
+
+
+FILE_FIXES = {
+    "drop_duplicate_rows": "Remove rows that repeat another row exactly",
+    "skip_preamble": "Skip title lines above the header row",
+    "drop_repeated_headers": "Remove copies of the header row from inside the data",
+    "drop_total_rows": "Remove subtotal and total rows from the data rows",
+    "drop_empty_rows_columns": "Remove blank rows and blank columns",
+    "rejoin_split_field": "Rejoin a field that an unquoted comma split in two",
+    "reshape_wide_to_long": "Turn columns that are really values, such as months, into rows",
+}
+
+FILE_SYSTEM = (
+    "You check data files before anyone analyses them. You see lines from one file as it arrived. There is no data "
+    "dictionary and nobody to ask. Judge the FILE AS A WHOLE: its layout, not the meaning of single columns.\n"
+    "Reply with one JSON object and nothing else, with these keys:\n"
+    '  "verdict": "READY" (a tidy table), "FIXABLE" (tidy after a fix the file itself makes certain), '
+    '"NEEDS_CONTEXT" (cannot be used without being told what the columns are), or "GARBAGE" (not usable data)\n'
+    '  "fix": the id from FIXES that the file needs, or "" if none\n'
+    '  "issue": one short sentence on what is wrong, or "" if nothing\n'
+    '  "assumed": any assumption the file does not confirm, or ""\n'
+    '  "confidence": a number from 0 to 100, your estimate of the chance that your verdict is right'
+)
+
+
+def file_prompt(name, t, label):
+    """The first lines of the file, a few lines around the place the problem shows, and the last lines."""
+    raw = t["raw"]
+    line = lambda r: ",".join(r)
+    show = set(range(min(10, len(raw)))) | set(range(max(0, len(raw) - 3), len(raw)))
+    show |= {i for i in range(label["focus_row"] - 1, label["focus_row"] + 5) if 0 <= i < len(raw)}
+    out, last = ["FILE " + name + ".csv", f"{len(raw)} lines. Line numbers are shown; gaps are lines left out.", ""], -1
+    for i in sorted(show):
+        if i != last + 1:
+            out.append("...")
+        out.append(f"{i + 1:>4}: {line(raw[i])}")
+        last = i
+    out += ["", "FIXES"] + ["  " + k + ": " + v for k, v in FILE_FIXES.items()]
+    return "\n".join(out)
 
 
 def data_type(values):
@@ -181,6 +222,7 @@ def main():
     ap.add_argument("--no-logprobs", action="store_true")
     ap.add_argument("--out", default="")
     ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--skip-files", action="store_true", help="run the column cases only, not the whole-file cases")
     a = ap.parse_args()
     if not a.dry_run and not a.model:
         ap.error("--model is required unless --dry-run")
@@ -220,6 +262,32 @@ def main():
                 fh.write(json.dumps(rec) + "\n")
                 fh.flush()
                 print(f"[{n}/{total}] {label['case']:30} truth={label['verdict']:13} said={rec['said']:13} conf={rec['confidence']}")
+
+        if not a.skip_files:
+            files, file_labels = file_cases.build(variations=a.variations)
+            for fl in file_labels:
+                label = {"table": fl["table"], "column": "(whole file)", "case": fl["case"], "verdict": fl["verdict"], "fix": fl["fix"],
+                         "settled_by": "", "other_readings": "", "focus_row": fl["focus_row"]}
+                user = file_prompt(fl["table"], files[fl["table"]], label)
+                for rep_no in range(a.reps):
+                    if (label["table"], label["column"], rep_no) in done:
+                        continue
+                    if a.dry_run:
+                        text = fake(label, [], rep_no)
+                    else:
+                        try:
+                            text, _tokens = model.ask(FILE_SYSTEM, user)
+                        except Exception as e:
+                            raise SystemExit("could not reach the model at " + a.base_url + ": " + str(e) +
+                                             "\nFinished attempts are saved; run the same command to continue.")
+                    rec = score(label, parse(text), [])
+                    rec.update(cleaned_right=None, guessed_right=None)
+                    rec.update(table=label["table"], column=label["column"], case=label["case"], truth=label["verdict"],
+                               settled_by="", two_readings=False, rep=rep_no, model=label_name, dry_run=a.dry_run,
+                               temperature=a.temperature, rows_shown=a.rows)
+                    fh.write(json.dumps(rec) + "\n")
+                    fh.flush()
+                    print(f"[file] {label['case']:30} truth={label['verdict']:13} said={rec['said']:13} conf={rec['confidence']}")
 
     import score_detect
     print("\nreport:", score_detect.write(out))

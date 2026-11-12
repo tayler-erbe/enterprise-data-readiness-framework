@@ -1,121 +1,121 @@
-late_days,discount_pct,bkng_id,eml,status_cd,status_desc,channel,invc_dt,contact
-5,66.3,BKG-63746,ines.brandt42@example.com,B2,In review,Corporate,2021-09-03,priya.more
-0,54.9,BKG-44964,omar.haas49@example.com,A1,Open,Group,2023-04-17,luca.gallo
-7,65.0,BKG-88522,ana.gallo5@example.com,A1,Open,Leisure,2025-02-14,hiro.abel@
-7,5.3,BKG-82185,priya.brandt94@example.com,A1,Open,Event,2026-09-03,noor.morea
-11,98.2,BKG-38930,omar.abel96@example.com,A1,Open,Event,2021-01-30,chloe.abel
-11,21.2,BKG-60895,priya.dunne60@example.com,A1,Open,Leisure,2024-08-01,jon.castro
-0,64.2,BKG-22673,noor.gallo72@example.com,B2,In review,Event,2026-03-05,farid.eze@
-10,1.8,BKG-50691,hiro.jensen30@example.com,C3,Closed,Event,2026-03-15,farid.dunn
-3,93.8,BKG-71076,grace.ito76@example.com,D4,Cancelled,Leisure,2023-11-25,jon.ito@ex
-8,37.0,BKG-88519,luca.dunne61@example.com,B2,In review,Leisure,2021-03-15,ines.castr
-1,40.3,BKG-89958,mona.brandt69@example.com,A1,Open,Corporate,2026-01-13,ben.abel@e
-2,58.9,BKG-41993,jon.koval65@example.com,B2,In review,Corporate,2022-12-18,priya.bran
-0,13.7,BKG-18346,ben.brandt70@example.com,B2,In review,Event,2025-09-03,elif.lindq
-5,38.6,BKG-62278,hiro.moreau69@example.com,B2,In review,Leisure,2022-05-28,ana.dunne@
-2,37.1,BKG-47017,ines.jensen75@example.com,A1,Open,Corporate,2026-09-05,noor.petro
-9,19.6,BKG-24051,dev.koval62@example.com,B2,In review,Corporate,2025-05-06,dev.nwosu@
-7,38.9,BKG-11992,omar.farrow87@example.com,C3,Closed,Group,2024-02-07,elif.koval
-0,34.5,BKG-45176,dev.castro61@example.com,B2,In review,Group,2021-01-16,grace.ito@
-10,78.2,BKG-24263,ana.dunne9@example.com,D4,Cancelled,Corporate,2024-11-20,luca.morea
-3,33.7,BKG-19638,noor.ito64@example.com,A1,Open,Corporate,2025-09-27,grace.haas
-7,6.1,BKG-92527,omar.gallo56@example.com,A1,Open,Group,2026-06-03,grace.ito@
-3,31.1,BKG-76038,jon.lindqvist30@example.com,A1,Open,Group,2023-10-31,elif.gallo
-4,59.7,BKG-22137,ines.ortiz16@example.com,A1,Open,Leisure,2022-02-17,elif.lindq
-0,81.2,BKG-98163,jon.jensen94@example.com,A1,Open,Leisure,2025-04-07,omar.morea
-1,24.3,BKG-45524,farid.jensen15@example.com,D4,Cancelled,Group,2021-02-02,priya.ito@
-0,38.6,BKG-55088,mona.brandt86@example.com,B2,In review,Leisure,2025-09-16,ana.brandt
-1,90.4,BKG-47557,luca.koval65@example.com,D4,Cancelled,Event,2023-06-02,omar.abel@
-3,5.4,BKG-62103,ben.dunne83@example.com,A1,Open,Event,2025-11-26,kemi.jense
-1,83.8,BKG-60840,chloe.eze14@example.com,A1,Open,Leisure,2021-12-05,dev.petrov
-4,19.4,BKG-51868,grace.haas76@example.com,A1,Open,Leisure,2024-04-21,ben.ito@ex
-0,2.9,BKG-51923,omar.moreau82@example.com,D4,Cancelled,Group,2025-08-08,elif.petro
-0,64.4,BKG-79326,chloe.ito6@example.com,B2,In review,Leisure,2023-07-15,ines.nwosu
-1,45.3,BKG-36961,omar.koval78@example.com,B2,In review,Leisure,2024-04-26,hiro.haas@
-12,41.9,BKG-95009,farid.castro86@example.com,A1,Open,Group,2024-03-07,kemi.jense
-7,0.2,BKG-80363,jon.eze89@example.com,D4,Cancelled,Group,2023-07-05,elif.lindq
-1,20.8,BKG-41243,omar.haas25@example.com,C3,Closed,Corporate,2022-12-02,farid.eze@
-0,9.8,BKG-70145,jon.brandt77@example.com,B2,In review,Group,2026-06-21,ana.moreau
-0,11.7,BKG-52771,hiro.castro22@example.com,D4,Cancelled,Corporate,2023-05-15,ana.moreau
-3,50.6,BKG-10461,grace.haas42@example.com,A1,Open,Leisure,2022-09-27,ben.koval@
-2,36.3,BKG-58677,elif.moreau10@example.com,A1,Open,Leisure,2025-03-19,mona.lindq
-4,7.2,BKG-10194,elif.koval82@example.com,D4,Cancelled,Corporate,2023-09-01,ines.nwosu
-1,75.0,BKG-37375,noor.lindqvist91@example.com,C3,Closed,Leisure,2026-09-22,ben.nwosu@
-6,13.0,BKG-52438,luca.ortiz20@example.com,C3,Closed,Corporate,2026-03-31,kemi.jense
-5,21.3,BKG-11557,mona.castro93@example.com,A1,Open,Leisure,2026-06-14,priya.farr
-10,93.5,BKG-14493,omar.farrow4@example.com,C3,Closed,Group,2021-07-23,hiro.abel@
-0,87.1,BKG-32407,kemi.haas70@example.com,C3,Closed,Leisure,2026-04-06,mona.castr
-9,67.8,BKG-49916,kemi.castro54@example.com,A1,Open,Event,2025-04-01,farid.nwos
-6,71.8,BKG-52536,dev.abel10@example.com,D4,Cancelled,Leisure,2021-10-05,noor.ortiz
-8,92.4,BKG-32268,luca.lindqvist35@example.com,B2,In review,Group,2022-12-05,grace.bran
-0,98.1,BKG-24227,priya.petrov86@example.com,A1,Open,Event,2026-05-30,priya.kova
-7,34.1,BKG-80047,farid.jensen32@example.com,A1,Open,Corporate,2026-12-28,omar.dunne
-4,51.8,BKG-37131,mona.ito85@example.com,B2,In review,Event,2021-12-29,luca.jense
-6,51.1,BKG-45094,dev.lindqvist26@example.com,B2,In review,Event,2023-06-30,grace.more
-12,80.7,BKG-42926,hiro.moreau77@example.com,A1,Open,Leisure,2024-04-10,luca.dunne
-9,58.5,BKG-99327,omar.lindqvist35@example.com,A1,Open,Leisure,2024-12-07,ana.dunne@
-8,3.4,BKG-43788,chloe.haas76@example.com,A1,Open,Corporate,2021-07-18,luca.farro
-0,78.0,BKG-22293,farid.abel45@example.com,A1,Open,Leisure,2026-06-19,farid.dunn
-11,60.9,BKG-19003,grace.ortiz63@example.com,B2,In review,Event,2024-03-09,noor.jense
-8,2.2,BKG-73465,luca.ito48@example.com,A1,Open,Corporate,2024-06-21,chloe.gall
-3,10.7,BKG-81636,ines.jensen73@example.com,C3,Closed,Corporate,2026-04-14,grace.abel
-9,61.1,BKG-31513,grace.castro77@example.com,A1,Open,Event,2023-10-21,chloe.jens
-7,94.4,BKG-63339,luca.petrov41@example.com,B2,In review,Leisure,2025-03-16,hiro.dunne
-10,74.1,BKG-89167,mona.ortiz50@example.com,C3,Closed,Corporate,2023-07-02,jon.petrov
-1,86.9,BKG-77537,ben.ito14@example.com,C3,Closed,Group,2025-11-21,dev.koval@
-0,71.5,BKG-78006,hiro.eze22@example.com,D4,Cancelled,Leisure,2022-02-24,mona.haas@
-1,35.8,BKG-11985,ben.lindqvist73@example.com,D4,Cancelled,Corporate,2024-03-14,kemi.farro
-8,9.3,BKG-33057,jon.lindqvist8@example.com,B2,In review,Group,2024-04-05,elif.abel@
-10,96.1,BKG-98419,farid.castro29@example.com,B2,In review,Leisure,2021-07-12,kemi.haas@
-0,76.3,BKG-70759,elif.abel95@example.com,D4,Cancelled,Event,2024-04-12,priya.more
-2,99.3,BKG-16832,grace.dunne97@example.com,A1,Open,Corporate,2023-11-26,elif.castr
-0,21.3,BKG-66807,ana.moreau85@example.com,A1,Open,Event,2024-01-06,dev.nwosu@
-0,82.9,BKG-67444,hiro.ito36@example.com,D4,Cancelled,Leisure,2026-09-01,elif.jense
-11,7.2,BKG-72738,priya.castro92@example.com,D4,Cancelled,Leisure,2025-09-13,noor.lindq
-9,36.0,BKG-50363,chloe.jensen66@example.com,B2,In review,Leisure,2021-01-22,grace.farr
-11,45.4,BKG-55611,ana.jensen55@example.com,B2,In review,Event,2023-07-18,chloe.petr
-0,46.0,BKG-94056,priya.haas18@example.com,C3,Closed,Group,2022-05-30,jon.ortiz@
-0,78.5,BKG-40026,luca.abel61@example.com,B2,In review,Corporate,2021-04-03,luca.farro
-8,16.3,BKG-98190,chloe.abel39@example.com,A1,Open,Corporate,2025-09-16,luca.nwosu
-8,96.0,BKG-55334,farid.nwosu69@example.com,D4,Cancelled,Corporate,2021-08-12,kemi.abel@
-9,38.3,BKG-99468,ines.ortiz25@example.com,B2,In review,Event,2023-04-18,ines.castr
-9,64.3,BKG-32505,ines.ortiz70@example.com,D4,Cancelled,Event,2025-05-31,ines.brand
-7,29.2,BKG-75591,kemi.ortiz85@example.com,C3,Closed,Group,2026-12-21,mona.morea
-6,70.0,BKG-33265,ines.eze27@example.com,D4,Cancelled,Leisure,2025-03-03,luca.abel@
-9,12.5,BKG-67744,dev.dunne91@example.com,D4,Cancelled,Event,2021-03-08,luca.petro
-0,13.6,BKG-49601,ines.petrov71@example.com,A1,Open,Corporate,2026-09-13,hiro.castr
-7,95.5,BKG-39245,chloe.moreau11@example.com,B2,In review,Event,2021-09-12,omar.brand
-0,76.9,BKG-39322,luca.abel30@example.com,A1,Open,Corporate,2021-09-09,grace.lind
-5,87.9,BKG-98065,grace.dunne13@example.com,A1,Open,Event,2026-04-02,ben.moreau
-10,45.3,BKG-65188,dev.eze92@example.com,D4,Cancelled,Event,2024-12-23,chloe.farr
-0,45.4,BKG-84464,priya.gallo13@example.com,C3,Closed,Leisure,2026-02-28,elif.ortiz
-11,68.7,BKG-85706,noor.castro33@example.com,B2,In review,Corporate,2021-12-30,mona.ortiz
-7,27.4,BKG-43902,omar.abel76@example.com,C3,Closed,Event,2025-11-30,ines.morea
-0,7.0,BKG-22540,grace.haas13@example.com,C3,Closed,Leisure,2023-10-09,noor.lindq
-7,65.7,BKG-50434,noor.koval7@example.com,B2,In review,Corporate,2024-12-07,ines.koval
-6,30.2,BKG-75642,ben.petrov73@example.com,B2,In review,Leisure,2023-07-30,ines.eze@e
-9,17.2,BKG-63589,chloe.gallo89@example.com,D4,Cancelled,Corporate,2026-11-05,ines.abel@
-0,94.1,BKG-39928,ben.gallo59@example.com,A1,Open,Leisure,2021-04-28,priya.bran
-4,66.3,BKG-48170,kemi.gallo1@example.com,C3,Closed,Corporate,2021-02-04,noor.koval
-8,99.8,BKG-65429,mona.nwosu26@example.com,D4,Cancelled,Corporate,2023-06-28,luca.farro
-9,47.3,BKG-66388,hiro.koval42@example.com,C3,Closed,Corporate,2025-02-07,luca.haas@
-2,0.9,BKG-69341,grace.haas10@example.com,D4,Cancelled,Corporate,2023-11-13,noor.nwosu
-1,83.8,BKG-12749,ines.haas19@example.com,D4,Cancelled,Event,2022-02-27,chloe.cast
-8,14.6,BKG-89763,ben.abel2@example.com,B2,In review,Corporate,2023-11-02,farid.jens
-0,23.5,BKG-67224,luca.koval38@example.com,C3,Closed,Event,2022-01-29,mona.nwosu
-11,5.4,BKG-47705,omar.ito66@example.com,A1,Open,Leisure,2025-07-03,farid.ito@
-0,41.2,BKG-29564,elif.koval86@example.com,A1,Open,Leisure,2022-11-26,dev.abel@e
-0,55.1,BKG-91539,elif.castro15@example.com,B2,In review,Leisure,2026-01-04,kemi.nwosu
-1,55.2,BKG-17233,ines.brandt19@example.com,D4,Cancelled,Leisure,2023-05-12,jon.brandt
-6,55.7,BKG-72774,hiro.haas87@example.com,D4,Cancelled,Event,2022-11-06,elif.lindq
-11,46.6,BKG-17275,ines.brandt68@example.com,C3,Closed,Leisure,2026-05-10,elif.abel@
-1,7.0,BKG-85290,dev.ortiz70@example.com,B2,In review,Leisure,2026-09-27,noor.gallo
-5,74.0,BKG-12513,chloe.brandt27@example.com,D4,Cancelled,Corporate,2025-04-13,elif.petro
-11,88.1,BKG-88979,ana.moreau53@example.com,C3,Closed,Group,2023-11-18,ben.gallo@
-2,71.2,BKG-91333,luca.gallo6@example.com,A1,Open,Corporate,2024-12-23,kemi.brand
-0,38.1,BKG-62630,noor.ortiz75@example.com,A1,Open,Group,2021-10-28,luca.brand
-0,73.6,BKG-40884,ines.lindqvist78@example.com,A1,Open,Leisure,2026-02-14,jon.farrow
-0,77.3,BKG-11147,luca.farrow33@example.com,B2,In review,Corporate,2024-07-01,mona.ortiz
-0,87.8,BKG-85303,priya.eze9@example.com,C3,Closed,Group,2021-02-21,elif.lindq
-0,63.2,BKG-31811,priya.moreau75@example.com,A1,Open,Corporate,2022-02-05,ana.lindqv
-10,27.4,BKG-48464,hiro.jensen30@example.com,B2,In review,Corporate,2022-02-13,kemi.farro
+tmp1,status_cd,status_desc,pymnt_mthd,weight,weight_unit,discount_pct,weekday_no,bkng_id,email
+560fcf91fc69,A1,Open,Gift Voucher,49.8,kg,66.3,Wednesday,BKG-63746,ines.brandt42@example.com
+59e21e578849,B2,In review,Bank Transfer,9.03,lb,54.9,Friday,BKG-44964,omar.haas49@example.com
+2dc51c41c1ad,C3,Closed,Bank Transfer,4.6,kg,65.0,Sunday,BKG-88522,ana.gallo5@example.com
+7349b1f753f1,A1,Open,Bank Transfer,4.04,lb,5.3,Friday,BKG-82185,priya.brandt94@example.com
+9e0e64bf3fb8,A1,Open,Direct Debit,7.53,lb,98.2,Saturday,BKG-38930,omar.abel96@example.com
+bdbdec532342,A1,Open,Gift Voucher,45.5,kg,21.2,Monday,BKG-60895,priya.dunne60@example.com
+77fe71b14853,A1,Open,Credit Card,11.75,lb,64.2,Thursday,BKG-22673,noor.gallo72@example.com
+048eec5206f4,B2,In review,Credit Card,10.34,lb,1.8,Friday,BKG-50691,hiro.jensen30@example.com
+4badf2ded5ca,B2,In review,Direct Debit,42.9,kg,93.8,Saturday,BKG-71076,grace.ito76@example.com
+60268c3f55c2,A1,Open,Credit Card,9.9,kg,37.0,Thursday,BKG-88519,luca.dunne61@example.com
+1b9f7ae64a94,C3,Closed,Direct Debit,3.8,kg,40.3,Monday,BKG-89958,mona.brandt69@example.com
+8ecb0ec6f94d,A1,Open,Bank Transfer,46.7,kg,58.9,Wednesday,BKG-41993,jon.koval65@example.com
+6491df990713,B2,In review,Credit Card,22.5,kg,13.7,Monday,BKG-18346,ben.brandt70@example.com
+c6a1338de28a,D4,Cancelled,Gift Voucher,5.81,lb,38.6,Monday,BKG-62278,hiro.moreau69@example.com
+ce78dddd81e8,A1,Open,Gift Voucher,32.2,kg,37.1,Sunday,BKG-47017,ines.jensen75@example.com
+80722058d8f1,D4,Cancelled,Bank Transfer,3.04,lb,19.6,Monday,BKG-24051,dev.koval62@example.com
+8370145ae95c,C3,Closed,Direct Debit,22.3,kg,38.9,Wednesday,BKG-11992,omar.farrow87@example.com
+ceb28e983822,A1,Open,Credit Card,14.11,lb,34.5,Monday,BKG-45176,dev.castro61@example.com
+54facffade29,D4,Open,Bank Transfer,45.2,kg,78.2,Sunday,BKG-24263,ana.dunne9@example.com
+1af1ff2fc904,D4,Cancelled,Gift Voucher,3.67,lb,33.7,Wednesday,BKG-19638,noor.ito64@example.com
+d112578bb7f3,D4,Cancelled,Gift Voucher,37.6,kg,6.1,Monday,BKG-92527,omar.gallo56@example.com
+b267193a73af,C3,Closed,Bank Transfer,10.66,lb,31.1,Wednesday,BKG-76038,jon.lindqvist30@example.com
+788fb540b8f9,A1,Open,Credit Card,49.8,kg,59.7,Monday,BKG-22137,ines.ortiz16@example.com
+be9de0ed5455,B2,In review,Bank Transfer,23.7,kg,81.2,Saturday,BKG-98163,jon.jensen94@example.com
+fe32206c844a,C3,In review,Credit Card,14.83,lb,24.3,Monday,BKG-45524,farid.jensen15@example.com
+5c26aef339f1,A1,Open,Credit Card,18.05,lb,38.6,Sunday,BKG-55088,mona.brandt86@example.com
+b9f81bab155a,A1,Open,Direct Debit,25.2,kg,90.4,Sunday,BKG-47557,luca.koval65@example.com
+31de10c1daaf,D4,Cancelled,Credit Card,28.7,kg,5.4,Friday,BKG-62103,ben.dunne83@example.com
+8fb3b2385d9c,B2,In review,Direct Debit,45.3,kg,83.8,Saturday,BKG-60840,chloe.eze14@example.com
+3aee2af56069,C3,Closed,Gift Voucher,21.0,lb,19.4,Sunday,BKG-51868,grace.haas76@example.com
+4cef40fe35f4,A1,Open,Credit Card,6.94,lb,2.9,Tuesday,BKG-51923,omar.moreau82@example.com
+09c65c0c8a15,C3,In review,Credit Card,21.0,kg,64.4,Saturday,BKG-79326,chloe.ito6@example.com
+281c52f31a3a,A1,Open,Credit Card,14.97,lb,45.3,Wednesday,BKG-36961,omar.koval78@example.com
+13a636bcbf18,D4,Cancelled,Gift Voucher,16.5,kg,41.9,Thursday,BKG-95009,farid.castro86@example.com
+8424981d3c72,A1,Open,Credit Card,33.8,kg,0.2,Tuesday,BKG-80363,jon.eze89@example.com
+bf8fb27b80eb,A1,Open,Credit Card,10.84,lb,20.8,Tuesday,BKG-41243,omar.haas25@example.com
+a1593ac10c54,C3,Closed,Direct Debit,25.3,kg,9.8,Monday,BKG-70145,jon.brandt77@example.com
+5ae7eb8a9daf,C3,Closed,Gift Voucher,19.82,lb,11.7,Monday,BKG-52771,hiro.castro22@example.com
+e53a5ce50481,B2,In review,Gift Voucher,25.6,kg,50.6,Thursday,BKG-10461,grace.haas42@example.com
+41236b6bf8fc,D4,Cancelled,Credit Card,11.0,kg,36.3,Tuesday,BKG-58677,elif.moreau10@example.com
+3448aff0eef2,B2,In review,Bank Transfer,46.9,kg,7.2,Wednesday,BKG-10194,elif.koval82@example.com
+3c8970854afe,D4,Cancelled,Credit Card,16.7,kg,75.0,Sunday,BKG-37375,noor.lindqvist91@example.com
+c1f5350a1222,D4,Cancelled,Credit Card,4.76,lb,13.0,Friday,BKG-52438,luca.ortiz20@example.com
+f553c99395b6,A1,Open,Credit Card,22.32,lb,21.3,Tuesday,BKG-11557,mona.castro93@example.com
+1b98bdbf7d47,A1,Open,Bank Transfer,7.17,lb,93.5,Wednesday,BKG-14493,omar.farrow4@example.com
+f53d13de844e,C3,Closed,Bank Transfer,16.42,lb,87.1,Friday,BKG-32407,kemi.haas70@example.com
+6036157aff59,D4,Cancelled,Gift Voucher,8.07,lb,67.8,Saturday,BKG-49916,kemi.castro54@example.com
+bc31cbccb029,C3,Open,Direct Debit,21.0,lb,71.8,Friday,BKG-52536,dev.abel10@example.com
+de6548972b4b,C3,Closed,Direct Debit,16.1,kg,92.4,Sunday,BKG-32268,luca.lindqvist35@example.com
+1349f989d65d,D4,Cancelled,Credit Card,46.2,kg,98.1,Sunday,BKG-24227,priya.petrov86@example.com
+2607c53ee20f,B2,In review,Direct Debit,18.69,lb,34.1,Wednesday,BKG-80047,farid.jensen32@example.com
+48a2adca95ba,D4,Cancelled,Gift Voucher,5.49,lb,51.8,Friday,BKG-37131,mona.ito85@example.com
+f6c7f2a2c4aa,D4,Closed,Direct Debit,11.79,lb,51.1,Friday,BKG-45094,dev.lindqvist26@example.com
+6dfb5d650b11,C3,Closed,Credit Card,6.99,lb,80.7,Friday,BKG-42926,hiro.moreau77@example.com
+3f639c21450d,D4,Cancelled,Bank Transfer,18.64,lb,58.5,Thursday,BKG-99327,omar.lindqvist35@example.com
+cb8a21ffc869,A1,Cancelled,Direct Debit,5.2,kg,3.4,Wednesday,BKG-43788,chloe.haas76@example.com
+d4a3a4cdcb73,B2,In review,Gift Voucher,1.5,lb,78.0,Saturday,BKG-22293,farid.abel45@example.com
+bae0f9f5284a,A1,Open,Bank Transfer,22.0,kg,60.9,Monday,BKG-19003,grace.ortiz63@example.com
+c71d637056c6,B2,In review,Bank Transfer,37.7,kg,2.2,Monday,BKG-73465,luca.ito48@example.com
+c40d056c58f2,C3,Closed,Credit Card,14.97,lb,10.7,Friday,BKG-81636,ines.jensen73@example.com
+790954e7d310,D4,Cancelled,Credit Card,1.68,lb,61.1,Saturday,BKG-31513,grace.castro77@example.com
+f07c462bed31,D4,Cancelled,Gift Voucher,14.11,lb,94.4,Wednesday,BKG-63339,luca.petrov41@example.com
+8bf16d820e45,D4,Open,Credit Card,17.06,lb,74.1,Sunday,BKG-89167,mona.ortiz50@example.com
+f22ebe6b369b,B2,In review,Gift Voucher,10.3,lb,86.9,Thursday,BKG-77537,ben.ito14@example.com
+620d079ec740,D4,Cancelled,Bank Transfer,11.02,lb,71.5,Wednesday,BKG-78006,hiro.eze22@example.com
+44b30802f69f,B2,In review,Bank Transfer,6.9,kg,35.8,Saturday,BKG-11985,ben.lindqvist73@example.com
+7f352a340044,B2,In review,Direct Debit,14.97,lb,9.3,Monday,BKG-33057,jon.lindqvist8@example.com
+8559273864f7,C3,Closed,Gift Voucher,3.31,lb,96.1,Tuesday,BKG-98419,farid.castro29@example.com
+28d511028480,A1,Open,Credit Card,39.0,kg,76.3,Sunday,BKG-70759,elif.abel95@example.com
+5e66619b83ee,C3,Closed,Bank Transfer,4.45,lb,99.3,Thursday,BKG-16832,grace.dunne97@example.com
+93f17e18a23b,B2,Cancelled,Bank Transfer,23.2,kg,21.3,Monday,BKG-66807,ana.moreau85@example.com
+70f76c41cb49,C3,Closed,Gift Voucher,3.18,lb,82.9,Wednesday,BKG-67444,hiro.ito36@example.com
+62491660790e,B2,In review,Credit Card,26.6,kg,7.2,Monday,BKG-72738,priya.castro92@example.com
+6c43389a4aee,A1,Open,Bank Transfer,35.2,kg,36.0,Saturday,BKG-50363,chloe.jensen66@example.com
+31bfc484edb3,A1,Open,Gift Voucher,8.16,lb,45.4,Monday,BKG-55611,ana.jensen55@example.com
+e2804687d129,B2,Cancelled,Gift Voucher,1.22,lb,46.0,Thursday,BKG-94056,priya.haas18@example.com
+e50579a1db9a,A1,Open,Credit Card,2.54,lb,78.5,Tuesday,BKG-40026,luca.abel61@example.com
+b44b749ee7e9,B2,In review,Direct Debit,13.5,kg,16.3,Monday,BKG-98190,chloe.abel39@example.com
+1fd95b69d0c2,B2,In review,Gift Voucher,48.7,kg,96.0,Thursday,BKG-55334,farid.nwosu69@example.com
+a5e0242fce66,A1,Open,Gift Voucher,11.25,lb,38.3,Friday,BKG-99468,ines.ortiz25@example.com
+f75ac6afe643,C3,Closed,Direct Debit,43.9,kg,64.3,Tuesday,BKG-32505,ines.ortiz70@example.com
+670faf6e6f46,A1,Open,Credit Card,14.5,kg,29.2,Sunday,BKG-75591,kemi.ortiz85@example.com
+c2176629ca4f,C3,Closed,Bank Transfer,46.7,kg,70.0,Sunday,BKG-33265,ines.eze27@example.com
+c8dc10e13ada,B2,In review,Credit Card,4.72,lb,12.5,Friday,BKG-67744,dev.dunne91@example.com
+f85019cd97eb,C3,Closed,Gift Voucher,1.18,lb,13.6,Tuesday,BKG-49601,ines.petrov71@example.com
+e3e78c3f8d61,B2,Open,Direct Debit,16.96,lb,95.5,Friday,BKG-39245,chloe.moreau11@example.com
+6a8aded1d2d9,A1,Open,Bank Transfer,20.68,lb,76.9,Monday,BKG-39322,luca.abel30@example.com
+e2955b202aac,C3,Closed,Bank Transfer,2.9,lb,87.9,Wednesday,BKG-98065,grace.dunne13@example.com
+e88b2978bad1,C3,Closed,Bank Transfer,26.9,kg,45.3,Sunday,BKG-65188,dev.eze92@example.com
+b6163263316a,C3,Closed,Gift Voucher,16.78,lb,45.4,Sunday,BKG-84464,priya.gallo13@example.com
+b6e23f192d2a,B2,Cancelled,Gift Voucher,37.2,kg,68.7,Wednesday,BKG-85706,noor.castro33@example.com
+9a7e5599c6a0,B2,In review,Gift Voucher,17.83,lb,27.4,Wednesday,BKG-43902,omar.abel76@example.com
+3e67935aaef1,A1,Cancelled,Gift Voucher,16.42,lb,7.0,Saturday,BKG-22540,grace.haas13@example.com
+aaeae923cc67,B2,In review,Gift Voucher,22.5,kg,65.7,Friday,BKG-50434,noor.koval7@example.com
+d0fa17e7d420,D4,Cancelled,Direct Debit,22.45,lb,30.2,Monday,BKG-75642,ben.petrov73@example.com
+9ea6495ee7a5,A1,Open,Direct Debit,10.7,kg,17.2,Thursday,BKG-63589,chloe.gallo89@example.com
+d85ac9ebbd43,C3,Closed,Bank Transfer,6.76,lb,94.1,Thursday,BKG-39928,ben.gallo59@example.com
+71276e9e9db9,C3,Closed,Direct Debit,14.0,kg,66.3,Sunday,BKG-48170,kemi.gallo1@example.com
+97910f36b911,B2,In review,Direct Debit,12.8,kg,99.8,Wednesday,BKG-65429,mona.nwosu26@example.com
+d0f9cbec2617,A1,Open,Credit Card,9.93,lb,47.3,Friday,BKG-66388,hiro.koval42@example.com
+9f763f86816e,B2,In review,Bank Transfer,25.6,kg,0.9,Monday,BKG-69341,grace.haas10@example.com
+87f88a0e237b,A1,Open,Gift Voucher,8.94,lb,83.8,Saturday,BKG-12749,ines.haas19@example.com
+e60b03f4192c,C3,Closed,Bank Transfer,20.2,kg,14.6,Saturday,BKG-89763,ben.abel2@example.com
+0e7f4b5e75b4,D4,Cancelled,Credit Card,7.5,kg,23.5,Friday,BKG-67224,luca.koval38@example.com
+b1c40104c3a0,A1,Open,Bank Transfer,2.3,kg,5.4,Sunday,BKG-47705,omar.ito66@example.com
+ecb884c15e83,B2,In review,Bank Transfer,14.2,lb,41.2,Wednesday,BKG-29564,elif.koval86@example.com
+e83f8550316f,A1,Open,Credit Card,6.99,lb,55.1,Monday,BKG-91539,elif.castro15@example.com
+1f0b374ce72a,A1,Open,Gift Voucher,15.0,kg,55.2,Sunday,BKG-17233,ines.brandt19@example.com
+6abbd4c59b5d,D4,Cancelled,Gift Voucher,40.3,kg,55.7,Sunday,BKG-72774,hiro.haas87@example.com
+82f35a2f0cf6,A1,Open,Gift Voucher,15.8,kg,46.6,Monday,BKG-17275,ines.brandt68@example.com
+09bfeda954b9,A1,Open,Bank Transfer,18.1,lb,7.0,Tuesday,BKG-85290,dev.ortiz70@example.com
+2bdca3723159,D4,Cancelled,Credit Card,29.3,kg,74.0,Friday,BKG-12513,chloe.brandt27@example.com
+20dbab4f1622,C3,Closed,Credit Card,41.1,kg,88.1,Tuesday,BKG-88979,ana.moreau53@example.com
+181c59e13bdf,B2,In review,Gift Voucher,12.88,lb,71.2,Sunday,BKG-91333,luca.gallo6@example.com
+c17d089689d8,A1,Open,Bank Transfer,10.66,lb,38.1,Wednesday,BKG-62630,noor.ortiz75@example.com
+5d6c9c3537e6,A1,Open,Gift Voucher,1.27,lb,73.6,Monday,BKG-40884,ines.lindqvist78@example.com
+a667cd4d3e81,C3,Closed,Bank Transfer,2.81,lb,77.3,Saturday,BKG-11147,luca.farrow33@example.com
+fbaf2fdbfc0e,D4,Cancelled,Credit Card,4.58,lb,87.8,Tuesday,BKG-85303,priya.eze9@example.com
+52d350bfbc5f,D4,Cancelled,Direct Debit,37.8,kg,63.2,Thursday,BKG-31811,priya.moreau75@example.com
+912f03e598d1,A1,Open,Direct Debit,2.81,lb,27.4,Monday,BKG-48464,hiro.jensen30@example.com

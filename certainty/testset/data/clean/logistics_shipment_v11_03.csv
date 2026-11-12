@@ -1,121 +1,121 @@
-person,age,qty,unit_price,line_total,account_id,typ,comment,amount_usd,height
-name=Mona Koval; birth_date=1997-10-12,70,18,10.37,186.66,516067,K2,xxx,536.61,175.3
-name=Hiro Abel; birth_date=1950-04-27,83,24,22.08,529.92,526418,R7,TBD,442.35,154.9
-name=Ines Castro; birth_date=1962-02-15,82,12,8.99,107.88,837139,Z9,xxx,516.03,160.0
-name=Grace Eze; birth_date=1960-05-29,67,36,5.74,206.64,777771,Z9,TBD,866.03,149.9
-name=Mona Gallo; birth_date=1952-09-07,77,24,33.33,799.92,277330,K2,test,168.87,193.0
-name=Chloe Jensen; birth_date=1953-09-08,48,30,20.16,604.8,267901,Z9,Road,878.67,182.9
-name=Elif Farrow; birth_date=1986-06-11,51,36,9.91,356.76,171380,K2,xxx,302.74,154.9
-name=Grace Jensen; birth_date=1963-11-05,79,24,20.47,491.28,306543,Z9,asdf,670.07,157.5
-name=Mona Lindqvist; birth_date=1966-06-20,51,18,17.31,311.58,344043,Z9,xxx,400.79,162.6
-name=Luca Petrov; birth_date=1986-12-31,83,6,39.55,237.3,521938,K2,.,547.31,177.8
-name=Grace Dunne; birth_date=1969-03-19,52,24,2.11,50.64,790885,Z9,xxx,593.93,154.9
-name=Dev Ito; birth_date=1994-10-23,90,12,32.12,385.44,369992,K1,Road,440.47,177.8
-name=Omar Farrow; birth_date=1962-04-05,82,12,28.89,346.68,448157,K2,test,678.72,190.5
-name=Chloe Castro; birth_date=1961-07-29,50,24,7.09,170.16,654967,K2,Air,824.09,149.9
-name=Priya Dunne; birth_date=1979-04-20,67,6,17.9,107.4,402752,Z9,test,801.65,198.1
-name=Chloe Farrow; birth_date=1989-01-31,25,36,21.1,759.6,579840,K2,test,230.21,195.6
-name=Ben Jensen; birth_date=1989-03-05,47,24,14.54,348.96,550347,K2,TBD,605.44,182.9
-name=Ines Petrov; birth_date=2003-01-19,35,6,31.96,191.76,279955,K2,test,35.82,157.5
-name=Ben Koval; birth_date=1987-11-12,49,12,15.21,182.52,167889,R7,todo,826.38,185.4
-name=Luca Moreau; birth_date=1976-05-27,70,30,9.42,282.6,481252,Q4,todo,393.34,160.0
-name=Grace Ito; birth_date=1980-10-25,,24,37.36,896.64,870650,K1,TBD,314.51,190.5
-name=Elif Moreau; birth_date=1969-02-24,24,30,21.9,657.0,421481,K1,test,195.25,160.0
-name=Kemi Farrow; birth_date=1999-11-04,58,30,5.26,157.8,883314,K1,asdf,139.18,198.1
-name=Chloe Ortiz; birth_date=1969-07-08,54,36,18.47,664.92,602631,K1,Rail,282.65,167.6
-name=Ana Gallo; birth_date=1980-02-23,54,30,14.95,448.5,193368,K2,xxx,281.73,157.5
-name=Farid Moreau; birth_date=1995-03-31,61,18,5.05,90.9,557625,K2,test,653.72,175.3
-name=Kemi Dunne; birth_date=1997-03-07,38,6,11.93,71.58,313338,R7,test,106.14,177.8
-name=Mona Farrow; birth_date=1950-04-28,79,6,19.85,119.1,669247,K2,asdf,600.07,180.3
-name=Mona Eze; birth_date=1997-11-22,55,18,24.22,435.96,577517,K2,Rail,584.25,182.9
-name=Noor Brandt; birth_date=1969-01-06,28,12,26.22,314.64,839070,K2,Road,873.21,160.0
-name=Noor Jensen; birth_date=1953-12-08,23,6,18.55,111.3,151445,K1,xxx,215.56,152.4
-name=Ben Haas; birth_date=1952-03-31,59,36,7.52,270.72,684759,Q4,Air,283.88,193.0
-name=Ben Koval; birth_date=1975-08-30,41,36,30.41,1094.76,790516,R7,TBD,436.06,165.1
-name=Mona Petrov; birth_date=1977-06-30,85,24,26.81,643.44,351548,K2,.,590.42,149.9
-name=Hiro Eze; birth_date=1966-03-24,39,6,24.49,146.94,884621,K1,xxx,754.94,157.5
-name=Dev Abel; birth_date=1979-05-26,46,6,29.81,178.86,856126,Z9,todo,466.54,177.8
-name=Omar Abel; birth_date=1969-11-23,51,24,7.28,174.72,200183,Z9,todo,697.64,198.1
-name=Chloe Abel; birth_date=1955-04-04,46,18,22.39,403.02,756441,K2,todo,533.19,162.6
-name=Kemi Farrow; birth_date=1986-07-28,45,6,22.97,137.82,680150,Z9,xxx,714.26,165.1
-name=Chloe Eze; birth_date=1951-07-16,,12,17.51,210.12,175317,R7,.,186.74,198.1
-name=Noor Castro; birth_date=2002-01-01,79,24,26.08,625.92,449615,Z9,xxx,779.19,172.7
-name=Ben Brandt; birth_date=1993-07-03,88,24,28.26,678.24,539994,Q4,test,64.39,188.0
-name=Hiro Farrow; birth_date=1973-04-16,49,30,6.98,209.4,507191,Q4,.,247.15,170.2
-name=Omar Dunne; birth_date=1984-09-25,80,36,27.89,1004.04,261069,Q4,asdf,250.76,190.5
-name=Jon Koval; birth_date=1998-06-23,31,24,16.24,389.76,887118,R7,test,721.04,193.0
-name=Hiro Brandt; birth_date=1986-01-02,79,36,2.15,77.4,724909,Z9,asdf,198.23,147.3
-name=Chloe Ortiz; birth_date=1969-10-26,75,30,5.08,152.4,467802,K2,test,321.74,185.4
-name=Dev Moreau; birth_date=1992-11-15,62,18,36.13,650.34,643321,K1,Air,410.46,165.1
-name=Kemi Eze; birth_date=1953-07-13,83,18,17.13,308.34,559595,Q4,asdf,830.06,147.3
-name=Dev Ito; birth_date=1989-03-04,55,24,16.04,384.96,335433,Z9,xxx,100.45,193.0
-name=Mona Farrow; birth_date=1968-11-29,64,30,10.11,303.3,348330,K2,test,831.22,152.4
-name=Ana Brandt; birth_date=1982-08-02,78,24,18.63,447.12,678731,R7,Sea,197.92,157.5
-name=Dev Haas; birth_date=1969-09-07,30,18,19.91,358.38,444247,Z9,todo,141.85,154.9
-name=Farid Ito; birth_date=1967-10-25,52,36,11.73,422.28,542789,Z9,xxx,265.76,195.6
-name=Hiro Ortiz; birth_date=1959-08-03,,18,36.72,660.96,582867,K1,todo,675.51,170.2
-name=Ana Petrov; birth_date=1971-03-28,83,24,8.92,214.08,641875,Z9,.,821.53,195.6
-name=Omar Nwosu; birth_date=1960-10-16,77,30,12.26,367.8,854097,Z9,.,624.27,182.9
-name=Luca Haas; birth_date=1965-05-01,26,6,8.01,48.06,538748,Q4,xxx,779.28,180.3
-name=Dev Haas; birth_date=1980-10-14,45,12,3.26,39.12,536766,Q4,asdf,748.62,188.0
-name=Ana Brandt; birth_date=1976-04-22,22,18,13.84,249.12,424966,R7,TBD,745.64,165.1
-name=Noor Lindqvist; birth_date=1982-08-20,49,6,29.54,177.24,631910,R7,test,694.31,195.6
-name=Luca Ortiz; birth_date=2002-03-19,,36,36.36,1308.96,116845,K2,.,884.33,177.8
-name=Farid Moreau; birth_date=1991-02-11,32,24,35.55,853.2,403923,R7,Rail,340.23,165.1
-name=Ana Castro; birth_date=1975-10-30,81,24,10.09,242.16,362627,K1,Sea,86.12,162.6
-name=Ben Koval; birth_date=1993-02-26,41,12,30.49,365.88,293025,K2,.,714.29,198.1
-name=Luca Dunne; birth_date=1972-03-31,87,24,30.24,725.76,890822,Z9,todo,50.8,167.6
-name=Ana Castro; birth_date=1954-08-31,87,18,11.75,211.5,598590,K1,asdf,766.67,170.2
-name=Omar Koval; birth_date=1979-02-21,73,6,31.69,190.14,494595,K1,Rail,42.68,193.0
-name=Farid Moreau; birth_date=2003-02-26,40,18,29.88,537.84,314829,Q4,todo,436.32,180.3
-name=Ana Abel; birth_date=1967-07-08,59,24,33.71,809.04,596212,Z9,Road,672.25,190.5
-name=Farid Koval; birth_date=2001-09-25,43,24,34.71,833.04,391733,Z9,.,223.9,182.9
-name=Luca Koval; birth_date=1978-04-02,69,36,18.17,654.12,631260,K1,Road,710.15,157.5
-name=Dev Petrov; birth_date=1955-09-02,76,36,3.2,115.2,651584,Z9,xxx,771.4,198.1
-name=Ines Koval; birth_date=1989-03-10,34,12,17.8,213.6,255421,Z9,asdf,768.65,177.8
-name=Elif Eze; birth_date=1996-07-31,82,30,11.13,333.9,425448,K1,Rail,443.94,162.6
-name=Omar Haas; birth_date=2003-10-03,34,12,38.27,459.24,778623,K2,.,686.65,175.3
-name=Ana Ito; birth_date=1965-10-19,79,30,20.67,620.1,124959,Q4,xxx,807.01,185.4
-name=Jon Moreau; birth_date=1975-06-27,32,24,18.8,451.2,386451,R7,asdf,654.22,198.1
-name=Elif Haas; birth_date=1972-06-30,37,24,6.78,162.72,127837,Q4,.,298.85,185.4
-name=Dev Jensen; birth_date=1968-10-11,54,36,29.47,1060.92,880069,Q4,asdf,667.18,182.9
-name=Jon Dunne; birth_date=2002-11-10,82,6,15.6,93.6,405574,K2,TBD,549.17,193.0
-name=Elif Abel; birth_date=1987-04-11,62,6,20.08,120.48,202850,K2,asdf,108.35,198.1
-name=Jon Farrow; birth_date=1986-03-23,42,24,2.3,55.2,730492,Z9,xxx,425.37,198.1
-name=Farid Ito; birth_date=1971-02-10,29,6,3.99,23.94,831635,R7,Road,710.53,149.9
-name=Ana Eze; birth_date=1991-01-06,45,30,20.12,603.6,495730,K1,xxx,65.02,180.3
-name=Noor Gallo; birth_date=1978-08-02,20,30,38.7,1161.0,559585,Q4,xxx,163.28,152.4
-name=Grace Eze; birth_date=1971-05-26,73,24,26.02,624.48,441656,K2,xxx,465.6,147.3
-name=Ben Gallo; birth_date=1978-05-26,72,12,2.62,31.44,865591,K2,xxx,783.31,167.6
-name=Dev Dunne; birth_date=1974-12-26,55,12,31.19,374.28,856752,K1,TBD,113.6,185.4
-name=Ben Moreau; birth_date=2003-02-18,90,18,36.38,654.84,153050,K2,test,465.71,152.4
-name=Priya Koval; birth_date=1973-11-01,89,24,31.28,750.72,479654,K2,xxx,709.75,180.3
-name=Hiro Castro; birth_date=1961-07-13,52,6,32.2,193.2,658029,Z9,Sea,888.5,188.0
-name=Ana Moreau; birth_date=1955-09-27,28,12,11.55,138.6,816924,Q4,xxx,401.01,157.5
-name=Farid Moreau; birth_date=1984-01-20,43,12,29.26,351.12,238180,K2,TBD,438.86,172.7
-name=Grace Haas; birth_date=1957-07-06,44,24,23.61,566.64,853440,K1,test,752.21,172.7
-name=Farid Farrow; birth_date=1995-04-15,43,12,8.36,100.32,127904,K2,Road,635.51,190.5
-name=Ben Dunne; birth_date=1990-02-24,22,36,14.45,520.2,338212,R7,Road,288.37,193.0
-name=Priya Nwosu; birth_date=1992-03-01,42,18,8.8,158.4,354605,R7,Road,34.13,157.5
-name=Jon Eze; birth_date=1980-11-13,67,24,21.82,523.68,234848,Z9,TBD,831.46,149.9
-name=Elif Nwosu; birth_date=2003-10-04,23,30,29.87,896.1,478978,Z9,TBD,624.77,193.0
-name=Kemi Dunne; birth_date=1967-12-19,37,30,38.66,1159.8,716403,R7,xxx,788.44,175.3
-name=Ana Haas; birth_date=1991-12-16,47,36,12.45,448.2,288257,K1,TBD,339.11,198.1
-name=Grace Petrov; birth_date=1995-07-11,28,18,25.01,450.18,381710,R7,.,35.34,147.3
-name=Mona Ito; birth_date=1988-04-10,83,6,12.83,76.98,625897,Q4,Rail,741.52,147.3
-name=Chloe Nwosu; birth_date=1961-01-25,42,6,11.91,71.46,586362,R7,xxx,314.75,147.3
-name=Dev Abel; birth_date=2001-11-24,29,36,31.79,1144.44,699884,K2,Sea,160.62,170.2
-name=Kemi Petrov; birth_date=1988-03-28,70,30,4.93,147.9,315509,Z9,asdf,344.31,172.7
-name=Omar Eze; birth_date=1967-07-11,27,36,8.54,307.44,326761,R7,Road,491.87,149.9
-name=Chloe Dunne; birth_date=1969-03-15,35,6,14.87,89.22,809868,K1,test,478.74,170.2
-name=Grace Gallo; birth_date=1959-11-15,40,6,18.97,113.82,451043,Z9,TBD,422.27,149.9
-name=Ben Haas; birth_date=1966-05-12,22,24,6.01,144.24,489661,K1,Sea,7.87,182.9
-name=Farid Ito; birth_date=1974-10-09,21,12,10.53,126.36,596127,Q4,.,119.66,167.6
-name=Elif Brandt; birth_date=1990-02-13,20,36,20.43,735.48,558983,K1,xxx,8.64,172.7
-name=Hiro Moreau; birth_date=1963-03-29,45,18,2.04,36.72,535011,R7,xxx,719.78,172.7
-name=Ana Petrov; birth_date=1991-01-14,68,30,8.06,241.8,848449,K2,todo,510.5,162.6
-name=Chloe Haas; birth_date=1954-06-28,27,18,4.73,85.14,212816,Z9,todo,24.89,149.9
-name=Chloe Farrow; birth_date=1988-01-14,70,30,30.21,906.3,402921,K2,asdf,256.07,182.9
-name=Dev Abel; birth_date=1956-01-19,46,24,28.82,691.68,379234,Z9,Road,276.57,175.3
-name=Dev Moreau; birth_date=1957-04-27,55,18,22.48,404.64,409606,R7,Air,278.05,147.3
-name=Grace Moreau; birth_date=1973-06-28,65,36,26.5,954.0,360111,K2,test,375.18,195.6
+x7,betrag_eur,amount_usd,account_id,end_date,start_date,age,person,pymnt_mthd
+65,226636.36,536.61,516067,2026-01-21,2025-12-27,70,name=Mona Koval; birth_date=1997-10-12,Gift Voucher
+75,110463.68,442.35,526418,2024-06-30,2024-06-27,83,name=Hiro Abel; birth_date=1950-04-27,Credit Card
+59,36039.96,516.03,837139,2025-12-03,2025-10-12,82,name=Ines Castro; birth_date=1962-02-15,Credit Card
+74,189655.16,866.03,777771,2024-05-08,2024-03-31,67,name=Grace Eze; birth_date=1960-05-29,Direct Debit
+69,118272.36,168.87,277330,2025-07-19,2025-05-07,77,name=Mona Gallo; birth_date=1952-09-07,Bank Transfer
+64,44216.45,878.67,267901,2025-09-01,2025-07-24,48,name=Chloe Jensen; birth_date=1953-09-08,Bank Transfer
+71,100164.22,302.74,171380,2024-07-15,2024-05-22,51,name=Elif Farrow; birth_date=1986-06-11,Credit Card
+76,192775.01,670.07,306543,2025-06-27,2025-05-02,79,name=Grace Jensen; birth_date=1963-11-05,Bank Transfer
+75,136500.85,400.79,344043,2025-10-09,2025-08-09,51,name=Mona Lindqvist; birth_date=1966-06-20,Credit Card
+59,31274.68,547.31,521938,2024-05-17,2024-04-12,83,name=Luca Petrov; birth_date=1986-12-31,Gift Voucher
+68,167183.63,593.93,790885,2025-08-05,2025-05-23,52,name=Grace Dunne; birth_date=1969-03-19,Direct Debit
+67,97402.65,440.47,369992,2024-08-24,2024-05-28,90,name=Dev Ito; birth_date=1994-10-23,Credit Card
+58,125104.76,678.72,448157,2025-07-31,2025-05-22,82,name=Omar Farrow; birth_date=1962-04-05,Gift Voucher
+67,83575.95,824.09,654967,2025-05-24,2025-03-28,50,name=Chloe Castro; birth_date=1961-07-29,Gift Voucher
+65,46247.18,801.65,402752,2025-02-12,2024-12-14,67,name=Priya Dunne; birth_date=1979-04-20,Direct Debit
+71,182986.35,230.21,579840,2025-05-17,2025-04-25,25,name=Chloe Farrow; birth_date=1989-01-31,Bank Transfer
+66,243207.02,605.44,550347,2024-04-27,2024-02-06,47,name=Ben Jensen; birth_date=1989-03-05,Bank Transfer
+65,188741.06,35.82,279955,2025-06-21,2025-05-08,35,name=Ines Petrov; birth_date=2003-01-19,Direct Debit
+59,186041.73,826.38,167889,2024-06-14,2024-05-01,49,name=Ben Koval; birth_date=1987-11-12,Credit Card
+69,29372.26,393.34,481252,2024-11-16,2024-10-06,70,name=Luca Moreau; birth_date=1976-05-27,Gift Voucher
+59,193106.97,314.51,870650,2024-07-26,2024-06-14,,name=Grace Ito; birth_date=1980-10-25,Bank Transfer
+67,132413.52,195.25,421481,2025-12-20,2025-11-19,24,name=Elif Moreau; birth_date=1969-02-24,Bank Transfer
+62,43447.44,139.18,883314,2025-03-23,2024-12-30,58,name=Kemi Farrow; birth_date=1999-11-04,Credit Card
+63,164947.24,282.65,602631,2024-10-21,2024-10-10,54,name=Chloe Ortiz; birth_date=1969-07-08,Gift Voucher
+67,42758.64,281.73,193368,2024-12-02,2025-07-30,54,name=Ana Gallo; birth_date=1980-02-23,Direct Debit
+71,6375.09,653.72,557625,2025-04-29,2025-03-23,61,name=Farid Moreau; birth_date=1995-03-31,Direct Debit
+62,189550.2,106.14,313338,2025-02-05,2024-11-27,38,name=Kemi Dunne; birth_date=1997-03-07,Gift Voucher
+58,249189.04,600.07,669247,2024-07-04,2024-04-22,79,name=Mona Farrow; birth_date=1950-04-28,Gift Voucher
+74,41977.97,584.25,577517,2025-07-08,2025-05-18,55,name=Mona Eze; birth_date=1997-11-22,Bank Transfer
+71,85149.47,873.21,839070,2024-08-16,2024-08-12,28,name=Noor Brandt; birth_date=1969-01-06,Direct Debit
+60,89446.56,215.56,151445,2023-11-15,2024-03-17,23,name=Noor Jensen; birth_date=1953-12-08,Credit Card
+74,237539.45,283.88,684759,2024-08-16,2024-08-12,59,name=Ben Haas; birth_date=1952-03-31,Gift Voucher
+62,39435.41,436.06,790516,2025-06-17,2025-05-24,41,name=Ben Koval; birth_date=1975-08-30,Gift Voucher
+65,230955.53,590.42,351548,2025-06-02,2025-04-30,85,name=Mona Petrov; birth_date=1977-06-30,Gift Voucher
+72,236575.12,754.94,884621,2025-08-04,2025-07-06,39,name=Hiro Eze; birth_date=1966-03-24,Direct Debit
+76,77488.64,466.54,856126,2025-10-14,2025-09-12,46,name=Dev Abel; birth_date=1979-05-26,Bank Transfer
+70,222450.58,697.64,200183,2025-12-09,2025-10-08,51,name=Omar Abel; birth_date=1969-11-23,Gift Voucher
+58,30956.79,533.19,756441,2026-01-25,2025-11-17,46,name=Chloe Abel; birth_date=1955-04-04,Credit Card
+60,195571.48,714.26,680150,2026-01-06,2025-12-30,45,name=Kemi Farrow; birth_date=1986-07-28,Credit Card
+67,38380.61,186.74,175317,2026-01-23,2025-12-02,,name=Chloe Eze; birth_date=1951-07-16,Direct Debit
+73,244622.33,779.19,449615,2024-09-23,2024-09-05,79,name=Noor Castro; birth_date=2002-01-01,Credit Card
+76,219566.59,64.39,539994,2025-09-18,2025-08-03,88,name=Ben Brandt; birth_date=1993-07-03,Direct Debit
+73,225356.2,247.15,507191,2024-03-08,2024-01-27,49,name=Hiro Farrow; birth_date=1973-04-16,Gift Voucher
+58,35141.28,250.76,261069,2024-06-14,2024-06-13,80,name=Omar Dunne; birth_date=1984-09-25,Bank Transfer
+63,147774.53,721.04,887118,2024-06-06,2024-05-11,31,name=Jon Koval; birth_date=1998-06-23,Bank Transfer
+66,180428.59,198.23,724909,2024-05-26,2024-04-28,79,name=Hiro Brandt; birth_date=1986-01-02,Gift Voucher
+76,31094.43,321.74,467802,2025-07-18,2025-04-26,75,name=Chloe Ortiz; birth_date=1969-10-26,Gift Voucher
+74,231715.66,410.46,643321,2024-03-04,2024-01-04,62,name=Dev Moreau; birth_date=1992-11-15,Bank Transfer
+62,207486.58,830.06,559595,2024-07-15,2024-05-12,83,name=Kemi Eze; birth_date=1953-07-13,Bank Transfer
+70,4530.39,100.45,335433,2025-07-31,2025-06-15,55,name=Dev Ito; birth_date=1989-03-04,Direct Debit
+74,100319.38,831.22,348330,2025-08-05,2025-05-12,64,name=Mona Farrow; birth_date=1968-11-29,Bank Transfer
+59,124250.53,197.92,678731,2024-06-16,2024-06-01,78,name=Ana Brandt; birth_date=1982-08-02,Bank Transfer
+64,168078.74,141.85,444247,2024-01-22,2024-01-11,30,name=Dev Haas; birth_date=1969-09-07,Bank Transfer
+76,245789.89,265.76,542789,2024-07-11,2025-03-07,52,name=Farid Ito; birth_date=1967-10-25,Gift Voucher
+76,242086.58,675.51,582867,2023-11-30,2024-06-01,,name=Hiro Ortiz; birth_date=1959-08-03,Bank Transfer
+74,62505.05,821.53,641875,2025-05-05,2025-03-02,83,name=Ana Petrov; birth_date=1971-03-28,Direct Debit
+75,52768.84,624.27,854097,2025-04-11,2025-03-08,77,name=Omar Nwosu; birth_date=1960-10-16,Credit Card
+58,54044.49,779.28,538748,2025-05-24,2025-03-28,26,name=Luca Haas; birth_date=1965-05-01,Direct Debit
+76,8245.73,748.62,536766,2024-01-23,2024-01-18,45,name=Dev Haas; birth_date=1980-10-14,Bank Transfer
+60,32942.15,745.64,424966,2025-08-04,2025-07-23,22,name=Ana Brandt; birth_date=1976-04-22,Bank Transfer
+75,98779.31,694.31,631910,2025-03-09,2025-01-02,49,name=Noor Lindqvist; birth_date=1982-08-20,Credit Card
+72,131778.16,884.33,116845,2024-06-21,2024-06-17,,name=Luca Ortiz; birth_date=2002-03-19,Direct Debit
+75,227198.82,340.23,403923,2024-12-05,2024-10-02,32,name=Farid Moreau; birth_date=1991-02-11,Gift Voucher
+59,129434.58,86.12,362627,2025-01-16,2024-11-18,81,name=Ana Castro; birth_date=1975-10-30,Gift Voucher
+76,152766.07,714.29,293025,2024-07-22,2024-07-01,41,name=Ben Koval; birth_date=1993-02-26,Bank Transfer
+60,29877.45,50.8,890822,2024-12-07,2024-12-03,87,name=Luca Dunne; birth_date=1972-03-31,Direct Debit
+60,88943.87,766.67,598590,2024-04-02,2024-03-25,87,name=Ana Castro; birth_date=1954-08-31,Gift Voucher
+61,204560.75,42.68,494595,2026-01-31,2025-11-02,73,name=Omar Koval; birth_date=1979-02-21,Direct Debit
+72,210064.63,436.32,314829,2025-04-16,2025-01-24,40,name=Farid Moreau; birth_date=2003-02-26,Credit Card
+66,95833.72,672.25,596212,2024-08-12,2024-06-01,59,name=Ana Abel; birth_date=1967-07-08,Direct Debit
+70,215274.91,223.9,391733,2025-04-25,2025-04-11,43,name=Farid Koval; birth_date=2001-09-25,Direct Debit
+71,224819.83,710.15,631260,2023-11-13,2024-01-29,69,name=Luca Koval; birth_date=1978-04-02,Gift Voucher
+70,159006.96,771.4,651584,2024-07-04,2024-05-13,76,name=Dev Petrov; birth_date=1955-09-02,Credit Card
+73,114461.34,768.65,255421,2024-06-17,2024-04-15,34,name=Ines Koval; birth_date=1989-03-10,Gift Voucher
+58,187297.27,443.94,425448,2024-04-17,2024-01-22,82,name=Elif Eze; birth_date=1996-07-31,Credit Card
+75,157022.89,686.65,778623,2024-05-24,2024-03-23,34,name=Omar Haas; birth_date=2003-10-03,Bank Transfer
+64,155601.03,807.01,124959,2024-06-11,2024-04-10,79,name=Ana Ito; birth_date=1965-10-19,Gift Voucher
+69,215733.02,654.22,386451,2024-07-26,2024-05-02,32,name=Jon Moreau; birth_date=1975-06-27,Credit Card
+68,227464.6,298.85,127837,2024-01-29,2024-01-05,37,name=Elif Haas; birth_date=1972-06-30,Bank Transfer
+63,116368.4,667.18,880069,2025-10-11,2025-07-22,54,name=Dev Jensen; birth_date=1968-10-11,Credit Card
+69,219040.66,549.17,405574,2024-10-24,2024-10-23,82,name=Jon Dunne; birth_date=2002-11-10,Gift Voucher
+71,132013.02,108.35,202850,2025-04-19,2025-01-29,62,name=Elif Abel; birth_date=1987-04-11,Credit Card
+64,113093.61,425.37,730492,2025-11-21,2025-09-27,42,name=Jon Farrow; birth_date=1986-03-23,Bank Transfer
+72,235296.09,710.53,831635,2025-05-04,2025-08-29,29,name=Farid Ito; birth_date=1971-02-10,Gift Voucher
+60,195291.3,65.02,495730,2025-02-03,2024-11-15,45,name=Ana Eze; birth_date=1991-01-06,Credit Card
+58,109374.23,163.28,559585,2025-06-04,2025-04-12,20,name=Noor Gallo; birth_date=1978-08-02,Bank Transfer
+59,134785.59,465.6,441656,2025-01-25,2025-10-03,73,name=Grace Eze; birth_date=1971-05-26,Gift Voucher
+64,122090.53,783.31,865591,2024-04-10,2024-02-17,72,name=Ben Gallo; birth_date=1978-05-26,Credit Card
+66,190351.68,113.6,856752,2025-05-20,2025-04-03,55,name=Dev Dunne; birth_date=1974-12-26,Bank Transfer
+61,160067.85,465.71,153050,2025-11-04,2025-08-14,90,name=Ben Moreau; birth_date=2003-02-18,Gift Voucher
+59,55586.88,709.75,479654,2024-09-14,2024-08-04,89,name=Priya Koval; birth_date=1973-11-01,Bank Transfer
+66,172770.94,888.5,658029,2026-01-05,2025-10-20,52,name=Hiro Castro; birth_date=1961-07-13,Credit Card
+69,219962.59,401.01,816924,2024-12-03,2024-11-08,28,name=Ana Moreau; birth_date=1955-09-27,Direct Debit
+66,40621.6,438.86,238180,2024-12-10,2024-11-25,43,name=Farid Moreau; birth_date=1984-01-20,Gift Voucher
+64,101234.08,752.21,853440,2025-05-19,2025-05-16,44,name=Grace Haas; birth_date=1957-07-06,Direct Debit
+58,60578.51,635.51,127904,2026-01-29,2025-12-21,43,name=Farid Farrow; birth_date=1995-04-15,Bank Transfer
+69,184393.22,288.37,338212,2024-09-20,2024-08-18,22,name=Ben Dunne; birth_date=1990-02-24,Direct Debit
+74,92038.29,34.13,354605,2024-06-22,2024-03-26,42,name=Priya Nwosu; birth_date=1992-03-01,Gift Voucher
+67,151030.01,831.46,234848,2025-09-07,2025-07-07,67,name=Jon Eze; birth_date=1980-11-13,Direct Debit
+59,98324.82,624.77,478978,2024-05-02,2024-04-14,23,name=Elif Nwosu; birth_date=2003-10-04,Gift Voucher
+69,41271.87,788.44,716403,2025-05-29,2025-05-21,37,name=Kemi Dunne; birth_date=1967-12-19,Direct Debit
+59,71675.04,339.11,288257,2024-03-16,2024-01-11,47,name=Ana Haas; birth_date=1991-12-16,Gift Voucher
+75,21501.36,35.34,381710,2025-09-17,2025-12-04,28,name=Grace Petrov; birth_date=1995-07-11,Gift Voucher
+69,18081.36,741.52,625897,2024-11-24,2024-09-21,83,name=Mona Ito; birth_date=1988-04-10,Direct Debit
+69,41446.5,314.75,586362,2025-06-07,2025-03-12,42,name=Chloe Nwosu; birth_date=1961-01-25,Gift Voucher
+61,53165.21,160.62,699884,2025-01-25,2024-10-28,29,name=Dev Abel; birth_date=2001-11-24,Gift Voucher
+71,12885.56,344.31,315509,2025-09-15,2025-07-14,70,name=Kemi Petrov; birth_date=1988-03-28,Bank Transfer
+71,239745.49,491.87,326761,2024-06-10,2024-03-31,27,name=Omar Eze; birth_date=1967-07-11,Gift Voucher
+63,204377.82,478.74,809868,2024-04-29,2024-03-17,35,name=Chloe Dunne; birth_date=1969-03-15,Bank Transfer
+60,184511.11,422.27,451043,2025-04-10,2025-03-09,40,name=Grace Gallo; birth_date=1959-11-15,Direct Debit
+64,209931.49,7.87,489661,2025-12-10,2025-09-15,22,name=Ben Haas; birth_date=1966-05-12,Direct Debit
+76,70552.31,119.66,596127,2025-04-10,2025-02-14,21,name=Farid Ito; birth_date=1974-10-09,Direct Debit
+76,117098.15,8.64,558983,2024-12-30,2024-12-06,20,name=Elif Brandt; birth_date=1990-02-13,Gift Voucher
+65,5856.24,719.78,535011,2024-04-30,2024-04-21,45,name=Hiro Moreau; birth_date=1963-03-29,Bank Transfer
+74,141701.95,510.5,848449,2025-02-27,2025-01-05,68,name=Ana Petrov; birth_date=1991-01-14,Credit Card
+61,100238.57,24.89,212816,2025-08-03,2025-07-27,27,name=Chloe Haas; birth_date=1954-06-28,Gift Voucher
+65,127039.67,256.07,402921,2025-03-26,2025-03-21,70,name=Chloe Farrow; birth_date=1988-01-14,Bank Transfer
+58,103687.84,276.57,379234,2024-05-13,2024-03-09,46,name=Dev Abel; birth_date=1956-01-19,Credit Card
+75,193602.35,278.05,409606,2024-03-26,2024-03-09,55,name=Dev Moreau; birth_date=1957-04-27,Bank Transfer
+59,197094.89,375.18,360111,2024-01-21,2024-06-07,65,name=Grace Moreau; birth_date=1973-06-28,Bank Transfer

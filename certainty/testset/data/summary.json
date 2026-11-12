@@ -1,19 +1,29 @@
 {
   "synthetic": true,
-  "tables": 84,
-  "labelled_columns": 648,
-  "cases": 54,
+  "tables": 96,
+  "labelled_columns": 720,
+  "cases": 60,
   "examples_per_case": 12,
   "by_verdict": {
-    "READY": 120,
-    "FIXABLE": 300,
-    "NEEDS_CONTEXT": 156,
-    "GARBAGE": 72
+    "FIXABLE": 324,
+    "NEEDS_CONTEXT": 192,
+    "GARBAGE": 72,
+    "READY": 132
   },
   "cases_by_verdict": {
-    "READY": 10,
-    "FIXABLE": 25,
-    "NEEDS_CONTEXT": 13,
+    "READY": 11,
+    "FIXABLE": 27,
+    "NEEDS_CONTEXT": 16,
     "GARBAGE": 6
+  },
+  "whole_file": {
+    "files": 120,
+    "file_cases": 10,
+    "by_verdict": {
+      "READY": 12,
+      "FIXABLE": 84,
+      "NEEDS_CONTEXT": 12,
+      "GARBAGE": 12
+    }
   }
 }

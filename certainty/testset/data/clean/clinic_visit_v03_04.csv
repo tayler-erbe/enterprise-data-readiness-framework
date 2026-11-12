@@ -1,121 +1,121 @@
-visit_count,qty,unit_price,line_total,account_id,site_type,share,vst_dt,cls,status_cd,status_desc
-2,30,16.11,483.3,484789,Commercial,52.8,2023-07-04,K2,A1,Open
-37,24,36.93,886.32,240631,Commercial,81.1,2021-08-07,R7,C3,Closed
-39,24,37.02,888.48,722604,Government,58.5,2024-06-09,R7,B2,In review
-2,12,14.28,171.36,695251,Residential,33.5,2021-12-01,Z9,D4,Cancelled
-30,24,18.35,440.4,706829,Commercial,35.3,2022-12-24,Z9,A1,Open
-10,24,12.26,294.24,351617,Residential,55.2,2025-03-10,Q4,D4,Cancelled
-18,6,26.28,157.68,484057,Residential,25.1,2026-10-15,K2,A1,Open
-39,6,23.9,143.4,205608,Commercial,76.7,2021-06-26,R7,B2,In review
-40,36,3.2,115.2,621233,Government,63.5,2026-03-29,K1,B2,In review
-9,30,21.75,652.5,327820,Commercial,100.0,2021-09-19,Q4,B2,In review
-17,12,12.96,155.52,509888,Commercial,5.6,2026-06-04,K2,C3,Closed
-16,12,2.73,32.76,542348,Industrial,63.5,2026-01-06,Q4,D4,Cancelled
-14,36,38.61,1389.96,388337,Government,30.0,2025-12-06,R7,C3,Closed
-14,30,16.49,494.7,638107,Government,81.5,2024-02-17,K1,A1,Open
-11,36,21.48,773.28,648124,Residential,32.3,2021-08-12,R7,A1,Open
-19,36,4.02,144.72,176495,Residential,25.5,2023-02-06,R7,C3,Closed
-40,18,7.2,129.6,339433,Government,68.1,2024-11-21,K2,C3,Closed
-1,12,2.94,35.28,181662,Government,73.5,2023-08-16,K2,B2,In review
-1,18,27.31,491.58,355953,Residential,2.1,2023-05-04,Q4,D4,Cancelled
-25,24,27.81,667.44,228947,Commercial,91.8,2024-08-20,R7,C3,Closed
-32,24,13.14,315.36,195373,Industrial,12.2,2025-03-22,Z9,C3,Closed
-19,30,37.23,1116.9,114770,Government,58.2,2023-10-31,K2,A1,Open
-37,18,3.8,68.4,207054,Industrial,41.5,2025-01-09,R7,B2,In review
-13,12,26.87,322.44,309443,Commercial,35.7,2025-11-26,K1,B2,In review
-24,30,5.28,158.4,424019,Commercial,31.8,2021-05-25,K2,C3,Closed
-16,6,8.57,51.42,399446,Residential,97.5,2025-10-16,Q4,B2,In review
-22,6,9.23,55.38,314423,Government,71.9,2025-04-13,K1,B2,In review
-16,12,7.88,94.56,701157,Residential,49.5,2024-06-08,K1,C3,Closed
-22,36,9.69,348.84,187496,Commercial,72.4,2025-01-04,K1,C3,Closed
-22,6,24.82,148.92,426258,Industrial,74.9,2026-11-14,Z9,D4,Cancelled
-10,36,17.79,640.44,255808,Industrial,47.1,2021-11-18,R7,C3,Closed
-26,30,6.27,188.1,423706,Industrial,72.6,2024-02-01,K2,C3,Closed
-14,12,13.53,162.36,244113,Government,53.3,2021-09-26,K2,B2,In review
-6,36,18.64,671.04,448351,Commercial,10.7,2022-03-06,K1,C3,Closed
-10,6,16.55,99.3,826174,Commercial,92.2,2026-10-15,K2,A1,Open
-2,24,10.47,251.28,815218,Industrial,45.0,2021-03-11,K2,C3,Closed
-1,18,7.44,133.92,640719,Commercial,52.4,2026-05-08,K2,A1,Open
-6,36,5.73,206.28,678408,Residential,15.9,2021-08-29,Z9,C3,Closed
-38,12,27.36,328.32,606492,Residential,4.0,2024-11-06,K1,B2,In review
-13,36,32.68,1176.48,606961,Industrial,61.7,2026-08-28,R7,A1,Open
-16,18,27.65,497.7,176678,Residential,43.7,2026-05-26,K1,D4,Cancelled
-1,6,31.07,186.42,413114,Government,68.6,2021-06-11,Q4,B2,In review
-15,36,14.55,523.8,377574,Government,25.3,2023-12-15,R7,D4,Cancelled
-2,36,27.51,990.36,618565,Industrial,24.4,2025-03-05,Q4,B2,In review
-10,30,18.03,540.9,285478,Commercial,41.0,2026-12-12,R7,C3,Closed
-9,18,35.46,638.28,542668,Residential,10.9,2024-05-04,Q4,A1,Open
-40,24,33.74,809.76,283723,Government,0.4,2022-11-25,R7,B2,In review
-8,36,9.3,334.8,730913,Government,60.3,2025-07-21,Q4,A1,Open
-20,30,10.38,311.4,569177,Residential,40.5,2022-07-04,R7,C3,Closed
-25,24,23.25,558.0,125263,Residential,36.9,2021-09-04,K1,B2,In review
-26,36,27.28,982.08,222830,Government,69.6,2024-06-27,K1,C3,Closed
-24,24,27.02,648.48,450679,Industrial,73.1,2026-07-15,Z9,D4,Cancelled
-33,18,32.76,589.68,508948,Residential,54.3,2022-12-12,Q4,A1,Open
-40,36,13.27,477.72,752209,Residential,76.7,2022-08-09,K1,A1,Open
-12,36,20.79,748.44,265272,Residential,72.6,2025-08-02,K2,D4,Cancelled
-38,12,10.84,130.08,298100,Residential,63.7,2023-09-23,K1,B2,In review
-39,24,17.12,410.88,771985,Government,70.2,2023-01-14,Z9,C3,Closed
-1,30,32.09,962.7,406051,Government,42.9,2022-05-12,Z9,C3,Closed
-18,6,2.45,14.7,605365,Industrial,74.4,2025-10-22,R7,A1,Open
-26,24,11.55,277.2,712247,Industrial,19.7,2021-01-06,K2,B2,In review
-1,12,33.8,405.6,138530,Industrial,59.2,2024-02-21,R7,C3,Closed
-22,18,27.7,498.6,555852,Government,47.0,2023-11-15,Q4,C3,Closed
-5,36,11.87,427.32,664604,Commercial,52.8,2025-02-18,K2,C3,Closed
-36,6,14.69,88.14,103021,Residential,99.5,2022-10-31,K1,B2,In review
-22,6,10.8,64.8,404338,Commercial,72.9,2023-06-11,Z9,C3,Closed
-25,18,24.69,444.42,242544,Government,98.5,2023-05-09,K1,D4,Cancelled
-27,12,23.43,281.16,241132,Commercial,38.0,2026-02-28,Q4,B2,In review
-22,30,27.08,812.4,832435,Commercial,96.0,2022-07-23,R7,D4,Cancelled
-4,30,33.31,999.3,622949,Industrial,59.7,2024-05-17,Q4,D4,Cancelled
-30,6,28.31,169.86,895652,Residential,60.6,2024-04-23,R7,B2,In review
-17,24,19.29,462.96,863992,Commercial,44.9,2025-08-10,R7,D4,Cancelled
-19,36,2.59,93.24,572626,Industrial,0.5,2022-11-23,R7,C3,Closed
-4,36,30.09,1083.24,689881,Residential,86.8,2026-07-11,K1,A1,Open
-23,18,33.74,607.32,855805,Industrial,75.9,2021-10-21,Z9,D4,Cancelled
-16,18,18.72,336.96,627111,Government,9.5,2026-12-19,K2,B2,In review
-38,18,28.81,518.58,590703,Residential,80.8,2026-11-24,K1,D4,Cancelled
-34,6,17.5,105.0,292180,Residential,96.0,2022-12-08,R7,D4,Cancelled
-31,18,38.94,700.92,270239,Commercial,6.5,2026-07-09,K1,A1,Open
-34,30,26.32,789.6,796726,Government,63.7,2021-06-17,K1,B2,In review
-5,12,28.62,343.44,754433,Industrial,62.6,2022-02-14,Z9,B2,In review
-28,6,27.99,167.94,567112,Industrial,30.1,2026-06-30,Q4,D4,Cancelled
-4,24,22.56,541.44,606724,Government,55.3,2021-08-14,K2,B2,In review
-15,30,8.95,268.5,453435,Residential,56.3,2021-06-17,Q4,C3,Closed
-33,36,22.26,801.36,882080,Industrial,42.7,2024-08-11,K1,A1,Open
-32,12,25.6,307.2,486912,Government,45.0,2021-11-21,R7,C3,Closed
-4,30,33.45,1003.5,485964,Government,58.3,2025-12-13,Z9,C3,Closed
-5,24,16.88,405.12,728208,Government,37.1,2026-05-02,Q4,D4,Cancelled
-5,18,37.0,666.0,574782,Residential,48.9,2023-09-17,R7,C3,Closed
-3,18,39.03,702.54,111638,Commercial,41.5,2021-01-13,Q4,A1,Open
-19,30,2.34,70.2,636282,Government,16.7,2022-03-06,R7,C3,Closed
-36,30,16.36,490.8,192461,Government,88.8,2025-03-08,Z9,D4,Cancelled
-24,36,6.19,222.84,692337,Government,61.5,2022-01-23,Q4,C3,Closed
-37,24,9.83,235.92,171032,Industrial,41.9,2024-09-04,K1,B2,In review
-21,30,10.9,327.0,299180,Residential,41.2,2025-05-25,Q4,A1,Open
-31,24,23.11,554.64,465941,Government,28.8,2022-09-21,K1,D4,Cancelled
-30,18,31.45,566.1,877986,Government,7.8,2022-08-20,R7,B2,In review
-20,12,26.97,323.64,437870,Government,33.2,2021-04-06,K2,D4,Cancelled
-37,36,6.34,228.24,690270,Commercial,32.0,2024-09-30,R7,A1,Open
-33,24,21.15,507.6,296258,Government,62.7,2026-11-26,Q4,C3,Closed
-25,18,31.56,568.08,766501,Commercial,68.8,2021-06-21,Q4,B2,In review
-11,24,29.78,714.72,755055,Government,38.5,2023-06-06,Q4,A1,Open
-33,18,4.47,80.46,797510,Industrial,52.3,2026-06-07,K1,A1,Open
-34,30,12.97,389.1,860472,Commercial,3.6,2026-06-09,Z9,D4,Cancelled
-3,24,17.6,422.4,242392,Industrial,59.6,2022-05-17,Q4,A1,Open
-38,6,29.52,177.12,784971,Commercial,2.5,2024-10-26,K1,D4,Cancelled
-6,24,12.14,291.36,647212,Industrial,19.2,2026-05-05,Q4,A1,Open
-7,12,4.24,50.88,542344,Industrial,19.7,2025-12-25,Q4,C3,Closed
-30,18,19.41,349.38,497758,Government,40.3,2022-10-23,K2,B2,In review
-14,6,32.18,193.08,223101,Residential,8.4,2024-10-09,K1,C3,Closed
-17,24,12.64,303.36,320096,Commercial,84.9,2026-05-30,K2,C3,Closed
-12,36,7.92,285.12,230306,Industrial,18.8,2026-08-14,Q4,B2,In review
-40,36,6.86,246.96,369595,Government,55.7,2025-04-01,R7,D4,Cancelled
-24,24,39.67,952.08,385094,Industrial,94.0,2021-05-29,K2,A1,Open
-10,12,10.66,127.92,519560,Industrial,74.8,2023-05-23,Q4,D4,Cancelled
-17,24,10.28,246.72,600154,Industrial,48.0,2026-10-20,R7,B2,In review
-8,18,23.47,422.46,834470,Industrial,88.6,2025-06-14,K1,D4,Cancelled
-27,6,25.48,152.88,736247,Commercial,96.8,2024-08-18,K2,B2,In review
-24,18,28.97,521.46,170003,Government,69.9,2024-09-07,R7,C3,Closed
-37,12,38.47,461.64,824765,Industrial,14.0,2025-03-09,R7,A1,Open
-22,6,28.24,169.44,776833,Residential,47.1,2026-02-26,Z9,C3,Closed
+is_active,line_total_usd,qty,unit_price,mmbr,nts_2,visit_count,qty_2,unit_price_2,line_total,account_id,batch_flag
+true,73.44,3,24.48,name=Jon Petrov; birth_date=1951-01-05,,2,30,16.11,483.3,484789,0
+false,112.17,3,37.39,name=Ana Castro; birth_date=1974-08-24,,37,24,36.93,886.32,240631,0
+false,145.09,11,13.19,name=Kemi Abel; birth_date=1973-02-14,,39,24,37.02,888.48,722604,0
+false,92.15,5,18.43,name=Dev Dunne; birth_date=1978-03-19,,2,12,14.28,171.36,695251,0
+false,67.7,10,6.77,name=Noor Nwosu; birth_date=1983-10-31,,30,24,18.35,440.4,706829,0
+true,111.4,10,11.14,name=Luca Ortiz; birth_date=1972-06-23,,10,24,12.26,294.24,351617,0
+true,296.45,11,26.95,name=Ines Eze; birth_date=1977-11-10,,18,6,26.28,157.68,484057,0
+true,39.15,1,39.15,name=Elif Brandt; birth_date=1981-08-31,,39,6,23.9,143.4,205608,0
+false,133.16,4,33.29,name=Ines Petrov; birth_date=1964-05-01,,40,36,3.2,115.2,621233,0
+false,238.5,10,23.85,name=Noor Eze; birth_date=1974-03-13,,9,30,21.75,652.5,327820,0
+false,17.01,3,5.67,name=Jon Lindqvist; birth_date=1960-10-28,,17,12,12.96,155.52,509888,0
+true,59.12,8,7.39,name=Omar Brandt; birth_date=1987-09-28,,16,12,2.73,32.76,542348,0
+false,384.9,10,38.49,name=Elif Lindqvist; birth_date=1983-05-20,,14,36,38.61,1389.96,388337,0
+false,23.52,6,3.92,name=Jon Gallo; birth_date=1993-08-24,,14,30,16.49,494.7,638107,0
+false,84.96,12,7.08,name=Omar Jensen; birth_date=2000-01-07,,11,36,21.48,773.28,648124,0
+true,302.17,11,27.47,name=Jon Koval; birth_date=1994-05-23,,19,36,4.02,144.72,176495,0
+true,17.05,1,17.05,name=Farid Nwosu; birth_date=1954-01-14,,40,18,7.2,129.6,339433,0
+true,8.17,1,8.17,name=Mona Ortiz; birth_date=1995-05-25,,1,12,2.94,35.28,181662,0
+false,90.24,4,22.56,name=Dev Ortiz; birth_date=1960-09-28,,1,18,27.31,491.58,355953,0
+true,122.05,5,24.41,name=Grace Ortiz; birth_date=1982-01-10,,25,24,27.81,667.44,228947,0
+true,471.36,12,39.28,name=Chloe Abel; birth_date=1965-01-28,,32,24,13.14,315.36,195373,0
+true,29.58,3,9.86,name=Jon Eze; birth_date=2001-04-21,,19,30,37.23,1116.9,114770,0
+false,34.87,11,3.17,name=Grace Brandt; birth_date=1985-03-29,,37,18,3.8,68.4,207054,0
+true,136.48,4,34.12,name=Ana Haas; birth_date=1956-05-06,,13,12,26.87,322.44,309443,0
+true,80.7,5,16.14,name=Hiro Koval; birth_date=1995-07-10,,24,30,5.28,158.4,424019,0
+true,356.76,12,29.73,name=Noor Koval; birth_date=1962-10-06,,16,6,8.57,51.42,399446,0
+true,114.0,6,19.0,name=Dev Lindqvist; birth_date=1977-09-30,,22,6,9.23,55.38,314423,0
+true,19.34,1,19.34,name=Farid Ito; birth_date=1962-04-08,Referral,16,12,7.88,94.56,701157,0
+false,77.28,8,9.66,name=Chloe Dunne; birth_date=1987-06-02,,22,36,9.69,348.84,187496,0
+false,172.55,7,24.65,name=Kemi Haas; birth_date=1957-04-15,,22,6,24.82,148.92,426258,0
+true,67.25,5,13.45,name=Hiro Brandt; birth_date=1968-08-22,,10,36,17.79,640.44,255808,0
+true,163.02,6,27.17,name=Kemi Ortiz; birth_date=1979-11-01,,26,30,6.27,188.1,423706,0
+false,137.96,4,34.49,name=Grace Brandt; birth_date=2004-01-05,,14,12,13.53,162.36,244113,0
+true,26.1,6,4.35,name=Ines Petrov; birth_date=1963-11-20,,6,36,18.64,671.04,448351,0
+false,71.94,3,23.98,name=Elif Ito; birth_date=1977-06-02,,10,6,16.55,99.3,826174,0
+false,243.53,7,34.79,name=Ines Ito; birth_date=1977-04-18,,2,24,10.47,251.28,815218,0
+true,182.4,12,15.2,name=Ben Jensen; birth_date=1993-05-01,Routine,1,18,7.44,133.92,640719,0
+false,117.54,6,19.59,name=Farid Castro; birth_date=1966-08-24,Urgent,6,36,5.73,206.28,678408,0
+true,231.18,6,38.53,name=Farid Jensen; birth_date=1962-09-07,,38,12,27.36,328.32,606492,0
+true,175.59,9,19.51,name=Omar Petrov; birth_date=1983-07-03,,13,36,32.68,1176.48,606961,0
+true,147.4,4,36.85,name=Chloe Petrov; birth_date=1950-05-30,,16,18,27.65,497.7,176678,0
+true,174.8,8,21.85,name=Grace Ortiz; birth_date=1986-09-12,,1,6,31.07,186.42,413114,0
+true,108.46,11,9.86,name=Elif Abel; birth_date=1982-06-08,,15,36,14.55,523.8,377574,0
+false,54.96,8,6.87,name=Ines Ortiz; birth_date=1955-01-10,,2,36,27.51,990.36,618565,0
+true,138.71,11,12.61,name=Mona Haas; birth_date=1992-10-04,,10,30,18.03,540.9,285478,0
+false,63.57,3,21.19,name=Priya Haas; birth_date=1958-09-10,,9,18,35.46,638.28,542668,0
+true,35.89,1,35.89,name=Hiro Abel; birth_date=2000-04-07,,40,24,33.74,809.76,283723,0
+false,80.28,6,13.38,name=Luca Haas; birth_date=1963-09-21,,8,36,9.3,334.8,730913,0
+false,4.79,1,4.79,name=Priya Petrov; birth_date=1969-03-01,,20,30,10.38,311.4,569177,0
+true,144.72,8,18.09,name=Hiro Ortiz; birth_date=1992-04-06,,25,24,23.25,558.0,125263,0
+true,32.46,6,5.41,name=Elif Nwosu; birth_date=1955-10-21,,26,36,27.28,982.08,222830,0
+false,135.36,4,33.84,name=Luca Farrow; birth_date=1980-11-01,,24,24,27.02,648.48,450679,0
+false,130.55,5,26.11,name=Dev Moreau; birth_date=1971-05-07,,33,18,32.76,589.68,508948,0
+false,143.85,5,28.77,name=Dev Castro; birth_date=1992-06-29,,40,36,13.27,477.72,752209,0
+false,123.04,4,30.76,name=Kemi Petrov; birth_date=1959-09-05,,12,36,20.79,748.44,265272,0
+true,350.19,9,38.91,name=Priya Jensen; birth_date=1997-03-28,,38,12,10.84,130.08,298100,0
+false,111.45,5,22.29,name=Ana Koval; birth_date=1955-01-04,,39,24,17.12,410.88,771985,0
+true,34.32,3,11.44,name=Ines Ito; birth_date=1969-04-03,,1,30,32.09,962.7,406051,0
+true,67.32,4,16.83,name=Hiro Haas; birth_date=1996-08-29,,18,6,2.45,14.7,605365,0
+false,247.95,9,27.55,name=Ines Dunne; birth_date=1997-04-24,,26,24,11.55,277.2,712247,0
+true,21.95,5,4.39,name=Hiro Moreau; birth_date=1969-08-08,,1,12,33.8,405.6,138530,0
+true,172.35,9,19.15,name=Omar Moreau; birth_date=1956-04-30,,22,18,27.7,498.6,555852,0
+false,76.04,2,38.02,name=Jon Haas; birth_date=1952-10-19,,5,36,11.87,427.32,664604,0
+true,216.54,9,24.06,name=Ana Haas; birth_date=1952-03-24,,36,6,14.69,88.14,103021,0
+false,9.62,2,4.81,name=Elif Ortiz; birth_date=1987-03-06,,22,6,10.8,64.8,404338,0
+false,36.56,4,9.14,name=Omar Ortiz; birth_date=1976-09-14,,25,18,24.69,444.42,242544,0
+true,218.35,11,19.85,name=Omar Dunne; birth_date=1961-07-05,,27,12,23.43,281.16,241132,0
+true,114.92,4,28.73,name=Kemi Brandt; birth_date=1958-05-11,,22,30,27.08,812.4,832435,0
+true,14.45,1,14.45,name=Chloe Ortiz; birth_date=1953-12-16,,4,30,33.31,999.3,622949,0
+false,472.68,12,39.39,name=Ines Koval; birth_date=1954-03-03,,30,6,28.31,169.86,895652,0
+true,143.1,10,14.31,name=Grace Lindqvist; birth_date=1959-05-29,,17,24,19.29,462.96,863992,0
+true,248.31,9,27.59,name=Elif Eze; birth_date=2002-09-29,,19,36,2.59,93.24,572626,0
+true,54.6,3,18.2,name=Ana Ito; birth_date=1952-06-21,,4,36,30.09,1083.24,689881,0
+false,381.96,12,31.83,name=Omar Eze; birth_date=1977-11-17,,23,18,33.74,607.32,855805,0
+true,242.66,11,22.06,name=Noor Farrow; birth_date=2001-11-19,,16,18,18.72,336.96,627111,0
+false,51.4,4,12.85,name=Dev Abel; birth_date=1972-11-18,,38,18,28.81,518.58,590703,0
+true,86.25,5,17.25,name=Mona Dunne; birth_date=1994-03-06,,34,6,17.5,105.0,292180,0
+false,64.74,3,21.58,name=Kemi Castro; birth_date=1975-10-05,,31,18,38.94,700.92,270239,0
+false,215.7,10,21.57,name=Priya Castro; birth_date=1990-04-27,,34,30,26.32,789.6,796726,0
+false,411.48,12,34.29,name=Ana Abel; birth_date=1989-11-17,,5,12,28.62,343.44,754433,0
+false,355.68,12,29.64,name=Mona Ortiz; birth_date=1982-08-29,,28,6,27.99,167.94,567112,0
+false,36.87,1,36.87,name=Ben Koval; birth_date=1987-04-12,,4,24,22.56,541.44,606724,0
+true,63.54,9,7.06,name=Luca Ito; birth_date=1977-10-22,,15,30,8.95,268.5,453435,0
+false,135.92,4,33.98,name=Jon Petrov; birth_date=1996-03-10,,33,36,22.26,801.36,882080,0
+true,290.43,9,32.27,name=Jon Koval; birth_date=1960-04-07,,32,12,25.6,307.2,486912,0
+true,6.33,1,6.33,name=Elif Brandt; birth_date=1999-07-10,Follow Up,4,30,33.45,1003.5,485964,0
+true,17.43,3,5.81,name=Mona Lindqvist; birth_date=1956-11-25,,5,24,16.88,405.12,728208,0
+true,153.18,9,17.02,name=Ben Brandt; birth_date=1950-07-08,,5,18,37.0,666.0,574782,0
+false,136.29,11,12.39,name=Priya Koval; birth_date=2004-08-28,,3,18,39.03,702.54,111638,0
+true,126.76,4,31.69,name=Grace Haas; birth_date=1998-05-18,,19,30,2.34,70.2,636282,0
+true,412.94,11,37.54,name=Priya Abel; birth_date=1999-07-12,,36,30,16.36,490.8,192461,0
+true,69.36,3,23.12,name=Ines Jensen; birth_date=1959-11-07,,24,36,6.19,222.84,692337,0
+true,76.62,6,12.77,name=Elif Ortiz; birth_date=1969-08-31,,37,24,9.83,235.92,171032,0
+true,80.99,7,11.57,name=Kemi Koval; birth_date=1994-02-11,,21,30,10.9,327.0,299180,0
+true,303.0,10,30.3,name=Dev Lindqvist; birth_date=1958-10-23,,31,24,23.11,554.64,465941,0
+false,19.76,1,19.76,name=Mona Brandt; birth_date=1951-09-18,,30,18,31.45,566.1,877986,0
+true,87.03,9,9.67,name=Jon Jensen; birth_date=1998-08-05,,20,12,26.97,323.64,437870,0
+false,148.96,7,21.28,name=Ana Ito; birth_date=2004-02-25,,37,36,6.34,228.24,690270,0
+true,28.62,3,9.54,name=Mona Moreau; birth_date=1962-10-17,,33,24,21.15,507.6,296258,0
+false,66.48,2,33.24,name=Noor Castro; birth_date=1955-04-01,,25,18,31.56,568.08,766501,0
+true,37.02,1,37.02,name=Omar Dunne; birth_date=1963-06-11,,11,24,29.78,714.72,755055,0
+true,35.98,2,17.99,name=Ben Jensen; birth_date=1952-06-06,,33,18,4.47,80.46,797510,0
+false,100.2,5,20.04,name=Chloe Petrov; birth_date=1968-04-09,,34,30,12.97,389.1,860472,0
+true,27.68,1,27.68,name=Kemi Haas; birth_date=1980-08-22,,3,24,17.6,422.4,242392,0
+true,58.59,7,8.37,name=Kemi Gallo; birth_date=1983-03-02,,38,6,29.52,177.12,784971,0
+true,120.4,7,17.2,name=Ines Dunne; birth_date=1990-08-10,,6,24,12.14,291.36,647212,0
+true,63.55,5,12.71,name=Farid Ortiz; birth_date=2004-07-02,,7,12,4.24,50.88,542344,0
+true,83.3,5,16.66,name=Mona Abel; birth_date=1959-01-28,,30,18,19.41,349.38,497758,0
+false,133.21,11,12.11,name=Priya Abel; birth_date=1995-01-24,,14,6,32.18,193.08,223101,0
+true,60.66,3,20.22,name=Kemi Petrov; birth_date=1956-11-18,,17,24,12.64,303.36,320096,0
+true,26.19,9,2.91,name=Omar Koval; birth_date=1967-05-01,,12,36,7.92,285.12,230306,0
+false,75.84,12,6.32,name=Ben Haas; birth_date=1982-02-05,,40,36,6.86,246.96,369595,0
+false,194.45,5,38.89,name=Ines Ito; birth_date=1983-01-11,,24,24,39.67,952.08,385094,0
+false,63.87,3,21.29,name=Luca Nwosu; birth_date=1976-04-29,,10,12,10.66,127.92,519560,0
+true,126.84,6,21.14,name=Noor Nwosu; birth_date=1986-08-28,,17,24,10.28,246.72,600154,0
+false,116.24,8,14.53,name=Hiro Haas; birth_date=1984-04-02,,8,18,23.47,422.46,834470,0
+false,78.02,2,39.01,name=Ana Jensen; birth_date=1979-02-26,,27,6,25.48,152.88,736247,0
+true,71.37,9,7.93,name=Jon Haas; birth_date=1978-03-01,,24,18,28.97,521.46,170003,0
+false,184.7,10,18.47,name=Noor Petrov; birth_date=1963-01-30,,37,12,38.47,461.64,824765,0
+true,214.2,10,21.42,name=Farid Ortiz; birth_date=1988-04-07,,22,6,28.24,169.44,776833,0

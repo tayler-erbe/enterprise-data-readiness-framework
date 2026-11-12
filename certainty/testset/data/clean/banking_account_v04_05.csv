@@ -1,121 +1,121 @@
-v3,event_ts,member,created_date,account_id,zip,dow,is_active
-64,2026-06-17T04:53:57Z,name=Mona Ortiz; birth_date=1974-03-15,2024-05-13,219170,60614,Wednesday,true
-64,2026-03-14T17:25:16Z,name=Elif Moreau; birth_date=1953-05-24,2022-10-31,339940,60614,Friday,true
-69,2026-03-14T10:34:14Z,name=Jon Ortiz; birth_date=1979-09-07,2022-11-20,290255,00501,Tuesday,true
-73,2026-03-06T14:18:15Z,name=Luca Abel; birth_date=1985-09-21,2021-01-17,526939,02134,Sunday,false
-66,2026-04-17T13:16:01Z,name=Kemi Koval; birth_date=1951-09-27,2023-02-04,176946,07030,Tuesday,true
-72,2026-05-24T08:26:35Z,name=Elif Gallo; birth_date=1976-12-01,2024-12-06,462567,30301,Saturday,false
-75,2026-09-05T06:09:13Z,name=Noor Jensen; birth_date=1973-02-06,2026-06-29,675900,07030,Friday,true
-69,2026-08-11T17:38:47Z,name=Priya Gallo; birth_date=1998-12-02,2026-10-05,806027,08540,Friday,true
-64,2026-05-23T04:45:44Z,name=Hiro Dunne; birth_date=1979-03-22,2026-10-23,237195,07030,Saturday,true
-69,2026-03-28T21:39:15Z,name=Chloe Moreau; birth_date=1962-08-22,2021-02-01,468402,02134,Sunday,true
-58,2026-03-14T12:10:52Z,name=Jon Petrov; birth_date=1996-08-26,2024-04-26,115447,30301,Friday,false
-64,2026-09-14T21:17:12Z,name=Chloe Haas; birth_date=2002-06-25,2021-08-04,123830,08540,Saturday,true
-63,2026-02-14T13:51:39Z,name=Ben Brandt; birth_date=2004-04-13,2022-08-10,210548,73301,Monday,false
-70,2026-05-23T07:26:55Z,name=Jon Koval; birth_date=1998-07-27,2022-10-17,891683,73301,Thursday,false
-71,2026-02-24T22:50:08Z,name=Ben Dunne; birth_date=2000-09-16,2023-07-10,770539,30301,Friday,true
-74,2026-02-24T10:52:26Z,name=Ines Farrow; birth_date=1987-08-04,2026-10-18,159881,07030,Tuesday,true
-70,2026-02-03T21:48:44Z,name=Hiro Jensen; birth_date=2000-08-10,2024-07-21,416373,60614,Sunday,true
-71,2026-06-01T17:56:51Z,name=Luca Haas; birth_date=1973-01-30,2024-12-13,835348,10001,Monday,false
-71,2026-07-25T00:29:55Z,name=Mona Moreau; birth_date=1999-12-07,2023-09-01,243573,01002,Wednesday,true
-58,2026-05-18T10:56:54Z,name=Priya Dunne; birth_date=2004-11-30,2024-06-18,459893,73301,Wednesday,true
-60,2026-03-17T22:01:24Z,name=Noor Abel; birth_date=1996-03-29,2025-08-22,237115,07030,Sunday,true
-59,2026-10-23T06:42:20Z,name=Ben Koval; birth_date=1990-10-22,2024-09-16,370470,08540,Monday,true
-58,2026-03-18T06:07:44Z,name=Hiro Brandt; birth_date=1956-03-30,2024-11-27,217590,10001,Monday,true
-64,2026-07-31T22:40:22Z,name=Priya Haas; birth_date=1990-10-15,2024-07-29,390354,60614,Thursday,true
-58,2026-08-20T11:51:19Z,name=Chloe Farrow; birth_date=1996-09-27,2022-10-19,378343,06510,Thursday,false
-63,2026-03-22T15:45:07Z,name=Ben Gallo; birth_date=1982-10-01,2024-03-03,119479,10001,Thursday,false
-64,2026-08-05T20:53:10Z,name=Elif Dunne; birth_date=1958-10-26,2021-05-12,451478,73301,Thursday,false
-59,2026-01-22T06:32:54Z,name=Mona Farrow; birth_date=1983-01-08,2024-11-09,188436,07030,Friday,true
-58,2026-05-01T07:01:41Z,name=Grace Dunne; birth_date=1977-07-02,2026-07-07,299163,00501,Tuesday,false
-68,2026-09-30T04:07:06Z,name=Kemi Jensen; birth_date=1975-05-22,2022-09-30,609442,00501,Sunday,false
-61,2026-05-25T16:05:03Z,name=Hiro Gallo; birth_date=1976-03-04,2022-08-09,722475,80202,Sunday,true
-70,2026-09-06T21:51:26Z,name=Dev Gallo; birth_date=1957-12-27,2024-03-26,294740,60614,Thursday,false
-71,2026-08-23T01:14:15Z,name=Ana Moreau; birth_date=1975-05-11,2025-10-06,455886,30301,Sunday,true
-71,2026-07-25T11:31:27Z,name=Mona Gallo; birth_date=1991-01-05,2023-10-10,824454,94110,Monday,true
-61,2026-07-13T08:54:44Z,name=Ines Nwosu; birth_date=2002-11-28,2024-09-07,244619,06510,Tuesday,true
-74,2026-09-12T14:51:04Z,name=Ines Jensen; birth_date=2004-09-26,2024-08-03,876563,73301,Wednesday,true
-60,2026-04-05T03:34:53Z,name=Ben Abel; birth_date=1978-07-24,2022-12-01,518650,10001,Saturday,false
-63,2026-01-26T15:19:11Z,name=Dev Lindqvist; birth_date=1999-04-09,2026-09-19,616372,10001,Thursday,false
-61,2026-04-24T01:00:14Z,name=Omar Castro; birth_date=1989-09-03,2024-11-14,261558,80202,Monday,true
-66,2026-07-27T13:59:51Z,name=Priya Castro; birth_date=1987-10-04,2024-05-17,323667,80202,Sunday,true
-58,2026-10-14T16:59:39Z,name=Elif Ortiz; birth_date=1965-07-16,2022-03-13,663655,73301,Monday,true
-67,2026-04-25T15:38:05Z,name=Dev Castro; birth_date=1963-03-01,2023-07-16,737795,01002,Friday,false
-72,2026-04-16T05:15:13Z,name=Elif Brandt; birth_date=1990-09-30,2022-12-12,594645,60614,Monday,false
-74,2026-10-22T06:54:00Z,name=Kemi Gallo; birth_date=1991-01-06,2021-03-15,478141,73301,Monday,false
-72,2026-05-23T01:48:56Z,name=Farid Haas; birth_date=1979-11-08,2022-08-07,282472,00501,Friday,true
-64,2026-08-26T02:14:20Z,name=Jon Lindqvist; birth_date=1993-02-24,2025-06-12,695788,94110,Thursday,false
-60,2026-01-13T15:09:55Z,name=Ines Dunne; birth_date=1980-03-05,2022-12-22,586734,30301,Monday,true
-62,2026-06-04T17:02:45Z,name=Farid Lindqvist; birth_date=1962-04-29,2021-11-09,193422,06510,Monday,false
-71,2026-03-13T14:22:38Z,name=Grace Koval; birth_date=1984-08-01,2025-03-05,730976,01002,Monday,false
-60,2026-06-21T11:16:39Z,name=Elif Brandt; birth_date=2002-09-28,2024-10-19,686077,30301,Tuesday,false
-64,2026-07-27T06:31:03Z,name=Jon Castro; birth_date=2004-11-30,2022-04-07,228768,06510,Tuesday,true
-72,2026-09-19T06:19:15Z,name=Luca Brandt; birth_date=2002-12-05,2021-02-13,531121,94110,Sunday,true
-69,2026-06-29T16:23:47Z,name=Noor Lindqvist; birth_date=1954-10-22,2026-04-24,549101,00501,Tuesday,true
-72,2026-08-22T11:48:44Z,name=Kemi Haas; birth_date=1991-04-09,2021-07-28,579884,08540,Sunday,true
-67,2026-01-03T16:08:18Z,name=Farid Moreau; birth_date=1961-02-07,2021-08-13,846970,94110,Thursday,false
-58,2026-07-10T23:31:27Z,name=Ana Haas; birth_date=1977-11-28,2026-05-12,547906,00501,Monday,false
-62,2026-08-30T01:06:43Z,name=Ana Farrow; birth_date=1975-02-15,2021-08-15,700294,80202,Monday,true
-73,2026-06-11T00:36:22Z,name=Mona Petrov; birth_date=1956-04-03,2024-09-10,206374,73301,Thursday,true
-58,2026-08-07T21:01:34Z,name=Dev Nwosu; birth_date=1968-06-26,2022-10-20,766484,06510,Monday,true
-66,2026-08-04T18:14:43Z,name=Omar Castro; birth_date=1953-11-28,2022-08-13,652940,94110,Saturday,false
-61,2026-01-04T18:56:33Z,name=Dev Petrov; birth_date=1958-12-22,2024-01-19,610061,07030,Sunday,true
-58,2026-07-18T13:26:53Z,name=Chloe Haas; birth_date=1987-10-05,2023-02-28,893602,94110,Wednesday,true
-72,2026-02-23T12:22:39Z,name=Mona Moreau; birth_date=1979-08-07,2023-03-17,230597,07030,Saturday,true
-67,2026-02-10T00:17:26Z,name=Ben Haas; birth_date=2004-10-20,2024-12-16,829987,00501,Wednesday,true
-58,2026-03-23T20:58:50Z,name=Priya Koval; birth_date=1963-11-06,2026-08-29,571883,80202,Friday,true
-66,2026-08-11T00:30:39Z,name=Priya Eze; birth_date=1952-04-15,2023-09-14,494742,60614,Saturday,false
-67,2026-05-26T16:03:34Z,name=Chloe Abel; birth_date=1983-09-08,2026-06-12,388375,30301,Saturday,true
-67,2026-08-17T05:34:12Z,name=Noor Abel; birth_date=1977-03-10,2025-12-22,538975,02134,Tuesday,false
-62,2026-09-10T07:18:41Z,name=Noor Haas; birth_date=1992-12-13,2025-09-07,302905,60614,Saturday,true
-64,2026-07-12T03:35:27Z,name=Noor Ortiz; birth_date=1967-12-05,2024-10-26,517055,10001,Tuesday,true
-61,2026-07-01T06:47:48Z,name=Elif Ortiz; birth_date=1957-05-06,2025-04-03,152320,06510,Tuesday,true
-59,2026-09-25T04:07:02Z,name=Omar Lindqvist; birth_date=1984-12-07,2023-01-30,164509,01002,Thursday,false
-72,2026-02-11T05:12:18Z,name=Jon Castro; birth_date=1959-08-06,2025-12-05,766218,94110,Thursday,false
-60,2026-07-27T08:37:51Z,name=Ben Abel; birth_date=1954-01-13,2026-04-20,794935,01002,Monday,true
-69,2026-03-29T23:18:46Z,name=Ines Jensen; birth_date=1963-11-09,2023-02-14,284569,80202,Friday,false
-67,2026-02-02T15:14:01Z,name=Grace Koval; birth_date=1971-06-01,2026-10-18,820704,00501,Saturday,false
-65,2026-04-28T12:51:57Z,name=Kemi Lindqvist; birth_date=1957-06-07,2022-06-10,373424,60614,Saturday,true
-69,2026-03-07T03:56:20Z,name=Jon Koval; birth_date=1962-03-09,2021-08-27,244345,07030,Saturday,false
-68,2026-07-07T01:47:49Z,name=Luca Gallo; birth_date=1986-01-18,2026-02-11,427404,07030,Friday,false
-67,2026-06-26T20:46:29Z,name=Elif Brandt; birth_date=1996-08-22,2024-12-25,301181,94110,Saturday,true
-60,2026-07-27T05:13:32Z,name=Dev Lindqvist; birth_date=1953-09-01,2024-01-04,628364,06510,Sunday,false
-63,2026-07-21T01:35:51Z,name=Chloe Eze; birth_date=1977-06-10,2026-04-18,895488,10001,Thursday,false
-70,2026-05-30T12:50:14Z,name=Ines Abel; birth_date=1977-08-20,2022-06-10,434658,06510,Sunday,true
-65,2026-04-04T23:55:30Z,name=Omar Brandt; birth_date=1950-09-17,2026-05-30,218323,07030,Wednesday,true
-58,2026-07-08T15:18:26Z,name=Dev Jensen; birth_date=1988-11-10,2021-08-03,735946,73301,Saturday,true
-65,2026-10-22T04:14:50Z,name=Grace Eze; birth_date=1964-05-11,2023-02-14,139612,01002,Saturday,true
-71,2026-09-04T10:17:35Z,name=Omar Ito; birth_date=1975-09-17,2026-09-12,266349,30301,Tuesday,true
-74,2026-05-13T10:13:45Z,name=Omar Nwosu; birth_date=1986-07-11,2024-10-27,875404,08540,Sunday,false
-75,2026-04-25T17:28:06Z,name=Ben Haas; birth_date=1976-05-02,2022-06-27,638879,60614,Tuesday,true
-65,2026-05-24T21:45:31Z,name=Kemi Nwosu; birth_date=1991-11-12,2025-03-25,302533,10001,Friday,false
-63,2026-10-26T20:27:43Z,name=Priya Abel; birth_date=2003-06-16,2022-07-30,688371,94110,Thursday,false
-74,2026-01-12T12:31:56Z,name=Mona Farrow; birth_date=1990-03-20,2025-08-06,587291,02134,Tuesday,true
-58,2026-05-16T17:02:39Z,name=Ana Castro; birth_date=1973-12-21,2026-04-27,603460,08540,Friday,true
-65,2026-04-08T14:22:54Z,name=Noor Jensen; birth_date=1957-06-24,2022-11-17,536327,07030,Tuesday,true
-65,2026-04-13T00:20:40Z,name=Farid Eze; birth_date=1997-04-04,2026-03-10,124947,00501,Saturday,false
-60,2026-04-10T02:50:40Z,name=Omar Dunne; birth_date=1974-12-01,2024-10-29,145303,08540,Thursday,true
-64,2026-04-23T11:55:01Z,name=Dev Dunne; birth_date=1999-10-31,2023-07-21,302748,80202,Thursday,true
-71,2026-04-02T06:52:43Z,name=Ben Koval; birth_date=1985-04-21,2021-11-27,354595,73301,Thursday,true
-59,2026-01-23T02:18:43Z,name=Chloe Abel; birth_date=1995-03-15,2024-09-05,189335,01002,Tuesday,false
-74,2026-08-01T12:44:08Z,name=Farid Nwosu; birth_date=1967-04-26,2021-02-28,213362,30301,Tuesday,false
-67,2026-02-10T03:51:48Z,name=Dev Abel; birth_date=1950-02-10,2025-09-04,703057,73301,Friday,false
-61,2026-08-19T13:11:28Z,name=Hiro Abel; birth_date=1961-01-23,2024-05-17,578718,73301,Friday,true
-66,2026-06-28T21:01:17Z,name=Priya Lindqvist; birth_date=1984-10-08,2022-05-25,513542,00501,Tuesday,true
-76,2026-01-30T12:46:05Z,name=Dev Moreau; birth_date=1957-10-23,2022-07-08,838746,06510,Thursday,false
-63,2026-02-12T03:40:34Z,name=Hiro Nwosu; birth_date=1965-08-03,2026-12-23,206971,80202,Saturday,false
-63,2026-09-26T23:18:06Z,name=Grace Haas; birth_date=1995-06-02,2022-04-15,863330,73301,Thursday,false
-72,2026-07-03T16:21:41Z,name=Jon Lindqvist; birth_date=1981-11-04,2021-05-29,482261,73301,Thursday,true
-61,2026-01-11T20:23:20Z,name=Ben Petrov; birth_date=1968-08-14,2023-09-30,154600,30301,Friday,false
-74,2026-06-18T18:54:25Z,name=Hiro Eze; birth_date=1993-07-07,2025-05-25,661778,02134,Sunday,true
-59,2026-05-24T00:52:03Z,name=Luca Dunne; birth_date=1982-12-05,2024-06-30,125213,30301,Sunday,false
-58,2026-03-30T22:14:29Z,name=Ana Ortiz; birth_date=1952-12-20,2023-07-02,791692,80202,Friday,true
-72,2026-04-17T21:54:15Z,name=Noor Brandt; birth_date=1992-07-12,2024-10-08,264724,94110,Tuesday,true
-68,2026-08-24T11:57:31Z,name=Farid Koval; birth_date=1998-03-01,2023-06-07,549542,06510,Monday,true
-69,2026-04-23T05:11:42Z,name=Mona Ortiz; birth_date=1951-02-15,2021-02-15,531955,00501,Friday,true
-64,2026-04-09T02:48:41Z,name=Farid Ito; birth_date=1987-04-05,2024-12-02,719734,30301,Tuesday,true
-62,2026-06-12T12:05:19Z,name=Mona Farrow; birth_date=1962-11-01,2024-08-14,565310,10001,Tuesday,false
-62,2026-04-08T20:27:37Z,name=Grace Dunne; birth_date=1964-09-23,2021-06-22,156797,02134,Sunday,true
-76,2026-05-08T12:37:32Z,name=Grace Ortiz; birth_date=1986-03-11,2026-11-12,708508,06510,Friday,false
-68,2026-02-21T00:48:10Z,name=Ines Haas; birth_date=1967-08-08,2022-06-03,770255,10001,Tuesday,true
-76,2026-06-07T06:31:03Z,name=Grace Castro; birth_date=1953-09-27,2022-01-11,618252,01002,Monday,false
+posted_date,price,total,account_id,status_cd,status_desc,comment,evnt_ts,mmbr
+2024-02-10,660.37,731.1,ACC-53827,C3,Closed,TBD,2026-06-17T04:53:57Z,name=Mona Ortiz; birth_date=1974-03-15
+2024-01-01,659.0,#REF!,ACC-17072,D4,Cancelled,todo,2026-03-14T17:25:16Z,name=Elif Moreau; birth_date=1953-05-24
+2026-06-12,422.94,2026-12-27,ACC-49889,A1,Open,asdf,2026-03-14T10:34:14Z,name=Jon Ortiz; birth_date=1979-09-07
+2024-06-06,529.04,170.8,ACC-79939,D4,Cancelled,test,2026-03-06T14:18:15Z,name=Luca Abel; birth_date=1985-09-21
+2025-09-07,282.2,660.93,ACC-81075,A1,Open,Joint,2026-04-17T13:16:01Z,name=Kemi Koval; birth_date=1951-09-27
+2026-03-02,12.18,Joint,ACC-14533,C3,Closed,test,2026-05-24T08:26:35Z,name=Elif Gallo; birth_date=1976-12-01
+2024-10-08,612.75,49.74,ACC-94179,A1,Open,test,2026-09-05T06:09:13Z,name=Noor Jensen; birth_date=1973-02-06
+2026-02-01,131.31,Koval,ACC-78381,D4,Cancelled,Joint,2026-08-11T17:38:47Z,name=Priya Gallo; birth_date=1998-12-02
+2022-12-08,895.87,2024-08-24,ACC-19503,B2,In review,.,2026-05-23T04:45:44Z,name=Hiro Dunne; birth_date=1979-03-22
+2023-02-01,109.65,#REF!,ACC-49952,C3,Closed,xxx,2026-03-28T21:39:15Z,name=Chloe Moreau; birth_date=1962-08-22
+2024-10-11,110.68,2024-02-16,ACC-90821,D4,Cancelled,todo,2026-03-14T12:10:52Z,name=Jon Petrov; birth_date=1996-08-26
+2023-06-09,151.7,552.72,ACC-50853,A1,Open,asdf,2026-09-14T21:17:12Z,name=Chloe Haas; birth_date=2002-06-25
+2022-12-06,350.98,542.03,ACC-62021,C3,Closed,Personal,2026-02-14T13:51:39Z,name=Ben Brandt; birth_date=2004-04-13
+2026-11-04,98.71,791.73,ACC-53914,C3,Closed,test,2026-05-23T07:26:55Z,name=Jon Koval; birth_date=1998-07-27
+2021-05-06,659.32,189.29,ACC-23407,A1,Open,todo,2026-02-24T22:50:08Z,name=Ben Dunne; birth_date=2000-09-16
+2021-06-02,688.3,2024-12-25,ACC-48952,D4,Cancelled,.,2026-02-24T10:52:26Z,name=Ines Farrow; birth_date=1987-08-04
+2021-10-12,38.63,202.87,ACC-19794,D4,Cancelled,todo,2026-02-03T21:48:44Z,name=Hiro Jensen; birth_date=2000-08-10
+2025-04-01,317.83,2022-11-08,ACC-67192,C3,Closed,.,2026-06-01T17:56:51Z,name=Luca Haas; birth_date=1973-01-30
+2022-12-07,13.94,607.48,ACC-29959,D4,Cancelled,todo,2026-07-25T00:29:55Z,name=Mona Moreau; birth_date=1999-12-07
+2024-08-09,259.72,372.47,ACC-27278,A1,Open,TBD,2026-05-18T10:56:54Z,name=Priya Dunne; birth_date=2004-11-30
+2024-11-06,614.67,457.94,ACC-56504,B2,In review,Business,2026-03-17T22:01:24Z,name=Noor Abel; birth_date=1996-03-29
+2022-05-02,589.7,720.94,ACC-43238,C3,Closed,xxx,2026-10-23T06:42:20Z,name=Ben Koval; birth_date=1990-10-22
+2026-01-11,8.39,823.8,ACC-33638,B2,In review,.,2026-03-18T06:07:44Z,name=Hiro Brandt; birth_date=1956-03-30
+2023-03-10,249.69,599.02,ACC-97524,B2,In review,asdf,2026-07-31T22:40:22Z,name=Priya Haas; birth_date=1990-10-15
+2021-05-12,701.14,Business,ACC-33317,B2,In review,.,2026-08-20T11:51:19Z,name=Chloe Farrow; birth_date=1996-09-27
+2023-02-03,190.73,470.21,ACC-76031,B2,In review,Business,2026-03-22T15:45:07Z,name=Ben Gallo; birth_date=1982-10-01
+2023-03-11,821.27,552.93,ACC-38893,A1,Open,Joint,2026-08-05T20:53:10Z,name=Elif Dunne; birth_date=1958-10-26
+2022-04-02,276.99,391.25,ACC-38151,B2,In review,xxx,2026-01-22T06:32:54Z,name=Mona Farrow; birth_date=1983-01-08
+2024-06-10,491.29,Eze,ACC-99468,C3,Closed,todo,2026-05-01T07:01:41Z,name=Grace Dunne; birth_date=1977-07-02
+2026-07-03,712.41,141.52,ACC-94388,A1,Open,.,2026-09-30T04:07:06Z,name=Kemi Jensen; birth_date=1975-05-22
+2022-08-03,462.94,568.62,ACC-82474,A1,Open,todo,2026-05-25T16:05:03Z,name=Hiro Gallo; birth_date=1976-03-04
+2026-04-03,856.41,#REF!,ACC-56452,C3,Closed,.,2026-09-06T21:51:26Z,name=Dev Gallo; birth_date=1957-12-27
+2022-08-05,240.81,806.95,ACC-37928,D4,Cancelled,Trust,2026-08-23T01:14:15Z,name=Ana Moreau; birth_date=1975-05-11
+2021-08-02,764.79,12.99,ACC-96023,C3,Closed,asdf,2026-07-25T11:31:27Z,name=Mona Gallo; birth_date=1991-01-05
+2021-05-11,864.42,2024-09-11,ACC-50422,A1,Open,test,2026-07-13T08:54:44Z,name=Ines Nwosu; birth_date=2002-11-28
+2023-06-02,533.55,644.14,ACC-40078,D4,Cancelled,TBD,2026-09-12T14:51:04Z,name=Ines Jensen; birth_date=2004-09-26
+2021-09-02,581.89,2021-02-20,ACC-97035,D4,Cancelled,TBD,2026-04-05T03:34:53Z,name=Ben Abel; birth_date=1978-07-24
+2026-01-11,442.12,728.25,ACC-27573,C3,Closed,TBD,2026-01-26T15:19:11Z,name=Dev Lindqvist; birth_date=1999-04-09
+2026-03-01,19.68,429.1,ACC-50939,D4,Cancelled,asdf,2026-04-24T01:00:14Z,name=Omar Castro; birth_date=1989-09-03
+2021-02-11,677.77,598.34,ACC-89920,C3,Closed,TBD,2026-07-27T13:59:51Z,name=Priya Castro; birth_date=1987-10-04
+2024-05-09,770.09,Castro,ACC-50048,D4,Cancelled,TBD,2026-10-14T16:59:39Z,name=Elif Ortiz; birth_date=1965-07-16
+2026-06-05,356.87,2024-10-28,ACC-50243,C3,Closed,Trust,2026-04-25T15:38:05Z,name=Dev Castro; birth_date=1963-03-01
+2022-08-02,588.72,186.25,ACC-22538,C3,Closed,Business,2026-04-16T05:15:13Z,name=Elif Brandt; birth_date=1990-09-30
+2024-08-02,432.86,340.46,ACC-27156,D4,Cancelled,test,2026-10-22T06:54:00Z,name=Kemi Gallo; birth_date=1991-01-06
+2022-06-05,65.32,876.18,ACC-28249,A1,Open,test,2026-05-23T01:48:56Z,name=Farid Haas; birth_date=1979-11-08
+2025-12-07,335.14,150.79,ACC-19637,B2,In review,test,2026-08-26T02:14:20Z,name=Jon Lindqvist; birth_date=1993-02-24
+2024-06-10,259.52,2023-07-09,ACC-63407,A1,Open,test,2026-01-13T15:09:55Z,name=Ines Dunne; birth_date=1980-03-05
+2026-03-12,233.43,Trust,ACC-82318,C3,Closed,TBD,2026-06-04T17:02:45Z,name=Farid Lindqvist; birth_date=1962-04-29
+2024-03-11,339.05,311.8,ACC-12743,D4,Cancelled,Trust,2026-03-13T14:22:38Z,name=Grace Koval; birth_date=1984-08-01
+2022-02-06,561.32,851.61,ACC-17316,A1,Open,asdf,2026-06-21T11:16:39Z,name=Elif Brandt; birth_date=2002-09-28
+2022-10-08,271.72,2024-09-20,ACC-13333,C3,Closed,xxx,2026-07-27T06:31:03Z,name=Jon Castro; birth_date=2004-11-30
+2023-09-11,884.98,80.66,ACC-69647,D4,Cancelled,asdf,2026-09-19T06:19:15Z,name=Luca Brandt; birth_date=2002-12-05
+2026-05-01,318.29,47.58,ACC-80713,C3,Closed,TBD,2026-06-29T16:23:47Z,name=Noor Lindqvist; birth_date=1954-10-22
+2025-06-01,165.78,352.93,ACC-61527,A1,Open,asdf,2026-08-22T11:48:44Z,name=Kemi Haas; birth_date=1991-04-09
+2023-03-05,230.37,8.94,ACC-80033,C3,Closed,.,2026-01-03T16:08:18Z,name=Farid Moreau; birth_date=1961-02-07
+2026-12-02,639.74,#REF!,ACC-88266,A1,Open,Personal,2026-07-10T23:31:27Z,name=Ana Haas; birth_date=1977-11-28
+2023-10-08,353.27,445.54,ACC-92912,A1,Open,Personal,2026-08-30T01:06:43Z,name=Ana Farrow; birth_date=1975-02-15
+2021-03-07,447.96,2024-04-11,ACC-27994,A1,Open,Joint,2026-06-11T00:36:22Z,name=Mona Petrov; birth_date=1956-04-03
+2021-01-05,81.01,631.52,ACC-86485,B2,In review,Business,2026-08-07T21:01:34Z,name=Dev Nwosu; birth_date=1968-06-26
+2023-06-08,124.16,Dunne,ACC-56001,B2,In review,xxx,2026-08-04T18:14:43Z,name=Omar Castro; birth_date=1953-11-28
+2023-05-06,757.52,2023-12-15,ACC-94310,C3,Closed,todo,2026-01-04T18:56:33Z,name=Dev Petrov; birth_date=1958-12-22
+2021-05-01,638.44,104.84,ACC-81576,D4,Cancelled,.,2026-07-18T13:26:53Z,name=Chloe Haas; birth_date=1987-10-05
+2021-11-10,282.67,2021-01-27,ACC-29592,B2,In review,Personal,2026-02-23T12:22:39Z,name=Mona Moreau; birth_date=1979-08-07
+2024-05-05,74.77,206.06,ACC-95720,B2,In review,todo,2026-02-10T00:17:26Z,name=Ben Haas; birth_date=2004-10-20
+2024-12-11,114.2,276.49,ACC-88703,B2,In review,asdf,2026-03-23T20:58:50Z,name=Priya Koval; birth_date=1963-11-06
+2026-08-03,139.77,336.16,ACC-43051,C3,Closed,Business,2026-08-11T00:30:39Z,name=Priya Eze; birth_date=1952-04-15
+2023-06-04,220.48,656.17,ACC-22866,C3,Closed,xxx,2026-05-26T16:03:34Z,name=Chloe Abel; birth_date=1983-09-08
+2026-11-10,476.18,Trust,ACC-59128,C3,Closed,todo,2026-08-17T05:34:12Z,name=Noor Abel; birth_date=1977-03-10
+2022-01-08,436.73,#REF!,ACC-14460,D4,Cancelled,asdf,2026-09-10T07:18:41Z,name=Noor Haas; birth_date=1992-12-13
+2022-05-03,767.94,250.68,ACC-52977,C3,Closed,Business,2026-07-12T03:35:27Z,name=Noor Ortiz; birth_date=1967-12-05
+2024-02-03,656.32,Nwosu,ACC-35224,C3,Closed,TBD,2026-07-01T06:47:48Z,name=Elif Ortiz; birth_date=1957-05-06
+2026-12-10,449.51,554.53,ACC-15444,B2,In review,test,2026-09-25T04:07:02Z,name=Omar Lindqvist; birth_date=1984-12-07
+2022-05-03,78.82,431.47,ACC-67636,C3,Closed,xxx,2026-02-11T05:12:18Z,name=Jon Castro; birth_date=1959-08-06
+2024-06-04,884.82,2026-07-22,ACC-71232,A1,Open,test,2026-07-27T08:37:51Z,name=Ben Abel; birth_date=1954-01-13
+2026-10-04,758.91,852.94,ACC-97155,B2,In review,Business,2026-03-29T23:18:46Z,name=Ines Jensen; birth_date=1963-11-09
+2022-07-01,773.44,Lindqvist,ACC-50228,B2,In review,test,2026-02-02T15:14:01Z,name=Grace Koval; birth_date=1971-06-01
+2022-06-02,864.58,136.48,ACC-87978,C3,Closed,asdf,2026-04-28T12:51:57Z,name=Kemi Lindqvist; birth_date=1957-06-07
+2021-11-07,789.95,403.74,ACC-14239,B2,In review,.,2026-03-07T03:56:20Z,name=Jon Koval; birth_date=1962-03-09
+2025-12-09,157.48,#REF!,ACC-17531,A1,Open,Personal,2026-07-07T01:47:49Z,name=Luca Gallo; birth_date=1986-01-18
+2026-08-11,407.28,#REF!,ACC-30611,B2,In review,TBD,2026-06-26T20:46:29Z,name=Elif Brandt; birth_date=1996-08-22
+2024-10-04,792.57,184.6,ACC-53874,B2,In review,TBD,2026-07-27T05:13:32Z,name=Dev Lindqvist; birth_date=1953-09-01
+2026-02-09,182.29,353.6,ACC-15002,A1,Open,.,2026-07-21T01:35:51Z,name=Chloe Eze; birth_date=1977-06-10
+2022-12-01,627.55,683.19,ACC-50528,C3,Closed,TBD,2026-05-30T12:50:14Z,name=Ines Abel; birth_date=1977-08-20
+2023-02-05,215.31,Lindqvist,ACC-30137,C3,Closed,Joint,2026-04-04T23:55:30Z,name=Omar Brandt; birth_date=1950-09-17
+2025-06-08,22.65,2025-07-24,ACC-63222,B2,In review,.,2026-07-08T15:18:26Z,name=Dev Jensen; birth_date=1988-11-10
+2026-02-03,448.39,#REF!,ACC-95667,A1,Open,Joint,2026-10-22T04:14:50Z,name=Grace Eze; birth_date=1964-05-11
+2026-08-09,733.68,144.24,ACC-29444,D4,Cancelled,xxx,2026-09-04T10:17:35Z,name=Omar Ito; birth_date=1975-09-17
+2025-05-03,213.26,Eze,ACC-72008,D4,Cancelled,.,2026-05-13T10:13:45Z,name=Omar Nwosu; birth_date=1986-07-11
+2026-05-10,882.04,337.77,ACC-79034,A1,Open,test,2026-04-25T17:28:06Z,name=Ben Haas; birth_date=1976-05-02
+2023-04-06,208.43,2025-08-25,ACC-78790,C3,Closed,xxx,2026-05-24T21:45:31Z,name=Kemi Nwosu; birth_date=1991-11-12
+2024-03-01,794.84,Personal,ACC-27476,B2,In review,Trust,2026-10-26T20:27:43Z,name=Priya Abel; birth_date=2003-06-16
+2021-04-04,6.77,638.19,ACC-91976,B2,In review,Trust,2026-01-12T12:31:56Z,name=Mona Farrow; birth_date=1990-03-20
+2024-08-09,538.86,#REF!,ACC-86281,A1,Open,asdf,2026-05-16T17:02:39Z,name=Ana Castro; birth_date=1973-12-21
+2023-09-07,20.76,2023-09-13,ACC-16554,A1,Open,todo,2026-04-08T14:22:54Z,name=Noor Jensen; birth_date=1957-06-24
+2025-06-04,373.11,530.45,ACC-57726,B2,In review,Personal,2026-04-13T00:20:40Z,name=Farid Eze; birth_date=1997-04-04
+2022-02-09,49.6,319.74,ACC-48278,A1,Open,Trust,2026-04-10T02:50:40Z,name=Omar Dunne; birth_date=1974-12-01
+2022-09-08,594.9,266.49,ACC-42461,B2,In review,asdf,2026-04-23T11:55:01Z,name=Dev Dunne; birth_date=1999-10-31
+2026-12-10,266.0,Castro,ACC-12512,A1,Open,todo,2026-04-02T06:52:43Z,name=Ben Koval; birth_date=1985-04-21
+2021-08-03,849.84,609.65,ACC-15508,A1,Open,asdf,2026-01-23T02:18:43Z,name=Chloe Abel; birth_date=1995-03-15
+2024-01-10,784.13,Dunne,ACC-53813,A1,Open,xxx,2026-08-01T12:44:08Z,name=Farid Nwosu; birth_date=1967-04-26
+2021-02-10,573.29,528.41,ACC-66771,D4,Cancelled,Trust,2026-02-10T03:51:48Z,name=Dev Abel; birth_date=1950-02-10
+2026-04-10,484.18,Business,ACC-26434,C3,Closed,.,2026-08-19T13:11:28Z,name=Hiro Abel; birth_date=1961-01-23
+2022-03-09,248.27,294.5,ACC-78777,C3,Closed,todo,2026-06-28T21:01:17Z,name=Priya Lindqvist; birth_date=1984-10-08
+2024-01-03,721.79,617.95,ACC-43141,B2,In review,.,2026-01-30T12:46:05Z,name=Dev Moreau; birth_date=1957-10-23
+2025-02-04,728.3,222.17,ACC-90560,B2,In review,todo,2026-02-12T03:40:34Z,name=Hiro Nwosu; birth_date=1965-08-03
+2025-05-11,146.41,209.58,ACC-30625,B2,In review,Personal,2026-09-26T23:18:06Z,name=Grace Haas; birth_date=1995-06-02
+2023-02-09,359.38,237.0,ACC-20907,D4,Cancelled,TBD,2026-07-03T16:21:41Z,name=Jon Lindqvist; birth_date=1981-11-04
+2023-11-10,598.35,2021-11-14,ACC-23768,C3,Closed,todo,2026-01-11T20:23:20Z,name=Ben Petrov; birth_date=1968-08-14
+2023-01-02,241.75,2025-07-05,ACC-49719,C3,Closed,test,2026-06-18T18:54:25Z,name=Hiro Eze; birth_date=1993-07-07
+2025-08-05,281.98,756.49,ACC-18667,B2,In review,Trust,2026-05-24T00:52:03Z,name=Luca Dunne; birth_date=1982-12-05
+2026-06-01,276.53,325.75,ACC-64327,B2,In review,asdf,2026-03-30T22:14:29Z,name=Ana Ortiz; birth_date=1952-12-20
+2025-09-02,725.81,305.89,ACC-27933,C3,Closed,Joint,2026-04-17T21:54:15Z,name=Noor Brandt; birth_date=1992-07-12
+2024-07-09,258.91,169.79,ACC-59080,C3,Closed,xxx,2026-08-24T11:57:31Z,name=Farid Koval; birth_date=1998-03-01
+2024-11-11,404.3,#REF!,ACC-33890,B2,In review,test,2026-04-23T05:11:42Z,name=Mona Ortiz; birth_date=1951-02-15
+2025-01-04,106.46,Moreau,ACC-81777,B2,In review,.,2026-04-09T02:48:41Z,name=Farid Ito; birth_date=1987-04-05
+2023-07-04,234.57,208.21,ACC-62495,A1,Open,asdf,2026-06-12T12:05:19Z,name=Mona Farrow; birth_date=1962-11-01
+2025-04-02,818.57,29.26,ACC-40828,A1,Open,todo,2026-04-08T20:27:37Z,name=Grace Dunne; birth_date=1964-09-23
+2021-05-08,476.87,2022-04-24,ACC-12216,D4,Cancelled,Trust,2026-05-08T12:37:32Z,name=Grace Ortiz; birth_date=1986-03-11
+2024-07-09,338.39,320.31,ACC-69366,D4,Cancelled,asdf,2026-02-21T00:48:10Z,name=Ines Haas; birth_date=1967-08-08
+2023-04-10,788.95,Farrow,ACC-87448,C3,Closed,TBD,2026-06-07T06:31:03Z,name=Grace Castro; birth_date=1953-09-27

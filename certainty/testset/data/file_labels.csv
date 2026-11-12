@@ -1,0 +1,121 @@
+table,case,verdict,issue,fix,raw_rows,clean_rows,focus_row,domain,variation
+file_retail_v00_00,t_tidy,READY,A tidy table with one header row.,,61,61,1,retail,0
+file_clinic_v00_01,t_duplicate_rows,FIXABLE,"Some rows appear twice, exactly.",drop_duplicate_rows,67,61,11,clinic,0
+file_logistics_v00_02,t_header_not_first_row,FIXABLE,Title lines sit above the header row.,skip_preamble,64,61,0,logistics,0
+file_banking_v00_03,t_repeated_header_rows,FIXABLE,The header row repeats part-way down the file.,drop_repeated_headers,63,61,19,banking,0
+file_hotel_v00_04,t_total_rows,FIXABLE,Subtotal and total rows are mixed in with the data rows.,drop_total_rows,63,61,29,hotel,0
+file_utilities_v00_05,t_empty_rows_and_columns,FIXABLE,Blank rows and a blank column are scattered through the file.,drop_empty_rows_columns,67,61,1,utilities,0
+file_retail_v00_06,t_split_field_shift,FIXABLE,An unquoted comma inside an address pushes the rest of some rows one column to the right.,rejoin_split_field,61,61,29,retail,0
+file_clinic_v00_07,t_wide_months,FIXABLE,"Months are spread across columns, one column per month, where they should be rows.",reshape_wide_to_long,31,181,1,clinic,0
+file_logistics_v00_08,t_header_missing,NEEDS_CONTEXT,"There is no header row, and the columns are numbers that could mean many things.",,60,60,0,logistics,0
+file_banking_v00_09,t_not_a_table,GARBAGE,"The file is a saved error page, not data.",,5,5,0,banking,0
+file_clinic_v01_00,t_tidy,READY,A tidy table with one header row.,,61,61,1,clinic,1
+file_logistics_v01_01,t_duplicate_rows,FIXABLE,"Some rows appear twice, exactly.",drop_duplicate_rows,67,61,11,logistics,1
+file_banking_v01_02,t_header_not_first_row,FIXABLE,Title lines sit above the header row.,skip_preamble,64,61,0,banking,1
+file_hotel_v01_03,t_repeated_header_rows,FIXABLE,The header row repeats part-way down the file.,drop_repeated_headers,63,61,19,hotel,1
+file_utilities_v01_04,t_total_rows,FIXABLE,Subtotal and total rows are mixed in with the data rows.,drop_total_rows,63,61,29,utilities,1
+file_retail_v01_05,t_empty_rows_and_columns,FIXABLE,Blank rows and a blank column are scattered through the file.,drop_empty_rows_columns,67,61,1,retail,1
+file_clinic_v01_06,t_split_field_shift,FIXABLE,An unquoted comma inside an address pushes the rest of some rows one column to the right.,rejoin_split_field,61,61,6,clinic,1
+file_logistics_v01_07,t_wide_months,FIXABLE,"Months are spread across columns, one column per month, where they should be rows.",reshape_wide_to_long,31,181,1,logistics,1
+file_banking_v01_08,t_header_missing,NEEDS_CONTEXT,"There is no header row, and the columns are numbers that could mean many things.",,60,60,0,banking,1
+file_hotel_v01_09,t_not_a_table,GARBAGE,"The file is a saved error page, not data.",,5,5,0,hotel,1
+file_logistics_v02_00,t_tidy,READY,A tidy table with one header row.,,61,61,1,logistics,2
+file_banking_v02_01,t_duplicate_rows,FIXABLE,"Some rows appear twice, exactly.",drop_duplicate_rows,67,61,7,banking,2
+file_hotel_v02_02,t_header_not_first_row,FIXABLE,Title lines sit above the header row.,skip_preamble,64,61,0,hotel,2
+file_utilities_v02_03,t_repeated_header_rows,FIXABLE,The header row repeats part-way down the file.,drop_repeated_headers,63,61,19,utilities,2
+file_retail_v02_04,t_total_rows,FIXABLE,Subtotal and total rows are mixed in with the data rows.,drop_total_rows,63,61,29,retail,2
+file_clinic_v02_05,t_empty_rows_and_columns,FIXABLE,Blank rows and a blank column are scattered through the file.,drop_empty_rows_columns,67,61,1,clinic,2
+file_logistics_v02_06,t_split_field_shift,FIXABLE,An unquoted comma inside an address pushes the rest of some rows one column to the right.,rejoin_split_field,61,61,0,logistics,2
+file_banking_v02_07,t_wide_months,FIXABLE,"Months are spread across columns, one column per month, where they should be rows.",reshape_wide_to_long,31,181,1,banking,2
+file_hotel_v02_08,t_header_missing,NEEDS_CONTEXT,"There is no header row, and the columns are numbers that could mean many things.",,60,60,0,hotel,2
+file_utilities_v02_09,t_not_a_table,GARBAGE,"The file is a saved error page, not data.",,5,5,0,utilities,2
+file_banking_v03_00,t_tidy,READY,A tidy table with one header row.,,61,61,1,banking,3
+file_hotel_v03_01,t_duplicate_rows,FIXABLE,"Some rows appear twice, exactly.",drop_duplicate_rows,67,61,1,hotel,3
+file_utilities_v03_02,t_header_not_first_row,FIXABLE,Title lines sit above the header row.,skip_preamble,64,61,0,utilities,3
+file_retail_v03_03,t_repeated_header_rows,FIXABLE,The header row repeats part-way down the file.,drop_repeated_headers,63,61,19,retail,3
+file_clinic_v03_04,t_total_rows,FIXABLE,Subtotal and total rows are mixed in with the data rows.,drop_total_rows,63,61,29,clinic,3
+file_logistics_v03_05,t_empty_rows_and_columns,FIXABLE,Blank rows and a blank column are scattered through the file.,drop_empty_rows_columns,67,61,1,logistics,3
+file_banking_v03_06,t_split_field_shift,FIXABLE,An unquoted comma inside an address pushes the rest of some rows one column to the right.,rejoin_split_field,61,61,2,banking,3
+file_hotel_v03_07,t_wide_months,FIXABLE,"Months are spread across columns, one column per month, where they should be rows.",reshape_wide_to_long,31,181,1,hotel,3
+file_utilities_v03_08,t_header_missing,NEEDS_CONTEXT,"There is no header row, and the columns are numbers that could mean many things.",,60,60,0,utilities,3
+file_retail_v03_09,t_not_a_table,GARBAGE,"The file is a saved error page, not data.",,5,5,0,retail,3
+file_hotel_v04_00,t_tidy,READY,A tidy table with one header row.,,61,61,1,hotel,4
+file_utilities_v04_01,t_duplicate_rows,FIXABLE,"Some rows appear twice, exactly.",drop_duplicate_rows,67,61,15,utilities,4
+file_retail_v04_02,t_header_not_first_row,FIXABLE,Title lines sit above the header row.,skip_preamble,64,61,0,retail,4
+file_clinic_v04_03,t_repeated_header_rows,FIXABLE,The header row repeats part-way down the file.,drop_repeated_headers,63,61,19,clinic,4
+file_logistics_v04_04,t_total_rows,FIXABLE,Subtotal and total rows are mixed in with the data rows.,drop_total_rows,63,61,29,logistics,4
+file_banking_v04_05,t_empty_rows_and_columns,FIXABLE,Blank rows and a blank column are scattered through the file.,drop_empty_rows_columns,67,61,1,banking,4
+file_hotel_v04_06,t_split_field_shift,FIXABLE,An unquoted comma inside an address pushes the rest of some rows one column to the right.,rejoin_split_field,61,61,22,hotel,4
+file_utilities_v04_07,t_wide_months,FIXABLE,"Months are spread across columns, one column per month, where they should be rows.",reshape_wide_to_long,31,181,1,utilities,4
+file_retail_v04_08,t_header_missing,NEEDS_CONTEXT,"There is no header row, and the columns are numbers that could mean many things.",,60,60,0,retail,4
+file_clinic_v04_09,t_not_a_table,GARBAGE,"The file is a saved error page, not data.",,5,5,0,clinic,4
+file_utilities_v05_00,t_tidy,READY,A tidy table with one header row.,,61,61,1,utilities,5
+file_retail_v05_01,t_duplicate_rows,FIXABLE,"Some rows appear twice, exactly.",drop_duplicate_rows,67,61,7,retail,5
+file_clinic_v05_02,t_header_not_first_row,FIXABLE,Title lines sit above the header row.,skip_preamble,64,61,0,clinic,5
+file_logistics_v05_03,t_repeated_header_rows,FIXABLE,The header row repeats part-way down the file.,drop_repeated_headers,63,61,19,logistics,5
+file_banking_v05_04,t_total_rows,FIXABLE,Subtotal and total rows are mixed in with the data rows.,drop_total_rows,63,61,29,banking,5
+file_hotel_v05_05,t_empty_rows_and_columns,FIXABLE,Blank rows and a blank column are scattered through the file.,drop_empty_rows_columns,67,61,1,hotel,5
+file_utilities_v05_06,t_split_field_shift,FIXABLE,An unquoted comma inside an address pushes the rest of some rows one column to the right.,rejoin_split_field,61,61,15,utilities,5
+file_retail_v05_07,t_wide_months,FIXABLE,"Months are spread across columns, one column per month, where they should be rows.",reshape_wide_to_long,31,181,1,retail,5
+file_clinic_v05_08,t_header_missing,NEEDS_CONTEXT,"There is no header row, and the columns are numbers that could mean many things.",,60,60,0,clinic,5
+file_logistics_v05_09,t_not_a_table,GARBAGE,"The file is a saved error page, not data.",,5,5,0,logistics,5
+file_retail_v06_00,t_tidy,READY,A tidy table with one header row.,,61,61,1,retail,6
+file_clinic_v06_01,t_duplicate_rows,FIXABLE,"Some rows appear twice, exactly.",drop_duplicate_rows,67,61,15,clinic,6
+file_logistics_v06_02,t_header_not_first_row,FIXABLE,Title lines sit above the header row.,skip_preamble,64,61,0,logistics,6
+file_banking_v06_03,t_repeated_header_rows,FIXABLE,The header row repeats part-way down the file.,drop_repeated_headers,63,61,19,banking,6
+file_hotel_v06_04,t_total_rows,FIXABLE,Subtotal and total rows are mixed in with the data rows.,drop_total_rows,63,61,29,hotel,6
+file_utilities_v06_05,t_empty_rows_and_columns,FIXABLE,Blank rows and a blank column are scattered through the file.,drop_empty_rows_columns,67,61,1,utilities,6
+file_retail_v06_06,t_split_field_shift,FIXABLE,An unquoted comma inside an address pushes the rest of some rows one column to the right.,rejoin_split_field,61,61,0,retail,6
+file_clinic_v06_07,t_wide_months,FIXABLE,"Months are spread across columns, one column per month, where they should be rows.",reshape_wide_to_long,31,181,1,clinic,6
+file_logistics_v06_08,t_header_missing,NEEDS_CONTEXT,"There is no header row, and the columns are numbers that could mean many things.",,60,60,0,logistics,6
+file_banking_v06_09,t_not_a_table,GARBAGE,"The file is a saved error page, not data.",,5,5,0,banking,6
+file_clinic_v07_00,t_tidy,READY,A tidy table with one header row.,,61,61,1,clinic,7
+file_logistics_v07_01,t_duplicate_rows,FIXABLE,"Some rows appear twice, exactly.",drop_duplicate_rows,67,61,10,logistics,7
+file_banking_v07_02,t_header_not_first_row,FIXABLE,Title lines sit above the header row.,skip_preamble,64,61,0,banking,7
+file_hotel_v07_03,t_repeated_header_rows,FIXABLE,The header row repeats part-way down the file.,drop_repeated_headers,63,61,19,hotel,7
+file_utilities_v07_04,t_total_rows,FIXABLE,Subtotal and total rows are mixed in with the data rows.,drop_total_rows,63,61,29,utilities,7
+file_retail_v07_05,t_empty_rows_and_columns,FIXABLE,Blank rows and a blank column are scattered through the file.,drop_empty_rows_columns,67,61,1,retail,7
+file_clinic_v07_06,t_split_field_shift,FIXABLE,An unquoted comma inside an address pushes the rest of some rows one column to the right.,rejoin_split_field,61,61,2,clinic,7
+file_logistics_v07_07,t_wide_months,FIXABLE,"Months are spread across columns, one column per month, where they should be rows.",reshape_wide_to_long,31,181,1,logistics,7
+file_banking_v07_08,t_header_missing,NEEDS_CONTEXT,"There is no header row, and the columns are numbers that could mean many things.",,60,60,0,banking,7
+file_hotel_v07_09,t_not_a_table,GARBAGE,"The file is a saved error page, not data.",,5,5,0,hotel,7
+file_logistics_v08_00,t_tidy,READY,A tidy table with one header row.,,61,61,1,logistics,8
+file_banking_v08_01,t_duplicate_rows,FIXABLE,"Some rows appear twice, exactly.",drop_duplicate_rows,67,61,11,banking,8
+file_hotel_v08_02,t_header_not_first_row,FIXABLE,Title lines sit above the header row.,skip_preamble,64,61,0,hotel,8
+file_utilities_v08_03,t_repeated_header_rows,FIXABLE,The header row repeats part-way down the file.,drop_repeated_headers,63,61,19,utilities,8
+file_retail_v08_04,t_total_rows,FIXABLE,Subtotal and total rows are mixed in with the data rows.,drop_total_rows,63,61,29,retail,8
+file_clinic_v08_05,t_empty_rows_and_columns,FIXABLE,Blank rows and a blank column are scattered through the file.,drop_empty_rows_columns,67,61,1,clinic,8
+file_logistics_v08_06,t_split_field_shift,FIXABLE,An unquoted comma inside an address pushes the rest of some rows one column to the right.,rejoin_split_field,61,61,5,logistics,8
+file_banking_v08_07,t_wide_months,FIXABLE,"Months are spread across columns, one column per month, where they should be rows.",reshape_wide_to_long,31,181,1,banking,8
+file_hotel_v08_08,t_header_missing,NEEDS_CONTEXT,"There is no header row, and the columns are numbers that could mean many things.",,60,60,0,hotel,8
+file_utilities_v08_09,t_not_a_table,GARBAGE,"The file is a saved error page, not data.",,5,5,0,utilities,8
+file_banking_v09_00,t_tidy,READY,A tidy table with one header row.,,61,61,1,banking,9
+file_hotel_v09_01,t_duplicate_rows,FIXABLE,"Some rows appear twice, exactly.",drop_duplicate_rows,67,61,29,hotel,9
+file_utilities_v09_02,t_header_not_first_row,FIXABLE,Title lines sit above the header row.,skip_preamble,64,61,0,utilities,9
+file_retail_v09_03,t_repeated_header_rows,FIXABLE,The header row repeats part-way down the file.,drop_repeated_headers,63,61,19,retail,9
+file_clinic_v09_04,t_total_rows,FIXABLE,Subtotal and total rows are mixed in with the data rows.,drop_total_rows,63,61,29,clinic,9
+file_logistics_v09_05,t_empty_rows_and_columns,FIXABLE,Blank rows and a blank column are scattered through the file.,drop_empty_rows_columns,67,61,1,logistics,9
+file_banking_v09_06,t_split_field_shift,FIXABLE,An unquoted comma inside an address pushes the rest of some rows one column to the right.,rejoin_split_field,61,61,13,banking,9
+file_hotel_v09_07,t_wide_months,FIXABLE,"Months are spread across columns, one column per month, where they should be rows.",reshape_wide_to_long,31,181,1,hotel,9
+file_utilities_v09_08,t_header_missing,NEEDS_CONTEXT,"There is no header row, and the columns are numbers that could mean many things.",,60,60,0,utilities,9
+file_retail_v09_09,t_not_a_table,GARBAGE,"The file is a saved error page, not data.",,5,5,0,retail,9
+file_hotel_v10_00,t_tidy,READY,A tidy table with one header row.,,61,61,1,hotel,10
+file_utilities_v10_01,t_duplicate_rows,FIXABLE,"Some rows appear twice, exactly.",drop_duplicate_rows,67,61,3,utilities,10
+file_retail_v10_02,t_header_not_first_row,FIXABLE,Title lines sit above the header row.,skip_preamble,64,61,0,retail,10
+file_clinic_v10_03,t_repeated_header_rows,FIXABLE,The header row repeats part-way down the file.,drop_repeated_headers,63,61,19,clinic,10
+file_logistics_v10_04,t_total_rows,FIXABLE,Subtotal and total rows are mixed in with the data rows.,drop_total_rows,63,61,29,logistics,10
+file_banking_v10_05,t_empty_rows_and_columns,FIXABLE,Blank rows and a blank column are scattered through the file.,drop_empty_rows_columns,67,61,1,banking,10
+file_hotel_v10_06,t_split_field_shift,FIXABLE,An unquoted comma inside an address pushes the rest of some rows one column to the right.,rejoin_split_field,61,61,8,hotel,10
+file_utilities_v10_07,t_wide_months,FIXABLE,"Months are spread across columns, one column per month, where they should be rows.",reshape_wide_to_long,31,181,1,utilities,10
+file_retail_v10_08,t_header_missing,NEEDS_CONTEXT,"There is no header row, and the columns are numbers that could mean many things.",,60,60,0,retail,10
+file_clinic_v10_09,t_not_a_table,GARBAGE,"The file is a saved error page, not data.",,5,5,0,clinic,10
+file_utilities_v11_00,t_tidy,READY,A tidy table with one header row.,,61,61,1,utilities,11
+file_retail_v11_01,t_duplicate_rows,FIXABLE,"Some rows appear twice, exactly.",drop_duplicate_rows,67,61,15,retail,11
+file_clinic_v11_02,t_header_not_first_row,FIXABLE,Title lines sit above the header row.,skip_preamble,64,61,0,clinic,11
+file_logistics_v11_03,t_repeated_header_rows,FIXABLE,The header row repeats part-way down the file.,drop_repeated_headers,63,61,19,logistics,11
+file_banking_v11_04,t_total_rows,FIXABLE,Subtotal and total rows are mixed in with the data rows.,drop_total_rows,63,61,29,banking,11
+file_hotel_v11_05,t_empty_rows_and_columns,FIXABLE,Blank rows and a blank column are scattered through the file.,drop_empty_rows_columns,67,61,1,hotel,11
+file_utilities_v11_06,t_split_field_shift,FIXABLE,An unquoted comma inside an address pushes the rest of some rows one column to the right.,rejoin_split_field,61,61,1,utilities,11
+file_retail_v11_07,t_wide_months,FIXABLE,"Months are spread across columns, one column per month, where they should be rows.",reshape_wide_to_long,31,181,1,retail,11
+file_clinic_v11_08,t_header_missing,NEEDS_CONTEXT,"There is no header row, and the columns are numbers that could mean many things.",,60,60,0,clinic,11
+file_logistics_v11_09,t_not_a_table,GARBAGE,"The file is a saved error page, not data.",,5,5,0,logistics,11

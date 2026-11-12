@@ -1,121 +1,121 @@
-age,amount_paid,contact_email,weekday_no,height,posted_date,is_active,lggd_at
-999,"US$6,324.83",priya.koval82@example.com,5,62 in,12/12/2022,Y,1781481492
-240,"US$8,801.81",kemi.ito5@example.com,4,188.0 cm,01/09/2022,0,1781185299
-43,"US$3,950.90",noor.haas75@example.com,3,66 in,06/04/2021,N,1783263808
-32,"US$7,501.16",farid.abel32@example.com,2,"5'6""",08/07/2024,No,1779441646
-70,"US$7,533.32",priya.moreau16@example.com,4,67 in,08/04/2022,TRUE,1775300035
-60,"US$3,894.79",hiro.ortiz86@example.com,7,"4'10""",12/07/2026,FALSE,1782893764
-55,"US$2,145.34",ana.nwosu7@example.com,6,147.3 cm,01/05/2024,Yes,1772916819
-74,"US$2,288.75",farid.moreau20@example.com,7,75 in,09/01/2025,N,1771230722
-40,"US$4,310.06",ben.ito55@example.com,6,162.6 cm,05/06/2021,Yes,1784510578
-41,"US$8,310.91",mona.gallo12@example.com,2,157.5 cm,02/01/2025,0,1779517704
-71,"US$5,851.08",dev.koval27@example.com,5,70 in,03/10/2025,Yes,1781608766
-25,"US$3,628.45",ana.farrow27@example.com,5,78 in,10/06/2026,No,1776285237
-77,"US$1,120.49",ines.petrov67@example.com,4,180.3 cm,02/11/2025,1,1789497059
-38,"US$6,248.36",ines.gallo83@example.com,1,62 in,01/12/2022,no,1791308341
-37,"US$7,412.61",priya.haas72@example.com,1,"5'4""",10/07/2025,No,1793040682
-68,"US$5,995.26",elif.castro44@example.com,4,"6'4""",04/11/2025,No,1788733781
-20,"US$8,175.36",kemi.brandt67@example.com,2,152.4 cm,09/02/2021,Y,1791458098
-22,"US$8,970.00",mona.moreau37@example.com,6,65 in,01/07/2026,yes,1787793360
-60,"US$2,195.09",elif.farrow87@example.com,6,"5'8""",04/02/2026,Y,1772624818
-88,"US$1,904.54",luca.farrow99@example.com,3,"6'5""",08/08/2021,N,1777376700
-1987,"US$3,578.55",chloe.petrov12@example.com,4,162.6 cm,12/10/2024,Yes,1782916127
-60,"US$6,389.60",mona.jensen3@example.com,2,"5'8""",12/11/2023,FALSE,1784020782
-75,"US$1,462.22",noor.eze41@example.com,1,73 in,04/12/2021,no,1775567470
-72,"US$2,090.70",dev.moreau71@example.com,3,172.7 cm,12/01/2024,Yes,1781788300
-48,"US$4,179.57",ines.castro31@example.com,7,180.3 cm,04/02/2021,TRUE,1771335334
-84,US$101.95,ben.nwosu43@example.com,4,60 in,11/02/2022,Y,1769451330
-89,"US$1,461.16",dev.jensen11@example.com,5,69 in,04/04/2023,FALSE,1774220853
-53,"US$3,487.86",hiro.ortiz52@example.com,7,61 in,11/04/2023,1,1792703868
-48,"US$6,043.07",ana.castro22@example.com,5,73 in,08/09/2024,No,1787012302
-27,US$490.65,farid.petrov23@example.com,1,69 in,08/03/2026,yes,1789747046
-25,"US$1,248.09",elif.koval70@example.com,2,175.3 cm,11/03/2026,Yes,1792749290
-33,"US$6,668.44",elif.ortiz36@example.com,6,195.6 cm,06/11/2021,No,1775042312
-60,"US$6,591.86",ines.castro15@example.com,2,"5'5""",08/11/2024,yes,1785786063
-66,"US$5,378.28",noor.koval53@example.com,1,177.8 cm,03/09/2022,Y,1789025254
-84,"US$2,089.19",ana.abel38@example.com,2,72 in,05/06/2025,1,1788123518
-61,"US$7,130.59",chloe.ortiz81@example.com,7,195.6 cm,05/09/2026,no,1786712056
-46,US$157.76,ana.petrov63@example.com,5,"6'4""",04/10/2023,N,1773014458
-42,"US$6,593.32",kemi.moreau61@example.com,1,"6'1""",05/08/2025,FALSE,1768663837
-76,"US$6,164.70",priya.brandt47@example.com,5,"5'6""",09/12/2021,No,1771636038
-20,"US$7,779.75",chloe.koval70@example.com,5,149.9 cm,05/06/2021,Yes,1785542011
-56,"US$2,671.70",mona.nwosu79@example.com,3,63 in,12/06/2024,0,1767873138
-45,"US$7,614.69",omar.eze80@example.com,7,78 in,08/02/2025,N,1768431689
-18,"US$2,896.10",farid.ortiz53@example.com,1,67 in,11/01/2025,No,1769485990
-56,"US$3,816.50",ben.castro90@example.com,2,193.0 cm,06/04/2023,Y,1783837561
-51,"US$5,573.09",luca.farrow13@example.com,2,180.3 cm,04/11/2021,0,1791817777
-42,"US$5,846.74",elif.haas6@example.com,3,"5'6""",05/04/2026,TRUE,1775620760
-18,"US$1,935.57",priya.gallo45@example.com,3,180.3 cm,02/05/2021,Y,1791454964
-25,US$882.80,jon.farrow72@example.com,4,70 in,02/10/2025,No,1790821497
-26,"US$2,944.44",elif.abel66@example.com,3,172.7 cm,02/10/2024,no,1779515826
-37,"US$4,063.50",grace.gallo37@example.com,7,"6'2""",10/12/2025,Y,1777811827
-87,"US$3,733.59",mona.petrov51@example.com,6,"5'11""",12/09/2021,Yes,1792302018
-51,"US$5,187.22",farid.dunne39@example.com,3,"5'7""",09/05/2022,No,1777579009
-27,"US$1,051.69",kemi.brandt65@example.com,7,68 in,09/01/2023,TRUE,1773424655
-75,"US$8,410.74",mona.eze15@example.com,2,"6'2""",05/12/2026,FALSE,1775612728
-42,"US$2,889.45",farid.ito34@example.com,7,149.9 cm,05/10/2022,N,1770793268
-83,"US$3,885.05",jon.nwosu7@example.com,1,59 in,02/08/2025,Y,1773462468
-34,"US$5,027.23",ana.nwosu57@example.com,6,"5'5""",07/07/2021,N,1774991479
-33,"US$1,679.59",ines.nwosu73@example.com,3,"6'3""",05/09/2022,FALSE,1773635449
-73,"US$4,254.97",luca.haas78@example.com,6,180.3 cm,01/05/2021,1,1767374298
-49,"US$6,251.80",jon.petrov51@example.com,1,152.4 cm,05/06/2023,no,1786104899
-38,"US$5,223.33",kemi.abel34@example.com,2,"6'6""",03/04/2024,FALSE,1784670684
-19,"US$3,662.99",jon.petrov19@example.com,1,"6'1""",11/10/2023,no,1789849440
-32,US$333.12,omar.gallo15@example.com,2,"5'5""",07/11/2026,yes,1777449853
-68,"US$8,199.03",kemi.eze95@example.com,6,182.9 cm,12/10/2025,yes,1774895851
-70,"US$3,064.03",chloe.gallo36@example.com,4,"5'0""",01/09/2023,Yes,1792314657
-70,"US$6,505.15",kemi.abel45@example.com,2,61 in,06/09/2023,1,1776397435
-59,"US$1,411.98",noor.jensen72@example.com,4,61 in,04/02/2021,No,1773392005
-84,"US$3,608.89",hiro.lindqvist1@example.com,2,77 in,02/10/2022,TRUE,1784788917
-33,"US$5,753.85",dev.moreau34@example.com,5,147.3 cm,07/08/2025,No,1774836235
-26,"US$6,642.86",ines.lindqvist65@example.com,7,"5'7""",12/12/2026,N,1771848212
-71,"US$7,931.11",ines.abel65@example.com,5,64 in,06/08/2022,No,1792342372
-240,"US$2,480.71",ben.haas39@example.com,2,"5'1""",05/12/2023,0,1771188957
-80,"US$1,665.41",farid.dunne67@example.com,4,73 in,07/12/2026,N,1774811637
-89,"US$6,824.53",elif.ito63@example.com,7,60 in,05/05/2024,yes,1783736048
-51,"US$4,090.04",omar.gallo8@example.com,6,62 in,07/04/2022,0,1792151941
-75,US$103.67,farid.ito34@example.com,3,"5'10""",12/05/2024,FALSE,1777644426
-64,"US$1,156.51",jon.lindqvist23@example.com,4,"6'5""",03/03/2026,TRUE,1767447257
-74,"US$5,135.09",ana.moreau2@example.com,3,75 in,03/06/2026,no,1769661633
-88,"US$5,893.58",luca.farrow34@example.com,6,77 in,05/08/2026,0,1769943083
-32,"US$7,241.54",elif.brandt99@example.com,2,162.6 cm,01/11/2025,Yes,1783045212
-35,"US$1,208.33",farid.jensen7@example.com,6,180.3 cm,11/05/2026,N,1773865350
-22,"US$5,796.99",grace.dunne41@example.com,3,"5'0""",07/02/2024,FALSE,1772172321
-50,"US$5,868.03",ines.lindqvist60@example.com,3,74 in,09/02/2026,N,1785401318
-37,"US$6,004.46",chloe.petrov77@example.com,1,69 in,06/04/2023,N,1785879029
-73,"US$5,351.12",kemi.petrov59@example.com,5,154.9 cm,03/02/2024,N,1777977186
-85,"US$8,013.83",kemi.eze57@example.com,4,71 in,03/01/2021,no,1792607302
-67,"US$2,043.10",luca.castro48@example.com,7,190.5 cm,05/08/2023,1,1769845163
-68,"US$8,398.78",ana.ortiz14@example.com,7,73 in,09/11/2026,TRUE,1786135354
-85,"US$8,347.69",omar.lindqvist95@example.com,3,152.4 cm,01/12/2022,no,1781296797
-26,"US$1,706.14",kemi.ito47@example.com,7,"6'6""",02/12/2021,1,1785998312
-54,US$741.57,dev.abel63@example.com,5,"5'4""",06/03/2026,1,1775356141
-57,"US$8,876.46",mona.moreau3@example.com,2,175.3 cm,10/10/2021,Y,1789728894
-61,"US$3,422.99",hiro.haas58@example.com,3,"5'2""",08/02/2022,0,1775374219
-80,"US$8,438.66",grace.moreau55@example.com,2,190.5 cm,01/06/2025,No,1768005854
-67,"US$5,156.29",priya.ito19@example.com,6,"5'9""",05/05/2022,N,1790553986
-88,"US$6,360.86",ana.dunne84@example.com,4,"5'5""",10/01/2022,TRUE,1788319389
-60,"US$4,471.50",noor.farrow39@example.com,7,162.6 cm,03/07/2022,No,1782521879
-48,"US$7,813.96",farid.castro4@example.com,7,"6'4""",01/10/2022,No,1790407642
-83,US$149.21,farid.castro28@example.com,5,"6'2""",04/09/2021,Yes,1774429489
-82,"US$1,081.15",dev.moreau32@example.com,4,152.4 cm,06/06/2026,TRUE,1776623182
-43,"US$6,204.64",farid.castro78@example.com,6,167.6 cm,05/07/2026,0,1787225422
-46,"US$5,599.91",omar.gallo9@example.com,2,"5'5""",07/10/2022,TRUE,1787000626
-86,"US$2,920.72",omar.abel88@example.com,3,157.5 cm,04/09/2023,No,1780972315
-62,"US$4,980.86",chloe.koval81@example.com,4,64 in,02/05/2026,0,1785445597
-23,"US$1,424.89",farid.brandt32@example.com,6,152.4 cm,10/04/2022,FALSE,1773055105
-64,"US$8,432.81",chloe.castro28@example.com,1,"5'7""",08/02/2022,1,1779545924
-44,"US$3,686.17",omar.ortiz43@example.com,3,154.9 cm,07/10/2023,0,1770224760
-48,"US$3,865.83",priya.moreau51@example.com,7,"5'1""",03/02/2021,TRUE,1788619123
-65,"US$4,568.42",hiro.petrov61@example.com,1,75 in,12/10/2024,Y,1780768739
-53,"US$2,443.14",luca.haas14@example.com,3,154.9 cm,05/10/2026,TRUE,1773097491
-41,"US$1,510.28",chloe.brandt49@example.com,2,"5'2""",10/08/2023,0,1786874376
-25,"US$6,420.74",farid.haas61@example.com,7,61 in,08/07/2026,N,1780167910
-85,"US$5,549.95",omar.petrov12@example.com,4,149.9 cm,12/09/2025,FALSE,1789959040
-25,"US$3,636.35",elif.lindqvist98@example.com,3,188.0 cm,12/11/2021,N,1787552723
-72,"US$5,833.03",ana.gallo1@example.com,5,165.1 cm,09/12/2025,FALSE,1778323010
-76,"US$2,337.78",farid.ortiz68@example.com,1,75 in,07/07/2023,0,1777472545
-32,"US$8,665.29",hiro.koval94@example.com,2,"5'1""",08/11/2024,TRUE,1786233133
-88,"US$5,049.11",jon.koval4@example.com,2,193.0 cm,08/11/2021,FALSE,1780465145
-25,"US$7,254.94",omar.gallo8@example.com,2,71 in,04/12/2022,FALSE,1789007300
-37,"US$8,880.66",chloe.jensen63@example.com,7,188.0 cm,10/01/2023,Y,1769058286
+v3,contact_email,alt_code,amount_paid,customer_name,category,opnd_on,amount,currency
+69,priya.koval82@example.com,,"US$6,324.83",JosÃ© NÃºÃ±ez,Online,2026-12-31,401.34,GBP
+71,kemi.ito5@example.com,,"US$8,801.81",Noémie Güell,Marketplace,2024-03-19,747.69,EUR
+74,noor.haas75@example.com,,"US$3,950.90",JosÃ© NÃºÃ±ez,Phone,2023-01-22,82.82,GBP
+59,farid.abel32@example.com,,"US$7,501.16",JÃ¼rgen KÃ¶hler,Online,2021-09-04,641.54,USD
+66,priya.moreau16@example.com,,"US$7,533.32",Iñigo Peña,Online,2023-11-21,522.5,GBP
+58,hiro.ortiz86@example.com,,"US$3,894.79",Noémie Güell,Marketplace,2026-01-15,647.06,EUR
+60,ana.nwosu7@example.com,,"US$2,145.34",IÃ±igo PeÃ±a,Online,2021-12-29,111.68,GBP
+71,farid.moreau20@example.com,,"US$2,288.75",Chloé Lefèvre,Store,2024-07-01,249.57,EUR
+62,ben.ito55@example.com,,"US$4,310.06",Noémie Güell,Marketplace,2021-11-24,292.07,GBP
+60,mona.gallo12@example.com,,"US$8,310.91",ZoÃ« MÃ¼ller,Store,2023-06-24,380.89,GBP
+62,dev.koval27@example.com,,"US$5,851.08",Iñigo Peña,Marketplace,2022-08-15,575.12,EUR
+76,ana.farrow27@example.com,,"US$3,628.45",Iñigo Peña,Marketplace,2026-09-26,709.99,GBP
+65,ines.petrov67@example.com,,"US$1,120.49",SÃ¸ren Aaberg,Store,2023-02-26,163.66,GBP
+60,ines.gallo83@example.com,,"US$6,248.36",Jürgen Köhler,Phone,2021-12-22,593.25,USD
+66,priya.haas72@example.com,,"US$7,412.61",Søren Aaberg,Marketplace,2024-06-14,754.1,GBP
+67,elif.castro44@example.com,Store,"US$5,995.26",IÃ±igo PeÃ±a,Marketplace,2024-10-08,623.77,USD
+62,kemi.brandt67@example.com,,"US$8,175.36",ChloÃ© LefÃ¨vre,Store,2024-02-24,280.76,GBP
+65,mona.moreau37@example.com,,"US$8,970.00",JosÃ© NÃºÃ±ez,Online,2024-09-21,313.02,GBP
+70,elif.farrow87@example.com,,"US$2,195.09",Søren Aaberg,Store,2026-02-18,20.51,EUR
+66,luca.farrow99@example.com,,"US$1,904.54",Renée François,Phone,2024-12-03,831.82,USD
+64,chloe.petrov12@example.com,,"US$3,578.55",Noémie Güell,Phone,2026-08-07,318.34,GBP
+68,mona.jensen3@example.com,,"US$6,389.60",Noémie Güell,Phone,2022-02-06,202.03,USD
+64,noor.eze41@example.com,,"US$1,462.22",Noémie Güell,Marketplace,2022-08-03,116.21,EUR
+61,dev.moreau71@example.com,,"US$2,090.70",Renée François,Marketplace,2021-01-23,362.17,EUR
+72,ines.castro31@example.com,,"US$4,179.57",JÃ¼rgen KÃ¶hler,Store,2026-09-26,251.63,GBP
+61,ben.nwosu43@example.com,,US$101.95,SÃ¸ren Aaberg,Store,2023-12-31,550.86,EUR
+70,dev.jensen11@example.com,,"US$1,461.16",IÃ±igo PeÃ±a,Store,2026-02-22,417.52,EUR
+72,hiro.ortiz52@example.com,,"US$3,487.86",José Núñez,Marketplace,2024-06-11,313.54,USD
+60,ana.castro22@example.com,,"US$6,043.07",Søren Aaberg,Store,2022-12-06,681.22,EUR
+58,farid.petrov23@example.com,,US$490.65,IÃ±igo PeÃ±a,Phone,2023-02-02,618.01,EUR
+65,elif.koval70@example.com,,"US$1,248.09",IÃ±igo PeÃ±a,Phone,2021-07-31,241.95,GBP
+58,elif.ortiz36@example.com,,"US$6,668.44",JÃ¼rgen KÃ¶hler,Marketplace,2024-01-05,896.13,GBP
+74,ines.castro15@example.com,,"US$6,591.86",IÃ±igo PeÃ±a,Marketplace,2022-02-26,13.73,GBP
+62,noor.koval53@example.com,,"US$5,378.28",JosÃ© NÃºÃ±ez,Store,2026-08-24,556.86,EUR
+74,ana.abel38@example.com,,"US$2,089.19",Iñigo Peña,Marketplace,2023-09-07,613.13,GBP
+70,chloe.ortiz81@example.com,,"US$7,130.59",Jürgen Köhler,Phone,2026-08-10,262.62,GBP
+62,ana.petrov63@example.com,,US$157.76,Zoë Müller,Phone,2025-11-07,641.89,EUR
+62,kemi.moreau61@example.com,Marketplace,"US$6,593.32",Zoë Müller,Phone,2023-10-18,45.09,EUR
+72,priya.brandt47@example.com,,"US$6,164.70",IÃ±igo PeÃ±a,Phone,2023-06-30,307.12,EUR
+59,chloe.koval70@example.com,,"US$7,779.75",JÃ¼rgen KÃ¶hler,Online,2025-07-19,162.74,EUR
+59,mona.nwosu79@example.com,,"US$2,671.70",José Núñez,Online,2022-06-07,120.24,GBP
+63,omar.eze80@example.com,,"US$7,614.69",Søren Aaberg,Store,2025-05-30,249.44,EUR
+71,farid.ortiz53@example.com,,"US$2,896.10",Søren Aaberg,Online,2025-01-22,672.8,EUR
+69,ben.castro90@example.com,,"US$3,816.50",IÃ±igo PeÃ±a,Online,2025-03-17,372.19,GBP
+62,luca.farrow13@example.com,,"US$5,573.09",Zoë Müller,Marketplace,2021-02-07,844.75,GBP
+70,elif.haas6@example.com,,"US$5,846.74",SÃ¸ren Aaberg,Marketplace,2022-07-23,634.87,EUR
+68,priya.gallo45@example.com,,"US$1,935.57",Chloé Lefèvre,Marketplace,2026-12-27,32.02,USD
+58,jon.farrow72@example.com,Phone,US$882.80,SÃ¸ren Aaberg,Online,2024-07-29,166.14,GBP
+72,elif.abel66@example.com,,"US$2,944.44",Noémie Güell,Phone,2023-10-20,180.01,EUR
+69,grace.gallo37@example.com,,"US$4,063.50",Iñigo Peña,Phone,2023-12-14,206.86,GBP
+62,mona.petrov51@example.com,,"US$3,733.59",SÃ¸ren Aaberg,Online,2022-11-01,888.01,USD
+61,farid.dunne39@example.com,,"US$5,187.22",Jürgen Köhler,Online,2026-04-03,814.98,GBP
+68,kemi.brandt65@example.com,,"US$1,051.69",SÃ¸ren Aaberg,Marketplace,2024-08-23,278.57,GBP
+66,mona.eze15@example.com,,"US$8,410.74",IÃ±igo PeÃ±a,Store,2021-10-16,706.61,USD
+67,farid.ito34@example.com,,"US$2,889.45",Chloé Lefèvre,Store,2021-07-23,74.46,EUR
+61,jon.nwosu7@example.com,,"US$3,885.05",SÃ¸ren Aaberg,Phone,2022-01-01,875.58,EUR
+68,ana.nwosu57@example.com,,"US$5,027.23",Chloé Lefèvre,Phone,2025-02-06,807.52,EUR
+76,ines.nwosu73@example.com,,"US$1,679.59",José Núñez,Store,2022-11-01,706.81,USD
+67,luca.haas78@example.com,,"US$4,254.97",RenÃ©e FranÃ§ois,Phone,2021-01-31,280.34,USD
+68,jon.petrov51@example.com,,"US$6,251.80",Renée François,Phone,2022-06-29,832.67,EUR
+68,kemi.abel34@example.com,,"US$5,223.33",ChloÃ© LefÃ¨vre,Marketplace,2021-11-27,894.09,USD
+69,jon.petrov19@example.com,,"US$3,662.99",Renée François,Online,2023-07-18,173.72,GBP
+65,omar.gallo15@example.com,,US$333.12,José Núñez,Store,2024-02-01,162.56,USD
+59,kemi.eze95@example.com,,"US$8,199.03",JosÃ© NÃºÃ±ez,Store,2022-02-12,560.54,GBP
+76,chloe.gallo36@example.com,,"US$3,064.03",NoÃ©mie GÃ¼ell,Store,2026-01-13,117.32,GBP
+71,kemi.abel45@example.com,,"US$6,505.15",IÃ±igo PeÃ±a,Marketplace,2024-08-24,795.13,EUR
+73,noor.jensen72@example.com,,"US$1,411.98",ZoÃ« MÃ¼ller,Marketplace,2026-11-03,625.57,USD
+67,hiro.lindqvist1@example.com,,"US$3,608.89",IÃ±igo PeÃ±a,Marketplace,2022-03-04,713.09,EUR
+69,dev.moreau34@example.com,,"US$5,753.85",ZoÃ« MÃ¼ller,Marketplace,2022-10-26,253.93,EUR
+68,ines.lindqvist65@example.com,,"US$6,642.86",NoÃ©mie GÃ¼ell,Online,2026-05-24,475.85,EUR
+60,ines.abel65@example.com,,"US$7,931.11",José Núñez,Online,2022-04-09,599.98,EUR
+74,ben.haas39@example.com,,"US$2,480.71",Iñigo Peña,Online,2021-09-23,375.74,USD
+62,farid.dunne67@example.com,,"US$1,665.41",Zoë Müller,Online,2025-04-09,516.71,GBP
+64,elif.ito63@example.com,,"US$6,824.53",Iñigo Peña,Phone,2023-06-16,75.01,USD
+72,omar.gallo8@example.com,,"US$4,090.04",Zoë Müller,Online,2026-04-12,364.39,EUR
+66,farid.ito34@example.com,,US$103.67,IÃ±igo PeÃ±a,Phone,2023-06-29,848.52,USD
+75,jon.lindqvist23@example.com,,"US$1,156.51",José Núñez,Marketplace,2023-05-14,588.27,GBP
+67,ana.moreau2@example.com,,"US$5,135.09",ChloÃ© LefÃ¨vre,Online,2026-10-13,879.94,EUR
+65,luca.farrow34@example.com,,"US$5,893.58",Chloé Lefèvre,Store,2024-04-12,52.74,USD
+76,elif.brandt99@example.com,,"US$7,241.54",Søren Aaberg,Online,2022-09-07,236.67,USD
+71,farid.jensen7@example.com,,"US$1,208.33",ChloÃ© LefÃ¨vre,Phone,2022-12-08,156.56,EUR
+61,grace.dunne41@example.com,,"US$5,796.99",ZoÃ« MÃ¼ller,Phone,2025-09-19,636.9,USD
+73,ines.lindqvist60@example.com,,"US$5,868.03",Chloé Lefèvre,Marketplace,2026-09-13,675.02,EUR
+63,chloe.petrov77@example.com,,"US$6,004.46",JÃ¼rgen KÃ¶hler,Store,2024-02-03,503.8,EUR
+76,kemi.petrov59@example.com,,"US$5,351.12",Renée François,Phone,2023-02-23,705.32,GBP
+68,kemi.eze57@example.com,,"US$8,013.83",Renée François,Online,2022-08-10,444.65,EUR
+69,luca.castro48@example.com,,"US$2,043.10",ChloÃ© LefÃ¨vre,Marketplace,2026-04-23,323.37,EUR
+64,ana.ortiz14@example.com,Online,"US$8,398.78",Zoë Müller,Phone,2023-09-25,146.33,EUR
+59,omar.lindqvist95@example.com,,"US$8,347.69",JÃ¼rgen KÃ¶hler,Online,2023-09-22,351.26,GBP
+74,kemi.ito47@example.com,,"US$1,706.14",NoÃ©mie GÃ¼ell,Marketplace,2022-09-18,415.57,GBP
+66,dev.abel63@example.com,,US$741.57,Noémie Güell,Phone,2023-01-05,829.06,USD
+66,mona.moreau3@example.com,,"US$8,876.46",ZoÃ« MÃ¼ller,Store,2026-10-24,262.29,USD
+74,hiro.haas58@example.com,,"US$3,422.99",NoÃ©mie GÃ¼ell,Store,2025-12-06,683.68,EUR
+64,grace.moreau55@example.com,,"US$8,438.66",Noémie Güell,Online,2021-07-13,96.4,USD
+73,priya.ito19@example.com,,"US$5,156.29",SÃ¸ren Aaberg,Phone,2022-07-03,406.43,USD
+58,ana.dunne84@example.com,,"US$6,360.86",IÃ±igo PeÃ±a,Phone,2026-07-31,509.18,GBP
+63,noor.farrow39@example.com,,"US$4,471.50",Noémie Güell,Phone,2022-07-09,96.55,GBP
+74,farid.castro4@example.com,,"US$7,813.96",Chloé Lefèvre,Marketplace,2024-02-11,322.99,GBP
+76,farid.castro28@example.com,,US$149.21,Zoë Müller,Store,2021-01-30,576.3,USD
+61,dev.moreau32@example.com,,"US$1,081.15",IÃ±igo PeÃ±a,Online,2023-09-17,137.29,USD
+72,farid.castro78@example.com,,"US$6,204.64",Jürgen Köhler,Phone,2026-10-06,248.23,GBP
+60,omar.gallo9@example.com,,"US$5,599.91",Iñigo Peña,Store,2026-05-04,85.75,GBP
+63,omar.abel88@example.com,,"US$2,920.72",JosÃ© NÃºÃ±ez,Store,2021-10-14,585.28,GBP
+60,chloe.koval81@example.com,,"US$4,980.86",NoÃ©mie GÃ¼ell,Online,2023-11-17,613.09,EUR
+73,farid.brandt32@example.com,,"US$1,424.89",IÃ±igo PeÃ±a,Phone,2026-01-27,583.4,GBP
+68,chloe.castro28@example.com,,"US$8,432.81",ChloÃ© LefÃ¨vre,Store,2025-04-03,14.94,GBP
+60,omar.ortiz43@example.com,,"US$3,686.17",JosÃ© NÃºÃ±ez,Store,2021-08-11,503.17,GBP
+59,priya.moreau51@example.com,,"US$3,865.83",Renée François,Store,2025-05-16,145.04,EUR
+72,hiro.petrov61@example.com,,"US$4,568.42",IÃ±igo PeÃ±a,Marketplace,2023-07-24,372.17,EUR
+61,luca.haas14@example.com,,"US$2,443.14",RenÃ©e FranÃ§ois,Marketplace,2025-09-17,271.67,EUR
+61,chloe.brandt49@example.com,,"US$1,510.28",Noémie Güell,Online,2024-01-26,550.48,USD
+66,farid.haas61@example.com,,"US$6,420.74",Iñigo Peña,Phone,2025-09-04,810.23,GBP
+71,omar.petrov12@example.com,,"US$5,549.95",ChloÃ© LefÃ¨vre,Marketplace,2026-03-09,645.53,USD
+75,elif.lindqvist98@example.com,,"US$3,636.35",NoÃ©mie GÃ¼ell,Store,2023-02-02,138.81,GBP
+68,ana.gallo1@example.com,,"US$5,833.03",Renée François,Marketplace,2021-05-26,172.17,USD
+71,farid.ortiz68@example.com,,"US$2,337.78",RenÃ©e FranÃ§ois,Phone,2024-03-24,712.28,GBP
+67,hiro.koval94@example.com,,"US$8,665.29",Noémie Güell,Store,2026-04-23,430.5,GBP
+68,jon.koval4@example.com,,"US$5,049.11",José Núñez,Phone,2026-09-12,429.12,EUR
+70,omar.gallo8@example.com,,"US$7,254.94",JosÃ© NÃºÃ±ez,Phone,2025-06-23,796.16,GBP
+58,chloe.jensen63@example.com,,"US$8,880.66",ChloÃ© LefÃ¨vre,Store,2025-03-19,402.93,USD

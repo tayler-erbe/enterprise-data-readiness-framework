@@ -1,121 +1,121 @@
-customer_name,status_cd,status_desc,height,checked_in,mrgn,quantity,region,ticket_id
-Renée François,B2,In review,165.1,2026-06-20T02:26:44Z,76.4,6,MN,117259
-Søren Aaberg,B2,In review,152.4,2026-04-24T02:02:16Z,44.4,3,DE,476504
-José Núñez,D4,Cancelled,172.7,2026-06-22T15:50:46Z,71.6,2,IL,888327
-Chloé Lefèvre,D4,Cancelled,177.8,2026-01-17T08:31:38Z,71.3,1,MA,363336
-Søren Aaberg,D4,Cancelled,175.3,2026-07-29T22:00:23Z,10.2,5,VA,502981
-José Núñez,B2,In review,170.2,2026-07-05T01:31:39Z,35.8,5,MD,133795
-Iñigo Peña,B2,In review,175.3,2026-01-04T06:32:19Z,9.8,2,MD,222633
-Chloé Lefèvre,C3,Closed,165.1,2026-05-23T09:40:53Z,90.2,4,MA,392647
-Zoë Müller,B2,In review,154.9,2026-03-20T19:15:42Z,46.6,4,DE,879682
-Zoë Müller,A1,Open,172.7,2026-03-31T08:40:15Z,89.9,5,PA,108874
-Chloé Lefèvre,B2,In review,170.2,2026-04-03T08:33:20Z,13.5,4,AL,370726
-Zoë Müller,D4,Cancelled,182.9,2026-02-25T00:51:36Z,88.3,5,CO,863340
-Søren Aaberg,A1,Open,172.7,2026-10-03T15:45:59Z,28.2,3,VA,273281
-Zoë Müller,C3,Closed,180.3,2026-03-22T14:04:43Z,81.0,4,LA,872961
-Søren Aaberg,D4,Cancelled,162.6,2026-01-21T05:49:49Z,29.9,5,NC,847032
-Noémie Güell,A1,Open,195.6,2026-05-05T04:47:42Z,84.4,1,CA,714315
-Jürgen Köhler,B2,In review,152.4,2026-08-28T22:56:42Z,97.7,4,IN,630129
-Søren Aaberg,B2,In review,195.6,2026-03-18T00:45:46Z,97.9,1,MO,256974
-Jürgen Köhler,B2,In review,180.3,2026-01-08T04:47:26Z,68.8,5,ME,556011
-Søren Aaberg,B2,In review,175.3,2026-06-26T16:48:13Z,52.8,3,SC,706385
-Søren Aaberg,B2,In review,149.9,2026-04-19T02:08:51Z,27.4,1,SC,164197
-José Núñez,B2,In review,172.7,2026-04-05T12:48:39Z,67.2,6,GA,811473
-José Núñez,A1,Open,160.0,2026-06-28T03:26:10Z,5.5,1,VA,282877
-Chloé Lefèvre,A1,Open,152.4,2026-07-29T04:07:55Z,13.5,3,MT,767311
-Iñigo Peña,C3,Closed,160.0,2026-02-12T12:27:23Z,8.0,1,MD,300844
-Zoë Müller,D4,Cancelled,180.3,2026-05-17T18:28:17Z,76.2,1,ME,543706
-Jürgen Köhler,D4,Cancelled,195.6,2026-06-03T09:08:53Z,4.3,4,TN,154060
-Søren Aaberg,B2,In review,160.0,2026-01-01T01:02:09Z,35.1,5,GA,664915
-Iñigo Peña,C3,Closed,177.8,2026-09-17T16:50:38Z,47.5,3,NE,837637
-José Núñez,C3,Closed,193.0,2026-07-14T04:22:16Z,48.6,6,DE,592255
-Zoë Müller,A1,Open,175.3,2026-10-16T06:33:34Z,57.6,1,LA,336655
-Chloé Lefèvre,C3,Closed,180.3,2026-04-27T12:48:07Z,43.6,3,LA,188392
-Noémie Güell,B2,In review,193.0,2026-05-15T15:17:49Z,24.7,2,AL,626929
-Chloé Lefèvre,C3,Closed,152.4,2026-09-13T17:27:16Z,76.5,1,IN,274112
-Noémie Güell,D4,Cancelled,167.6,2026-01-11T01:56:53Z,40.8,5,MD,476682
-Noémie Güell,B2,In review,152.4,2026-02-13T11:29:14Z,92.8,2,PA,570622
-Renée François,C3,Closed,190.5,2026-03-12T22:02:02Z,59.2,4,MO,893152
-Chloé Lefèvre,B2,In review,198.1,2026-10-20T01:16:10Z,81.1,1,TN,300490
-Chloé Lefèvre,D4,Cancelled,170.2,2026-05-18T05:22:19Z,54.3,4,AR,275073
-Jürgen Köhler,C3,Closed,195.6,2026-04-07T19:43:10Z,5.4,2,PA,390690
-Chloé Lefèvre,C3,Closed,149.9,2026-02-15T15:04:39Z,26.0,3,ID,378703
-José Núñez,A1,Open,190.5,2026-04-24T14:25:06Z,62.1,4,AL,735702
-Zoë Müller,C3,Closed,172.7,2026-04-01T22:14:59Z,28.4,5,SC,408685
-Renée François,D4,Cancelled,188.0,2026-05-25T19:51:59Z,54.8,6,NE,567705
-Søren Aaberg,C3,Closed,175.3,2026-07-13T00:19:14Z,63.4,2,CA,226529
-Noémie Güell,A1,Open,170.2,2026-02-02T22:28:55Z,19.7,1,SD,787940
-Zoë Müller,C3,Closed,157.5,2026-07-31T20:31:44Z,98.7,4,MT,737487
-Renée François,A1,Open,152.4,2026-05-22T11:51:58Z,82.4,5,ME,764807
-Iñigo Peña,B2,In review,152.4,2026-08-11T05:56:50Z,62.8,6,NE,138411
-Jürgen Köhler,C3,Closed,190.5,2026-02-07T17:54:01Z,12.2,1,SC,619662
-Jürgen Köhler,A1,Open,177.8,2026-05-15T00:13:33Z,57.0,4,IN,317567
-Søren Aaberg,A1,Open,188.0,2026-02-16T06:24:55Z,95.0,3,DE,331260
-Chloé Lefèvre,A1,Open,162.6,2026-05-14T12:35:52Z,62.5,4,IN,244115
-Iñigo Peña,C3,Closed,154.9,2026-03-07T19:18:06Z,62.6,6,GA,359662
-Chloé Lefèvre,A1,Open,160.0,2026-01-17T06:08:23Z,73.4,2,ID,753113
-Noémie Güell,A1,Open,152.4,2026-08-14T15:56:53Z,1.9,1,IL,563560
-Renée François,A1,Open,162.6,2026-04-20T16:03:20Z,94.5,1,NE,270467
-Noémie Güell,D4,Cancelled,177.8,2026-02-12T12:23:53Z,29.0,1,SD,470846
-Zoë Müller,B2,In review,154.9,2026-06-30T21:02:10Z,64.6,1,IN,843994
-Chloé Lefèvre,B2,In review,160.0,2026-09-14T05:10:53Z,78.2,4,MN,848607
-Iñigo Peña,C3,Closed,182.9,2026-04-12T02:56:15Z,47.8,3,IN,246685
-Noémie Güell,C3,Closed,182.9,2026-03-27T04:54:50Z,45.0,2,SD,132973
-Iñigo Peña,C3,Closed,190.5,2026-10-09T09:27:50Z,61.0,2,IL,306394
-Noémie Güell,C3,Closed,175.3,2026-01-28T23:32:55Z,18.2,4,SC,431918
-Jürgen Köhler,D4,Cancelled,165.1,2026-08-30T15:49:32Z,61.6,2,MA,162386
-Jürgen Köhler,A1,Open,157.5,2026-04-24T09:20:51Z,43.1,3,TN,174242
-José Núñez,C3,Closed,195.6,2026-04-30T21:52:38Z,17.8,3,AR,536974
-Zoë Müller,A1,Open,188.0,2026-09-14T06:53:01Z,12.7,6,MD,892143
-Søren Aaberg,D4,Cancelled,180.3,2026-09-15T13:25:09Z,47.0,6,AL,718012
-Noémie Güell,B2,In review,157.5,2026-08-15T11:16:15Z,9.1,6,MO,897946
-Zoë Müller,D4,Cancelled,185.4,2026-09-05T08:04:51Z,77.8,3,NE,521377
-Zoë Müller,C3,Closed,147.3,2026-05-12T12:47:03Z,57.0,4,PA,842125
-José Núñez,B2,In review,149.9,2026-06-11T14:05:03Z,79.3,4,NE,656256
-Noémie Güell,C3,Closed,198.1,2026-01-11T22:28:09Z,68.8,1,ID,587983
-Renée François,D4,Cancelled,177.8,2026-07-06T14:50:48Z,74.5,6,IN,746057
-Renée François,B2,In review,190.5,2026-07-23T04:38:20Z,11.1,2,ME,308465
-Jürgen Köhler,D4,Cancelled,149.9,2026-02-16T04:04:59Z,44.8,2,IL,249878
-Jürgen Köhler,A1,Open,170.2,2026-05-06T06:30:13Z,44.9,2,AL,107807
-Jürgen Köhler,C3,Closed,162.6,2026-05-31T19:09:20Z,0.4,6,TN,361956
-Søren Aaberg,A1,Open,177.8,2026-07-14T20:32:30Z,30.7,5,AR,430699
-Noémie Güell,B2,In review,188.0,2026-10-17T02:18:55Z,14.4,5,ID,173558
-Zoë Müller,C3,Closed,180.3,2026-08-07T02:48:08Z,33.7,5,MO,794274
-Iñigo Peña,A1,Open,157.5,2026-07-01T03:40:25Z,75.4,5,MN,822774
-Søren Aaberg,A1,Open,147.3,2026-04-05T19:48:49Z,18.0,4,MD,354177
-Søren Aaberg,B2,In review,154.9,2026-08-26T20:35:29Z,27.3,1,MN,898378
-Chloé Lefèvre,D4,Cancelled,154.9,2026-03-25T20:12:04Z,99.6,5,SD,333896
-Chloé Lefèvre,D4,Cancelled,195.6,2026-10-24T20:09:01Z,63.7,3,ID,786832
-Renée François,B2,In review,198.1,2026-03-31T04:16:47Z,66.2,6,PA,364436
-Noémie Güell,B2,In review,165.1,2026-10-17T11:08:06Z,54.4,5,IL,319474
-Zoë Müller,A1,Open,170.2,2026-03-10T22:01:56Z,65.0,4,SD,693715
-José Núñez,C3,Closed,157.5,2026-10-07T12:54:38Z,61.4,4,ID,807451
-José Núñez,C3,Closed,152.4,2026-01-08T22:20:26Z,17.8,5,CA,604443
-Chloé Lefèvre,D4,Cancelled,147.3,2026-01-12T09:02:58Z,98.3,3,CO,510123
-Zoë Müller,C3,Closed,182.9,2026-08-12T08:18:41Z,62.1,4,TN,664409
-Zoë Müller,A1,Open,180.3,2026-05-16T23:51:28Z,20.2,4,SC,225522
-Chloé Lefèvre,D4,Cancelled,165.1,2026-06-14T23:19:52Z,70.7,3,IL,360173
-Noémie Güell,D4,Cancelled,177.8,2026-05-29T12:21:47Z,21.9,2,ID,464864
-José Núñez,D4,Cancelled,165.1,2026-02-11T17:39:31Z,3.2,4,VA,412511
-Noémie Güell,D4,Cancelled,188.0,2026-08-04T19:02:52Z,88.9,4,MO,717083
-Søren Aaberg,B2,In review,170.2,2026-07-07T13:47:18Z,59.2,6,MA,601084
-José Núñez,D4,Cancelled,175.3,2026-01-15T19:37:53Z,67.6,1,CA,677474
-Chloé Lefèvre,A1,Open,190.5,2026-03-26T14:40:54Z,25.9,1,SC,225626
-Chloé Lefèvre,B2,In review,198.1,2026-01-17T18:58:17Z,10.5,4,IL,719000
-Chloé Lefèvre,A1,Open,167.6,2026-10-14T16:59:03Z,4.4,6,IN,503316
-Zoë Müller,A1,Open,152.4,2026-01-20T03:10:54Z,25.9,4,PA,229568
-Søren Aaberg,B2,In review,152.4,2026-03-16T12:44:15Z,41.7,2,AR,546666
-Renée François,D4,Cancelled,175.3,2026-01-03T05:50:06Z,68.5,4,SC,108028
-Zoë Müller,D4,Cancelled,182.9,2026-09-19T02:27:26Z,99.3,5,IN,675535
-Renée François,B2,In review,193.0,2026-04-03T07:36:59Z,63.9,2,CA,655359
-Noémie Güell,B2,In review,188.0,2026-03-18T04:11:11Z,70.3,3,MA,672387
-Chloé Lefèvre,B2,In review,149.9,2026-05-13T03:46:12Z,17.4,6,AL,679038
-Iñigo Peña,A1,Open,154.9,2026-02-25T07:32:27Z,12.5,3,MN,578238
-José Núñez,C3,Closed,154.9,2026-05-24T04:35:42Z,88.0,5,SD,119029
-Zoë Müller,C3,Closed,167.6,2026-10-06T14:41:26Z,80.8,6,AL,222233
-Renée François,D4,Cancelled,167.6,2026-06-02T15:26:12Z,83.9,5,MN,810489
-Renée François,A1,Open,172.7,2026-01-26T17:56:03Z,26.9,6,CO,156047
-Chloé Lefèvre,C3,Closed,193.0,2026-08-24T23:54:07Z,36.3,5,LA,412768
-Renée François,A1,Open,160.0,2026-06-30T21:28:56Z,30.3,1,IL,359550
-Zoë Müller,B2,In review,172.7,2026-03-31T11:57:05Z,83.2,6,GA,139658
-Chloé Lefèvre,C3,Closed,193.0,2026-06-27T16:49:42Z,26.9,3,VA,432043
+renewal,zz,montant_eur,weight,weight_unit,cstmr_nm,status_cd,status_desc,hght,rsn_cd
+true,4a98732ce91e,112885.6,9.12,lb,Renée François,B2,In review,165.1,K2
+true,714247d9a572,216633.22,8.57,lb,Søren Aaberg,B2,In review,152.4,Z9
+true,4f9569a23e45,39322.01,19.19,lb,José Núñez,D4,Cancelled,172.7,Z9
+true,24de2b8e6582,189508.27,16.33,lb,Chloé Lefèvre,D4,Cancelled,177.8,Q4
+false,a21a9b3e6844,195002.63,10.48,lb,Søren Aaberg,D4,Cancelled,175.3,K1
+true,9d3068f5caf7,32897.77,29.3,kg,José Núñez,B2,In review,170.2,Q4
+true,b1a4f740b2e1,127435.64,18.92,lb,Iñigo Peña,B2,In review,175.3,K2
+true,35db02048288,18782.09,23.0,kg,Chloé Lefèvre,C3,Closed,165.1,R7
+true,0fd6c94d2a71,76960.59,36.0,kg,Zoë Müller,B2,In review,154.9,Z9
+false,af3de911e706,214758.53,4.6,kg,Zoë Müller,A1,Open,172.7,R7
+true,5f0f9f35c9d1,120188.22,21.32,lb,Chloé Lefèvre,B2,In review,170.2,K2
+false,98d70ad89260,173466.24,3.81,lb,Zoë Müller,D4,Cancelled,182.9,Z9
+true,f4e7d9d27b5b,164544.13,19.46,lb,Søren Aaberg,A1,Open,172.7,R7
+false,66a31ab16626,184685.02,2.9,lb,Zoë Müller,C3,Closed,180.3,K1
+false,b1780c3f1676,134647.38,21.55,lb,Søren Aaberg,D4,Cancelled,162.6,Z9
+true,f99b8375c5cb,51436.22,16.15,lb,Noémie Güell,A1,Open,195.6,K2
+false,a476c05af464,55328.68,27.2,kg,Jürgen Köhler,B2,In review,152.4,K1
+true,344253c31f2e,188693.9,19.23,lb,Søren Aaberg,B2,In review,195.6,Z9
+true,ac9b8f6ec8bd,196352.88,8.9,kg,Jürgen Köhler,B2,In review,180.3,K2
+false,e444278cec17,78616.89,12.02,lb,Søren Aaberg,B2,In review,175.3,Q4
+false,ad27c7032a7c,182131.37,7.58,lb,Søren Aaberg,B2,In review,149.9,Q4
+false,e68ce16b4c10,155919.3,11.7,kg,José Núñez,B2,In review,172.7,Z9
+true,011662dbe65f,222869.31,17.92,lb,José Núñez,A1,Open,160.0,R7
+true,fcc73cd703a4,55807.59,10.75,lb,Chloé Lefèvre,A1,Open,152.4,K2
+false,96c62d67553e,195763.57,30.5,kg,Iñigo Peña,C3,Closed,160.0,K1
+false,1830914e0446,138975.54,12.29,lb,Zoë Müller,D4,Cancelled,180.3,R7
+true,b4c178fdafeb,101953.51,16.1,kg,Jürgen Köhler,D4,Cancelled,195.6,Q4
+true,524a8d08971b,85231.13,5.26,lb,Søren Aaberg,B2,In review,160.0,Q4
+false,73b827f47dac,159093.92,42.3,kg,Iñigo Peña,C3,Closed,177.8,R7
+true,4a17599794ee,126798.7,44.9,kg,José Núñez,C3,Closed,193.0,R7
+false,9ab3f5a2f980,230953.17,1.63,lb,Zoë Müller,A1,Open,175.3,K1
+false,c76629d699fe,87036.39,21.3,kg,Chloé Lefèvre,C3,Closed,180.3,Q4
+true,92b11ae8e58b,33680.45,20.32,lb,Noémie Güell,B2,In review,193.0,K1
+false,43eeb1e851aa,239739.51,23.4,kg,Chloé Lefèvre,C3,Closed,152.4,K1
+false,f7f45cf5d50a,243960.82,0.95,lb,Noémie Güell,D4,Cancelled,167.6,K1
+true,84a0ac9c80ad,179733.67,15.2,kg,Noémie Güell,B2,In review,152.4,K2
+true,c33af5fa1687,213174.3,7.9,kg,Renée François,C3,Closed,190.5,R7
+true,d51769a2fb7e,142959.45,17.4,kg,Chloé Lefèvre,B2,In review,198.1,K2
+true,a0a3f245514f,112353.87,48.1,kg,Chloé Lefèvre,D4,Cancelled,170.2,Q4
+true,8b4c2e530109,41339.1,21.27,lb,Jürgen Köhler,C3,Closed,195.6,Z9
+true,598d249c5cb6,165611.65,9.98,lb,Chloé Lefèvre,C3,Closed,149.9,R7
+true,6b4901de1658,65663.6,20.9,kg,José Núñez,A1,Open,190.5,Q4
+false,bae7aef9c65b,162439.63,46.7,kg,Zoë Müller,C3,Closed,172.7,Q4
+true,9ae6d8639936,167196.48,6.53,lb,Renée François,D4,Cancelled,188.0,Q4
+false,efff2db30aff,207642.19,16.6,kg,Søren Aaberg,C3,Closed,175.3,Z9
+true,bf793d6a9945,246030.09,7.76,lb,Noémie Güell,A1,Open,170.2,R7
+true,bbdcbe8298a8,99584.17,10.39,lb,Zoë Müller,C3,Closed,157.5,R7
+false,7e967fd3805b,74843.23,43.5,kg,Renée François,A1,Open,152.4,Q4
+false,9dc5dba723dd,249338.96,6.76,lb,Iñigo Peña,B2,In review,152.4,K2
+false,f6399166a450,24150.33,25.1,kg,Jürgen Köhler,C3,Closed,190.5,Q4
+true,007540c40777,31281.86,23.6,kg,Jürgen Köhler,A1,Open,177.8,R7
+false,2bfc4b310064,172869.65,6.49,lb,Søren Aaberg,A1,Open,188.0,R7
+false,0c6f42ec3c15,176867.54,1.22,lb,Chloé Lefèvre,A1,Open,162.6,Z9
+false,9b0f36efea43,203494.05,16.15,lb,Iñigo Peña,C3,Closed,154.9,Q4
+false,a73e66882b30,23129.55,10.5,kg,Chloé Lefèvre,A1,Open,160.0,K1
+false,f2536e8d27d9,96675.01,38.6,kg,Noémie Güell,A1,Open,152.4,Z9
+false,e3a8365f4376,38794.3,27.9,kg,Renée François,A1,Open,162.6,R7
+true,082233be65e4,44903.47,18.05,lb,Noémie Güell,D4,Cancelled,177.8,R7
+false,8d6085c4db3c,115345.01,48.6,kg,Zoë Müller,B2,In review,154.9,K1
+false,6b471dc812d0,158057.35,6.4,kg,Chloé Lefèvre,B2,In review,160.0,Q4
+false,45aa7e881047,179971.42,13.74,lb,Iñigo Peña,C3,Closed,182.9,Q4
+false,e44119fb6827,20758.43,16.37,lb,Noémie Güell,C3,Closed,182.9,K1
+true,bcbf28a8da41,189849.33,33.6,kg,Iñigo Peña,C3,Closed,190.5,K1
+true,fbc669b7f2af,126037.28,47.2,kg,Noémie Güell,C3,Closed,175.3,Q4
+true,b1516885adea,184036.23,47.4,kg,Jürgen Köhler,D4,Cancelled,165.1,K1
+false,c14b85b5bed5,82223.44,9.03,lb,Jürgen Köhler,A1,Open,157.5,Z9
+true,4ca68369dff5,113862.4,2.4,lb,José Núñez,C3,Closed,195.6,K1
+true,1a60c9751424,224420.38,45.1,kg,Zoë Müller,A1,Open,188.0,R7
+true,012803fc0f99,63134.53,8.35,lb,Søren Aaberg,D4,Cancelled,180.3,K1
+false,469db6647962,35019.99,27.1,kg,Noémie Güell,B2,In review,157.5,K1
+true,26261c3172b1,96640.27,8.66,lb,Zoë Müller,D4,Cancelled,185.4,R7
+true,82f61e5af4db,186396.17,35.3,kg,Zoë Müller,C3,Closed,147.3,K1
+false,54ce4ea540f4,242966.68,7.48,lb,José Núñez,B2,In review,149.9,K1
+true,3df5c831e500,241567.09,13.2,lb,Noémie Güell,C3,Closed,198.1,Q4
+false,e3241b7fb9b6,146615.53,17.2,kg,Renée François,D4,Cancelled,177.8,Z9
+true,842fb6a0b98e,181670.55,43.8,kg,Renée François,B2,In review,190.5,R7
+true,3167e36e6701,81725.19,40.1,kg,Jürgen Köhler,D4,Cancelled,149.9,K2
+true,43c8770d28b1,162399.11,36.1,kg,Jürgen Köhler,A1,Open,170.2,R7
+true,52fb53889c40,110205.73,10.61,lb,Jürgen Köhler,C3,Closed,162.6,K2
+true,1042fe6416c9,18906.61,41.2,kg,Søren Aaberg,A1,Open,177.8,K2
+true,a58d5e2b0f7c,203065.76,41.0,kg,Noémie Güell,B2,In review,188.0,Q4
+true,96a5008a7f90,68252.24,27.0,kg,Zoë Müller,C3,Closed,180.3,Q4
+false,d201a2a64c19,172424.76,8.1,kg,Iñigo Peña,A1,Open,157.5,R7
+false,3c1d03ba6e9c,199611.7,11.2,lb,Søren Aaberg,A1,Open,147.3,K2
+false,5e607b1bd673,241081.73,13.83,lb,Søren Aaberg,B2,In review,154.9,Q4
+true,784b3b94d751,154228.25,20.91,lb,Chloé Lefèvre,D4,Cancelled,154.9,Q4
+false,0fd03e8a6336,245764.7,7.44,lb,Chloé Lefèvre,D4,Cancelled,195.6,K2
+false,d5a9f7684283,35126.73,17.9,kg,Renée François,B2,In review,198.1,Z9
+true,dce4ee4966a8,223904.46,21.41,lb,Noémie Güell,B2,In review,165.1,Z9
+false,13667b2439d8,67367.35,38.8,kg,Zoë Müller,A1,Open,170.2,K2
+false,fc97b5e60953,56012.79,12.4,kg,José Núñez,C3,Closed,157.5,Z9
+false,97f2b68c646b,136724.4,30.8,kg,José Núñez,C3,Closed,152.4,Z9
+true,6529242e1e7d,12288.71,17.74,lb,Chloé Lefèvre,D4,Cancelled,147.3,Q4
+true,5a6d974142d2,211064.33,17.01,lb,Zoë Müller,C3,Closed,182.9,Z9
+true,69672734f45b,72513.71,0.91,lb,Zoë Müller,A1,Open,180.3,K1
+true,7115e785ca7e,9563.12,11.93,lb,Chloé Lefèvre,D4,Cancelled,165.1,Z9
+true,724ad4b1a24e,140511.24,8.35,lb,Noémie Güell,D4,Cancelled,177.8,K2
+true,1489557b83fd,111035.99,16.19,lb,José Núñez,D4,Cancelled,165.1,Z9
+true,d472e2239126,200534.83,3.81,lb,Noémie Güell,D4,Cancelled,188.0,K1
+true,22388ec60932,228347.87,16.7,kg,Søren Aaberg,B2,In review,170.2,Z9
+false,c5bf6d437bbd,183440.73,6.0,kg,José Núñez,D4,Cancelled,175.3,Z9
+false,b8cfc941a390,34399.09,16.1,lb,Chloé Lefèvre,A1,Open,190.5,Q4
+true,a4b54a611399,25166.83,1.2,kg,Chloé Lefèvre,B2,In review,198.1,Z9
+true,eb07a0eff042,243392.45,40.1,kg,Chloé Lefèvre,A1,Open,167.6,R7
+true,cc0d978201bf,79760.55,46.4,kg,Zoë Müller,A1,Open,152.4,R7
+true,eacaed3076ae,174319.19,16.9,kg,Søren Aaberg,B2,In review,152.4,Q4
+false,6fa923c10213,99274.53,45.5,kg,Renée François,D4,Cancelled,175.3,Q4
+false,44c3834cd6f1,150737.53,9.03,lb,Zoë Müller,D4,Cancelled,182.9,Z9
+false,6774c79adcf4,221531.1,23.9,kg,Renée François,B2,In review,193.0,R7
+true,e2e175b2cefe,143184.86,1.22,lb,Noémie Güell,B2,In review,188.0,Z9
+true,a5100cb973b9,8001.27,3.0,kg,Chloé Lefèvre,B2,In review,149.9,K2
+true,f57ae0134f81,78616.8,37.4,kg,Iñigo Peña,A1,Open,154.9,K1
+false,546b844c388b,85344.68,41.8,kg,José Núñez,C3,Closed,154.9,Z9
+true,3648e3221404,174478.77,40.2,kg,Zoë Müller,C3,Closed,167.6,K1
+true,0490d9183bae,104140.19,16.24,lb,Renée François,D4,Cancelled,167.6,Q4
+false,27280863f129,35943.54,22.45,lb,Renée François,A1,Open,172.7,Q4
+false,d793e1b734ef,205746.52,12.6,kg,Chloé Lefèvre,C3,Closed,193.0,Q4
+true,e50109db3ebc,11016.88,18.23,lb,Renée François,A1,Open,160.0,R7
+true,f07a90358458,187248.78,6.4,lb,Zoë Müller,B2,In review,172.7,K1
+true,af1d61472b62,169543.87,12.52,lb,Chloé Lefèvre,C3,Closed,193.0,K1

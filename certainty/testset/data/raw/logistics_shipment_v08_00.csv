@@ -1,121 +1,121 @@
-status_cd,status_desc,btrg_er,pay_type,full_name,total,v3,qty,unit_price,line_total,cls
-C3,Closed,"141.115,57",Direct Debit,Grace Ortiz,458.73,65,1,28.93,173.58,Q4
-C3,Closed,"54.623,08",Gift  Voucher,Hiro Jensen,6.92,67,1,36.22,217.32,Z9
-A1,Open,"249.715,09",Bank Transfer,Kemi Lindqvist,758.07,59,1,22.59,135.54,K1
-B2,In review,"59.848,64",Gift Voucher.,Noor Jensen,706.94,59,5,37.3,1119.0,K1
-C3,Closed,"234.694,65",Direct Debit,Priya Koval,293.19,73,2,6.98,83.76,Z9
-D4,Cancelled,"20.338,64",Gift Voucher,Ines Ortiz,16.79,67,4,7.44,178.56,K2
-D4,Cancelled,"29.370,78",Gift Voucher.,Ines Jensen,376.17,58,3,39.53,711.54,Q4
-C3,Closed,"82.593,46",Bank Transfer,Noor Nwosu,667.35,71,6,38.23,1376.28,Q4
-A1,Open,"41.048,69",Credit Card,Elif Ortiz,892.28,71,5,10.1,303.0,K2
-C3,Closed,"23.461,31",Credit Card,Elif Dunne,760.65,61,2,30.45,365.4,Q4
-A1,Open,"48.592,67",Direct Debit.,Elif Jensen,346.76,64,2,8.51,102.12,K1
-C3,Closed,"144.008,25",Direct Debit,Mona Petrov,191.34,70,5,10.25,307.5,K2
-A1,Open,"238.325,25",Direct-Debit,Dev Eze,634.56,69,1,7.67,46.02,K1
-A1,Open,"160.783,51",Gift Voucher,Hiro Ortiz,578.66,70,4,10.06,241.44,R7
-D4,Cancelled,"169.938,92",Bank  Transfer,Omar Dunne,797.8,70,3,24.31,437.58,K2
-A1,Open,"141.235,64",credit card,Ines Brandt,266.31,59,3,2.73,49.14,Z9
-D4,Cancelled,"241.295,51",Bank Transfer,Farid Gallo,348.95,63,5,28.11,843.3,R7
-B2,In review,"47.837,45",Direct Debit,Dev Moreau,157.41,62,4,38.28,918.72,K1
-C3,Closed,"241.598,01",Direct Debit,Grace Brandt,790.14,71,2,36.2,434.4,K2
-D4,Cancelled,"56.087,13",Credit Card,Noor Nwosu,213.68,62,1,2.7,16.2,Q4
-B2,In review,"187.462,29",Gift Voucher,Jon Ito,516.06,68,4,27.75,666.0,K1
-B2,In review,"16.505,71",Direct Debit,Elif Ito,39.73,74,1,5.94,35.64,K2
-D4,Cancelled,"78.443,32",Gift Voucher,Ana Ito,846.45,68,1,22.41,134.46,Z9
-D4,Cancelled,"237.379,86",Credit Card.,Omar Ortiz,283.6,75,2,14.0,168.0,R7
-A1,Open,"125.774,61",Direct Debit,Mona Moreau,372.98,72,3,38.66,695.88,K1
-B2,In review,"85.943,12",Bank Transfer,Ben Brandt,612.42,68,6,35.91,1292.76,Q4
-A1,Open,"235.605,35",Gift Voucher,Ana Lindqvist,262.98,74,1,9.74,58.44,Z9
-D4,Cancelled,"122.736,08",Gift Voucher,Noor Abel,376.24,65,5,2.63,78.9,Z9
-B2,In review,"246.832,67",Credit Card,Ana Koval,667.48,67,6,15.8,568.8,Z9
-A1,Open,"50.798,75",Gift Voucher.,Ana Petrov,776.41,76,2,24.47,293.64,Q4
-C3,Closed,"104.928,37",Gift Voucher,Dev Ito,621.75,67,2,22.66,271.92,Z9
-A1,Open,"160.715,21",Direct Debit,Grace Petrov,826.73,63,4,2.75,66.0,K2
-C3,Closed,"44.486,94",BANK TRANSFER,Jon Lindqvist,37.76,70,1,2.43,14.58,Z9
-A1,Open,"168.505,16",Gift Voucher,Ines Eze,561.61,75,1,3.6,21.6,K2
-D4,Cancelled,"159.516,72",Credit-Card,Kemi Lindqvist,571.57,66,1,2.68,16.08,K2
-C3,Closed,"26.082,77",Direct Debit,Omar Petrov,544.0,71,2,9.03,108.36,Q4
-A1,Open,"24.352,56",Direct Debit.,Hiro Lindqvist,621.92,64,6,17.38,625.68,K1
-A1,Open,"124.392,16",Bank Transfer,Jon Eze,608.37,70,4,9.72,233.28,K1
-B2,In review,"243.888,39",Credit Card,Omar Brandt,796.94,74,3,33.14,596.52,Q4
-D4,Cancelled,"76.983,25",Gift Voucher,Noor Castro,160.06,76,3,2.73,49.14,Q4
-B2,In review,"206.612,18",Bank-Transfer,Ben Ortiz,671.64,75,5,24.76,742.8,Q4
-A1,Open,"143.066,66",Gift Voucher,Noor Jensen,881.15,70,2,8.73,104.76,R7
-A1,Open,"91.103,16",Credit Card,Luca Gallo,515.66,64,3,17.86,321.48,K1
-D4,Cancelled,"216.977,56",Direct Debit,Hiro Farrow,211.66,63,4,13.12,314.88,K1
-B2,In review,"6.302,59",Credit Card,Grace Ortiz,25.77,59,5,19.29,578.7,Z9
-D4,Cancelled,"51.801,96",Credit Card,Chloe Jensen,712.6,65,3,36.26,652.68,K2
-B2,In review,"5.353,40",Credit Card,Grace Abel,158.8,68,3,5.34,96.12,R7
-C3,Closed,"181.320,33",Credit Card,Grace Nwosu,640.02,64,5,19.65,589.5,Z9
-D4,Cancelled,"233.734,83",BANK TRANSFER,Elif Moreau,554.04,59,5,17.2,516.0,Q4
-D4,Cancelled,"92.485,17",BANK TRANSFER,Noor Haas,300.61,75,4,6.61,158.64,Z9
-C3,Closed,"205.742,05",Gift Voucher,Chloe Eze,334.55,73,3,32.37,582.66,Z9
-B2,In review,"101.921,36",Credit Card,Mona Nwosu,354.44,67,2,15.43,185.16,R7
-A1,Open,"33.083,16",Direct Debit,Ana Haas,882.05,69,3,20.85,375.3,Q4
-B2,In review,"132.259,42",Bank Transfer,Jon Farrow,96.55,67,1,38.83,232.98,Z9
-C3,Closed,"144.057,46",Gift Voucher,Priya Nwosu,845.69,67,2,2.46,29.52,K2
-A1,Open,"134.968,67",Direct Debit,Luca Jensen,695.91,67,6,31.97,1150.92,Q4
-D4,Cancelled,"132.890,93",Credit  Card,Omar Petrov,303.58,62,5,34.02,1020.6,R7
-B2,In review,"205.026,85",Credit Card,Mona Nwosu,291.13,71,6,21.24,764.64,Z9
-B2,In review,"182.745,50",Gift Voucher,Ana Eze,600.28,74,3,6.22,111.96,K1
-A1,Open,"24.384,25",Direct Debit,Ines Ortiz,731.07,64,5,32.62,978.6,Z9
-C3,Closed,"235.537,48",BANK TRANSFER,Grace Haas,218.65,61,4,4.94,118.56,Q4
-A1,Open,"101.543,85",Gift  Voucher,Grace Haas,261.54,64,4,33.19,796.56,K1
-A1,Open,"94.767,29",credit card,Chloe Koval,203.63,71,6,31.43,1131.48,Z9
-C3,Closed,"117.451,83",Gift Voucher,Priya Eze,497.9,69,3,14.26,256.68,Z9
-A1,Open,"199.025,24",Credit Card.,Ben Jensen,420.26,70,6,18.31,659.16,K1
-D4,Cancelled,"50.696,74",Direct Debit.,Ines Ortiz,526.25,74,4,16.23,389.52,K2
-A1,Open,"185.420,32",Credit Card,Hiro Moreau,805.2,76,2,12.56,150.72,K2
-C3,Closed,"162.805,51",Bank-Transfer,Dev Haas,19.16,75,1,28.8,172.8,K2
-A1,Open,"214.997,15",Gift-Voucher,Kemi Moreau,132.57,72,1,31.72,190.32,Q4
-A1,Open,"112.667,77",DIRECT DEBIT,Luca Ortiz,581.25,63,3,10.61,190.98,Z9
-B2,In review,"113.183,14",Credit Card,Ana Castro,295.68,65,6,11.93,429.48,Z9
-D4,Cancelled,"64.687,71",Gift Voucher,Kemi Gallo,226.6,64,2,8.62,103.44,R7
-D4,Cancelled,"174.908,66",Direct Debit,Luca Koval,110.68,61,5,34.8,1044.0,Q4
-C3,Closed,"198.816,77",Bank Transfer,Hiro Petrov,730.01,73,6,38.21,1375.56,R7
-B2,In review,"236.873,59",Gift Voucher,Kemi Dunne,532.23,66,5,27.45,823.5,Q4
-D4,Cancelled,"180.043,47",Bank Transfer,Grace Jensen,443.2,62,5,21.85,655.5,K1
-D4,Cancelled,"56.551,83",Credit Card,Hiro Koval,482.77,59,4,24.04,576.96,K2
-D4,Cancelled,"205.786,32",Bank Transfer,Hiro Abel,361.28,60,1,34.53,207.18,Q4
-B2,In review,"196.077,55",Credit Card.,Omar Lindqvist,736.27,62,4,18.28,438.72,K1
-B2,In review,"22.344,30",Credit Card,Noor Gallo,388.49,64,1,14.25,85.5,K1
-A1,Open,"155.862,67",Credit Card,Priya Brandt,293.02,74,5,5.44,163.2,K2
-D4,Cancelled,"121.064,54",Direct Debit,Hiro Moreau,130.17,73,1,6.14,36.84,K1
-D4,Cancelled,"171.199,25",credit card,Chloe Moreau,32.35,74,3,6.9,124.2,R7
-C3,Closed,"111.336,80",Bank Transfer,Grace Ito,181.31,62,3,3.62,65.16,R7
-D4,Cancelled,"53.352,62",Credit Card,Priya Petrov,655.82,64,2,12.54,150.48,K2
-B2,In review,"116.140,13",Credit-Card,Luca Petrov,88.78,61,6,36.35,1308.6,R7
-C3,Closed,"111.193,59",Bank-Transfer,Ana Nwosu,231.1,72,2,37.69,452.28,K1
-B2,In review,"167.748,13",direct debit,Hiro Abel,436.27,72,2,10.72,128.64,R7
-C3,Closed,"23.905,69",BANK TRANSFER,Grace Brandt,399.51,68,6,39.75,1431.0,R7
-D4,Cancelled,"195.539,33",Credit Card,Elif Eze,281.73,58,1,8.23,49.38,K2
-D4,Cancelled,"110.739,59",Bank Transfer,Omar Koval,420.42,65,2,12.82,153.84,K1
-A1,Open,"80.404,05",Direct Debit.,Luca Lindqvist,6.18,64,2,10.62,127.44,Q4
-D4,Cancelled,"100.431,64",Gift Voucher,Ben Gallo,682.07,69,3,3.78,68.04,Q4
-A1,Open,"215.123,91",Direct Debit,Kemi Petrov,749.47,58,5,2.62,78.6,K1
-B2,In review,"77.201,59",Direct Debit,Jon Nwosu,278.5,67,2,33.52,402.24,Q4
-A1,Open,"169.828,11",Credit Card,Chloe Koval,798.3,61,2,19.01,228.12,K2
-D4,Cancelled,"70.618,04",Direct Debit,Grace Farrow,772.29,61,3,16.59,298.62,K1
-C3,Closed,"33.312,13",Gift Voucher,Dev Lindqvist,68.39,59,5,16.6,498.0,Z9
-C3,Closed,"82.257,31",Bank Transfer,Grace Castro,327.41,60,5,32.37,971.1,Q4
-A1,Open,"85.329,11",Bank  Transfer,Kemi Dunne,796.13,62,4,9.08,217.92,Q4
-D4,Cancelled,"92.532,38",Direct Debit.,Ben Moreau,593.59,61,2,38.55,462.6,K1
-C3,Closed,"165.508,78",Direct Debit,Ana Petrov,199.7,68,3,21.68,390.24,K2
-D4,Cancelled,"25.789,41",Credit Card,Hiro Castro,594.88,62,1,20.85,125.1,K2
-B2,In review,"65.938,62",Gift Voucher,Noor Nwosu,815.27,72,2,6.8,81.6,Q4
-D4,Cancelled,"47.409,13",Gift Voucher.,Priya Koval,546.58,71,3,5.59,100.62,K1
-D4,Cancelled,"236.616,36",Gift Voucher,Jon Eze,302.81,69,3,24.71,444.78,Q4
-D4,Cancelled,"185.417,56",Gift Voucher,Ines Abel,589.41,68,2,21.9,262.8,Q4
-C3,Closed,"71.045,53",Gift Voucher,Omar Koval,62.47,58,5,27.19,815.7,Q4
-C3,Closed,"223.594,84",Credit Card,Luca Brandt,658.14,58,1,33.2,199.2,R7
-C3,Closed,"38.816,07",Gift Voucher,Elif Lindqvist,313.98,66,1,19.38,116.28,Z9
-C3,Closed,"125.046,45",Gift  Voucher,Ben Gallo,401.15,60,6,19.64,707.04,R7
-B2,In review,"248.873,58",Gift Voucher,Ines Gallo,297.56,60,5,19.55,586.5,K1
-C3,Closed,"110.250,93",Bank Transfer,Ana Haas,183.03,74,1,10.39,62.34,K2
-A1,Open,"80.368,73",Credit Card,Priya Ortiz,217.38,58,5,36.69,1100.7,Q4
-C3,Closed,"148.202,09",Credit Card,Farid Jensen,464.65,75,1,28.1,168.6,K1
-C3,Closed,"75.520,61",Credit Card,Ben Castro,865.11,63,5,22.25,667.5,Q4
-B2,In review,"66.995,46",Bank Transfer,Chloe Jensen,393.18,62,4,19.97,479.28,Z9
-A1,Open,"237.428,49",Credit Card,Chloe Koval,856.46,58,4,10.69,256.56,Z9
-D4,Cancelled,"59.920,18",Gift  Voucher,Mona Koval,815.43,67,5,33.81,1014.3,K2
-B2,In review,"193.056,08",Gift Voucher,Hiro Nwosu,553.9,73,6,22.94,825.84,Z9
+posted_date,email,checked_in,total,site_type,postal_code,betrag_eur,full_name
+07/01/2023,omar.dunne60@example.com,2026-01-04 21:35:27,89.13,Commercial,7030,"141.115,57",Grace Ortiz
+01/07/2023,ines.eze23@example.com,2026-03-20 04:08:58,Road,Government,10001,"54.623,08",Hiro Jensen
+04/05/2021,farid.ito68@example.com,2026-04-20 11:37:23,724.97,Commercial,60614,"249.715,09",Kemi Lindqvist
+08/10/2022,kemi.lindqvist77@example.com,2026-07-31 03:31:26,Nwosu,Commercial,2134,"59.848,64",Noor Jensen
+11/07/2024,grace.castro8@example.com,2026-05-14 19:00:44,300.05,Industrial,6510,"234.694,65",Priya Koval
+12/05/2022,kemi.haas67@example.com,2026-05-20 09:59:42,257.19,Commercial,60614,"20.338,64",Ines Ortiz
+08/05/2024,omar.castro80@example.com,2026-07-02 15:54:17,2025-11-11,Residential,30301,"29.370,78",Ines Jensen
+01/05/2024,elif.abel1@example.com,2026-05-28 06:56:38,651.91,Industrial,30301,"82.593,46",Noor Nwosu
+07/11/2025,ben.abel83@example.com,2026-03-13 12:06:43,#REF!,Commercial,60614,"41.048,69",Elif Ortiz
+10/01/2021,luca.moreau86@example.com,2026-10-15 16:11:29,2023-07-31,Residential,7030,"23.461,31",Elif Dunne
+01/05/2022,ben.castro74@example.com,2026-05-13 19:01:19,Jensen,Residential,73301,"48.592,67",Elif Jensen
+06/09/2025,ben.brandt50@example.com,2026-02-19 06:11:51,51.74,Industrial,1002,"144.008,25",Mona Petrov
+12/07/2025,jon.eze68@example.com,2026-06-14 17:01:06,399.15,Industrial,2134,"238.325,25",Dev Eze
+06/10/2022,priya.gallo6@example.com,2026-10-22 17:38:46,452.59,Residential,94110,"160.783,51",Hiro Ortiz
+01/08/2024,grace.moreau99@example.com,2026-03-22 02:41:02,#REF!,Residential,501,"169.938,92",Omar Dunne
+08/09/2024,noor.dunne96@example.com,2026-04-28 18:12:33,354.42,Residential,60614,"141.235,64",Ines Brandt
+03/06/2025,priya.ortiz15@example.com,2026-03-12 05:21:31,#REF!,Residential,501,"241.295,51",Farid Gallo
+02/05/2021,luca.petrov1@example.com,2026-02-26 22:59:24,Dunne,Commercial,60614,"47.837,45",Dev Moreau
+08/07/2022,ines.koval59@example.com,2026-03-05 12:38:35,698.89,Industrial,60614,"241.598,01",Grace Brandt
+08/01/2025,dev.gallo95@example.com,2026-07-12 18:08:59,513.75,Resiedntial,60614,"56.087,13",Noor Nwosu
+08/06/2022,ana.ito29@example.com,2026-09-10 21:48:50,2022-09-25,Residential,30301,"187.462,29",Jon Ito
+01/08/2024,ben.jensen86@example.com,2026-06-02 17:14:55,Road,Commercial,7030,"16.505,71",Elif Ito
+03/08/2026,kemi.haas70@example.com,2026-07-23 17:06:54,Petrov,Commercial,6510,"78.443,32",Ana Ito
+10/07/2025,farid.gallo87@example.com,2026-08-22 08:07:47,2021-06-19,Government,1002,"237.379,86",Omar Ortiz
+01/02/2021,ines.nwosu65@example.com,2026-10-10 14:44:46,797.35,Commercial,10001,"125.774,61",Mona Moreau
+02/10/2023,dev.haas23@example.com,2026-08-13 09:59:56,Eze,Industrial,6510,"85.943,12",Ben Brandt
+03/10/2023,dev.abel64@example.com,2026-10-04 00:24:14,#REF!,Government,10001,"235.605,35",Ana Lindqvist
+08/08/2023,farid.castro55@example.com,2026-06-13 01:57:25,#REF!,Government,30301,"122.736,08",Noor Abel
+09/10/2021,ana.koval1@example.com,2026-01-29 16:11:34,327.36,Industrial,60614,"246.832,67",Ana Koval
+06/07/2024,kemi.ortiz63@example.com,2026-03-15 18:27:19,207.55,Industrial,73301,"50.798,75",Ana Petrov
+07/04/2025,grace.gallo64@example.com,2026-10-12 02:50:56,283.37,Commercial,1002,"104.928,37",Dev Ito
+05/05/2024,chloe.lindqvist9@example.com,2026-09-11 17:08:37,214.44,Industrial,10001,"160.715,21",Grace Petrov
+06/03/2021,ines.abel71@example.com,2026-08-19 02:34:43,#REF!,Government,80202,"44.486,94",Jon Lindqvist
+03/10/2021,priya.ortiz38@example.com,2026-04-16 23:41:40,Road,Commercial,94110,"168.505,16",Ines Eze
+05/01/2021,ines.gallo75@example.com,2026-01-26 21:42:24,354.93,Industrial,6510,"159.516,72",Kemi Lindqvist
+05/01/2025,ana.petrov19@example.com,2026-02-15 03:20:17,425.9,Residential,94110,"26.082,77",Omar Petrov
+10/07/2026,hiro.eze11@example.com,2026-07-07 14:54:26,126.77,Industrial,501,"24.352,56",Hiro Lindqvist
+02/04/2022,luca.jensen13@example.com,2026-08-18 06:46:53,Nwosu,Industiral,80202,"124.392,16",Jon Eze
+05/12/2021,ben.castro88@example.com,2026-10-15 07:40:17,345.05,Industrial,73301,"243.888,39",Omar Brandt
+04/07/2021,chloe.jensen14@example.com,2026-01-30 01:21:53,Road,Residential,8540,"76.983,25",Noor Castro
+04/09/2025,mona.gallo31@example.com,2026-01-07 09:13:01,689.7,Industrial,7030,"206.612,18",Ben Ortiz
+02/12/2021,ines.moreau19@example.com,2026-04-20 02:11:12,Abel,Government,10001,"143.066,66",Noor Jensen
+08/03/2021,kemi.castro38@example.com,2026-09-05 12:16:51,655.74,Residential,73301,"91.103,16",Luca Gallo
+06/05/2024,ben.farrow93@example.com,2026-04-02 11:06:22,257.87,Industrial,60614,"216.977,56",Hiro Farrow
+12/07/2023,grace.gallo64@example.com,2026-10-13 00:43:44,412.61,Government,60614,"6.302,59",Grace Ortiz
+05/05/2026,kemi.brandt19@example.com,2026-04-23 11:28:34,2025-03-10,Government,30301,"51.801,96",Chloe Jensen
+09/11/2024,hiro.gallo77@example.com,2026-10-16 15:34:12,Rail,Industrial,8540,"5.353,40",Grace Abel
+12/09/2024,grace.dunne84@example.com,2026-03-17 09:10:58,2023-03-05,Industrial,80202,"181.320,33",Grace Nwosu
+12/04/2025,ben.haas68@example.com,2026-03-27 06:43:31,472.47,Commercial,10001,"233.734,83",Elif Moreau
+12/04/2022,ana.eze46@example.com,2026-03-20 04:02:20,Gallo,Govenment,1002,"92.485,17",Noor Haas
+06/06/2024,mona.koval78@example.com,2026-03-29 08:44:29,Road,Industrial,73301,"205.742,05",Chloe Eze
+07/06/2024,elif.dunne41@example.com,2026-02-02 19:17:27,Sea,Industrial,60614,"101.921,36",Mona Nwosu
+05/06/2023,ben.nwosu20@example.com,2026-08-25 06:15:18,98.22,Commercial,10001,"33.083,16",Ana Haas
+04/09/2025,omar.nwosu98@example.com,2026-10-16 04:39:46,#REF!,Commercial,30301,"132.259,42",Jon Farrow
+11/01/2026,luca.eze3@example.com,2026-08-20 05:00:10,182.02,Commercial,10001,"144.057,46",Priya Nwosu
+12/02/2021,hiro.abel15@example.com,2026-02-12 05:18:16,514.13,Residential,6510,"134.968,67",Luca Jensen
+08/05/2026,chloe.eze16@example.com,2026-01-15 07:32:28,552.74,Commercial,2134,"132.890,93",Omar Petrov
+02/11/2025,ana.gallo85@example.com,2026-01-26 17:21:45,433.62,Commercial,6510,"205.026,85",Mona Nwosu
+12/12/2024,mona.castro89@example.com,2026-05-24 11:50:48,672.38,Commercial,80202,"182.745,50",Ana Eze
+06/03/2022,ana.haas20@example.com,2026-02-12 14:12:15,500.53,Commercial,30301,"24.384,25",Ines Ortiz
+06/02/2021,omar.lindqvist64@example.com,2026-01-24 23:13:15,756.73,Government,8540,"235.537,48",Grace Haas
+03/07/2021,noor.koval16@example.com,2026-06-14 15:07:44,#REF!,Residential,10001,"101.543,85",Grace Haas
+05/06/2021,jon.nwosu58@example.com,2026-04-27 00:08:23,148.78,Government,30301,"94.767,29",Chloe Koval
+06/07/2023,dev.dunne3@example.com,2026-04-03 10:05:29,67.64,Government,7030,"117.451,83",Priya Eze
+02/09/2021,elif.nwosu29@example.com,2026-04-06 03:12:05,Road,Government,7030,"199.025,24",Ben Jensen
+02/01/2021,noor.ortiz70@example.com,2026-10-04 22:21:53,147.21,Residential,60614,"50.696,74",Ines Ortiz
+12/04/2021,mona.farrow63@example.com,2026-05-10 00:16:36,705.83,Industrial,80202,"185.420,32",Hiro Moreau
+08/04/2024,dev.petrov60@example.com,2026-09-22 05:01:40,Sea,Government,7030,"162.805,51",Dev Haas
+05/08/2021,dev.petrov62@example.com,2026-06-27 23:03:17,651.81,Comercial,30301,"214.997,15",Kemi Moreau
+02/10/2026,luca.castro51@example.com,2026-06-15 22:51:18,534.93,Industrial,6510,"112.667,77",Luca Ortiz
+07/03/2023,noor.eze66@example.com,2026-05-03 10:31:42,349.34,Government,94110,"113.183,14",Ana Castro
+06/10/2026,dev.haas89@example.com,2026-09-11 20:05:58,29.88,Industial,2134,"64.687,71",Kemi Gallo
+02/05/2026,chloe.moreau72@example.com,2026-04-12 09:59:17,158.87,Industrial,10001,"174.908,66",Luca Koval
+07/12/2022,ben.lindqvist6@example.com,2026-10-11 12:55:22,538.26,Residential,501,"198.816,77",Hiro Petrov
+08/12/2021,noor.gallo91@example.com,2026-01-27 15:44:24,270.48,Industrial,10001,"236.873,59",Kemi Dunne
+08/10/2026,dev.farrow71@example.com,2026-01-19 06:26:19,687.44,Residential,80202,"180.043,47",Grace Jensen
+09/11/2021,elif.haas40@example.com,2026-07-23 12:21:36,329.78,Industrial,80202,"56.551,83",Hiro Koval
+07/12/2025,elif.lindqvist85@example.com,2026-04-17 22:15:04,2025-11-02,Commercial,1002,"205.786,32",Hiro Abel
+12/11/2023,noor.dunne96@example.com,2026-01-15 03:43:50,373.59,Industrial,7030,"196.077,55",Omar Lindqvist
+10/01/2026,chloe.eze1@example.com,2026-08-02 17:39:27,417.32,Industrial,7030,"22.344,30",Noor Gallo
+08/10/2026,farid.koval61@example.com,2026-10-17 15:05:54,880.21,Residential,30301,"155.862,67",Priya Brandt
+12/07/2024,hiro.haas67@example.com,2026-06-21 13:06:23,431.93,Industrial,2134,"121.064,54",Hiro Moreau
+09/03/2023,grace.eze46@example.com,2026-03-30 10:51:36,Road,Governmnet,2134,"171.199,25",Chloe Moreau
+07/05/2026,kemi.eze83@example.com,2026-01-17 14:28:18,790.55,Resdiential,30301,"111.336,80",Grace Ito
+09/01/2025,noor.lindqvist42@example.com,2026-07-06 01:55:48,112.49,Industrial,80202,"53.352,62",Priya Petrov
+05/01/2025,elif.abel12@example.com,2026-08-18 06:31:42,2022-02-20,Industrial,80202,"116.140,13",Luca Petrov
+06/08/2025,luca.jensen60@example.com,2026-05-05 12:34:53,47.89,Industrial,7030,"111.193,59",Ana Nwosu
+03/03/2023,ines.ortiz67@example.com,2026-10-19 16:31:41,456.51,Commercial,94110,"167.748,13",Hiro Abel
+02/07/2023,mona.haas40@example.com,2026-03-08 23:54:45,2024-01-10,Government,6510,"23.905,69",Grace Brandt
+08/02/2023,dev.dunne80@example.com,2026-01-01 13:05:00,744.39,Residential,94110,"195.539,33",Elif Eze
+01/02/2022,kemi.castro62@example.com,2026-04-14 20:25:52,Sea,Residential,80202,"110.739,59",Omar Koval
+02/11/2021,hiro.dunne16@example.com,2026-09-13 09:24:47,Air,Government,1002,"80.404,05",Luca Lindqvist
+02/08/2022,mona.moreau65@example.com,2026-06-15 04:34:20,201.18,Industrial,7030,"100.431,64",Ben Gallo
+12/06/2025,priya.petrov37@example.com,2026-10-06 14:10:10,2023-11-28,Residential,2134,"215.123,91",Kemi Petrov
+09/03/2025,ines.jensen79@example.com,2026-09-16 09:06:32,178.09,Residential,73301,"77.201,59",Jon Nwosu
+12/01/2026,elif.ito59@example.com,2026-02-25 16:44:31,124.29,Commercial,2134,"169.828,11",Chloe Koval
+11/08/2026,dev.koval88@example.com,2026-07-08 09:24:49,329.76,Commercial,60614,"70.618,04",Grace Farrow
+09/11/2021,noor.dunne71@example.com,2026-03-06 11:13:58,Road,Residential,501,"33.312,13",Dev Lindqvist
+11/10/2022,kemi.jensen11@example.com,2026-07-10 19:26:40,567.64,Residential,7030,"82.257,31",Grace Castro
+06/05/2021,ana.dunne37@example.com,2026-03-06 09:26:56,2026-06-02,Commercial,80202,"85.329,11",Kemi Dunne
+04/07/2025,mona.petrov67@example.com,2026-08-23 13:43:21,110.4,Government,73301,"92.532,38",Ben Moreau
+09/09/2025,ben.farrow73@example.com,2026-10-05 00:49:19,#REF!,Commercial,501,"165.508,78",Ana Petrov
+05/10/2025,farid.ortiz75@example.com,2026-08-23 14:33:32,878.99,Government,7030,"25.789,41",Hiro Castro
+07/03/2024,jon.haas55@example.com,2026-04-15 05:55:10,569.55,Industiral,94110,"65.938,62",Noor Nwosu
+07/08/2024,chloe.lindqvist15@example.com,2026-10-09 10:24:36,Rail,Government,73301,"47.409,13",Priya Koval
+04/06/2026,kemi.gallo99@example.com,2026-07-10 19:41:13,Castro,Commercial,73301,"236.616,36",Jon Eze
+12/02/2024,dev.eze58@example.com,2026-05-21 22:44:54,896.28,Industrial,10001,"185.417,56",Ines Abel
+08/05/2021,hiro.lindqvist6@example.com,2026-05-10 11:24:55,234.58,Industrial,60614,"71.045,53",Omar Koval
+02/03/2026,priya.ito67@example.com,2026-04-09 10:39:21,198.26,Industrial,1002,"223.594,84",Luca Brandt
+02/07/2026,mona.jensen93@example.com,2026-08-24 23:11:30,64.63,Industrial,94110,"38.816,07",Elif Lindqvist
+09/01/2022,jon.koval27@example.com,2026-08-24 04:53:19,2025-03-23,Residential,60614,"125.046,45",Ben Gallo
+03/08/2026,ben.brandt56@example.com,2026-02-12 01:23:49,#REF!,Commercial,60614,"248.873,58",Ines Gallo
+03/11/2026,mona.nwosu67@example.com,2026-03-20 02:56:31,Koval,Residential,30301,"110.250,93",Ana Haas
+08/05/2022,chloe.nwosu94@example.com,2026-09-12 01:00:03,506.07,Government,501,"80.368,73",Priya Ortiz
+02/08/2025,ana.farrow75@example.com,2026-01-13 16:25:05,Abel,Commercial,6510,"148.202,09",Farid Jensen
+05/07/2022,ben.ito15@example.com,2026-05-15 15:54:20,715.44,Industrial,7030,"75.520,61",Ben Castro
+04/11/2021,ben.jensen99@example.com,2026-05-07 14:59:57,Air,Commercial,7030,"66.995,46",Chloe Jensen
+01/02/2026,priya.gallo24@example.com,2026-03-26 06:13:06,20.7,Industrial,2134,"237.428,49",Chloe Koval
+05/10/2025,ines.brandt83@example.com,2026-08-19 12:53:50,699.28,Commercial,1002,"59.920,18",Mona Koval
+06/12/2023,farid.nwosu9@example.com,2026-07-12 08:42:14,842.93,Industrial,30301,"193.056,08",Hiro Nwosu

@@ -1,121 +1,121 @@
-visit_dow,visit_date,end_date,updated_at,site_type,line_count,ver,customer_name,height
-2,2026-08-03,2023-01-02,1772688106000,Commercial,28,0,Jürgen Köhler,60 in
-6,2026-12-04,1900-01-01,1784706985000,Government,36,0,JosÃ© NÃºÃ±ez,61 in
-4,2026-06-03,1900-01-01,1771034235000,Commercial,37,0,ChloÃ© LefÃ¨vre,71 in
-6,2026-03-13,2023-08-18,1772913589000,Commercial,21,0,Renée François,67 in
-1,2026-11-29,2025-10-12,1779091332000,Industrial,40,0,NoÃ©mie GÃ¼ell,65 in
-4,2026-10-07,1900-01-01,1770567205000,Commercial,24,0,IÃ±igo PeÃ±a,"6'1"""
-4,2026-03-18,1900-01-01,1792382312000,Residential,18,0,Søren Aaberg,"5'9"""
-6,2026-12-04,2023-02-15,1792390303000,Industrial,1,0,NoÃ©mie GÃ¼ell,165.1 cm
-3,2026-04-07,2026-01-02,1781724720000,Commercial,8,0,Renée François,"5'3"""
-1,2026-10-04,2022-04-27,1784129489000,Residential,19,0,JosÃ© NÃºÃ±ez,165.1 cm
-7,2026-03-07,2026-05-17,1789541441000,Residential,39,0,Renée François,172.7 cm
-6,2026-12-18,2024-05-30,1784549324000,Industrial,36,0,SÃ¸ren Aaberg,180.3 cm
-7,2026-05-23,1900-01-01,1792123591000,Industrial,38,0,Jürgen Köhler,175.3 cm
-3,2026-01-27,2026-03-07,1783214337000,Residential,21,0,ZoÃ« MÃ¼ller,"6'3"""
-2,2026-11-23,2025-09-09,1783119255000,Residential,31,0,SÃ¸ren Aaberg,"4'10"""
-2,2026-03-23,2026-11-25,1779020407000,Residential,4,0,Iñigo Peña,70 in
-1,2026-05-31,2026-10-09,1779649500000,Residential,27,0,Søren Aaberg,59 in
-5,2026-05-28,1900-01-01,1784465891000,Commercial,23,0,Jürgen Köhler,152.4 cm
-4,2026-09-30,1900-01-01,1779086240000,Industrial,10,0,SÃ¸ren Aaberg,74 in
-4,2026-06-10,1900-01-01,1792749247000,Resiedntial,11,0,ChloÃ© LefÃ¨vre,147.3 cm
-7,2026-10-17,2023-12-22,1790747528000,Residential,19,0,RenÃ©e FranÃ§ois,162.6 cm
-1,2026-04-26,1900-01-01,1786229547000,Commercial,22,0,José Núñez,147.3 cm
-5,2026-08-13,1900-01-01,1777090208000,Commercial,5,0,SÃ¸ren Aaberg,"6'6"""
-3,2026-10-06,2024-11-05,1775403067000,Government,2,0,ChloÃ© LefÃ¨vre,185.4 cm
-5,2026-06-11,2025-06-23,1788969140000,Commercial,17,0,ChloÃ© LefÃ¨vre,"6'2"""
-1,2026-05-24,2025-10-11,1792195118000,Industrial,16,0,RenÃ©e FranÃ§ois,65 in
-5,2026-07-23,2022-06-05,1777399217000,Government,29,0,JÃ¼rgen KÃ¶hler,"6'4"""
-2,2026-01-12,2022-12-30,1787905235000,Government,26,0,Iñigo Peña,"4'10"""
-6,2026-04-03,1900-01-01,1772875733000,Industrial,18,0,IÃ±igo PeÃ±a,78 in
-5,2026-09-03,2025-08-28,1776965352000,Industrial,28,0,Jürgen Köhler,190.5 cm
-6,2026-09-04,1900-01-01,1767641388000,Commercial,36,0,SÃ¸ren Aaberg,"5'0"""
-2,2026-09-21,1900-01-01,1784168794000,Industrial,34,0,José Núñez,"6'1"""
-3,2026-05-12,2023-08-08,1767325024000,Government,26,0,ChloÃ© LefÃ¨vre,162.6 cm
-1,2026-02-22,2021-10-02,1786873007000,Commercial,14,0,José Núñez,198.1 cm
-1,2026-05-17,1900-01-01,1785555304000,Industrial,37,0,SÃ¸ren Aaberg,"5'6"""
-7,2026-12-26,2022-08-05,1784314716000,Residential,15,0,Zoë Müller,"5'8"""
-2,2026-03-09,2026-06-05,1786822864000,Industrial,24,0,Søren Aaberg,"5'2"""
-4,2026-08-05,2022-05-14,1787639217000,Industiral,29,0,Iñigo Peña,58 in
-6,2026-03-13,1900-01-01,1781759527000,Industrial,5,0,Søren Aaberg,"6'4"""
-6,2026-09-25,2022-03-05,1787193603000,Residential,15,0,JÃ¼rgen KÃ¶hler,69 in
-1,2026-11-08,1900-01-01,1787085686000,Industrial,28,0,Noémie Güell,188.0 cm
-4,2026-06-17,2022-05-06,1781249673000,Government,14,0,Noémie Güell,193.0 cm
-3,2026-08-18,2024-02-15,1772394930000,Residential,12,0,Søren Aaberg,61 in
-2,2026-07-27,2022-02-24,1772019603000,Industrial,34,0,José Núñez,72 in
-7,2026-07-18,1900-01-01,1774084264000,Government,20,0,Zoë Müller,73 in
-5,2026-10-15,1900-01-01,1783143902000,Government,9,0,Jürgen Köhler,157.5 cm
-1,2026-05-17,2024-08-25,1773598889000,Industrial,13,0,NoÃ©mie GÃ¼ell,69 in
-7,2026-11-28,2025-10-15,1768114307000,Industrial,12,0,NoÃ©mie GÃ¼ell,71 in
-5,2026-01-08,1900-01-01,1775425096000,Commercial,11,0,RenÃ©e FranÃ§ois,195.6 cm
-7,2026-08-29,1900-01-01,1791337986000,Govenment,31,0,Renée François,60 in
-3,2026-11-10,2022-07-13,1778552067000,Industrial,22,0,IÃ±igo PeÃ±a,160.0 cm
-5,2026-12-03,2022-04-11,1792322175000,Industrial,14,0,José Núñez,"5'0"""
-6,2026-12-18,1900-01-01,1775921282000,Commercial,28,0,JÃ¼rgen KÃ¶hler,60 in
-2,2026-03-02,2022-03-25,1779674875000,Commercial,19,0,SÃ¸ren Aaberg,"5'6"""
-4,2026-09-16,2022-01-14,1771500469000,Commercial,33,0,ZoÃ« MÃ¼ller,149.9 cm
-7,2026-10-10,1900-01-01,1771352709000,Residential,5,0,ZoÃ« MÃ¼ller,167.6 cm
-5,2026-12-24,2023-09-05,1782233648000,Commercial,15,0,JÃ¼rgen KÃ¶hler,61 in
-2,2026-01-26,2022-04-04,1789482113000,Commercial,5,0,JosÃ© NÃºÃ±ez,"4'10"""
-2,2026-02-23,2022-01-04,1780138481000,Commercial,9,0,JÃ¼rgen KÃ¶hler,182.9 cm
-5,2026-07-09,1900-01-01,1772030153000,Commercial,10,0,JosÃ© NÃºÃ±ez,66 in
-5,2026-03-12,2021-07-02,1788017188000,Government,36,0,Iñigo Peña,"5'11"""
-3,2026-11-10,2025-07-01,1769113408000,Residential,10,0,Søren Aaberg,62 in
-4,2026-10-07,2022-08-16,1791917218000,Government,14,0,José Núñez,"6'6"""
-1,2026-02-08,2024-03-12,1786517297000,Government,19,0,JÃ¼rgen KÃ¶hler,70 in
-4,2026-01-14,2025-09-03,1773890709000,Government,25,0,JosÃ© NÃºÃ±ez,195.6 cm
-5,2026-03-12,1900-01-01,1777758655000,Residential,28,0,IÃ±igo PeÃ±a,"5'4"""
-7,2026-12-19,2021-03-01,1782247644000,Industrial,29,0,Zoë Müller,180.3 cm
-6,2026-09-18,2023-04-29,1782110069000,Government,13,0,IÃ±igo PeÃ±a,170.2 cm
-6,2026-06-05,2025-06-13,1788504071000,Comercial,16,0,JÃ¼rgen KÃ¶hler,147.3 cm
-5,2026-10-08,2021-07-14,1786715245000,Industrial,16,0,ZoÃ« MÃ¼ller,58 in
-1,2026-07-12,2026-07-31,1782648520000,Government,19,0,Renée François,180.3 cm
-4,2026-06-17,2022-02-11,1793006088000,Industial,6,0,Iñigo Peña,"4'11"""
-2,2026-12-28,1900-01-01,1768109077000,Industrial,3,0,RenÃ©e FranÃ§ois,75 in
-5,2026-07-23,2021-05-25,1773565149000,Residential,34,0,Iñigo Peña,182.9 cm
-6,2026-09-25,2026-12-13,1789328001000,Industrial,3,0,Zoë Müller,167.6 cm
-3,2026-03-17,2021-10-06,1777048570000,Residential,8,0,Chloé Lefèvre,"5'7"""
-7,2026-09-26,2026-01-29,1788800277000,Industrial,22,0,Noémie Güell,"5'4"""
-2,2026-01-05,2021-04-03,1793120707000,Commercial,20,0,Zoë Müller,"5'8"""
-6,2026-10-09,2021-01-21,1786981267000,Industrial,12,0,Zoë Müller,177.8 cm
-2,2026-04-20,2025-05-06,1793075655000,Industrial,13,0,Chloé Lefèvre,147.3 cm
-4,2026-03-11,1900-01-01,1787581722000,Residential,13,0,Jürgen Köhler,165.1 cm
-4,2026-02-18,1900-01-01,1789122717000,Industrial,26,0,Renée François,"6'0"""
-6,2026-06-26,1900-01-01,1775567227000,Governmnet,27,0,SÃ¸ren Aaberg,"5'2"""
-2,2026-09-14,2021-10-31,1790308622000,Resdiential,24,0,Renée François,73 in
-1,2026-06-21,2024-07-25,1767783947000,Industrial,31,0,NoÃ©mie GÃ¼ell,77 in
-1,2026-05-17,2026-12-20,1785277821000,Industrial,35,0,ZoÃ« MÃ¼ller,"6'5"""
-3,2026-07-28,2025-05-03,1777697403000,Industrial,38,0,Renée François,"5'2"""
-1,2026-09-27,1900-01-01,1788352784000,Commercial,15,0,IÃ±igo PeÃ±a,58 in
-7,2026-03-21,1900-01-01,1773805855000,Government,8,0,IÃ±igo PeÃ±a,"6'4"""
-2,2026-04-06,2021-07-04,1783628982000,Residential,17,0,SÃ¸ren Aaberg,"5'5"""
-2,2026-10-05,2022-10-29,1772940904000,Residential,13,0,Jürgen Köhler,78 in
-2,2026-06-15,2022-08-22,1769636120000,Government,1,0,José Núñez,"5'8"""
-2,2026-07-20,2024-10-13,1785804160000,Industrial,34,0,Chloé Lefèvre,154.9 cm
-3,2026-02-10,2023-04-26,1782484703000,Residential,13,0,NoÃ©mie GÃ¼ell,190.5 cm
-3,2026-10-20,2023-08-13,1767393806000,Residential,36,0,Renée François,162.6 cm
-1,2026-07-05,2023-05-13,1785707484000,Commercial,27,0,Chloé Lefèvre,72 in
-5,2026-06-04,2021-06-22,1772612941000,Commercial,26,0,Zoë Müller,66 in
-1,2026-07-05,2023-04-27,1788511758000,Residential,1,0,IÃ±igo PeÃ±a,78 in
-4,2026-08-19,2022-04-27,1783194031000,Residential,30,0,ZoÃ« MÃ¼ller,172.7 cm
-7,2026-12-19,1900-01-01,1783721516000,Commercial,17,0,ZoÃ« MÃ¼ller,"6'3"""
-5,2026-01-22,2025-08-23,1775491378000,Government,14,0,Noémie Güell,147.3 cm
-3,2026-08-11,2025-05-01,1785027535000,Commercial,37,0,SÃ¸ren Aaberg,154.9 cm
-2,2026-10-05,1900-01-01,1776734446000,Government,35,0,JÃ¼rgen KÃ¶hler,70 in
-4,2026-05-06,2025-10-08,1785474781000,Industiral,31,0,ChloÃ© LefÃ¨vre,193.0 cm
-6,2026-12-04,1900-01-01,1784722380000,Government,2,0,Chloé Lefèvre,67 in
-3,2026-12-22,2024-12-24,1779427123000,Commercial,13,0,ZoÃ« MÃ¼ller,"5'3"""
-6,2026-06-26,2026-06-27,1772579277000,Industrial,19,0,Chloé Lefèvre,"6'6"""
-7,2026-09-19,2021-09-08,1768629762000,Industrial,37,0,IÃ±igo PeÃ±a,"4'10"""
-2,2026-07-13,2021-05-28,1772434282000,Industrial,14,0,JosÃ© NÃºÃ±ez,"5'10"""
-2,2026-06-15,2023-10-09,1788621534000,Industrial,3,0,Søren Aaberg,193.0 cm
-5,2026-10-29,2024-04-07,1787286651000,Residential,9,0,Søren Aaberg,"5'4"""
-2,2026-02-09,1900-01-01,1768578274000,Commercial,24,0,Renée François,59 in
-3,2026-06-09,2026-06-15,1786176749000,Residential,13,0,Renée François,172.7 cm
-2,2026-05-25,2026-03-23,1785573444000,Government,24,0,RenÃ©e FranÃ§ois,72 in
-4,2026-06-10,2024-03-20,1784701285000,Commercial,28,0,Renée François,162.6 cm
-5,2026-06-25,2024-03-19,1778660938000,Industrial,3,0,JosÃ© NÃºÃ±ez,64 in
-4,2026-10-28,2024-06-09,1785334874000,Commercial,35,0,Zoë Müller,198.1 cm
-5,2026-09-17,1900-01-01,1784094444000,Industrial,13,0,Iñigo Peña,"6'0"""
-7,2026-07-11,2023-10-30,1786551165000,Commercial,25,0,ZoÃ« MÃ¼ller,"5'9"""
-5,2026-03-26,1900-01-01,1782666107000,Industrial,33,0,Iñigo Peña,66 in
+detail,amount,currency,is_active,state,zip,line_total_usd,qty,unit_price,total,member,category
+TBD,480.16,EUR,No,NY,10001,124.48,4,31.12,458.73,"Dunne, Priya (1979-10-04)",Corporate  
+Event,703.2,EUR,TRUE,CO,80202,17.3,1,17.3,6.92,"Eze, Priya (2004-03-27)",Leisure
+Corporate,899.76,GBP,Y,CA,94110,106.48,4,26.62,758.07,"Brandt, Dev (1974-03-25)",Event
+test,821.85,GBP,N,NJ,07030,18.0,8,2.25,706.94,"Petrov, Omar (2003-04-20)",Leisure
+Leisure,209.38,EUR,N,NJ,07030,122.76,12,10.23,293.19,"Jensen, Kemi (1953-05-03)",Corporate  
+.,499.69,USD,FALSE,NY,10001,272.8,1,27.28,16.79,"Farrow, Chloe (1970-09-12)",Event
+asdf,46.63,EUR,TRUE,NJ,07030,24.08,6,38.47,376.17,"Dunne, Ben (1968-04-16)",Event
+Event,891.79,EUR,no,TX,73301,58.76,4,14.69,667.35,"Dunne, Kemi (1997-04-19)",CORPORATE
+TBD,596.16,USD,Y,IL,60614,41.64,12,3.47,892.28,"Castro, Dev (1988-04-30)",Leisure
+Event,100.33,GBP,Y,CO,73301,37.62,2,18.81,760.65,"Farrow, Hiro (1975-08-06)", Corporate
+xxx,888.76,GBP,TRUE,NY,10001,210.49,7,30.07,346.76,"Eze, Ana (1999-04-10)",Leisure
+TBD,776.29,EUR,No,IL,60614,251.02,7,35.86,191.34,"Moreau, Kemi (1977-09-30)",Corporate
+asdf,162.29,EUR,No,NY,10001,305.1,9,33.9,634.56,"Petrov, Hiro (1992-09-25)",Event
+asdf,413.93,EUR,no,NY,10001,28.45,1,28.45,578.66,"Eze, Noor (1965-07-26)",Leisure
+todo,194.19,USD,N,CA,94110,145.36,8,18.17,797.8,"Dunne, Omar (1982-05-07)", Group
+Event,118.14,GBP,No,IL,60614,124.1,10,12.41,266.31,"Nwosu, Noor (1957-02-09)",Group
+test,712.17,GBP,FALSE,IL,60614,12.68,1,12.68,348.95,"Abel, Ben (1971-08-13)",Corporate
+.,583.96,GBP,Yes,NY,10001,177.65,5,35.53,157.41,"Petrov, Ben (1996-08-13)",LEISURE
+asdf,679.18,GBP,Y,NY,10001,27.4,5,5.48,790.14,"Ortiz, Noor (1986-04-20)",Group
+xxx,468.51,USD,Yes,IL,60614,221.48,7,31.64,213.68,"Abel, Jon (1999-12-17)", Leisure
+todo,195.48,GBP,yes,IL,60614,16.12,2,8.06,516.06,"Ito, Noor (1950-12-21)",event
+Corporate,313.68,USD,Yes,TX,73301,91.91,7,13.13,39.73,"Ito, Priya (2001-11-23)",group
+Leisure,268.02,EUR,1,MA,10001,239.36,8,29.92,846.45,"Gallo, Hiro (1984-03-31)",GROUP
+xxx,563.52,EUR,FALSE,NY,80202,13.64,4,3.41,283.6,"Eze, Luca (1980-06-23)",Event
+.,187.32,EUR,Y,GA,30301,182.7,7,26.1,372.98,"Koval, Farid (1969-09-08)",Event
+xxx,103.63,EUR,TRUE,NJ,07030,51.34,2,25.67,612.42,"Farrow, Ben (1996-06-07)",Corporate
+TBD,208.83,GBP,1,MA,02134,180.27,9,20.03,262.98,"Jensen, Ben (1994-01-18)",Event
+test,267.61,USD,1,GA,30301,1948.0,10,19.47,376.24,"Gallo, Elif (1954-06-08)",corporate
+todo,760.71,GBP,N,NJ,07030,65.4,3,21.8,667.48,"Castro, Farid (1959-04-09)",Corporate
+test,115.73,GBP,FALSE,NJ,07030,1372.0,10,13.71,776.41,"Haas, Hiro (1986-10-03)",Group
+Group,31.49,GBP,No,GA,30301,145.04,7,20.72,621.75,"Dunne, Ben (1957-05-29)",Leisure
+.,413.2,GBP,TRUE,GA,30301,204.68,7,29.24,826.73,"Lindqvist, Priya (1976-08-24)",Leisure  
+todo,569.91,EUR,no,TX,80202,75.68,8,9.46,37.76,"Nwosu, Priya (1972-02-25)",Corporate  
+.,186.1,EUR,FALSE,TX,73301,140.22,6,23.37,561.61,"Eze, Ines (1965-08-22)",LEISURE
+xxx,722.76,GBP,no,IL,60614,31.36,8,3.92,571.57,"Jensen, Priya (2001-09-09)",Corporate
+Event,283.88,GBP,N,NY,10001,247.14,9,27.46,544.0,"Gallo, Mona (1989-01-12)",EVENT
+.,580.22,USD,0,CA,94110,353.43,11,32.13,621.92,"Jensen, Jon (1950-10-04)",Event  
+test,747.4,GBP,FALSE,CA,94110,168.41,11,15.31,608.37,"Castro, Hiro (1951-05-24)",corporate
+Group,626.97,GBP,FALSE,MA,02134,34.02,1,34.02,796.94,"Abel, Mona (1960-04-06)",Leisure
+test,789.57,GBP,N,IL,60614,266.8,10,26.68,160.06,"Gallo, Noor (1993-09-27)",Group
+test,386.56,USD,no,MA,02134,43.29,3,14.43,671.64,"Eze, Noor (1967-03-11)",LEISURE
+.,93.39,GBP,0,CA,94110,319.9,10,31.99,881.15,"Farrow, Ines (1994-10-04)",Event
+TBD,506.03,USD,Y,MA,02134,235.04,8,29.38,515.66,"Eze, Ines (2003-12-19)",Event
+.,739.72,USD,1,CA,94110,84.84,7,12.12,211.66,"Eze, Hiro (1962-06-12)",Leisure
+TBD,635.41,GBP,Yes,NY,10001,73.92,4,18.48,25.77,"Haas, Grace (1973-08-11)",Corporate
+asdf,271.72,USD,N,NJ,07030,179.82,9,19.98,712.6,"Ortiz, Noor (1950-12-18)",corporate
+asdf,699.71,GBP,N,IL,60614,74.47,11,6.77,158.8,"Eze, Noor (1958-08-26)",Group
+Event,384.98,GBP,TRUE,TX,73301,328.23,9,36.47,640.02,"Haas, Farid (1981-12-27)",Leisure
+test,881.25,USD,0,GA,30301,51.69,3,17.23,554.04,"Lindqvist, Ana (1954-12-09)",Event
+todo,618.4,GBP,yes,CA,94110,419.76,11,38.16,300.61,"Farrow, Mona (1984-04-07)",Leisure
+.,856.62,USD,TRUE,NY,10001,82.98,6,13.83,334.55,"Dunne, Elif (1997-08-15)",Group
+test,598.16,USD,FALSE,CO,80202,71.3,2,35.65,354.44,"Haas, Kemi (2001-06-17)",Event
+test,251.01,GBP,Yes,NY,10001,102.19,11,9.29,882.05,"Moreau, Noor (1991-12-23)",Corporate
+test,44.69,EUR,0,NY,10001,74.52,9,8.28,96.55,"Haas, Elif (1966-01-06)",Group
+TBD,537.38,GBP,no,MA,02134,12.72,1,12.72,845.69,"Moreau, Ana (1992-03-09)",Corporate
+Corporate,224.73,GBP,No,NY,10001,121.5,6,20.25,695.91,"Gallo, Jon (1990-02-09)", Event
+TBD,505.67,GBP,N,GA,30301,13.5,3,4.5,303.58,"Haas, Jon (1983-05-22)",Event
+asdf,787.63,USD,yes,MA,02134,114.85,5,22.97,291.13,"Gallo, Mona (1976-02-06)",LEISURE
+Event,889.99,USD,no,NJ,07030,136.8,10,13.68,600.28,"Koval, Priya (2003-11-30)",EVENT
+Leisure,697.85,EUR,0,CO,80202,13.48,2,6.74,731.07,"Koval, Jon (1961-02-18)",Leisure
+.,671.73,USD,Y,NJ,07030,23.15,6,36.91,218.65,"Nwosu, Elif (1986-09-09)",event
+asdf,506.1,EUR,0,MA,02134,305.36,8,38.17,261.54,"Haas, Hiro (1951-08-06)",LEISURE
+xxx,17.62,USD,1,MA,30301,95.06,7,13.58,203.63,"Lindqvist, Omar (1957-05-29)",Group
+Event,843.66,GBP,1,TX,73301,28.97,1,28.97,497.9,"Abel, Noor (1986-09-13)",Event
+Group,870.38,EUR,1,CO,80202,467.76,12,38.98,420.26,"Moreau, Hiro (2000-07-25)",Group  
+.,570.95,EUR,Yes,CO,80202,175.8,12,14.65,526.25,"Eze, Luca (1998-10-01)",Group
+todo,255.89,EUR,0,GA,07030,38.53,12,32.11,805.2,"Castro, Dev (1986-07-29)",event
+asdf,31.67,GBP,yes,NY,10001,102.8,4,25.7,19.16,"Ortiz, Noor (2002-12-04)",Corporate
+Event,754.62,EUR,No,CA,94110,36.96,4,9.24,132.57,"Castro, Omar (1969-02-13)",Corporate
+TBD,386.18,USD,N,GA,30301,300.72,12,25.06,581.25,"Ortiz, Omar (1986-04-08)",group
+asdf,103.94,USD,no,CA,94110,71.2,5,14.24,295.68,"Castro, Elif (1991-01-09)",event
+Event,228.94,USD,No,TX,73301,65.3,5,13.06,226.6,"Abel, Hiro (1970-03-17)",Event
+Group,147.09,EUR,1,CA,94110,129.2,4,32.3,110.68,"Eze, Elif (1978-02-18)",Corporate
+asdf,547.58,EUR,no,NJ,07030,228.0,10,22.8,730.01,"Ito, Mona (2003-04-24)",Corporate
+Corporate,760.23,GBP,no,MA,02134,116.34,7,16.62,532.23,"Abel, Jon (1973-03-20)",Event
+asdf,865.46,EUR,1,NY,10001,251.13,11,22.83,443.2,"Koval, Dev (1990-08-01)",event
+Leisure,106.31,EUR,Y,NY,10001,51.24,3,17.08,482.77,"Petrov, Priya (2002-07-18)",Corporate
+asdf,256.33,EUR,yes,NY,10001,37.56,2,18.78,361.28,"Eze, Priya (1999-06-05)", Group
+todo,244.74,EUR,Y,CA,94110,200.4,6,33.4,736.27,"Nwosu, Ana (1952-05-12)",Event
+asdf,102.13,USD,No,TX,73301,69.92,4,17.48,388.49,"Jensen, Luca (1952-08-09)", Corporate
+.,869.22,GBP,yes,NY,10001,4.56,9,3.96,293.02,"Brandt, Kemi (1952-02-19)",Event  
+.,864.73,GBP,No,NJ,07030,52.5,6,8.75,130.17,"Brandt, Chloe (1960-01-05)",Leisure
+Corporate,373.37,GBP,Yes,IL,60614,229.46,11,20.86,32.35,"Ortiz, Farid (1964-08-08)",Event
+asdf,795.56,GBP,no,MA,02134,71.04,6,11.84,181.31,"Moreau, Mona (1958-06-14)", Leisure
+test,752.71,EUR,no,IL,60614,28.83,3,9.61,655.82,"Nwosu, Omar (1999-02-25)",Leisure
+todo,338.38,EUR,No,CO,80202,59.7,5,11.94,88.78,"Dunne, Dev (2001-08-01)",Corporate
+TBD,899.92,USD,Y,IL,60614,77.04,6,12.84,231.1,"Farrow, Ana (1959-04-13)",Event
+Event,668.8,USD,Y,NJ,80202,75.96,3,25.32,436.27,"Koval, Priya (1997-01-30)",EVENT
+xxx,798.2,GBP,yes,CA,94110,226.7,10,22.67,399.51,"Ito, Chloe (1950-09-01)",Group
+Corporate,98.57,GBP,Y,NJ,07030,76.23,3,25.41,281.73,"Lindqvist, Elif (1971-02-28)",Group
+test,406.3,USD,1,IL,60614,12.7,1,12.7,420.42,"Ito, Chloe (1985-10-27)",Leisure
+Group,306.06,EUR,No,MA,02134,90.06,6,15.01,6.18,"Koval, Luca (1952-09-21)",Group
+TBD,632.57,EUR,Yes,GA,30301,119.04,4,29.76,682.07,"Petrov, Chloe (1971-03-01)",Group
+Event,82.67,USD,1,GA,30301,69.21,9,7.69,749.47,"Lindqvist, Luca (1986-04-29)",group
+todo,19.11,EUR,Y,NY,10001,103.28,8,12.91,278.5,"Lindqvist, Elif (1978-10-04)",Group
+.,425.54,GBP,no,NJ,07030,63.99,3,21.33,798.3,"Jensen, Priya (1955-08-31)",Group
+TBD,692.77,USD,no,TX,73301,163.92,6,27.32,772.29,"Ito, Priya (1953-09-13)",GROUP
+TBD,628.62,EUR,0,NY,10001,324.5,11,29.5,68.39,"Eze, Chloe (1964-10-18)",group
+Event,757.1,GBP,FALSE,TX,73301,38.72,1,38.72,327.41,"Gallo, Mona (1969-05-26)",Event
+Corporate,621.05,EUR,0,MA,02134,41.24,4,10.31,796.13,"Nwosu, Grace (1950-07-07)",CORPORATE
+Corporate,844.18,EUR,1,MA,02134,171.48,6,28.58,593.59,"Nwosu, Luca (1963-02-24)",Corporate
+TBD,205.95,EUR,N,CA,94110,79.1,7,11.3,199.7,"Dunne, Jon (1971-09-11)",CORPORATE
+TBD,250.53,USD,No,TX,73301,182.95,5,36.59,594.88,"Haas, Noor (1965-09-15)",Corporate
+Leisure,456.82,USD,N,CO,80202,184.68,6,30.78,815.27,"Ortiz, Elif (1951-07-25)",Leisure
+Group,589.48,USD,Yes,TX,73301,12.12,1,12.12,546.58,"Lindqvist, Grace (2000-12-09)",Leisure  
+test,677.69,EUR,N,NJ,07030,31.98,3,10.66,302.81,"Dunne, Hiro (1994-06-21)",LEISURE
+asdf,428.96,GBP,no,NY,10001,232.29,9,25.81,589.41,"Jensen, Hiro (1983-09-02)",GROUP
+TBD,170.05,GBP,No,MA,02134,128.0,5,25.6,62.47,"Ito, Luca (1971-03-16)",Group
+Group,382.98,USD,N,MA,02134,31.92,7,4.56,658.14,"Moreau, Priya (1965-06-22)",Corporate  
+TBD,253.21,USD,TRUE,IL,60614,16.26,3,5.42,313.98,"Eze, Jon (1981-12-12)",GROUP
+asdf,227.95,EUR,Y,CA,94110,84.54,6,14.09,401.15,"Gallo, Chloe (1995-05-30)", Event
+Leisure,327.36,GBP,Y,MA,02134,22.19,1,22.19,297.56,"Haas, Omar (1951-09-09)", Corporate
+TBD,238.6,EUR,FALSE,NJ,07030,23.08,4,5.77,183.03,"Petrov, Dev (1993-12-14)",Leisure
+Corporate,143.87,USD,FALSE,CO,80202,39.22,2,19.61,217.38,"Nwosu, Kemi (1998-01-30)",Event
+.,730.89,USD,Yes,IL,30301,39.36,12,3.28,464.65,"Ito, Ines (1957-12-09)",GROUP
+todo,99.09,GBP,FALSE,CO,80202,31.24,11,2.84,865.11,"Gallo, Ana (1968-09-26)",Group
+test,506.1,EUR,TRUE,CO,80202,334.26,9,37.14,393.18,"Ortiz, Kemi (1979-08-18)",leisure
+xxx,591.55,USD,no,CO,80202,61.76,2,30.88,856.46,"Abel, Hiro (1997-06-25)",Corporate
+.,50.05,USD,FALSE,TX,73301,59.18,11,5.38,815.43,"Koval, Chloe (1971-02-22)",Event
+.,407.43,EUR,Y,TX,60614,18.0,4,4.5,553.9,"Dunne, Chloe (1974-07-19)",Event

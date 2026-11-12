@@ -1,121 +1,121 @@
-charge,mmbr,start_date,dy,age,posted_date,is_active,alt_code
-7.13,name=Noor Farrow; birth_date=1969-03-01,2025-05-26,Monday,78,2021-12-08,false,
-79.88,name=Kemi Brandt; birth_date=1995-02-07,2024-10-03,Sunday,87,2026-04-07,true,
-48.2,name=Luca Castro; birth_date=1999-11-21,2025-09-28,Monday,80,2023-09-01,false,
-23.3,name=Kemi Farrow; birth_date=1950-04-17,2022-10-20,Thursday,26,2023-01-05,true,
-40.08,name=Ben Jensen; birth_date=1955-09-23,2026-11-18,Tuesday,81,2022-03-02,false,
-62.24,name=Hiro Dunne; birth_date=1996-12-13,2025-10-17,Saturday,44,2021-04-08,true,
-5.88,name=Dev Petrov; birth_date=1958-07-29,2024-10-06,Saturday,31,2024-02-06,true,
-61.65,name=Ines Eze; birth_date=1969-09-13,2024-03-23,Saturday,41,2022-05-03,false,
-40.23,name=Jon Dunne; birth_date=2004-04-20,2026-05-18,Tuesday,24,2024-06-03,false,
-25.51,name=Noor Abel; birth_date=1976-04-26,2026-07-21,Thursday,77,2023-02-08,true,
-81.57,name=Ben Haas; birth_date=1956-06-23,2022-10-18,Friday,81,2021-09-05,false,
-12.34,name=Grace Jensen; birth_date=1992-07-16,2022-10-09,Tuesday,31,2026-07-09,false,
-28.2,name=Luca Eze; birth_date=1981-08-31,2026-02-18,Tuesday,89,2021-07-07,false,
-79.93,name=Dev Ortiz; birth_date=1992-04-28,2022-07-20,Friday,55,2024-04-11,false,
-51.09,name=Grace Abel; birth_date=1960-06-21,2023-12-29,Thursday,25,2026-02-04,true,
-68.61,name=Omar Farrow; birth_date=1989-11-26,2022-05-18,Tuesday,33,2026-01-05,true,
-12.44,name=Hiro Brandt; birth_date=2002-02-19,2026-01-23,Thursday,83,2022-10-08,false,
-35.34,name=Luca Abel; birth_date=1999-12-31,2026-08-18,Thursday,25,2021-06-11,false,
-86.6,name=Dev Koval; birth_date=1975-09-10,2023-09-20,Saturday,51,2025-08-06,true,
-47.31,name=Omar Brandt; birth_date=1977-09-13,2022-08-13,Wednesday,47,2024-10-10,true,
-51.51,name=Mona Koval; birth_date=1987-05-12,2026-06-02,Tuesday,24,2023-10-11,true,
-65.07,name=Farid Haas; birth_date=2003-03-17,2021-04-07,Saturday,88,2024-11-11,true,
-10.4,name=Farid Jensen; birth_date=1966-08-14,2024-08-07,Friday,85,2026-08-03,false,
-63.74,name=Kemi Petrov; birth_date=1973-11-18,2024-11-18,Thursday,25,2024-07-11,false,
-25.63,name=Luca Lindqvist; birth_date=1960-02-17,2023-02-18,Saturday,66,2025-12-12,false,
-70.67,name=Chloe Ortiz; birth_date=1962-12-21,2022-11-10,Friday,,2024-11-03,false,
-11.08,name=Jon Castro; birth_date=1977-12-23,2024-11-23,Monday,43,2025-09-07,true,
-88.06,name=Hiro Koval; birth_date=1989-11-11,2023-03-01,Thursday,80,2025-05-08,true,
-85.26,name=Ana Jensen; birth_date=1980-05-05,2024-10-01,Saturday,26,2021-07-04,true,
-67.23,name=Ben Koval; birth_date=1983-01-27,2026-10-29,Monday,49,2022-04-06,false,
-24.65,name=Priya Eze; birth_date=1967-03-03,2023-01-18,Friday,45,2022-07-10,true,
-8.82,name=Kemi Koval; birth_date=1951-12-12,2021-02-15,Friday,21,2025-09-12,true,
-7.12,name=Ana Dunne; birth_date=1970-06-24,2024-08-01,Saturday,25,2022-02-12,true,
-66.06,name=Jon Brandt; birth_date=1973-06-02,2026-09-23,Wednesday,90,2023-04-03,true,
-71.33,name=Kemi Farrow; birth_date=1995-01-27,2026-01-05,Tuesday,23,2025-11-02,false,Water
-57.37,name=Farid Gallo; birth_date=1953-01-23,2021-08-04,Wednesday,,2025-04-06,false,
-24.28,name=Kemi Nwosu; birth_date=1984-02-11,2022-07-22,Wednesday,31,2023-01-04,true,
-8.45,name=Jon Jensen; birth_date=1963-07-10,2024-09-03,Monday,55,2024-03-09,true,
-70.98,name=Noor Koval; birth_date=1990-06-14,2025-04-11,Wednesday,61,2026-09-12,false,
-28.72,name=Jon Moreau; birth_date=1994-06-04,2021-08-30,Thursday,31,2022-01-11,true,
-85.35,name=Hiro Abel; birth_date=1970-02-24,2022-03-21,Thursday,67,2025-03-01,false,
-18.22,name=Chloe Eze; birth_date=1983-01-16,2021-03-17,Wednesday,66,2024-06-07,false,
-68.6,name=Luca Ito; birth_date=2004-04-19,2024-02-11,Saturday,73,2024-12-06,false,
-16.88,name=Dev Gallo; birth_date=1996-02-13,2022-05-24,Friday,26,2026-05-08,false,
-33.88,name=Hiro Gallo; birth_date=1972-02-06,2026-05-25,Sunday,25,2026-03-11,false,
-61.22,name=Luca Koval; birth_date=1953-02-03,2024-05-06,Saturday,20,2023-05-01,true,
-24.08,name=Jon Koval; birth_date=1976-02-01,2021-10-26,Tuesday,29,2021-10-10,true,
-33.13,name=Ben Castro; birth_date=1966-01-28,2022-06-03,Thursday,25,2025-10-09,false,
-26.74,name=Elif Jensen; birth_date=1996-08-14,2022-08-26,Monday,88,2024-05-08,true,
-75.08,name=Elif Eze; birth_date=1954-09-03,2026-12-25,Friday,49,2026-05-09,true,
-79.25,name=Ben Jensen; birth_date=1971-02-08,2023-07-27,Saturday,57,2026-09-09,false,
-15.0,name=Elif Brandt; birth_date=1950-07-08,2023-08-14,Saturday,74,2025-04-03,false,
-40.19,name=Chloe Gallo; birth_date=1963-06-05,2022-06-18,Wednesday,33,2024-12-08,true,
-59.46,name=Farid Farrow; birth_date=2002-10-26,2025-03-24,Sunday,21,2022-08-11,false,
-33.77,name=Dev Castro; birth_date=1964-01-22,2025-04-10,Tuesday,32,2021-11-12,false,
-52.85,name=Ana Abel; birth_date=1961-07-20,2021-07-23,Tuesday,76,2025-05-11,false,
-67.48,name=Kemi Eze; birth_date=2002-12-14,2026-05-26,Saturday,75,2026-12-12,false,Water
-82.69,name=Luca Farrow; birth_date=1966-06-01,2026-05-01,Monday,66,2026-07-12,false,
-75.7,name=Farid Brandt; birth_date=1963-01-24,2021-12-01,Sunday,46,2026-07-08,true,
-75.13,name=Noor Ito; birth_date=1967-09-06,2024-11-09,Monday,58,2022-02-12,false,Electric
-20.73,name=Hiro Farrow; birth_date=1961-09-18,2023-10-18,Saturday,86,2025-03-06,true,
-17.78,name=Farid Nwosu; birth_date=1967-04-05,2025-03-03,Tuesday,63,2026-03-08,true,
-12.39,name=Chloe Dunne; birth_date=1972-04-02,2024-01-21,Monday,50,2021-06-10,false,
-38.59,name=Farid Nwosu; birth_date=1997-04-25,2022-11-01,Friday,34,2021-08-11,false,
-7.83,name=Kemi Ortiz; birth_date=2000-07-20,2023-04-30,Saturday,63,2025-01-09,true,
-72.19,name=Dev Castro; birth_date=1978-08-24,2021-02-03,Thursday,32,2025-07-06,false,
-85.77,name=Dev Lindqvist; birth_date=1959-09-02,2026-11-20,Wednesday,28,2022-02-05,false,
-56.34,name=Ana Petrov; birth_date=1977-08-09,2025-08-03,Tuesday,79,2025-06-09,false,
-82.31,name=Omar Moreau; birth_date=1958-09-16,2026-11-12,Thursday,55,2023-02-07,false,
-48.64,name=Ana Dunne; birth_date=1958-07-30,2023-08-20,Sunday,77,2025-10-10,false,
-62.17,name=Dev Ortiz; birth_date=1983-04-26,2026-05-27,Thursday,69,2025-10-09,true,
-70.73,name=Chloe Dunne; birth_date=1979-04-22,2021-01-09,Friday,,2022-09-09,true,
-76.71,name=Chloe Lindqvist; birth_date=1983-11-23,2025-01-29,Tuesday,57,2021-08-09,true,
-20.18,name=Luca Nwosu; birth_date=1986-07-08,2026-01-12,Saturday,72,2024-07-03,false,
-34.81,name=Elif Ortiz; birth_date=1964-09-25,2023-11-22,Tuesday,61,2021-10-08,true,
-24.36,name=Elif Abel; birth_date=1973-07-06,2024-05-22,Monday,45,2022-01-10,false,
-81.34,name=Noor Ortiz; birth_date=1964-01-31,2023-03-07,Thursday,81,2026-09-04,false,
-5.13,name=Ana Ortiz; birth_date=1967-06-18,2023-01-20,Monday,71,2024-07-12,true,
-79.25,name=Hiro Farrow; birth_date=1985-12-16,2021-09-01,Sunday,74,2021-02-11,false,
-16.88,name=Farid Castro; birth_date=1999-06-21,2026-03-07,Friday,77,2025-10-06,true,
-75.59,name=Mona Petrov; birth_date=1980-09-27,2021-01-29,Wednesday,76,2025-07-09,true,
-84.02,name=Priya Ortiz; birth_date=1986-10-13,2026-05-03,Monday,28,2021-11-10,false,
-90.0,name=Priya Dunne; birth_date=2002-08-13,2023-02-09,Sunday,65,2025-07-12,true,
-37.35,name=Hiro Farrow; birth_date=1960-10-22,2023-01-11,Friday,46,2024-02-01,false,
-8.86,name=Elif Eze; birth_date=2001-09-30,2026-02-13,Tuesday,50,2023-02-01,false,
-68.66,name=Elif Haas; birth_date=1956-02-22,2021-03-05,Monday,33,2021-04-02,false,
-86.51,name=Priya Farrow; birth_date=1967-02-17,2022-09-18,Tuesday,63,2026-03-10,false,
-39.65,name=Elif Nwosu; birth_date=1979-10-03,2021-09-25,Thursday,68,2024-05-03,true,
-83.94,name=Jon Farrow; birth_date=1968-06-30,2022-11-22,Monday,35,2021-08-07,true,
-15.23,name=Chloe Nwosu; birth_date=1984-01-27,2022-03-10,Thursday,33,2025-02-03,true,
-9.71,name=Kemi Gallo; birth_date=1972-07-10,2022-06-22,Tuesday,32,2026-11-06,true,
-64.54,name=Kemi Nwosu; birth_date=1954-01-15,2026-07-27,Wednesday,73,2022-06-07,false,
-76.16,name=Grace Haas; birth_date=1968-08-09,2026-06-21,Thursday,89,2025-08-11,false,
-63.6,name=Mona Brandt; birth_date=1989-06-09,2023-08-20,Wednesday,52,2026-01-02,false,
-31.99,name=Priya Gallo; birth_date=1986-09-19,2021-02-01,Sunday,31,2023-06-07,false,
-80.62,name=Grace Nwosu; birth_date=1973-01-24,2026-06-12,Wednesday,32,2025-04-05,false,
-9.27,name=Priya Lindqvist; birth_date=1964-12-16,2024-11-05,Friday,53,2025-03-09,false,
-30.56,name=Priya Petrov; birth_date=1963-03-16,2026-10-15,Friday,71,2026-11-11,true,
-37.87,name=Noor Castro; birth_date=2004-02-20,2021-02-04,Saturday,37,2022-03-07,true,
-45.19,name=Elif Dunne; birth_date=1950-01-02,2023-06-16,Monday,36,2022-05-06,false,
-30.96,name=Grace Castro; birth_date=1967-02-05,2023-11-11,Wednesday,78,2025-06-09,false,
-33.11,name=Dev Farrow; birth_date=1968-02-22,2022-03-10,Tuesday,56,2022-07-05,true,
-58.92,name=Omar Gallo; birth_date=1979-05-23,2023-05-31,Thursday,86,2026-08-08,false,
-13.7,name=Omar Dunne; birth_date=1981-05-11,2022-05-14,Saturday,78,2022-07-01,false,
-16.14,name=Ana Eze; birth_date=1978-12-23,2025-10-17,Thursday,76,2025-03-08,true,
-59.55,name=Luca Haas; birth_date=1961-08-06,2026-08-15,Sunday,69,2022-03-09,false,
-84.8,name=Chloe Ortiz; birth_date=1967-08-07,2024-07-26,Friday,28,2024-01-02,true,
-23.76,name=Luca Abel; birth_date=2003-12-02,2026-11-09,Sunday,58,2025-06-12,true,Electric
-64.9,name=Ben Ortiz; birth_date=2003-07-10,2023-03-18,Tuesday,60,2024-10-04,false,
-8.7,name=Luca Abel; birth_date=1975-12-15,2025-06-25,Wednesday,48,2021-06-10,true,
-70.64,name=Dev Abel; birth_date=1998-01-17,2026-09-20,Tuesday,22,2021-08-05,false,
-22.61,name=Ben Brandt; birth_date=1980-04-27,2026-03-26,Tuesday,73,2024-09-12,false,
-25.86,name=Kemi Ito; birth_date=1950-05-08,2024-02-05,Tuesday,43,2026-11-06,true,
-36.35,name=Hiro Jensen; birth_date=1953-12-25,2023-07-08,Wednesday,80,2022-04-04,true,
-29.71,name=Chloe Castro; birth_date=2004-09-15,2023-05-17,Friday,79,2022-05-01,true,
-18.81,name=Mona Dunne; birth_date=1965-05-22,2023-06-20,Wednesday,61,2025-09-10,true,
-20.6,name=Priya Ortiz; birth_date=1992-09-21,2026-07-07,Sunday,69,2022-07-07,false,
-22.56,name=Omar Dunne; birth_date=2000-01-30,2021-04-04,Thursday,88,2025-01-07,true,
-28.6,name=Dev Nwosu; birth_date=1977-03-06,2024-02-18,Sunday,,2022-06-02,true,
-26.72,name=Mona Farrow; birth_date=2004-12-25,2023-09-11,Tuesday,30,2026-01-10,false,
+status_cd,status_desc,channel,invoice_date,end_date,start_date,charge,mmbr,start_date_2,day
+B2,In review,Gas,2021-09-03,2023-12-02,2024-04-28,7.13,name=Noor Farrow; birth_date=1969-03-01,2025-05-26,Monday
+A1,Open,Water,2023-04-17,2025-09-24,2025-07-18,79.88,name=Kemi Brandt; birth_date=1995-02-07,2024-10-03,Sunday
+A1,Open,Electric,2025-02-14,2025-11-17,2025-08-25,48.2,name=Luca Castro; birth_date=1999-11-21,2025-09-28,Monday
+A1,Open,Solar,2026-09-03,2024-11-10,2024-09-04,23.3,name=Kemi Farrow; birth_date=1950-04-17,2022-10-20,Thursday
+A1,Open,Solar,2021-01-30,2025-01-12,2025-04-22,40.08,name=Ben Jensen; birth_date=1955-09-23,2026-11-18,Tuesday
+A1,Open,Electric,2024-08-01,2025-11-15,2025-10-02,62.24,name=Hiro Dunne; birth_date=1996-12-13,2025-10-17,Saturday
+B2,In review,Solar,2026-03-05,2025-06-20,2025-04-30,5.88,name=Dev Petrov; birth_date=1958-07-29,2024-10-06,Saturday
+C3,Closed,Solar,2026-03-15,2025-07-22,2025-05-29,61.65,name=Ines Eze; birth_date=1969-09-13,2024-03-23,Saturday
+D4,Cancelled,Electric,2023-11-25,2024-11-01,2024-09-07,40.23,name=Jon Dunne; birth_date=2004-04-20,2026-05-18,Tuesday
+B2,In review,Electric,2021-03-15,2025-12-30,2025-11-09,25.51,name=Noor Abel; birth_date=1976-04-26,2026-07-21,Thursday
+A1,Open,Gas,2026-01-13,2025-02-07,2025-01-21,81.57,name=Ben Haas; birth_date=1956-06-23,2022-10-18,Friday
+B2,In review,Gas,2022-12-18,2025-08-25,2025-06-24,12.34,name=Grace Jensen; birth_date=1992-07-16,2022-10-09,Tuesday
+B2,In review,Solar,2025-09-03,2025-02-12,2025-01-28,28.2,name=Luca Eze; birth_date=1981-08-31,2026-02-18,Tuesday
+B2,In review,Electric,2022-05-28,2023-09-09,2024-02-15,79.93,name=Dev Ortiz; birth_date=1992-04-28,2022-07-20,Friday
+A1,Open,Gas,2026-09-05,2024-10-15,2024-09-27,51.09,name=Grace Abel; birth_date=1960-06-21,2023-12-29,Thursday
+B2,In review,Gas,2025-05-06,2025-12-31,2025-12-22,68.61,name=Omar Farrow; birth_date=1989-11-26,2022-05-18,Tuesday
+C3,Closed,Water,2024-02-07,2025-12-13,2025-09-26,12.44,name=Hiro Brandt; birth_date=2002-02-19,2026-01-23,Thursday
+B2,In review,Water,2021-01-16,2024-05-10,2024-02-14,35.34,name=Luca Abel; birth_date=1999-12-31,2026-08-18,Thursday
+D4,Cancelled,Gas,2024-11-20,2025-02-08,2025-01-01,86.6,name=Dev Koval; birth_date=1975-09-10,2023-09-20,Saturday
+A1,Open,Gas,2025-09-27,2025-01-26,2024-10-29,47.31,name=Omar Brandt; birth_date=1977-09-13,2022-08-13,Wednesday
+A1,Open,Water,2026-06-03,2025-08-02,2025-05-23,51.51,name=Mona Koval; birth_date=1987-05-12,2026-06-02,Tuesday
+A1,Open,Water,2023-10-31,2025-08-26,2025-06-01,65.07,name=Farid Haas; birth_date=2003-03-17,2021-04-07,Saturday
+A1,Open,Electric,2022-02-17,2024-11-07,2024-10-27,10.4,name=Farid Jensen; birth_date=1966-08-14,2024-08-07,Friday
+A1,Open,Electric,2025-04-07,2024-09-05,2024-07-10,63.74,name=Kemi Petrov; birth_date=1973-11-18,2024-11-18,Thursday
+D4,Cancelled,Water,2021-02-02,2025-08-24,2025-08-06,25.63,name=Luca Lindqvist; birth_date=1960-02-17,2023-02-18,Saturday
+B2,In review,Electric,2025-09-16,2024-04-16,2024-03-11,70.67,name=Chloe Ortiz; birth_date=1962-12-21,2022-11-10,Friday
+D4,Cancelled,Solar,2023-06-02,2025-11-07,2025-09-12,11.08,name=Jon Castro; birth_date=1977-12-23,2024-11-23,Monday
+A1,Open,Solar,2025-11-26,2025-03-05,2024-12-12,88.06,name=Hiro Koval; birth_date=1989-11-11,2023-03-01,Thursday
+A1,Open,Electric,2021-12-05,2024-09-06,2024-08-01,85.26,name=Ana Jensen; birth_date=1980-05-05,2024-10-01,Saturday
+A1,Open,Electric,2024-04-21,2025-08-19,2025-07-17,67.23,name=Ben Koval; birth_date=1983-01-27,2026-10-29,Monday
+D4,Cancelled,Water,2025-08-08,2024-05-04,2024-02-04,24.65,name=Priya Eze; birth_date=1967-03-03,2023-01-18,Friday
+B2,In review,Electric,2023-07-15,2025-09-27,2025-07-04,8.82,name=Kemi Koval; birth_date=1951-12-12,2021-02-15,Friday
+B2,In review,Electric,2024-04-26,2025-12-17,2025-10-01,7.12,name=Ana Dunne; birth_date=1970-06-24,2024-08-01,Saturday
+A1,Open,Water,2024-03-07,2025-11-28,2025-11-13,66.06,name=Jon Brandt; birth_date=1973-06-02,2026-09-23,Wednesday
+D4,Cancelled,Water,2023-07-05,2024-03-17,2024-03-06,71.33,name=Kemi Farrow; birth_date=1995-01-27,2026-01-05,Tuesday
+C3,Closed,Gas,2022-12-02,2025-12-27,2025-12-09,57.37,name=Farid Gallo; birth_date=1953-01-23,2021-08-04,Wednesday
+B2,In review,Water,2026-06-21,2025-11-27,2025-08-29,24.28,name=Kemi Nwosu; birth_date=1984-02-11,2022-07-22,Wednesday
+D4,Cancelled,Gas,2023-05-15,2025-02-03,2024-11-08,8.45,name=Jon Jensen; birth_date=1963-07-10,2024-09-03,Monday
+A1,Open,Electric,2022-09-27,2024-09-04,2025-06-20,70.98,name=Noor Koval; birth_date=1990-06-14,2025-04-11,Wednesday
+A1,Open,Electric,2025-03-19,2023-12-20,2024-01-26,28.72,name=Jon Moreau; birth_date=1994-06-04,2021-08-30,Thursday
+D4,Cancelled,Gas,2023-09-01,2024-07-04,2024-04-21,85.35,name=Hiro Abel; birth_date=1970-02-24,2022-03-21,Thursday
+C3,Closed,Electric,2026-09-22,2024-06-08,2024-04-20,18.22,name=Chloe Eze; birth_date=1983-01-16,2021-03-17,Wednesday
+C3,Closed,Gas,2026-03-31,2025-03-01,2025-02-22,68.6,name=Luca Ito; birth_date=2004-04-19,2024-02-11,Saturday
+A1,Open,Electric,2026-06-14,2025-04-21,2025-03-22,16.88,name=Dev Gallo; birth_date=1996-02-13,2022-05-24,Friday
+C3,Closed,Water,2021-07-23,2025-03-27,2025-03-06,33.88,name=Hiro Gallo; birth_date=1972-02-06,2026-05-25,Sunday
+C3,Closed,Electric,2026-04-06,2025-09-03,2025-06-21,61.22,name=Luca Koval; birth_date=1953-02-03,2024-05-06,Saturday
+A1,Open,Solar,2025-04-01,2024-09-02,2024-06-24,24.08,name=Jon Koval; birth_date=1976-02-01,2021-10-26,Tuesday
+D4,Cancelled,Electric,2021-10-05,2023-10-13,2024-03-20,33.13,name=Ben Castro; birth_date=1966-01-28,2022-06-03,Thursday
+B2,In review,Water,2022-12-05,2024-11-17,2024-09-09,26.74,name=Elif Jensen; birth_date=1996-08-14,2022-08-26,Monday
+A1,Open,Solar,2026-05-30,2025-10-19,2025-09-12,75.08,name=Elif Eze; birth_date=1954-09-03,2026-12-25,Friday
+A1,Open,Gas,2026-12-28,2024-10-15,2024-07-22,79.25,name=Ben Jensen; birth_date=1971-02-08,2023-07-27,Saturday
+B2,In review,Solar,2021-12-29,2024-09-07,2024-07-14,15.0,name=Elif Brandt; birth_date=1950-07-08,2023-08-14,Saturday
+B2,In review,Solar,2023-06-30,2025-11-09,2025-11-06,40.19,name=Chloe Gallo; birth_date=1963-06-05,2022-06-18,Wednesday
+A1,Open,Electric,2024-04-10,2025-06-21,2025-05-03,59.46,name=Farid Farrow; birth_date=2002-10-26,2025-03-24,Sunday
+A1,Open,Electric,2024-12-07,2025-07-02,2025-05-31,33.77,name=Dev Castro; birth_date=1964-01-22,2025-04-10,Tuesday
+A1,Open,Gas,2021-07-18,2025-10-15,2025-07-20,52.85,name=Ana Abel; birth_date=1961-07-20,2021-07-23,Tuesday
+A1,Open,Electric,2026-06-19,2024-10-07,2024-07-28,67.48,name=Kemi Eze; birth_date=2002-12-14,2026-05-26,Saturday
+B2,In review,Solar,2024-03-09,2024-04-04,2024-03-30,82.69,name=Luca Farrow; birth_date=1966-06-01,2026-05-01,Monday
+A1,Open,Gas,2024-06-21,2025-05-07,2025-03-11,75.7,name=Farid Brandt; birth_date=1963-01-24,2021-12-01,Sunday
+C3,Closed,Gas,2026-04-14,2024-12-29,2024-12-06,75.13,name=Noor Ito; birth_date=1967-09-06,2024-11-09,Monday
+A1,Open,Solar,2023-10-21,2024-04-27,2024-02-16,20.73,name=Hiro Farrow; birth_date=1961-09-18,2023-10-18,Saturday
+B2,In review,Electric,2025-03-16,2025-10-26,2025-08-04,17.78,name=Farid Nwosu; birth_date=1967-04-05,2025-03-03,Tuesday
+C3,Closed,Gas,2023-07-02,2025-02-28,2025-02-23,12.39,name=Chloe Dunne; birth_date=1972-04-02,2024-01-21,Monday
+C3,Closed,Water,2025-11-21,2024-04-14,2024-04-06,38.59,name=Farid Nwosu; birth_date=1997-04-25,2022-11-01,Friday
+D4,Cancelled,Electric,2022-02-24,2024-10-05,2024-07-09,7.83,name=Kemi Ortiz; birth_date=2000-07-20,2023-04-30,Saturday
+D4,Cancelled,Gas,2024-03-14,2024-05-04,2024-04-10,72.19,name=Dev Castro; birth_date=1978-08-24,2021-02-03,Thursday
+B2,In review,Water,2024-04-05,2024-10-09,2024-07-15,85.77,name=Dev Lindqvist; birth_date=1959-09-02,2026-11-20,Wednesday
+B2,In review,Electric,2021-07-12,2023-12-18,2024-05-30,56.34,name=Ana Petrov; birth_date=1977-08-09,2025-08-03,Tuesday
+D4,Cancelled,Solar,2024-04-12,2025-07-01,2025-06-09,82.31,name=Omar Moreau; birth_date=1958-09-16,2026-11-12,Thursday
+A1,Open,Gas,2023-11-26,2025-07-18,2025-05-28,48.64,name=Ana Dunne; birth_date=1958-07-30,2023-08-20,Sunday
+A1,Open,Solar,2024-01-06,2025-02-13,2024-11-20,62.17,name=Dev Ortiz; birth_date=1983-04-26,2026-05-27,Thursday
+D4,Cancelled,Electric,2026-09-01,2024-10-10,2024-09-26,70.73,name=Chloe Dunne; birth_date=1979-04-22,2021-01-09,Friday
+D4,Cancelled,Electric,2025-09-13,2025-01-20,2024-11-03,76.71,name=Chloe Lindqvist; birth_date=1983-11-23,2025-01-29,Tuesday
+B2,In review,Electric,2021-01-22,2024-03-02,2024-01-05,20.18,name=Luca Nwosu; birth_date=1986-07-08,2026-01-12,Saturday
+B2,In review,Solar,2023-07-18,2025-06-20,2025-05-12,34.81,name=Elif Ortiz; birth_date=1964-09-25,2023-11-22,Tuesday
+C3,Closed,Water,2022-05-30,2025-08-17,2025-06-28,24.36,name=Elif Abel; birth_date=1973-07-06,2024-05-22,Monday
+B2,In review,Gas,2021-04-03,2025-01-23,2024-12-13,81.34,name=Noor Ortiz; birth_date=1964-01-31,2023-03-07,Thursday
+A1,Open,Gas,2025-09-16,2024-03-28,2024-02-19,5.13,name=Ana Ortiz; birth_date=1967-06-18,2023-01-20,Monday
+D4,Cancelled,Gas,2021-08-12,2024-07-02,2024-06-20,79.25,name=Hiro Farrow; birth_date=1985-12-16,2021-09-01,Sunday
+B2,In review,Solar,2023-04-18,2025-04-18,2025-02-23,16.88,name=Farid Castro; birth_date=1999-06-21,2026-03-07,Friday
+D4,Cancelled,Solar,2025-05-31,2025-04-08,2025-03-19,75.59,name=Mona Petrov; birth_date=1980-09-27,2021-01-29,Wednesday
+C3,Closed,Water,2026-12-21,2024-11-28,2024-09-25,84.02,name=Priya Ortiz; birth_date=1986-10-13,2026-05-03,Monday
+D4,Cancelled,Electric,2025-03-03,2025-10-19,2025-07-23,90.0,name=Priya Dunne; birth_date=2002-08-13,2023-02-09,Sunday
+D4,Cancelled,Solar,2021-03-08,2026-02-05,2025-12-15,37.35,name=Hiro Farrow; birth_date=1960-10-22,2023-01-11,Friday
+A1,Open,Gas,2026-09-13,2024-06-08,2024-04-14,8.86,name=Elif Eze; birth_date=2001-09-30,2026-02-13,Tuesday
+B2,In review,Solar,2021-09-12,2024-10-12,2024-08-04,68.66,name=Elif Haas; birth_date=1956-02-22,2021-03-05,Monday
+A1,Open,Gas,2021-09-09,2024-06-05,2024-06-02,86.51,name=Priya Farrow; birth_date=1967-02-17,2022-09-18,Tuesday
+A1,Open,Solar,2026-04-02,2024-08-29,2024-07-11,39.65,name=Elif Nwosu; birth_date=1979-10-03,2021-09-25,Thursday
+D4,Cancelled,Solar,2024-12-23,2025-09-11,2025-07-21,83.94,name=Jon Farrow; birth_date=1968-06-30,2022-11-22,Monday
+C3,Closed,Electric,2026-02-28,2023-06-09,2024-03-19,15.23,name=Chloe Nwosu; birth_date=1984-01-27,2022-03-10,Thursday
+B2,In review,Gas,2021-12-30,2024-03-30,2024-01-06,9.71,name=Kemi Gallo; birth_date=1972-07-10,2022-06-22,Tuesday
+C3,Closed,Solar,2025-11-30,2025-07-17,2025-05-10,64.54,name=Kemi Nwosu; birth_date=1954-01-15,2026-07-27,Wednesday
+C3,Closed,Electric,2023-10-09,2025-08-10,2025-06-22,76.16,name=Grace Haas; birth_date=1968-08-09,2026-06-21,Thursday
+B2,In review,Gas,2024-12-07,2025-09-22,2025-07-30,63.6,name=Mona Brandt; birth_date=1989-06-09,2023-08-20,Wednesday
+B2,In review,Electric,2023-07-30,2024-01-10,2024-01-09,31.99,name=Priya Gallo; birth_date=1986-09-19,2021-02-01,Sunday
+D4,Cancelled,Gas,2026-11-05,2024-08-17,2024-07-21,80.62,name=Grace Nwosu; birth_date=1973-01-24,2026-06-12,Wednesday
+A1,Open,Electric,2021-04-28,2024-05-11,2024-02-29,9.27,name=Priya Lindqvist; birth_date=1964-12-16,2024-11-05,Friday
+C3,Closed,Gas,2021-02-04,2025-06-23,2025-06-11,30.56,name=Priya Petrov; birth_date=1963-03-16,2026-10-15,Friday
+D4,Cancelled,Gas,2023-06-28,2024-08-09,2024-08-07,37.87,name=Noor Castro; birth_date=2004-02-20,2021-02-04,Saturday
+C3,Closed,Gas,2025-02-07,2025-12-07,2025-12-02,45.19,name=Elif Dunne; birth_date=1950-01-02,2023-06-16,Monday
+D4,Cancelled,Gas,2023-11-13,2024-11-01,2024-08-17,30.96,name=Grace Castro; birth_date=1967-02-05,2023-11-11,Wednesday
+D4,Cancelled,Solar,2022-02-27,2024-12-27,2024-12-15,33.11,name=Dev Farrow; birth_date=1968-02-22,2022-03-10,Tuesday
+B2,In review,Gas,2023-11-02,2025-09-02,2025-06-16,58.92,name=Omar Gallo; birth_date=1979-05-23,2023-05-31,Thursday
+C3,Closed,Solar,2022-01-29,2026-02-01,2025-12-31,13.7,name=Omar Dunne; birth_date=1981-05-11,2022-05-14,Saturday
+A1,Open,Electric,2025-07-03,2025-02-21,2025-02-14,16.14,name=Ana Eze; birth_date=1978-12-23,2025-10-17,Thursday
+A1,Open,Electric,2022-11-26,2024-10-24,2024-08-11,59.55,name=Luca Haas; birth_date=1961-08-06,2026-08-15,Sunday
+B2,In review,Electric,2026-01-04,2025-05-29,2025-04-05,84.8,name=Chloe Ortiz; birth_date=1967-08-07,2024-07-26,Friday
+D4,Cancelled,Electric,2023-05-12,2025-12-18,2025-09-24,23.76,name=Luca Abel; birth_date=2003-12-02,2026-11-09,Sunday
+D4,Cancelled,Solar,2022-11-06,2025-08-30,2025-08-07,64.9,name=Ben Ortiz; birth_date=2003-07-10,2023-03-18,Tuesday
+C3,Closed,Electric,2026-05-10,2025-01-01,2024-11-22,8.7,name=Luca Abel; birth_date=1975-12-15,2025-06-25,Wednesday
+B2,In review,Electric,2026-09-27,2025-07-11,2025-04-22,70.64,name=Dev Abel; birth_date=1998-01-17,2026-09-20,Tuesday
+D4,Cancelled,Gas,2025-04-13,2025-10-29,2025-10-23,22.61,name=Ben Brandt; birth_date=1980-04-27,2026-03-26,Tuesday
+C3,Closed,Water,2023-11-18,2026-01-15,2025-12-22,25.86,name=Kemi Ito; birth_date=1950-05-08,2024-02-05,Tuesday
+A1,Open,Gas,2024-12-23,2024-09-25,2024-09-07,36.35,name=Hiro Jensen; birth_date=1953-12-25,2023-07-08,Wednesday
+A1,Open,Water,2021-10-28,2024-03-17,2024-01-25,29.71,name=Chloe Castro; birth_date=2004-09-15,2023-05-17,Friday
+A1,Open,Electric,2026-02-14,2025-06-27,2025-05-21,18.81,name=Mona Dunne; birth_date=1965-05-22,2023-06-20,Wednesday
+B2,In review,Gas,2024-07-01,2024-12-06,2024-09-29,20.6,name=Priya Ortiz; birth_date=1992-09-21,2026-07-07,Sunday
+C3,Closed,Water,2021-02-21,2025-11-18,2025-10-03,22.56,name=Omar Dunne; birth_date=2000-01-30,2021-04-04,Thursday
+A1,Open,Gas,2022-02-05,2024-09-12,2024-12-16,28.6,name=Dev Nwosu; birth_date=1977-03-06,2024-02-18,Sunday
+B2,In review,Gas,2022-02-13,2024-04-25,2024-03-29,26.72,name=Mona Farrow; birth_date=2004-12-25,2023-09-11,Tuesday

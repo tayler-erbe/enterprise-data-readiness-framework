@@ -103,6 +103,8 @@ def write(out, **kw):
         "by_verdict": dict(Counter(l["verdict"] for l in labels)),
         "cases_by_verdict": dict(Counter(c["verdict"] for c in CASES.values())),
     }
+    import tables as file_cases
+    summary["whole_file"] = file_cases.write(out, kw.get("variations", 12))
     (out / "summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     return summary
 

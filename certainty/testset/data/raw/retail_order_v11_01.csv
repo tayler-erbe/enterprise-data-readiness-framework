@@ -1,121 +1,121 @@
-channel,ver,pymnt_mthd,category,full_name,height,crtd_at,status_cd,status_desc
-Online,DEFAULT,Gift Voucher,Marketplace  ,Dev Brandt,75,1784379971,D4,Cancelled
-Phone,DEFAULT,Credit Card.,Store,Ines Koval,149.9,1775389970,D4,Cancelled
-Phone,DEFAULT,Credit Card,Phone,Noor Abel,193.0,1786608498,A1,Open
-Store,DEFAULT,Direct Debit,Marketplace,Noor Haas,162.6,1778458603,A1,Open
-Online,DEFAULT,bank transfer,store,Noor Ito,177.8,1772931023,B2,In review
-Online,DEFAULT,bank transfer,Phone,Noor Nwosu,147.3,1767925346,A1,Open
-Online,DEFAULT,Credit Card,Store,Chloe Jensen,74,1783105975,D4,Cancelled
-Phone,DEFAULT,Bank Transfer,online,Noor Farrow,147.3,1773461333,C3,Closed
-Store,DEFAULT,Credit Card,Marketplace,Chloe Moreau,165.1,1768645363,C3,Closed
-Store,DEFAULT,Gift Voucher,ONLINE,Jon Haas,160.0,1775704324,C3,Closed
-Store,DEFAULT,Direct-Debit,Online,Ines Brandt,167.6,1781861772,A1,Open
-Online,DEFAULT,Credit Card,phone,Noor Lindqvist,70,1783660801,B2,In review
-Online,DEFAULT,Gift Voucher,Online,Farid Jensen,172.7,1775390692,C3,Closed
-Phone,DEFAULT,Gift Voucher,Phone  ,Ana Ito,180.3,1775797984,B2,In review
-Phone,DEFAULT,Direct Debit,online,Omar Farrow,78,1782498905,A1,Open
-Phone,DEFAULT,Bank Transfer,Phone,Jon Lindqvist,157.5,1785342319,A1,Open
-Store,DEFAULT,Bank  Transfer,Store,Kemi Jensen,188.0,1783767653,B2,In review
-Store,DEFAULT,Direct Debit,Phone,Hiro Ortiz,65,1772937650,D4,Cancelled
-Phone,DEFAULT,Credit Card,ONLINE,Luca Dunne,175.3,1774082296,D4,Cancelled
-Marketplace,DEFAULT,Gift Voucher,Store,Luca Lindqvist,195.6,1776974969,D4,Cancelled
-Store,DEFAULT,Bank  Transfer,phone,Ana Farrow,177.8,1780836532,B2,In review
-Online,DEFAULT,BANK TRANSFER,Online,Omar Moreau,175.3,1791569600,B2,In review
-Online,DEFAULT,CREDIT CARD, Phone,Kemi Petrov,66,1783633745,D4,Cancelled
-Store,DEFAULT,Gift Voucher,Marketplace  ,Chloe Brandt,149.9,1767508418,C3,Closed
-Store,DEFAULT,Direct Debit,Phone,Jon Abel,193.0,1777596691,B2,In review
-Phone,DEFAULT,Direct Debit.,Store,Ines Nwosu,61,1786002467,B2,In review
-Store,DEFAULT,Gift Voucher, Online,Ben Abel,149.9,1789135698,A1,Open
-Phone,DEFAULT,Gift-Voucher,Store  ,Dev Brandt,160.0,1773590196,B2,In review
-Phone,DEFAULT,Bank Transfer,Marketplace,Chloe Petrov,180.3,1781877558,D4,Cancelled
-Marketplace,DEFAULT,Direct Debit,ONLINE,Luca Farrow,59,1787068278,A1,Open
-Online,DEFAULT,Credit-Card,MARKETPLACE,Farid Ito,69,1771076311,D4,Cancelled
-Marketplace,DEFAULT,Gift Voucher,Phone,Ines Petrov,72,1776894335,C3,Closed
-Online,DEFAULT,Gift Voucher, Marketplace,Jon Nwosu,149.9,1767698091,C3,Closed
-Marketplace,DEFAULT,gift voucher, Marketplace,Farid Farrow,195.6,1777396090,C3,Closed
-Store,DEFAULT,Direct Debit,Store  ,Chloe Ito,170.2,1781350092,B2,In review
-Marketplace,DEFAULT,Bank Transfer,Store,Mona Nwosu,60,1779327457,A1,Open
-Online,DEFAULT,gift voucher,Marketplace,Luca Ito,195.6,1789195843,C3,Closed
-Online,DEFAULT,Credit Card.,Online,Farid Castro,72,1792271032,A1,Open
-Phone,DEFAULT,Credit Card, Online,Noor Ito,175.3,1788992557,B2,In review
-Store,DEFAULT,Direct Debit,Store,Omar Lindqvist,72,1773633591,C3,Closed
-Online,DEFAULT,Credit  Card,ONLINE,Hiro Brandt,63,1771785475,A1,Open
-Online,DEFAULT,Direct Debit,marketplace,Kemi Jensen,147.3,1790623626,B2,In review
-Phone,DEFAULT,Gift Voucher,MARKETPLACE,Farid Farrow,60,1775402025,A1,Open
-Online,DEFAULT,Bank Transfer, Phone,Ben Petrov,74,1780366385,D4,Cancelled
-Store,DEFAULT,Bank Transfer,marketplace,Ben Abel,165.1,1778993181,C3,Closed
-Marketplace,DEFAULT,Gift Voucher,MARKETPLACE,Hiro Farrow,160.0,1783689291,C3,Closed
-Marketplace,DEFAULT,Gift Voucher,Marketplace,Omar Gallo,182.9,1770652464,C3,Closed
-Phone,DEFAULT,Bank-Transfer,Marketplace,Mona Moreau,165.1,1771940810,D4,Cancelled
-Marketplace,DEFAULT,Bank Transfer,Marketplace,Dev Dunne,180.3,1792043862,B2,In review
-Store,DEFAULT,DIRECT DEBIT, Store,Luca Petrov,152.4,1781723245,C3,Closed
-Phone,DEFAULT,Bank Transfer,online,Noor Dunne,188.0,1773127514,C3,Closed
-Phone,DEFAULT,Bank Transfer,phone,Mona Koval,160.0,1769131282,A1,Open
-Phone,DEFAULT,Bank Transfer,Online,Chloe Ortiz,160.0,1778766288,C3,Closed
-Store,DEFAULT,Gift Voucher.,online,Jon Haas,77,1792102024,B2,In review
-Store,DEFAULT,Bank Transfer,Phone,Mona Farrow,77,1781398118,A1,Open
-Online,DEFAULT,DIRECT DEBIT,Phone,Luca Castro,65,1779014346,A1,Open
-Phone,DEFAULT,Credit Card,STORE,Omar Koval,65,1769934402,B2,In review
-Store,DEFAULT,Direct Debit,Store,Farid Farrow,177.8,1774621824,A1,Open
-Online,DEFAULT,BANK TRANSFER,Store,Elif Brandt,59,1784081098,B2,In review
-Phone,DEFAULT,Bank Transfer,Phone,Hiro Petrov,185.4,1769367624,B2,In review
-Marketplace,DEFAULT,Credit Card,online,Luca Koval,76,1786931469,B2,In review
-Online,DEFAULT,DIRECT DEBIT,Marketplace,Noor Ortiz,160.0,1784793870,C3,Closed
-Phone,DEFAULT,gift voucher,Online,Luca Castro,157.5,1784996220,D4,Cancelled
-Store,DEFAULT,Gift Voucher,Phone,Hiro Nwosu,157.5,1791441967,C3,Closed
-Store,DEFAULT,Bank Transfer,Store,Hiro Ortiz,61,1782978761,C3,Closed
-Marketplace,DEFAULT,Direct Debit,Online,Noor Moreau,66,1788571002,C3,Closed
-Online,DEFAULT,Gift-Voucher,Phone,Luca Eze,190.5,1790672239,D4,Cancelled
-Phone,DEFAULT,Direct Debit,Marketplace,Elif Ortiz,195.6,1779787172,D4,Cancelled
-Store,DEFAULT,Credit-Card,Store,Hiro Castro,62,1778153846,C3,Closed
-Store,DEFAULT,Direct Debit., Phone,Ben Gallo,61,1774333321,A1,Open
-Store,DEFAULT,Direct Debit,Online,Hiro Ito,188.0,1770157122,D4,Cancelled
-Phone,DEFAULT,gift voucher,Phone,Priya Dunne,60,1767953529,A1,Open
-Marketplace,DEFAULT,Credit Card,Online,Omar Moreau,180.3,1767712812,D4,Cancelled
-Online,DEFAULT,Gift Voucher,Marketplace,Grace Petrov,172.7,1778660731,D4,Cancelled
-Marketplace,DEFAULT,Credit Card,Phone,Omar Dunne,154.9,1774931335,B2,In review
-Store,DEFAULT,Bank Transfer,PHONE,Luca Jensen,68,1785166180,B2,In review
-Phone,DEFAULT,Gift Voucher,Online,Priya Gallo,147.3,1768435471,B2,In review
-Online,DEFAULT,Credit Card,MARKETPLACE,Hiro Gallo,64,1769904280,C3,Closed
-Store,DEFAULT,Bank Transfer,Store,Dev Ortiz,154.9,1769994644,D4,Cancelled
-Store,DEFAULT,Credit Card,Store,Priya Castro,76,1792412835,A1,Open
-Store,DEFAULT,Gift Voucher,Marketplace,Jon Moreau,162.6,1790601876,D4,Cancelled
-Online,DEFAULT,Credit Card,Store,Grace Haas,147.3,1772994475,A1,Open
-Online,DEFAULT,Bank Transfer,Online,Ana Brandt,65,1779882553,D4,Cancelled
-Online,DEFAULT,Gift Voucher,Store,Jon Lindqvist,185.4,1780443029,A1,Open
-Store,DEFAULT,Credit Card,Online,Ines Dunne,167.6,1776692718,C3,Closed
-Online,DEFAULT,Bank Transfer,Marketplace,Chloe Abel,198.1,1780006509,D4,Cancelled
-Store,DEFAULT,Gift Voucher,Store,Jon Farrow,68,1771402309,C3,Closed
-Online,DEFAULT,Credit Card,ONLINE,Hiro Ortiz,70,1784684323,C3,Closed
-Phone,DEFAULT,Bank-Transfer,Phone,Farid Lindqvist,165.1,1769790597,D4,Cancelled
-Phone,DEFAULT,Gift Voucher,Phone,Omar Koval,78,1772542866,B2,In review
-Online,DEFAULT,bank transfer,online,Luca Moreau,157.5,1785374565,D4,Cancelled
-Phone,DEFAULT,Credit Card,Phone  ,Dev Eze,73,1779531299,B2,In review
-Marketplace,DEFAULT,Direct Debit,Store,Ben Dunne,78,1768669096,B2,In review
-Marketplace,DEFAULT,Gift Voucher.,Store,Dev Petrov,72,1789404281,A1,Open
-Store,DEFAULT,Direct Debit,Phone,Jon Brandt,68,1793041443,C3,Closed
-Online,DEFAULT,Bank Transfer,Online,Grace Farrow,74,1792559392,D4,Cancelled
-Marketplace,DEFAULT,Direct Debit,ONLINE,Noor Jensen,77,1768950161,B2,In review
-Online,DEFAULT,GIFT VOUCHER,Phone,Hiro Castro,157.5,1784369142,C3,Closed
-Online,DEFAULT,Direct Debit,Phone,Mona Jensen,65,1789257844,A1,Open
-Marketplace,DEFAULT,Gift Voucher.,Phone,Ben Castro,188.0,1786844531,B2,In review
-Store,DEFAULT,Direct Debit,Store,Omar Gallo,188.0,1791124743,D4,Cancelled
-Online,DEFAULT,Gift Voucher, Store,Jon Lindqvist,76,1770050596,C3,Closed
-Store,DEFAULT,Gift Voucher,Phone,Farid Lindqvist,195.6,1789874587,A1,Open
-Online,DEFAULT,Direct Debit,phone,Priya Jensen,180.3,1770544532,B2,In review
-Phone,DEFAULT,Gift Voucher,Phone,Elif Moreau,149.9,1779667928,D4,Cancelled
-Phone,DEFAULT,Gift Voucher,marketplace,Ines Castro,195.6,1771418749,A1,Open
-Marketplace,DEFAULT,bank transfer,Phone  ,Luca Eze,73,1779159575,A1,Open
-Phone,DEFAULT,Gift Voucher,Store,Mona Nwosu,157.5,1783529846,A1,Open
-Marketplace,DEFAULT,Bank Transfer,Marketplace,Kemi Nwosu,61,1769183741,A1,Open
-Marketplace,DEFAULT,Direct Debit,Marketplace  ,Hiro Abel,172.7,1769310247,A1,Open
-Phone,DEFAULT,Direct Debit,Marketplace,Elif Moreau,167.6,1770556810,C3,Closed
-Store,DEFAULT,Direct Debit.,phone,Ines Haas,77,1773910188,A1,Open
-Marketplace,DEFAULT,Gift Voucher.,Store,Jon Koval,177.8,1770833637,A1,Open
-Phone,DEFAULT,Bank Transfer, Phone,Ben Koval,198.1,1769860350,C3,Closed
-Phone,DEFAULT,Credit-Card,Phone,Mona Moreau,58,1783615413,A1,Open
-Marketplace,DEFAULT,Gift Voucher,Online  ,Farid Castro,75,1774374310,B2,In review
-Marketplace,DEFAULT,Bank Transfer, Phone,Ben Moreau,149.9,1773648441,D4,Cancelled
-Store,DEFAULT,Credit Card,Phone,Jon Dunne,177.8,1790648127,A1,Open
-Online,DEFAULT,Bank Transfer,Store,Noor Moreau,73,1780655612,D4,Cancelled
-Store,DEFAULT,BANK TRANSFER,Marketplace  ,Ines Ortiz,157.5,1776339830,C3,Closed
+recorded_at,ctgry,optd_in,ver,customer_name,closed_date,visit_dow,visit_date,email
+2026-03-29 06:17:47,Marketplace  ,1,DEFAULT,NoÃ©mie GÃ¼ell,2025-12-07,5,2026-12-11,ana.nwosu@
+2026-09-29 22:47:22,Store,Yes,DEFAULT,Chloé Lefèvre,9999-12-31,3,2026-10-28,noor.nwosu
+2026-05-31 02:26:49,Phone,no,DEFAULT,NoÃ©mie GÃ¼ell,9999-12-31,1,2026-07-06,luca.gallo
+2026-08-28 18:45:22,Marketplace,FALSE,DEFAULT,IÃ±igo PeÃ±a,9999-12-31,4,2026-07-30,jon.abel@e
+2026-09-04 18:00:32,store,1,DEFAULT,Jürgen Köhler,2024-11-09,1,2026-10-19,priya.abel
+2026-08-14 23:52:03,Phone,no,DEFAULT,Zoë Müller,2022-03-31,3,2026-12-23,omar.jense
+2026-07-23 17:23:08,Store,no,DEFAULT,Søren Aaberg,9999-12-31,4,2026-04-30,kemi.morea
+2026-07-01 13:48:56,online,No,DEFAULT,JÃ¼rgen KÃ¶hler,2024-03-21,4,2026-04-16,ben.petrov
+2026-09-08 18:47:09,Marketplace,0,DEFAULT,Søren Aaberg,2021-05-08,3,2026-02-25,chloe.eze@
+2026-06-21 21:38:10,ONLINE,N,DEFAULT,Noémie Güell,2023-02-05,7,2026-11-29,noor.castr
+2026-02-05 09:01:14,Online,Yes,DEFAULT,ChloÃ© LefÃ¨vre,2021-04-18,4,2026-01-29,farid.kova
+2026-01-17 03:48:25,phone,FALSE,DEFAULT,SÃ¸ren Aaberg,9999-12-31,7,2026-01-04,ines.jense
+2026-08-23 04:59:49,Online,0,DEFAULT,Noémie Güell,2023-05-13,7,2026-02-15,chloe.lind
+2026-05-10 06:09:42,Phone  ,no,DEFAULT,SÃ¸ren Aaberg,2022-08-30,1,2026-11-16,ana.ortiz@
+2026-03-12 05:40:11,online,yes,DEFAULT,Iñigo Peña,2021-12-15,3,2026-03-18,mona.petro
+2026-03-01 16:05:48,Phone,No,DEFAULT,Zoë Müller,2025-06-25,3,2026-02-18,mona.ortiz
+2026-10-07 03:21:58,Store,FALSE,DEFAULT,Iñigo Peña,2024-02-09,6,2026-08-01,chloe.abel
+2026-08-22 01:55:02,Phone,N,DEFAULT,NoÃ©mie GÃ¼ell,2023-10-10,6,2026-05-23,kemi.petro
+2026-04-25 03:23:27,ONLINE,Y,DEFAULT,IÃ±igo PeÃ±a,2023-01-03,1,2026-04-06,luca.castr
+2026-02-15 05:09:54,Store,Y,DEFAULT,Renée François,9999-12-31,5,2026-02-20,noor.jense
+2026-07-18 11:18:42,phone,TRUE,DEFAULT,Jürgen Köhler,2023-01-22,4,2026-09-10,ines.morea
+2026-02-06 21:06:37,Online,FALSE,DEFAULT,Zoë Müller,2026-04-17,2,2026-06-23,chloe.haas
+2026-02-10 03:14:14, Phone,No,DEFAULT,NoÃ©mie GÃ¼ell,9999-12-31,3,2026-06-10,ana.gallo@
+2026-05-10 04:11:45,Marketplace  ,TRUE,DEFAULT,Renée François,2026-11-11,3,2026-11-25,dev.gallo@
+2026-07-20 14:58:29,Phone,yes,DEFAULT,RenÃ©e FranÃ§ois,9999-12-31,5,2026-07-10,ana.ortiz@
+2026-01-26 05:27:01,Store,Yes,DEFAULT,SÃ¸ren Aaberg,9999-12-31,2,2026-05-05,chloe.gall
+2026-08-20 17:16:56, Online,Yes,DEFAULT,JosÃ© NÃºÃ±ez,2024-01-28,3,2026-04-01,ines.lindq
+2026-04-15 00:56:57,Store  ,no,DEFAULT,Jürgen Köhler,2025-04-24,3,2026-11-25,noor.ito@e
+2026-04-20 23:09:39,Marketplace,Yes,DEFAULT,NoÃ©mie GÃ¼ell,2021-03-09,2,2026-03-10,ben.koval@
+2026-01-15 21:45:27,ONLINE,0,DEFAULT,Chloé Lefèvre,2026-01-12,1,2026-11-02,farid.nwos
+2026-02-02 09:27:16,MARKETPLACE,N,DEFAULT,Zoë Müller,2024-07-29,3,2026-08-26,luca.morea
+2026-02-20 02:32:46,Phone,0,DEFAULT,SÃ¸ren Aaberg,2022-07-23,3,2026-12-30,priya.kova
+2026-05-16 23:45:03, Marketplace,Y,DEFAULT,José Núñez,2025-10-21,6,2026-08-15,ines.lindq
+2026-05-26 15:35:03, Marketplace,1,DEFAULT,José Núñez,2023-01-30,7,2026-10-04,chloe.farr
+2026-10-21 21:38:32,Store  ,TRUE,DEFAULT,Renée François,2021-11-10,7,2026-03-15,luca.castr
+2026-05-28 17:58:23,Store,yes,DEFAULT,Iñigo Peña,2024-12-11,2,2026-07-21,kemi.lindq
+2026-09-22 08:22:21,Marketplace,N,DEFAULT,NoÃ©mie GÃ¼ell,2025-11-23,3,2026-11-04,mona.dunne
+2026-07-22 16:58:02,Online,FALSE,DEFAULT,José Núñez,2023-02-19,7,2026-08-16,hiro.haas@
+2026-02-12 10:22:34, Online,FALSE,DEFAULT,Chloé Lefèvre,9999-12-31,7,2026-01-04,hiro.abel@
+2026-04-09 01:59:21,Store,yes,DEFAULT,NoÃ©mie GÃ¼ell,9999-12-31,3,2026-04-01,ana.moreau
+2026-04-23 15:07:26,ONLINE,No,DEFAULT,NoÃ©mie GÃ¼ell,2024-07-28,7,2026-03-15,farid.ito@
+2026-08-08 15:56:46,marketplace,0,DEFAULT,Søren Aaberg,2023-05-12,2,2026-11-03,ana.brandt
+2026-10-05 02:38:47,MARKETPLACE,No,DEFAULT,RenÃ©e FranÃ§ois,2021-01-24,2,2026-09-29,priya.bran
+2026-06-25 17:52:58, Phone,Y,DEFAULT,Zoë Müller,2025-01-19,3,2026-02-18,luca.haas@
+2026-01-14 17:51:43,marketplace,yes,DEFAULT,NoÃ©mie GÃ¼ell,9999-12-31,1,2026-12-21,luca.gallo
+2026-08-30 09:26:25,MARKETPLACE,TRUE,DEFAULT,Chloé Lefèvre,2026-08-22,4,2026-11-26,priya.lind
+2026-01-25 22:05:15,Marketplace,Yes,DEFAULT,IÃ±igo PeÃ±a,9999-12-31,6,2026-01-10,hiro.gallo
+2026-06-04 16:15:52,Marketplace,FALSE,DEFAULT,RenÃ©e FranÃ§ois,2023-08-01,7,2026-06-21,priya.petr
+2026-03-15 20:37:19,Marketplace,no,DEFAULT,JosÃ© NÃºÃ±ez,9999-12-31,5,2026-10-30,elif.lindq
+2026-06-05 04:33:13, Store,TRUE,DEFAULT,ZoÃ« MÃ¼ller,2021-06-22,6,2026-08-15,dev.nwosu@
+2026-03-30 15:00:02,online,Y,DEFAULT,IÃ±igo PeÃ±a,9999-12-31,3,2026-12-09,ana.petrov
+2026-10-01 01:25:18,phone,1,DEFAULT,JosÃ© NÃºÃ±ez,2021-08-20,7,2026-02-15,ana.gallo@
+2026-07-09 20:28:20,Online,TRUE,DEFAULT,JÃ¼rgen KÃ¶hler,9999-12-31,3,2026-12-16,grace.kova
+2026-09-18 12:19:14,online,N,DEFAULT,JÃ¼rgen KÃ¶hler,2022-10-03,6,2026-01-24,mona.koval
+2026-03-18 20:43:36,Phone,yes,DEFAULT,Iñigo Peña,2026-10-01,6,2026-06-13,noor.petro
+2026-08-03 10:40:59,Phone,No,DEFAULT,Noémie Güell,2024-09-07,6,2026-11-21,noor.eze@e
+2026-04-11 22:20:22,STORE,Yes,DEFAULT,Renée François,9999-12-31,2,2026-12-29,dev.ito@ex
+2026-07-31 08:23:50,Store,Y,DEFAULT,Chloé Lefèvre,2026-09-28,7,2026-01-04,ana.nwosu@
+2026-02-08 03:15:59,Store,0,DEFAULT,Renée François,2021-09-03,7,2026-05-31,dev.dunne@
+2026-03-19 03:51:44,Phone,Y,DEFAULT,ChloÃ© LefÃ¨vre,2026-12-19,4,2026-06-18,omar.morea
+2026-08-29 16:02:15,online,No,DEFAULT,Iñigo Peña,2025-04-03,3,2026-07-15,mona.haas@
+2026-04-22 20:28:02,Marketplace,1,DEFAULT,Zoë Müller,9999-12-31,1,2026-12-21,noor.haas@
+2026-07-15 17:17:32,Online,No,DEFAULT,Noémie Güell,2021-07-29,2,2026-07-21,elif.haas@
+2026-01-27 02:23:42,Phone,no,DEFAULT,Søren Aaberg,2026-08-19,7,2026-05-10,elif.ortiz
+2026-10-06 23:36:12,Store,0,DEFAULT,Søren Aaberg,2024-02-28,7,2026-03-22,farid.kova
+2026-05-04 05:26:28,Online,TRUE,DEFAULT,JosÃ© NÃºÃ±ez,2022-06-01,3,2026-10-14,mona.ito@e
+2026-05-24 04:44:17,Phone,TRUE,DEFAULT,Noémie Güell,9999-12-31,7,2026-04-05,luca.ortiz
+2026-05-20 00:42:02,Marketplace,1,DEFAULT,NoÃ©mie GÃ¼ell,9999-12-31,4,2026-02-19,farid.cast
+2026-07-25 20:31:52,Store,yes,DEFAULT,Iñigo Peña,9999-12-31,5,2026-05-15,ines.morea
+2026-07-05 19:21:31, Phone,yes,DEFAULT,ZoÃ« MÃ¼ller,9999-12-31,5,2026-09-18,mona.abel@
+2026-03-16 00:34:05,Online,Y,DEFAULT,Noémie Güell,9999-12-31,7,2026-02-01,ines.farro
+2026-07-12 08:46:58,Phone,No,DEFAULT,Søren Aaberg,2025-08-25,2,2026-07-14,elif.abel@
+2026-05-04 20:19:44,Online,0,DEFAULT,ChloÃ© LefÃ¨vre,2023-09-01,5,2026-06-26,ines.farro
+2026-09-12 10:26:05,Marketplace,Y,DEFAULT,ZoÃ« MÃ¼ller,2023-10-24,2,2026-10-20,dev.gallo@
+2026-05-21 17:22:23,Phone,TRUE,DEFAULT,SÃ¸ren Aaberg,9999-12-31,1,2026-01-12,jon.koval@
+2026-06-04 14:01:52,PHONE,N,DEFAULT,JÃ¼rgen KÃ¶hler,2026-03-17,6,2026-08-01,grace.ito@
+2026-04-20 07:00:10,Online,1,DEFAULT,RenÃ©e FranÃ§ois,2025-10-18,4,2026-11-19,chloe.petr
+2026-07-20 06:12:52,MARKETPLACE,0,DEFAULT,Zoë Müller,9999-12-31,5,2026-05-15,omar.gallo
+2026-04-26 10:38:25,Store,FALSE,DEFAULT,José Núñez,2023-07-07,2,2026-12-08,priya.cast
+2026-10-08 02:43:34,Store,No,DEFAULT,Noémie Güell,2022-08-23,5,2026-11-27,ben.moreau
+2026-08-20 18:15:09,Marketplace,No,DEFAULT,ChloÃ© LefÃ¨vre,2026-01-24,6,2026-05-16,grace.gall
+2026-06-25 21:20:57,Store,1,DEFAULT,IÃ±igo PeÃ±a,9999-12-31,4,2026-01-22,ines.dunne
+2026-06-10 05:48:58,Online,N,DEFAULT,NoÃ©mie GÃ¼ell,9999-12-31,4,2026-10-01,chloe.nwos
+2026-01-03 16:57:20,Store,0,DEFAULT,Zoë Müller,2025-10-31,7,2026-12-27,mona.gallo
+2026-09-07 04:12:24,Online,no,DEFAULT,RenÃ©e FranÃ§ois,2025-03-17,7,2026-07-05,elif.castr
+2026-03-18 17:00:47,Marketplace,no,DEFAULT,IÃ±igo PeÃ±a,2021-11-12,4,2026-02-19,priya.dunn
+2026-04-17 01:54:30,Store,N,DEFAULT,RenÃ©e FranÃ§ois,2026-10-02,6,2026-03-07,kemi.abel@
+2026-04-18 16:18:32,ONLINE,0,DEFAULT,Søren Aaberg,9999-12-31,5,2026-08-14,ines.haas@
+2026-07-08 04:00:49,Phone,0,DEFAULT,Chloé Lefèvre,2026-08-31,5,2026-05-29,jon.brandt
+2026-03-17 00:18:58,Phone,TRUE,DEFAULT,NoÃ©mie GÃ¼ell,2024-12-14,7,2026-09-20,dev.ortiz@
+2026-07-29 18:14:50,online,no,DEFAULT,Noémie Güell,9999-12-31,1,2026-06-22,ines.petro
+2026-07-07 05:11:50,Phone  ,yes,DEFAULT,Renée François,2023-03-10,6,2026-07-18,dev.brandt
+2026-07-10 06:36:59,Store,no,DEFAULT,Iñigo Peña,2021-07-18,5,2026-08-28,chloe.cast
+2026-09-21 22:35:25,Store,no,DEFAULT,ZoÃ« MÃ¼ller,2025-08-09,1,2026-07-06,grace.bran
+2026-02-13 16:33:21,Phone,Yes,DEFAULT,Noémie Güell,2024-05-07,4,2026-01-08,priya.petr
+2026-04-06 22:16:00,Online,Y,DEFAULT,José Núñez,2023-10-26,3,2026-12-23,elif.ortiz
+2026-10-22 16:08:55,ONLINE,FALSE,DEFAULT,JosÃ© NÃºÃ±ez,9999-12-31,5,2026-07-24,omar.ortiz
+2026-10-12 20:53:01,Phone,N,DEFAULT,IÃ±igo PeÃ±a,2024-06-22,2,2026-07-07,priya.gall
+2026-01-01 06:47:27,Phone,No,DEFAULT,Zoë Müller,2022-01-17,6,2026-10-10,ana.koval@
+2026-08-06 09:29:24,Phone,FALSE,DEFAULT,Søren Aaberg,9999-12-31,1,2026-09-14,jon.moreau
+2026-03-31 05:55:10,Store,FALSE,DEFAULT,ChloÃ© LefÃ¨vre,2025-08-05,1,2026-10-05,ana.jensen
+2026-10-08 20:40:14, Store,no,DEFAULT,JosÃ© NÃºÃ±ez,2025-12-25,6,2026-04-11,grace.petr
+2026-04-29 21:30:47,Phone,0,DEFAULT,Søren Aaberg,2023-08-28,3,2026-02-18,ben.petrov
+2026-07-26 14:57:14,phone,Y,DEFAULT,IÃ±igo PeÃ±a,2025-05-14,1,2026-12-14,elif.lindq
+2026-07-31 09:06:31,Phone,Yes,DEFAULT,JosÃ© NÃºÃ±ez,2021-12-18,3,2026-02-11,farid.abel
+2026-09-09 20:06:40,marketplace,No,DEFAULT,JÃ¼rgen KÃ¶hler,2026-03-29,2,2026-12-29,hiro.eze@e
+2026-01-31 13:19:46,Phone  ,No,DEFAULT,ZoÃ« MÃ¼ller,2024-09-20,2,2026-05-19,noor.jense
+2026-04-07 05:38:30,Store,Y,DEFAULT,RenÃ©e FranÃ§ois,2026-07-05,4,2026-04-09,luca.dunne
+2026-04-23 03:40:53,Marketplace,No,DEFAULT,Noémie Güell,9999-12-31,4,2026-12-03,farid.farr
+2026-07-21 22:16:33,Marketplace  ,0,DEFAULT,Chloé Lefèvre,9999-12-31,5,2026-08-28,omar.ortiz
+2026-04-28 00:08:34,Marketplace,0,DEFAULT,SÃ¸ren Aaberg,2026-09-30,3,2026-09-02,ana.gallo@
+2026-01-04 06:50:40,phone,no,DEFAULT,NoÃ©mie GÃ¼ell,2023-02-10,4,2026-04-09,ana.castro
+2026-10-23 19:58:34,Store,Y,DEFAULT,Noémie Güell,9999-12-31,3,2026-10-21,grace.haas
+2026-07-27 22:42:10, Phone,1,DEFAULT,IÃ±igo PeÃ±a,2022-05-29,6,2026-08-01,mona.morea
+2026-09-26 08:28:31,Phone,yes,DEFAULT,IÃ±igo PeÃ±a,9999-12-31,6,2026-05-02,luca.ito@e
+2026-08-21 11:04:33,Online  ,Y,DEFAULT,Jürgen Köhler,2022-02-08,3,2026-02-18,kemi.brand
+2026-01-17 00:36:54, Phone,0,DEFAULT,IÃ±igo PeÃ±a,2026-01-03,4,2026-10-29,noor.lindq
+2026-07-04 08:11:19,Phone,N,DEFAULT,Jürgen Köhler,9999-12-31,3,2026-04-22,ines.dunne
+2026-09-07 05:55:48,Store,0,DEFAULT,Zoë Müller,2023-07-17,6,2026-02-07,dev.eze@ex
+2026-04-26 20:34:20,Marketplace  ,FALSE,DEFAULT,ZoÃ« MÃ¼ller,2025-09-19,2,2026-12-15,dev.petrov

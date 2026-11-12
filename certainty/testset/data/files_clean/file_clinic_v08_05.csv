@@ -1,0 +1,61 @@
+record_id,contact_name,created_date,amount_usd,channel,address
+VIS-47610,Luca Ortiz,2026-08-02,362.24,Routine,520 Park Way
+VIS-73197,Mona Abel,2025-03-01,152.27,Urgent,365 Oak Ave
+VIS-56370,Elif Gallo,2026-02-01,308.28,Referral,593 Mill Rd
+VIS-78783,Kemi Lindqvist,2026-06-13,596.59,Referral,783 Main St
+VIS-97071,Kemi Gallo,2025-12-19,510.12,Referral,801 Hill Ln
+VIS-17962,Luca Farrow,2025-07-19,635.07,Urgent,535 Park Way
+VIS-51571,Mona Haas,2025-04-16,374.36,Referral,331 Park Way
+VIS-97089,Priya Ortiz,2026-03-27,227.73,Referral,850 Main St
+VIS-93654,Farid Ortiz,2025-12-22,413.84,Follow Up,948 Oak Ave
+VIS-39590,Grace Lindqvist,2025-06-10,199.75,Follow Up,900 Park Way
+VIS-30837,Kemi Haas,2025-04-19,640.99,Referral,292 Park Way
+VIS-87829,Farid Moreau,2026-07-20,532.19,Urgent,584 Main St
+VIS-49367,Priya Petrov,2025-07-20,557.35,Follow Up,778 Park Way
+VIS-95804,Jon Brandt,2025-12-30,229.87,Urgent,772 Park Way
+VIS-55963,Mona Petrov,2025-10-13,230.48,Referral,41 Park Way
+VIS-37261,Ana Dunne,2026-03-06,482.69,Follow Up,361 Hill Ln
+VIS-44054,Hiro Gallo,2025-06-12,323.24,Routine,334 Oak Ave
+VIS-21403,Dev Gallo,2026-04-05,405.74,Urgent,966 Park Way
+VIS-70306,Mona Moreau,2025-04-19,230.28,Urgent,360 Lake Dr
+VIS-47661,Chloe Koval,2025-08-03,729.96,Follow Up,791 Lake Dr
+VIS-75901,Noor Ito,2026-01-06,685.79,Follow Up,521 Park Way
+VIS-87414,Jon Nwosu,2025-09-04,433.98,Referral,856 Hill Ln
+VIS-28995,Hiro Gallo,2026-01-18,396.12,Urgent,777 Lake Dr
+VIS-29085,Chloe Lindqvist,2026-07-23,421.29,Follow Up,421 Hill Ln
+VIS-24756,Dev Nwosu,2026-08-04,879.12,Urgent,941 Hill Ln
+VIS-17748,Omar Lindqvist,2026-06-05,323.04,Follow Up,66 Hill Ln
+VIS-46314,Noor Castro,2025-04-06,365.76,Urgent,62 Oak Ave
+VIS-29558,Farid Dunne,2025-01-05,788.46,Routine,955 Mill Rd
+VIS-57404,Ana Ito,2026-05-15,537.75,Referral,610 Park Way
+VIS-44574,Priya Abel,2026-06-11,275.22,Referral,763 Oak Ave
+VIS-16756,Ben Petrov,2025-03-31,579.77,Urgent,11 Park Way
+VIS-37768,Chloe Dunne,2025-07-21,837.07,Follow Up,210 Oak Ave
+VIS-51436,Priya Castro,2026-01-08,98.10,Referral,359 Park Way
+VIS-60423,Luca Castro,2025-04-05,671.59,Urgent,993 Oak Ave
+VIS-26113,Priya Petrov,2026-02-25,555.78,Routine,152 Oak Ave
+VIS-21983,Luca Castro,2025-08-16,652.21,Routine,99 Park Way
+VIS-83795,Omar Moreau,2025-12-06,858.76,Referral,841 Hill Ln
+VIS-31755,Luca Nwosu,2025-04-25,871.63,Routine,659 Main St
+VIS-69742,Jon Eze,2025-06-10,833.49,Urgent,521 Mill Rd
+VIS-31080,Jon Nwosu,2025-12-29,103.46,Referral,591 Oak Ave
+VIS-73048,Omar Farrow,2026-02-05,447.06,Routine,698 Oak Ave
+VIS-35859,Kemi Jensen,2025-03-10,126.71,Routine,433 Lake Dr
+VIS-58561,Ana Farrow,2025-05-12,28.79,Routine,940 Park Way
+VIS-33498,Grace Farrow,2025-11-30,256.70,Urgent,468 Mill Rd
+VIS-94783,Omar Petrov,2025-10-22,779.71,Routine,933 Main St
+VIS-26772,Dev Nwosu,2026-04-30,721.86,Referral,797 Hill Ln
+VIS-14074,Hiro Koval,2026-05-18,494.31,Referral,723 Lake Dr
+VIS-15765,Kemi Abel,2026-02-05,194.90,Follow Up,531 Park Way
+VIS-13891,Noor Ito,2025-11-21,826.71,Urgent,334 Main St
+VIS-46802,Ines Gallo,2025-06-05,822.80,Routine,655 Lake Dr
+VIS-32571,Kemi Koval,2025-07-18,250.48,Follow Up,958 Oak Ave
+VIS-38373,Omar Gallo,2026-04-26,841.81,Follow Up,95 Hill Ln
+VIS-67330,Luca Abel,2026-07-21,642.84,Urgent,13 Mill Rd
+VIS-34755,Priya Abel,2025-03-29,464.53,Follow Up,483 Main St
+VIS-22918,Farid Petrov,2026-05-06,885.31,Routine,191 Oak Ave
+VIS-82750,Priya Moreau,2025-09-04,521.48,Routine,362 Main St
+VIS-73137,Jon Farrow,2025-02-20,752.21,Referral,267 Oak Ave
+VIS-28081,Farid Farrow,2026-08-18,156.85,Routine,435 Park Way
+VIS-60815,Priya Abel,2026-01-28,579.89,Follow Up,532 Lake Dr
+VIS-89734,Ines Farrow,2025-12-04,204.51,Referral,683 Hill Ln

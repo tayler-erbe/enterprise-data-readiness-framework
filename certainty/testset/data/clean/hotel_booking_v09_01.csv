@@ -1,121 +1,121 @@
-amount,completion_pct,status_cd,status_desc,bkng_id,src,loc,account_id,is_actv
-654.05,36.2,C3,Closed,BKG-87489,DEFAULT,ID,751585,true
-405.32,73.4,A1,Open,BKG-77932,DEFAULT,ID,641023,true
-518.77,63.5,D4,Cancelled,BKG-74078,DEFAULT,AL,322499,false
-570.47,32.3,D4,Cancelled,BKG-96339,DEFAULT,MO,610790,true
-834.09,57.6,A1,Open,BKG-61779,DEFAULT,ID,884975,false
-133.79,44.6,D4,Cancelled,BKG-70825,DEFAULT,SD,158586,false
-447.36,19.5,B2,In review,BKG-46588,DEFAULT,PA,747353,true
-447.1,55.7,D4,Cancelled,BKG-97195,DEFAULT,GA,660328,true
-174.88,40.7,B2,In review,BKG-61221,DEFAULT,ME,183556,true
-709.19,14.7,B2,In review,BKG-40560,DEFAULT,PA,256929,false
-508.61,33.7,D4,Cancelled,BKG-43116,DEFAULT,TN,441540,false
-491.4,66.1,D4,Cancelled,BKG-66335,DEFAULT,GA,250841,true
-878.81,30.8,A1,Open,BKG-18106,DEFAULT,SD,397918,true
-897.45,44.9,A1,Open,BKG-18994,DEFAULT,SC,390921,true
-55.42,65.5,B2,In review,BKG-19213,DEFAULT,PA,471353,false
-296.46,73.1,C3,Closed,BKG-36889,DEFAULT,NE,375344,true
-320.22,56.3,B2,In review,BKG-55060,DEFAULT,SC,279444,true
-428.64,22.0,C3,Closed,BKG-59704,DEFAULT,GA,663460,false
-772.84,1.5,A1,Open,BKG-86050,DEFAULT,ID,291129,true
-147.84,85.4,A1,Open,BKG-47311,DEFAULT,MN,570949,false
-464.64,51.1,A1,Open,BKG-76599,DEFAULT,MA,334041,false
-508.97,6.1,B2,In review,BKG-83955,DEFAULT,AL,453525,true
-252.13,69.1,A1,Open,BKG-41229,DEFAULT,VA,464289,false
-554.79,42.9,D4,Cancelled,BKG-80677,DEFAULT,AL,168758,true
-844.14,41.1,C3,Closed,BKG-72529,DEFAULT,MN,548259,true
-312.7,13.6,A1,Open,BKG-52875,DEFAULT,ME,350934,false
-701.03,56.1,C3,Closed,BKG-62259,DEFAULT,GA,694566,false
-853.01,97.5,D4,Cancelled,BKG-93384,DEFAULT,CA,762418,false
-32.78,32.7,D4,Cancelled,BKG-86106,DEFAULT,CO,146012,true
-855.27,21.1,A1,Open,BKG-65611,DEFAULT,MD,462080,true
-392.96,0.7,A1,Open,BKG-16629,DEFAULT,PA,400640,false
-546.29,18.8,D4,Cancelled,BKG-91376,DEFAULT,IN,475763,true
-765.75,83.4,D4,Cancelled,BKG-62061,DEFAULT,PA,351964,false
-375.9,53.2,D4,Cancelled,BKG-93578,DEFAULT,CA,254378,true
-251.58,40.9,C3,Closed,BKG-66196,DEFAULT,PA,842346,false
-639.25,77.2,C3,Closed,BKG-21713,DEFAULT,NE,737233,true
-790.98,78.2,A1,Open,BKG-15084,DEFAULT,MN,661183,true
-484.46,32.1,A1,Open,BKG-98691,DEFAULT,CO,730329,true
-444.41,26.8,D4,Cancelled,BKG-87765,DEFAULT,SD,539526,true
-637.32,14.6,C3,Closed,BKG-12222,DEFAULT,PA,356327,false
-232.49,88.5,B2,In review,BKG-98804,DEFAULT,ME,704219,false
-152.15,97.0,C3,Closed,BKG-93107,DEFAULT,NE,322428,false
-517.31,71.6,D4,Cancelled,BKG-85009,DEFAULT,DE,109493,true
-290.5,91.5,B2,In review,BKG-77062,DEFAULT,ME,882806,false
-570.83,13.8,A1,Open,BKG-97757,DEFAULT,SD,452198,true
-115.25,88.3,A1,Open,BKG-79843,DEFAULT,MN,732259,false
-645.76,46.7,D4,Cancelled,BKG-34178,DEFAULT,MD,706488,true
-777.04,47.7,A1,Open,BKG-13845,DEFAULT,AL,899705,false
-561.38,72.3,A1,Open,BKG-81897,DEFAULT,AL,309534,true
-749.3,31.5,A1,Open,BKG-33648,DEFAULT,SC,776734,false
-517.28,1.1,A1,Open,BKG-50833,DEFAULT,ME,416431,false
-698.76,63.9,C3,Closed,BKG-57308,DEFAULT,ME,387927,true
-645.16,74.9,C3,Closed,BKG-30492,DEFAULT,AR,781715,false
-572.14,47.5,C3,Closed,BKG-63264,DEFAULT,NE,194577,true
-319.27,94.0,A1,Open,BKG-70892,DEFAULT,NE,725335,true
-66.03,93.9,D4,Cancelled,BKG-87183,DEFAULT,MD,710593,false
-94.21,81.9,C3,Closed,BKG-92163,DEFAULT,AR,364817,false
-384.99,9.8,B2,In review,BKG-41705,DEFAULT,SC,694741,true
-50.61,61.4,A1,Open,BKG-50687,DEFAULT,SD,860398,true
-731.49,81.9,B2,In review,BKG-36657,DEFAULT,SD,120836,false
-401.24,38.9,B2,In review,BKG-14021,DEFAULT,AL,334789,true
-76.29,53.2,B2,In review,BKG-23427,DEFAULT,NE,362888,true
-468.38,2.3,C3,Closed,BKG-17267,DEFAULT,CO,588709,true
-854.35,45.1,B2,In review,BKG-75190,DEFAULT,AR,726581,true
-698.97,29.0,D4,Cancelled,BKG-55206,DEFAULT,MD,422693,false
-374.3,63.3,A1,Open,BKG-31789,DEFAULT,NC,493131,true
-662.03,39.8,C3,Closed,BKG-59740,DEFAULT,VA,390602,false
-899.39,49.9,B2,In review,BKG-61650,DEFAULT,NE,464796,false
-371.57,42.6,D4,Cancelled,BKG-78181,DEFAULT,SD,373997,true
-360.57,99.1,C3,Closed,BKG-53048,DEFAULT,MA,250395,false
-603.82,60.0,B2,In review,BKG-70726,DEFAULT,MO,883923,false
-162.01,13.2,B2,In review,BKG-84022,DEFAULT,ME,833136,true
-164.65,64.3,C3,Closed,BKG-92779,DEFAULT,GA,314143,true
-456.2,13.6,C3,Closed,BKG-77147,DEFAULT,AR,354569,false
-190.46,22.1,B2,In review,BKG-67335,DEFAULT,TN,163067,false
-667.56,56.2,A1,Open,BKG-71069,DEFAULT,SD,183775,false
-241.09,66.1,D4,Cancelled,BKG-92333,DEFAULT,IL,801064,false
-367.54,12.1,C3,Closed,BKG-96621,DEFAULT,NE,725351,false
-132.98,70.6,D4,Cancelled,BKG-28363,DEFAULT,AR,505188,true
-350.18,50.3,D4,Cancelled,BKG-58337,DEFAULT,MT,377647,false
-203.74,90.3,A1,Open,BKG-61495,DEFAULT,LA,527032,false
-132.79,7.7,C3,Closed,BKG-51198,DEFAULT,CO,514638,false
-496.2,98.9,A1,Open,BKG-88938,DEFAULT,MT,658736,true
-77.6,21.0,A1,Open,BKG-15128,DEFAULT,IL,623071,false
-757.09,86.6,C3,Closed,BKG-89102,DEFAULT,PA,849766,true
-821.41,74.3,C3,Closed,BKG-13007,DEFAULT,AL,513889,true
-660.33,74.8,B2,In review,BKG-83131,DEFAULT,AR,732056,false
-28.8,84.9,B2,In review,BKG-93120,DEFAULT,NC,843470,true
-798.96,63.5,A1,Open,BKG-16234,DEFAULT,ME,362957,false
-594.35,36.4,D4,Cancelled,BKG-75690,DEFAULT,ID,438768,true
-851.56,98.4,D4,Cancelled,BKG-51455,DEFAULT,SD,168974,false
-308.56,35.3,C3,Closed,BKG-61832,DEFAULT,MA,732507,false
-672.16,26.1,D4,Cancelled,BKG-52945,DEFAULT,MN,376310,true
-304.5,86.1,D4,Cancelled,BKG-76467,DEFAULT,AR,149437,true
-677.61,27.5,D4,Cancelled,BKG-52606,DEFAULT,MN,236864,true
-140.28,30.5,C3,Closed,BKG-60484,DEFAULT,NE,332832,false
-56.53,13.5,D4,Cancelled,BKG-85565,DEFAULT,LA,199634,false
-239.56,93.4,A1,Open,BKG-59512,DEFAULT,CO,107063,true
-222.46,61.9,A1,Open,BKG-41012,DEFAULT,DE,483772,false
-865.0,66.5,B2,In review,BKG-36616,DEFAULT,GA,403142,false
-343.88,72.9,C3,Closed,BKG-70935,DEFAULT,NC,757691,false
-448.69,40.3,D4,Cancelled,BKG-43617,DEFAULT,IL,524411,true
-721.14,95.1,D4,Cancelled,BKG-44060,DEFAULT,LA,772481,false
-192.61,23.3,A1,Open,BKG-61446,DEFAULT,MN,215534,true
-619.8,64.6,D4,Cancelled,BKG-41714,DEFAULT,SD,294718,true
-575.69,56.4,C3,Closed,BKG-44139,DEFAULT,SC,402910,true
-483.72,83.4,C3,Closed,BKG-88608,DEFAULT,GA,858665,true
-161.85,32.2,A1,Open,BKG-24087,DEFAULT,DE,874380,false
-790.19,74.6,A1,Open,BKG-84289,DEFAULT,VA,272718,false
-451.07,67.0,C3,Closed,BKG-53411,DEFAULT,NC,609403,true
-281.73,75.8,D4,Cancelled,BKG-80270,DEFAULT,VA,318955,false
-376.76,25.8,C3,Closed,BKG-77535,DEFAULT,DE,539481,false
-290.08,36.2,D4,Cancelled,BKG-99269,DEFAULT,MA,780518,false
-524.09,20.1,B2,In review,BKG-89298,DEFAULT,ME,760403,true
-116.11,20.5,B2,In review,BKG-51671,DEFAULT,SC,298829,true
-309.7,20.1,D4,Cancelled,BKG-54318,DEFAULT,CA,596265,false
-883.06,51.8,A1,Open,BKG-60262,DEFAULT,CO,384109,true
-396.55,16.9,A1,Open,BKG-47277,DEFAULT,NE,165945,false
-594.59,34.4,A1,Open,BKG-91785,DEFAULT,MO,363573,true
-162.94,21.9,A1,Open,BKG-17039,DEFAULT,LA,427195,false
+amount_paid,day,pymnt_mthd,renewal,reason,dow,status_cd,status_desc,completion_pct
+5854.97,Wednesday,Gift Voucher,false,Corporate,Tuesday,C3,Closed,36.2
+669.82,Monday,Gift Voucher,false,Corporate,Friday,A1,Open,73.4
+1384.27,Wednesday,Gift Voucher,false,Corporate,Tuesday,D4,Cancelled,63.5
+5801.26,Wednesday,Gift Voucher,false,Corporate,Saturday,D4,Cancelled,32.3
+594.23,Wednesday,Bank Transfer,false,Group,Thursday,A1,Open,57.6
+5145.75,Saturday,Direct Debit,true,,Sunday,D4,Cancelled,44.6
+8197.13,Monday,Gift Voucher,true,Leisure,Thursday,B2,In review,19.5
+2101.98,Tuesday,Gift Voucher,true,Corporate,Monday,D4,Cancelled,55.7
+5303.87,Saturday,Credit Card,false,Leisure,Tuesday,B2,In review,40.7
+5890.48,Sunday,Bank Transfer,false,Leisure,Thursday,B2,In review,14.7
+3330.48,Monday,Bank Transfer,true,Leisure,Friday,D4,Cancelled,33.7
+7452.05,Sunday,Bank Transfer,false,Leisure,Friday,D4,Cancelled,66.1
+1424.89,Friday,Bank Transfer,false,Group,Friday,A1,Open,30.8
+8154.84,Wednesday,Credit Card,true,,Sunday,A1,Open,44.9
+3282.69,Saturday,Gift Voucher,false,Group,Saturday,B2,In review,65.5
+7528.09,Tuesday,Direct Debit,false,Leisure,Friday,C3,Closed,73.1
+5020.39,Saturday,Bank Transfer,false,Leisure,Friday,B2,In review,56.3
+2032.43,Sunday,Bank Transfer,true,Event,Saturday,C3,Closed,22.0
+1124.94,Thursday,Credit Card,false,,Sunday,A1,Open,1.5
+2332.37,Sunday,Credit Card,false,Event,Monday,A1,Open,85.4
+950.54,Wednesday,Credit Card,true,Group,Friday,A1,Open,51.1
+2516.96,Sunday,Credit Card,false,,Tuesday,B2,In review,6.1
+3894.42,Tuesday,Bank Transfer,false,Group,Tuesday,A1,Open,69.1
+441.64,Wednesday,Gift Voucher,false,Leisure,Friday,D4,Cancelled,42.9
+8052.28,Tuesday,Gift Voucher,false,,Saturday,C3,Closed,41.1
+6899.42,Saturday,Bank Transfer,false,Leisure,Monday,A1,Open,13.6
+6382.45,Monday,Gift Voucher,true,Leisure,Thursday,C3,Closed,56.1
+2649.1,Saturday,Credit Card,false,,Thursday,D4,Cancelled,97.5
+2543.15,Saturday,Gift Voucher,false,Group,Wednesday,D4,Cancelled,32.7
+2872.48,Sunday,Direct Debit,true,Event,Wednesday,A1,Open,21.1
+6905.45,Thursday,Bank Transfer,true,Corporate,Wednesday,A1,Open,0.7
+4812.28,Monday,Direct Debit,false,,Monday,D4,Cancelled,18.8
+1616.84,Sunday,Credit Card,false,Group,Saturday,D4,Cancelled,83.4
+8311.98,Tuesday,Credit Card,false,Group,Monday,D4,Cancelled,53.2
+2478.47,Friday,Bank Transfer,true,Corporate,Wednesday,C3,Closed,40.9
+6269.4,Monday,Gift Voucher,true,,Saturday,C3,Closed,77.2
+552.42,Friday,Gift Voucher,true,Group,Friday,A1,Open,78.2
+705.55,Wednesday,Direct Debit,false,,Monday,A1,Open,32.1
+8850.73,Wednesday,Bank Transfer,true,,Thursday,D4,Cancelled,26.8
+6586.88,Monday,Direct Debit,false,Leisure,Sunday,C3,Closed,14.6
+4776.44,Thursday,Gift Voucher,false,,Saturday,B2,In review,88.5
+8566.0,Saturday,Credit Card,true,Group,Friday,C3,Closed,97.0
+5688.32,Thursday,Direct Debit,false,Leisure,Monday,D4,Cancelled,71.6
+7393.47,Thursday,Direct Debit,false,Event,Wednesday,B2,In review,91.5
+1545.69,Wednesday,Bank Transfer,false,Group,Saturday,A1,Open,13.8
+7927.85,Friday,Gift Voucher,true,Group,Saturday,A1,Open,88.3
+196.49,Friday,Direct Debit,false,Group,Monday,D4,Cancelled,46.7
+39.38,Friday,Gift Voucher,true,,Saturday,A1,Open,47.7
+7720.21,Thursday,Direct Debit,true,Leisure,Monday,A1,Open,72.3
+5391.42,Sunday,Credit Card,false,Corporate,Sunday,A1,Open,31.5
+1991.0,Sunday,Bank Transfer,true,Event,Monday,A1,Open,1.1
+190.05,Tuesday,Gift Voucher,false,Leisure,Sunday,C3,Closed,63.9
+1179.4,Sunday,Bank Transfer,false,Leisure,Friday,C3,Closed,74.9
+8020.83,Monday,Credit Card,true,Event,Saturday,C3,Closed,47.5
+3885.37,Sunday,Bank Transfer,true,Corporate,Saturday,A1,Open,94.0
+8352.06,Wednesday,Credit Card,false,Event,Thursday,D4,Cancelled,93.9
+7873.8,Thursday,Bank Transfer,true,Group,Saturday,C3,Closed,81.9
+6484.82,Saturday,Bank Transfer,false,,Thursday,B2,In review,9.8
+7217.17,Saturday,Gift Voucher,false,Group,Sunday,A1,Open,61.4
+8579.53,Tuesday,Direct Debit,false,Corporate,Friday,B2,In review,81.9
+6015.34,Thursday,Bank Transfer,true,Group,Sunday,B2,In review,38.9
+7539.77,Tuesday,Credit Card,true,Event,Sunday,B2,In review,53.2
+2095.07,Wednesday,Bank Transfer,false,Group,Sunday,C3,Closed,2.3
+2970.53,Thursday,Credit Card,false,,Thursday,B2,In review,45.1
+3346.65,Monday,Credit Card,true,Event,Monday,D4,Cancelled,29.0
+6416.9,Sunday,Gift Voucher,true,Leisure,Friday,A1,Open,63.3
+1406.42,Monday,Credit Card,true,Event,Wednesday,C3,Closed,39.8
+5003.32,Tuesday,Bank Transfer,true,Event,Thursday,B2,In review,49.9
+7048.12,Sunday,Credit Card,false,Event,Wednesday,D4,Cancelled,42.6
+5714.87,Thursday,Bank Transfer,true,,Sunday,C3,Closed,99.1
+2132.25,Monday,Direct Debit,true,Leisure,Friday,B2,In review,60.0
+3848.93,Sunday,Bank Transfer,true,Leisure,Tuesday,B2,In review,13.2
+535.91,Sunday,Bank Transfer,true,Corporate,Monday,C3,Closed,64.3
+3917.3,Saturday,Direct Debit,false,Leisure,Thursday,C3,Closed,13.6
+1260.6,Friday,Direct Debit,true,Event,Sunday,B2,In review,22.1
+608.26,Saturday,Bank Transfer,true,Corporate,Tuesday,A1,Open,56.2
+5919.82,Thursday,Direct Debit,true,Corporate,Saturday,D4,Cancelled,66.1
+8516.07,Sunday,Credit Card,true,,Tuesday,C3,Closed,12.1
+2429.06,Thursday,Credit Card,true,Event,Monday,D4,Cancelled,70.6
+5208.87,Thursday,Bank Transfer,true,Leisure,Monday,D4,Cancelled,50.3
+5098.38,Sunday,Direct Debit,true,Event,Thursday,A1,Open,90.3
+3413.42,Friday,Bank Transfer,false,,Wednesday,C3,Closed,7.7
+3861.75,Friday,Direct Debit,true,Corporate,Wednesday,A1,Open,98.9
+1865.93,Saturday,Bank Transfer,false,Corporate,Monday,A1,Open,21.0
+8478.38,Tuesday,Bank Transfer,true,Event,Friday,C3,Closed,86.6
+4838.66,Tuesday,Credit Card,false,Corporate,Wednesday,C3,Closed,74.3
+486.7,Saturday,Gift Voucher,false,Corporate,Saturday,B2,In review,74.8
+7100.24,Monday,Credit Card,true,Leisure,Tuesday,B2,In review,84.9
+8288.11,Saturday,Bank Transfer,false,Event,Tuesday,A1,Open,63.5
+6993.27,Monday,Gift Voucher,false,Event,Saturday,D4,Cancelled,36.4
+142.17,Wednesday,Bank Transfer,false,Event,Thursday,D4,Cancelled,98.4
+3380.14,Sunday,Direct Debit,true,Event,Sunday,C3,Closed,35.3
+7064.1,Saturday,Gift Voucher,true,Event,Tuesday,D4,Cancelled,26.1
+5677.0,Friday,Bank Transfer,false,Event,Saturday,D4,Cancelled,86.1
+2320.32,Wednesday,Direct Debit,false,Leisure,Sunday,D4,Cancelled,27.5
+5249.32,Saturday,Direct Debit,true,,Tuesday,C3,Closed,30.5
+5114.54,Thursday,Credit Card,false,,Sunday,D4,Cancelled,13.5
+7067.68,Thursday,Gift Voucher,false,Group,Friday,A1,Open,93.4
+595.88,Sunday,Gift Voucher,false,,Wednesday,A1,Open,61.9
+4277.01,Monday,Credit Card,false,Group,Saturday,B2,In review,66.5
+1121.39,Monday,Bank Transfer,true,Corporate,Friday,C3,Closed,72.9
+4460.46,Saturday,Direct Debit,true,Group,Tuesday,D4,Cancelled,40.3
+196.62,Friday,Direct Debit,false,,Wednesday,D4,Cancelled,95.1
+399.51,Saturday,Credit Card,false,Event,Friday,A1,Open,23.3
+3121.81,Tuesday,Gift Voucher,false,Event,Sunday,D4,Cancelled,64.6
+2144.64,Sunday,Credit Card,true,Event,Tuesday,C3,Closed,56.4
+8887.94,Sunday,Direct Debit,true,Corporate,Wednesday,C3,Closed,83.4
+4836.53,Thursday,Direct Debit,false,Leisure,Friday,A1,Open,32.2
+4948.87,Thursday,Direct Debit,false,Group,Thursday,A1,Open,74.6
+8659.94,Saturday,Gift Voucher,false,Event,Wednesday,C3,Closed,67.0
+2975.6,Sunday,Direct Debit,true,Group,Friday,D4,Cancelled,75.8
+1145.69,Wednesday,Gift Voucher,false,Leisure,Thursday,C3,Closed,25.8
+6301.09,Tuesday,Credit Card,false,Leisure,Wednesday,D4,Cancelled,36.2
+4923.99,Monday,Credit Card,false,Group,Thursday,B2,In review,20.1
+3670.5,Wednesday,Credit Card,true,Event,Friday,B2,In review,20.5
+4494.49,Wednesday,Bank Transfer,true,,Saturday,D4,Cancelled,20.1
+1818.73,Sunday,Credit Card,false,Group,Friday,A1,Open,51.8
+6439.4,Wednesday,Gift Voucher,false,,Saturday,A1,Open,16.9
+5826.15,Thursday,Bank Transfer,true,Group,Monday,A1,Open,34.4
+3747.76,Thursday,Bank Transfer,false,,Thursday,A1,Open,21.9

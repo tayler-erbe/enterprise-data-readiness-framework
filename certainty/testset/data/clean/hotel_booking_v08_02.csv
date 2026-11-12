@@ -1,121 +1,121 @@
-visit_dow,visit_date,end_date,updated_at,site_type,line_count,ver,customer_name,height
-Monday,2026-08-03,2023-01-02,2026-03-05T05:21:46Z,Commercial,28,0,Jürgen Köhler,152.4
-Friday,2026-12-04,,2026-07-22T07:56:25Z,Government,36,0,José Núñez,154.9
-Wednesday,2026-06-03,,2026-02-14T01:57:15Z,Commercial,37,0,Chloé Lefèvre,180.3
-Friday,2026-03-13,2023-08-18,2026-03-07T19:59:49Z,Commercial,21,0,Renée François,170.2
-Sunday,2026-11-29,2025-10-12,2026-05-18T08:02:12Z,Industrial,40,0,Noémie Güell,165.1
-Wednesday,2026-10-07,,2026-02-08T16:13:25Z,Commercial,24,0,Iñigo Peña,185.4
-Wednesday,2026-03-18,,2026-10-19T03:58:32Z,Residential,18,0,Søren Aaberg,175.3
-Friday,2026-12-04,2023-02-15,2026-10-19T06:11:43Z,Industrial,1,0,Noémie Güell,165.1
-Tuesday,2026-04-07,2026-01-02,2026-06-17T19:32:00Z,Commercial,8,0,Renée François,160.0
-Sunday,2026-10-04,2022-04-27,2026-07-15T15:31:29Z,Residential,19,0,José Núñez,165.1
-Saturday,2026-03-07,2026-05-17,2026-09-16T06:50:41Z,Residential,39,0,Renée François,172.7
-Friday,2026-12-18,2024-05-30,2026-07-20T12:08:44Z,Industrial,36,0,Søren Aaberg,180.3
-Saturday,2026-05-23,,2026-10-16T04:06:31Z,Industrial,38,0,Jürgen Köhler,175.3
-Tuesday,2026-01-27,2026-03-07,2026-07-05T01:18:57Z,Residential,21,0,Zoë Müller,190.5
-Monday,2026-11-23,2025-09-09,2026-07-03T22:54:15Z,Residential,31,0,Søren Aaberg,147.3
-Monday,2026-03-23,2026-11-25,2026-05-17T12:20:07Z,Residential,4,0,Iñigo Peña,177.8
-Sunday,2026-05-31,2026-10-09,2026-05-24T19:05:00Z,Residential,27,0,Søren Aaberg,149.9
-Thursday,2026-05-28,,2026-07-19T12:58:11Z,Commercial,23,0,Jürgen Köhler,152.4
-Wednesday,2026-09-30,,2026-05-18T06:37:20Z,Industrial,10,0,Søren Aaberg,188.0
-Wednesday,2026-06-10,,2026-10-23T09:54:07Z,Residential,11,0,Chloé Lefèvre,147.3
-Saturday,2026-10-17,2023-12-22,2026-09-30T05:52:08Z,Residential,19,0,Renée François,162.6
-Sunday,2026-04-26,,2026-08-08T22:52:27Z,Commercial,22,0,José Núñez,147.3
-Thursday,2026-08-13,,2026-04-25T04:10:08Z,Commercial,5,0,Søren Aaberg,198.1
-Tuesday,2026-10-06,2024-11-05,2026-04-05T15:31:07Z,Government,2,0,Chloé Lefèvre,185.4
-Thursday,2026-06-11,2025-06-23,2026-09-09T15:52:20Z,Commercial,17,0,Chloé Lefèvre,188.0
-Sunday,2026-05-24,2025-10-11,2026-10-16T23:58:38Z,Industrial,16,0,Renée François,165.1
-Thursday,2026-07-23,2022-06-05,2026-04-28T18:00:17Z,Government,29,0,Jürgen Köhler,193.0
-Monday,2026-01-12,2022-12-30,2026-08-28T08:20:35Z,Government,26,0,Iñigo Peña,147.3
-Friday,2026-04-03,,2026-03-07T09:28:53Z,Industrial,18,0,Iñigo Peña,198.1
-Thursday,2026-09-03,2025-08-28,2026-04-23T17:29:12Z,Industrial,28,0,Jürgen Köhler,190.5
-Friday,2026-09-04,,2026-01-05T19:29:48Z,Commercial,36,0,Søren Aaberg,152.4
-Monday,2026-09-21,,2026-07-16T02:26:34Z,Industrial,34,0,José Núñez,185.4
-Tuesday,2026-05-12,2023-08-08,2026-01-02T03:37:04Z,Government,26,0,Chloé Lefèvre,162.6
-Sunday,2026-02-22,2021-10-02,2026-08-16T09:36:47Z,Commercial,14,0,José Núñez,198.1
-Sunday,2026-05-17,,2026-08-01T03:35:04Z,Industrial,37,0,Søren Aaberg,167.6
-Saturday,2026-12-26,2022-08-05,2026-07-17T18:58:36Z,Residential,15,0,Zoë Müller,172.7
-Monday,2026-03-09,2026-06-05,2026-08-15T19:41:04Z,Industrial,24,0,Søren Aaberg,157.5
-Wednesday,2026-08-05,2022-05-14,2026-08-25T06:26:57Z,Industrial,29,0,Iñigo Peña,147.3
-Friday,2026-03-13,,2026-06-18T05:12:07Z,Industrial,5,0,Søren Aaberg,193.0
-Friday,2026-09-25,2022-03-05,2026-08-20T02:40:03Z,Residential,15,0,Jürgen Köhler,175.3
-Sunday,2026-11-08,,2026-08-18T20:41:26Z,Industrial,28,0,Noémie Güell,188.0
-Wednesday,2026-06-17,2022-05-06,2026-06-12T07:34:33Z,Government,14,0,Noémie Güell,193.0
-Tuesday,2026-08-18,2024-02-15,2026-03-01T19:55:30Z,Residential,12,0,Søren Aaberg,154.9
-Monday,2026-07-27,2022-02-24,2026-02-25T11:40:03Z,Industrial,34,0,José Núñez,182.9
-Saturday,2026-07-18,,2026-03-21T09:11:04Z,Government,20,0,Zoë Müller,185.4
-Thursday,2026-10-15,,2026-07-04T05:45:02Z,Government,9,0,Jürgen Köhler,157.5
-Sunday,2026-05-17,2024-08-25,2026-03-15T18:21:29Z,Industrial,13,0,Noémie Güell,175.3
-Saturday,2026-11-28,2025-10-15,2026-01-11T06:51:47Z,Industrial,12,0,Noémie Güell,180.3
-Thursday,2026-01-08,,2026-04-05T21:38:16Z,Commercial,11,0,Renée François,195.6
-Saturday,2026-08-29,,2026-10-07T01:53:06Z,Government,31,0,Renée François,152.4
-Tuesday,2026-11-10,2022-07-13,2026-05-12T02:14:27Z,Industrial,22,0,Iñigo Peña,160.0
-Thursday,2026-12-03,2022-04-11,2026-10-18T11:16:15Z,Industrial,14,0,José Núñez,152.4
-Friday,2026-12-18,,2026-04-11T15:28:02Z,Commercial,28,0,Jürgen Köhler,152.4
-Monday,2026-03-02,2022-03-25,2026-05-25T02:07:55Z,Commercial,19,0,Søren Aaberg,167.6
-Wednesday,2026-09-16,2022-01-14,2026-02-19T11:27:49Z,Commercial,33,0,Zoë Müller,149.9
-Saturday,2026-10-10,,2026-02-17T18:25:09Z,Residential,5,0,Zoë Müller,167.6
-Thursday,2026-12-24,2023-09-05,2026-06-23T16:54:08Z,Commercial,15,0,Jürgen Köhler,154.9
-Monday,2026-01-26,2022-04-04,2026-09-15T14:21:53Z,Commercial,5,0,José Núñez,147.3
-Monday,2026-02-23,2022-01-04,2026-05-30T10:54:41Z,Commercial,9,0,Jürgen Köhler,182.9
-Thursday,2026-07-09,,2026-02-25T14:35:53Z,Commercial,10,0,José Núñez,167.6
-Thursday,2026-03-12,2021-07-02,2026-08-29T15:26:28Z,Government,36,0,Iñigo Peña,180.3
-Tuesday,2026-11-10,2025-07-01,2026-01-22T20:23:28Z,Residential,10,0,Søren Aaberg,157.5
-Wednesday,2026-10-07,2022-08-16,2026-10-13T18:46:58Z,Government,14,0,José Núñez,198.1
-Sunday,2026-02-08,2024-03-12,2026-08-12T06:48:17Z,Government,19,0,Jürgen Köhler,177.8
-Wednesday,2026-01-14,2025-09-03,2026-03-19T03:25:09Z,Government,25,0,José Núñez,195.6
-Thursday,2026-03-12,,2026-05-02T21:50:55Z,Residential,28,0,Iñigo Peña,162.6
-Saturday,2026-12-19,2021-03-01,2026-06-23T20:47:24Z,Industrial,29,0,Zoë Müller,180.3
-Friday,2026-09-18,2023-04-29,2026-06-22T06:34:29Z,Government,13,0,Iñigo Peña,170.2
-Friday,2026-06-05,2025-06-13,2026-09-04T06:41:11Z,Commercial,16,0,Jürgen Köhler,147.3
-Thursday,2026-10-08,2021-07-14,2026-08-14T13:47:25Z,Industrial,16,0,Zoë Müller,147.3
-Sunday,2026-07-12,2026-07-31,2026-06-28T12:08:40Z,Government,19,0,Renée François,180.3
-Wednesday,2026-06-17,2022-02-11,2026-10-26T09:14:48Z,Industrial,6,0,Iñigo Peña,149.9
-Monday,2026-12-28,,2026-01-11T05:24:37Z,Industrial,3,0,Renée François,190.5
-Thursday,2026-07-23,2021-05-25,2026-03-15T08:59:09Z,Residential,34,0,Iñigo Peña,182.9
-Friday,2026-09-25,2026-12-13,2026-09-13T19:33:21Z,Industrial,3,0,Zoë Müller,167.6
-Tuesday,2026-03-17,2021-10-06,2026-04-24T16:36:10Z,Residential,8,0,Chloé Lefèvre,170.2
-Saturday,2026-09-26,2026-01-29,2026-09-07T16:57:57Z,Industrial,22,0,Noémie Güell,162.6
-Monday,2026-01-05,2021-04-03,2026-10-27T17:05:07Z,Commercial,20,0,Zoë Müller,172.7
-Friday,2026-10-09,2021-01-21,2026-08-17T15:41:07Z,Industrial,12,0,Zoë Müller,177.8
-Monday,2026-04-20,2025-05-06,2026-10-27T04:34:15Z,Industrial,13,0,Chloé Lefèvre,147.3
-Wednesday,2026-03-11,,2026-08-24T14:28:42Z,Residential,13,0,Jürgen Köhler,165.1
-Wednesday,2026-02-18,,2026-09-11T10:31:57Z,Industrial,26,0,Renée François,182.9
-Friday,2026-06-26,,2026-04-07T13:07:07Z,Government,27,0,Søren Aaberg,157.5
-Monday,2026-09-14,2021-10-31,2026-09-25T03:57:02Z,Residential,24,0,Renée François,185.4
-Sunday,2026-06-21,2024-07-25,2026-01-07T11:05:47Z,Industrial,31,0,Noémie Güell,195.6
-Sunday,2026-05-17,2026-12-20,2026-07-28T22:30:21Z,Industrial,35,0,Zoë Müller,195.6
-Tuesday,2026-07-28,2025-05-03,2026-05-02T04:50:03Z,Industrial,38,0,Renée François,157.5
-Sunday,2026-09-27,,2026-09-02T12:39:44Z,Commercial,15,0,Iñigo Peña,147.3
-Saturday,2026-03-21,,2026-03-18T03:50:55Z,Government,8,0,Iñigo Peña,193.0
-Monday,2026-04-06,2021-07-04,2026-07-09T20:29:42Z,Residential,17,0,Søren Aaberg,165.1
-Monday,2026-10-05,2022-10-29,2026-03-08T03:35:04Z,Residential,13,0,Jürgen Köhler,198.1
-Monday,2026-06-15,2022-08-22,2026-01-28T21:35:20Z,Government,1,0,José Núñez,172.7
-Monday,2026-07-20,2024-10-13,2026-08-04T00:42:40Z,Industrial,34,0,Chloé Lefèvre,154.9
-Tuesday,2026-02-10,2023-04-26,2026-06-26T14:38:23Z,Residential,13,0,Noémie Güell,190.5
-Tuesday,2026-10-20,2023-08-13,2026-01-02T22:43:26Z,Residential,36,0,Renée François,162.6
-Sunday,2026-07-05,2023-05-13,2026-08-02T21:51:24Z,Commercial,27,0,Chloé Lefèvre,182.9
-Thursday,2026-06-04,2021-06-22,2026-03-04T08:29:01Z,Commercial,26,0,Zoë Müller,167.6
-Sunday,2026-07-05,2023-04-27,2026-09-04T08:49:18Z,Residential,1,0,Iñigo Peña,198.1
-Wednesday,2026-08-19,2022-04-27,2026-07-04T19:40:31Z,Residential,30,0,Zoë Müller,172.7
-Saturday,2026-12-19,,2026-07-10T22:11:56Z,Commercial,17,0,Zoë Müller,190.5
-Thursday,2026-01-22,2025-08-23,2026-04-06T16:02:58Z,Government,14,0,Noémie Güell,147.3
-Tuesday,2026-08-11,2025-05-01,2026-07-26T00:58:55Z,Commercial,37,0,Søren Aaberg,154.9
-Monday,2026-10-05,,2026-04-21T01:20:46Z,Government,35,0,Jürgen Köhler,177.8
-Wednesday,2026-05-06,2025-10-08,2026-07-31T05:13:01Z,Industrial,31,0,Chloé Lefèvre,193.0
-Friday,2026-12-04,,2026-07-22T12:13:00Z,Government,2,0,Chloé Lefèvre,170.2
-Tuesday,2026-12-22,2024-12-24,2026-05-22T05:18:43Z,Commercial,13,0,Zoë Müller,160.0
-Friday,2026-06-26,2026-06-27,2026-03-03T23:07:57Z,Industrial,19,0,Chloé Lefèvre,198.1
-Saturday,2026-09-19,2021-09-08,2026-01-17T06:02:42Z,Industrial,37,0,Iñigo Peña,147.3
-Monday,2026-07-13,2021-05-28,2026-03-02T06:51:22Z,Industrial,14,0,José Núñez,177.8
-Monday,2026-06-15,2023-10-09,2026-09-05T15:18:54Z,Industrial,3,0,Søren Aaberg,193.0
-Thursday,2026-10-29,2024-04-07,2026-08-21T04:30:51Z,Residential,9,0,Søren Aaberg,162.6
-Monday,2026-02-09,,2026-01-16T15:44:34Z,Commercial,24,0,Renée François,149.9
-Tuesday,2026-06-09,2026-06-15,2026-08-08T08:12:29Z,Residential,13,0,Renée François,172.7
-Monday,2026-05-25,2026-03-23,2026-08-01T08:37:24Z,Government,24,0,Renée François,182.9
-Wednesday,2026-06-10,2024-03-20,2026-07-22T06:21:25Z,Commercial,28,0,Renée François,162.6
-Thursday,2026-06-25,2024-03-19,2026-05-13T08:28:58Z,Industrial,3,0,José Núñez,162.6
-Wednesday,2026-10-28,2024-06-09,2026-07-29T14:21:14Z,Commercial,35,0,Zoë Müller,198.1
-Thursday,2026-09-17,,2026-07-15T05:47:24Z,Industrial,13,0,Iñigo Peña,182.9
-Saturday,2026-07-11,2023-10-30,2026-08-12T16:12:45Z,Commercial,25,0,Zoë Müller,175.3
-Thursday,2026-03-26,,2026-06-28T17:01:47Z,Industrial,33,0,Iñigo Peña,167.6
+detail,amount,currency,is_active,state,zip,line_total_usd,qty,unit_price,total,member,category
+TBD,480.16,EUR,false,NY,10001,124.48,4,31.12,458.73,name=Priya Dunne; birth_date=1979-10-04,Corporate
+Event,703.2,EUR,true,CO,80202,17.3,1,17.3,6.92,name=Priya Eze; birth_date=2004-03-27,Leisure
+Corporate,899.76,GBP,true,CA,94110,106.48,4,26.62,758.07,name=Dev Brandt; birth_date=1974-03-25,Event
+test,821.85,GBP,false,NJ,07030,18.0,8,2.25,706.94,name=Omar Petrov; birth_date=2003-04-20,Leisure
+Leisure,209.38,EUR,false,NJ,07030,122.76,12,10.23,293.19,name=Kemi Jensen; birth_date=1953-05-03,Corporate
+.,499.69,USD,false,NY,10001,27.28,1,27.28,16.79,name=Chloe Farrow; birth_date=1970-09-12,Event
+asdf,46.63,EUR,true,NJ,07030,230.82,6,38.47,376.17,name=Ben Dunne; birth_date=1968-04-16,Event
+Event,891.79,EUR,false,TX,73301,58.76,4,14.69,667.35,name=Kemi Dunne; birth_date=1997-04-19,Corporate
+TBD,596.16,USD,true,IL,60614,41.64,12,3.47,892.28,name=Dev Castro; birth_date=1988-04-30,Leisure
+Event,100.33,GBP,true,CO,73301,37.62,2,18.81,760.65,name=Hiro Farrow; birth_date=1975-08-06,Corporate
+xxx,888.76,GBP,true,NY,10001,210.49,7,30.07,346.76,name=Ana Eze; birth_date=1999-04-10,Leisure
+TBD,776.29,EUR,false,IL,60614,251.02,7,35.86,191.34,name=Kemi Moreau; birth_date=1977-09-30,Corporate
+asdf,162.29,EUR,false,NY,10001,305.1,9,33.9,634.56,name=Hiro Petrov; birth_date=1992-09-25,Event
+asdf,413.93,EUR,false,NY,10001,28.45,1,28.45,578.66,name=Noor Eze; birth_date=1965-07-26,Leisure
+todo,194.19,USD,false,CA,94110,145.36,8,18.17,797.8,name=Omar Dunne; birth_date=1982-05-07,Group
+Event,118.14,GBP,false,IL,60614,124.1,10,12.41,266.31,name=Noor Nwosu; birth_date=1957-02-09,Group
+test,712.17,GBP,false,IL,60614,12.68,1,12.68,348.95,name=Ben Abel; birth_date=1971-08-13,Corporate
+.,583.96,GBP,true,NY,10001,177.65,5,35.53,157.41,name=Ben Petrov; birth_date=1996-08-13,Leisure
+asdf,679.18,GBP,true,NY,10001,27.4,5,5.48,790.14,name=Noor Ortiz; birth_date=1986-04-20,Group
+xxx,468.51,USD,true,IL,60614,221.48,7,31.64,213.68,name=Jon Abel; birth_date=1999-12-17,Leisure
+todo,195.48,GBP,true,IL,60614,16.12,2,8.06,516.06,name=Noor Ito; birth_date=1950-12-21,Event
+Corporate,313.68,USD,true,TX,73301,91.91,7,13.13,39.73,name=Priya Ito; birth_date=2001-11-23,Group
+Leisure,268.02,EUR,true,MA,10001,239.36,8,29.92,846.45,name=Hiro Gallo; birth_date=1984-03-31,Group
+xxx,563.52,EUR,false,NY,80202,13.64,4,3.41,283.6,name=Luca Eze; birth_date=1980-06-23,Event
+.,187.32,EUR,true,GA,30301,182.7,7,26.1,372.98,name=Farid Koval; birth_date=1969-09-08,Event
+xxx,103.63,EUR,true,NJ,07030,51.34,2,25.67,612.42,name=Ben Farrow; birth_date=1996-06-07,Corporate
+TBD,208.83,GBP,true,MA,02134,180.27,9,20.03,262.98,name=Ben Jensen; birth_date=1994-01-18,Event
+test,267.61,USD,true,GA,30301,194.7,10,19.47,376.24,name=Elif Gallo; birth_date=1954-06-08,Corporate
+todo,760.71,GBP,false,NJ,07030,65.4,3,21.8,667.48,name=Farid Castro; birth_date=1959-04-09,Corporate
+test,115.73,GBP,false,NJ,07030,137.1,10,13.71,776.41,name=Hiro Haas; birth_date=1986-10-03,Group
+Group,31.49,GBP,false,GA,30301,145.04,7,20.72,621.75,name=Ben Dunne; birth_date=1957-05-29,Leisure
+.,413.2,GBP,true,GA,30301,204.68,7,29.24,826.73,name=Priya Lindqvist; birth_date=1976-08-24,Leisure
+todo,569.91,EUR,false,TX,80202,75.68,8,9.46,37.76,name=Priya Nwosu; birth_date=1972-02-25,Corporate
+.,186.1,EUR,false,TX,73301,140.22,6,23.37,561.61,name=Ines Eze; birth_date=1965-08-22,Leisure
+xxx,722.76,GBP,false,IL,60614,31.36,8,3.92,571.57,name=Priya Jensen; birth_date=2001-09-09,Corporate
+Event,283.88,GBP,false,NY,10001,247.14,9,27.46,544.0,name=Mona Gallo; birth_date=1989-01-12,Event
+.,580.22,USD,false,CA,94110,353.43,11,32.13,621.92,name=Jon Jensen; birth_date=1950-10-04,Event
+test,747.4,GBP,false,CA,94110,168.41,11,15.31,608.37,name=Hiro Castro; birth_date=1951-05-24,Corporate
+Group,626.97,GBP,false,MA,02134,34.02,1,34.02,796.94,name=Mona Abel; birth_date=1960-04-06,Leisure
+test,789.57,GBP,false,IL,60614,266.8,10,26.68,160.06,name=Noor Gallo; birth_date=1993-09-27,Group
+test,386.56,USD,false,MA,02134,43.29,3,14.43,671.64,name=Noor Eze; birth_date=1967-03-11,Leisure
+.,93.39,GBP,false,CA,94110,319.9,10,31.99,881.15,name=Ines Farrow; birth_date=1994-10-04,Event
+TBD,506.03,USD,true,MA,02134,235.04,8,29.38,515.66,name=Ines Eze; birth_date=2003-12-19,Event
+.,739.72,USD,true,CA,94110,84.84,7,12.12,211.66,name=Hiro Eze; birth_date=1962-06-12,Leisure
+TBD,635.41,GBP,true,NY,10001,73.92,4,18.48,25.77,name=Grace Haas; birth_date=1973-08-11,Corporate
+asdf,271.72,USD,false,NJ,07030,179.82,9,19.98,712.6,name=Noor Ortiz; birth_date=1950-12-18,Corporate
+asdf,699.71,GBP,false,IL,60614,74.47,11,6.77,158.8,name=Noor Eze; birth_date=1958-08-26,Group
+Event,384.98,GBP,true,TX,73301,328.23,9,36.47,640.02,name=Farid Haas; birth_date=1981-12-27,Leisure
+test,881.25,USD,false,GA,30301,51.69,3,17.23,554.04,name=Ana Lindqvist; birth_date=1954-12-09,Event
+todo,618.4,GBP,true,CA,94110,419.76,11,38.16,300.61,name=Mona Farrow; birth_date=1984-04-07,Leisure
+.,856.62,USD,true,NY,10001,82.98,6,13.83,334.55,name=Elif Dunne; birth_date=1997-08-15,Group
+test,598.16,USD,false,CO,80202,71.3,2,35.65,354.44,name=Kemi Haas; birth_date=2001-06-17,Event
+test,251.01,GBP,true,NY,10001,102.19,11,9.29,882.05,name=Noor Moreau; birth_date=1991-12-23,Corporate
+test,44.69,EUR,false,NY,10001,74.52,9,8.28,96.55,name=Elif Haas; birth_date=1966-01-06,Group
+TBD,537.38,GBP,false,MA,02134,12.72,1,12.72,845.69,name=Ana Moreau; birth_date=1992-03-09,Corporate
+Corporate,224.73,GBP,false,NY,10001,121.5,6,20.25,695.91,name=Jon Gallo; birth_date=1990-02-09,Event
+TBD,505.67,GBP,false,GA,30301,13.5,3,4.5,303.58,name=Jon Haas; birth_date=1983-05-22,Event
+asdf,787.63,USD,true,MA,02134,114.85,5,22.97,291.13,name=Mona Gallo; birth_date=1976-02-06,Leisure
+Event,889.99,USD,false,NJ,07030,136.8,10,13.68,600.28,name=Priya Koval; birth_date=2003-11-30,Event
+Leisure,697.85,EUR,false,CO,80202,13.48,2,6.74,731.07,name=Jon Koval; birth_date=1961-02-18,Leisure
+.,671.73,USD,true,NJ,07030,221.46,6,36.91,218.65,name=Elif Nwosu; birth_date=1986-09-09,Event
+asdf,506.1,EUR,false,MA,02134,305.36,8,38.17,261.54,name=Hiro Haas; birth_date=1951-08-06,Leisure
+xxx,17.62,USD,true,MA,30301,95.06,7,13.58,203.63,name=Omar Lindqvist; birth_date=1957-05-29,Group
+Event,843.66,GBP,true,TX,73301,28.97,1,28.97,497.9,name=Noor Abel; birth_date=1986-09-13,Event
+Group,870.38,EUR,true,CO,80202,467.76,12,38.98,420.26,name=Hiro Moreau; birth_date=2000-07-25,Group
+.,570.95,EUR,true,CO,80202,175.8,12,14.65,526.25,name=Luca Eze; birth_date=1998-10-01,Group
+todo,255.89,EUR,false,GA,07030,385.32,12,32.11,805.2,name=Dev Castro; birth_date=1986-07-29,Event
+asdf,31.67,GBP,true,NY,10001,102.8,4,25.7,19.16,name=Noor Ortiz; birth_date=2002-12-04,Corporate
+Event,754.62,EUR,false,CA,94110,36.96,4,9.24,132.57,name=Omar Castro; birth_date=1969-02-13,Corporate
+TBD,386.18,USD,false,GA,30301,300.72,12,25.06,581.25,name=Omar Ortiz; birth_date=1986-04-08,Group
+asdf,103.94,USD,false,CA,94110,71.2,5,14.24,295.68,name=Elif Castro; birth_date=1991-01-09,Event
+Event,228.94,USD,false,TX,73301,65.3,5,13.06,226.6,name=Hiro Abel; birth_date=1970-03-17,Event
+Group,147.09,EUR,true,CA,94110,129.2,4,32.3,110.68,name=Elif Eze; birth_date=1978-02-18,Corporate
+asdf,547.58,EUR,false,NJ,07030,228.0,10,22.8,730.01,name=Mona Ito; birth_date=2003-04-24,Corporate
+Corporate,760.23,GBP,false,MA,02134,116.34,7,16.62,532.23,name=Jon Abel; birth_date=1973-03-20,Event
+asdf,865.46,EUR,true,NY,10001,251.13,11,22.83,443.2,name=Dev Koval; birth_date=1990-08-01,Event
+Leisure,106.31,EUR,true,NY,10001,51.24,3,17.08,482.77,name=Priya Petrov; birth_date=2002-07-18,Corporate
+asdf,256.33,EUR,true,NY,10001,37.56,2,18.78,361.28,name=Priya Eze; birth_date=1999-06-05,Group
+todo,244.74,EUR,true,CA,94110,200.4,6,33.4,736.27,name=Ana Nwosu; birth_date=1952-05-12,Event
+asdf,102.13,USD,false,TX,73301,69.92,4,17.48,388.49,name=Luca Jensen; birth_date=1952-08-09,Corporate
+.,869.22,GBP,true,NY,10001,35.64,9,3.96,293.02,name=Kemi Brandt; birth_date=1952-02-19,Event
+.,864.73,GBP,false,NJ,07030,52.5,6,8.75,130.17,name=Chloe Brandt; birth_date=1960-01-05,Leisure
+Corporate,373.37,GBP,true,IL,60614,229.46,11,20.86,32.35,name=Farid Ortiz; birth_date=1964-08-08,Event
+asdf,795.56,GBP,false,MA,02134,71.04,6,11.84,181.31,name=Mona Moreau; birth_date=1958-06-14,Leisure
+test,752.71,EUR,false,IL,60614,28.83,3,9.61,655.82,name=Omar Nwosu; birth_date=1999-02-25,Leisure
+todo,338.38,EUR,false,CO,80202,59.7,5,11.94,88.78,name=Dev Dunne; birth_date=2001-08-01,Corporate
+TBD,899.92,USD,true,IL,60614,77.04,6,12.84,231.1,name=Ana Farrow; birth_date=1959-04-13,Event
+Event,668.8,USD,true,NJ,80202,75.96,3,25.32,436.27,name=Priya Koval; birth_date=1997-01-30,Event
+xxx,798.2,GBP,true,CA,94110,226.7,10,22.67,399.51,name=Chloe Ito; birth_date=1950-09-01,Group
+Corporate,98.57,GBP,true,NJ,07030,76.23,3,25.41,281.73,name=Elif Lindqvist; birth_date=1971-02-28,Group
+test,406.3,USD,true,IL,60614,12.7,1,12.7,420.42,name=Chloe Ito; birth_date=1985-10-27,Leisure
+Group,306.06,EUR,false,MA,02134,90.06,6,15.01,6.18,name=Luca Koval; birth_date=1952-09-21,Group
+TBD,632.57,EUR,true,GA,30301,119.04,4,29.76,682.07,name=Chloe Petrov; birth_date=1971-03-01,Group
+Event,82.67,USD,true,GA,30301,69.21,9,7.69,749.47,name=Luca Lindqvist; birth_date=1986-04-29,Group
+todo,19.11,EUR,true,NY,10001,103.28,8,12.91,278.5,name=Elif Lindqvist; birth_date=1978-10-04,Group
+.,425.54,GBP,false,NJ,07030,63.99,3,21.33,798.3,name=Priya Jensen; birth_date=1955-08-31,Group
+TBD,692.77,USD,false,TX,73301,163.92,6,27.32,772.29,name=Priya Ito; birth_date=1953-09-13,Group
+TBD,628.62,EUR,false,NY,10001,324.5,11,29.5,68.39,name=Chloe Eze; birth_date=1964-10-18,Group
+Event,757.1,GBP,false,TX,73301,38.72,1,38.72,327.41,name=Mona Gallo; birth_date=1969-05-26,Event
+Corporate,621.05,EUR,false,MA,02134,41.24,4,10.31,796.13,name=Grace Nwosu; birth_date=1950-07-07,Corporate
+Corporate,844.18,EUR,true,MA,02134,171.48,6,28.58,593.59,name=Luca Nwosu; birth_date=1963-02-24,Corporate
+TBD,205.95,EUR,false,CA,94110,79.1,7,11.3,199.7,name=Jon Dunne; birth_date=1971-09-11,Corporate
+TBD,250.53,USD,false,TX,73301,182.95,5,36.59,594.88,name=Noor Haas; birth_date=1965-09-15,Corporate
+Leisure,456.82,USD,false,CO,80202,184.68,6,30.78,815.27,name=Elif Ortiz; birth_date=1951-07-25,Leisure
+Group,589.48,USD,true,TX,73301,12.12,1,12.12,546.58,name=Grace Lindqvist; birth_date=2000-12-09,Leisure
+test,677.69,EUR,false,NJ,07030,31.98,3,10.66,302.81,name=Hiro Dunne; birth_date=1994-06-21,Leisure
+asdf,428.96,GBP,false,NY,10001,232.29,9,25.81,589.41,name=Hiro Jensen; birth_date=1983-09-02,Group
+TBD,170.05,GBP,false,MA,02134,128.0,5,25.6,62.47,name=Luca Ito; birth_date=1971-03-16,Group
+Group,382.98,USD,false,MA,02134,31.92,7,4.56,658.14,name=Priya Moreau; birth_date=1965-06-22,Corporate
+TBD,253.21,USD,true,IL,60614,16.26,3,5.42,313.98,name=Jon Eze; birth_date=1981-12-12,Group
+asdf,227.95,EUR,true,CA,94110,84.54,6,14.09,401.15,name=Chloe Gallo; birth_date=1995-05-30,Event
+Leisure,327.36,GBP,true,MA,02134,22.19,1,22.19,297.56,name=Omar Haas; birth_date=1951-09-09,Corporate
+TBD,238.6,EUR,false,NJ,07030,23.08,4,5.77,183.03,name=Dev Petrov; birth_date=1993-12-14,Leisure
+Corporate,143.87,USD,false,CO,80202,39.22,2,19.61,217.38,name=Kemi Nwosu; birth_date=1998-01-30,Event
+.,730.89,USD,true,IL,30301,39.36,12,3.28,464.65,name=Ines Ito; birth_date=1957-12-09,Group
+todo,99.09,GBP,false,CO,80202,31.24,11,2.84,865.11,name=Ana Gallo; birth_date=1968-09-26,Group
+test,506.1,EUR,true,CO,80202,334.26,9,37.14,393.18,name=Kemi Ortiz; birth_date=1979-08-18,Leisure
+xxx,591.55,USD,false,CO,80202,61.76,2,30.88,856.46,name=Hiro Abel; birth_date=1997-06-25,Corporate
+.,50.05,USD,false,TX,73301,59.18,11,5.38,815.43,name=Chloe Koval; birth_date=1971-02-22,Event
+.,407.43,EUR,true,TX,60614,18.0,4,4.5,553.9,name=Chloe Dunne; birth_date=1974-07-19,Event

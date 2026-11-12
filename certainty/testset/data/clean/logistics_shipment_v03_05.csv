@@ -1,121 +1,121 @@
-shipment_id,pymnt_mthd,consent,checked_in,ship_date,rvn_usd,description,quality_score
-SHP-94381,Credit Card,true,2026-05-24T07:31:35Z,2026-03-19,144692.44,xxx,14
-SHP-46130,Bank Transfer,false,2026-09-08T15:39:25Z,2026-07-14,183996.26,Road,20
-SHP-75672,Gift Voucher,false,2026-05-07T22:17:44Z,2024-03-10,243167.96,.,17
-SHP-25656,Credit Card,true,2026-02-24T11:02:21Z,2021-09-17,146266.27,test,80
-SHP-69772,Gift Voucher,false,2026-05-16T03:13:38Z,2023-05-19,21104.6,asdf,6
-SHP-71786,Direct Debit,false,2026-08-30T17:24:23Z,2022-07-25,179378.5,todo,18
-SHP-20329,Gift Voucher,true,2026-08-10T15:58:18Z,2023-07-14,10859.5,todo,27
-SHP-83475,Direct Debit,false,2026-05-24T02:24:08Z,2023-10-25,243967.9,.,24
-SHP-82076,Gift Voucher,false,2026-10-03T14:34:45Z,2024-06-30,78306.58,TBD,
-SHP-30438,Gift Voucher,false,2026-04-02T22:07:20Z,2025-06-14,16905.5,TBD,59
-SHP-73412,Gift Voucher,false,2026-06-10T23:16:22Z,2025-04-03,24162.85,TBD,28
-SHP-36640,Gift Voucher,false,2026-06-03T03:58:53Z,2025-11-26,162343.63,xxx,27
-SHP-41473,Credit Card,true,2026-05-08T15:53:59Z,2026-12-28,1127.55,.,57
-SHP-96775,Direct Debit,false,2026-07-28T02:25:21Z,2025-03-05,191498.71,xxx,11
-SHP-60666,Direct Debit,false,2026-03-15T03:33:13Z,2022-10-07,37290.95,TBD,67
-SHP-13976,Direct Debit,false,2026-01-24T19:03:11Z,2025-04-03,176052.98,Sea,63
-SHP-75459,Gift Voucher,true,2026-02-26T19:55:42Z,2021-02-05,188238.12,TBD,99
-SHP-13720,Direct Debit,false,2026-09-16T03:37:43Z,2026-05-01,126307.41,TBD,68
-SHP-19977,Bank Transfer,true,2026-02-19T11:05:55Z,2023-06-29,32687.33,.,93
-SHP-41027,Credit Card,true,2026-03-17T08:33:16Z,2023-04-28,121848.1,asdf,56
-SHP-97959,Credit Card,true,2026-02-20T20:28:23Z,2022-06-08,34019.6,.,86
-SHP-59524,Gift Voucher,true,2026-10-07T21:12:49Z,2025-12-13,56411.22,test,50
-SHP-22187,Credit Card,false,2026-04-19T15:51:40Z,2023-11-22,99829.56,asdf,95
-SHP-82546,Credit Card,false,2026-08-26T03:00:12Z,2021-08-01,147909.54,.,76
-SHP-11108,Credit Card,true,2026-01-21T00:00:18Z,2025-06-26,112997.47,asdf,70
-SHP-77093,Gift Voucher,true,2026-02-12T14:52:20Z,2021-07-09,119390.15,xxx,74
-SHP-41544,Direct Debit,true,2026-02-24T03:00:17Z,2025-11-06,128197.7,.,8
-SHP-37541,Bank Transfer,false,2026-08-12T13:48:44Z,2025-04-28,44839.76,todo,61
-SHP-15348,Gift Voucher,true,2026-04-18T05:01:41Z,2026-12-04,219779.59,Sea,38
-SHP-88866,Direct Debit,true,2026-05-12T11:36:23Z,2024-06-28,97763.07,Air,14
-SHP-88680,Direct Debit,false,2026-08-22T05:11:14Z,2021-02-15,219378.01,TBD,66
-SHP-39189,Credit Card,true,2026-01-21T02:12:37Z,2026-07-03,145680.04,todo,84
-SHP-53197,Bank Transfer,false,2026-09-28T22:45:55Z,2025-11-26,79385.02,Air,48
-SHP-74825,Gift Voucher,false,2026-05-02T03:25:49Z,2025-06-17,207139.02,.,81
-SHP-97993,Direct Debit,true,2026-10-11T17:47:43Z,2025-11-22,47366.56,test,
-SHP-38060,Direct Debit,true,2026-05-27T05:15:17Z,2025-09-11,230512.52,test,41
-SHP-50050,Gift Voucher,true,2026-09-15T18:54:14Z,2022-10-24,200531.49,Sea,7
-SHP-63544,Direct Debit,false,2026-10-05T01:30:22Z,2022-12-30,16407.35,xxx,52
-SHP-34892,Bank Transfer,true,2026-04-18T13:30:22Z,2021-08-03,137375.84,TBD,80
-SHP-41799,Credit Card,true,2026-01-23T09:28:02Z,2025-10-08,8393.68,Road,86
-SHP-66101,Direct Debit,false,2026-08-08T02:17:33Z,2022-03-27,67859.14,Air,
-SHP-83250,Credit Card,true,2026-06-07T00:40:21Z,2022-09-30,173357.69,test,53
-SHP-10527,Direct Debit,false,2026-01-09T07:38:42Z,2024-09-03,58458.33,Air,8
-SHP-36943,Bank Transfer,true,2026-08-12T11:26:53Z,2023-09-17,13961.53,todo,37
-SHP-88172,Direct Debit,false,2026-03-09T15:36:57Z,2025-09-30,42274.8,asdf,24
-SHP-93958,Direct Debit,false,2026-10-25T16:43:36Z,2025-09-29,196004.23,test,55
-SHP-63803,Gift Voucher,true,2026-06-23T03:44:07Z,2022-10-20,68644.25,asdf,14
-SHP-86268,Bank Transfer,false,2026-04-24T02:36:19Z,2021-06-08,159979.52,xxx,100
-SHP-58617,Direct Debit,true,2026-02-07T00:41:18Z,2023-05-24,118165.26,test,67
-SHP-89435,Direct Debit,true,2026-07-12T07:26:18Z,2025-08-22,220652.76,Air,
-SHP-31384,Gift Voucher,true,2026-09-03T02:11:09Z,2022-07-15,184476.23,Sea,84
-SHP-66417,Gift Voucher,false,2026-02-02T04:26:45Z,2021-05-14,138664.06,TBD,74
-SHP-75322,Credit Card,false,2026-05-08T00:14:35Z,2024-05-02,30498.64,TBD,
-SHP-49656,Credit Card,true,2026-09-10T00:43:42Z,2025-08-08,199149.3,.,15
-SHP-12904,Bank Transfer,false,2026-04-24T04:44:59Z,2021-10-06,249677.33,xxx,
-SHP-71202,Gift Voucher,true,2026-07-30T22:32:13Z,2024-06-12,246403.93,Sea,92
-SHP-84893,Bank Transfer,true,2026-01-28T13:43:59Z,2024-04-30,224760.54,Rail,18
-SHP-49799,Credit Card,true,2026-03-09T15:00:45Z,2023-04-16,236674.6,TBD,76
-SHP-92843,Bank Transfer,true,2026-02-22T09:29:03Z,2024-06-27,42628.16,test,46
-SHP-85559,Credit Card,true,2026-07-24T01:47:53Z,2022-11-22,107881.48,asdf,62
-SHP-38634,Credit Card,false,2026-08-07T05:15:02Z,2023-07-26,66118.72,todo,39
-SHP-71905,Bank Transfer,false,2026-10-22T19:34:02Z,2025-09-06,37831.81,todo,75
-SHP-15947,Gift Voucher,true,2026-10-12T14:43:17Z,2023-04-10,247903.47,Rail,40
-SHP-11653,Bank Transfer,true,2026-04-29T04:39:45Z,2023-10-01,81045.31,test,32
-SHP-72983,Bank Transfer,false,2026-07-18T18:50:17Z,2021-12-08,14888.32,Sea,
-SHP-80790,Credit Card,true,2026-04-08T11:54:39Z,2022-01-27,232231.29,xxx,57
-SHP-50104,Bank Transfer,true,2026-01-14T10:49:55Z,2022-03-18,167217.99,test,88
-SHP-95126,Credit Card,true,2026-05-08T21:32:19Z,2022-08-17,168175.96,.,83
-SHP-73750,Direct Debit,true,2026-03-31T18:53:23Z,2024-06-15,90178.46,.,
-SHP-36049,Bank Transfer,false,2026-03-10T03:04:50Z,2024-04-27,204122.09,test,76
-SHP-30887,Gift Voucher,false,2026-08-21T01:19:21Z,2025-04-06,37588.22,test,8
-SHP-37330,Gift Voucher,true,2026-05-28T22:13:41Z,2026-07-29,17522.99,Sea,83
-SHP-58506,Direct Debit,true,2026-08-22T14:55:49Z,2025-03-23,176561.87,asdf,94
-SHP-75081,Direct Debit,false,2026-02-07T07:09:55Z,2026-01-28,3686.92,Sea,17
-SHP-28870,Bank Transfer,false,2026-08-18T08:02:25Z,2026-03-15,9710.99,.,38
-SHP-96039,Bank Transfer,false,2026-03-18T15:00:41Z,2025-07-05,230307.95,asdf,70
-SHP-92345,Gift Voucher,false,2026-09-20T10:27:27Z,2021-10-20,166257.22,todo,
-SHP-96450,Gift Voucher,false,2026-07-27T02:00:47Z,2025-07-19,158708.05,todo,64
-SHP-24695,Bank Transfer,true,2026-01-24T21:02:16Z,2025-09-20,146894.39,Road,
-SHP-72228,Credit Card,false,2026-06-21T14:15:19Z,2025-05-15,190424.43,.,33
-SHP-25854,Bank Transfer,false,2026-05-08T02:49:25Z,2024-10-21,193684.19,todo,89
-SHP-82550,Direct Debit,false,2026-08-25T11:12:01Z,2024-03-17,70636.82,Sea,27
-SHP-67713,Direct Debit,true,2026-01-24T08:56:30Z,2023-05-23,217319.47,todo,
-SHP-89526,Bank Transfer,true,2026-10-01T06:47:42Z,2022-07-01,143014.35,.,81
-SHP-79240,Bank Transfer,false,2026-02-26T08:24:06Z,2025-03-31,217946.48,TBD,98
-SHP-19783,Gift Voucher,true,2026-02-02T01:32:53Z,2026-01-10,43703.33,.,1
-SHP-45043,Direct Debit,false,2026-02-20T09:03:25Z,2021-01-30,176854.84,.,
-SHP-90793,Gift Voucher,true,2026-03-27T21:26:52Z,2024-07-30,179393.55,.,96
-SHP-87360,Gift Voucher,false,2026-05-24T23:47:30Z,2023-10-09,2637.11,TBD,76
-SHP-23525,Gift Voucher,false,2026-04-04T18:59:13Z,2023-06-16,82777.17,Rail,99
-SHP-37878,Direct Debit,true,2026-06-04T20:07:52Z,2024-09-28,222697.17,asdf,41
-SHP-21441,Direct Debit,false,2026-05-16T08:25:26Z,2025-07-08,193451.11,.,26
-SHP-12672,Direct Debit,true,2026-02-10T02:37:49Z,2023-03-15,51207.27,TBD,40
-SHP-28481,Gift Voucher,false,2026-09-15T02:52:02Z,2023-04-28,2361.77,Road,
-SHP-78404,Bank Transfer,true,2026-04-09T23:00:46Z,2022-04-30,92126.43,test,1
-SHP-66496,Bank Transfer,false,2026-10-14T10:26:05Z,2021-02-13,9403.99,.,43
-SHP-37262,Direct Debit,false,2026-09-09T10:13:04Z,2024-10-26,20579.35,Rail,
-SHP-26146,Credit Card,false,2026-05-14T00:05:38Z,2023-12-17,1562.85,Road,12
-SHP-71701,Direct Debit,true,2026-09-16T16:39:01Z,2026-10-10,218022.65,test,79
-SHP-92136,Direct Debit,false,2026-02-16T19:19:11Z,2023-01-04,181441.48,Air,73
-SHP-99692,Gift Voucher,true,2026-03-30T08:29:28Z,2024-06-15,67449.42,asdf,76
-SHP-53343,Credit Card,false,2026-09-02T10:17:57Z,2021-07-27,16243.54,Air,85
-SHP-38097,Direct Debit,false,2026-03-17T08:00:47Z,2022-07-17,108133.75,Road,58
-SHP-95607,Credit Card,true,2026-05-01T04:40:13Z,2026-09-13,40600.94,todo,63
-SHP-78703,Direct Debit,false,2026-08-02T05:25:18Z,2025-10-21,244170.62,todo,94
-SHP-72301,Credit Card,true,2026-09-13T21:23:22Z,2024-03-10,241163.42,Air,47
-SHP-74521,Gift Voucher,true,2026-08-27T00:47:08Z,2024-01-18,74988.64,Rail,
-SHP-40496,Direct Debit,false,2026-01-23T03:22:33Z,2024-01-15,179465.24,asdf,98
-SHP-24287,Gift Voucher,true,2026-06-10T12:05:50Z,2021-12-01,169649.37,xxx,42
-SHP-61449,Credit Card,false,2026-05-03T00:58:14Z,2023-10-29,97573.29,xxx,58
-SHP-37457,Bank Transfer,true,2026-06-07T16:14:56Z,2024-08-22,92039.3,.,
-SHP-74683,Credit Card,false,2026-09-14T23:56:41Z,2021-06-05,119429.66,Rail,22
-SHP-23810,Gift Voucher,true,2026-06-28T02:48:05Z,2026-02-11,211981.16,TBD,
-SHP-71528,Credit Card,true,2026-09-12T01:05:12Z,2024-03-13,7907.38,todo,99
-SHP-16327,Bank Transfer,true,2026-09-12T10:48:36Z,2024-01-23,156485.55,.,23
-SHP-79244,Bank Transfer,true,2026-09-24T01:03:23Z,2025-08-06,130773.56,Air,
-SHP-85226,Gift Voucher,true,2026-03-01T20:30:56Z,2022-09-07,16426.46,xxx,60
-SHP-60987,Direct Debit,false,2026-08-26T09:50:29Z,2024-07-15,202475.72,test,11
-SHP-20968,Gift Voucher,true,2026-09-17T06:21:01Z,2024-01-14,185082.54,Air,52
-SHP-37438,Bank Transfer,true,2026-01-13T15:18:08Z,2026-03-18,137302.88,asdf,20
+site_type,share,visit_date,weekday_no,total,status_cd,status_desc,shipment_id,payment_method
+Commercial,52.8,2023-07-04,Sunday,2022-10-14,A1,Open,SHP-94381,Credit Card
+Commercial,81.1,2021-08-07,Monday,Eze,C3,Closed,SHP-46130,Bank Transfer
+Government,58.5,2024-06-09,Sunday,625.98,B2,In review,SHP-75672,Gift Voucher
+Residential,33.5,2021-12-01,Tuesday,568.48,D4,Cancelled,SHP-25656,Credit Card
+Commercial,35.3,2022-12-24,Wednesday,211.45,A1,Open,SHP-69772,Gift Voucher
+Residential,55.2,2025-03-10,Monday,2026-03-15,D4,Cancelled,SHP-71786,Direct Debit
+Residential,25.1,2026-10-15,Saturday,296.82,A1,Open,SHP-20329,Gift Voucher
+Commercial,76.7,2021-06-26,Thursday,880.9,B2,In review,SHP-83475,Direct Debit
+Government,63.5,2026-03-29,Friday,809.9,B2,In review,SHP-82076,Gift Voucher
+Commercial,100.0,2021-09-19,Monday,531.55,B2,In review,SHP-30438,Gift Voucher
+Commercial,5.6,2026-06-04,Monday,209.4,C3,Closed,SHP-73412,Gift Voucher
+Industrial,63.5,2026-01-06,Thursday,388.37,D4,Cancelled,SHP-36640,Gift Voucher
+Government,30.0,2025-12-06,Thursday,Haas,C3,Closed,SHP-41473,Credit Card
+Government,81.5,2024-02-17,Tuesday,368.3,A1,Open,SHP-96775,Direct Debit
+Residential,32.3,2021-08-12,Sunday,2024-08-31,A1,Open,SHP-60666,Direct Debit
+Residential,25.5,2023-02-06,Monday,2026-06-06,C3,Closed,SHP-13976,Direct Debit
+Government,68.1,2024-11-21,Friday,232.36,C3,Closed,SHP-75459,Gift Voucher
+Government,73.5,2023-08-16,Tuesday,241.54,B2,In review,SHP-13720,Direct Debit
+Residential,2.1,2023-05-04,Sunday,521.72,D4,Cancelled,SHP-19977,Bank Transfer
+Commercial,91.8,2024-08-20,Thursday,#REF!,C3,Closed,SHP-41027,Credit Card
+Industrial,12.2,2025-03-22,Sunday,440.53,C3,Closed,SHP-97959,Credit Card
+Government,58.2,2023-10-31,Sunday,688.35,A1,Open,SHP-59524,Gift Voucher
+Industrial,41.5,2025-01-09,Tuesday,Eze,B2,In review,SHP-22187,Credit Card
+Commercial,35.7,2025-11-26,Friday,686.37,B2,In review,SHP-82546,Credit Card
+Commercial,31.8,2021-05-25,Sunday,Rail,C3,Closed,SHP-11108,Credit Card
+Residential,97.5,2025-10-16,Sunday,2025-03-21,B2,In review,SHP-77093,Gift Voucher
+Government,71.9,2025-04-13,Sunday,736.79,B2,In review,SHP-41544,Direct Debit
+Residential,49.5,2024-06-08,Thursday,305.03,C3,Closed,SHP-37541,Bank Transfer
+Commercial,72.4,2025-01-04,Tuesday,290.05,C3,Closed,SHP-15348,Gift Voucher
+Industrial,74.9,2026-11-14,Friday,43.56,D4,Cancelled,SHP-88866,Direct Debit
+Industrial,47.1,2021-11-18,Wednesday,Sea,C3,Closed,SHP-88680,Direct Debit
+Industrial,72.6,2024-02-01,Thursday,Moreau,C3,Closed,SHP-39189,Credit Card
+Government,53.3,2021-09-26,Monday,129.25,B2,In review,SHP-53197,Bank Transfer
+Commercial,10.7,2022-03-06,Monday,310.48,C3,Closed,SHP-74825,Gift Voucher
+Commercial,92.2,2026-10-15,Tuesday,771.96,A1,Open,SHP-97993,Direct Debit
+Industrial,45.0,2021-03-11,Saturday,#REF!,C3,Closed,SHP-38060,Direct Debit
+Commercial,52.4,2026-05-08,Thursday,798.47,A1,Open,SHP-50050,Gift Voucher
+Residential,15.9,2021-08-29,Saturday,#REF!,C3,Closed,SHP-63544,Direct Debit
+Residential,4.0,2024-11-06,Friday,#REF!,B2,In review,SHP-34892,Bank Transfer
+Industrial,61.7,2026-08-28,Friday,725.77,A1,Open,SHP-41799,Credit Card
+Residential,43.7,2026-05-26,Sunday,#REF!,D4,Cancelled,SHP-66101,Direct Debit
+Government,68.6,2021-06-11,Tuesday,2026-11-13,B2,In review,SHP-83250,Credit Card
+Government,25.3,2023-12-15,Saturday,#REF!,D4,Cancelled,SHP-10527,Direct Debit
+Industrial,24.4,2025-03-05,Sunday,254.41,B2,In review,SHP-36943,Bank Transfer
+Commercial,41.0,2026-12-12,Monday,2025-07-18,C3,Closed,SHP-88172,Direct Debit
+Residential,10.9,2024-05-04,Thursday,641.07,A1,Open,SHP-93958,Direct Debit
+Government,0.4,2022-11-25,Thursday,Air,B2,In review,SHP-63803,Gift Voucher
+Government,60.3,2025-07-21,Wednesday,Nwosu,A1,Open,SHP-86268,Bank Transfer
+Residential,40.5,2022-07-04,Thursday,138.54,C3,Closed,SHP-58617,Direct Debit
+Residential,36.9,2021-09-04,Sunday,Brandt,B2,In review,SHP-89435,Direct Debit
+Government,69.6,2024-06-27,Saturday,439.01,C3,Closed,SHP-31384,Gift Voucher
+Industrial,73.1,2026-07-15,Friday,559.24,D4,Cancelled,SHP-66417,Gift Voucher
+Residential,54.3,2022-12-12,Saturday,809.22,A1,Open,SHP-75322,Credit Card
+Residential,76.7,2022-08-09,Thursday,2026-05-13,A1,Open,SHP-49656,Credit Card
+Residential,72.6,2025-08-02,Saturday,24.74,D4,Cancelled,SHP-12904,Bank Transfer
+Residential,63.7,2023-09-23,Sunday,Haas,B2,In review,SHP-71202,Gift Voucher
+Government,70.2,2023-01-14,Thursday,2023-03-19,C3,Closed,SHP-84893,Bank Transfer
+Government,42.9,2022-05-12,Saturday,#REF!,C3,Closed,SHP-49799,Credit Card
+Industrial,74.4,2025-10-22,Thursday,2023-11-15,A1,Open,SHP-92843,Bank Transfer
+Industrial,19.7,2021-01-06,Sunday,Eze,B2,In review,SHP-85559,Credit Card
+Industrial,59.2,2024-02-21,Saturday,344.56,C3,Closed,SHP-38634,Credit Card
+Government,47.0,2023-11-15,Sunday,432.73,C3,Closed,SHP-71905,Bank Transfer
+Commercial,52.8,2025-02-18,Thursday,635.51,C3,Closed,SHP-15947,Gift Voucher
+Residential,99.5,2022-10-31,Sunday,2024-08-21,B2,In review,SHP-11653,Bank Transfer
+Commercial,72.9,2023-06-11,Friday,255.95,C3,Closed,SHP-72983,Bank Transfer
+Government,98.5,2023-05-09,Friday,Sea,D4,Cancelled,SHP-80790,Credit Card
+Commercial,38.0,2026-02-28,Tuesday,399.51,B2,In review,SHP-50104,Bank Transfer
+Commercial,96.0,2022-07-23,Friday,Air,D4,Cancelled,SHP-95126,Credit Card
+Industrial,59.7,2024-05-17,Monday,274.67,D4,Cancelled,SHP-73750,Direct Debit
+Residential,60.6,2024-04-23,Sunday,#REF!,B2,In review,SHP-36049,Bank Transfer
+Commercial,44.9,2025-08-10,Wednesday,200.06,D4,Cancelled,SHP-30887,Gift Voucher
+Industrial,0.5,2022-11-23,Friday,742.32,C3,Closed,SHP-37330,Gift Voucher
+Residential,86.8,2026-07-11,Wednesday,48.12,A1,Open,SHP-58506,Direct Debit
+Industrial,75.9,2021-10-21,Monday,Road,D4,Cancelled,SHP-75081,Direct Debit
+Government,9.5,2026-12-19,Tuesday,2026-02-27,B2,In review,SHP-28870,Bank Transfer
+Residential,80.8,2026-11-24,Tuesday,Sea,D4,Cancelled,SHP-96039,Bank Transfer
+Residential,96.0,2022-12-08,Wednesday,731.78,D4,Cancelled,SHP-92345,Gift Voucher
+Commercial,6.5,2026-07-09,Saturday,7.08,A1,Open,SHP-96450,Gift Voucher
+Government,63.7,2021-06-17,Sunday,#REF!,B2,In review,SHP-24695,Bank Transfer
+Industrial,62.6,2022-02-14,Monday,875.36,B2,In review,SHP-72228,Credit Card
+Industrial,30.1,2026-06-30,Monday,Sea,D4,Cancelled,SHP-25854,Bank Transfer
+Government,55.3,2021-08-14,Saturday,265.4,B2,In review,SHP-82550,Direct Debit
+Residential,56.3,2021-06-17,Friday,446.14,C3,Closed,SHP-67713,Direct Debit
+Industrial,42.7,2024-08-11,Thursday,550.3,A1,Open,SHP-89526,Bank Transfer
+Government,45.0,2021-11-21,Monday,347.25,C3,Closed,SHP-79240,Bank Transfer
+Government,58.3,2025-12-13,Tuesday,Road,C3,Closed,SHP-19783,Gift Voucher
+Government,37.1,2026-05-02,Tuesday,#REF!,D4,Cancelled,SHP-45043,Direct Debit
+Residential,48.9,2023-09-17,Saturday,Brandt,C3,Closed,SHP-90793,Gift Voucher
+Commercial,41.5,2021-01-13,Monday,250.2,A1,Open,SHP-87360,Gift Voucher
+Government,16.7,2022-03-06,Saturday,511.14,C3,Closed,SHP-23525,Gift Voucher
+Government,88.8,2025-03-08,Monday,461.44,D4,Cancelled,SHP-37878,Direct Debit
+Government,61.5,2022-01-23,Sunday,850.2,C3,Closed,SHP-21441,Direct Debit
+Industrial,41.9,2024-09-04,Sunday,329.01,B2,In review,SHP-12672,Direct Debit
+Residential,41.2,2025-05-25,Saturday,156.59,A1,Open,SHP-28481,Gift Voucher
+Government,28.8,2022-09-21,Saturday,630.82,D4,Cancelled,SHP-78404,Bank Transfer
+Government,7.8,2022-08-20,Saturday,2024-05-09,B2,In review,SHP-66496,Bank Transfer
+Government,33.2,2021-04-06,Monday,2024-01-27,D4,Cancelled,SHP-37262,Direct Debit
+Commercial,32.0,2024-09-30,Monday,79.23,A1,Open,SHP-26146,Credit Card
+Government,62.7,2026-11-26,Saturday,311.14,C3,Closed,SHP-71701,Direct Debit
+Commercial,68.8,2021-06-21,Monday,329.83,B2,In review,SHP-92136,Direct Debit
+Government,38.5,2023-06-06,Tuesday,499.89,A1,Open,SHP-99692,Gift Voucher
+Industrial,52.3,2026-06-07,Tuesday,35.91,A1,Open,SHP-53343,Credit Card
+Commercial,3.6,2026-06-09,Wednesday,Road,D4,Cancelled,SHP-38097,Direct Debit
+Industrial,59.6,2022-05-17,Thursday,Road,A1,Open,SHP-95607,Credit Card
+Commercial,2.5,2024-10-26,Wednesday,368.13,D4,Cancelled,SHP-78703,Direct Debit
+Industrial,19.2,2026-05-05,Monday,357.9,A1,Open,SHP-72301,Credit Card
+Industrial,19.7,2025-12-25,Tuesday,711.24,C3,Closed,SHP-74521,Gift Voucher
+Government,40.3,2022-10-23,Sunday,Rail,B2,In review,SHP-40496,Direct Debit
+Residential,8.4,2024-10-09,Tuesday,667.7,C3,Closed,SHP-24287,Gift Voucher
+Commercial,84.9,2026-05-30,Tuesday,Sea,C3,Closed,SHP-61449,Credit Card
+Industrial,18.8,2026-08-14,Sunday,323.74,B2,In review,SHP-37457,Bank Transfer
+Government,55.7,2025-04-01,Monday,358.6,D4,Cancelled,SHP-74683,Credit Card
+Industrial,94.0,2021-05-29,Monday,584.64,A1,Open,SHP-23810,Gift Voucher
+Industrial,74.8,2023-05-23,Wednesday,376.48,D4,Cancelled,SHP-71528,Credit Card
+Industrial,48.0,2026-10-20,Friday,310.55,B2,In review,SHP-16327,Bank Transfer
+Industrial,88.6,2025-06-14,Sunday,2022-10-31,D4,Cancelled,SHP-79244,Bank Transfer
+Commercial,96.8,2024-08-18,Saturday,581.68,B2,In review,SHP-85226,Gift Voucher
+Government,69.9,2024-09-07,Sunday,2022-12-08,C3,Closed,SHP-60987,Direct Debit
+Industrial,14.0,2025-03-09,Sunday,66.69,A1,Open,SHP-20968,Gift Voucher
+Residential,47.1,2026-02-26,Sunday,178.46,C3,Closed,SHP-37438,Bank Transfer

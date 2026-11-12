@@ -1,0 +1,121 @@
+satisfaction_score,ship_date,tmp1,status_cd,status_desc
+999,45503,52c5c7cd0daa,B2,In review
+77,44523,2fc5879b6d66,A1,Open
+94,46279,b78f1cb859a4,C3,Closed
+83,44650,cec927c1d480,A1,Open
+49,45997,702acc290822,D4,Cancelled
+999,44341,699397bca0bb,C3,Closed
+28,46119,21bf3b6ad112,C3,Closed
+94,45638,dc850be266c2,B2,In review
+12,44495,533a3ee7edd2,D4,Cancelled
+52,45964,98427f5db94f,B2,In review
+49,45016,bb788f094288,B2,In review
+98,46205,2dcbc01d33f6,A1,Open
+24,45129,790c84e50af9,D4,Cancelled
+60,44420,d52f2951beb6,B2,In review
+26,45730,7ae3eaa1ad63,C3,Cancelled
+86,44652,946ca4a98a35,A1,Open
+999,45622,65d47cc0b3b1,A1,Open
+41,44885,7f35db81fe49,A1,Open
+39,44869,5511d6aba3a8,D4,In review
+68,44776,e9b6676250d2,B2,In review
+15,45966,0504c4febb67,A1,Open
+42,45334,a5933797fc8d,C3,Cancelled
+8,46147,00e4cdf0860b,C3,Closed
+73,44677,b32c7e1798f7,B2,In review
+59,46048,695eb9930858,D4,Cancelled
+37,45829,0c5a66494940,B2,In review
+39,45710,0e258b70c48e,D4,Cancelled
+97,46131,ecbacb3fefad,D4,Cancelled
+51,44843,3ea0c545806a,B2,In review
+73,45831,a52e858cf607,D4,Cancelled
+999,44845,3ade0e923845,B2,In review
+999,46269,96361c72c7a4,D4,Cancelled
+64,45031,36c987caf1d5,D4,Cancelled
+56,45740,48a215ea2014,B2,In review
+1,46347,edbcf3ac3371,B2,In review
+25,45921,3b0d69b1dd57,B2,In review
+46,44481,e4a69e19165b,D4,Open
+999,44455,4fdf9cc5ad5c,B2,In review
+67,45254,954b9c2e5b53,C3,Closed
+31,45063,dd9747ddc3d3,A1,Open
+12,45096,38774e089c49,B2,In review
+9,44925,f39aea90f972,B2,In review
+999,45367,775289401cca,D4,Cancelled
+20,44710,ba16c51cd1b7,D4,Cancelled
+65,45294,c5dc99dbab3a,B2,In review
+98,45350,eb95a278d3f5,D4,Cancelled
+37,45026,cb4d775a749f,D4,Cancelled
+87,46110,74b14c4dfc9c,B2,In review
+52,44383,475fcf807c71,C3,Open
+59,46114,9affce2da551,D4,Cancelled
+4,44344,b5465af8f00f,D4,Cancelled
+57,45297,4e63d17238ae,C3,Closed
+28,44923,77636f748499,D4,Cancelled
+18,45329,2ac0dfb0ebc8,A1,Open
+55,44818,a313d62aecd5,C3,Closed
+999,46097,c2b735f74e44,B2,In review
+46,45571,16eb9c332eb1,A1,Open
+57,44507,2d8c57da17bd,D4,Cancelled
+15,45629,fa9d2bff87a3,A1,Open
+93,45416,2779c0edab6a,B2,In review
+20,44771,608987e06abc,C3,Closed
+23,44329,f457b0e1acc9,D4,In review
+44,46222,cc752c74fd87,C3,Closed
+51,46100,be5fb6befe81,A1,Open
+27,44566,e1e4f5964c5c,B2,In review
+1,45653,b83eed3fb3b7,B2,Closed
+76,45385,fec925c9a98c,C3,Closed
+100,45211,c3875611e5e0,C3,Cancelled
+92,44554,f447add9dd0e,D4,Cancelled
+999,45586,e5340f145d52,D4,Cancelled
+999,44315,448d18b64c92,B2,In review
+98,45510,6a0ecc3e8a89,D4,Cancelled
+999,44765,fee1e30d541b,D4,Cancelled
+999,45638,865891926706,B2,In review
+37,44938,80b20dad7125,B2,Closed
+96,44266,83bbb9b78c9d,B2,In review
+8,46236,00d891758114,D4,Cancelled
+75,44895,86c4143a46e9,C3,Closed
+41,45697,6231c7c7a8c3,C3,Closed
+60,46145,6b5074c11ede,C3,Closed
+87,44981,13b10e4801d4,D4,Cancelled
+33,44498,822c0a368df3,D4,Cancelled
+29,45794,2c2b4d0c7942,D4,Cancelled
+999,46255,c86abf54afce,C3,Closed
+56,44581,562cc59b40ab,B2,In review
+35,44690,f00cd53c9fab,B2,In review
+76,46013,664aacecf292,B2,In review
+93,44548,856b9b35b932,B2,In review
+27,44207,b4574e66c99a,A1,Open
+999,44965,e097d81b7fd9,C3,Closed
+26,44450,5053e65224ca,D4,Cancelled
+69,46358,3a4a0ed74b05,D4,Cancelled
+4,44702,2702a7b4487c,D4,Cancelled
+999,44801,b3601b18d673,B2,In review
+86,44830,8d5e02de047f,A1,Open
+64,45042,fa71aae400f9,C3,Closed
+91,44942,413bacba5024,B2,In review
+23,44703,b358ec7038c7,B2,In review
+38,45822,a4db7a2ae028,B2,In review
+62,44437,108c4c8ccf86,A1,Open
+38,45207,77734d2b4aaa,A1,Open
+73,45178,9559e67d7f12,D4,Cancelled
+66,45308,e88f569a30ca,B2,In review
+27,45363,7603c1650254,A1,Open
+63,44998,7bbd55bdf9ab,B2,In review
+15,45930,72b52488feb4,C3,In review
+94,45415,0b06adf3772b,B2,In review
+62,45352,02846a78c5b7,C3,Closed
+85,45984,18715249b304,D4,Open
+56,44986,1101f7d69e98,C3,Closed
+52,45131,aa892e093a9b,C3,Closed
+22,44795,4bcb9b8a8b05,A1,Open
+77,44356,716377870570,B2,In review
+72,46369,9ca8555b1606,B2,In review
+58,45202,0d1946becd7e,A1,Open
+48,44706,76500fa77d30,B2,In review
+999,44550,b5d0eb78429a,A1,Open
+999,45669,98aadbd2be43,D4,Closed
+94,45588,51fc227b1e16,C3,Closed
+999,45519,4598666d44e1,C3,Closed

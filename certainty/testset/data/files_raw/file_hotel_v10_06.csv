@@ -1,0 +1,61 @@
+record_id,contact_name,created_date,amount_usd,channel,address
+BKG-39136,Kemi Lindqvist,2025-11-20,227.03,Group,287 Mill Rd
+BKG-78033,Mona Haas,2026-07-17,150.98,Event,125 Main St
+BKG-45094,Farid Brandt,2026-02-01,446.27,Corporate,342 Park Way
+BKG-83509,Chloe Haas,2025-01-12,39.99,Group,553 Lake Dr
+BKG-75500,Priya Haas,2026-02-14,618.16,Leisure,589 Mill Rd
+BKG-91536,Ana Gallo,2026-02-18,9.11,Group,315 Lake Dr
+BKG-34109,Kemi Abel,2026-03-08,260.54,Corporate,511 Hill Ln
+BKG-85152,Ben Eze,2025-04-04,537.19,Corporate,934 Mill Rd
+BKG-59242,Mona Brandt,2025-05-17,496.52,Group,754 Park Way, Apt 28
+BKG-94331,Priya Ortiz,2025-02-11,414.31,Leisure,537 Mill Rd
+BKG-38623,Ines Brandt,2025-05-28,775.09,Group,724 Mill Rd
+BKG-90657,Jon Koval,2025-04-14,287.44,Group,576 Oak Ave
+BKG-91140,Luca Castro,2025-10-26,804.76,Corporate,458 Park Way
+BKG-68095,Luca Petrov,2025-01-22,853.97,Group,158 Park Way
+BKG-17461,Chloe Abel,2025-01-16,56.28,Group,193 Oak Ave, Apt 35
+BKG-35106,Grace Eze,2025-11-09,880.35,Leisure,593 Main St
+BKG-48524,Hiro Gallo,2026-04-14,451.12,Group,515 Park Way
+BKG-93368,Ben Petrov,2026-01-22,292.07,Group,245 Park Way
+BKG-86935,Ben Nwosu,2025-04-06,164.76,Corporate,370 Hill Ln, Apt 40
+BKG-22277,Omar Ito,2025-02-13,335.44,Leisure,284 Lake Dr
+BKG-59795,Luca Koval,2026-04-20,177.02,Event,858 Oak Ave
+BKG-38994,Ana Dunne,2025-12-18,426.18,Group,388 Main St
+BKG-94622,Hiro Dunne,2026-08-06,240.18,Event,137 Park Way
+BKG-99330,Ines Lindqvist,2025-10-19,293.01,Corporate,455 Main St
+BKG-41843,Priya Haas,2025-02-03,854.86,Event,60 Park Way
+BKG-97669,Jon Lindqvist,2025-12-16,92.08,Event,384 Park Way
+BKG-78788,Jon Gallo,2026-06-02,441.81,Group,891 Main St, Apt 17
+BKG-50954,Omar Castro,2025-07-02,870.22,Corporate,854 Lake Dr
+BKG-49833,Luca Farrow,2025-01-21,885.85,Group,16 Lake Dr
+BKG-50680,Noor Petrov,2025-12-11,518.31,Group,487 Park Way
+BKG-71422,Hiro Farrow,2025-12-18,823.55,Event,570 Main St
+BKG-64779,Ben Farrow,2025-08-21,55.27,Event,948 Park Way
+BKG-96883,Ben Petrov,2026-01-05,507.46,Event,870 Lake Dr, Apt 19
+BKG-21911,Noor Nwosu,2026-05-06,582.54,Leisure,503 Hill Ln
+BKG-24332,Elif Jensen,2025-12-20,399.56,Corporate,908 Mill Rd
+BKG-98444,Kemi Ito,2026-07-09,67.27,Group,822 Hill Ln
+BKG-70570,Ana Lindqvist,2026-01-07,617.86,Event,380 Park Way
+BKG-15164,Mona Ortiz,2025-02-26,128.11,Leisure,482 Lake Dr
+BKG-81505,Dev Nwosu,2025-09-09,454.56,Leisure,671 Lake Dr
+BKG-49699,Chloe Dunne,2026-08-04,443.58,Leisure,363 Lake Dr
+BKG-11120,Ben Ito,2026-02-24,87.63,Event,10 Lake Dr
+BKG-73758,Grace Haas,2026-04-02,509.59,Leisure,165 Main St
+BKG-94486,Luca Moreau,2026-04-21,227.71,Leisure,182 Main St
+BKG-32024,Farid Jensen,2025-05-07,488.85,Leisure,266 Main St
+BKG-98844,Kemi Nwosu,2025-11-29,21.62,Leisure,913 Main St, Apt 37
+BKG-83927,Mona Castro,2026-05-09,881.18,Group,733 Main St
+BKG-37570,Chloe Dunne,2026-03-29,820.98,Event,603 Park Way
+BKG-32122,Luca Haas,2025-01-31,715.56,Group,948 Hill Ln
+BKG-28430,Grace Eze,2025-08-24,544.42,Corporate,780 Oak Ave
+BKG-21784,Luca Farrow,2026-04-01,366.78,Corporate,829 Park Way
+BKG-27904,Dev Castro,2026-05-15,450.46,Leisure,517 Park Way
+BKG-38349,Priya Eze,2025-12-15,420.72,Event,334 Oak Ave
+BKG-34398,Priya Gallo,2025-11-05,349.57,Event,761 Mill Rd
+BKG-39689,Omar Eze,2025-05-01,269.56,Group,847 Park Way
+BKG-45961,Chloe Dunne,2025-01-05,734.49,Event,767 Park Way
+BKG-35877,Priya Petrov,2026-07-10,386.87,Corporate,615 Park Way
+BKG-73939,Ana Abel,2025-08-30,58.50,Group,122 Hill Ln
+BKG-83222,Chloe Abel,2025-12-04,688.72,Event,534 Park Way
+BKG-92482,Noor Jensen,2025-09-21,760.29,Group,463 Hill Ln
+BKG-76189,Jon Lindqvist,2025-05-29,233.47,Leisure,533 Oak Ave

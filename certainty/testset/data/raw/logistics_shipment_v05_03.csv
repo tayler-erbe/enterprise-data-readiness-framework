@@ -1,121 +1,121 @@
-weight,handled_by,contact,person,comment,segment,reason,created_date
-12.4,Mona Petrov,kemi.nwosu,"Farrow, Dev (1975-09-26)",todo,Sea,Air,2021-05-11
-7.3,Grace Castro,noor.nwosu,"Nwosu, Ben (1976-05-29)",TBD,Road  ,Road,2021-12-20
-9.1,Noor Petrov,mona.farro,"Nwosu, Omar (1953-11-06)",asdf,Sea,Road,2025-07-23
-48.1,Elif Koval,elif.ito@e,"Koval, Noor (1955-06-12)",asdf,Sea,Sea,2024-08-19
-20.0,Chloe Dunne,jon.farrow,"Jensen, Luca (1951-02-21)",xxx,Rail,Road,2024-03-26
-2.7,Farid Brandt,ana.brandt,"Moreau, Dev (1982-12-16)",test,Air,?,2021-03-29
-4.7,Omar Abel,kemi.brand,"Lindqvist, Kemi (1954-11-09)",TBD,SEA,Road,2025-10-10
-10.5,Ana Ito,priya.bran,"Ortiz, Luca (2001-06-03)",Rail,Rail  ,Rail,2026-01-03
-20.1,Ines Petrov,dev.ortiz@,"Jensen, Luca (1977-03-14)",Sea,Air,none,2025-12-22
-31.9,Mona Nwosu,elif.eze@e,"Koval, Elif (1985-05-05)",test,ROAD,N/A,2024-03-16
-45.0,Chloe Nwosu,priya.more,"Jensen, Farid (2000-09-19)",asdf,Sea,none,2023-10-06
-33.0,Priya Jensen,priya.kova,"Castro, Priya (1992-11-25)",Sea,Sea  ,Sea,2024-04-05
-19.4,Kemi Brandt,farid.cast,"Castro, Hiro (1978-05-14)",Road,Rail,Sea,2024-06-10
-22.3,Jon Abel,elif.petro,"Moreau, Mona (1987-11-03)",asdf,Rail,Rail,2021-12-02
-30.7,Priya Eze,ben.brandt,"Farrow, Ines (1958-09-03)",.,rail,Road,2025-09-16
-45.6,Luca Haas,hiro.eze@e,"Lindqvist, Ana (1971-08-20)",TBD, Air,?,2025-09-23
-33.3,Priya Castro,noor.koval,"Ortiz, Luca (1993-05-14)",Rail,Sea,Road,2024-04-16
-28.6,Elif Koval,kemi.jense,"Castro, Mona (1951-11-06)",TBD,Sea,Sea,2021-03-16
-18.4,Farid Eze,farid.dunn,"Nwosu, Ben (2003-11-28)",.,Rail,Road,2022-12-20
-30.2,Ines Farrow,elif.farro,"Farrow, Jon (1997-06-08)",xxx,SEA,NULL,2026-06-03
-28.2,Grace Abel,farid.lind,"Eze, Priya (1971-10-08)",todo,Air  ,Road,2026-08-26
-29.5,Omar Ortiz,dev.dunne@,"Jensen, Noor (1993-04-18)",todo,Air  ,Road,2024-09-19
-37.1,Dev Koval,priya.orti,"Nwosu, Priya (1966-08-21)",asdf,Sea,Road,2022-05-15
-32.5,Noor Petrov,jon.lindqv,"Eze, Ines (1967-02-18)",Rail,Sea,Road,2026-12-05
-46.2,Chloe Lindqvist,mona.morea,"Lindqvist, Chloe (1972-02-14)",Air, Road,Road,2023-07-12
-43.3,Ines Jensen,chloe.more,"Farrow, Elif (1970-07-24)",TBD,Air  ,Air,2024-10-19
-40.6,Kemi Lindqvist,kemi.nwosu,"Jensen, Chloe (1991-08-08)",Sea,Rail,Air,2026-10-17
-3.5,Mona Castro,farid.eze@,"Abel, Grace (1984-03-15)",Road,Air,Rail,2022-02-09
-1.1,Kemi Haas,noor.eze@e,"Abel, Mona (1965-10-28)",test,Road,-,2025-03-07
-35.2,Ines Petrov,chloe.jens,"Moreau, Kemi (1999-09-26)",.,Road,none,2024-12-26
-21.6,Chloe Dunne,farid.dunn,"Ito, Ben (1973-05-09)",test,Road,Rail,2026-06-01
-22.7,Noor Lindqvist,grace.cast,"Jensen, Dev (2001-12-02)",Rail,RAIL,Rail,2022-11-01
-10.5,Grace Ito,dev.lindqv,"Abel, Chloe (1960-02-29)",test,Rail,Sea,2024-03-14
-19.8,Chloe Jensen,jon.petrov,"Ortiz, Omar (1993-09-16)",.,Air,Road,2026-01-01
-38.0,Ben Castro,elif.farro,"Nwosu, Jon (1995-03-31)",Rail,Sea  ,Rail,2024-05-02
-48.0,Priya Haas,noor.farro,"Eze, Luca (1966-12-18)",Road,SEA,Air,2022-11-26
-3.5,Hiro Castro,dev.castro,"Jensen, Mona (1980-01-02)",test,Road  ,Air,2025-09-27
-1.9,Ana Ortiz,dev.nwosu@,"Nwosu, Priya (1993-08-15)",Sea,Air,none,2023-11-28
-24.2,Dev Moreau,ines.nwosu,"Eze, Ana (1961-01-19)",xxx,Air  ,Sea,2024-10-05
-49.7,Farid Farrow,ana.dunne@,"Koval, Mona (1985-05-11)",asdf,Road,Sea,2025-04-07
-46.6,Elif Lindqvist,hiro.farro,"Dunne, Luca (2000-06-22)",.,Road,Rail,2023-12-20
-15.3,Noor Lindqvist,mona.koval,"Haas, Priya (1982-09-12)",todo,Rail,Road,2025-07-19
-34.3,Farid Abel,dev.castro,"Koval, Priya (1962-02-13)",asdf,Rail,Rail,2021-12-16
-43.8,Ben Castro,elif.morea,"Brandt, Kemi (1978-12-20)",Rail,Road,NULL,2025-12-10
-45.6,Ben Gallo,ines.farro,"Lindqvist, Ben (1981-04-18)",Rail, Sea,none,2026-07-03
-30.4,Ines Dunne,ben.nwosu@,"Moreau, Hiro (1974-03-09)",TBD,Air,none,2022-06-17
-34.3,Farid Gallo,priya.kova,"Haas, Kemi (1987-02-12)",todo, Rail,-,2026-06-11
-15.4,Luca Moreau,dev.moreau,"Abel, Ana (1998-02-12)",TBD,Rail,N/A,2026-07-05
-10.3,Ana Ito,priya.orti,"Brandt, Kemi (1978-07-09)",xxx,Sea,none,2021-12-06
-32.1,Priya Petrov,elif.brand,"Lindqvist, Elif (1959-07-21)",TBD,rail,Rail,2025-08-21
-3.4,Farid Brandt,ben.gallo@,"Nwosu, Jon (2001-03-22)",.,air,Sea,2023-01-22
-38.9,Luca Dunne,priya.farr,"Eze, Jon (1978-08-02)",.,Rail,Sea,2021-06-21
-2.4,Dev Petrov,hiro.gallo,"Nwosu, Ines (1966-04-12)",Rail,Road,Rail,2025-06-29
-12.9,Luca Castro,farid.haas,"Farrow, Noor (1988-06-27)",., Rail,Road,2023-12-08
-36.2,Jon Petrov,hiro.dunne,"Dunne, Hiro (1990-03-22)",Road,air,Sea,2023-09-22
-38.5,Ana Gallo,ben.castro,"Nwosu, Dev (1976-07-22)",TBD,Air,NULL,2023-12-28
-42.5,Omar Gallo,grace.ito@,"Castro, Chloe (1950-10-27)",.,Air,Road,2022-05-02
-10.7,Elif Eze,luca.jense,"Gallo, Noor (1987-11-01)",asdf,Road  ,Rail,2022-02-09
-24.6,Grace Gallo,ben.jensen,"Lindqvist, Chloe (1974-05-27)",.,Road,Air,2021-02-01
-21.8,Mona Petrov,jon.castro,"Brandt, Omar (1981-12-17)",test, Sea,N/A,2022-01-20
-8.5,Ana Jensen,chloe.cast,"Brandt, Dev (1950-10-07)",todo,RAIL,Rail,2025-09-07
-46.8,Ana Ito,jon.eze@ex,"Abel, Dev (1992-01-01)",asdf,Rail,Sea,2026-04-24
-33.6,Chloe Dunne,farid.jens,"Farrow, Elif (1988-02-12)",test,Road  ,-,2026-03-11
-3.3,Luca Moreau,chloe.bran,"Gallo, Mona (1967-08-25)",.,Air,Air,2021-12-30
-38.3,Kemi Ortiz,mona.ortiz,"Petrov, Omar (1960-03-28)",., Air,Sea,2024-11-19
-42.9,Kemi Lindqvist,kemi.dunne,"Nwosu, Jon (1984-08-12)",asdf,Road,Road,2024-06-13
-47.6,Omar Nwosu,farid.orti,"Gallo, Mona (1972-11-25)",TBD,Sea,Road,2022-01-18
-32.9,Luca Ito,hiro.nwosu,"Petrov, Kemi (2000-05-13)",xxx,Air,Rail,2026-04-15
-28.6,Priya Petrov,chloe.cast,"Abel, Jon (1977-07-06)",.,Sea  ,Road,2024-01-12
-42.4,Farid Brandt,ben.nwosu@,"Gallo, Elif (1991-11-02)",Road,Sea  ,Sea,2022-10-25
-25.8,Grace Nwosu,dev.haas@e,"Ito, Omar (1966-10-04)",TBD,Road,Rail,2024-11-25
-17.6,Kemi Haas,dev.petrov,"Koval, Ben (1972-03-28)",xxx,Rail,?,2021-11-03
-46.5,Kemi Ortiz,ana.gallo@,"Ito, Jon (1952-10-21)",asdf,Rail,Air,2026-05-17
-48.7,Jon Jensen,ben.koval@,"Eze, Chloe (1961-09-10)",TBD,Road,Rail,2026-09-24
-11.8,Ana Ortiz,elif.jense,"Lindqvist, Luca (1969-04-12)",xxx,Rail  ,Sea,2021-08-19
-22.7,Kemi Dunne,farid.eze@,"Gallo, Noor (1951-07-14)",asdf,Rail,Sea,2026-05-20
-4.3,Chloe Jensen,kemi.gallo,"Dunne, Mona (2000-06-21)",Rail,Air,Road,2024-10-25
-25.0,Mona Ito,luca.koval,"Abel, Ines (1985-09-17)",.,Rail,Road,2021-03-02
-32.8,Priya Petrov,ben.ortiz@,"Ortiz, Ana (1982-10-03)",.,air,none,2023-03-26
-36.2,Ben Farrow,omar.lindq,"Gallo, Priya (1969-05-12)",Road,Air,Air,2026-02-10
-8.4,Ben Petrov,grace.nwos,"Lindqvist, Dev (1972-01-13)",xxx, Rail,Sea,2025-04-01
-7.4,Luca Dunne,ines.eze@e,"Castro, Farid (1979-02-20)",todo, Sea,Rail,2026-03-30
-44.6,Ana Lindqvist,chloe.ito@,"Lindqvist, Omar (1988-03-28)",Sea,Rail,Rail,2026-08-29
-48.6,Elif Moreau,jon.dunne@,"Ito, Ana (1960-11-17)",test,Road  ,Rail,2021-05-31
-26.3,Mona Castro,luca.dunne,"Lindqvist, Dev (1999-01-24)",test,Sea,Sea,2021-02-28
-17.3,Dev Jensen,noor.ortiz,"Abel, Luca (1998-03-17)",.,Sea,Air,2022-02-13
-32.4,Ines Ortiz,grace.more,"Abel, Hiro (1966-03-12)",todo,Road,Rail,2021-05-19
-11.0,Noor Koval,ben.gallo@,"Haas, Noor (1986-10-08)",TBD,Road  ,Air,2022-12-15
-18.7,Luca Castro,omar.morea,"Haas, Chloe (1990-04-02)",.,AIR,Sea,2023-08-11
-30.9,Luca Koval,jon.jensen,"Abel, Omar (1976-02-27)",Road, Road,Air,2024-06-17
-9.1,Farid Jensen,elif.abel@,"Dunne, Mona (1999-05-19)",asdf,Road,Road,2022-10-26
-36.6,Mona Farrow,jon.koval@,"Lindqvist, Chloe (1965-05-07)",TBD,Sea,Rail,2025-01-13
-13.9,Mona Gallo,priya.more,"Gallo, Elif (1972-06-25)",TBD,Rail,Road,2023-08-12
-20.9,Grace Gallo,hiro.haas@,"Abel, Grace (1990-08-09)",xxx,Rail,Road,2023-03-29
-26.0,Jon Ito,mona.haas@,"Abel, Ana (1963-05-27)",xxx,SEA,Air,2023-11-05
-6.4,Kemi Ortiz,priya.lind,"Eze, Elif (1987-02-22)",.,rail,Air,2026-09-14
-26.2,Farid Lindqvist,mona.dunne,"Gallo, Elif (1994-11-06)",Air,SEA,?,2026-12-23
-12.6,Grace Abel,chloe.eze@,"Nwosu, Elif (1968-10-05)",Air,Road,Road,2023-01-30
-13.3,Luca Nwosu,elif.jense,"Brandt, Luca (1965-03-23)",test,Sea,?,2023-04-16
-10.5,Ana Farrow,hiro.petro,"Ortiz, Dev (1973-04-15)",TBD,Road,Rail,2021-12-22
-42.3,Farid Jensen,grace.orti,"Lindqvist, Mona (1983-01-21)",asdf,Air,Sea,2024-03-03
-13.3,Hiro Farrow,ben.castro,"Ito, Mona (1984-02-02)",TBD,Rail,Rail,2022-01-02
-7.4,Ben Ortiz,noor.morea,"Petrov, Ines (1964-01-27)",.,Road  ,Rail,2023-10-21
-1.3,Mona Nwosu,hiro.castr,"Lindqvist, Ben (1953-04-13)",Air,Air,Air,2022-07-20
-17.9,Priya Petrov,hiro.eze@e,"Ortiz, Ben (1996-11-26)",todo,Sea  ,Air,2021-03-20
-3.9,Dev Nwosu,kemi.castr,"Moreau, Kemi (1996-04-12)",asdf,rail,Air,2021-10-30
-46.7,Dev Moreau,hiro.haas@,"Castro, Elif (1963-07-09)",xxx,Sea,none,2023-06-20
-43.9,Elif Lindqvist,kemi.morea,"Ortiz, Hiro (1988-04-25)",.,RAIL,Sea,2026-04-23
-25.0,Ines Jensen,jon.dunne@,"Jensen, Farid (1996-10-25)",Sea,Road,Rail,2021-05-28
-8.0,Jon Haas,grace.petr,"Lindqvist, Ines (2001-06-02)",test,Sea,Road,2024-02-01
-47.5,Jon Ortiz,jon.lindqv,"Petrov, Grace (1969-04-13)",Sea,ROAD,Air,2025-07-16
-5.4,Luca Farrow,jon.abel@e,"Lindqvist, Farid (1983-09-08)",TBD,Road,Road,2025-03-08
-39.8,Dev Brandt,kemi.ito@e,"Ito, Priya (1965-03-22)",todo,Rail,Rail,2024-12-01
-43.1,Hiro Ito,kemi.ito@e,"Dunne, Elif (1999-06-06)",todo,Rail,Rail,2023-07-03
-37.3,Jon Koval,priya.cast,"Gallo, Mona (1951-04-15)",Air,Rail,Rail,2022-06-13
-30.0,Noor Moreau,luca.koval,"Nwosu, Farid (1996-03-02)",Air,Air,Rail,2022-02-20
-44.5,Jon Petrov,grace.more,"Ortiz, Kemi (1989-05-22)",Sea,Air,Rail,2022-06-26
-27.4,Ana Nwosu,farid.lind,"Farrow, Farid (2000-06-22)",Sea,Road  ,Rail,2024-04-03
-15.9,Mona Haas,mona.morea,"Brandt, Ana (1955-10-27)",Rail,Road,N/A,2024-02-27
-28.5,Kemi Farrow,elif.petro,"Farrow, Priya (1961-07-31)",xxx,AIR,Sea,2021-12-11
+order_date,comment,dow,posted_date,person,hndld_by,end_date,start_date,visit_dow,visit_date
+44250,todo,Wednesday,11/11/2022,"Farrow, Dev (1975-09-26)",Mona Petrov,2024-12-09,2024-11-28,4,2026-03-11
+45638,TBD,Wednesday,10/02/2024,"Nwosu, Ben (1976-05-29)",Grace Castro,2024-06-19,2024-05-09,2,2026-09-14
+45925,asdf,Saturday,06/12/2022,"Nwosu, Omar (1953-11-06)",Noor Petrov,2025-12-05,2025-10-11,3,2026-10-27
+45874,asdf,Saturday,01/10/2022,"Koval, Noor (1955-06-12)",Elif Koval,2024-03-06,2024-02-14,1,2026-07-26
+44713,xxx,Saturday,10/04/2025,"Jensen, Luca (1951-02-21)",Chloe Dunne,2024-10-18,2024-08-25,5,2026-11-26
+45413,test,Monday,05/10/2023,"Moreau, Dev (1982-12-16)",Farid Brandt,2025-06-20,2025-03-30,7,2026-01-03
+44249,TBD,Thursday,06/12/2023,"Lindqvist, Kemi (1954-11-09)",Omar Abel,2026-02-08,2025-12-28,3,2026-04-07
+46106,Rail,Thursday,12/10/2026,"Ortiz, Luca (2001-06-03)",Ana Ito,2025-03-25,2025-01-09,6,2026-09-04
+45586,Sea,Tuesday,04/09/2023,"Jensen, Luca (1977-03-14)",Ines Petrov,2025-01-04,2024-12-24,2,2026-03-09
+44728,test,Friday,06/04/2022,"Koval, Elif (1985-05-05)",Mona Nwosu,2025-11-22,2025-09-26,4,2026-03-25
+45436,asdf,Friday,05/10/2021,"Jensen, Farid (2000-09-19)",Chloe Nwosu,2025-08-15,2025-08-08,1,2026-06-21
+45949,Sea,Thursday,01/02/2023,"Castro, Priya (1992-11-25)",Priya Jensen,2025-02-01,2024-11-05,4,2026-02-18
+44359,Road,Friday,07/11/2021,"Castro, Hiro (1978-05-14)",Kemi Brandt,2025-09-06,2025-08-28,3,2026-11-24
+44412,asdf,Saturday,11/02/2025,"Moreau, Mona (1987-11-03)",Jon Abel,2024-01-08,2024-01-05,1,2026-11-08
+46376,.,Sunday,04/01/2025,"Farrow, Ines (1958-09-03)",Priya Eze,2025-08-29,2025-08-01,3,2026-01-27
+45684,TBD,Friday,09/09/2021,"Lindqvist, Ana (1971-08-20)",Luca Haas,2025-06-18,2025-05-09,6,2026-12-18
+44594,Rail,Monday,04/04/2026,"Ortiz, Luca (1993-05-14)",Priya Castro,2024-05-24,2024-04-09,1,2026-08-02
+44394,TBD,Tuesday,05/01/2024,"Castro, Mona (1951-11-06)",Elif Koval,2024-05-29,2024-05-02,1,2026-11-15
+45127,.,Tuesday,09/04/2022,"Nwosu, Ben (2003-11-28)",Farid Eze,2024-01-18,2024-01-15,3,2026-06-16
+44201,xxx,Friday,07/03/2024,"Farrow, Jon (1997-06-08)",Ines Farrow,2024-11-09,2024-09-24,4,2026-04-22
+45817,todo,Thursday,11/07/2023,"Eze, Priya (1971-10-08)",Grace Abel,2024-09-11,2024-09-06,3,2026-04-28
+44917,todo,Wednesday,10/05/2021,"Jensen, Noor (1993-04-18)",Omar Ortiz,2025-05-03,2025-04-10,2,2026-05-04
+44550,asdf,Thursday,06/10/2022,"Nwosu, Priya (1966-08-21)",Dev Koval,2024-10-12,2024-07-20,3,2026-11-17
+45476,Rail,Sunday,07/08/2025,"Eze, Ines (1967-02-18)",Noor Petrov,2024-05-03,2024-04-20,3,2026-06-23
+44923,Air,Saturday,04/06/2021,"Lindqvist, Chloe (1972-02-14)",Chloe Lindqvist,2024-06-22,2024-05-18,5,2026-11-12
+44498,TBD,Tuesday,03/05/2026,"Farrow, Elif (1970-07-24)",Ines Jensen,2025-07-03,2025-05-13,1,2026-12-27
+46172,Sea,Wednesday,04/08/2024,"Jensen, Chloe (1991-08-08)",Kemi Lindqvist,2024-07-03,2024-05-15,4,2026-09-23
+44833,Road,Sunday,08/11/2021,"Abel, Grace (1984-03-15)",Mona Castro,2026-02-14,2025-12-09,3,2026-08-18
+44711,test,Sunday,08/01/2026,"Abel, Mona (1965-10-28)",Kemi Haas,2025-01-25,2024-11-30,2,2026-08-10
+44887,.,Monday,12/03/2021,"Moreau, Kemi (1999-09-26)",Ines Petrov,2026-01-12,2025-12-28,5,2026-04-23
+45139,test,Wednesday,10/12/2025,"Ito, Ben (1973-05-09)",Chloe Dunne,2025-08-27,2025-06-14,7,2026-10-17
+44834,Rail,Thursday,02/02/2024,"Jensen, Dev (2001-12-02)",Noor Lindqvist,2024-05-03,2024-03-05,7,2026-05-23
+45004,test,Saturday,05/11/2022,"Abel, Chloe (1960-02-29)",Grace Ito,2025-12-19,2025-11-23,7,2026-04-18
+44850,.,Monday,07/10/2026,"Ortiz, Omar (1993-09-16)",Chloe Jensen,2024-11-20,2024-10-05,7,2026-12-12
+45004,Rail,Wednesday,05/11/2024,"Nwosu, Jon (1995-03-31)",Ben Castro,2025-02-09,2025-01-06,1,2026-08-30
+45025,Road,Saturday,10/01/2024,"Eze, Luca (1966-12-18)",Priya Haas,2024-03-07,2024-02-11,5,2026-01-22
+45634,test,Thursday,08/07/2025,"Jensen, Mona (1980-01-02)",Hiro Castro,2024-12-12,2024-11-22,6,2026-01-09
+45521,Sea,Saturday,02/08/2025,"Nwosu, Priya (1993-08-15)",Ana Ortiz,2025-10-31,2025-08-02,7,2026-06-06
+44899,xxx,Friday,11/04/2023,"Eze, Ana (1961-01-19)",Dev Moreau,2024-05-18,2024-04-02,2,2026-05-25
+45580,asdf,Saturday,07/05/2026,"Koval, Mona (1985-05-11)",Farid Farrow,2025-01-07,2024-11-18,3,2026-12-15
+45494,.,Monday,07/12/2021,"Dunne, Luca (2000-06-22)",Elif Lindqvist,2025-09-13,2025-06-18,4,2026-10-07
+45201,todo,Tuesday,01/09/2021,"Haas, Priya (1982-09-12)",Noor Lindqvist,2024-06-25,2024-06-05,7,2026-10-10
+46228,asdf,Sunday,08/04/2024,"Koval, Priya (1962-02-13)",Farid Abel,2024-12-31,2024-10-24,6,2026-03-20
+45734,Rail,Monday,03/06/2026,"Brandt, Kemi (1978-12-20)",Ben Castro,2025-12-05,2025-10-07,5,2026-05-14
+45337,Rail,Sunday,08/01/2026,"Lindqvist, Ben (1981-04-18)",Ben Gallo,2025-12-03,2025-11-15,6,2026-01-30
+46282,TBD,Tuesday,03/01/2023,"Moreau, Hiro (1974-03-09)",Ines Dunne,2025-10-09,2025-08-22,1,2026-09-13
+44789,todo,Friday,06/01/2026,"Haas, Kemi (1987-02-12)",Farid Gallo,2025-07-01,2025-05-21,4,2026-07-08
+46338,TBD,Friday,06/03/2025,"Abel, Ana (1998-02-12)",Luca Moreau,2025-06-24,2025-04-28,1,2026-11-08
+45334,xxx,Friday,10/03/2022,"Brandt, Kemi (1978-07-09)",Ana Ito,2025-10-25,2025-08-10,3,2026-02-10
+45237,TBD,Monday,08/07/2023,"Lindqvist, Elif (1959-07-21)",Priya Petrov,2023-12-08,2024-01-05,2,2026-12-21
+44328,.,Tuesday,12/12/2026,"Nwosu, Jon (2001-03-22)",Farid Brandt,2025-05-09,2025-03-25,3,2026-10-27
+45174,.,Friday,04/07/2025,"Eze, Jon (1978-08-02)",Luca Dunne,2025-08-03,2025-06-25,7,2026-11-14
+46370,Rail,Monday,03/11/2025,"Nwosu, Ines (1966-04-12)",Dev Petrov,2024-04-08,2024-04-05,4,2026-11-04
+45979,.,Sunday,10/02/2025,"Farrow, Noor (1988-06-27)",Luca Castro,2024-02-29,2024-02-09,6,2026-08-21
+46187,Road,Sunday,06/08/2022,"Dunne, Hiro (1990-03-22)",Jon Petrov,2026-01-15,2025-12-30,7,2026-07-11
+46249,TBD,Saturday,06/02/2022,"Nwosu, Dev (1976-07-22)",Ana Gallo,2024-12-21,2025-01-27,1,2026-03-22
+44922,.,Tuesday,02/04/2025,"Castro, Chloe (1950-10-27)",Omar Gallo,2024-06-02,2024-03-23,5,2026-05-21
+45634,asdf,Sunday,11/04/2025,"Gallo, Noor (1987-11-01)",Elif Eze,2024-04-30,2024-04-15,4,2026-08-05
+45165,.,Friday,07/01/2026,"Lindqvist, Chloe (1974-05-27)",Grace Gallo,2024-12-20,2024-11-29,6,2026-02-06
+46176,test,Thursday,05/05/2024,"Brandt, Omar (1981-12-17)",Mona Petrov,2025-12-27,2025-11-23,4,2026-05-13
+44806,todo,Monday,08/12/2024,"Brandt, Dev (1950-10-07)",Ana Jensen,2025-08-21,2025-07-11,6,2026-06-26
+44537,asdf,Wednesday,09/12/2022,"Abel, Dev (1992-01-01)",Ana Ito,2025-09-12,2025-08-09,7,2026-04-04
+45801,test,Saturday,04/09/2024,"Farrow, Elif (1988-02-12)",Chloe Dunne,2025-02-10,2025-01-29,2,2026-10-12
+44489,.,Thursday,11/09/2025,"Gallo, Mona (1967-08-25)",Luca Moreau,2024-11-27,2024-10-21,4,2026-05-13
+44998,.,Friday,03/05/2023,"Petrov, Omar (1960-03-28)",Kemi Ortiz,2025-01-27,2025-01-20,5,2026-12-17
+45579,asdf,Thursday,01/12/2021,"Nwosu, Jon (1984-08-12)",Kemi Lindqvist,2025-10-01,2025-07-05,5,2026-08-06
+45141,TBD,Tuesday,07/08/2021,"Gallo, Mona (1972-11-25)",Omar Nwosu,2024-06-01,2024-03-29,2,2026-02-02
+46378,xxx,Wednesday,08/12/2022,"Petrov, Kemi (2000-05-13)",Luca Ito,2025-11-10,2025-09-13,7,2026-10-17
+44690,.,Sunday,12/11/2021,"Abel, Jon (1977-07-06)",Priya Petrov,2024-04-23,2024-04-18,1,2026-08-23
+45057,Road,Monday,02/08/2024,"Gallo, Elif (1991-11-02)",Farid Brandt,2023-12-30,2024-10-09,3,2026-11-10
+44837,TBD,Monday,03/08/2022,"Ito, Omar (1966-10-04)",Grace Nwosu,2024-11-01,2024-09-27,2,2026-03-30
+44425,xxx,Saturday,07/10/2026,"Koval, Ben (1972-03-28)",Kemi Haas,2026-01-23,2025-11-18,5,2026-10-08
+44202,asdf,Saturday,01/12/2023,"Ito, Jon (1952-10-21)",Kemi Ortiz,2026-01-18,2025-12-25,4,2026-12-30
+44812,TBD,Sunday,11/09/2026,"Eze, Chloe (1961-09-10)",Jon Jensen,2024-05-29,2024-05-18,3,2026-12-29
+44638,xxx,Thursday,06/11/2026,"Lindqvist, Luca (1969-04-12)",Ana Ortiz,2024-12-01,2025-05-23,2,2026-03-16
+44892,asdf,Wednesday,08/02/2022,"Gallo, Noor (1951-07-14)",Kemi Dunne,2024-06-30,2024-05-28,5,2026-05-28
+44702,Rail,Sunday,04/02/2024,"Dunne, Mona (2000-06-21)",Chloe Jensen,2025-12-02,2025-10-19,4,2026-09-16
+45729,.,Sunday,09/11/2023,"Abel, Ines (1985-09-17)",Mona Ito,2025-07-05,2025-06-02,4,2026-04-29
+45936,.,Monday,02/03/2025,"Ortiz, Ana (1982-10-03)",Priya Petrov,2025-10-17,2025-10-02,3,2026-11-17
+46278,Road,Sunday,11/11/2023,"Gallo, Priya (1969-05-12)",Ben Farrow,2024-05-02,2025-02-18,4,2026-07-22
+45614,xxx,Sunday,10/01/2022,"Lindqvist, Dev (1972-01-13)",Ben Petrov,2024-10-08,2024-09-01,3,2026-09-01
+45399,todo,Sunday,05/04/2023,"Castro, Farid (1979-02-20)",Luca Dunne,2025-05-24,2025-03-22,2,2026-09-28
+46184,Sea,Saturday,07/06/2026,"Lindqvist, Omar (1988-03-28)",Ana Lindqvist,2024-10-03,2024-09-29,7,2026-04-25
+45848,test,Tuesday,07/11/2021,"Ito, Ana (1960-11-17)",Elif Moreau,2025-12-14,2025-12-10,7,2026-01-03
+46051,test,Wednesday,09/08/2021,"Lindqvist, Dev (1999-01-24)",Mona Castro,2025-02-23,2025-02-12,4,2026-02-11
+46231,.,Wednesday,11/12/2024,"Abel, Luca (1998-03-17)",Dev Jensen,2025-11-20,2025-11-14,3,2026-08-11
+44921,todo,Tuesday,03/10/2022,"Abel, Hiro (1966-03-12)",Ines Ortiz,2025-04-26,2025-03-26,1,2026-12-13
+45935,TBD,Friday,12/12/2024,"Haas, Noor (1986-10-08)",Noor Koval,2023-07-18,2024-03-02,4,2026-01-14
+45777,.,Wednesday,04/05/2023,"Haas, Chloe (1990-04-02)",Luca Castro,2024-06-07,2024-05-08,6,2026-11-27
+45564,Road,Thursday,06/10/2021,"Abel, Omar (1976-02-27)",Luca Koval,2025-07-24,2025-05-23,4,2026-07-01
+45656,asdf,Thursday,05/08/2023,"Dunne, Mona (1999-05-19)",Farid Jensen,2025-06-26,2025-05-21,4,2026-09-16
+44862,TBD,Friday,06/05/2024,"Lindqvist, Chloe (1965-05-07)",Mona Farrow,2025-09-13,2025-06-25,1,2026-01-18
+44651,TBD,Sunday,03/06/2023,"Gallo, Elif (1972-06-25)",Mona Gallo,2025-07-18,2025-06-17,2,2026-10-12
+46031,xxx,Monday,11/04/2021,"Abel, Grace (1990-08-09)",Grace Gallo,2025-03-05,2025-01-28,4,2026-01-28
+45159,xxx,Sunday,07/03/2025,"Abel, Ana (1963-05-27)",Jon Ito,2024-05-22,2024-05-07,5,2026-04-16
+46214,.,Saturday,06/07/2023,"Eze, Elif (1987-02-22)",Kemi Ortiz,2025-02-03,2025-01-09,6,2026-12-11
+44773,Air,Saturday,04/07/2026,"Gallo, Elif (1994-11-06)",Farid Lindqvist,2025-03-09,2024-12-15,7,2026-05-16
+45544,Air,Saturday,06/01/2025,"Nwosu, Elif (1968-10-05)",Grace Abel,2024-03-28,2024-01-21,5,2026-03-05
+45205,test,Monday,02/09/2021,"Brandt, Luca (1965-03-23)",Luca Nwosu,2025-05-22,2025-03-11,3,2026-05-05
+44768,TBD,Wednesday,06/07/2026,"Ortiz, Dev (1973-04-15)",Ana Farrow,2024-07-18,2024-07-11,4,2026-10-28
+45998,asdf,Thursday,07/05/2025,"Lindqvist, Mona (1983-01-21)",Farid Jensen,2024-04-02,2024-01-11,4,2026-07-15
+44977,TBD,Tuesday,11/06/2021,"Ito, Mona (1984-02-02)",Hiro Farrow,2024-05-28,2024-03-18,3,2026-03-10
+45071,.,Monday,11/09/2023,"Petrov, Ines (1964-01-27)",Ben Ortiz,2025-03-20,2025-01-08,2,2026-12-21
+44443,Air,Monday,01/10/2022,"Lindqvist, Ben (1953-04-13)",Mona Nwosu,2024-09-13,2024-07-04,7,2026-02-28
+46193,todo,Thursday,07/01/2025,"Ortiz, Ben (1996-11-26)",Priya Petrov,2025-10-10,2025-09-01,4,2026-07-01
+45322,asdf,Thursday,11/12/2026,"Moreau, Kemi (1996-04-12)",Dev Nwosu,2024-06-29,2024-05-26,1,2026-03-22
+46278,xxx,Tuesday,05/01/2026,"Castro, Elif (1963-07-09)",Dev Moreau,2024-09-08,2024-08-20,4,2026-09-02
+44431,.,Thursday,09/02/2024,"Ortiz, Hiro (1988-04-25)",Elif Lindqvist,2024-06-22,2024-05-24,2,2026-06-29
+45980,Sea,Saturday,03/03/2024,"Jensen, Farid (1996-10-25)",Ines Jensen,2025-05-21,2025-02-27,7,2026-07-25
+44759,test,Thursday,12/01/2025,"Lindqvist, Ines (2001-06-02)",Jon Haas,2025-06-08,2025-04-26,2,2026-04-06
+45044,Sea,Saturday,01/01/2021,"Petrov, Grace (1969-04-13)",Jon Ortiz,2023-09-26,2024-01-05,7,2026-10-10
+44867,TBD,Friday,02/02/2023,"Lindqvist, Farid (1983-09-08)",Luca Farrow,2026-03-19,2025-12-30,3,2026-03-24
+46149,todo,Sunday,03/04/2022,"Ito, Priya (1965-03-22)",Dev Brandt,2024-03-31,2024-02-21,1,2026-10-11
+44812,todo,Tuesday,05/10/2022,"Dunne, Elif (1999-06-06)",Hiro Ito,2025-04-13,2025-03-17,6,2026-01-09
+45697,Air,Saturday,05/01/2024,"Gallo, Mona (1951-04-15)",Jon Koval,2024-08-24,2024-09-13,3,2026-08-11
+44844,Air,Wednesday,01/10/2023,"Nwosu, Farid (1996-03-02)",Noor Moreau,2024-10-18,2024-10-15,3,2026-12-01
+45180,Sea,Thursday,10/05/2023,"Ortiz, Kemi (1989-05-22)",Jon Petrov,2023-07-06,2024-03-17,1,2026-07-19
+44812,Sea,Sunday,11/05/2024,"Farrow, Farid (2000-06-22)",Ana Nwosu,2024-10-12,2024-08-08,7,2026-12-26
+44379,Rail,Thursday,12/09/2025,"Brandt, Ana (1955-10-27)",Mona Haas,2026-02-26,2025-12-23,3,2026-03-17
+44462,xxx,Sunday,08/07/2026,"Farrow, Priya (1961-07-31)",Kemi Farrow,2024-05-17,2024-05-16,6,2026-07-24

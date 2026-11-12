@@ -1,121 +1,121 @@
-weight,opened_on,returns,ship_date,typ,amount,origin,src
-11.1,2022-09-10,0,45324,K2,164.74,IL,0
-7.6,2023-04-03,0,46032,K2,381.34,MO,0
-39.6,2022-06-03,0,45714,Z9,218.33,ME,0
-5.7,2021-01-05,0,44784,R7,361.78,ME,0
-18.7,2021-09-27,9,44207,K2,522.46,MN,0
-38.6,2022-12-22,0,45548,K2,570.64,MT,0
-12.2,2026-04-15,6,46141,K2,783.75,VA,0
-4.3,2021-11-17,2,45044,K2,21.15,AL,0
-5.6,2022-05-22,6,46199,Z9,208.82,PA,0
-25.2,2024-05-04,2,45077,R7,125.65,PA,0
-20.5,2021-09-09,1,45449,R7,580.51,LA,0
-7.4,2021-06-18,5,45431,K2,637.84,DE,0
-19.6,2024-03-16,7,45152,R7,843.56,MO,0
-39.4,2026-02-26,0,44485,Q4,434.79,MO,0
-43.9,2023-10-03,6,45039,Q4,495.06,CA,0
-41.2,2022-06-17,5,45047,Z9,121.26,AR,0
-13.1,2026-10-14,5,44902,Q4,832.41,LA,0
-13.0,2025-03-16,4,44535,K1,41.62,GA,0
-48.6,2022-12-15,0,45963,R7,375.78,IL,0
-37.0,2022-10-24,6,45621,Q4,79.1,MA,0
-22.9,2025-03-26,0,46190,Z9,81.8,SD,0
-46.7,2025-02-27,0,46171,R7,559.81,IN,0
-46.6,2021-12-24,3,45117,R7,240.33,ID,0
-10.8,2024-05-26,0,45114,R7,15.27,VA,0
-37.0,2026-09-18,4,45719,K2,780.0,MD,0
-41.5,2025-02-22,8,45672,Q4,77.74,IN,0
-9.8,2023-09-09,0,46057,Z9,416.73,DE,0
-28.4,2024-09-17,0,46165,K2,322.78,ME,0
-25.5,2025-10-29,5,45582,R7,591.96,MN,0
-23.0,2024-06-09,0,45310,K1,669.26,MD,0
-37.2,2021-09-27,10,45804,K1,333.94,LA,0
-4.2,2022-07-07,2,44537,K2,64.7,CA,0
-5.8,2021-09-03,6,44804,K2,850.71,SC,0
-40.6,2021-02-21,0,45676,Q4,401.21,DE,0
-43.8,2021-01-17,0,45364,Z9,84.19,TN,0
-40.9,2021-05-09,3,45346,K2,397.37,NE,0
-18.9,2024-02-16,12,44814,R7,894.58,NE,0
-12.2,2026-07-04,5,44263,Z9,100.46,PA,0
-41.2,2025-05-15,5,44349,R7,855.25,DE,0
-15.1,2021-10-10,0,46238,Q4,168.67,AL,0
-2.3,2022-03-11,9,45663,Z9,491.67,ID,0
-32.3,2023-12-23,6,45829,K1,498.14,AL,0
-45.0,2025-09-04,0,45552,R7,711.98,IN,0
-18.9,2022-08-26,0,44324,K1,768.22,CO,0
-29.0,2022-01-07,12,46135,K2,678.58,LA,0
-1.6,2025-11-21,0,46015,R7,365.33,GA,0
-49.6,2026-11-12,0,45830,R7,522.01,NC,0
-29.0,2025-12-22,4,46175,R7,899.72,VA,0
-41.4,2022-08-12,1,45710,K1,741.97,ID,0
-15.7,2023-02-09,5,44436,R7,272.48,LA,0
-40.8,2024-12-28,0,46048,R7,829.75,DE,0
-19.5,2025-06-18,0,45303,Z9,100.79,MN,0
-15.3,2025-01-19,9,45937,R7,631.28,MN,0
-11.1,2023-08-11,0,44832,K2,89.62,CA,0
-9.9,2022-04-06,0,46064,Q4,689.42,CA,0
-47.6,2023-08-29,3,46135,Z9,274.91,IL,0
-23.0,2025-06-15,9,46035,K1,627.8,TN,0
-33.9,2021-04-04,0,45363,K2,389.64,CO,0
-42.5,2024-09-26,0,45798,R7,219.29,GA,0
-34.9,2026-09-10,0,44407,Z9,786.25,MD,0
-9.1,2025-12-01,7,44449,K1,177.17,TN,0
-13.7,2026-06-23,0,44627,K1,378.53,NC,0
-9.2,2026-12-28,1,45228,Q4,48.24,CA,0
-6.0,2023-02-22,1,44410,Z9,594.82,AR,0
-7.3,2025-04-29,0,45732,K1,611.43,SD,0
-12.3,2021-06-17,6,45083,Q4,224.94,ID,0
-40.5,2021-01-31,5,44330,R7,705.89,SC,0
-35.9,2026-01-22,9,45556,Z9,614.31,NC,0
-29.1,2026-03-17,0,45927,Q4,743.06,SD,0
-13.5,2026-04-26,3,44385,Q4,885.07,AL,0
-26.5,2024-01-25,0,46205,R7,796.04,LA,0
-30.1,2023-04-17,7,44293,R7,712.06,LA,0
-13.5,2021-09-25,3,44873,Z9,118.33,DE,0
-42.0,2022-11-25,0,45780,K1,781.08,SD,0
-30.7,2023-07-30,0,44367,K2,12.86,PA,0
-41.3,2023-02-03,0,44358,K2,828.06,AL,0
-43.4,2024-12-21,11,46095,R7,32.33,PA,0
-5.2,2026-03-03,0,46152,R7,180.78,ME,0
-6.3,2025-07-03,11,44638,K2,252.41,DE,0
-40.8,2023-06-20,3,45546,Z9,240.02,VA,0
-41.2,2024-05-22,2,45954,R7,559.47,NC,0
-26.9,2022-06-18,4,44820,K1,483.52,MN,0
-40.1,2023-02-20,0,46273,K2,783.28,VA,0
-9.3,2023-01-06,8,45706,Z9,838.39,TN,0
-11.3,2024-02-17,9,45517,R7,842.49,ID,0
-37.4,2023-06-05,0,45203,K2,366.16,CO,0
-29.1,2026-11-18,1,45175,R7,836.12,IN,0
-10.4,2024-07-18,0,45677,Z9,676.93,CO,0
-29.1,2023-10-03,3,44933,R7,799.44,VA,0
-40.3,2026-07-10,0,46217,Q4,125.26,CO,0
-36.6,2025-06-20,7,45866,Z9,542.81,DE,0
-23.0,2025-05-27,6,45132,R7,625.17,AR,0
-31.2,2023-11-11,8,44874,Q4,132.99,MD,0
-41.4,2026-12-15,0,46088,Q4,528.28,MD,0
-8.2,2021-05-15,8,44700,R7,69.61,IN,0
-1.1,2025-04-29,0,44431,Q4,593.48,MA,0
-43.8,2026-08-10,3,44572,R7,304.75,GA,0
-4.5,2021-07-17,7,45960,Z9,888.02,MO,0
-27.9,2024-12-13,10,44494,K1,870.83,MN,0
-14.2,2024-10-21,9,45787,K1,736.56,DE,0
-22.0,2023-08-14,9,45668,K1,839.08,TN,0
-26.2,2021-07-06,9,44538,K2,647.32,LA,0
-8.7,2026-03-22,12,44967,R7,290.27,MO,0
-22.4,2025-10-17,6,45015,Z9,600.58,ID,0
-24.1,2021-04-04,9,44827,Q4,351.9,AR,0
-2.0,2021-01-10,0,45779,K1,370.92,MN,0
-36.4,2021-05-05,10,45830,K2,36.84,SC,0
-7.3,2025-05-25,4,46357,R7,810.09,IN,0
-15.3,2025-02-13,2,45441,K1,873.01,MO,0
-6.2,2026-10-26,0,44823,R7,586.95,PA,0
-23.8,2022-03-05,0,44560,Q4,509.03,NE,0
-39.5,2025-04-23,9,44398,K1,487.46,MA,0
-12.0,2024-01-08,0,45009,K2,144.35,AL,0
-11.8,2025-02-18,11,44250,Z9,363.6,MA,0
-36.0,2023-01-19,12,45411,K1,745.85,MN,0
-9.5,2022-12-16,0,45359,Z9,102.62,IN,0
-5.2,2026-03-14,11,44510,R7,578.65,MD,0
-42.0,2024-12-26,4,46357,Z9,297.33,VA,0
-32.3,2022-07-20,3,44971,K1,562.27,MT,0
-28.5,2023-07-15,0,45197,R7,588.06,NE,0
+opened_on,weight,site_type,customer_name,email,state,zip,ctgry,ship_date
+2022-09-10,11.1,Government,JÃ¼rgen KÃ¶hler,elif.koval,CA,94110,Referral,45324
+2023-04-03,7.6,Commercial,Zoë Müller,chloe.lind,NY,10001,Routine,46032
+2022-06-03,39.6,Industrial,JÃ¼rgen KÃ¶hler,chloe.eze@,CA,94110,Follow Up,45714
+2021-01-05,5.7,Commercial,RenÃ©e FranÃ§ois,hiro.abel@,CO,80202,Urgent,44784
+2021-09-27,18.7,Commercial,Jürgen Köhler,mona.koval,NY,10001,Urgent,44207
+2022-12-22,38.6,Commercial,ChloÃ© LefÃ¨vre,farid.farr,NY,10001,Routine,45548
+2026-04-15,12.2,Residential,Noémie Güell,ana.moreau,NJ,07030,Routine,46141
+2021-11-17,4.3,Government,Renée François,hiro.gallo,CO,80202,Routine,45044
+2022-05-22,5.6,Commercial,Noémie Güell,ben.dunne@,NJ,07030,Routine,46199
+2024-05-04,25.2,Commercial,Zoë Müller,jon.ito@ex,GA,30301,Urgent,45077
+2021-09-09,20.5,Industrial,ZoÃ« MÃ¼ller,chloe.haas,GA,30301,Follow Up,45449
+2021-06-18,7.4,Residential,Renée François,mona.brand,GA,30301,Follow Up,45431
+2024-03-16,19.6,Government,Zoë Müller,priya.cast,NY,10001,Referral,45152
+2026-02-26,39.4,Industrial,Zoë Müller,kemi.jense,CA,94110,Referral,44485
+2023-10-03,43.9,Commercial,Chloé Lefèvre,noor.nwosu,NJ,07030,Referral,45039
+2022-06-17,41.2,Commercial,JÃ¼rgen KÃ¶hler,noor.lindq,CO,80202,Urgent,45047
+2026-10-14,13.1,Commecrial,RenÃ©e FranÃ§ois,ben.nwosu@,GA,30301,Routine,44902
+2025-03-16,13.0,Industrial,IÃ±igo PeÃ±a,elif.farro,NJ,07030,Referral,44535
+2022-12-15,48.6,Commercial,Jürgen Köhler,kemi.dunne,NY,10001,Referral,45963
+2022-10-24,37.0,Government,José Núñez,kemi.eze@e,NJ,07030,Referral,45621
+2025-03-26,22.9,Residential,Renée François,chloe.bran,IL,60614,Urgent,46190
+2025-02-27,46.7,Commercial,Noémie Güell,chloe.nwos,GA,30301,Follow Up,46171
+2021-12-24,46.6,Government,Jürgen Köhler,luca.eze@e,CA,94110,Referral,45117
+2024-05-26,10.8,Residential,IÃ±igo PeÃ±a,noor.ortiz,TX,73301,Routine,45114
+2026-09-18,37.0,Residential,ChloÃ© LefÃ¨vre,chloe.orti,IL,60614,Referral,45719
+2025-02-22,41.5,Government,ChloÃ© LefÃ¨vre,ines.brand,CA,94110,Follow Up,45672
+2023-09-09,9.8,Indstrial,RenÃ©e FranÃ§ois,luca.morea,NJ,07030,Follow Up,46057
+2024-09-17,28.4,Residential,SÃ¸ren Aaberg,jon.nwosu@,TX,73301,Routine,46165
+2025-10-29,25.5,Residential,José Núñez,ines.haas@,CA,94110,Urgent,45582
+2024-06-09,23.0,Resdiential,Renée François,dev.lindqv,CO,80202,Follow Up,45310
+2021-09-27,37.2,Residential,Jürgen Köhler,ben.petrov,NJ,07030,Referral,45804
+2022-07-07,4.2,Residential,ZoÃ« MÃ¼ller,omar.gallo,CA,94110,Referral,44537
+2021-09-03,5.8,Industrial,Søren Aaberg,hiro.koval,NY,10001,Urgent,44804
+2021-02-21,40.6,Industrial,SÃ¸ren Aaberg,dev.dunne@,CA,94110,Referral,45676
+2021-01-17,43.8,Industrial,José Núñez,grace.farr,IL,60614,Referral,45364
+2021-05-09,40.9,Commercial,Renée François,kemi.ito@e,MA,02134,Routine,45346
+2024-02-16,18.9,Government,Chloé Lefèvre,dev.gallo@,GA,30301,Referral,44814
+2026-07-04,12.2,Government,José Núñez,farid.cast,GA,30301,Referral,44263
+2025-05-15,41.2,Government,RenÃ©e FranÃ§ois,grace.ito@,TX,73301,Follow Up,44349
+2021-10-10,15.1,Industrial,Zoë Müller,grace.abel,CA,94110,Routine,46238
+2022-03-11,2.3,Industrial,JÃ¼rgen KÃ¶hler,hiro.gallo,GA,30301,Urgent,45663
+2023-12-23,32.3,Industrial,JosÃ© NÃºÃ±ez,kemi.jense,MA,02134,Routine,45829
+2025-09-04,45.0,Commercial,ZoÃ« MÃ¼ller,ben.brandt,GA,30301,Referral,45552
+2022-08-26,18.9,Industrial,IÃ±igo PeÃ±a,ana.castro,MA,02134,Routine,44324
+2022-01-07,29.0,Commercial,Iñigo Peña,noor.nwosu,GA,30301,Follow Up,46135
+2025-11-21,1.6,Residential,IÃ±igo PeÃ±a,omar.ortiz,MA,02134,Routine,46015
+2026-11-12,49.6,Industrial,IÃ±igo PeÃ±a,jon.koval@,CA,94110,Routine,45830
+2025-12-22,29.0,Industrial,Zoë Müller,chloe.more,NJ,07030,Urgent,46175
+2022-08-12,41.4,Commercial,Renée François,noor.morea,TX,73301,Urgent,45710
+2023-02-09,15.7,Industrial,JosÃ© NÃºÃ±ez,luca.farro,CO,80202,Follow Up,44436
+2024-12-28,40.8,Residential,SÃ¸ren Aaberg,jon.eze@ex,GA,30301,Referral,46048
+2025-06-18,19.5,Government,Noémie Güell,kemi.farro,GA,30301,Routine,45303
+2025-01-19,15.3,Residential,SÃ¸ren Aaberg,elif.brand,IL,73301,Referral,45937
+2023-08-11,11.1,Commercial,JÃ¼rgen KÃ¶hler,luca.eze@e,NY,10001,Follow Up,44832
+2022-04-06,9.9,Commercial,JÃ¼rgen KÃ¶hler,elif.haas@,TX,73301,Follow Up,46064
+2023-08-29,47.6,Industrial,ZoÃ« MÃ¼ller,noor.castr,CA,07030,Follow Up,46135
+2025-06-15,23.0,Commercial,Søren Aaberg,priya.jens,CA,94110,Referral,46035
+2021-04-04,33.9,Commercial,Noémie Güell,omar.castr,NY,10001,Routine,45363
+2024-09-26,42.5,Government,JosÃ© NÃºÃ±ez,ana.castro,GA,30301,Follow Up,45798
+2026-09-10,34.9,Industrial,ZoÃ« MÃ¼ller,grace.farr,GA,30301,Referral,44407
+2025-12-01,9.1,Industrial,Zoë Müller,jon.farrow,TX,73301,Routine,44449
+2026-06-23,13.7,Commercial,NoÃ©mie GÃ¼ell,farid.petr,TX,73301,Referral,44627
+2026-12-28,9.2,Government,ChloÃ© LefÃ¨vre,ana.eze@ex,NJ,07030,Follow Up,45228
+2023-02-22,6.0,Government,ZoÃ« MÃ¼ller,chloe.nwos,GA,30301,Referral,44410
+2025-04-29,7.3,Industrial,José Núñez,omar.koval,NY,10001,Urgent,45732
+2021-06-17,12.3,Residential,Zoë Müller,ines.jense,NY,10001,Urgent,45083
+2021-01-31,40.5,Commercial,ChloÃ© LefÃ¨vre,chloe.petr,CA,94110,Referral,44330
+2026-01-22,35.9,Commecial,Iñigo Peña,priya.dunn,CO,02134,Routine,45556
+2026-03-17,29.1,Commercial,Noémie Güell,farid.eze@,CA,94110,Urgent,45927
+2026-04-26,13.5,Government,Zoë Müller,ines.morea,CO,80202,Routine,44385
+2024-01-25,26.5,Government,JosÃ© NÃºÃ±ez,farid.nwos,NY,10001,Referral,46205
+2023-04-17,30.1,Government,IÃ±igo PeÃ±a,chloe.gall,MA,02134,Routine,44293
+2021-09-25,13.5,Government,NoÃ©mie GÃ¼ell,luca.castr,NY,10001,Urgent,44873
+2022-11-25,42.0,Industrial,RenÃ©e FranÃ§ois,mona.jense,TX,10001,Urgent,45780
+2023-07-30,30.7,Residential,IÃ±igo PeÃ±a,jon.jensen,TX,73301,Follow Up,44367
+2023-02-03,41.3,Commercial,JosÃ© NÃºÃ±ez,luca.koval,GA,60614,Urgent,44358
+2024-12-21,43.4,Commercial,ZoÃ« MÃ¼ller,mona.dunne,MA,02134,Follow Up,46095
+2026-03-03,5.2,Commercial,Zoë Müller,kemi.brand,CA,94110,Follow Up,46152
+2025-07-03,6.3,Commercial,IÃ±igo PeÃ±a,noor.gallo,TX,73301,Urgent,44638
+2023-06-20,40.8,Industrial,Renée François,chloe.ito@,NJ,07030,Follow Up,45546
+2024-05-22,41.2,Industrial,NoÃ©mie GÃ¼ell,ben.nwosu@,GA,30301,Urgent,45954
+2022-06-18,26.9,Commercial,Renée François,noor.dunne,NJ,07030,Follow Up,44820
+2023-02-20,40.1,Government,Renée François,dev.ortiz@,TX,73301,Referral,46273
+2023-01-06,9.3,Industrial,JosÃ© NÃºÃ±ez,ines.brand,IL,60614,Routine,45706
+2024-02-17,11.3,Industrial,Iñigo Peña,mona.farro,CA,94110,Follow Up,45517
+2023-06-05,37.4,Government,Søren Aaberg,ana.nwosu@,MA,02134,Referral,45203
+2026-11-18,29.1,Commercial,Noémie Güell,jon.eze@ex,TX,73301,Routine,45175
+2024-07-18,10.4,Commercial,NoÃ©mie GÃ¼ell,noor.nwosu,GA,10001,Urgent,45677
+2023-10-03,29.1,Residential,ZoÃ« MÃ¼ller,farid.haas,MA,02134,Referral,44933
+2026-07-10,40.3,Government,JÃ¼rgen KÃ¶hler,hiro.nwosu,NJ,07030,Follow Up,46217
+2025-06-20,36.6,Industrial,Renée François,farid.abel,CO,80202,Follow Up,45866
+2025-05-27,23.0,Commercail,Jürgen Köhler,grace.bran,IL,94110,Routine,45132
+2023-11-11,31.2,Commercial,RenÃ©e FranÃ§ois,luca.farro,GA,30301,Follow Up,44874
+2026-12-15,41.4,Commercial,SÃ¸ren Aaberg,ben.farrow,MA,07030,Routine,46088
+2021-05-15,8.2,Residential,Jürgen Köhler,mona.eze@e,IL,60614,Follow Up,44700
+2025-04-29,1.1,Government,Jürgen Köhler,ines.dunne,CO,80202,Follow Up,44431
+2026-08-10,43.8,Government,Iñigo Peña,kemi.ito@e,IL,60614,Urgent,44572
+2021-07-17,4.5,Industrial,Noémie Güell,ines.petro,TX,73301,Follow Up,45960
+2024-12-13,27.9,Industrial,JÃ¼rgen KÃ¶hler,noor.eze@e,TX,73301,Routine,44494
+2024-10-21,14.2,Residenital,Jürgen Köhler,priya.petr,NY,10001,Routine,45787
+2023-08-14,22.0,Commercial,Renée François,hiro.ito@e,GA,30301,Follow Up,45668
+2021-07-06,26.2,Residential,Renée François,hiro.jense,MA,02134,Referral,44538
+2026-03-22,8.7,Commrecial,IÃ±igo PeÃ±a,elif.eze@e,NJ,07030,Urgent,44967
+2025-10-17,22.4,Commercial,Chloé Lefèvre,mona.petro,CO,80202,Follow Up,45015
+2021-04-04,24.1,Government,JÃ¼rgen KÃ¶hler,kemi.abel@,NY,10001,Routine,44827
+2021-01-10,2.0,Commercial,José Núñez,elif.ito@e,MA,02134,Urgent,45779
+2021-05-05,36.4,Industrial,RenÃ©e FranÃ§ois,mona.castr,CA,94110,Routine,45830
+2025-05-25,7.3,Commercial,SÃ¸ren Aaberg,chloe.lind,CA,94110,Routine,46357
+2025-02-13,15.3,Government,ZoÃ« MÃ¼ller,elif.brand,MA,02134,Follow Up,45441
+2026-10-26,6.2,Commercial,JosÃ© NÃºÃ±ez,grace.nwos,IL,60614,Follow Up,44823
+2022-03-05,23.8,Government,Renée François,noor.haas@,CA,94110,Routine,44560
+2025-04-23,39.5,Resdiential,Renée François,jon.moreau,CO,80202,Urgent,44398
+2024-01-08,12.0,Residential,Iñigo Peña,omar.ito@e,GA,30301,Routine,45009
+2025-02-18,11.8,Inudstrial,Noémie Güell,omar.morea,NJ,07030,Urgent,44250
+2023-01-19,36.0,Commercial,José Núñez,jon.dunne@,TX,73301,Routine,45411
+2022-12-16,9.5,Industrial,ZoÃ« MÃ¼ller,ben.petrov,CA,94110,Follow Up,45359
+2026-03-14,5.2,Government,SÃ¸ren Aaberg,luca.abel@,NY,10001,Follow Up,44510
+2024-12-26,42.0,Government,RenÃ©e FranÃ§ois,chloe.bran,TX,30301,Follow Up,46357
+2022-07-20,32.3,Residential,Iñigo Peña,omar.castr,IL,60614,Routine,44971
+2023-07-15,28.5,Industrial,RenÃ©e FranÃ§ois,grace.petr,GA,30301,Follow Up,45197

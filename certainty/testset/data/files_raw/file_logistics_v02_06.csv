@@ -1,0 +1,61 @@
+record_id,contact_name,created_date,amount_usd,channel,address
+SHP-45871,Ines Moreau,2025-05-23,313.03,Air,396 Main St, Apt 12
+SHP-48203,Luca Petrov,2025-08-08,298.61,Road,54 Oak Ave
+SHP-52594,Hiro Eze,2025-09-22,120.92,Sea,966 Oak Ave
+SHP-25528,Elif Ortiz,2025-09-17,687.94,Sea,670 Oak Ave
+SHP-61366,Chloe Brandt,2025-04-30,834.30,Rail,805 Oak Ave, Apt 19
+SHP-91978,Ben Castro,2025-06-22,5.11,Rail,26 Mill Rd
+SHP-84692,Farid Ito,2026-04-11,102.38,Air,413 Oak Ave
+SHP-97336,Jon Ortiz,2025-01-13,680.88,Rail,860 Park Way
+SHP-59584,Kemi Abel,2025-06-03,12.79,Sea,954 Mill Rd
+SHP-21663,Noor Eze,2026-08-18,798.82,Road,310 Mill Rd
+SHP-74294,Kemi Petrov,2026-03-19,101.78,Rail,954 Lake Dr
+SHP-80308,Farid Farrow,2025-02-07,132.08,Sea,219 Mill Rd
+SHP-29279,Mona Ito,2025-04-18,604.86,Rail,176 Oak Ave
+SHP-33862,Priya Eze,2025-09-19,686.94,Air,86 Mill Rd, Apt 37
+SHP-11922,Chloe Dunne,2025-12-08,602.36,Road,321 Lake Dr
+SHP-69926,Farid Brandt,2026-06-15,617.05,Air,8 Lake Dr
+SHP-17454,Noor Lindqvist,2026-07-29,771.73,Rail,942 Park Way
+SHP-92599,Mona Nwosu,2025-03-05,149.25,Sea,828 Main St
+SHP-93203,Ana Haas,2025-05-10,468.93,Rail,506 Main St
+SHP-97447,Omar Brandt,2026-02-22,190.35,Road,768 Park Way
+SHP-46163,Noor Nwosu,2025-05-28,230.23,Rail,336 Hill Ln
+SHP-22162,Jon Jensen,2025-03-15,349.66,Rail,143 Park Way
+SHP-18123,Jon Dunne,2026-05-13,115.79,Road,34 Oak Ave
+SHP-29309,Luca Farrow,2026-05-06,891.71,Air,212 Oak Ave
+SHP-31542,Dev Moreau,2025-06-03,26.44,Air,661 Mill Rd
+SHP-66235,Kemi Farrow,2026-02-17,377.30,Rail,831 Park Way
+SHP-16564,Luca Petrov,2026-07-19,606.43,Air,685 Lake Dr
+SHP-77274,Chloe Abel,2025-01-23,127.20,Road,961 Lake Dr
+SHP-21685,Hiro Castro,2026-07-18,886.26,Road,14 Hill Ln
+SHP-20803,Farid Moreau,2026-02-10,52.33,Sea,272 Main St
+SHP-59716,Elif Castro,2026-05-06,255.52,Rail,379 Park Way
+SHP-50275,Mona Ito,2025-12-10,111.30,Air,955 Park Way
+SHP-36108,Ana Dunne,2025-09-19,49.93,Rail,217 Oak Ave
+SHP-74459,Elif Ortiz,2025-02-19,827.71,Sea,722 Hill Ln
+SHP-89035,Omar Gallo,2025-07-13,777.53,Rail,817 Park Way
+SHP-21346,Ben Ito,2026-01-30,775.35,Rail,161 Main St
+SHP-44331,Ben Haas,2026-01-29,578.40,Road,710 Park Way
+SHP-80338,Luca Haas,2025-02-08,286.68,Air,826 Lake Dr
+SHP-74488,Mona Eze,2026-03-29,476.63,Air,487 Mill Rd
+SHP-14579,Jon Abel,2025-10-31,85.62,Sea,865 Main St
+SHP-47508,Hiro Ito,2026-06-02,836.26,Road,916 Lake Dr
+SHP-81368,Dev Brandt,2025-10-05,681.84,Sea,482 Park Way
+SHP-69585,Omar Koval,2025-12-11,193.71,Air,231 Oak Ave
+SHP-37487,Mona Abel,2025-12-24,503.34,Rail,409 Mill Rd, Apt 31
+SHP-39090,Priya Nwosu,2026-04-10,201.84,Air,321 Mill Rd
+SHP-96703,Mona Lindqvist,2025-02-22,44.63,Road,545 Oak Ave
+SHP-24073,Farid Farrow,2026-06-04,792.63,Road,117 Hill Ln
+SHP-83447,Chloe Ortiz,2025-07-23,293.72,Rail,748 Oak Ave
+SHP-84786,Grace Lindqvist,2025-07-31,390.70,Sea,466 Mill Rd
+SHP-50560,Chloe Abel,2025-08-12,656.87,Road,787 Main St
+SHP-94639,Grace Petrov,2025-07-22,514.16,Road,396 Oak Ave
+SHP-45827,Omar Moreau,2025-01-19,618.03,Rail,934 Oak Ave
+SHP-97303,Luca Jensen,2026-07-08,595.64,Rail,972 Hill Ln
+SHP-32280,Farid Gallo,2025-03-14,68.86,Air,2 Hill Ln, Apt 9
+SHP-32635,Chloe Brandt,2025-01-09,618.51,Rail,330 Main St
+SHP-78415,Chloe Gallo,2026-08-10,537.03,Road,4 Park Way
+SHP-87975,Luca Dunne,2026-04-28,600.47,Road,397 Oak Ave, Apt 2
+SHP-34250,Priya Castro,2026-08-13,764.10,Sea,421 Main St
+SHP-59690,Jon Castro,2026-05-17,673.62,Air,131 Oak Ave
+SHP-39619,Dev Haas,2025-06-24,868.71,Rail,735 Park Way

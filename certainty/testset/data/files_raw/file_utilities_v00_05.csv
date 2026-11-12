@@ -1,0 +1,67 @@
+record_id,contact_name,created_date,,amount_usd,channel,address
+MTR-71455,Ben Brandt,2026-06-17,,43.94,Gas,144 Hill Ln
+MTR-93686,Ana Jensen,2026-03-10,,600.75,Water,830 Park Way
+MTR-64745,Noor Koval,2025-04-19,,579.41,Gas,830 Lake Dr
+,,,,,,
+MTR-54141,Luca Dunne,2025-12-16,,725.57,Water,987 Hill Ln
+MTR-34930,Grace Ito,2025-12-19,,703.57,Water,541 Mill Rd
+MTR-77332,Priya Castro,2025-07-09,,108.14,Solar,627 Mill Rd
+MTR-30246,Priya Ito,2025-05-19,,97.98,Electric,17 Main St
+MTR-95442,Ben Farrow,2026-03-27,,241.56,Solar,660 Park Way
+MTR-58970,Elif Brandt,2025-05-07,,345.20,Water,46 Mill Rd
+MTR-63458,Dev Castro,2025-08-02,,21.24,Electric,439 Mill Rd
+,,,,,,
+MTR-20571,Farid Farrow,2026-08-05,,22.22,Water,658 Main St
+MTR-32654,Ines Jensen,2026-02-20,,190.88,Electric,785 Oak Ave
+MTR-55472,Omar Castro,2025-01-26,,746.06,Gas,846 Hill Ln
+MTR-29147,Elif Moreau,2026-08-01,,423.57,Gas,636 Lake Dr
+MTR-16093,Ines Moreau,2026-08-13,,369.04,Electric,10 Park Way
+MTR-82295,Hiro Abel,2025-10-10,,493.74,Water,370 Park Way
+,,,,,,
+MTR-47406,Mona Petrov,2025-08-07,,769.64,Solar,857 Lake Dr
+MTR-72854,Farid Ortiz,2025-06-21,,10.94,Electric,821 Mill Rd
+,,,,,,
+MTR-26937,Ines Eze,2025-02-03,,49.04,Water,736 Hill Ln
+MTR-20961,Omar Moreau,2025-05-27,,776.16,Gas,772 Main St
+MTR-66777,Ana Jensen,2025-07-06,,721.66,Water,455 Park Way
+MTR-17826,Farid Moreau,2026-07-20,,247.01,Water,109 Mill Rd
+MTR-82367,Farid Gallo,2026-08-19,,12.72,Solar,336 Mill Rd
+MTR-37923,Ana Farrow,2025-02-20,,478.27,Electric,661 Lake Dr
+MTR-65347,Ana Haas,2025-04-18,,77.28,Water,266 Lake Dr
+MTR-27961,Dev Gallo,2025-12-07,,726.35,Water,187 Main St
+MTR-48864,Ana Farrow,2026-02-25,,644.96,Solar,441 Main St
+MTR-70148,Elif Gallo,2026-02-18,,287.14,Solar,505 Hill Ln
+MTR-94227,Kemi Gallo,2025-07-07,,781.82,Water,486 Lake Dr
+MTR-87269,Elif Gallo,2026-07-29,,380.56,Water,362 Main St
+MTR-94924,Grace Farrow,2026-04-16,,534.97,Electric,466 Hill Ln
+MTR-77835,Hiro Ito,2025-12-03,,213.27,Gas,436 Main St
+MTR-26583,Kemi Abel,2025-06-19,,560.07,Water,142 Main St
+MTR-75568,Dev Ito,2025-12-14,,771.97,Water,812 Hill Ln
+,,,,,,
+MTR-84846,Ben Nwosu,2026-01-07,,674.61,Water,356 Oak Ave
+,,,,,,
+MTR-13818,Noor Jensen,2026-01-02,,482.31,Gas,804 Mill Rd
+MTR-40958,Farid Gallo,2025-07-10,,413.84,Electric,734 Lake Dr
+MTR-83633,Noor Moreau,2025-04-06,,841.44,Gas,169 Main St
+MTR-44088,Noor Koval,2026-05-17,,527.36,Gas,277 Lake Dr
+MTR-58902,Dev Ito,2025-06-24,,12.18,Gas,91 Oak Ave
+MTR-61977,Farid Nwosu,2026-04-15,,676.32,Water,363 Park Way
+MTR-47300,Ana Dunne,2026-02-01,,838.04,Water,143 Mill Rd
+MTR-37778,Ines Castro,2025-10-11,,844.14,Water,717 Main St
+MTR-49807,Ines Castro,2025-12-11,,289.16,Water,468 Oak Ave
+MTR-68902,Priya Castro,2025-01-08,,636.61,Gas,438 Main St
+MTR-71748,Ben Petrov,2025-03-21,,324.17,Solar,962 Main St
+MTR-12148,Ana Gallo,2025-03-01,,451.52,Water,978 Mill Rd
+MTR-13116,Hiro Haas,2026-07-07,,569.96,Solar,324 Lake Dr
+MTR-48549,Noor Dunne,2025-02-19,,125.89,Water,733 Main St
+MTR-33775,Kemi Jensen,2025-06-24,,315.72,Electric,186 Park Way
+MTR-18803,Elif Eze,2026-06-26,,40.18,Water,754 Park Way
+MTR-72374,Mona Moreau,2026-05-04,,820.48,Solar,104 Main St
+MTR-37147,Grace Eze,2025-05-12,,477.32,Solar,458 Park Way
+MTR-26121,Grace Eze,2025-02-25,,874.17,Electric,979 Mill Rd
+MTR-48674,Jon Moreau,2026-05-08,,875.70,Gas,516 Park Way
+MTR-77949,Ana Brandt,2025-01-13,,214.31,Solar,911 Park Way
+MTR-65632,Ben Jensen,2025-06-20,,63.55,Water,613 Mill Rd
+MTR-53514,Jon Moreau,2026-05-27,,372.07,Solar,206 Mill Rd
+MTR-16935,Mona Brandt,2025-11-23,,628.19,Solar,648 Mill Rd
+MTR-62813,Elif Haas,2025-06-30,,806.69,Gas,557 Park Way

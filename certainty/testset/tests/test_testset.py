@@ -33,8 +33,8 @@ def make(cid, seed, truth=None, domain="retail"):
 class Catalogue(unittest.TestCase):
     def test_size_and_spread(self):
         by = Counter(c["verdict"] for c in CASES.values())
-        self.assertEqual(sum(by.values()), 54)
-        self.assertEqual(by, {READY: 10, FIXABLE: 25, NEEDS_CONTEXT: 13, GARBAGE: 6})
+        self.assertEqual(sum(by.values()), 60)
+        self.assertEqual(by, {READY: 11, FIXABLE: 27, NEEDS_CONTEXT: 16, GARBAGE: 6})
 
     def test_every_case_is_fully_described(self):
         for cid, c in CASES.items():
@@ -137,6 +137,32 @@ class AnswerKey(unittest.TestCase):
         for cid in CASES:
             for v in make(cid, 0)["raw"]:
                 self.assertFalse(any(ord(ch) < 32 or 127 <= ord(ch) < 160 for ch in str(v)), cid)
+
+
+class CrossColumn(unittest.TestCase):
+    """The conflicts are really there, and really cannot be settled."""
+
+    def test_conflicts_exist_in_the_raw_data(self):
+        import datetime as dt
+        for s in SEEDS:
+            col = make("x_end_before_start", s)
+            bad = sum(dt.date.fromisoformat(e) < dt.date.fromisoformat(b) for e, b in zip(col["raw"], col["helpers"]["start_date"]))
+            self.assertGreaterEqual(bad, 2)
+            from cases import ZIP_STATE
+            want = dict(ZIP_STATE)
+            col = make("x_state_zip_conflict", s)
+            self.assertGreaterEqual(sum(want[z] != st for st, z in zip(col["raw"], col["helpers"]["zip"])), 2)
+            col = make("x_code_description_conflict", s)
+            seen = {}
+            for c, d in zip(col["raw"], col["helpers"]["status_desc"]):
+                seen.setdefault(c, set()).add(d)
+            self.assertTrue(any(len(v) > 1 for v in seen.values()))
+
+    def test_wrong_totals_are_wrong(self):
+        for s in SEEDS:
+            col = make("x_total_recomputable", s)
+            bad = sum(abs(t - q * p) > 0.01 for t, q, p in zip(col["raw"], col["helpers"]["qty"], col["helpers"]["unit_price"]))
+            self.assertGreaterEqual(bad, 2)
 
 
 class Build(unittest.TestCase):

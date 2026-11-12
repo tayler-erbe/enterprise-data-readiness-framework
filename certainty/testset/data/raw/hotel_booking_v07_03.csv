@@ -1,121 +1,121 @@
-fill_pct,posted_date,qty,ctgry,invoice_date,height,site_type,balance_usd
-90.8,09/05/2024,5,Event,26/07/2022,71,Government,"246,246.50"
-81.3,12/11/2023,3,Leisure,05/07/2026,64,Commercial,"45,242.45"
-13.3,01/12/2023,4,Group,17/04/2022,75,Industrial,"6,319.67"
-84.1,05/10/2024,1,Corporate,01/02/2023,73,Commercial,"58,303.35"
-15.6,06/04/2026,1,Corporate,19/12/2023,172.7,Commercial,"172,435.16"
-43.1,01/04/2022,2,Leisure,31/07/2021,185.4,Commercial,"62,771.06"
-62.3,11/09/2026,2,Leisure,30/06/2026,67,Residential,"53,297.22"
-37.3,11/11/2023,3,Leisure,03/09/2026,160.0,Government,"160,857.37"
-45.3,10/03/2021,5,Leisure,26/12/2026,65,Commercial,"224,057.80"
-81.7,07/06/2025,5,Corporate,10/03/2025,147.3,Commercial,"17,004.37"
-92.1,05/08/2021,1,Group,06/07/2022,65,Industrial,"155,396.03"
-74.1,08/07/2024,5,Group,27/02/2023,58,Residential,"119,550.99"
-34.4,10/10/2025,5,Event,20/03/2021,152.4,Government,"133,912.86"
-5.5,12/03/2023,3,Event,13/06/2023,198.1,Industrial,"10,700.01"
-30.2,05/04/2023,1,Event,20/01/2023,78,Commercial,"244,414.93"
-73.8,09/06/2025,5,Corporate,16/11/2025,147.3,Commercial,"227,068.58"
-88.2,02/09/2021,3,Leisure,29/11/2024,149.9,Commecrial,"63,759.18"
-56.9,08/07/2026,6,Event,20/07/2023,62,Industrial,"153,370.11"
-52.8,10/06/2022,4,Event,08/08/2024,177.8,Commercial,"23,629.30"
-6.4,06/11/2022,3,Event,18/01/2021,60,Government,"238,074.02"
-61.2,09/04/2025,5,Corporate,01/04/2021,177.8,Residential,"115,716.39"
-63.3,12/09/2022,6,Group,19/09/2021,160.0,Commercial,"123,914.07"
-76.4,06/10/2021,6,Event,08/07/2024,188.0,Government,"3,939.72"
-8.4,09/09/2025,4,Leisure,01/07/2023,61,Residential,"168,467.45"
-66.1,01/11/2021,2,Event,07/02/2021,160.0,Residential,"165,349.77"
-95.7,02/07/2021,6,Group,08/11/2023,157.5,Government,"161,994.48"
-38.1,10/06/2026,1,Group,22/02/2024,74,Indstrial,"153,631.58"
-31.4,08/11/2023,5,Leisure,23/10/2023,76,Residential,"227,702.62"
-94.3,02/05/2026,5,Corporate,05/11/2025,177.8,Residential,"154,051.02"
-90.5,11/02/2023,3,Group,11/11/2021,58,Resdiential,"206,538.65"
-20.9,07/09/2021,2,Event,12/04/2022,149.9,Residential,"155,325.40"
-99.7,12/02/2022,4,Event,25/02/2024,157.5,Residential,"225,068.83"
-29.5,03/01/2025,6,Corporate,03/08/2021,64,Industrial,"8,746.45"
-37.3,04/07/2023,4,Event,13/04/2021,157.5,Industrial,"30,840.21"
-52.8,03/09/2021,5,Event,16/07/2026,64,Industrial,"2,507.55"
-0.2,05/03/2025,6,Leisure,14/05/2022,71,Commercial,"61,967.28"
-19.2,06/01/2023,3,Event,24/02/2023,175.3,Government,"20,217.09"
-2.1,07/08/2026,2,Event,06/08/2023,175.3,Government,"53,775.87"
-29.1,04/03/2023,5,Group,17/09/2023,152.4,Government,"159,760.69"
-74.2,10/02/2024,3,Leisure,25/03/2025,165.1,Industrial,"199,305.35"
-73.5,02/10/2025,5,Corporate,26/02/2026,71,Industrial,"50,042.50"
-11.5,07/07/2026,2,Leisure,13/08/2021,180.3,Industrial,"226,869.47"
-75.7,02/10/2023,6,Event,16/05/2024,190.5,Commercial,"164,417.71"
-88.2,04/03/2023,6,Leisure,01/11/2025,160.0,Industrial,"32,009.07"
-17.9,08/03/2026,5,Group,22/06/2023,76,Commercial,"218,023.52"
-79.2,11/02/2026,2,Leisure,07/11/2022,75,Residential,"94,245.73"
-22.5,01/08/2024,3,Leisure,18/07/2025,198.1,Industrial,"248,645.52"
-73.1,10/08/2024,2,Corporate,19/08/2022,188.0,Industrial,"102,772.20"
-31.0,09/02/2023,6,Corporate,24/04/2025,70,Commercial,"114,943.15"
-75.2,03/05/2023,2,Group,23/02/2022,149.9,Industrial,"72,581.76"
-80.7,10/04/2025,1,Event,22/03/2023,70,Residential,"65,372.58"
-91.4,06/06/2022,5,Leisure,11/07/2021,76,Government,"158,056.95"
-91.7,12/08/2026,4,Event,05/01/2025,160.0,Residential,"102,276.69"
-14.1,02/03/2024,2,Group,16/08/2022,149.9,Commercial,"214,145.49"
-43.4,11/05/2023,6,Group,20/10/2024,149.9,Commercial,"216,970.86"
-35.1,07/06/2021,2,Group,06/02/2023,67,Industrial,"113,439.55"
-16.9,01/05/2025,6,Event,03/04/2024,67,Commercial,"117,954.93"
-79.7,11/07/2021,2,Leisure,06/07/2025,76,Commercial,"9,129.43"
-23.3,07/04/2024,4,Group,31/08/2026,198.1,Government,"175,477.62"
-29.6,09/08/2021,2,Event,05/01/2021,172.7,Industrial,"124,543.66"
-44.9,07/11/2024,3,Leisure,29/10/2022,167.6,Industrial,"121,737.93"
-6.5,02/09/2022,3,Event,14/10/2024,63,Commercial,"42,847.31"
-29.5,05/08/2024,4,Group,06/05/2024,182.9,Government,"153,295.02"
-66.3,04/08/2022,2,Event,23/09/2022,162.6,Government,"117,201.41"
-98.3,08/10/2026,1,Corporate,08/09/2025,193.0,Industrial,"25,616.18"
-19.9,02/03/2022,3,Corporate,12/09/2025,190.5,Residential,"223,979.39"
-57.2,11/05/2026,5,Event,12/08/2023,78,Commercial,"122,510.99"
-89.6,07/10/2026,1,Leisure,09/09/2021,147.3,Commecial,"144,541.36"
-23.8,02/08/2024,3,Corporate,15/09/2025,170.2,Commercial,"28,636.68"
-21.0,02/08/2022,6,Leisure,25/12/2025,147.3,Government,"247,438.95"
-83.2,12/10/2022,5,Event,24/04/2024,175.3,Government,"196,869.69"
-75.3,09/12/2023,3,Leisure,10/06/2023,193.0,Government,"115,931.85"
-65.2,03/05/2026,3,Corporate,26/02/2021,170.2,Government,"236,770.07"
-66.3,09/05/2026,6,Corporate,23/06/2021,62,Industrial,"128,772.97"
-15.3,03/04/2022,4,Group,12/01/2023,188.0,Residential,"54,798.81"
-43.7,04/04/2025,4,Corporate,17/04/2026,66,Commercial,"137,125.06"
-62.2,12/05/2024,5,Group,09/05/2024,78,Commercial,"51,761.73"
-81.7,06/04/2022,1,Group,18/02/2024,59,Commercial,"218,769.64"
-37.0,11/09/2023,3,Corporate,14/01/2024,177.8,Commercial,"102,975.05"
-40.5,08/04/2022,1,Group,01/04/2025,78,Industrial,"38,295.88"
-93.3,08/10/2023,2,Corporate,07/12/2026,165.1,Industrial,"194,206.48"
-6.0,07/03/2023,1,Group,08/01/2023,195.6,Commercial,"179,909.06"
-18.7,04/10/2025,4,Event,16/08/2026,167.6,Government,"22,580.11"
-72.8,05/07/2025,6,Leisure,24/03/2021,160.0,Industrial,"83,361.71"
-48.5,03/06/2025,5,Group,31/01/2023,182.9,Industrial,"244,217.91"
-6.5,06/03/2021,4,Event,21/04/2024,185.4,Government,"7,424.84"
-87.5,11/10/2022,6,Leisure,02/05/2023,198.1,Commercial,"16,897.30"
-8.7,07/06/2026,1,Corporate,29/12/2021,76,Commercial,"243,799.93"
-84.8,08/09/2025,1,Event,18/03/2021,149.9,Residential,"77,122.46"
-27.1,06/08/2025,3,Group,23/10/2021,61,Government,"110,636.60"
-52.8,08/11/2023,1,Group,11/04/2024,152.4,Industrial,"23,444.68"
-38.5,01/08/2021,2,Leisure,26/12/2026,198.1,Commercail,"228,866.23"
-92.8,02/06/2023,5,Group,25/10/2024,147.3,Commercial,"136,834.53"
-54.2,04/01/2023,2,Leisure,13/09/2023,152.4,Commercial,"123,768.10"
-25.2,07/08/2023,4,Group,28/02/2024,190.5,Residential,"49,545.83"
-13.0,03/05/2025,3,Group,23/06/2024,149.9,Government,"103,228.28"
-94.2,11/01/2024,3,Corporate,25/05/2026,58,Government,"157,240.84"
-73.9,06/12/2025,2,Group,29/07/2026,190.5,Industrial,"100,368.51"
-82.8,06/03/2025,5,Leisure,27/06/2022,63,Industrial,"196,552.79"
-32.2,12/09/2026,2,Leisure,18/02/2026,182.9,Residenital,"183,936.69"
-26.1,11/04/2023,6,Group,09/01/2023,62,Commercial,"83,311.72"
-43.2,12/06/2024,3,Event,03/09/2025,74,Residential,"217,318.87"
-96.8,06/06/2024,6,Corporate,14/03/2023,185.4,Commrecial,"154,894.11"
-18.1,12/02/2025,4,Group,08/05/2025,198.1,Commercial,"93,258.55"
-86.8,08/07/2024,5,Leisure,10/06/2026,172.7,Government,"30,963.16"
-82.9,02/04/2025,3,Corporate,08/04/2022,185.4,Commercial,"237,311.05"
-78.8,10/01/2025,1,Leisure,23/02/2024,170.2,Industrial,"165,317.17"
-58.6,09/04/2022,5,Leisure,11/12/2024,72,Commercial,"228,211.44"
-96.7,02/12/2024,2,Group,09/02/2026,182.9,Government,"26,057.10"
-3.2,10/09/2026,5,Group,02/05/2024,76,Commercial,"212,183.23"
-32.0,10/01/2024,6,Leisure,20/11/2023,66,Government,"209,639.05"
-15.0,08/10/2021,6,Corporate,03/03/2023,74,Resdiential,"23,815.69"
-65.1,05/10/2022,5,Leisure,16/05/2026,63,Residential,"84,724.60"
-45.7,08/08/2025,6,Corporate,14/01/2025,185.4,Inudstrial,"183,033.07"
-93.8,05/02/2026,1,Leisure,19/03/2022,157.5,Commercial,"86,543.02"
-31.1,06/04/2026,2,Group,15/08/2024,167.6,Industrial,"140,700.51"
-18.1,10/06/2024,3,Group,14/04/2024,70,Government,"88,091.01"
-19.2,06/08/2025,1,Group,22/07/2024,172.7,Government,"78,975.16"
-70.6,11/09/2025,5,Leisure,17/04/2024,74,Residential,"181,280.05"
-72.0,05/12/2026,5,Group,05/03/2021,59,Industrial,"39,538.68"
+handled_by,email,amount,share,height,status_cd,status_desc,renewal,posted_date
+Mona Koval,chloe.petrov85@example.com,Corporate,34.6%,71,C3,Cancelled,2,09/05/2024
+Jon Ito,ines.gallo6@example.com,716.96,87.9%,64,A1,Open,2,12/11/2023
+Hiro Farrow,ines.ortiz66@example.com,11.45,60.9%,75,C3,Closed,2,01/12/2023
+Priya Lindqvist,chloe.petrov21@example.com,317.84,14.6%,73,D4,Cancelled,2,05/10/2024
+Omar Dunne,omar.ortiz67@example.com,641.86,44.8%,172.7,B2,In review,1,06/04/2026
+Hiro Jensen,dev.gallo70@example.com,536.04,94.0%,185.4,D4,Cancelled,1,01/04/2022
+Ben Koval,hiro.abel43@example.com,2022-12-22,98.8%,67,A1,Open,2,11/09/2026
+Chloe Castro,omar.abel38@example.com,2023-10-20,97.6%,160.0,D4,Cancelled,2,11/11/2023
+Grace Jensen,noor.gallo87@example.com,109.65,12.0%,65,A1,Open,1,10/03/2021
+Omar Lindqvist,elif.koval37@example.com,Dunne,77.2%,147.3,D4,Cancelled,2,07/06/2025
+Chloe Farrow,dev.koval37@example.com,2023-09-18,73.0%,65,D4,Cancelled,2,05/08/2021
+Ben Eze,priya.dunne92@example.com,192.12,19.9%,58,C3,Closed,1,08/07/2024
+Ana Haas,priya.ito6@example.com,211.11,74.7%,152.4,A1,Open,1,10/10/2025
+Elif Castro,hiro.ortiz26@example.com,647.79,75.0%,198.1,D4,Open,1,12/03/2023
+Grace Lindqvist,omar.jensen53@example.com,839.14,12.5%,78,A1,Open,1,05/04/2023
+Ana Ito,priya.moreau1@example.com,#REF!,48.2%,147.3,C3,Open,2,09/06/2025
+Jon Nwosu,ben.lindqvist45@example.com,145.96,50.9%,149.9,D4,Cancelled,2,02/09/2021
+Dev Nwosu,mona.ortiz31@example.com,685.84,47.5%,62,A1,Open,2,08/07/2026
+Priya Dunne,mona.haas65@example.com,Nwosu,35.2%,177.8,B2,In review,1,10/06/2022
+Elif Lindqvist,farid.ortiz77@example.com,836.05,93.6%,60,B2,In review,2,06/11/2022
+Priya Castro,noor.dunne26@example.com,597.25,84.1%,177.8,D4,Cancelled,1,09/04/2025
+Mona Dunne,luca.petrov6@example.com,Corporate,81.9%,160.0,A1,Open,2,12/09/2022
+Noor Lindqvist,grace.nwosu53@example.com,793.99,92.5%,188.0,C3,Closed,2,06/10/2021
+Hiro Nwosu,dev.koval63@example.com,588.85,13.8%,61,A1,Open,2,09/09/2025
+Noor Ortiz,omar.nwosu11@example.com,#REF!,47.3%,160.0,B2,Open,1,01/11/2021
+Ines Lindqvist,noor.nwosu99@example.com,2026-06-28,86.6%,157.5,A1,Open,2,02/07/2021
+Ana Brandt,farid.ortiz50@example.com,755.98,50.7%,74,C3,Closed,1,10/06/2026
+Ana Castro,noor.petrov89@example.com,2026-10-07,88.6%,76,C3,Open,1,08/11/2023
+Elif Eze,grace.abel33@example.com,275.31,83.6%,177.8,D4,Cancelled,1,02/05/2026
+Ines Dunne,noor.lindqvist40@example.com,Petrov,11.1%,58,B2,In review,1,11/02/2023
+Ben Eze,elif.moreau97@example.com,77.01,91.5%,149.9,C3,Closed,2,07/09/2021
+Luca Castro,ben.brandt81@example.com,537.07,6.3%,157.5,A1,Open,2,12/02/2022
+Ben Lindqvist,ana.farrow34@example.com,543.17,33.5%,64,A1,Open,1,03/01/2025
+Hiro Ito,ines.eze90@example.com,Castro,9.9%,157.5,A1,Open,2,04/07/2023
+Farid Ito,hiro.dunne59@example.com,373.78,46.9%,64,A1,Open,1,03/09/2021
+Dev Dunne,ines.petrov19@example.com,864.3,12.4%,71,B2,In review,2,05/03/2025
+Ines Ito,priya.lindqvist51@example.com,624.37,54.1%,175.3,A1,Open,1,06/01/2023
+Grace Eze,dev.haas79@example.com,251.96,96.2%,175.3,A1,Open,2,07/08/2026
+Elif Ortiz,hiro.ortiz39@example.com,823.7,61.8%,152.4,C3,Closed,1,04/03/2023
+Kemi Brandt,chloe.ortiz3@example.com,#REF!,1.8%,165.1,B2,In review,1,10/02/2024
+Chloe Brandt,ines.farrow43@example.com,#REF!,35.9%,71,C3,Closed,1,02/10/2025
+Ana Castro,grace.nwosu35@example.com,#REF!,34.7%,180.3,B2,In review,2,07/07/2026
+Ben Castro,luca.eze61@example.com,Event,98.3%,190.5,C3,Closed,1,02/10/2023
+Chloe Koval,kemi.nwosu40@example.com,697.74,37.7%,160.0,A1,Open,2,04/03/2023
+Jon Ito,luca.gallo55@example.com,497.86,33.4%,76,B2,In review,1,08/03/2026
+Dev Ortiz,kemi.nwosu70@example.com,Leisure,47.8%,75,B2,In review,2,11/02/2026
+Chloe Moreau,chloe.lindqvist44@example.com,518.58,47.2%,198.1,B2,In review,2,01/08/2024
+Noor Jensen,omar.petrov15@example.com,Event,21.4%,188.0,A1,Open,2,10/08/2024
+Jon Petrov,ben.koval56@example.com,Event,89.3%,70,C3,Closed,2,09/02/2023
+Ben Lindqvist,noor.nwosu56@example.com,Castro,17.2%,149.9,C3,Closed,1,03/05/2023
+Hiro Nwosu,grace.nwosu2@example.com,654.04,13.4%,70,A1,Open,1,10/04/2025
+Noor Brandt,grace.ortiz49@example.com,Event,3.1%,76,B2,In review,1,06/06/2022
+Grace Ortiz,farid.castro21@example.com,329.71,64.6%,160.0,C3,Closed,2,12/08/2026
+Dev Castro,priya.haas57@example.com,189.11,70.7%,149.9,C3,Closed,2,02/03/2024
+Dev Ortiz,kemi.ortiz91@example.com,Group,90.3%,149.9,B2,In review,2,11/05/2023
+Grace Gallo,ines.moreau10@example.com,2024-05-19,10.0%,67,C3,Closed,2,07/06/2021
+Elif Ito,luca.petrov56@example.com,649.3,10.1%,67,D4,Cancelled,2,01/05/2025
+Dev Moreau,omar.moreau14@example.com,321.68,46.3%,76,C3,Closed,1,11/07/2021
+Ana Koval,noor.petrov78@example.com,446.81,1.2%,198.1,D4,In review,2,07/04/2024
+Priya Brandt,hiro.farrow93@example.com,Event,60.6%,172.7,B2,In review,2,09/08/2021
+Kemi Koval,luca.castro7@example.com,668.38,52.7%,167.6,C3,Closed,2,07/11/2024
+Elif Ito,ana.ortiz3@example.com,845.49,27.2%,63,A1,Open,2,02/09/2022
+Ana Petrov,hiro.ortiz2@example.com,2025-04-25,50.1%,182.9,B2,Closed,1,05/08/2024
+Hiro Castro,kemi.ito89@example.com,Haas,8.9%,162.6,A1,Open,2,04/08/2022
+Mona Nwosu,farid.ito27@example.com,170.65,20.3%,193.0,A1,Closed,2,08/10/2026
+Elif Lindqvist,kemi.lindqvist58@example.com,#REF!,28.5%,190.5,D4,Cancelled,2,02/03/2022
+Jon Moreau,jon.dunne49@example.com,Leisure,46.5%,78,D4,Cancelled,1,11/05/2026
+Ben Farrow,noor.jensen24@example.com,74.82,26.4%,147.3,A1,Open,1,07/10/2026
+Jon Koval,luca.eze77@example.com,116.88,75.0%,170.2,D4,Cancelled,2,02/08/2024
+Hiro Moreau,farid.haas93@example.com,#REF!,71.4%,147.3,C3,Closed,1,02/08/2022
+Kemi Jensen,omar.moreau38@example.com,502.85,85.2%,175.3,C3,Closed,2,12/10/2022
+Grace Lindqvist,ben.gallo90@example.com,#REF!,47.9%,193.0,A1,Open,1,09/12/2023
+Ines Dunne,jon.moreau54@example.com,446.59,96.2%,170.2,B2,In review,1,03/05/2026
+Grace Petrov,grace.dunne79@example.com,Leisure,55.3%,62,C3,Closed,1,09/05/2026
+Grace Moreau,elif.moreau23@example.com,500.85,69.0%,188.0,C3,Cancelled,2,03/04/2022
+Farid Farrow,chloe.nwosu29@example.com,72.8,1.0%,66,A1,Open,2,04/04/2025
+Ana Koval,jon.dunne35@example.com,2022-04-28,41.8%,78,C3,Closed,2,12/05/2024
+Kemi Lindqvist,chloe.lindqvist70@example.com,92.33,51.6%,59,B2,In review,1,06/04/2022
+Kemi Brandt,omar.ito30@example.com,#REF!,6.7%,177.8,A1,Cancelled,1,11/09/2023
+Luca Jensen,elif.ito19@example.com,505.3,43.8%,78,C3,In review,1,08/04/2022
+Kemi Ortiz,ana.ito34@example.com,570.88,71.2%,165.1,D4,Cancelled,1,08/10/2023
+Luca Eze,hiro.ortiz72@example.com,626.55,60.9%,195.6,C3,Closed,1,07/03/2023
+Luca Dunne,ana.abel61@example.com,#REF!,87.7%,167.6,B2,In review,2,04/10/2025
+Chloe Brandt,ben.farrow93@example.com,152.32,14.4%,160.0,C3,Closed,1,05/07/2025
+Omar Gallo,hiro.lindqvist90@example.com,404.99,80.5%,182.9,A1,Open,2,03/06/2025
+Jon Moreau,farid.moreau50@example.com,Haas,88.5%,185.4,C3,Closed,2,06/03/2021
+Grace Nwosu,grace.eze17@example.com,293.73,63.1%,198.1,D4,Cancelled,2,11/10/2022
+Jon Ito,mona.moreau80@example.com,Group,0.4%,76,B2,In review,1,07/06/2026
+Omar Eze,elif.petrov80@example.com,119.05,66.8%,149.9,C3,Closed,1,08/09/2025
+Hiro Castro,kemi.castro82@example.com,165.25,53.5%,61,D4,Cancelled,2,06/08/2025
+Ben Castro,elif.gallo85@example.com,Ito,58.1%,152.4,A1,Open,2,08/11/2023
+Elif Dunne,jon.dunne84@example.com,82.08,79.7%,198.1,B2,In review,2,01/08/2021
+Priya Eze,priya.lindqvist20@example.com,263.14,18.4%,147.3,D4,Cancelled,1,02/06/2023
+Priya Lindqvist,hiro.petrov43@example.com,173.68,60.2%,152.4,D4,Cancelled,2,04/01/2023
+Farid Farrow,farid.koval43@example.com,667.82,88.9%,190.5,B2,In review,1,07/08/2023
+Chloe Haas,mona.lindqvist42@example.com,228.49,88.5%,149.9,B2,In review,1,03/05/2025
+Luca Petrov,noor.petrov1@example.com,371.83,96.9%,58,D4,Cancelled,1,11/01/2024
+Hiro Brandt,kemi.eze73@example.com,#REF!,68.2%,190.5,D4,Cancelled,2,06/12/2025
+Ana Abel,hiro.nwosu77@example.com,19.58,77.0%,63,D4,Cancelled,1,06/03/2025
+Ines Abel,mona.petrov26@example.com,244.54,34.3%,182.9,C3,Closed,1,12/09/2026
+Priya Ortiz,ben.moreau5@example.com,Brandt,34.9%,62,A1,Open,1,11/04/2023
+Dev Petrov,dev.brandt36@example.com,805.81,88.3%,74,A1,Open,2,12/06/2024
+Farid Gallo,mona.eze35@example.com,350.2,86.7%,185.4,B2,In review,1,06/06/2024
+Priya Eze,jon.moreau30@example.com,369.26,89.2%,198.1,C3,Closed,2,12/02/2025
+Ines Moreau,chloe.abel47@example.com,Corporate,29.0%,172.7,C3,Closed,2,08/07/2024
+Ben Lindqvist,ben.jensen36@example.com,#REF!,84.4%,185.4,A1,In review,2,02/04/2025
+Hiro Eze,priya.brandt98@example.com,657.3,16.5%,170.2,D4,Cancelled,1,10/01/2025
+Priya Dunne,noor.moreau83@example.com,834.99,19.5%,72,C3,Closed,2,09/04/2022
+Jon Ito,dev.ito58@example.com,Nwosu,72.0%,182.9,A1,Open,1,02/12/2024
+Chloe Nwosu,ana.koval7@example.com,#REF!,56.8%,76,B2,In review,2,10/09/2026
+Luca Koval,dev.koval43@example.com,561.96,98.9%,66,B2,In review,2,10/01/2024
+Mona Nwosu,ana.ortiz30@example.com,#REF!,19.5%,74,C3,Closed,1,08/10/2021
+Chloe Jensen,priya.farrow99@example.com,645.82,79.7%,63,D4,Cancelled,1,05/10/2022
+Hiro Dunne,noor.lindqvist39@example.com,Dunne,44.1%,185.4,B2,In review,2,08/08/2025
+Noor Jensen,dev.abel75@example.com,#REF!,97.3%,157.5,A1,Open,1,05/02/2026
+Noor Castro,mona.koval35@example.com,768.78,30.1%,167.6,B2,In review,2,06/04/2026
+Kemi Jensen,omar.dunne12@example.com,Brandt,6.9%,70,A1,Open,2,10/06/2024
+Luca Gallo,chloe.petrov33@example.com,493.91,70.3%,172.7,B2,In review,2,06/08/2025
+Mona Brandt,ines.ortiz85@example.com,615.64,49.1%,74,C3,Closed,2,11/09/2025
+Ana Koval,mona.gallo87@example.com,772.95,37.0%,59,D4,Cancelled,1,05/12/2026

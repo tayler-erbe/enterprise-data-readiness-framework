@@ -1,121 +1,121 @@
-meter_id,notes_2,returns,email,start_date,consent,rate,logged_at
-MTR-87854,,0,ines.abel74@example.com,2023/03/22,2,3040,1788144960
-MTR-31201,,11,chloe.lindqvist3@example.com,08 Jun 2021,2,3998,1783953337
-MTR-90779,,12,elif.lindqvist30@example.com,06 Jul 2023,1,4650,1781113387
-MTR-42220,,1,jon.castro15@example.com,02 Feb 2023,1,4314,1774152885
-MTR-47108,,10,farid.petrov33@example.com,2026-05-03,1,7790,1785373653
-MTR-55952,,12,elif.abel72@example.com,2024-07-25,1,3830,1777546618
-MTR-65037,,9,dev.abel4@example.com,17 Oct 2021,1,8302,1773498698
-MTR-10847,,0,priya.ortiz60@example.com,"Aug 10, 2026",2,4305,1772884975
-MTR-82111,,9,elif.brandt51@example.com,2021/12/04,1,6700,1792528084
-MTR-10154,,9,mona.farrow18@example.com,20 May 2021,1,5636,1782573573
-MTR-18040,,9,ana.ito85@example.com,"Dec 26, 2021",1,2985,1774354765
-MTR-71014,,0,hiro.koval1@example.com,05 May 2023,2,8889,1776891876
-MTR-28672,,7,chloe.moreau73@example.com,2025-04-06,1,5693,1768482892
-MTR-53330,,3,dev.farrow29@example.com,2022/06/17,2,5824,1772844237
-MTR-93945,,3,chloe.nwosu69@example.com,06 Jun 2024,2,9072,1784619582
-MTR-18504,,0,mona.abel39@example.com,11 Feb 2022,2,3614,1775922950
-MTR-66693,,6,priya.petrov95@example.com,2025/12/31,2,5737,1767572187
-MTR-29610,,0,farid.lindqvist71@example.com,2024/05/16,1,7888,1773792703
-MTR-55078,,5,elif.gallo92@example.com,"Feb 24, 2022",2,8612,1772159957
-MTR-79401,,0,ana.dunne84@example.com,"Feb 09, 2025",2,3328,1791169099
-MTR-62005,Water,12,omar.ito26@example.com,23 Jun 2025,1,6193,1770743375
-MTR-58695,,2,omar.moreau82@example.com,2023/12/24,1,8441,1778719517
-MTR-33250,,9,noor.jensen28@example.com,2021-08-31,2,5068,1771635432
-MTR-64230,,4,farid.nwosu36@example.com,2025-04-24,2,3329,1787934382
-MTR-18848,,0,noor.gallo58@example.com,"Feb 01, 2021",1,2829,1792234534
-MTR-62047,,12,chloe.moreau18@example.com,09 Oct 2024,2,5538,1793028469
-MTR-56443,,12,omar.ito55@example.com,2024/05/04,1,3712,1778522541
-MTR-48341,,0,mona.lindqvist23@example.com,2024/01/20,1,5643,1779314161
-MTR-77233,,5,ines.castro91@example.com,2021/04/28,1,7616,1779950674
-MTR-50221,,6,ben.petrov1@example.com,2022-03-08,2,4013,1789261760
-MTR-11545,,6,ben.ortiz88@example.com,19 Mar 2023,2,8468,1770740161
-MTR-36476,,8,chloe.lindqvist9@example.com,2024/05/02,2,4677,1782871297
-MTR-85093,,11,jon.haas96@example.com,17 Oct 2021,1,4485,1768991286
-MTR-61528,,0,ben.lindqvist68@example.com,"Oct 16, 2021",2,7814,1790647651
-MTR-72369,,12,ana.dunne72@example.com,2022-03-16,1,6113,1782097387
-MTR-53412,,5,noor.abel38@example.com,20 Aug 2024,1,8472,1790898866
-MTR-36656,,0,mona.dunne68@example.com,24 Jan 2023,2,2699,1777912412
-MTR-65114,,6,ines.ito43@example.com,10 Aug 2025,2,3718,1769589729
-MTR-34433,,0,dev.koval35@example.com,"Jul 02, 2025",2,7231,1786390738
-MTR-81276,,4,jon.abel74@example.com,2026-04-16,1,5859,1771071521
-MTR-42631,,9,elif.lindqvist16@example.com,2025-03-01,1,8466,1784054066
-MTR-93498,Electric,1,kemi.brandt9@example.com,2023/04/22,1,3595,1767271426
-MTR-15875,,5,luca.haas25@example.com,10 Jan 2023,2,8882,1779114230
-MTR-20971,,7,ana.jensen5@example.com,07 Jun 2022,1,2712,1775249166
-MTR-63210,,11,luca.ortiz52@example.com,"Dec 08, 2023",2,7998,1782043491
-MTR-36743,,0,dev.farrow10@example.com,"May 27, 2021",2,5913,1775789620
-MTR-25987,,7,ben.brandt61@example.com,09 Jun 2022,1,6328,1780511261
-MTR-99914,Solar,8,farid.gallo98@example.com,"Dec 01, 2022",2,7550,1789807766
-MTR-46098,,0,omar.eze63@example.com,2025/11/14,1,4689,1781053931
-MTR-26029,,4,noor.ito41@example.com,17 Jan 2022,2,5331,1774977540
-MTR-24740,,3,priya.koval48@example.com,2022-07-30,1,7997,1783339096
-MTR-95250,,0,noor.moreau42@example.com,06 Apr 2023,2,4402,1770358946
-MTR-21855,,0,luca.petrov27@example.com,"Mar 08, 2023",2,5998,1787493585
-MTR-26769,,5,chloe.nwosu21@example.com,2026-12-28,2,5493,1771414586
-MTR-21325,Gas,11,kemi.nwosu54@example.com,27 Mar 2025,1,7731,1773606304
-MTR-63012,,2,noor.lindqvist82@example.com,25 Nov 2026,2,5043,1775684644
-MTR-59161,,0,ben.jensen63@example.com,2023/09/12,1,3915,1768004999
-MTR-69577,,7,dev.farrow76@example.com,"Aug 19, 2024",1,4645,1781495211
-MTR-49089,,3,jon.gallo86@example.com,22 Feb 2026,1,3965,1789171544
-MTR-99138,,11,kemi.gallo6@example.com,2024-11-12,2,4271,1781323100
-MTR-67139,,0,farid.farrow86@example.com,04 Nov 2025,2,4833,1782030185
-MTR-32856,,6,farid.farrow72@example.com,30 Sep 2025,1,6131,1773573753
-MTR-37061,,0,grace.abel36@example.com,"Dec 28, 2021",2,2812,1786223102
-MTR-58891,,0,dev.haas53@example.com,21 Jun 2023,2,8291,1767790177
-MTR-85529,,0,omar.lindqvist68@example.com,"Jun 30, 2021",1,3096,1780586344
-MTR-80546,,4,mona.ito75@example.com,2025/09/13,2,2704,1767798345
-MTR-20819,,4,luca.dunne13@example.com,20 Dec 2026,2,5646,1782918264
-MTR-36735,,0,noor.koval91@example.com,2024/01/22,1,7637,1774964472
-MTR-75849,,0,dev.lindqvist10@example.com,"Mar 17, 2021",2,2670,1789577377
-MTR-83382,,12,priya.ortiz2@example.com,23 Dec 2025,2,3668,1774438624
-MTR-50640,,10,ines.abel49@example.com,2025-06-04,1,2805,1779716942
-MTR-84802,,4,mona.brandt23@example.com,"Jan 04, 2026",2,7578,1778223045
-MTR-22527,,0,dev.nwosu64@example.com,"Dec 25, 2024",2,5408,1781775130
-MTR-82546,,1,luca.gallo70@example.com,2026-05-11,1,5730,1776316631
-MTR-30930,,6,chloe.farrow71@example.com,11 Apr 2025,2,6046,1783399943
-MTR-25112,,0,jon.koval41@example.com,"Jul 09, 2024",2,9201,1768973420
-MTR-91538,,9,noor.moreau52@example.com,2024-08-04,2,4790,1778627481
-MTR-73759,,6,noor.abel2@example.com,2025/07/13,1,5791,1776991447
-MTR-74767,,6,jon.jensen1@example.com,2024-05-03,1,7322,1773457493
-MTR-91561,,0,kemi.jensen94@example.com,2024/03/19,1,9497,1788697412
-MTR-61807,,0,hiro.koval57@example.com,2021/02/15,2,7354,1768171194
-MTR-64984,,6,chloe.jensen59@example.com,14 Jun 2022,1,2682,1781821475
-MTR-82948,,1,dev.moreau24@example.com,2021/12/24,2,7481,1787076588
-MTR-45583,,0,kemi.nwosu97@example.com,2021/05/02,2,4444,1785852993
-MTR-73449,,0,noor.petrov70@example.com,2021-03-24,1,8134,1775604315
-MTR-25674,,0,priya.ito27@example.com,2026/10/03,1,3564,1767431355
-MTR-84689,,3,dev.petrov53@example.com,2024/08/31,2,6943,1782970893
-MTR-58722,,4,grace.ortiz59@example.com,2022-11-28,1,8103,1772403796
-MTR-79016,,3,mona.moreau74@example.com,"Jun 05, 2025",2,5170,1784449161
-MTR-49429,,8,omar.farrow77@example.com,"Nov 21, 2025",1,3028,1780773998
-MTR-77545,,0,ines.koval57@example.com,2026/08/13,1,5516,1778254299
-MTR-20070,,11,ana.petrov98@example.com,07 Oct 2025,1,9178,1772989467
-MTR-52025,,1,grace.ito38@example.com,2026/08/27,2,4844,1792002234
-MTR-42441,,2,mona.moreau70@example.com,2024/10/14,1,3242,1789307182
-MTR-97179,,0,dev.farrow15@example.com,"Jan 25, 2024",1,2639,1788418324
-MTR-88780,,2,dev.brandt18@example.com,2024-07-11,1,9104,1768417282
-MTR-22968,,7,hiro.gallo75@example.com,2025-01-11,1,8675,1779184155
-MTR-48123,,0,grace.haas67@example.com,"Dec 12, 2026",1,5139,1786263974
-MTR-28575,,0,ana.gallo87@example.com,"Oct 31, 2021",2,6407,1775012451
-MTR-90873,,8,grace.koval27@example.com,2022/11/12,1,6738,1785705523
-MTR-33559,,7,hiro.jensen40@example.com,24 Sep 2022,1,6456,1784420687
-MTR-13029,,0,kemi.lindqvist96@example.com,2021/03/15,2,5151,1783175688
-MTR-42051,,6,ben.gallo37@example.com,29 Nov 2021,2,8884,1772802023
-MTR-71327,,11,kemi.petrov93@example.com,"Jan 28, 2025",1,5387,1782160527
-MTR-11857,,3,dev.eze3@example.com,03 Aug 2021,2,7064,1785387540
-MTR-77377,,0,hiro.castro43@example.com,2022-08-09,1,8203,1771680881
-MTR-96781,,9,dev.petrov46@example.com,"Aug 30, 2022",2,3873,1767853565
-MTR-71133,,0,elif.ortiz12@example.com,2024-12-05,1,7349,1784204936
-MTR-86043,,6,ben.abel31@example.com,2025/12/01,1,3873,1780084900
-MTR-39037,,0,chloe.ito8@example.com,"Aug 02, 2021",2,8779,1776294487
-MTR-30310,,0,ines.farrow4@example.com,2021/03/17,2,5484,1774397303
-MTR-35099,,2,mona.nwosu60@example.com,2022/06/12,1,4553,1779698224
-MTR-79631,,6,jon.koval3@example.com,"Jul 18, 2023",1,3221,1775541365
-MTR-35253,,12,farid.ortiz77@example.com,2026/03/12,2,5652,1776245181
-MTR-21601,,0,omar.dunne35@example.com,2021-07-05,2,2999,1776034232
-MTR-71079,,0,chloe.eze88@example.com,2023-07-17,2,4402,1769474271
-MTR-77967,,9,ines.eze30@example.com,2022-05-08,2,3271,1776589477
-MTR-77185,,5,elif.nwosu14@example.com,"Nov 28, 2024",2,6246,1771192624
-MTR-58825,,1,luca.dunne24@example.com,2022/02/15,2,4979,1772664610
-MTR-72646,,7,chloe.gallo38@example.com,2021-05-25,1,9435,1784696840
+dow,end_date,share,mtr_id,consent,ver,email,quality_score
+4,2023-02-24,1.3%,MTR-87854,2,DEFAULT,ines.abel74@example.com,66
+5,2023-07-28,86.3%,MTR-31201,2,DEFAULT,chloe.lindqvist3@example.com,64
+2,2024-04-08,32.8%,MTR-90779,1,DEFAULT,elif.lindqvist30@example.com,42
+7,2025-11-30,44.5%,MTR-42220,1,DEFAULT,jon.castro15@example.com,20
+6,2021-11-13,57.5%,MTR-47108,1,DEFAULT,farid.petrov33@example.com,47
+2,9999-12-31,7.6%,MTR-55952,1,DEFAULT,elif.abel72@example.com,46
+7,2023-09-10,58.0%,MTR-65037,1,DEFAULT,dev.abel4@example.com,77
+4,2026-03-15,29.0%,MTR-10847,2,DEFAULT,priya.ortiz60@example.com,9
+7,2024-12-22,17.3%,MTR-82111,1,DEFAULT,elif.brandt51@example.com,16
+7,2023-05-10,82.6%,MTR-10154,1,DEFAULT,mona.farrow18@example.com,52
+1,2022-12-19,31.8%,MTR-18040,1,DEFAULT,ana.ito85@example.com,-999
+3,2021-09-04,23.0%,MTR-71014,2,DEFAULT,hiro.koval1@example.com,5
+7,2026-09-15,30.0%,MTR-28672,1,DEFAULT,chloe.moreau73@example.com,28
+1,2022-05-06,79.6%,MTR-53330,2,DEFAULT,dev.farrow29@example.com,9
+1,2025-07-26,23.4%,MTR-93945,2,DEFAULT,chloe.nwosu69@example.com,88
+3,9999-12-31,24.7%,MTR-18504,2,DEFAULT,mona.abel39@example.com,68
+5,2024-07-09,68.7%,MTR-66693,2,DEFAULT,priya.petrov95@example.com,49
+6,2022-09-14,5.8%,MTR-29610,1,DEFAULT,farid.lindqvist71@example.com,81
+7,9999-12-31,4.7%,MTR-55078,2,DEFAULT,elif.gallo92@example.com,14
+3,2021-07-06,93.8%,MTR-79401,2,DEFAULT,ana.dunne84@example.com,61
+6,9999-12-31,51.5%,MTR-62005,1,DEFAULT,omar.ito26@example.com,54
+3,9999-12-31,1.9%,MTR-58695,1,DEFAULT,omar.moreau82@example.com,23
+7,2026-08-22,30.4%,MTR-33250,2,DEFAULT,noor.jensen28@example.com,96
+6,9999-12-31,58.3%,MTR-64230,2,DEFAULT,farid.nwosu36@example.com,81
+1,2022-09-28,61.1%,MTR-18848,1,DEFAULT,noor.gallo58@example.com,23
+4,9999-12-31,5.6%,MTR-62047,2,DEFAULT,chloe.moreau18@example.com,1
+2,2024-12-18,29.0%,MTR-56443,1,DEFAULT,omar.ito55@example.com,63
+4,2026-05-06,11.5%,MTR-48341,1,DEFAULT,mona.lindqvist23@example.com,28
+5,9999-12-31,36.5%,MTR-77233,1,DEFAULT,ines.castro91@example.com,7
+2,2025-02-27,35.2%,MTR-50221,2,DEFAULT,ben.petrov1@example.com,-999
+7,2024-10-12,5.1%,MTR-11545,2,DEFAULT,ben.ortiz88@example.com,80
+2,2026-04-25,20.2%,MTR-36476,2,DEFAULT,chloe.lindqvist9@example.com,54
+5,2024-02-25,5.0%,MTR-85093,1,DEFAULT,jon.haas96@example.com,19
+3,2024-06-28,57.2%,MTR-61528,2,DEFAULT,ben.lindqvist68@example.com,-999
+4,9999-12-31,19.5%,MTR-72369,1,DEFAULT,ana.dunne72@example.com,-999
+4,2021-06-02,61.3%,MTR-53412,1,DEFAULT,noor.abel38@example.com,4
+6,2025-11-10,15.4%,MTR-36656,2,DEFAULT,mona.dunne68@example.com,49
+1,9999-12-31,35.8%,MTR-65114,2,DEFAULT,ines.ito43@example.com,65
+1,2026-06-23,7.7%,MTR-34433,2,DEFAULT,dev.koval35@example.com,81
+3,2023-08-20,3.8%,MTR-81276,1,DEFAULT,jon.abel74@example.com,92
+7,9999-12-31,20.5%,MTR-42631,1,DEFAULT,elif.lindqvist16@example.com,32
+6,9999-12-31,92.5%,MTR-93498,1,DEFAULT,kemi.brandt9@example.com,53
+7,9999-12-31,58.9%,MTR-15875,2,DEFAULT,luca.haas25@example.com,90
+4,2021-02-27,60.7%,MTR-20971,1,DEFAULT,ana.jensen5@example.com,96
+6,9999-12-31,46.6%,MTR-63210,2,DEFAULT,luca.ortiz52@example.com,71
+1,2025-12-24,68.8%,MTR-36743,2,DEFAULT,dev.farrow10@example.com,76
+7,2025-06-20,29.0%,MTR-25987,1,DEFAULT,ben.brandt61@example.com,34
+6,2026-11-05,54.4%,MTR-99914,2,DEFAULT,farid.gallo98@example.com,56
+1,2022-03-09,73.8%,MTR-46098,1,DEFAULT,omar.eze63@example.com,68
+3,9999-12-31,12.8%,MTR-26029,2,DEFAULT,noor.ito41@example.com,6
+2,2024-09-06,30.9%,MTR-24740,1,DEFAULT,priya.koval48@example.com,44
+7,2023-12-20,46.3%,MTR-95250,2,DEFAULT,noor.moreau42@example.com,-999
+6,2021-02-16,95.7%,MTR-21855,2,DEFAULT,luca.petrov27@example.com,48
+1,2024-03-25,94.3%,MTR-26769,2,DEFAULT,chloe.nwosu21@example.com,-999
+7,2023-04-13,43.0%,MTR-21325,1,DEFAULT,kemi.nwosu54@example.com,-999
+4,2023-12-15,89.6%,MTR-63012,2,DEFAULT,noor.lindqvist82@example.com,61
+6,9999-12-31,29.5%,MTR-59161,1,DEFAULT,ben.jensen63@example.com,67
+1,2024-01-07,75.5%,MTR-69577,1,DEFAULT,dev.farrow76@example.com,42
+5,9999-12-31,4.8%,MTR-49089,1,DEFAULT,jon.gallo86@example.com,94
+1,9999-12-31,77.4%,MTR-99138,2,DEFAULT,kemi.gallo6@example.com,72
+5,2024-08-06,10.0%,MTR-67139,2,DEFAULT,farid.farrow86@example.com,58
+7,2026-02-20,18.9%,MTR-32856,1,DEFAULT,farid.farrow72@example.com,73
+5,9999-12-31,76.8%,MTR-37061,2,DEFAULT,grace.abel36@example.com,56
+1,2026-09-13,75.0%,MTR-58891,2,DEFAULT,dev.haas53@example.com,6
+3,9999-12-31,39.0%,MTR-85529,1,DEFAULT,omar.lindqvist68@example.com,68
+1,9999-12-31,19.5%,MTR-80546,2,DEFAULT,mona.ito75@example.com,66
+7,9999-12-31,87.3%,MTR-20819,2,DEFAULT,luca.dunne13@example.com,96
+3,2025-11-19,51.6%,MTR-36735,1,DEFAULT,noor.koval91@example.com,-999
+2,2024-02-26,82.3%,MTR-75849,2,DEFAULT,dev.lindqvist10@example.com,2
+4,9999-12-31,65.2%,MTR-83382,2,DEFAULT,priya.ortiz2@example.com,-999
+7,9999-12-31,81.6%,MTR-50640,1,DEFAULT,ines.abel49@example.com,94
+6,2026-06-02,63.3%,MTR-84802,2,DEFAULT,mona.brandt23@example.com,-999
+6,9999-12-31,64.3%,MTR-22527,2,DEFAULT,dev.nwosu64@example.com,68
+3,2021-09-03,42.5%,MTR-82546,1,DEFAULT,luca.gallo70@example.com,58
+1,9999-12-31,4.4%,MTR-30930,2,DEFAULT,chloe.farrow71@example.com,82
+4,2026-10-30,14.5%,MTR-25112,2,DEFAULT,jon.koval41@example.com,87
+6,9999-12-31,14.1%,MTR-91538,2,DEFAULT,noor.moreau52@example.com,65
+7,2026-03-23,7.4%,MTR-73759,1,DEFAULT,noor.abel2@example.com,41
+4,2022-01-18,68.4%,MTR-74767,1,DEFAULT,jon.jensen1@example.com,8
+7,2026-05-17,67.5%,MTR-91561,1,DEFAULT,kemi.jensen94@example.com,-999
+3,2026-01-26,92.8%,MTR-61807,2,DEFAULT,hiro.koval57@example.com,36
+2,2023-04-22,36.6%,MTR-64984,1,DEFAULT,chloe.jensen59@example.com,-999
+5,2026-01-23,29.4%,MTR-82948,2,DEFAULT,dev.moreau24@example.com,71
+3,2025-01-25,68.4%,MTR-45583,2,DEFAULT,kemi.nwosu97@example.com,37
+6,2022-07-12,17.3%,MTR-73449,1,DEFAULT,noor.petrov70@example.com,65
+7,2023-04-17,52.2%,MTR-25674,1,DEFAULT,priya.ito27@example.com,10
+4,2025-07-02,50.3%,MTR-84689,2,DEFAULT,dev.petrov53@example.com,-999
+7,2026-01-13,88.0%,MTR-58722,1,DEFAULT,grace.ortiz59@example.com,40
+6,2025-07-24,41.5%,MTR-79016,2,DEFAULT,mona.moreau74@example.com,76
+5,2022-05-07,41.4%,MTR-49429,1,DEFAULT,omar.farrow77@example.com,-999
+6,2023-04-09,36.8%,MTR-77545,1,DEFAULT,ines.koval57@example.com,-999
+7,2022-07-09,26.7%,MTR-20070,1,DEFAULT,ana.petrov98@example.com,89
+3,2022-03-29,53.9%,MTR-52025,2,DEFAULT,grace.ito38@example.com,39
+7,9999-12-31,49.2%,MTR-42441,1,DEFAULT,mona.moreau70@example.com,73
+4,2021-03-09,34.9%,MTR-97179,1,DEFAULT,dev.farrow15@example.com,46
+4,9999-12-31,19.4%,MTR-88780,1,DEFAULT,dev.brandt18@example.com,50
+3,2023-05-28,22.7%,MTR-22968,1,DEFAULT,hiro.gallo75@example.com,63
+5,2021-07-08,40.6%,MTR-48123,1,DEFAULT,grace.haas67@example.com,69
+4,2021-12-07,27.3%,MTR-28575,2,DEFAULT,ana.gallo87@example.com,52
+1,2022-05-07,26.4%,MTR-90873,1,DEFAULT,grace.koval27@example.com,0
+5,2024-07-09,11.5%,MTR-33559,1,DEFAULT,hiro.jensen40@example.com,-999
+2,2025-06-17,72.3%,MTR-13029,2,DEFAULT,kemi.lindqvist96@example.com,28
+4,2021-03-20,90.9%,MTR-42051,2,DEFAULT,ben.gallo37@example.com,76
+2,2024-01-22,17.4%,MTR-71327,1,DEFAULT,kemi.petrov93@example.com,10
+4,2025-01-29,96.3%,MTR-11857,2,DEFAULT,dev.eze3@example.com,-999
+1,2026-06-12,87.0%,MTR-77377,1,DEFAULT,hiro.castro43@example.com,80
+5,2024-03-20,70.5%,MTR-96781,2,DEFAULT,dev.petrov46@example.com,51
+5,2026-12-07,21.0%,MTR-71133,1,DEFAULT,elif.ortiz12@example.com,60
+3,2024-06-22,39.7%,MTR-86043,1,DEFAULT,ben.abel31@example.com,26
+6,9999-12-31,15.0%,MTR-39037,2,DEFAULT,chloe.ito8@example.com,75
+1,2025-06-13,85.7%,MTR-30310,2,DEFAULT,ines.farrow4@example.com,85
+6,2023-12-09,64.5%,MTR-35099,1,DEFAULT,mona.nwosu60@example.com,33
+6,9999-12-31,73.5%,MTR-79631,1,DEFAULT,jon.koval3@example.com,9
+2,9999-12-31,46.7%,MTR-35253,2,DEFAULT,farid.ortiz77@example.com,80
+2,9999-12-31,32.7%,MTR-21601,2,DEFAULT,omar.dunne35@example.com,65
+3,2023-01-02,61.9%,MTR-71079,2,DEFAULT,chloe.eze88@example.com,79
+7,9999-12-31,35.0%,MTR-77967,2,DEFAULT,ines.eze30@example.com,-999
+7,9999-12-31,32.1%,MTR-77185,2,DEFAULT,elif.nwosu14@example.com,47
+3,9999-12-31,26.3%,MTR-58825,2,DEFAULT,luca.dunne24@example.com,83
+2,2025-08-20,40.9%,MTR-72646,1,DEFAULT,chloe.gallo38@example.com,95
