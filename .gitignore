@@ -4,3 +4,5 @@ readiness-output/
 certainty/build/
 certainty/runs/dry-run/
 certainty/columns/runs/dry-run/
+certainty/testset/runs/dry-run/
+certainty/realdata/data/
