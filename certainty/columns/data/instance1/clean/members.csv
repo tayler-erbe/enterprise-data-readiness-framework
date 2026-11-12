@@ -1,0 +1,201 @@
+member_id,full_name,birth_date,sex,marital,height,joined,newsletter,zip,city,state
+M-10000,Ana Moreau,1990-02-24,Male,Single,193.0,2016-05-10,no,00501,Holtsville,NY
+M-10001,Elif Eze,1964-03-02,Male,Divorced,190.5,2022-03-03,no,02134,Boston,MA
+M-10002,Grace Castro,1974-12-08,Male,Divorced,185.4,2023-10-13,no,06510,New Haven,CT
+M-10003,Dev Jensen,1981-01-05,Female,Widowed,193.0,2021-02-18,yes,30301,Atlanta,GA
+M-10004,Ines Petrov,1972-12-15,Female,Single,180.3,2023-10-16,no,02134,Boston,MA
+M-10005,Grace Ortiz,1985-07-15,Female,Divorced,157.5,2024-08-10,yes,80202,Denver,CO
+M-10006,Grace Brandt,1993-09-30,Male,Single,190.5,2016-08-13,yes,30301,Atlanta,GA
+M-10007,Elif Koval,1964-06-10,Male,Married,175.3,2018-02-01,yes,00501,Holtsville,NY
+M-10008,Ana Abel,1991-05-24,Male,Widowed,182.9,2018-03-17,no,60614,Chicago,IL
+M-10009,Ines Farrow,1970-06-26,Male,Divorced,157.5,2023-08-12,no,60614,Chicago,IL
+M-10010,Mona Jensen,1961-02-17,Male,Divorced,175.3,2026-04-15,yes,73301,Austin,TX
+M-10011,Omar Nwosu,2002-04-28,Female,Divorced,182.9,2020-04-17,no,80202,Denver,CO
+M-10012,Ana Gallo,1980-07-21,Male,Single,188.0,2024-05-24,yes,02134,Boston,MA
+M-10013,Noor Abel,2005-01-31,Female,Widowed,182.9,2018-05-08,yes,73301,Austin,TX
+M-10014,Hiro Ortiz,1997-11-10,Female,Single,162.6,2017-12-30,yes,60614,Chicago,IL
+M-10015,Ines Gallo,1978-02-04,Female,Divorced,162.6,2026-05-30,no,00501,Holtsville,NY
+M-10016,Ben Nwosu,1971-02-20,Female,Divorced,160.0,2023-05-10,no,73301,Austin,TX
+M-10017,Noor Koval,1983-03-18,Female,Divorced,170.2,2024-08-15,no,60614,Chicago,IL
+M-10018,Omar Koval,1957-08-24,Male,Widowed,180.3,2018-12-23,no,30301,Atlanta,GA
+M-10019,Ines Moreau,1955-04-02,Male,Divorced,180.3,2017-06-10,yes,00501,Holtsville,NY
+M-10020,Grace Abel,1977-04-11,Male,Widowed,167.6,2016-03-18,no,06510,New Haven,CT
+M-10021,Luca Jensen,2001-02-15,Female,Married,165.1,2023-09-04,no,00501,Holtsville,NY
+M-10022,Jon Abel,1957-05-17,Female,Divorced,180.3,2017-02-27,yes,00501,Holtsville,NY
+M-10023,Farid Jensen,1998-10-27,Female,Divorced,152.4,2024-06-09,no,02134,Boston,MA
+M-10024,Ana Jensen,1995-04-17,Male,Divorced,167.6,2025-06-17,yes,00501,Holtsville,NY
+M-10025,Ines Lindqvist,1958-05-05,Male,Single,149.9,2022-03-12,no,60614,Chicago,IL
+M-10026,Dev Koval,1950-10-09,Female,Divorced,193.0,2023-04-25,yes,80202,Denver,CO
+M-10027,Farid Ortiz,1952-07-23,Female,Single,190.5,2017-05-02,yes,80202,Denver,CO
+M-10028,Elif Ortiz,1981-09-29,Male,Widowed,149.9,2018-12-29,no,10001,New York,NY
+M-10029,Kemi Moreau,1983-05-08,Male,Divorced,182.9,2025-09-01,no,00501,Holtsville,NY
+M-10030,Kemi Ortiz,1996-10-04,Male,Married,190.5,2016-08-22,yes,60614,Chicago,IL
+M-10031,Farid Ortiz,1996-07-29,Female,Single,172.7,2021-04-09,yes,06510,New Haven,CT
+M-10032,Ana Nwosu,1957-04-03,Male,Married,149.9,2021-09-08,yes,60614,Chicago,IL
+M-10033,Ben Ortiz,1975-10-04,Female,Divorced,162.6,2017-01-24,no,60614,Chicago,IL
+M-10034,Priya Moreau,1976-11-27,Male,Divorced,162.6,2020-12-06,no,30301,Atlanta,GA
+M-10035,Mona Petrov,1955-07-02,Male,Divorced,147.3,2025-12-19,no,80202,Denver,CO
+M-10036,Ana Koval,1989-01-12,Female,Divorced,157.5,2024-02-07,no,30301,Atlanta,GA
+M-10037,Kemi Brandt,1958-09-09,Male,Single,152.4,2021-04-18,yes,10001,New York,NY
+M-10038,Kemi Jensen,1995-02-07,Another gender,Single,152.4,2020-09-22,no,94110,San Francisco,CA
+M-10039,Ana Koval,1950-06-17,Unknown,Married,154.9,2016-10-14,no,00501,Holtsville,NY
+M-10040,Ben Nwosu,1980-02-17,Female,Single,157.5,2024-07-04,yes,00501,Holtsville,NY
+M-10041,Elif Nwosu,1984-06-18,Male,Divorced,177.8,2025-05-22,yes,00501,Holtsville,NY
+M-10042,Hiro Brandt,1969-01-07,Unknown,Divorced,172.7,2020-01-10,no,06510,New Haven,CT
+M-10043,Priya Farrow,1976-09-03,Female,Widowed,193.0,2018-01-18,no,10001,New York,NY
+M-10044,Mona Jensen,2001-07-21,Male,Single,152.4,2025-09-20,yes,60614,Chicago,IL
+M-10045,Ines Lindqvist,1984-04-05,Female,Divorced,188.0,2026-08-01,no,02134,Boston,MA
+M-10046,Chloe Ortiz,1959-11-05,Male,Divorced,175.3,2018-06-15,yes,94110,San Francisco,CA
+M-10047,Luca Haas,1972-11-06,Male,Divorced,149.9,2020-05-12,no,94110,San Francisco,CA
+M-10048,Priya Dunne,1994-06-29,Male,Married,167.6,2025-04-18,yes,80202,Denver,CO
+M-10049,Chloe Ortiz,1975-07-13,Male,Divorced,190.5,2025-09-09,yes,60614,Chicago,IL
+M-10050,Dev Koval,2003-05-26,Male,Widowed,180.3,2016-03-03,no,00501,Holtsville,NY
+M-10051,Chloe Dunne,1951-12-16,Male,Married,177.8,2016-07-06,yes,80202,Denver,CO
+M-10052,Jon Koval,1964-06-05,Male,Divorced,160.0,2025-12-20,no,80202,Denver,CO
+M-10053,Ines Dunne,2001-12-12,Male,Divorced,170.2,2016-09-01,yes,73301,Austin,TX
+M-10054,Elif Dunne,1988-04-07,Female,Single,175.3,2016-03-21,yes,80202,Denver,CO
+M-10055,Noor Nwosu,1998-07-05,Male,Divorced,182.9,2020-12-31,no,73301,Austin,TX
+M-10056,Kemi Lindqvist,2005-05-28,Another gender,Widowed,182.9,2022-06-13,yes,06510,New Haven,CT
+M-10057,Dev Haas,1996-04-08,Male,Married,193.0,2018-09-15,no,30301,Atlanta,GA
+M-10058,Grace Eze,1986-08-18,Unknown,Widowed,188.0,2026-08-25,no,02134,Boston,MA
+M-10059,Omar Dunne,2000-02-07,Female,Single,152.4,2021-12-22,yes,07030,Hoboken,NJ
+M-10060,Kemi Dunne,1982-07-24,Female,Divorced,172.7,2021-09-10,yes,07030,Hoboken,NJ
+M-10061,Kemi Moreau,1987-12-03,Another gender,Married,167.6,2023-10-02,no,30301,Atlanta,GA
+M-10062,Priya Abel,1995-08-18,Female,Single,193.0,2023-04-24,no,00501,Holtsville,NY
+M-10063,Omar Ortiz,1984-12-24,Male,Widowed,157.5,2025-03-07,yes,02134,Boston,MA
+M-10064,Grace Lindqvist,1989-10-10,Unknown,Married,188.0,2026-07-09,yes,60614,Chicago,IL
+M-10065,Elif Lindqvist,1981-10-04,Female,Married,170.2,2026-09-03,yes,10001,New York,NY
+M-10066,Kemi Farrow,1996-12-21,Male,Divorced,160.0,2026-06-20,no,94110,San Francisco,CA
+M-10067,Priya Nwosu,1976-01-14,Female,Married,160.0,2020-10-14,yes,60614,Chicago,IL
+M-10068,Omar Haas,2002-03-30,Male,Married,185.4,2017-02-20,no,94110,San Francisco,CA
+M-10069,Ana Eze,1970-07-23,Female,Widowed,157.5,2016-04-01,yes,73301,Austin,TX
+M-10070,Omar Castro,1961-06-21,Male,Widowed,157.5,2023-04-29,no,30301,Atlanta,GA
+M-10071,Farid Gallo,1989-02-09,Male,Single,167.6,2026-01-09,yes,00501,Holtsville,NY
+M-10072,Dev Gallo,1962-06-07,Male,Single,188.0,2016-02-09,no,30301,Atlanta,GA
+M-10073,Ben Ito,1973-04-20,Male,Divorced,175.3,2022-08-05,no,73301,Austin,TX
+M-10074,Luca Castro,1978-09-09,Female,Divorced,165.1,2019-04-10,yes,94110,San Francisco,CA
+M-10075,Kemi Lindqvist,2001-01-06,Female,Single,152.4,2020-11-08,no,73301,Austin,TX
+M-10076,Mona Lindqvist,1972-01-15,Unknown,Divorced,172.7,2019-09-12,yes,10001,New York,NY
+M-10077,Farid Ortiz,1977-08-12,Female,Married,167.6,2023-06-06,yes,60614,Chicago,IL
+M-10078,Dev Haas,1986-04-30,Female,Single,172.7,2019-08-30,no,02134,Boston,MA
+M-10079,Elif Lindqvist,1975-04-26,Male,Divorced,188.0,2018-01-18,no,02134,Boston,MA
+M-10080,Farid Moreau,1992-10-11,Another gender,Divorced,160.0,2025-05-13,no,10001,New York,NY
+M-10081,Elif Dunne,1991-12-29,Male,Divorced,182.9,2024-02-09,yes,10001,New York,NY
+M-10082,Luca Nwosu,1986-08-19,Male,Single,190.5,2026-01-26,yes,06510,New Haven,CT
+M-10083,Mona Abel,1978-12-16,Female,Married,175.3,2020-12-31,yes,73301,Austin,TX
+M-10084,Ana Jensen,1966-05-10,Male,Single,190.5,2022-07-21,yes,00501,Holtsville,NY
+M-10085,Ines Brandt,1990-06-14,Female,Widowed,172.7,2018-04-06,yes,00501,Holtsville,NY
+M-10086,Chloe Koval,1968-12-23,Female,Divorced,149.9,2023-06-25,no,00501,Holtsville,NY
+M-10087,Chloe Eze,1950-06-14,Male,Single,152.4,2021-11-27,yes,06510,New Haven,CT
+M-10088,Mona Ortiz,1981-12-03,Female,Divorced,188.0,2024-02-16,yes,10001,New York,NY
+M-10089,Noor Castro,1973-12-31,Male,Divorced,175.3,2022-08-29,no,60614,Chicago,IL
+M-10090,Farid Ortiz,1954-12-07,Male,Divorced,185.4,2025-12-27,yes,94110,San Francisco,CA
+M-10091,Ben Jensen,1995-09-02,Female,Divorced,157.5,2026-09-23,yes,02134,Boston,MA
+M-10092,Kemi Lindqvist,1978-05-08,Male,Married,165.1,2016-12-09,yes,73301,Austin,TX
+M-10093,Chloe Jensen,1978-01-23,Female,Single,170.2,2017-04-27,yes,10001,New York,NY
+M-10094,Luca Jensen,1971-04-25,Male,Widowed,175.3,2026-03-02,yes,00501,Holtsville,NY
+M-10095,Luca Nwosu,1982-11-16,Female,Married,152.4,2023-02-13,yes,60614,Chicago,IL
+M-10096,Mona Ortiz,1990-01-19,Male,Divorced,165.1,2023-10-04,no,00501,Holtsville,NY
+M-10097,Dev Haas,1983-09-02,Female,Single,149.9,2025-10-27,yes,02134,Boston,MA
+M-10098,Ines Eze,2004-12-03,Female,Single,172.7,2026-11-30,yes,00501,Holtsville,NY
+M-10099,Noor Petrov,1992-12-31,Female,Married,147.3,2017-04-09,yes,30301,Atlanta,GA
+M-10100,Omar Gallo,1974-09-05,Male,Widowed,149.9,2016-02-29,no,60614,Chicago,IL
+M-10101,Kemi Abel,1981-11-22,Female,Single,152.4,2021-04-12,no,80202,Denver,CO
+M-10102,Elif Ito,1990-06-13,Male,Single,185.4,2020-05-06,yes,30301,Atlanta,GA
+M-10103,Kemi Eze,1987-11-20,Male,Single,162.6,2020-05-04,no,02134,Boston,MA
+M-10104,Hiro Haas,1999-04-09,Male,Divorced,160.0,2021-01-10,yes,10001,New York,NY
+M-10105,Priya Ortiz,1974-12-04,Female,Single,180.3,2021-12-30,yes,06510,New Haven,CT
+M-10106,Noor Abel,1977-12-04,Male,Married,165.1,2016-12-06,yes,94110,San Francisco,CA
+M-10107,Farid Petrov,1964-12-10,Female,Married,157.5,2026-07-17,no,02134,Boston,MA
+M-10108,Priya Gallo,1980-01-18,Male,Single,160.0,2017-12-30,no,94110,San Francisco,CA
+M-10109,Mona Haas,1961-07-03,Female,Married,193.0,2017-10-19,yes,10001,New York,NY
+M-10110,Ines Koval,1951-11-14,Female,Divorced,185.4,2021-05-17,no,60614,Chicago,IL
+M-10111,Hiro Abel,2003-09-15,Female,Single,154.9,2026-07-29,no,02134,Boston,MA
+M-10112,Omar Moreau,2004-07-17,Female,Married,172.7,2017-08-16,yes,94110,San Francisco,CA
+M-10113,Priya Brandt,1976-06-21,Female,Divorced,188.0,2018-12-19,yes,30301,Atlanta,GA
+M-10114,Kemi Abel,1977-11-17,Male,Widowed,162.6,2018-10-14,no,80202,Denver,CO
+M-10115,Kemi Moreau,2004-07-25,Unknown,Widowed,154.9,2021-12-13,yes,10001,New York,NY
+M-10116,Omar Castro,1989-09-22,Female,Single,157.5,2017-04-01,no,07030,Hoboken,NJ
+M-10117,Ines Gallo,1966-01-16,Female,Divorced,170.2,2020-04-29,yes,73301,Austin,TX
+M-10118,Elif Koval,1959-02-10,Male,Married,170.2,2026-05-30,no,80202,Denver,CO
+M-10119,Hiro Koval,2005-02-27,Male,Divorced,188.0,2024-10-31,no,73301,Austin,TX
+M-10120,Dev Gallo,1997-12-13,Male,Divorced,188.0,2019-04-13,no,73301,Austin,TX
+M-10121,Ben Ito,1988-12-18,Female,Single,170.2,2017-07-11,yes,02134,Boston,MA
+M-10122,Chloe Petrov,1976-01-20,Male,Married,160.0,2023-05-19,no,00501,Holtsville,NY
+M-10123,Luca Koval,1980-05-27,Male,Widowed,147.3,2026-08-28,yes,00501,Holtsville,NY
+M-10124,Ben Eze,1982-06-13,Male,Single,162.6,2022-06-30,yes,07030,Hoboken,NJ
+M-10125,Omar Ortiz,1980-04-25,Female,Married,167.6,2025-02-08,yes,02134,Boston,MA
+M-10126,Omar Ito,1972-02-24,Female,Married,193.0,2019-05-20,no,10001,New York,NY
+M-10127,Grace Koval,1981-11-27,Male,Married,152.4,2018-04-10,no,07030,Hoboken,NJ
+M-10128,Chloe Farrow,1963-04-04,Female,Married,160.0,2021-07-20,yes,30301,Atlanta,GA
+M-10129,Grace Koval,1992-10-26,Male,Divorced,147.3,2025-02-10,yes,10001,New York,NY
+M-10130,Omar Eze,1951-03-31,Female,Widowed,185.4,2024-05-18,yes,00501,Holtsville,NY
+M-10131,Ben Farrow,1982-12-25,Male,Widowed,160.0,2023-09-12,no,73301,Austin,TX
+M-10132,Jon Petrov,1952-09-25,Male,Divorced,152.4,2024-03-04,yes,10001,New York,NY
+M-10133,Grace Eze,1952-07-08,Female,Single,175.3,2017-01-31,yes,02134,Boston,MA
+M-10134,Noor Nwosu,1986-02-19,Male,Single,175.3,2019-03-22,yes,94110,San Francisco,CA
+M-10135,Jon Ortiz,1993-05-06,Male,Single,165.1,2021-05-22,no,06510,New Haven,CT
+M-10136,Farid Ortiz,1991-03-09,Female,Single,193.0,2020-03-26,yes,10001,New York,NY
+M-10137,Luca Ortiz,1980-12-04,Female,Divorced,152.4,2026-05-15,yes,06510,New Haven,CT
+M-10138,Luca Dunne,1953-09-10,Male,Single,185.4,2017-05-30,yes,94110,San Francisco,CA
+M-10139,Grace Koval,1994-01-17,Female,Widowed,188.0,2020-10-27,yes,06510,New Haven,CT
+M-10140,Grace Ortiz,2004-06-13,Male,Single,170.2,2020-11-07,yes,10001,New York,NY
+M-10141,Mona Ito,1991-01-20,Female,Married,175.3,2026-06-26,yes,73301,Austin,TX
+M-10142,Priya Ito,1973-08-08,Female,Divorced,167.6,2018-09-26,yes,60614,Chicago,IL
+M-10143,Ana Eze,1991-03-08,Female,Single,147.3,2025-04-30,no,94110,San Francisco,CA
+M-10144,Farid Eze,1957-02-23,Female,Single,147.3,2016-11-19,no,02134,Boston,MA
+M-10145,Chloe Brandt,2000-01-17,Female,Widowed,177.8,2018-11-04,no,02134,Boston,MA
+M-10146,Grace Eze,1991-06-03,Female,Married,177.8,2019-07-05,no,00501,Holtsville,NY
+M-10147,Grace Gallo,1978-09-12,Female,Single,149.9,2017-03-07,no,94110,San Francisco,CA
+M-10148,Dev Eze,1974-09-13,Male,Widowed,188.0,2017-06-12,no,94110,San Francisco,CA
+M-10149,Dev Jensen,1963-12-29,Female,Married,152.4,2024-04-10,yes,73301,Austin,TX
+M-10150,Grace Lindqvist,1963-11-20,Male,Single,160.0,2024-01-30,no,80202,Denver,CO
+M-10151,Kemi Jensen,2002-08-03,Female,Single,193.0,2021-06-18,yes,00501,Holtsville,NY
+M-10152,Farid Moreau,2001-07-06,Male,Divorced,165.1,2020-12-28,yes,73301,Austin,TX
+M-10153,Noor Haas,1996-06-03,Female,Divorced,172.7,2020-02-21,no,10001,New York,NY
+M-10154,Jon Ortiz,1988-04-04,Unknown,Divorced,190.5,2019-04-18,yes,02134,Boston,MA
+M-10155,Ben Petrov,1978-11-20,Another gender,Widowed,157.5,2024-11-20,no,80202,Denver,CO
+M-10156,Farid Ortiz,1991-02-23,Female,Widowed,190.5,2022-09-05,yes,73301,Austin,TX
+M-10157,Ben Ortiz,1950-07-25,Female,Divorced,170.2,2016-08-21,no,94110,San Francisco,CA
+M-10158,Omar Ortiz,2005-05-11,Male,Single,167.6,2020-09-10,no,80202,Denver,CO
+M-10159,Grace Ito,1997-07-31,Male,Married,190.5,2022-10-05,yes,00501,Holtsville,NY
+M-10160,Ben Lindqvist,1997-05-08,Male,Widowed,149.9,2024-02-22,no,07030,Hoboken,NJ
+M-10161,Ines Jensen,2002-10-27,Female,Married,165.1,2017-10-02,no,30301,Atlanta,GA
+M-10162,Dev Petrov,1996-09-11,Male,Divorced,165.1,2022-04-28,yes,60614,Chicago,IL
+M-10163,Elif Nwosu,1959-03-25,Male,Married,165.1,2017-05-06,no,00501,Holtsville,NY
+M-10164,Ines Jensen,2001-12-24,Female,Married,170.2,2024-08-06,yes,07030,Hoboken,NJ
+M-10165,Luca Ito,1990-12-14,Male,Married,154.9,2019-09-09,no,80202,Denver,CO
+M-10166,Priya Dunne,1955-08-30,Male,Widowed,190.5,2020-09-21,no,30301,Atlanta,GA
+M-10167,Ana Ito,2000-12-15,Male,Divorced,175.3,2019-10-29,yes,07030,Hoboken,NJ
+M-10168,Ines Abel,2001-02-10,Female,Single,160.0,2023-03-07,no,60614,Chicago,IL
+M-10169,Mona Nwosu,1957-09-28,Male,Divorced,154.9,2016-01-12,yes,73301,Austin,TX
+M-10170,Grace Brandt,1997-01-20,Male,Single,157.5,2021-08-11,yes,60614,Chicago,IL
+M-10171,Noor Haas,1985-10-12,Male,Single,147.3,2018-07-02,yes,80202,Denver,CO
+M-10172,Ben Farrow,1959-05-30,Female,Divorced,165.1,2023-05-28,yes,60614,Chicago,IL
+M-10173,Hiro Moreau,1991-05-06,Female,Divorced,170.2,2022-03-15,no,02134,Boston,MA
+M-10174,Ben Gallo,1974-03-04,Female,Married,147.3,2026-10-05,no,02134,Boston,MA
+M-10175,Farid Haas,1999-07-08,Female,Single,190.5,2024-03-05,no,07030,Hoboken,NJ
+M-10176,Jon Moreau,1986-03-09,Female,Widowed,170.2,2021-06-27,no,94110,San Francisco,CA
+M-10177,Priya Haas,1984-07-18,Male,Divorced,152.4,2019-03-28,no,06510,New Haven,CT
+M-10178,Farid Brandt,1956-11-16,Male,Married,157.5,2018-09-16,no,94110,San Francisco,CA
+M-10179,Priya Petrov,1959-09-07,Female,Single,160.0,2019-03-11,yes,94110,San Francisco,CA
+M-10180,Chloe Farrow,2001-04-18,Female,Single,149.9,2017-01-04,yes,02134,Boston,MA
+M-10181,Priya Brandt,1973-12-03,Male,Married,180.3,2018-06-02,yes,10001,New York,NY
+M-10182,Grace Abel,1966-07-31,Male,Widowed,154.9,2024-12-08,no,73301,Austin,TX
+M-10183,Ines Gallo,1957-11-05,Female,Divorced,182.9,2018-08-18,no,10001,New York,NY
+M-10184,Omar Abel,1974-12-10,Male,Divorced,165.1,2019-01-02,yes,06510,New Haven,CT
+M-10185,Ines Petrov,1991-09-13,Male,Divorced,182.9,2025-12-19,yes,30301,Atlanta,GA
+M-10186,Ines Ortiz,1998-08-26,Female,Single,193.0,2020-02-11,no,10001,New York,NY
+M-10187,Luca Castro,1959-08-29,Male,Divorced,149.9,2020-06-25,yes,80202,Denver,CO
+M-10188,Hiro Eze,1994-08-20,Female,Single,162.6,2022-01-10,no,60614,Chicago,IL
+M-10189,Ines Dunne,1999-11-10,Female,Divorced,167.6,2023-09-27,no,00501,Holtsville,NY
+M-10190,Dev Petrov,1970-08-30,Female,Widowed,165.1,2020-09-05,no,02134,Boston,MA
+M-10191,Omar Petrov,1972-04-27,Female,Widowed,149.9,2019-04-20,no,30301,Atlanta,GA
+M-10192,Grace Haas,1988-01-21,Female,Divorced,170.2,2019-12-14,no,60614,Chicago,IL
+M-10193,Noor Ortiz,1956-11-26,Male,Single,165.1,2019-09-14,yes,73301,Austin,TX
+M-10194,Kemi Petrov,1991-09-13,Male,Widowed,180.3,2016-04-01,yes,80202,Denver,CO
+M-10195,Elif Castro,1970-08-18,Male,Divorced,170.2,2026-02-25,no,02134,Boston,MA
+M-10196,Kemi Castro,1952-07-29,Female,Divorced,193.0,2026-09-07,no,73301,Austin,TX
+M-10197,Ben Lindqvist,1992-08-21,Female,Single,165.1,2021-06-01,no,80202,Denver,CO
+M-10198,Dev Jensen,1953-10-31,Female,Single,160.0,2026-08-08,yes,07030,Hoboken,NJ
+M-10199,Ana Koval,2002-01-07,Female,Divorced,157.5,2025-05-21,no,00501,Holtsville,NY

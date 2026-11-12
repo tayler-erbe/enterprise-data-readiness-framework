@@ -1,0 +1,39 @@
+/* Additions for the data readiness brief; everything else comes from the shared Lab stylesheets. */
+.flow li.person{background:var(--lime);border-color:var(--ink);color:var(--ink)}
+.flow-key i.person{background:var(--lime)}
+.verdict{display:inline-block;font:600 11px var(--body);letter-spacing:.3px;padding:3px 9px;white-space:nowrap}
+.verdict.ok{background:#e3eadd;color:var(--teal)}
+.verdict.unsure{background:#f3e7dc;color:var(--amber)}
+.verdict.concern{background:var(--ink);color:var(--paper)}
+.column-table td:nth-child(2),.column-table td:nth-child(3){min-width:200px}
+.column-table td:last-child{font-variant-numeric:tabular-nums;white-space:nowrap}
+.column-table code{font:600 13px var(--display);color:var(--ink)}
+.example-tag{display:inline-block;font-size:10px;letter-spacing:1px;text-transform:uppercase;border:1px dashed var(--muted);color:var(--muted);padding:3px 8px;margin-bottom:18px}
+.hero-figure .example-tag{border-color:#819c9e;color:#b8c8c9}
+.questions{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:45px}
+.questions article{border-top:2px solid var(--teal);padding-top:20px;min-width:0}
+.questions article>span{font-size:10px;letter-spacing:1px;color:var(--teal)}
+.questions h3{font-size:22px;letter-spacing:-.6px;margin:18px 0 12px}
+.questions ul{margin:0;padding-left:18px;font-size:14px;color:var(--muted)}
+.questions li{margin-bottom:6px}
+.quadrant-wrap{display:grid;grid-template-columns:auto 1fr;gap:14px 18px;margin-top:45px}
+.axis-y{writing-mode:vertical-rl;transform:rotate(180deg);font-size:10px;letter-spacing:1.5px;color:var(--muted);text-align:center;align-self:stretch}
+.axis-x{grid-column:2;font-size:10px;letter-spacing:1.5px;color:var(--muted);display:flex;justify-content:space-between}
+.quadrant{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--line);min-width:0}
+.quadrant article{padding:28px 30px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--white);min-width:0}
+.quadrant article:nth-child(2n){border-right:0}
+.quadrant article:nth-child(n+3){border-bottom:0}
+.quadrant article.first{background:var(--ink);color:var(--paper)}
+.quadrant article.first p{color:#c2d0d0}
+.quadrant article.first .route-id{color:var(--lime)}
+.quadrant .route-id{margin-bottom:14px}
+.quadrant h3{font-size:24px;letter-spacing:-.7px;margin-bottom:10px}
+.quadrant p{font-size:14px;color:var(--muted);margin:0}
+.quadrant .rank{font:500 34px var(--display);letter-spacing:-1px;display:block;margin-bottom:8px;color:var(--teal)}
+.quadrant article.first .rank{color:var(--lime)}
+.does-not{display:grid;grid-template-columns:1fr 1fr;gap:50px;margin-top:10px}
+.does-not>div{min-width:0}
+.does-not h3{font-size:22px;letter-spacing:-.5px;margin-bottom:6px}
+.does-not .outcomes th{width:42%}
+@media(max-width:1100px){.quadrant article{padding:24px}}
+@media(max-width:800px){.questions{grid-template-columns:1fr;gap:30px}.does-not{grid-template-columns:1fr;gap:35px}.quadrant{grid-template-columns:1fr}.quadrant article,.quadrant article:nth-child(2n){border-right:0;border-bottom:1px solid var(--line)}.quadrant article:last-child{border-bottom:0}.quadrant-wrap{grid-template-columns:1fr}.axis-y{display:none}.axis-x{display:none}}

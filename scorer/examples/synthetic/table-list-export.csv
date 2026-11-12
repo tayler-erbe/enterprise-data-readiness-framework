@@ -1,0 +1,25 @@
+Schema,Name,Comments,Columns,Rows,Indices
+FIN,CONTRACT_SPEND_FACT,"Contract spend facts by month. One row per contract per fiscal month, summed from posted ledger entries.",6,1840221,2
+FIN,CONTRACT,"Customer contracts held by the company, current version of each contract record.",5,38412,3
+FIN,QUOTE_ORDER_FACT,Quote and order bridge. One row per quote per order; a quote is linked to its orders through the order code.,9,,1
+FIN,QUOTE_ORDER_LINE_FACT,,11,,0
+FIN,SUPPLIER_INVOICE,"Supplier invoices, latest version after any correction. May contain invalid invoice dates such as 01/01/200.",42,,4
+FIN,INVOICE_HDR,INVOICE_HDR,18,,0
+FIN,LEDGER_ENTRY,Posted ledger entries. Some entries dated before March 2015 are known to be wrong.,31,,2
+FIN,CARD_ALLOC,CHARGE CODE INFORMATION FROM THE SYSTEM.,12,,1
+REF,COST_CTR_CD,"Cost centre codes and names, with the division each cost centre reports to.",4,912,1
+REF,PERIOD_CD,Period codes.,3,,1
+HR,POSITION,Budgeted positions. Each row represents one position in one fiscal year.,7,66310,2
+HR,LOAD_CONTROL,Internal load bookkeeping for the warehouse; not for reporting.,6,,1
+HR,EMP_ADDRESS_HIST,Employee home address history. One row per employee per change. The old region field was retired with the 2019 payroll change; do not use for 2020 onward.,5,,2
+HR,EMP_CERT_HIST,Certifications entered by employees on their own profile page. Self-reported and never checked.,8,,1
+HR,EMP_SKILL_HIST,"Skills listed by employees in their â€œprofileâ€, self-reported.Â",6,,1
+HR,EMP_HEALTH_COND_HIST,Health conditions.,5,,1
+HR,BENEFIT_PLAN_HIST,Benefit plan history by employee. See the data advisory at http://www.example.com/advisories.aspx.,14,,2
+HR,EMP_HR_NOTE,,4,,0
+SALES,CUST_PERIOD,Customer period summary. One row per customer per period.,6,,2
+SALES,PRODUCT_LISTING,"Products listed each period, with supplier and price band.",22,,3
+SALES,ORDER_LINE,Customer order lines.,15,,4
+SALES,CREDIT_APPL_PART_1,"Credit application data, part 1.",120,,1
+OPS,SCHED_JOB_DETAILS,,9,,0
+OPS,POLICY_MAINT,TBD,7,,0

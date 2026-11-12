@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#142b36">
+<title>Data Readiness Review</title>
+<meta name="description" content="A proposal for an AI review that reads a data dictionary's table and column definitions with a small snapshot of each table, then scores every column for readiness, certainty and value before data moves to a new ERP or data platform. By Tayler Erbe, Document Intelligence Lab.">
+<meta property="og:type" content="website"><meta property="og:title" content="Is this data ready for AI? Find out before you move it."><meta property="og:description" content="Column-by-column readiness, certainty and value scores, so the most valuable data gets fixed first. A proposal by Tayler Erbe."><meta name="author" content="Tayler Erbe">
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="site.css"><link rel="stylesheet" href="brief.css"><link rel="stylesheet" href="pipeline.css"><link rel="stylesheet" href="readiness.css"><script src="tabs.js" defer></script></head>
+<body>
+<a href="#main" class="skip">Skip to content</a>
+<header class="site-header">
+<a href="#main" class="brand" aria-label="Document Intelligence Lab"><span class="brand-mark">DI<span>↗</span></span><span>Document<br><strong>Intelligence Lab</strong></span></a>
+<nav aria-label="Main navigation"><a href="#how">How it works</a><a href="#inputs">Inputs</a><a href="#columns">Columns</a><a href="#scores">Scores</a><a href="#triage">Triage</a><a href="#scope">Scope</a><a href="#next">Next steps</a></nav>
+<a class="repo-link" href="https://github.com/tayler-erbe/enterprise-data-readiness-framework">Code on GitHub <span aria-hidden="true">↗</span></a>
+</header>
+<main id="main">
+
+<section class="hero">
+<div class="hero-copy">
+<p class="eyebrow">TAYLER ERBE / PROPOSAL · DATA READINESS BEFORE A MIGRATION</p>
+<h1>Is this data ready for AI? <em>Find out before you move it.</em></h1>
+<p class="hero-deck">A move to a new ERP or a cloud data platform carries hundreds of warehouse tables with it. Some are well defined and ready. Others have codes nobody can decode, columns nobody has described, or values that don't match their definitions. This review reads what the data dictionary already says about each table, looks at a small snapshot of the data, and reports which tables are ready, which are not, and how sure it is.</p>
+<p class="answer-line"><b>Short answer:</b> give an AI model the table and column definitions plus about twenty sample rows. Ask it, column by column, whether it can tell what the data means and whether the data matches what is written about it. Score each table for readiness, certainty and value, then fix the most valuable tables first.</p>
+<div class="hero-actions">
+<a href="#how" class="button primary">See how it works <span aria-hidden="true">↓</span></a>
+<a href="https://github.com/tayler-erbe/enterprise-data-readiness-framework/blob/main/docs/framework.md" class="text-link">Read the framework ↗</a>
+</div>
+<p class="author-line"><span><b>Tayler Erbe</b> · Data scientist, applied AI · data products that hold up to checking. <a href="#about">About</a></span></p>
+</div>
+<div class="hero-figure" id="hero-figure">
+<div class="figure-top"><span>ONE TABLE, THREE SCORES</span>
+<div class="hero-tabs" role="tablist" aria-label="Example scores">
+<button role="tab" aria-selected="true" aria-controls="hp-ready" id="ht-ready">Readiness</button>
+<button role="tab" aria-selected="false" aria-controls="hp-certain" id="ht-certain" tabindex="-1">Certainty</button>
+<button role="tab" aria-selected="false" aria-controls="hp-value" id="ht-value" tabindex="-1">Value</button>
+</div></div>
+<div class="hero-panel" id="hp-ready" role="tabpanel" aria-labelledby="ht-ready">
+<h2>Not ready yet.<br>Close, though.</h2>
+<div class="hero-bars" aria-label="Illustrative example: 38 of 48 columns ready, 10 of 48 need work">
+<div><span>Columns ready to move</span><strong>79%</strong><i style="--bar:79%"></i></div>
+<div class="muted-bar"><span>Columns that need work first</span><strong>21%</strong><i style="--bar:21%"></i></div>
+</div>
+<p>An illustrative employee job history table with 48 columns. Ten columns hold it back: four coded columns with no lookup, a salary column whose description and values disagree, and five columns with no description at all.</p>
+<a class="figure-source" href="#columns">See the column review <span>↓</span></a>
+</div>
+<div class="hero-panel" id="hp-certain" role="tabpanel" aria-labelledby="ht-certain" hidden>
+<h2>Most of it is clear.<br>Some of it is a guess.</h2>
+<div class="hero-bars" aria-label="Illustrative example: 79 percent of columns certain, 21 percent uncertain or flagged">
+<div><span>Columns the model understood with confidence</span><strong>79%</strong><i style="--bar:79%"></i></div>
+<div class="muted-bar"><span>Uncertain or flagged</span><strong>21%</strong><i style="--bar:21%"></i></div>
+</div>
+<p>A column is certain only when its definition, its name and its sample values agree. Anything the model had to infer is marked uncertain, with the reason, so a person can confirm it rather than trust it.</p>
+<a class="figure-source" href="#scores">How certainty is scored <span>↓</span></a>
+</div>
+<div class="hero-panel" id="hp-value" role="tabpanel" aria-labelledby="ht-value" hidden>
+<h2>High value.<br>Fix this one first.</h2>
+<div class="hero-bars" aria-label="Illustrative example: relevance 85 of 100, 6 derived features possible">
+<div><span>Relevance to known questions</span><strong>85</strong><i style="--bar:85%"></i></div>
+<div class="muted-bar"><span>Derived features it supports</span><strong>6</strong><i style="--bar:60%"></i></div>
+</div>
+<p>Job history answers turnover, promotion and pay-equity questions, and it supports derived features such as tenure, time since last raise and number of job changes. High value plus not ready puts it at the top of the work list.</p>
+<a class="figure-source" href="#triage">See the triage <span>↓</span></a>
+</div>
+</div>
+</section>
+
+<section class="stat-strip" aria-label="Key facts">
+<div><strong>~20 rows</strong><span>sampled per table, enough to see formats, codes and blanks without moving real data in bulk</span></div>
+<div><strong>Every column</strong><span>read on its own, with a verdict and the reason for it</span></div>
+<div><strong>3 scores</strong><span>for every table: readiness, certainty and value</span></div>
+<div><strong>0 changes</strong><span>to source data; this is an evaluation, not a repair</span></div>
+</section>
+
+<section class="section wrap" id="how">
+<div class="section-head">
+<p class="eyebrow">THE REVIEW</p>
+<h2>Context first,<br>then a look at the data.</h2>
+<p>A data dictionary or catalog already works as a semantic layer: it holds table definitions, column definitions, code meanings, usage rules and data quality advisories. The review puts that context next to a small sample of real values, and asks whether the two agree.</p>
+</div>
+<ol class="flow" aria-label="Review stages in order">
+<li class="code">Read the dictionary</li><li class="code">Take a snapshot</li><li class="model">Review each column</li><li class="code">Score the table</li><li class="code">Rank by value</li><li class="person">Fix with the owners</li>
+</ol>
+<div class="flow-key" aria-hidden="true"><span><i class="code"></i>Deterministic code</span><span><i class="model"></i>AI model</span><span><i class="person"></i>People</span></div>
+<ol class="steps6">
+<li><h3>Read the dictionary</h3><p>Pull each table's definition, its columns, data types, keys, code tables, usage rules and advisories. Code also checks the basics: missing descriptions, placeholders, broken links.</p></li>
+<li><h3>Take a small snapshot</h3><p>Read the header and about twenty rows. Restricted columns, such as identifiers and protected attributes, are masked or summarised before anything reaches a model.</p></li>
+<li><h3>Review column by column</h3><p>For each column the model answers fixed questions: what this column means, whether the values match the definition, whether the codes can be decoded, and what it is unsure about.</p></li>
+<li><h3>Score the table</h3><p>Code rolls the column verdicts into three scores: how ready the table is, what share of it the model is certain about, and how much the data is worth building on.</p></li>
+<li><h3>Rank by value</h3><p>Tables that matter most and are least ready rise to the top. Ready tables are cleared to move. Low-value tables wait.</p></li>
+<li><h3>Fix with the owners</h3><p>Each table gets a short worklist for its system owner: the exact columns to define, codes to document and values to confirm. The review never edits the data itself.</p></li>
+</ol>
+<div class="finding-note"><span class="note-symbol" aria-hidden="true">!</span><div><h3>A table list alone is not enough.</h3><p>A first pass on a table-list export found that table names and descriptions can't place any table above "described". Telling whether data is usable takes column definitions and a look at real values, which is why the snapshot is part of the design.</p></div><a href="#inputs">What the model sees ↓</a></div>
+</section>
+
+<section class="section wrap" id="inputs" style="padding-top:0">
+<div class="section-head">
+<p class="eyebrow">WHAT THE MODEL SEES</p>
+<h2>Six inputs,<br>not a full copy.</h2>
+<p>The model doesn't need much data. It needs the meaning that people already wrote down, and enough rows to check that meaning against reality.</p>
+</div>
+<div class="route-grid six">
+<article class="route lead-route">
+<p class="route-id">TABLE DEFINITION</p>
+<h3>What one row is</h3>
+<p class="why">The table's description, its keys, and any statement of grain such as "one row per employee per job change".</p>
+<span class="method-label">From the data dictionary</span>
+<p class="caution">If the grain isn't written down, the model proposes one from the keys and marks it unconfirmed.</p>
+</article>
+<article class="route">
+<p class="route-id">COLUMN DEFINITIONS</p>
+<h3>What each column means</h3>
+<p class="why">Name, data type, description and whether it is part of a key.</p>
+<span class="method-label">From the data dictionary</span>
+<p class="caution">Copied descriptions, where two columns share the same text, are flagged.</p>
+</article>
+<article class="route">
+<p class="route-id">CODES AND LOOKUPS</p>
+<h3>What the codes stand for</h3>
+<p class="why">Code tables and value lists that turn "R1" into a reason someone can read.</p>
+<span class="method-label">From the data dictionary</span>
+<p class="caution">A code column with no lookup is uncertain until someone names its source.</p>
+</article>
+<article class="route">
+<p class="route-id">RULES AND ADVISORIES</p>
+<h3>When not to use it</h3>
+<p class="why">Valid date ranges, known gaps, exclusions and data quality advisories.</p>
+<span class="method-label">From the data dictionary</span>
+<p class="caution">Rules buried in long descriptions are pulled out and listed separately.</p>
+</article>
+<article class="route">
+<p class="route-id">DATA SNAPSHOT</p>
+<h3>What the values look like</h3>
+<p class="why">The header and about twenty rows: formats, blanks, codes in use, sentinel dates such as 12/31/9999.</p>
+<span class="method-label">Small sample · masked</span>
+<p class="caution">A sample shows formats, not frequencies. It can't prove a rare problem is absent.</p>
+</article>
+<article class="route">
+<p class="route-id">KNOWN QUESTIONS</p>
+<h3>What people need from it</h3>
+<p class="why">The questions the business already asks, such as turnover, promotion and pay equity, used to judge value.</p>
+<span class="method-label">From the data owners</span>
+<p class="caution">Value is judged against stated needs, never guessed from the table name alone.</p>
+</article>
+</div>
+</section>
+
+<section class="use-section" id="columns">
+<div class="wrap">
+<div class="use-layout">
+<h2>One column<br>at a time.</h2>
+<div><p class="large-copy">For every column, the model says what it understood, what the sample shows, and whether the two agree. Anything it had to guess is labelled as a guess.</p></div>
+</div>
+<div class="compare-wrap" role="region" aria-label="Illustrative column review" tabindex="0" style="margin-top:45px">
+<span class="example-tag">Illustrative example · synthetic values</span>
+<table class="route-table column-table">
+<thead><tr><th>Column</th><th>What the dictionary says</th><th>What the sample shows</th><th>Verdict</th><th>Certainty</th></tr></thead>
+<tbody>
+<tr><td><code>EMPLOYEE_ID</code></td><td>Unique person identifier; part of the key</td><td>Nine-digit numbers, no blanks</td><td><span class="verdict ok">Ready</span></td><td>High</td></tr>
+<tr><td><code>START_DATE</code></td><td>Date the job record became effective</td><td>Valid dates, none in the future</td><td><span class="verdict ok">Ready</span></td><td>High</td></tr>
+<tr><td><code>END_DATE</code></td><td>Last effective date of the record</td><td>Most rows are 12/31/9999</td><td><span class="verdict ok">Ready</span></td><td>High, once 9999 is read as "current"</td></tr>
+<tr><td><code>CHANGE_REASON_CD</code></td><td>Reason for the job change</td><td>Codes "PR", "LT", "RC"; no lookup table linked</td><td><span class="verdict unsure">Uncertain</span></td><td>Low: "PR" may mean promotion</td></tr>
+<tr><td><code>ANNUAL_SALARY</code></td><td>Annual salary for the job</td><td>Some values look hourly (18.50)</td><td><span class="verdict unsure">Uncertain</span></td><td>Low: definition and values disagree</td></tr>
+<tr><td><code>FTE</code></td><td>No description</td><td>Values between 0 and 1</td><td><span class="verdict unsure">Uncertain</span></td><td>Medium: likely a fraction of full time</td></tr>
+<tr><td><code>SUPERVISOR_NOTE</code></td><td>Free-text note</td><td>Names and personal details</td><td><span class="verdict concern">Concern</span></td><td>Privacy review before any use</td></tr>
+</tbody>
+</table>
+</div>
+<p class="chart-note">Each verdict comes with the evidence behind it: the definition, the sample values and the model's reasoning. People confirm or correct verdicts; the model never decides alone that a table is ready.</p>
+</div>
+</section>
+
+<section class="section wrap" id="scores">
+<div class="section-head">
+<p class="eyebrow">THE SCORES</p>
+<h2>Three questions<br>for every table.</h2>
+<p>Readiness says whether the table can move as it is. Certainty says how much of that judgement rests on clear evidence. Value says whether the table is worth the effort of fixing.</p>
+</div>
+<div class="results-band">
+<article><p class="route-id">READINESS</p><h3>Can it move as it is?</h3><p>Ready, ready with notes, or not ready. A table that is not ready gets the share of columns holding it back, such as "not ready by 21%", and the list of those columns.</p></article>
+<article><p class="route-id">CERTAINTY</p><h3>How sure is the review?</h3><p>The share of columns the model understood from clear evidence, against those it had to infer or flag. A high readiness score with low certainty means "probably fine, check first".</p></article>
+<article><p class="route-id">VALUE</p><h3>Is it worth building on?</h3><p>How well the table serves known questions, whether it can be cleaned or pre-processed, and which derived features it supports. Some data is interesting but has little use.</p></article>
+</div>
+<div class="questions">
+<article><span>ASKED OF EVERY COLUMN</span><h3>Meaning</h3><ul><li>What does this column hold?</li><li>Does the definition match the values?</li><li>Can its codes be decoded?</li><li>Is it part of a key or a join?</li></ul></article>
+<article><span>ASKED OF EVERY COLUMN</span><h3>Doubt</h3><ul><li>What did the model have to guess?</li><li>Are there blanks, sentinels or mixed formats?</li><li>Do two columns repeat each other?</li><li>Does it hold restricted information?</li></ul></article>
+<article><span>ASKED OF EVERY TABLE</span><h3>Use</h3><ul><li>Which known questions does it answer?</li><li>Can it be pre-processed into something clean?</li><li>Which derived features can it support?</li><li>Would an AI tool read it correctly today?</li></ul></article>
+</div>
+</section>
+
+<section class="use-section" id="triage">
+<div class="wrap">
+<div class="use-layout">
+<h2>Fix the valuable<br>tables first.</h2>
+<div><p class="large-copy">Hundreds of tables can't all be fixed before a migration. Crossing readiness with value shows where owners' time pays off, and which tables can move now.</p></div>
+</div>
+<div class="quadrant-wrap">
+<span class="axis-y" aria-hidden="true">LOW VALUE ← → HIGH VALUE</span>
+<div class="quadrant">
+<article class="first"><p class="route-id">HIGH VALUE · NOT READY</p><span class="rank">Fix first</span><h3>Work with the owners</h3><p>Highest return on effort. Each table gets a worklist of exact columns, codes and rules to settle with its system owner.</p></article>
+<article><p class="route-id">HIGH VALUE · READY</p><span class="rank">Move now</span><h3>Load and use</h3><p>Clear to load into the new platform, where an AI model can read it with full context.</p></article>
+<article><p class="route-id">LOW VALUE · NOT READY</p><span class="rank">Park</span><h3>Revisit later</h3><p>Recorded and left as is. Not worth owners' time until a real need appears.</p></article>
+<article><p class="route-id">LOW VALUE · READY</p><span class="rank">Available</span><h3>Move as is</h3><p>No work needed. Moves with everything else and stays documented.</p></article>
+</div>
+<span class="axis-x" aria-hidden="true"><span>NOT READY</span><span>READY</span></span>
+</div>
+</div>
+</section>
+
+<section class="section wrap" id="scope">
+<div class="section-head">
+<p class="eyebrow">SCOPE</p>
+<h2>It evaluates.<br>It doesn't repair.</h2>
+<p>The review tells owners what is wrong and how sure it is. Fixing definitions, codes and values stays with the people who own the data.</p>
+</div>
+<div class="does-not">
+<div><h3>What it does</h3>
+<table class="outcomes"><tbody>
+<tr><th>Reads the semantic layer</th><td>Uses the definitions, codes and rules already in the data dictionary.</td></tr>
+<tr><th>Checks a small snapshot</th><td>About twenty rows per table, masked where needed.</td></tr>
+<tr><th>Scores every column</th><td>Ready, uncertain or concern, each with its reason.</td></tr>
+<tr><th>Ranks tables</th><td>By readiness and value, so the work list starts where it matters.</td></tr>
+</tbody></table></div>
+<div><h3>What it doesn't do</h3>
+<table class="outcomes"><tbody>
+<tr><th>Edit data or definitions</th><td>Nothing in the source system or the dictionary is changed.</td></tr>
+<tr><th>Profile whole tables</th><td>A sample shows formats and codes, not how often a problem occurs.</td></tr>
+<tr><th>Decide alone</th><td>Every "ready" is a proposal until a data owner confirms it.</td></tr>
+<tr><th>Send bulk data out</th><td>The model sees definitions and a masked sample, run on approved infrastructure.</td></tr>
+</tbody></table></div>
+</div>
+</section>
+
+<section class="use-section" id="next">
+<div class="wrap">
+<div class="use-layout">
+<h2>Next: a pilot<br>on one business area.</h2>
+<div><p class="large-copy">Pick an area with high-value questions and hard definitions, such as HR or finance. That makes a good first test.</p></div>
+</div>
+<div class="roadmap" style="margin-top:45px">
+<article><span>01 / GATHER</span><h3>Dictionary context</h3><p>Collect table and column definitions for a pilot set of tables, starting with the ones the business asks about most.</p></article>
+<article><span>02 / AGREE</span><h3>The rubric</h3><p>Settle with data stewards what "ready", "uncertain" and "high value" mean, and which columns must be masked.</p></article>
+<article><span>03 / RUN</span><h3>The column review</h3><p>Run the model on definitions plus masked snapshots, and have owners check a share of its verdicts by hand.</p></article>
+<article><span>04 / RANK</span><h3>The work list</h3><p>Publish a ranked list of tables to fix before the migration, with each owner's columns, codes and rules to settle.</p></article>
+</div>
+<div class="next-footer"><p><strong>Built on what exists.</strong> A deterministic scorer already reads data dictionary exports and places each table on a five-level scale from undocumented to AI-ready. The AI column review adds the judgement that code alone can't make.</p><a class="text-link" href="https://github.com/tayler-erbe/enterprise-data-readiness-framework/tree/main/scorer">Scorer code ↗</a></div>
+</div>
+</section>
+
+<section class="resources wrap" id="resources">
+<div>
+<p class="eyebrow">SOURCES AND CODE</p>
+<h2>Read it,<br>check it.</h2>
+<p class="hero-deck">The framework, the scoring rules and the first scorer are in the repository. The scorer runs on a data dictionary export without a GPU.</p>
+</div>
+<div class="resource-links">
+<a href="https://github.com/tayler-erbe/enterprise-data-readiness-framework/blob/main/docs/framework.md"><span>Framework · readiness levels, signals and checks</span><b>↗</b></a>
+<a href="https://github.com/tayler-erbe/enterprise-data-readiness-framework/tree/main/scorer"><span>Scorer · deterministic checks on a data dictionary export</span><b>↗</b></a>
+<a href="https://github.com/tayler-erbe/enterprise-data-readiness-framework/blob/main/docs/openmetadata.md"><span>OpenMetadata · reading the same checks from a catalog</span><b>↗</b></a>
+<a href="https://github.com/tayler-erbe/enterprise-data-readiness-framework"><span>Repository · everything above</span><b>↗</b></a>
+</div>
+</section>
+
+<section class="section wrap" id="about" style="padding-top:20px">
+<div class="use-layout">
+<div><p class="eyebrow">ABOUT THIS WORK</p><h2 style="font-size:clamp(30px,3vw,42px)">Tayler Erbe</h2></div>
+<div>
+<p class="large-copy" style="font-size:20px">I am a data scientist working in applied AI. I build data products that hold up to checking, and I test AI tools before anyone relies on them.</p>
+<p>This is a proposal. The examples on this page are illustrative and use synthetic values; no real-data accuracy is claimed. AI assistants helped write and test the code. To talk about data readiness for your own office, see <a href="https://taylererbe.com/">my site</a>.</p>
+</div>
+</div>
+</section>
+</main>
+<footer class="wrap">
+<div><strong>Document Intelligence Lab</strong><p>Tayler Erbe · Last updated 12 November 2026 · Proposal. Examples are illustrative.</p></div>
+<a href="https://github.com/tayler-erbe/enterprise-data-readiness-framework">Repository on GitHub ↗</a>
+</footer>
+</body>
+</html>

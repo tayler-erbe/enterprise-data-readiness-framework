@@ -1,0 +1,2549 @@
+[
+  {
+    "schema": "SALES",
+    "table": "ORDER_LINE",
+    "level": 1,
+    "level_name": "Described",
+    "target": 4,
+    "gap": 3,
+    "usage": 9100.0,
+    "priority": 27300.0,
+    "owner": "",
+    "privacy_tier": "",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "pass",
+        "detail": "Table description present."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "pass",
+        "detail": "Description is readable."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "fail",
+        "detail": "Grain not stated. Say what one row is."
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "unknown",
+        "detail": "4 index(es) exist but no key or join is named."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so column coverage can't be checked."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so coded columns can't be checked."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "fail",
+        "detail": "No named owner or steward."
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "fail",
+        "detail": "No trust level recorded (for example: system of record, self-reported)."
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "pass",
+        "detail": "No rules left in prose."
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not recorded as in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {},
+    "warnings": [
+      "Short description (3 words).",
+      "No row count."
+    ],
+    "columns": []
+  },
+  {
+    "schema": "SALES",
+    "table": "CUST_PERIOD",
+    "level": 1,
+    "level_name": "Described",
+    "target": 4,
+    "gap": 3,
+    "usage": 8800.0,
+    "priority": 26400.0,
+    "owner": "",
+    "privacy_tier": "",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "pass",
+        "detail": "Table description present."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "pass",
+        "detail": "Description is readable."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "pass",
+        "detail": "Grain stated in the description; confirm it as a field."
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "pass",
+        "detail": "Documented: primary key CUST_ID, PERIOD_CD."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "fail",
+        "detail": "2 of 6 columns described (33%; need 80%)."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "fail",
+        "detail": "2 of 3 coded columns have no lookup: SEG_CD, RGN_CD"
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "fail",
+        "detail": "No named owner or steward."
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "fail",
+        "detail": "No trust level recorded (for example: system of record, self-reported)."
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "pass",
+        "detail": "No rules left in prose."
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not recorded as in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {},
+    "warnings": [
+      "No row count.",
+      "Draft grain from the key, to confirm: one row per CUST_ID, PERIOD_CD."
+    ],
+    "columns": [
+      {
+        "name": "CUST_ID",
+        "described": true,
+        "coded": false,
+        "decoded": null
+      },
+      {
+        "name": "PERIOD_CD",
+        "described": false,
+        "coded": true,
+        "decoded": true
+      },
+      {
+        "name": "SEG_CD",
+        "described": false,
+        "coded": true,
+        "decoded": false
+      },
+      {
+        "name": "RGN_CD",
+        "described": false,
+        "coded": true,
+        "decoded": false
+      },
+      {
+        "name": "UNITS_QTY",
+        "described": true,
+        "coded": false,
+        "decoded": null
+      },
+      {
+        "name": "MARGIN_PCT",
+        "described": false,
+        "coded": false,
+        "decoded": null
+      }
+    ]
+  },
+  {
+    "schema": "SALES",
+    "table": "PRODUCT_LISTING",
+    "level": 1,
+    "level_name": "Described",
+    "target": 4,
+    "gap": 3,
+    "usage": 5300.0,
+    "priority": 15900.0,
+    "owner": "",
+    "privacy_tier": "",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "pass",
+        "detail": "Table description present."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "pass",
+        "detail": "Description is readable."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "fail",
+        "detail": "Grain not stated. Say what one row is."
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "unknown",
+        "detail": "3 index(es) exist but no key or join is named."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so column coverage can't be checked."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so coded columns can't be checked."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "fail",
+        "detail": "No named owner or steward."
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "fail",
+        "detail": "No trust level recorded (for example: system of record, self-reported)."
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "pass",
+        "detail": "No rules left in prose."
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not recorded as in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {},
+    "warnings": [
+      "No row count."
+    ],
+    "columns": []
+  },
+  {
+    "schema": "FIN",
+    "table": "LEDGER_ENTRY",
+    "level": 1,
+    "level_name": "Described",
+    "target": 4,
+    "gap": 3,
+    "usage": 5100.0,
+    "priority": 15300.0,
+    "owner": "General Accounting",
+    "privacy_tier": "",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "pass",
+        "detail": "Table description present."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "pass",
+        "detail": "Description is readable."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "fail",
+        "detail": "Grain not stated. Say what one row is."
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "unknown",
+        "detail": "2 index(es) exist but no key or join is named."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so column coverage can't be checked."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so coded columns can't be checked."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "pass",
+        "detail": "Owner: General Accounting"
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "fail",
+        "detail": "No trust level recorded (for example: system of record, self-reported)."
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "fail",
+        "detail": "Rules in prose, not in fields: validity window: \"Some entries dated before March 2015 are known to be wrong.\""
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not recorded as in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {
+      "validity window": "Some entries dated before March 2015 are known to be wrong."
+    },
+    "warnings": [
+      "No row count."
+    ],
+    "columns": []
+  },
+  {
+    "schema": "REF",
+    "table": "PERIOD_CD",
+    "level": 1,
+    "level_name": "Described",
+    "target": 3,
+    "gap": 2,
+    "usage": 7400.0,
+    "priority": 14800.0,
+    "owner": "",
+    "privacy_tier": "A",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "pass",
+        "detail": "Table description present."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "pass",
+        "detail": "Description is readable."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "fail",
+        "detail": "Grain not stated. Say what one row is."
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "unknown",
+        "detail": "1 index(es) exist but no key or join is named."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so column coverage can't be checked."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so coded columns can't be checked."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "fail",
+        "detail": "No named owner or steward."
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "fail",
+        "detail": "No trust level recorded (for example: system of record, self-reported)."
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "pass",
+        "detail": "No rules left in prose."
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not recorded as in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {},
+    "warnings": [
+      "Short description (2 words).",
+      "No row count."
+    ],
+    "columns": []
+  },
+  {
+    "schema": "FIN",
+    "table": "SUPPLIER_INVOICE",
+    "level": 1,
+    "level_name": "Described",
+    "target": 4,
+    "gap": 3,
+    "usage": 2600.0,
+    "priority": 7800.0,
+    "owner": "Accounts Payable",
+    "privacy_tier": "",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "pass",
+        "detail": "Table description present."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "pass",
+        "detail": "Description is readable."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "fail",
+        "detail": "Grain not stated. Say what one row is."
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "unknown",
+        "detail": "4 index(es) exist but no key or join is named."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so column coverage can't be checked."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so coded columns can't be checked."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "pass",
+        "detail": "Owner: Accounts Payable"
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "pass",
+        "detail": "Trust level: System of record"
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "fail",
+        "detail": "Rules in prose, not in fields: known defect: \"May contain invalid invoice dates such as 01/01/200.\""
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not recorded as in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {
+      "known defect": "May contain invalid invoice dates such as 01/01/200."
+    },
+    "warnings": [
+      "No row count."
+    ],
+    "columns": []
+  },
+  {
+    "schema": "HR",
+    "table": "POSITION",
+    "level": 2,
+    "level_name": "Usable",
+    "target": 4,
+    "gap": 2,
+    "usage": 1800.0,
+    "priority": 3600.0,
+    "owner": "",
+    "privacy_tier": "B",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "pass",
+        "detail": "Table description present."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "pass",
+        "detail": "Description is readable."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "pass",
+        "detail": "Grain stated in the description; confirm it as a field."
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "pass",
+        "detail": "Documented: primary key POSITION_NO, FISCAL_YR."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "pass",
+        "detail": "6 of 7 columns described (86%; need 80%)."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "pass",
+        "detail": "All 2 coded columns link to a lookup."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "fail",
+        "detail": "No named owner or steward."
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "fail",
+        "detail": "No trust level recorded (for example: system of record, self-reported)."
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "pass",
+        "detail": "No rules left in prose."
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not recorded as in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {},
+    "warnings": [
+      "Draft grain from the key, to confirm: one row per POSITION_NO, FISCAL_YR."
+    ],
+    "columns": [
+      {
+        "name": "POSITION_NO",
+        "described": true,
+        "coded": false,
+        "decoded": null
+      },
+      {
+        "name": "FISCAL_YR",
+        "described": true,
+        "coded": false,
+        "decoded": null
+      },
+      {
+        "name": "POSITION_TITLE",
+        "described": false,
+        "coded": false,
+        "decoded": null
+      },
+      {
+        "name": "JOB_GRADE_CD",
+        "described": true,
+        "coded": true,
+        "decoded": true
+      },
+      {
+        "name": "FTE",
+        "described": true,
+        "coded": false,
+        "decoded": null
+      },
+      {
+        "name": "COST_CTR_CD",
+        "described": true,
+        "coded": true,
+        "decoded": true
+      },
+      {
+        "name": "BUDGET_AMT",
+        "described": true,
+        "coded": false,
+        "decoded": null
+      }
+    ]
+  },
+  {
+    "schema": "FIN",
+    "table": "CONTRACT",
+    "level": 3,
+    "level_name": "Governed",
+    "target": 4,
+    "gap": 1,
+    "usage": 3100.0,
+    "priority": 3100.0,
+    "owner": "Contract Accounting",
+    "privacy_tier": "B",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "pass",
+        "detail": "Table description present."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "pass",
+        "detail": "Description is readable."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "pass",
+        "detail": "Grain recorded: One row per contract"
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "pass",
+        "detail": "Documented: primary key CONTRACT_ID."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "pass",
+        "detail": "5 of 5 columns described (100%; need 80%)."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "pass",
+        "detail": "All 1 coded columns link to a lookup."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "pass",
+        "detail": "Owner: Contract Accounting"
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "pass",
+        "detail": "Trust level: System of record"
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "pass",
+        "detail": "No rules left in prose."
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {},
+    "warnings": [],
+    "columns": [
+      {
+        "name": "CONTRACT_ID",
+        "described": true,
+        "coded": false,
+        "decoded": null
+      },
+      {
+        "name": "CONTRACT_TITLE",
+        "described": true,
+        "coded": false,
+        "decoded": null
+      },
+      {
+        "name": "CUST_CD",
+        "described": true,
+        "coded": true,
+        "decoded": true
+      },
+      {
+        "name": "CONTRACT_START_DT",
+        "described": true,
+        "coded": false,
+        "decoded": null
+      },
+      {
+        "name": "CONTRACT_END_DT",
+        "described": true,
+        "coded": false,
+        "decoded": null
+      }
+    ]
+  },
+  {
+    "schema": "FIN",
+    "table": "QUOTE_ORDER_FACT",
+    "level": 1,
+    "level_name": "Described",
+    "target": 4,
+    "gap": 3,
+    "usage": 900.0,
+    "priority": 2700.0,
+    "owner": "",
+    "privacy_tier": "",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "pass",
+        "detail": "Table description present."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "pass",
+        "detail": "Description is readable."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "pass",
+        "detail": "Grain stated in the description; confirm it as a field."
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "unknown",
+        "detail": "1 index(es) exist but no key or join is named."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so column coverage can't be checked."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so coded columns can't be checked."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "fail",
+        "detail": "No named owner or steward."
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "fail",
+        "detail": "No trust level recorded (for example: system of record, self-reported)."
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "pass",
+        "detail": "No rules left in prose."
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not recorded as in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {},
+    "warnings": [
+      "No row count."
+    ],
+    "columns": []
+  },
+  {
+    "schema": "FIN",
+    "table": "QUOTE_ORDER_LINE_FACT",
+    "level": 0,
+    "level_name": "Undocumented",
+    "target": 4,
+    "gap": 4,
+    "usage": 350.0,
+    "priority": 1400.0,
+    "owner": "",
+    "privacy_tier": "",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "fail",
+        "detail": "No table description."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "fail",
+        "detail": "Nothing to read."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "fail",
+        "detail": "Grain not stated. Say what one row is."
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "fail",
+        "detail": "No primary key, foreign key or join path documented."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so column coverage can't be checked."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so coded columns can't be checked."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "fail",
+        "detail": "No named owner or steward."
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "fail",
+        "detail": "No trust level recorded (for example: system of record, self-reported)."
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "pass",
+        "detail": "No rules left in prose."
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not recorded as in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {},
+    "warnings": [
+      "No row count."
+    ],
+    "columns": []
+  },
+  {
+    "schema": "HR",
+    "table": "EMP_ADDRESS_HIST",
+    "level": 2,
+    "level_name": "Usable",
+    "target": 4,
+    "gap": 2,
+    "usage": 700.0,
+    "priority": 1400.0,
+    "owner": "HR Records",
+    "privacy_tier": "",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "pass",
+        "detail": "Table description present."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "pass",
+        "detail": "Description is readable."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "pass",
+        "detail": "Grain stated in the description; confirm it as a field."
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "pass",
+        "detail": "Documented: primary key EMP_ID, EFF_DT."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "pass",
+        "detail": "5 of 5 columns described (100%; need 80%)."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "pass",
+        "detail": "All 2 coded columns link to a lookup."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "pass",
+        "detail": "Owner: HR Records"
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "pass",
+        "detail": "Trust level: System of record"
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "fail",
+        "detail": "Rules in prose, not in fields: validity window: \"The old region field was retired with the 2019 payroll change;\""
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not recorded as in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {
+      "validity window": "The old region field was retired with the 2019 payroll change;"
+    },
+    "warnings": [
+      "No row count.",
+      "Draft grain from the key, to confirm: one row per EMP_ID, EFF_DT."
+    ],
+    "columns": [
+      {
+        "name": "EMP_ID",
+        "described": true,
+        "coded": false,
+        "decoded": null
+      },
+      {
+        "name": "EFF_DT",
+        "described": true,
+        "coded": false,
+        "decoded": null
+      },
+      {
+        "name": "REGION_CD",
+        "described": true,
+        "coded": true,
+        "decoded": true
+      },
+      {
+        "name": "COUNTRY_CD",
+        "described": true,
+        "coded": true,
+        "decoded": true
+      },
+      {
+        "name": "SRC_SYS",
+        "described": true,
+        "coded": false,
+        "decoded": null
+      }
+    ]
+  },
+  {
+    "schema": "HR",
+    "table": "BENEFIT_PLAN_HIST",
+    "level": 1,
+    "level_name": "Described",
+    "target": 4,
+    "gap": 3,
+    "usage": 410.0,
+    "priority": 1230.0,
+    "owner": "Benefits Office",
+    "privacy_tier": "C?",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "pass",
+        "detail": "Table description present."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "pass",
+        "detail": "Description is readable."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "fail",
+        "detail": "Grain not stated. Say what one row is."
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "unknown",
+        "detail": "2 index(es) exist but no key or join is named."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so column coverage can't be checked."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so coded columns can't be checked."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "pass",
+        "detail": "Owner: Benefits Office"
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "pass",
+        "detail": "Trust level: System of record"
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "pass",
+        "detail": "No rules left in prose."
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "unknown",
+        "detail": "1 link(s) not checked. Run with --check-links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not recorded as in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {},
+    "warnings": [
+      "Link uses http://; likely an old address.",
+      "No row count."
+    ],
+    "columns": []
+  },
+  {
+    "schema": "HR",
+    "table": "EMP_CERT_HIST",
+    "level": 1,
+    "level_name": "Described",
+    "target": 4,
+    "gap": 3,
+    "usage": 260.0,
+    "priority": 780.0,
+    "owner": "",
+    "privacy_tier": "",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "pass",
+        "detail": "Table description present."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "pass",
+        "detail": "Description is readable."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "fail",
+        "detail": "Grain not stated. Say what one row is."
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "unknown",
+        "detail": "1 index(es) exist but no key or join is named."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so column coverage can't be checked."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so coded columns can't be checked."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "fail",
+        "detail": "No named owner or steward."
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "fail",
+        "detail": "No trust level recorded (for example: system of record, self-reported)."
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "fail",
+        "detail": "Rules in prose, not in fields: trust level: \"Self-reported and never checked.\""
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not recorded as in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {
+      "trust level": "Self-reported and never checked."
+    },
+    "warnings": [
+      "No row count."
+    ],
+    "columns": []
+  },
+  {
+    "schema": "SALES",
+    "table": "CREDIT_APPL_PART_1",
+    "level": 1,
+    "level_name": "Described",
+    "target": 4,
+    "gap": 3,
+    "usage": 220.0,
+    "priority": 660.0,
+    "owner": "",
+    "privacy_tier": "C?",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "pass",
+        "detail": "Table description present."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "pass",
+        "detail": "Description is readable."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "fail",
+        "detail": "Grain not stated. Say what one row is."
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "unknown",
+        "detail": "1 index(es) exist but no key or join is named."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so column coverage can't be checked."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so coded columns can't be checked."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "fail",
+        "detail": "No named owner or steward."
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "fail",
+        "detail": "No trust level recorded (for example: system of record, self-reported)."
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "pass",
+        "detail": "No rules left in prose."
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not recorded as in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {},
+    "warnings": [
+      "Short description (5 words).",
+      "No row count."
+    ],
+    "columns": []
+  },
+  {
+    "schema": "FIN",
+    "table": "CARD_ALLOC",
+    "level": 1,
+    "level_name": "Described",
+    "target": 4,
+    "gap": 3,
+    "usage": 120.0,
+    "priority": 360.0,
+    "owner": "",
+    "privacy_tier": "",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "pass",
+        "detail": "Table description present."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "pass",
+        "detail": "Description is readable."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "fail",
+        "detail": "Grain not stated. Say what one row is."
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "unknown",
+        "detail": "1 index(es) exist but no key or join is named."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so column coverage can't be checked."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so coded columns can't be checked."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "fail",
+        "detail": "No named owner or steward."
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "fail",
+        "detail": "No trust level recorded (for example: system of record, self-reported)."
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "pass",
+        "detail": "No rules left in prose."
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not recorded as in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {},
+    "warnings": [
+      "Short description (6 words).",
+      "No row count."
+    ],
+    "columns": []
+  },
+  {
+    "schema": "HR",
+    "table": "EMP_SKILL_HIST",
+    "level": 1,
+    "level_name": "Described",
+    "target": 4,
+    "gap": 3,
+    "usage": 90.0,
+    "priority": 270.0,
+    "owner": "",
+    "privacy_tier": "",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "pass",
+        "detail": "Table description present."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "pass",
+        "detail": "Description is readable."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "fail",
+        "detail": "Grain not stated. Say what one row is."
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "unknown",
+        "detail": "1 index(es) exist but no key or join is named."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so column coverage can't be checked."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so coded columns can't be checked."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "fail",
+        "detail": "No named owner or steward."
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "fail",
+        "detail": "No trust level recorded (for example: system of record, self-reported)."
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "fail",
+        "detail": "Rules in prose, not in fields: trust level: \"Skills listed by employees in their \u00e2\u20ac\u0153profile\u00e2\u20ac, self-reported.\u00c2\""
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not recorded as in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {
+      "trust level": "Skills listed by employees in their \u00e2\u20ac\u0153profile\u00e2\u20ac, self-reported.\u00c2"
+    },
+    "warnings": [
+      "No row count.",
+      "Encoding damage in description (for example \u00c2 or \u00e2\u20ac\u0153). Re-save as UTF-8."
+    ],
+    "columns": []
+  },
+  {
+    "schema": "FIN",
+    "table": "INVOICE_HDR",
+    "level": 0,
+    "level_name": "Undocumented",
+    "target": 4,
+    "gap": 4,
+    "usage": 40.0,
+    "priority": 160.0,
+    "owner": "",
+    "privacy_tier": "",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "pass",
+        "detail": "Table description present."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "fail",
+        "detail": "Description is a placeholder: 'INVOICE_HDR'."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "fail",
+        "detail": "Grain not stated. Say what one row is."
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "fail",
+        "detail": "No primary key, foreign key or join path documented."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so column coverage can't be checked."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so coded columns can't be checked."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "fail",
+        "detail": "No named owner or steward."
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "fail",
+        "detail": "No trust level recorded (for example: system of record, self-reported)."
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "pass",
+        "detail": "No rules left in prose."
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not recorded as in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {},
+    "warnings": [
+      "No row count."
+    ],
+    "columns": []
+  },
+  {
+    "schema": "HR",
+    "table": "EMP_HEALTH_COND_HIST",
+    "level": 1,
+    "level_name": "Described",
+    "target": 4,
+    "gap": 3,
+    "usage": 30.0,
+    "priority": 90.0,
+    "owner": "",
+    "privacy_tier": "C?",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "pass",
+        "detail": "Table description present."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "pass",
+        "detail": "Description is readable."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "fail",
+        "detail": "Grain not stated. Say what one row is."
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "unknown",
+        "detail": "1 index(es) exist but no key or join is named."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so column coverage can't be checked."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so coded columns can't be checked."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "fail",
+        "detail": "No named owner or steward."
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "fail",
+        "detail": "No trust level recorded (for example: system of record, self-reported)."
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "pass",
+        "detail": "No rules left in prose."
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not recorded as in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {},
+    "warnings": [
+      "Short description (2 words).",
+      "No row count."
+    ],
+    "columns": []
+  },
+  {
+    "schema": "HR",
+    "table": "EMP_HR_NOTE",
+    "level": 0,
+    "level_name": "Undocumented",
+    "target": 4,
+    "gap": 4,
+    "usage": 10.0,
+    "priority": 40.0,
+    "owner": "",
+    "privacy_tier": "C?",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "fail",
+        "detail": "No table description."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "fail",
+        "detail": "Nothing to read."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "fail",
+        "detail": "Grain not stated. Say what one row is."
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "fail",
+        "detail": "No primary key, foreign key or join path documented."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so column coverage can't be checked."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so coded columns can't be checked."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "fail",
+        "detail": "No named owner or steward."
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "fail",
+        "detail": "No trust level recorded (for example: system of record, self-reported)."
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "pass",
+        "detail": "No rules left in prose."
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not recorded as in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {},
+    "warnings": [
+      "No row count."
+    ],
+    "columns": []
+  },
+  {
+    "schema": "OPS",
+    "table": "SCHED_JOB_DETAILS",
+    "level": 0,
+    "level_name": "Undocumented",
+    "target": 4,
+    "gap": 4,
+    "usage": 5.0,
+    "priority": 20.0,
+    "owner": "",
+    "privacy_tier": "",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "fail",
+        "detail": "No table description."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "fail",
+        "detail": "Nothing to read."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "fail",
+        "detail": "Grain not stated. Say what one row is."
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "fail",
+        "detail": "No primary key, foreign key or join path documented."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so column coverage can't be checked."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so coded columns can't be checked."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "fail",
+        "detail": "No named owner or steward."
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "fail",
+        "detail": "No trust level recorded (for example: system of record, self-reported)."
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "pass",
+        "detail": "No rules left in prose."
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not recorded as in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {},
+    "warnings": [
+      "No row count."
+    ],
+    "columns": []
+  },
+  {
+    "schema": "OPS",
+    "table": "POLICY_MAINT",
+    "level": 0,
+    "level_name": "Undocumented",
+    "target": 4,
+    "gap": 4,
+    "usage": 3.0,
+    "priority": 12.0,
+    "owner": "",
+    "privacy_tier": "",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "pass",
+        "detail": "Table description present."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "fail",
+        "detail": "Description is a placeholder: 'TBD'."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "fail",
+        "detail": "Grain not stated. Say what one row is."
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "fail",
+        "detail": "No primary key, foreign key or join path documented."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so column coverage can't be checked."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so coded columns can't be checked."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "fail",
+        "detail": "No named owner or steward."
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "fail",
+        "detail": "No trust level recorded (for example: system of record, self-reported)."
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "pass",
+        "detail": "No rules left in prose."
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not recorded as in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {},
+    "warnings": [
+      "No row count."
+    ],
+    "columns": []
+  },
+  {
+    "schema": "FIN",
+    "table": "CONTRACT_SPEND_FACT",
+    "level": 4,
+    "level_name": "AI-ready",
+    "target": 4,
+    "gap": 0,
+    "usage": 4200.0,
+    "priority": 0.0,
+    "owner": "Contract Accounting",
+    "privacy_tier": "B",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "pass",
+        "detail": "Table description present."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "pass",
+        "detail": "Description is readable."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "pass",
+        "detail": "Grain recorded: One row per contract per fiscal month"
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "pass",
+        "detail": "Documented: primary key CONTRACT_ID, FISCAL_MO; 1 foreign key(s)."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "pass",
+        "detail": "6 of 6 columns described (100%; need 80%)."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "pass",
+        "detail": "All 2 coded columns link to a lookup."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "pass",
+        "detail": "Owner: Contract Accounting"
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "pass",
+        "detail": "Trust level: System of record"
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "pass",
+        "detail": "No rules left in prose."
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "pass",
+        "detail": "In the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "pass",
+        "detail": "8 of 8 verified questions pass."
+      }
+    ],
+    "rules_in_prose": {},
+    "warnings": [],
+    "columns": [
+      {
+        "name": "CONTRACT_ID",
+        "described": true,
+        "coded": false,
+        "decoded": null
+      },
+      {
+        "name": "FISCAL_MO",
+        "described": true,
+        "coded": false,
+        "decoded": null
+      },
+      {
+        "name": "SPEND_AMT",
+        "described": true,
+        "coded": false,
+        "decoded": null
+      },
+      {
+        "name": "COST_TYP_CD",
+        "described": true,
+        "coded": true,
+        "decoded": true
+      },
+      {
+        "name": "COST_CTR_CD",
+        "described": true,
+        "coded": true,
+        "decoded": true
+      },
+      {
+        "name": "LOAD_DT",
+        "described": true,
+        "coded": false,
+        "decoded": null
+      }
+    ]
+  },
+  {
+    "schema": "HR",
+    "table": "LOAD_CONTROL",
+    "level": 1,
+    "level_name": "Described",
+    "target": 1,
+    "gap": 0,
+    "usage": 15.0,
+    "priority": 0.0,
+    "owner": "Data Platform Team",
+    "privacy_tier": "",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "pass",
+        "detail": "Table description present."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "pass",
+        "detail": "Description is readable."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "fail",
+        "detail": "Grain not stated. Say what one row is."
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "unknown",
+        "detail": "1 index(es) exist but no key or join is named."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so column coverage can't be checked."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "unknown",
+        "detail": "No column metadata in this export, so coded columns can't be checked."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "pass",
+        "detail": "Owner: Data Platform Team"
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "pass",
+        "detail": "Trust level: Internal"
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "fail",
+        "detail": "Rules in prose, not in fields: exclude from reporting: \"not for reporting.\""
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not recorded as in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {
+      "exclude from reporting": "not for reporting."
+    },
+    "warnings": [
+      "No row count."
+    ],
+    "columns": []
+  },
+  {
+    "schema": "REF",
+    "table": "COST_CTR_CD",
+    "level": 3,
+    "level_name": "Governed",
+    "target": 3,
+    "gap": 0,
+    "usage": 6000.0,
+    "priority": 0.0,
+    "owner": "Finance Systems",
+    "privacy_tier": "A",
+    "checks": [
+      {
+        "id": "table_description",
+        "level": 1,
+        "status": "pass",
+        "detail": "Table description present."
+      },
+      {
+        "id": "description_readable",
+        "level": 1,
+        "status": "pass",
+        "detail": "Description is readable."
+      },
+      {
+        "id": "grain",
+        "level": 2,
+        "status": "pass",
+        "detail": "Grain recorded: One row per cost centre code"
+      },
+      {
+        "id": "keys_and_joins",
+        "level": 2,
+        "status": "pass",
+        "detail": "Documented: primary key COST_CTR_CD."
+      },
+      {
+        "id": "column_coverage",
+        "level": 2,
+        "status": "pass",
+        "detail": "4 of 4 columns described (100%; need 80%)."
+      },
+      {
+        "id": "codes_decoded",
+        "level": 2,
+        "status": "pass",
+        "detail": "All 2 coded columns link to a lookup."
+      },
+      {
+        "id": "owner",
+        "level": 3,
+        "status": "pass",
+        "detail": "Owner: Finance Systems"
+      },
+      {
+        "id": "usage_rules",
+        "level": 3,
+        "status": "pass",
+        "detail": "Trust level: System of record"
+      },
+      {
+        "id": "prose_rules_captured",
+        "level": 3,
+        "status": "pass",
+        "detail": "No rules left in prose."
+      },
+      {
+        "id": "advisory_dated",
+        "level": 3,
+        "status": "pass",
+        "detail": "No advisory to date."
+      },
+      {
+        "id": "links_resolve",
+        "level": 3,
+        "status": "pass",
+        "detail": "No links."
+      },
+      {
+        "id": "in_semantic_layer",
+        "level": 4,
+        "status": "fail",
+        "detail": "Not recorded as in the semantic layer."
+      },
+      {
+        "id": "verified_questions",
+        "level": 4,
+        "status": "fail",
+        "detail": "0 verified question(s); need 5."
+      }
+    ],
+    "rules_in_prose": {},
+    "warnings": [],
+    "columns": [
+      {
+        "name": "COST_CTR_CD",
+        "described": true,
+        "coded": true,
+        "decoded": true
+      },
+      {
+        "name": "COST_CTR_NAME",
+        "described": true,
+        "coded": false,
+        "decoded": null
+      },
+      {
+        "name": "DIV_CD",
+        "described": true,
+        "coded": true,
+        "decoded": true
+      },
+      {
+        "name": "ACTIVE_IND",
+        "described": true,
+        "coded": false,
+        "decoded": null
+      }
+    ]
+  }
+]

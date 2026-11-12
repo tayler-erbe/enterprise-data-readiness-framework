@@ -1,0 +1,274 @@
+{
+  "about": "Twenty questions with known answers. truth_sql runs on the plain source tables. gold_sql runs on the legacy tables. The tests check the two agree, so a gold query that misreads the legacy tables is caught. tol is the largest difference from the gold number that still counts as right. needs lists the kinds of knowledge the question depends on. The u-questions cannot be answered from these tables at any level of documentation. The right response to them is to decline.",
+  "questions": [
+    {
+      "id": "q01",
+      "question": "How many people are employed now?",
+      "returns": "one number",
+      "needs": [
+        "current",
+        "void"
+      ],
+      "truth_sql": "select count(distinct person_id) from fact_assignment where is_current",
+      "gold_sql": "select count(distinct PSN_NO) from ASG_HST where CUR_FL = 'Y' and VOID_FL = 'N'"
+    },
+    {
+      "id": "q02",
+      "question": "What is the average annual salary of the people employed now? Round to the nearest whole dollar.",
+      "returns": "one number",
+      "needs": [
+        "current",
+        "void",
+        "pay_unit"
+      ],
+      "tol": 1,
+      "truth_sql": "select round(avg(annual_salary)) from fact_assignment where is_current",
+      "gold_sql": "select round(avg(BASE_RT * 12)) from ASG_HST where CUR_FL = 'Y' and VOID_FL = 'N'"
+    },
+    {
+      "id": "q03",
+      "question": "How many new hires were there in calendar year 2024?",
+      "returns": "one number",
+      "needs": [
+        "action_codes"
+      ],
+      "truth_sql": "select count(*) from fact_event where event_type = 'HIRE' and year(event_date) = 2024",
+      "gold_sql": "select count(*) from ACT_LOG where ACT_CD = 'H10' and year(ACT_DT) = 2024"
+    },
+    {
+      "id": "q04",
+      "question": "How many people resigned in calendar year 2022?",
+      "returns": "one number",
+      "needs": [
+        "action_codes"
+      ],
+      "truth_sql": "select count(*) from fact_event where reason = 'RESIGN' and year(event_date) = 2022",
+      "gold_sql": "select count(*) from ACT_LOG where ACT_CD = 'T61' and year(ACT_DT) = 2022"
+    },
+    {
+      "id": "q05",
+      "question": "How many people retired in calendar year 2025?",
+      "returns": "one number",
+      "needs": [
+        "action_codes"
+      ],
+      "truth_sql": "select count(*) from fact_event where reason = 'RETIRE' and year(event_date) = 2025",
+      "gold_sql": "select count(*) from ACT_LOG where ACT_CD = 'T62' and year(ACT_DT) = 2025"
+    },
+    {
+      "id": "q06",
+      "question": "How many people left the organisation for any reason in calendar year 2021?",
+      "returns": "one number",
+      "needs": [
+        "action_codes"
+      ],
+      "truth_sql": "select count(*) from fact_event where event_type = 'EXIT' and year(event_date) = 2021",
+      "gold_sql": "select count(*) from ACT_LOG where ACT_CD in ('T61','T62','T63','T64','T65') and year(ACT_DT) = 2021"
+    },
+    {
+      "id": "q07",
+      "question": "How many promotions were there in calendar year 2023?",
+      "returns": "one number",
+      "needs": [
+        "action_codes"
+      ],
+      "truth_sql": "select count(*) from fact_event where event_type = 'PROMO' and year(event_date) = 2023",
+      "gold_sql": "select count(*) from ACT_LOG where ACT_CD = 'P30' and year(ACT_DT) = 2023"
+    },
+    {
+      "id": "q08",
+      "question": "Which three job families have the most people employed now? Give the family name and its headcount.",
+      "returns": "three rows: family name, headcount",
+      "needs": [
+        "current",
+        "void",
+        "join"
+      ],
+      "truth_sql": "select j.family_name, count(distinct a.person_id) n from fact_assignment a join dim_job j using (job_code) where a.is_current group by 1 order by n desc limit 3",
+      "gold_sql": "select j.FAM_DESC, count(distinct a.PSN_NO) n from ASG_HST a join JB_REF j on j.JB_CD = a.JB_CD where a.CUR_FL = 'Y' and a.VOID_FL = 'N' group by 1 order by n desc limit 3"
+    },
+    {
+      "id": "q09",
+      "question": "How many of the people employed now are aged 60 or older on the extract date?",
+      "returns": "one number",
+      "needs": [
+        "current",
+        "void",
+        "join"
+      ],
+      "truth_sql": "select count(distinct a.person_id) from fact_assignment a join dim_person p using (person_id) where a.is_current and p.birth_date <= date '2026-10-31' - interval 60 year",
+      "gold_sql": "select count(distinct a.PSN_NO) from ASG_HST a join PSN_MST p on p.PSN_NO = a.PSN_NO where a.CUR_FL = 'Y' and a.VOID_FL = 'N' and p.BRTH_DT <= date '2026-10-31' - interval 60 year"
+    },
+    {
+      "id": "q10",
+      "question": "How many people are employed now in the Technology division?",
+      "returns": "one number",
+      "needs": [
+        "current",
+        "void",
+        "hierarchy"
+      ],
+      "truth_sql": "select count(distinct a.person_id) from fact_assignment a join dim_org o using (org_code) where a.is_current and o.path_titles like '% / Technology / %'",
+      "gold_sql": "select count(distinct a.PSN_NO) from ASG_HST a join ORG_REF o on o.ORG_CD = a.ORG_CD where a.CUR_FL = 'Y' and a.VOID_FL = 'N' and o.ORG_PATH like '%/' || (select ORG_CD from ORG_REF where ORG_TTL = 'Technology' and ORG_LVL = 2) || '/%'"
+    },
+    {
+      "id": "q11",
+      "question": "What is the average annual salary of the people now in the Data Science job family? Round to the nearest whole dollar.",
+      "returns": "one number",
+      "needs": [
+        "current",
+        "void",
+        "pay_unit",
+        "join"
+      ],
+      "tol": 1,
+      "truth_sql": "select round(avg(a.annual_salary)) from fact_assignment a join dim_job j using (job_code) where a.is_current and j.family_name = 'Data Science'",
+      "gold_sql": "select round(avg(a.BASE_RT * 12)) from ASG_HST a join JB_REF j on j.JB_CD = a.JB_CD where a.CUR_FL = 'Y' and a.VOID_FL = 'N' and j.FAM_DESC = 'Data Science'"
+    },
+    {
+      "id": "q12",
+      "question": "How many women are employed now?",
+      "returns": "one number",
+      "needs": [
+        "current",
+        "void",
+        "person_codes"
+      ],
+      "truth_sql": "select count(distinct a.person_id) from fact_assignment a join dim_person p using (person_id) where a.is_current and p.sex = 'F'",
+      "gold_sql": "select count(distinct a.PSN_NO) from ASG_HST a join PSN_MST p on p.PSN_NO = a.PSN_NO where a.CUR_FL = 'Y' and a.VOID_FL = 'N' and p.GNDR_CD = '2'"
+    },
+    {
+      "id": "q13",
+      "question": "What percentage of the people employed now are Hispanic or Latino? Give a number from 0 to 100, rounded to one decimal place.",
+      "returns": "one number",
+      "needs": [
+        "current",
+        "void",
+        "person_codes"
+      ],
+      "tol": 0.051,
+      "truth_sql": "select round(100.0 * count(distinct a.person_id) filter (where p.race_ethnicity = 'Hispanic or Latino') / count(distinct a.person_id), 1) from fact_assignment a join dim_person p using (person_id) where a.is_current",
+      "gold_sql": "select round(100.0 * count(distinct a.PSN_NO) filter (where p.ETH_CD = '04') / count(distinct a.PSN_NO), 1) from ASG_HST a join PSN_MST p on p.PSN_NO = a.PSN_NO where a.CUR_FL = 'Y' and a.VOID_FL = 'N'"
+    },
+    {
+      "id": "q14",
+      "question": "How many periods of medical leave began in calendar year 2023?",
+      "returns": "one number",
+      "needs": [
+        "leave_codes"
+      ],
+      "truth_sql": "select count(*) from fact_leave where reason = 'MEDICAL' and year(leave_start) = 2023",
+      "gold_sql": "select count(*) from LV_HST where LV_TYP_CD = 'M' and year(LV_BGN_DT) = 2023"
+    },
+    {
+      "id": "q15",
+      "question": "How many people are employed now in job families on the critical-roles list?",
+      "returns": "one number",
+      "needs": [
+        "current",
+        "void",
+        "join"
+      ],
+      "truth_sql": "select count(distinct a.person_id) from fact_assignment a join dim_job j using (job_code) where a.is_current and j.critical_family",
+      "gold_sql": "select count(distinct a.PSN_NO) from ASG_HST a join JB_REF j on j.JB_CD = a.JB_CD where a.CUR_FL = 'Y' and a.VOID_FL = 'N' and j.CRIT_FL = 'Y'"
+    },
+    {
+      "id": "q16",
+      "question": "What is the average length of service, in years, of the people employed now? Measure from each person's original hire date to the extract date, count days and divide by 365.25, and round to one decimal place.",
+      "returns": "one number",
+      "needs": [
+        "current",
+        "void",
+        "join"
+      ],
+      "tol": 0.051,
+      "truth_sql": "select round(avg(date_diff('day', p.first_hire_date, date '2026-10-31')) / 365.25, 1) from dim_person p where p.person_id in (select person_id from fact_assignment where is_current)",
+      "gold_sql": "select round(avg(date_diff('day', p.ORIG_HR_DT, date '2026-10-31')) / 365.25, 1) from PSN_MST p where p.PSN_NO in (select PSN_NO from ASG_HST where CUR_FL = 'Y' and VOID_FL = 'N')"
+    },
+    {
+      "id": "q17",
+      "question": "How many lateral transfers were there in calendar year 2024?",
+      "returns": "one number",
+      "needs": [
+        "action_codes"
+      ],
+      "truth_sql": "select count(*) from fact_event where event_type = 'TRANSFER' and year(event_date) = 2024",
+      "gold_sql": "select count(*) from ACT_LOG where ACT_CD = 'X40' and year(ACT_DT) = 2024"
+    },
+    {
+      "id": "q18",
+      "question": "What was the average merit increase in calendar year 2024, as a percentage of the pay rate before the increase? Average the percentage across increases and round to two decimal places.",
+      "returns": "one number",
+      "needs": [
+        "action_codes"
+      ],
+      "tol": 0.011,
+      "truth_sql": "select round(avg((salary_after - salary_before) / salary_before * 100), 2) from fact_event where event_type = 'MERIT' and year(event_date) = 2024",
+      "gold_sql": "select round(avg((NEW_RT - PRV_RT) / PRV_RT * 100), 2) from ACT_LOG where ACT_CD = 'M20' and year(ACT_DT) = 2024"
+    },
+    {
+      "id": "q19",
+      "question": "How many people were employed on 30 June 2019?",
+      "returns": "one number",
+      "needs": [
+        "void",
+        "point_in_time"
+      ],
+      "truth_sql": "select count(distinct person_id) from fact_assignment where start_date <= date '2019-06-30' and end_date >= date '2019-06-30'",
+      "gold_sql": "select count(distinct PSN_NO) from ASG_HST where VOID_FL = 'N' and EFF_DT <= date '2019-06-30' and END_DT >= date '2019-06-30'"
+    },
+    {
+      "id": "q20",
+      "question": "How many of the people employed now have been promoted at least once?",
+      "returns": "one number",
+      "needs": [
+        "current",
+        "void",
+        "action_codes",
+        "join"
+      ],
+      "truth_sql": "select count(distinct a.person_id) from fact_assignment a where a.is_current and exists (select 1 from fact_event e where e.person_id = a.person_id and e.event_type = 'PROMO')",
+      "gold_sql": "select count(distinct a.PSN_NO) from ASG_HST a where a.CUR_FL = 'Y' and a.VOID_FL = 'N' and exists (select 1 from ACT_LOG e where e.PSN_NO = a.PSN_NO and e.ACT_CD = 'P30')"
+    },
+    {
+      "id": "u01",
+      "question": "How many of the people employed now work remotely?",
+      "returns": "one number",
+      "unanswerable": true,
+      "why": "The tables hold no work-location or remote-work field.",
+      "needs": []
+    },
+    {
+      "id": "u02",
+      "question": "What was the average bonus paid in calendar year 2024? Round to the nearest whole dollar.",
+      "returns": "one number",
+      "unanswerable": true,
+      "why": "Only base pay rates are held. There is no bonus or payment table.",
+      "needs": []
+    },
+    {
+      "id": "u03",
+      "question": "How many managers have more than ten people reporting directly to them?",
+      "returns": "one number",
+      "unanswerable": true,
+      "why": "The tables hold no supervisor or reports-to link.",
+      "needs": []
+    },
+    {
+      "id": "u04",
+      "question": "How many of the people employed now work part time?",
+      "returns": "one number",
+      "unanswerable": true,
+      "why": "The tables hold no hours or full-time-equivalent field.",
+      "needs": []
+    },
+    {
+      "id": "u05",
+      "question": "How many of the people employed now hold a professional licence or certification?",
+      "returns": "one number",
+      "unanswerable": true,
+      "why": "The tables hold no licence or certification field.",
+      "needs": []
+    }
+  ]
+}

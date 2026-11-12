@@ -1,0 +1,435 @@
+{
+  "about": "The complete documentation for the legacy tables built by build_legacy.py. context.py cuts it down to each readiness level. Every field is tagged by the kind of context it is: descriptions, structure, codes, units, rules, examples.",
+  "extract_date": "2026-10-31",
+  "tables": {
+    "PSN_MST": {
+      "description": "Person master. People who have ever been employed.",
+      "grain": "One row per person, whether or not they are employed now.",
+      "key": [
+        "PSN_NO"
+      ],
+      "joins": [],
+      "rules": [
+        "This table does not say who is employed now. Use ASG_HST for that."
+      ],
+      "columns": {
+        "PSN_NO": {
+          "description": "Person number."
+        },
+        "BRTH_DT": {
+          "description": "Date of birth."
+        },
+        "GNDR_CD": {
+          "description": "Gender code.",
+          "codes": {
+            "1": "Male",
+            "2": "Female"
+          }
+        },
+        "ETH_CD": {
+          "description": "Race and ethnicity code.",
+          "codes": {
+            "01": "American Indian or Alaska Native",
+            "02": "Asian",
+            "03": "Black or African American",
+            "04": "Hispanic or Latino",
+            "05": "Native Hawaiian or Other Pacific Islander",
+            "06": "White",
+            "07": "Two or more races"
+          }
+        },
+        "ORIG_HR_DT": {
+          "description": "Original hire date."
+        }
+      }
+    },
+    "JB_REF": {
+      "description": "Job reference. The jobs a person can hold, grouped into job families.",
+      "grain": "One row per job code. A job family has three or four job codes, one per level.",
+      "key": [
+        "JB_CD"
+      ],
+      "joins": [
+        "JB_REF.PRED_FAM_CD = JB_REF.FAM_CD of the older family this family grew out of"
+      ],
+      "rules": [
+        "Family-level columns (FAM_DESC, AI_EXP_VAL, FAM_STRT_YR, PRED_FAM_CD, CRIT_FL) repeat on every job code in the family. Do not sum them across rows.",
+        "AI_EXP_VAL is an assumption set by the people who built the data. It is not a measurement."
+      ],
+      "columns": {
+        "JB_CD": {
+          "description": "Job code."
+        },
+        "FAM_CD": {
+          "description": "Job family code."
+        },
+        "FAM_DESC": {
+          "description": "Job family name."
+        },
+        "TRK_CD": {
+          "description": "Career track code.",
+          "codes": {
+            "OPS": "Operations",
+            "PRO": "Professional",
+            "TECH": "Technical",
+            "SALES": "Sales",
+            "MGMT": "Management"
+          }
+        },
+        "LVL_NO": {
+          "description": "Level of the job within its family.",
+          "units": "1 is the entry level. Higher is more senior."
+        },
+        "JB_TTL": {
+          "description": "Job title."
+        },
+        "SOC_CD": {
+          "description": "Occupation code.",
+          "units": "Standard Occupational Classification 2018, six digits with a hyphen."
+        },
+        "AI_EXP_VAL": {
+          "description": "AI exposure value for the job family.",
+          "units": "A share from 0 to 1."
+        },
+        "RNG_MIN": {
+          "description": "Bottom of the pay range for the job.",
+          "units": "US dollars per year. Note that pay rates in ASG_HST and ACT_LOG are per month."
+        },
+        "RNG_MAX": {
+          "description": "Top of the pay range for the job.",
+          "units": "US dollars per year."
+        },
+        "FAM_STRT_YR": {
+          "description": "Year the job family was introduced.",
+          "codes": {
+            "NULL": "The family existed before the first year of data"
+          }
+        },
+        "PRED_FAM_CD": {
+          "description": "Family code of the predecessor family."
+        },
+        "CRIT_FL": {
+          "description": "Critical family indicator.",
+          "codes": {
+            "Y": "The family is on the critical-roles list",
+            "N": "It is not"
+          }
+        },
+        "TOP_FL": {
+          "description": "Top level indicator.",
+          "codes": {
+            "Y": "This is the highest level in the family",
+            "N": "It is not"
+          }
+        }
+      }
+    },
+    "ORG_REF": {
+      "description": "Organisation reference. The units of the organisation, as a hierarchy.",
+      "grain": "One row per organisational unit at any level of the hierarchy.",
+      "key": [
+        "ORG_CD"
+      ],
+      "joins": [
+        "ORG_REF.PAR_ORG_CD = ORG_REF.ORG_CD of the parent unit"
+      ],
+      "rules": [
+        "People are assigned only to units at level 4. To count people in a division or department, use ORG_PATH or walk PAR_ORG_CD upward. Matching ORG_CD to the division's own code finds nobody."
+      ],
+      "columns": {
+        "ORG_CD": {
+          "description": "Organisation code."
+        },
+        "PAR_ORG_CD": {
+          "description": "Parent organisation code."
+        },
+        "ORG_LVL": {
+          "description": "Level in the hierarchy.",
+          "codes": {
+            "1": "The whole organisation",
+            "2": "Division",
+            "3": "Department",
+            "4": "Team at one site"
+          }
+        },
+        "ORG_TTL": {
+          "description": "Organisation title."
+        },
+        "UNIT_TYP": {
+          "description": "Type of unit.",
+          "units": "Filled only on level 4 rows."
+        },
+        "LEAF_FL": {
+          "description": "Leaf indicator.",
+          "codes": {
+            "Y": "The unit has no units below it",
+            "N": "It has"
+          }
+        },
+        "ORG_PATH": {
+          "description": "Path of organisation codes.",
+          "units": "The codes from level 1 down to this unit, joined by '/'. Example: C00000/C10000/C11000/C11100."
+        }
+      }
+    },
+    "ASG_HST": {
+      "description": "Assignment history. The job, unit and pay rate each person has held over time.",
+      "grain": "One row per person per period in which job, unit, position and pay rate all stayed the same. A pay rise starts a new row, so one job spans many rows.",
+      "key": [
+        "PSN_NO",
+        "EFF_DT",
+        "VOID_FL"
+      ],
+      "joins": [
+        "ASG_HST.PSN_NO = PSN_MST.PSN_NO",
+        "ASG_HST.JB_CD = JB_REF.JB_CD",
+        "ASG_HST.ORG_CD = ORG_REF.ORG_CD"
+      ],
+      "rules": [
+        "Leave out rows where VOID_FL = 'Y' in every count and every pay figure. They were entered in error and are kept only for audit.",
+        "Some void rows are flagged current for people who have already left, so CUR_FL = 'Y' alone overcounts.",
+        "A person is employed on the extract date if they have a row with CUR_FL = 'Y' and VOID_FL = 'N'. Count people with count(distinct PSN_NO).",
+        "For headcount on a past date D, use EFF_DT <= D and END_DT >= D and VOID_FL = 'N'.",
+        "After a person leaves, their last row keeps the leaving date as END_DT. There are no rows for time not employed."
+      ],
+      "columns": {
+        "PSN_NO": {
+          "description": "Person number."
+        },
+        "EFF_DT": {
+          "description": "Date the row took effect."
+        },
+        "END_DT": {
+          "description": "Date the row ended.",
+          "codes": {
+            "9999-12-31": "The row is still open. This column is never NULL"
+          }
+        },
+        "JB_CD": {
+          "description": "Job code."
+        },
+        "ORG_CD": {
+          "description": "Organisation code."
+        },
+        "POS_NO": {
+          "description": "Position number."
+        },
+        "BASE_RT": {
+          "description": "Base rate of pay.",
+          "units": "US dollars per month. Multiply by 12 for annual salary."
+        },
+        "ACT_CD": {
+          "description": "Code of the personnel action that started the row.",
+          "codes": {
+            "H10": "New hire",
+            "M20": "Merit increase",
+            "P30": "Promotion",
+            "X40": "Lateral transfer",
+            "C45": "Career move into a different job family",
+            "R50": "Reclassification of the position"
+          }
+        },
+        "CUR_FL": {
+          "description": "Current record indicator.",
+          "codes": {
+            "Y": "The row is the open one for that person",
+            "N": "It has ended"
+          }
+        },
+        "VOID_FL": {
+          "description": "Void indicator.",
+          "codes": {
+            "Y": "The row was entered in error",
+            "N": "The row is valid"
+          }
+        }
+      }
+    },
+    "ACT_LOG": {
+      "description": "Action log. Personnel actions such as hires, pay changes, moves and departures.",
+      "grain": "One row per personnel action for one person on one date.",
+      "key": [
+        "PSN_NO",
+        "ACT_DT",
+        "SEQ_NO"
+      ],
+      "joins": [
+        "ACT_LOG.PSN_NO = PSN_MST.PSN_NO",
+        "ACT_LOG.JB_CD = JB_REF.JB_CD",
+        "ACT_LOG.ORG_CD = ORG_REF.ORG_CD"
+      ],
+      "rules": [
+        "This table has no void rows. Every row counts.",
+        "Each person has exactly one H10 row.",
+        "A departure is any of the five codes T61 to T65. For a departure, NEW_RT repeats PRV_RT.",
+        "For a new hire, PRV_RT is NULL."
+      ],
+      "columns": {
+        "PSN_NO": {
+          "description": "Person number."
+        },
+        "ACT_DT": {
+          "description": "Date of the action."
+        },
+        "SEQ_NO": {
+          "description": "Sequence number."
+        },
+        "ACT_CD": {
+          "description": "Action code.",
+          "codes": {
+            "H10": "New hire",
+            "M20": "Merit increase",
+            "P30": "Promotion",
+            "X40": "Lateral transfer",
+            "C45": "Career move into a different job family",
+            "R50": "Reclassification of the position",
+            "T61": "Resignation",
+            "T62": "Retirement",
+            "T63": "Involuntary termination",
+            "T64": "Death",
+            "T65": "Position eliminated"
+          }
+        },
+        "JB_CD": {
+          "description": "Job code after the action."
+        },
+        "ORG_CD": {
+          "description": "Organisation code after the action."
+        },
+        "POS_NO": {
+          "description": "Position number."
+        },
+        "PRV_RT": {
+          "description": "Rate of pay before the action.",
+          "units": "US dollars per month."
+        },
+        "NEW_RT": {
+          "description": "Rate of pay after the action.",
+          "units": "US dollars per month."
+        }
+      }
+    },
+    "LV_HST": {
+      "description": "Leave history. Periods of leave taken by a person.",
+      "grain": "One row per period of leave.",
+      "key": [
+        "PSN_NO",
+        "LV_BGN_DT"
+      ],
+      "joins": [
+        "LV_HST.PSN_NO = PSN_MST.PSN_NO"
+      ],
+      "rules": [
+        "Leave does not end an assignment. A person on leave still has their ASG_HST row."
+      ],
+      "columns": {
+        "PSN_NO": {
+          "description": "Person number."
+        },
+        "LV_BGN_DT": {
+          "description": "Date the leave began."
+        },
+        "LV_END_DT": {
+          "description": "Date the leave ended."
+        },
+        "LV_TYP_CD": {
+          "description": "Leave type code.",
+          "codes": {
+            "M": "Medical",
+            "F": "Family",
+            "P": "Personal"
+          }
+        }
+      }
+    }
+  },
+  "metrics": [
+    "Headcount: count(distinct PSN_NO) from ASG_HST where CUR_FL = 'Y' and VOID_FL = 'N'.",
+    "Annual salary: BASE_RT * 12 on a valid row.",
+    "Age on a date: whole years between BRTH_DT and that date.",
+    "Departures: ACT_LOG rows with ACT_CD in ('T61','T62','T63','T64','T65')."
+  ],
+  "examples": [
+    {
+      "question": "How many people are employed in each career track now?",
+      "sql": "select j.TRK_CD, count(distinct a.PSN_NO) from ASG_HST a join JB_REF j on j.JB_CD = a.JB_CD where a.CUR_FL = 'Y' and a.VOID_FL = 'N' group by j.TRK_CD"
+    },
+    {
+      "question": "What is the average annual salary of people now in level 3 jobs?",
+      "sql": "select round(avg(a.BASE_RT * 12)) from ASG_HST a join JB_REF j on j.JB_CD = a.JB_CD where a.CUR_FL = 'Y' and a.VOID_FL = 'N' and j.LVL_NO = 3"
+    },
+    {
+      "question": "How many involuntary terminations were there in 2019?",
+      "sql": "select count(*) from ACT_LOG where ACT_CD = 'T63' and ACT_DT between date '2019-01-01' and date '2019-12-31'"
+    },
+    {
+      "question": "How many people were employed in the Insurance Operations division on 31 December 2015?",
+      "sql": "select count(distinct a.PSN_NO) from ASG_HST a join ORG_REF o on o.ORG_CD = a.ORG_CD where a.VOID_FL = 'N' and a.EFF_DT <= date '2015-12-31' and a.END_DT >= date '2015-12-31' and o.ORG_PATH like '%/' || (select ORG_CD from ORG_REF where ORG_TTL = 'Insurance Operations' and ORG_LVL = 2) || '/%'"
+    },
+    {
+      "question": "How many people employed now are under 30 on the extract date?",
+      "sql": "select count(distinct a.PSN_NO) from ASG_HST a join PSN_MST p on p.PSN_NO = a.PSN_NO where a.CUR_FL = 'Y' and a.VOID_FL = 'N' and p.BRTH_DT > date '2026-10-31' - interval 30 year"
+    },
+    {
+      "question": "How many men have ever been employed?",
+      "sql": "select count(*) from PSN_MST where GNDR_CD = '1'"
+    }
+  ],
+  "misleading": {
+    "about": "Wrong documentation, used only by the 'misleading' control. It tests what a confident but wrong description costs. The model has no way to detect these errors, because it never sees a row.",
+    "changes": [
+      {
+        "table": "ASG_HST",
+        "column": "BASE_RT",
+        "field": "units",
+        "value": "US dollars per year."
+      },
+      {
+        "table": "ACT_LOG",
+        "column": "PRV_RT",
+        "field": "units",
+        "value": "US dollars per year."
+      },
+      {
+        "table": "ACT_LOG",
+        "column": "NEW_RT",
+        "field": "units",
+        "value": "US dollars per year."
+      },
+      {
+        "table": "JB_REF",
+        "column": "RNG_MIN",
+        "field": "units",
+        "value": "US dollars per year."
+      },
+      {
+        "table": "PSN_MST",
+        "column": "GNDR_CD",
+        "field": "codes",
+        "value": {
+          "1": "Female",
+          "2": "Male"
+        }
+      }
+    ],
+    "affected_questions": [
+      "q02",
+      "q11",
+      "q12"
+    ]
+  },
+  "filler": [
+    "The east entrance is closed for repairs until further notice; use the north entrance.",
+    "Parking permits are renewed each January at the front desk.",
+    "The fourth-floor kitchen is cleaned on Friday afternoons, so clear the fridge by noon.",
+    "Visitors sign in at reception and wear a badge at all times.",
+    "Fire drills are held twice a year, and the meeting point is the lower car park.",
+    "Printer paper is kept in the supply room next to the lifts.",
+    "Bicycle racks are behind the building, and the shower room code is available from facilities.",
+    "Meeting rooms are booked through the calendar and released if nobody arrives within ten minutes.",
+    "Lost property is held at the security desk for thirty days.",
+    "The cafe opens at half past seven and stops serving hot food at two.",
+    "Deliveries are accepted at the loading bay between eight and four.",
+    "Desk heaters are not allowed, so report a cold office to facilities."
+  ]
+}

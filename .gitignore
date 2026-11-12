@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+readiness-output/
+certainty/build/
+certainty/runs/dry-run/
+certainty/columns/runs/dry-run/

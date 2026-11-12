@@ -1,0 +1,139 @@
+{
+  "data": [
+    {
+      "id": "0d6a1c1e-0000-4000-8000-000000000001",
+      "name": "contract_spend_fact",
+      "fullyQualifiedName": "warehouse.dw.fin.contract_spend_fact",
+      "databaseSchema": {
+        "type": "databaseSchema",
+        "name": "fin",
+        "fullyQualifiedName": "warehouse.dw.fin"
+      },
+      "description": "Contract spend facts. One row per contract per fiscal month.",
+      "tableType": "Regular",
+      "columns": [
+        {
+          "name": "contract_id",
+          "dataType": "VARCHAR",
+          "dataTypeDisplay": "varchar(9)",
+          "description": "Contract identifier.",
+          "constraint": "PRIMARY_KEY"
+        },
+        {
+          "name": "fiscal_mo",
+          "dataType": "INT",
+          "description": "Fiscal month as YYYYMM.",
+          "constraint": "PRIMARY_KEY"
+        },
+        {
+          "name": "spend_amt",
+          "dataType": "DECIMAL",
+          "description": "Spend posted in the month, in dollars."
+        },
+        {
+          "name": "cost_typ_cd",
+          "dataType": "VARCHAR",
+          "description": "Cost type.",
+          "extension": {
+            "lookup": "ref.cost_typ_cd"
+          }
+        }
+      ],
+      "tableConstraints": [
+        {
+          "constraintType": "FOREIGN_KEY",
+          "columns": [
+            "contract_id"
+          ],
+          "referredColumns": [
+            "warehouse.dw.fin.contract.contract_id"
+          ]
+        }
+      ],
+      "owners": [
+        {
+          "id": "0d6a1c1e-0000-4000-8000-0000000000a1",
+          "type": "team",
+          "name": "contract_accounting",
+          "displayName": "Contract Accounting"
+        }
+      ],
+      "usageSummary": {
+        "dailyStats": {
+          "count": 140,
+          "percentileRank": 90.0
+        },
+        "weeklyStats": {
+          "count": 980,
+          "percentileRank": 91.0
+        },
+        "monthlyStats": {
+          "count": 4200,
+          "percentileRank": 93.0
+        },
+        "date": "2026-11-09"
+      },
+      "profile": {
+        "timestamp": 1762646400000,
+        "rowCount": 1840221,
+        "columnCount": 4
+      },
+      "extension": {
+        "trustLevel": "System of record",
+        "inSemanticLayer": true,
+        "verifiedQuestions": 8,
+        "verifiedQuestionsPassed": 8,
+        "privacyTier": "B"
+      }
+    },
+    {
+      "id": "0d6a1c1e-0000-4000-8000-000000000002",
+      "name": "emp_cert_hist",
+      "fullyQualifiedName": "warehouse.dw.hr.emp_cert_hist",
+      "databaseSchema": {
+        "type": "databaseSchema",
+        "name": "hr"
+      },
+      "description": "Certifications entered by employees on their own profile page. Self-reported and never checked.",
+      "columns": [
+        {
+          "name": "emp_id",
+          "dataType": "VARCHAR",
+          "description": ""
+        },
+        {
+          "name": "cert_cd",
+          "dataType": "VARCHAR",
+          "description": "Certification."
+        },
+        {
+          "name": "cert_dt",
+          "dataType": "DATE"
+        }
+      ],
+      "owner": {
+        "id": "0d6a1c1e-0000-4000-8000-0000000000a2",
+        "type": "user",
+        "name": "hr.records"
+      }
+    },
+    {
+      "id": "0d6a1c1e-0000-4000-8000-000000000003",
+      "name": "sched_job_details",
+      "fullyQualifiedName": "warehouse.dw.ops.sched_job_details",
+      "columns": [
+        {
+          "name": "job_id",
+          "dataType": "INT"
+        },
+        {
+          "name": "job_stat_cd",
+          "dataType": "VARCHAR"
+        }
+      ]
+    }
+  ],
+  "paging": {
+    "total": 3
+  }
+}

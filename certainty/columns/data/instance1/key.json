@@ -1,0 +1,607 @@
+{
+  "instance": 1,
+  "seed": 20261112,
+  "synthetic": true,
+  "flips": {
+    "members.joined": "date_day_first",
+    "members.newsletter": "flag_1_yes",
+    "health_screening.visit_dow": "weekday_number_sun1",
+    "products.volume": "volume_fl_oz",
+    "products.price": "money_cad",
+    "order_lines.qty": "quantity_packs",
+    "payments.amount": "money_cad",
+    "payments.paid_on": "date_month_first",
+    "payments.region": "country_code",
+    "shift_events.duration": "duration_seconds"
+  },
+  "tables": {
+    "members": [
+      {
+        "name": "member_id",
+        "truth": "identifier",
+        "candidates": [
+          "identifier"
+        ],
+        "settled_by": "values",
+        "ops": [],
+        "cryptic": "c1"
+      },
+      {
+        "name": "full_name",
+        "truth": "person_name",
+        "candidates": [
+          "person_name"
+        ],
+        "settled_by": "values",
+        "ops": [],
+        "cryptic": "c2"
+      },
+      {
+        "name": "birth_date",
+        "truth": "date_iso",
+        "candidates": [
+          "date_iso"
+        ],
+        "settled_by": "values",
+        "ops": [
+          "parse_date"
+        ],
+        "cryptic": "c3"
+      },
+      {
+        "name": "sex",
+        "truth": "gender_code",
+        "candidates": [
+          "gender_code"
+        ],
+        "settled_by": "name",
+        "ops": [
+          "decode_values"
+        ],
+        "cryptic": "c4"
+      },
+      {
+        "name": "marital",
+        "truth": "marital_status_code",
+        "candidates": [
+          "marital_status_code"
+        ],
+        "settled_by": "name",
+        "ops": [
+          "decode_values"
+        ],
+        "cryptic": "c5"
+      },
+      {
+        "name": "height",
+        "truth": "height_feet_inches_text",
+        "candidates": [
+          "height_feet_inches_text"
+        ],
+        "settled_by": "values",
+        "ops": [
+          "parse_compound_measure"
+        ],
+        "cryptic": "c6"
+      },
+      {
+        "name": "joined",
+        "truth": "date_day_first",
+        "candidates": [
+          "date_day_first",
+          "date_month_first"
+        ],
+        "settled_by": "day_gt_12",
+        "ops": [
+          "parse_date"
+        ],
+        "cryptic": "c7"
+      },
+      {
+        "name": "newsletter",
+        "truth": "flag_1_yes",
+        "candidates": [
+          "flag_1_yes",
+          "flag_2_yes"
+        ],
+        "settled_by": "nothing",
+        "ops": [
+          "decode_values"
+        ],
+        "cryptic": "c8"
+      },
+      {
+        "name": "zip",
+        "truth": "postal_code",
+        "candidates": [
+          "postal_code"
+        ],
+        "settled_by": "name_or_neighbours",
+        "ops": [
+          "keep_as_text"
+        ],
+        "cryptic": "c9"
+      },
+      {
+        "name": "city",
+        "truth": "city",
+        "candidates": [
+          "city"
+        ],
+        "settled_by": "values",
+        "ops": [],
+        "cryptic": "c10"
+      },
+      {
+        "name": "state",
+        "truth": "us_state",
+        "candidates": [
+          "us_state"
+        ],
+        "settled_by": "name_or_neighbours",
+        "ops": [],
+        "cryptic": "c11"
+      }
+    ],
+    "health_screening": [
+      {
+        "name": "person_ref",
+        "truth": "identifier",
+        "candidates": [
+          "identifier"
+        ],
+        "settled_by": "values",
+        "ops": [],
+        "cryptic": "c1"
+      },
+      {
+        "name": "eye",
+        "truth": "eye_colour",
+        "candidates": [
+          "eye_colour"
+        ],
+        "settled_by": "values",
+        "ops": [],
+        "cryptic": "c2"
+      },
+      {
+        "name": "hair",
+        "truth": "hair_colour",
+        "candidates": [
+          "hair_colour"
+        ],
+        "settled_by": "values",
+        "ops": [],
+        "cryptic": "c3"
+      },
+      {
+        "name": "weight",
+        "truth": "weight_pounds",
+        "candidates": [
+          "weight_pounds"
+        ],
+        "settled_by": "name",
+        "ops": [],
+        "cryptic": "c4"
+      },
+      {
+        "name": "v3",
+        "truth": "height_inches",
+        "candidates": [
+          "height_inches"
+        ],
+        "settled_by": "judgement",
+        "ops": [],
+        "cryptic": "c5"
+      },
+      {
+        "name": "age",
+        "truth": "age_years",
+        "candidates": [
+          "age_years"
+        ],
+        "settled_by": "name",
+        "ops": [],
+        "cryptic": "c6"
+      },
+      {
+        "name": "waist",
+        "truth": "waist_inches",
+        "candidates": [
+          "waist_inches"
+        ],
+        "settled_by": "name",
+        "ops": [],
+        "cryptic": "c7"
+      },
+      {
+        "name": "visit_date",
+        "truth": "date_iso",
+        "candidates": [
+          "date_iso"
+        ],
+        "settled_by": "values",
+        "ops": [
+          "parse_date"
+        ],
+        "cryptic": "c8"
+      },
+      {
+        "name": "visit_dow",
+        "truth": "weekday_number_sun1",
+        "candidates": [
+          "weekday_number_mon1",
+          "weekday_number_sun1"
+        ],
+        "settled_by": "neighbours",
+        "ops": [],
+        "cryptic": "c9"
+      }
+    ],
+    "products": [
+      {
+        "name": "sku",
+        "truth": "identifier",
+        "candidates": [
+          "identifier"
+        ],
+        "settled_by": "values",
+        "ops": [],
+        "cryptic": "c1"
+      },
+      {
+        "name": "product_name",
+        "truth": "product_name",
+        "candidates": [
+          "product_name"
+        ],
+        "settled_by": "values",
+        "ops": [],
+        "cryptic": "c2"
+      },
+      {
+        "name": "category",
+        "truth": "category_name",
+        "candidates": [
+          "category_name"
+        ],
+        "settled_by": "values",
+        "ops": [],
+        "cryptic": "c3"
+      },
+      {
+        "name": "size",
+        "truth": "clothing_size_code",
+        "candidates": [
+          "clothing_size_code"
+        ],
+        "settled_by": "values",
+        "ops": [],
+        "cryptic": "c4"
+      },
+      {
+        "name": "volume",
+        "truth": "volume_fl_oz",
+        "candidates": [
+          "volume_fl_oz",
+          "volume_ml"
+        ],
+        "settled_by": "name",
+        "ops": [],
+        "cryptic": "c5"
+      },
+      {
+        "name": "price",
+        "truth": "money_cad",
+        "candidates": [
+          "money_usd",
+          "money_cad"
+        ],
+        "settled_by": "nothing",
+        "ops": [],
+        "cryptic": "c6"
+      },
+      {
+        "name": "price_cents",
+        "truth": "money_usd_cents",
+        "candidates": [
+          "money_usd_cents"
+        ],
+        "settled_by": "name",
+        "ops": [
+          "scale_number"
+        ],
+        "cryptic": "c7"
+      },
+      {
+        "name": "discount",
+        "truth": "percent_0_to_1",
+        "candidates": [
+          "percent_0_to_1"
+        ],
+        "settled_by": "name",
+        "ops": [],
+        "cryptic": "c8"
+      },
+      {
+        "name": "rating",
+        "truth": "rating_score",
+        "candidates": [
+          "rating_score"
+        ],
+        "settled_by": "name",
+        "ops": [],
+        "cryptic": "c9"
+      },
+      {
+        "name": "in_stock",
+        "truth": "flag_text_yes_no",
+        "candidates": [
+          "flag_text_yes_no"
+        ],
+        "settled_by": "values",
+        "ops": [
+          "decode_values"
+        ],
+        "cryptic": "c10"
+      }
+    ],
+    "order_lines": [
+      {
+        "name": "order_id",
+        "truth": "identifier",
+        "candidates": [
+          "identifier"
+        ],
+        "settled_by": "values",
+        "ops": [],
+        "cryptic": "c1"
+      },
+      {
+        "name": "member_id",
+        "truth": "identifier",
+        "candidates": [
+          "identifier"
+        ],
+        "settled_by": "values",
+        "ops": [],
+        "cryptic": "c2"
+      },
+      {
+        "name": "ordered_at",
+        "truth": "timestamp_epoch_seconds",
+        "candidates": [
+          "timestamp_epoch_seconds"
+        ],
+        "settled_by": "values",
+        "ops": [
+          "parse_timestamp"
+        ],
+        "cryptic": "c3"
+      },
+      {
+        "name": "shipped_ms",
+        "truth": "timestamp_epoch_millis",
+        "candidates": [
+          "timestamp_epoch_millis"
+        ],
+        "settled_by": "values",
+        "ops": [
+          "parse_timestamp"
+        ],
+        "cryptic": "c4"
+      },
+      {
+        "name": "qty",
+        "truth": "quantity_packs",
+        "candidates": [
+          "quantity_units",
+          "quantity_packs"
+        ],
+        "settled_by": "neighbours",
+        "ops": [],
+        "cryptic": "c5"
+      },
+      {
+        "name": "unit_price",
+        "truth": "money_usd",
+        "candidates": [
+          "money_usd"
+        ],
+        "settled_by": "neighbours",
+        "ops": [],
+        "cryptic": "c6"
+      },
+      {
+        "name": "currency",
+        "truth": "currency_code",
+        "candidates": [
+          "currency_code"
+        ],
+        "settled_by": "values",
+        "ops": [],
+        "cryptic": "c7"
+      },
+      {
+        "name": "line_total",
+        "truth": "money_usd",
+        "candidates": [
+          "money_usd"
+        ],
+        "settled_by": "neighbours",
+        "ops": [],
+        "cryptic": "c8"
+      },
+      {
+        "name": "status",
+        "truth": "status_code",
+        "candidates": [
+          "status_code"
+        ],
+        "settled_by": "name",
+        "ops": [
+          "decode_values"
+        ],
+        "cryptic": "c9"
+      },
+      {
+        "name": "dow",
+        "truth": "weekday_name",
+        "candidates": [
+          "weekday_name"
+        ],
+        "settled_by": "values",
+        "ops": [],
+        "cryptic": "c10"
+      },
+      {
+        "name": "day",
+        "truth": "day_of_month",
+        "candidates": [
+          "day_of_month"
+        ],
+        "settled_by": "judgement",
+        "ops": [],
+        "cryptic": "c11"
+      }
+    ],
+    "payments": [
+      {
+        "name": "payment_id",
+        "truth": "identifier",
+        "candidates": [
+          "identifier"
+        ],
+        "settled_by": "values",
+        "ops": [],
+        "cryptic": "c1"
+      },
+      {
+        "name": "amount",
+        "truth": "money_cad",
+        "candidates": [
+          "money_usd",
+          "money_cad"
+        ],
+        "settled_by": "nothing",
+        "ops": [],
+        "cryptic": "c2"
+      },
+      {
+        "name": "paid_on",
+        "truth": "date_month_first",
+        "candidates": [
+          "date_day_first",
+          "date_month_first"
+        ],
+        "settled_by": "day_gt_12",
+        "ops": [
+          "parse_date"
+        ],
+        "cryptic": "c3"
+      },
+      {
+        "name": "method",
+        "truth": "category_name",
+        "candidates": [
+          "category_name"
+        ],
+        "settled_by": "values",
+        "ops": [],
+        "cryptic": "c4"
+      },
+      {
+        "name": "fee_pct",
+        "truth": "percent_0_to_100",
+        "candidates": [
+          "percent_0_to_100"
+        ],
+        "settled_by": "name",
+        "ops": [],
+        "cryptic": "c5"
+      },
+      {
+        "name": "region",
+        "truth": "country_code",
+        "candidates": [
+          "us_state",
+          "country_code"
+        ],
+        "settled_by": "nothing",
+        "ops": [],
+        "cryptic": "c6"
+      }
+    ],
+    "shift_events": [
+      {
+        "name": "event_id",
+        "truth": "identifier",
+        "candidates": [
+          "identifier"
+        ],
+        "settled_by": "values",
+        "ops": [],
+        "cryptic": "c1"
+      },
+      {
+        "name": "started",
+        "truth": "timestamp_epoch_seconds",
+        "candidates": [
+          "timestamp_epoch_seconds"
+        ],
+        "settled_by": "values",
+        "ops": [
+          "parse_timestamp"
+        ],
+        "cryptic": "c2"
+      },
+      {
+        "name": "ended",
+        "truth": "timestamp_epoch_seconds",
+        "candidates": [
+          "timestamp_epoch_seconds"
+        ],
+        "settled_by": "values",
+        "ops": [
+          "parse_timestamp"
+        ],
+        "cryptic": "c3"
+      },
+      {
+        "name": "duration",
+        "truth": "duration_seconds",
+        "candidates": [
+          "duration_minutes",
+          "duration_seconds"
+        ],
+        "settled_by": "neighbours",
+        "ops": [],
+        "cryptic": "c4"
+      },
+      {
+        "name": "score",
+        "truth": "rating_score",
+        "candidates": [
+          "rating_score"
+        ],
+        "settled_by": "name",
+        "ops": [
+          "replace_missing_marker"
+        ],
+        "cryptic": "c5"
+      },
+      {
+        "name": "site_state",
+        "truth": "us_state",
+        "candidates": [
+          "us_state"
+        ],
+        "settled_by": "values",
+        "ops": [
+          "normalise_categories"
+        ],
+        "cryptic": "c6"
+      }
+    ]
+  }
+}
