@@ -57,13 +57,27 @@ The report gives the share of verdicts right, the dangerous share, the over-caut
 
 ```bash
 cd certainty/testset
-python -m unittest discover -s tests                 # 42 checks
+python -m unittest discover -s tests                 # 47 checks
+python baselines.py                                  # no-AI baselines, real results
 python build.py --variations 12                      # rebuilds data/; raise the number for more examples
 python detect.py --dry-run                           # the pipeline, with made-up replies
 python detect.py --base-url http://localhost:8000/v1 --model <model name>
 ```
 
 Building and testing need Python 3.10 or later and nothing else. Running a model also needs `duckdb`, for code shared with the other tests. A full run is (720 columns + 120 files) x 3 repeats = 2,520 short requests. A stopped run continues when you repeat the command.
+
+## A floor to beat: checks with no AI
+
+[`baselines.py`](baselines.py) scores three no-AI checks on the same columns with the same measures. These are real results; see [`baselines_report.md`](baselines_report.md).
+
+| Measure | Accept everything | Generic quality rules | Rules plus shape profiling |
+| --- | ---: | ---: | ---: |
+| Verdict right | 18% | 28% | 40% |
+| Needs-context or garbage columns passed as usable | 100% | 91% | 86% |
+| Needs-context columns passed as usable | 100% | 100% | 94% |
+| Usable columns held back | 0% | 0% | 0% |
+
+Both checks read all 120 rows of a column and are plain implementations written for this test, not any vendor's product. Most needs-context cases were built so the raw values are identical under each reading, so a value-only check scoring 0% on them is true by construction. The table shows what kind of evidence the problem needs, and the floor a model has to beat.
 
 ## Files
 
