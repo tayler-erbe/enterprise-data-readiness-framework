@@ -7,3 +7,7 @@ certainty/columns/runs/dry-run/
 certainty/testset/runs/dry-run/
 certainty/realdata/data/
 certainty/realdata/runs/
+
+certainty/platforms/snowflake/sql/
+certainty/platforms/snowflake/runs/
+certainty/platforms/snowflake/*.csv
