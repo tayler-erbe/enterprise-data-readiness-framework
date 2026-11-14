@@ -5,12 +5,13 @@ This loads the raw test tables into a Snowflake account and asks two questions o
 1. **What does Snowflake's own description feature write for each column?** It is asked twice: from names and types only, and with sample data.
 2. **What verdict does a model hosted in Snowflake give?** It gets the same prompt the local harness uses, so the results are scored the same way.
 
-**Status: built and tested locally with made-up replies. The SQL has not yet been run against a Snowflake account, so expect to fix small things on the first run.**
+**Status: built and tested locally with made-up replies. Every generated SQL file passes a Snowflake-dialect syntax check (`python check_sql.py`, needs `sqlglot`). The two procedure and function calls follow the examples in Snowflake's documentation. It has not been run inside an account, so account-side problems (permissions, a model your region doesn't offer, cost limits) can still appear on the first run.**
 
 ## Before you start
 
 - **Use an account you are allowed to use for this.** A personal trial account is the safe choice. The data is generated and contains nothing real.
 - **It costs credits.** Each description call and each verdict is a model request. Run the smoke test first and read the cost in Snowsight before running the rest.
+- **Values are stored exactly as they arrived.** Whole numbers load as numbers, decimals with a fixed number of places keep those places, and everything else loads as text.
 - **Only raw tables are loaded.** The clean tables and the labels stay on your machine, so nothing in the account can see the answer key.
 - Your role needs the `SNOWFLAKE.CORTEX_USER` database role, and the model you pick must be offered in your region.
 
@@ -19,6 +20,7 @@ This loads the raw test tables into a Snowflake account and asks two questions o
 ```bash
 cd certainty/platforms/snowflake
 python make_sql.py --model llama3.3-70b      # writes sql/ ; pick a model your region offers
+python check_sql.py                          # optional: syntax check of every file
 ```
 
 In a Snowsight worksheet, with a database selected:

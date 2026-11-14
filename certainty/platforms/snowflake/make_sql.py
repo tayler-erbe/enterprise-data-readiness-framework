@@ -37,19 +37,25 @@ DEC = re.compile(r"^-?(0|[1-9]\d{0,14})\.\d{1,6}$")
 
 
 def sql_type(values):
-    """The type a plain CSV load would give the column."""
-    filled = [v for v in values if str(v).strip() != ""]
-    if filled and all(INT.match(str(v)) for v in filled):
+    """The type a plain CSV load would give the column, chosen so the stored value reads exactly as it arrived.
+
+    Whole numbers become NUMBER. Decimals that all have the same number of places become NUMBER(38, places),
+    which keeps 777359.0 and 12.50 as written (FLOAT would show 777359 and 12.5). Everything else is text.
+    """
+    filled = [str(v) for v in values if str(v).strip() != ""]
+    if filled and all(INT.match(v) for v in filled):
         return "NUMBER"
-    if filled and all(INT.match(str(v)) or DEC.match(str(v)) for v in filled):
-        return "FLOAT"
+    if filled and all(DEC.match(v) for v in filled):
+        places = {len(v.split(".")[1]) for v in filled}
+        if len(places) == 1:
+            return f"NUMBER(38, {places.pop()})"
     return "VARCHAR"
 
 
 def lit(v, typ):
     v = str(v)
-    if v.strip() == "":
-        return "NULL" if typ != "VARCHAR" or v == "" else "'" + v + "'"
+    if v == "" or (v.strip() == "" and typ != "VARCHAR"):
+        return "NULL"
     if typ != "VARCHAR":
         return v
     return "'" + v.replace("\\", "\\\\").replace("'", "''") + "'"
