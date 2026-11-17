@@ -4,14 +4,16 @@
 
 Research as of 9 November 2026. Facts come from vendor documentation as returned by web search; vendor doc sites could not be opened directly from the research environment, so treat specifics as "verify before quoting." Marketing claims are labeled.
 
+**Corrected 17 November 2026.** A later, deeper pass overturned three statements here: Snowflake does have a certification tag, Databricks describes an internal governance score, and other tools do mark unreviewed AI text. The lines below are updated and marked.
+
 ## At a glance
 
 | Need | Closest built-in | Gap |
 | --- | --- | --- |
 | Estate-wide documentation and readiness scoring | Microsoft Purview metadata quality and health controls (missing owner, short description, severity-ranked actions) | Aimed at data products and governance domains; per-table and per-column coverage not confirmed; preview with limited rule creation |
-| A "ready" flag | Databricks `system.certification_status`; Fabric Promoted / Certified / Master data; Snowflake tags (convention only) | Binary trust badges, not a readiness ladder |
+| A "ready" flag | Databricks `system.certification_status`; Fabric Promoted / Certified / Master data; Snowflake `SNOWFLAKE.TAGS.CERTIFICATION_STATUS` | Trust badges set by a person, not a readiness ladder |
 | Owner work lists | Purview health actions; Databricks rules that auto-deprecate unused tables and email owners | None is driven by documentation completeness |
-| AI-drafted documentation | Snowflake Cortex descriptions; Databricks AI comments; Google Gemini data insights; AWS SageMaker Catalog recommendations | User-initiated, one table at a time; no "unconfirmed" state or owner routing (SageMaker's review-then-publish is closest) |
+| AI-drafted documentation | Snowflake Cortex descriptions; Databricks AI comments; Google Gemini data insights; AWS SageMaker Catalog recommendations | On these platforms: user-initiated, one table at a time, no "unconfirmed" state or owner routing. Elsewhere this exists (corrected): DataHub marks unreviewed AI text, and Alation, Informatica and IBM stage or flag suggestions by confidence. See [tools-and-standards.md](tools-and-standards.md) |
 | Data quality | Snowflake Data Metric Functions; Databricks data quality monitoring; Purview DQ scores; AWS Glue DQ; Google Dataplex | Mature, but measures the data, not the documentation |
 | Semantic layer for AI query | Snowflake semantic views, verified queries, custom instructions, Autopilot; Databricks metric views, Genie instructions, trusted assets; Power BI AI data schema, verified answers, AI instructions | Built by hand per platform; nothing generates it from catalog readiness |
 
@@ -19,7 +21,7 @@ Research as of 9 November 2026. Facts come from vendor documentation as returned
 
 - **AI descriptions:** Cortex Powered Object Descriptions generate table, view and column descriptions in Snowsight (GA December 2024); `AI_GENERATE_TABLE_DESC` does the same from SQL (GA September 2025). Saved text becomes an ordinary comment, with no "AI-drafted" marker or approval step. [docs](https://docs.snowflake.com/en/user-guide/ui-snowsight-cortex-descriptions) · [release note](https://docs.snowflake.com/release-notes/2025/other/2025-09-29-sql-object-descriptions)
 - **Data quality:** Data Metric Functions (system and custom: nulls, uniqueness, freshness), scheduled per table, with expectations, anomaly detection and notifications. Enterprise Edition or higher (third-party source). [intro](https://docs.snowflake.com/user-guide/data-quality-intro)
-- **Certification:** no native certified badge found in Horizon Catalog (unverified); tags and Internal Marketplace listings can carry a convention. [Horizon](https://docs.snowflake.com/en/user-guide/snowflake-horizon)
+- **Certification (corrected):** Snowflake provides the `SNOWFLAKE.TAGS.CERTIFICATION_STATUS` tag with fixed values. A person sets it; nothing computes it. [docs](https://docs.snowflake.com/en/user-guide/snowflake-horizon/horizon-context)
 - **Semantic layer:** native semantic views; Cortex Analyst Verified Query Repository (question and SQL pairs used for answers and evaluation); custom instructions; Semantic View Autopilot proposes relationships and verified queries from query history. [blog](https://www.snowflake.com/en/blog/engineering/native-semantic-views-ai-bi/) · [Autopilot](https://docs.snowflake.com/user-guide/views-semantic/autopilot)
 - **Missing:** no documentation-completeness or readiness score; buildable by querying `INFORMATION_SCHEMA` comments and tags. Features apply to data in Snowflake.
 
@@ -29,7 +31,7 @@ Research as of 9 November 2026. Facts come from vendor documentation as returned
 - **Data quality:** data quality monitoring (formerly Lakehouse Monitoring) learns freshness and completeness per table; a 2026 preview ranks issues by lineage and certified tags; table health indicators in Catalog Explorer (Public Preview, March 2026, per release-note summaries). [docs](https://docs.databricks.com/aws/en/data-quality-monitoring)
 - **Certification:** `system.certification_status` tag (`certified`, `deprecated`), with rules that can apply it automatically and email owners. [docs](https://docs.databricks.com/data-governance/unity-catalog/certify-deprecate-data)
 - **Semantic layer:** metric views in Unity Catalog business semantics; Genie spaces with instructions, example SQL, trusted assets and benchmarks (up to 50 tables per space). Metadata edited inside a Genie space stays in that space. [metric views](https://docs.databricks.com/aws/en/business-semantics/metric-views) · [Genie](https://docs.databricks.com/genie/index.html)
-- **Missing:** no native documentation-completeness or AI-readiness score; consultancies sell readiness audits (marketing).
+- **Missing (corrected):** no documentation-completeness or AI-readiness score in the shipped product. Databricks does describe using a 0-to-100 Data Governance Score and an AI Certification scorecard on its own internal platform, so treat this gap as closing. [customer story](https://www.databricks.com/customers/databricks-data-platform). Consultancies sell readiness audits (marketing).
 
 ## Microsoft (Purview, Fabric, Power BI)
 
@@ -49,7 +51,7 @@ Research as of 9 November 2026. Facts come from vendor documentation as returned
 ## Google and AWS
 
 - **Google:** Dataplex data profile and quality scans; Gemini data insights generate table and column descriptions plus suggested questions with SQL, optionally published to the catalog (Preview). BigQuery only; no completeness score. [data insights](https://docs.cloud.google.com/bigquery/docs/data-insights)
-- **AWS:** Glue Data Quality scores; SageMaker Catalog drafts business descriptions with Bedrock that a user reviews before publishing, the closest match to an "unconfirmed draft" state found anywhere. [Glue DQ](https://docs.aws.amazon.com/glue/latest/dg/glue-data-quality) · [what's new](https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-sagemaker-catalog-adds-ai)
+- **AWS:** Glue Data Quality scores; SageMaker Catalog drafts business descriptions with Bedrock that a user reviews before publishing, the closest match to an "unconfirmed draft" state among the cloud platforms (catalog tools go further; see the correction at the top). [Glue DQ](https://docs.aws.amazon.com/glue/latest/dg/glue-data-quality) · [what's new](https://aws.amazon.com/about-aws/whats-new/2025/07/amazon-sagemaker-catalog-adds-ai)
 
 ## What this means for the framework
 

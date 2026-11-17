@@ -6,7 +6,7 @@ Research as of 12 November 2026, for a test of one question: shown a table's nam
 
 ## Summary
 
-- **No study found measures whether a model's certainty about column meaning or data cleaning is accurate.** The nearest work is on question answering over tables.
+- **No study found reports calibration error on per-column readiness verdicts, with column names present and a small sample.** (Corrected 17 November 2026. This line said no study measures whether a model's certainty about column meaning is accurate. Two do, in part: Rosetta measures how accuracy rises when a model may abstain on column meaning, and calibration on the answers that follow ([arXiv 2608.07946](https://arxiv.org/abs/2608.07946)); a 2026 preprint measures calibration on question answering over tables ([arXiv 2604.12491](https://arxiv.org/abs/2604.12491)). Both were read in part only.)
 - **The well-known dirty-and-clean datasets are probably memorised.** Use them as a control, not as the test.
 - **The best test data is clean tables nobody has seen, dirtied by a tool that logs every change.** The log is the answer key.
 - **More rows resolve format questions, not meaning questions.** A day greater than 12 settles day-month order. No number of rows tells you the currency.

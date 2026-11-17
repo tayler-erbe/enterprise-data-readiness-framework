@@ -95,10 +95,10 @@ About 25 searches and 25 opened pages. Not a systematic review. The safe claim i
 4. Built-in checks can pass the right number from the wrong logic.
 5. Scores are per engine. Nothing is portable across Cortex, Genie and Copilot.
 6. No product was confirmed to build context from chat, email, meetings or tickets. Verified inputs are query history, BI files, glossaries and metadata.
-7. Finding ambiguous or conflicting definitions before a question is asked exists only in research.
+7. Finding ambiguous or conflicting definitions before a question is asked is arriving in products (corrected 17 November 2026; this said "exists only in research"). Jedify flags conflicting definitions. Snowflake Cortex Sense has a manual corrections inbox, with automatic detection planned ([reference](https://docs.snowflake.com/LIMITEDACCESS/cortex-sense-reference)). Databricks has announced an Ontology Manager for Genie ([blog](https://databricks.com/blog/announcing-ga-genie-ontology)). None was found doing it on a table as it arrives, before any semantic model exists.
 8. No tool was found that assesses meaning before an ERP migration. Migration tools cover format, mapping and sizing (search only).
 9. No packaged option was confirmed that runs the judging on local models for sensitive tables.
-10. Certainty is not reported. Tools report accuracy; none found reports whether the model knew when it was wrong.
+10. Whether a tool's certainty is accurate is not reported (corrected 17 November 2026; this said "certainty is not reported", which was wrong). Informatica, IBM, Alation, ServiceNow, Flatfile, Databricks DQX and `ai_decide` all show a confidence for each item ([Alation](https://www.alation.com/blog/automated-data-curation/)). None found publishes how often that confidence is right, or how often the tool is confident and wrong.
 
 ## What this means for the certainty test
 

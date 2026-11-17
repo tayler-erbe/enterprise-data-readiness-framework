@@ -4,6 +4,8 @@
 
 Research as of 9 November 2026, from search results and documentation summaries. Marked items need checking before they are quoted. Pricing was rarely published.
 
+**Corrected 17 November 2026.** An "unconfirmed draft" state does exist in several tools, so it is no longer part of what is missing. [DataHub](https://docs.datahub.com/docs/automations/ai-docs) marks unreviewed AI text (generally available in DataHub Cloud v0.3.17). [Alation](https://www.alation.com/blog/automated-data-curation/) stages or flags AI suggestions by confidence (generally available 9 March 2026). Informatica and IBM separate "suggest" from "auto-assign". None of them publishes how often that confidence is right. Secoda was acquired by Atlassian in December 2025, and Collibra's AI Trust Score rates AI assets, not tables.
+
 ## Commercial catalogs
 
 | Tool | Scores documentation or "AI readiness" | AI-drafted descriptions |
@@ -13,7 +15,7 @@ Research as of 9 November 2026, from search results and documentation summaries.
 | [CastorDoc / Coalesce Catalog](https://docs.coalesce.io/docs/catalog/administration/analytics/data-documentation-coverage) | Documentation coverage analytics page | "Describe with AI" |
 | Select Star | No coverage score found | AI documentation (private preview when announced) |
 | Collibra | AI Command Center assesses AI agents' readiness, not tables | Not confirmed |
-| Alation | Marketing and a checklist; no published scoring formula | Not confirmed |
+| Alation | Marketing and a checklist; no published scoring formula | Yes (corrected): AI suggestions staged or flagged by confidence. [blog](https://www.alation.com/blog/automated-data-curation/) |
 | [Informatica CLAIRE](https://www.informatica.com/blogs/informatica-spring-2025-release-genai-amplifies-the-impact-of-ai.html) | No readiness score found | Generates glossary descriptions; runs on hosted models (Azure OpenAI, AWS Bedrock), so no air-gapped option |
 | data.world | Knowledge-graph "AI Context Engine"; ServiceNow announced its acquisition in May 2025 | Not found |
 | Monte Carlo, Bigeye, Soda, Great Expectations | Data observability and quality tests; they measure the data, not the documentation | n/a |
