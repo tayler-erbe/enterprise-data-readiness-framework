@@ -79,6 +79,8 @@ The five unanswerable questions run in every context. They ask for things the ta
 
 ## Run it
 
+To run every test in this folder and its subfolders on one model, in order of importance and with a timing check first, use [`run_window.py`](run_window.py). It saves each reply as it arrives and carries on where it stopped.
+
 Needs Python 3.10 or later with `duckdb`. The model runs on your own machine. Any server that speaks the OpenAI chat format works, including vLLM and Ollama.
 
 ```bash

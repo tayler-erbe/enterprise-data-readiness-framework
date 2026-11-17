@@ -57,7 +57,7 @@ The report gives the share of verdicts right, the dangerous share, the over-caut
 
 ```bash
 cd certainty/testset
-python -m unittest discover -s tests                 # 47 checks
+python -m unittest discover -s tests                 # 59 checks
 python baselines.py                                  # no-AI baselines, real results
 python build.py --variations 12                      # rebuilds data/; raise the number for more examples
 python detect.py --dry-run                           # the pipeline, with made-up replies
@@ -79,10 +79,33 @@ Building and testing need Python 3.10 or later and nothing else. Running a model
 
 Both checks read all 120 rows of a column and are plain implementations written for this test, not any vendor's product. Most needs-context cases were built so the raw values are identical under each reading, so a value-only check scoring 0% on them is true by construction. The table shows what kind of evidence the problem needs, and the floor a model has to beat.
 
+## Extra conditions: testing failures people have reported
+
+[`conditions.py`](conditions.py) runs the same detector with ONE thing changed about what the model sees. **Built and tested, not yet run on a model.**
+
+| Condition | What changes | The result that would count against the detector idea |
+| --- | --- | --- |
+| `rows5`, `rows50`, `profile` | Fewer or more sample rows, or ten rows plus a profile of the whole column | More rows or a profile sharply cut the needs-context columns called usable. Then it is a sampling problem |
+| `doc_agree`, `doc_conflict` | A data dictionary entry for the column: true, or contradicted by the rows shown | The model flags most contradicted entries unasked, and few true ones |
+| `doc_agree_asked`, `doc_conflict_asked` | The same, and the model is asked whether the entry agrees with the sample | Reported beside the unasked rows; asking points the model at the problem |
+| `name_conflict` | The column is renamed to something its values contradict (dates called `unit_price`) | The model notices the clash in most cases |
+| `name_two`, `name_clear` | New columns whose name fits two meanings (`sales`: units or money?), and the same values under a plain name | The model holds back most two-meaning columns and passes most plain ones |
+| `describe_forced`, `describe_allowed` | Write a description of the column; either it must, or it may say the table does not show the meaning | Allowed to decline, the model declines on most needs-context columns and few ready ones |
+
+Every contradicted entry and misleading name is one the shown rows refute; a test checks that for all 288 columns. The agreeing entries and plain names are controls, so a model that flags everything can't score well.
+
+```bash
+python conditions.py --condition all --dry-run       # the pipeline, with made-up replies
+python conditions.py --condition doc_agree,doc_conflict --base-url http://localhost:8000/v1 --model <model name>
+```
+
+To run every test on one model in order of importance, with a timing check first, use [`../run_window.py`](../run_window.py). It is 10,351 questions a model and carries on where it stopped.
+
 ## Files
 
 | File | Contents |
 | --- | --- |
+| [`conditions.py`](conditions.py), [`score_conditions.py`](score_conditions.py) | The extra conditions and their report |
 | [`cases.py`](cases.py) | The 60 column cases, with their fixers |
 | [`tables.py`](tables.py) | The 10 whole-file cases, with their fixers |
 | [`build.py`](build.py) | Deals the cases into tables and writes the files |

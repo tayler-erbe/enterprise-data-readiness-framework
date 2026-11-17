@@ -27,9 +27,7 @@ import build  # noqa: E402
 import detect  # noqa: E402
 import score_detect  # noqa: E402
 
-DOUBT = re.compile(r"\b(unclear|unknown|ambiguous|cannot be determined|can't be determined|not clear|uncertain|unspecified|"
-                   r"not specified|may be|might be|could be|possibly|likely|appears to|seems to|either|presumably|"
-                   r"cannot tell|undetermined|needs? (clarification|confirmation|context))\b", re.I)
+from conditions import DOUBT  # noqa: E402  (the same wording-of-doubt list the local description test uses)
 
 
 def read_csv(path):
