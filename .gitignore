@@ -11,3 +11,6 @@ certainty/realdata/runs/
 certainty/platforms/snowflake/sql/
 certainty/platforms/snowflake/runs/
 certainty/platforms/snowflake/*.csv
+certainty/platforms/databricks/sql/
+certainty/platforms/databricks/runs/
+certainty/platforms/databricks/*.csv

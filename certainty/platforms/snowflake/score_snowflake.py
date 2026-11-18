@@ -35,11 +35,11 @@ def read_csv(path):
         return [{k.lower(): v for k, v in row.items()} for row in csv.DictReader(fh)]
 
 
-def score_verdicts(path, tables, labels, rows_shown):
+def score_verdicts(path, tables, labels, rows_shown, platform="snowflake", here=HERE):
     key = {(l["table"].lower(), l["column"].lower()): l for l in labels}
     rows = read_csv(path)
-    model = "snowflake_" + re.sub(r"[^A-Za-z0-9._-]+", "_", rows[0]["model"]) if rows else "snowflake"
-    out = HERE / "runs" / model
+    model = platform + "_" + re.sub(r"[^A-Za-z0-9._-]+", "_", rows[0]["model"]) if rows else platform
+    out = here / "runs" / model
     out.mkdir(parents=True, exist_ok=True)
     unknown = 0
     with (out / "attempts.jsonl").open("w", encoding="utf-8") as fh:
@@ -59,10 +59,8 @@ def score_verdicts(path, tables, labels, rows_shown):
     return score_detect.write(out)
 
 
-def score_descriptions(path, labels):
-    key = {(l["table"].lower(), l["column"].lower()): l for l in labels}
-    stats = defaultdict(lambda: defaultdict(lambda: [0, 0, 0]))   # used_data -> verdict -> [columns, described, doubt]
-    sheet = []
+def snowflake_descriptions(path):
+    """(table, column, used sample data?, description) for every column in the exported CSV."""
     for r in read_csv(path):
         try:
             result = json.loads(r["result"])
@@ -70,18 +68,27 @@ def score_descriptions(path, labels):
             continue
         used = str(r["used_data"]).lower() in ("true", "1")
         for c in result.get("COLUMNS", []):
-            label = key.get((r["table_name"].lower(), str(c.get("name", "")).lower()))
-            if label is None:
-                continue
-            text = (c.get("description") or "").strip()
-            s = stats[used][label["verdict"]]
-            s[0] += 1
-            s[1] += bool(text)
-            s[2] += bool(DOUBT.search(text))
-            sheet.append({"table": label["table"], "column": label["column"], "used_data": used, "truth": label["verdict"], "case": label["case"],
-                          "true_reading": label["true_reading"], "other_readings": label["other_readings"],
-                          "has_doubt_wording": bool(DOUBT.search(text)), "description": text, "asserts_a_reading (fill in)": ""})
-    out = HERE / "runs"
+            yield r["table_name"], str(c.get("name", "")), used, c.get("description") or ""
+
+
+def score_descriptions(found, labels, platform="Snowflake", here=HERE):
+    """found: (table, column, used sample data?, description) tuples. Shared by every platform kit."""
+    key = {(l["table"].lower(), l["column"].lower()): l for l in labels}
+    stats = defaultdict(lambda: defaultdict(lambda: [0, 0, 0]))   # used_data -> verdict -> [columns, described, doubt]
+    sheet = []
+    for table, column, used, text in found:
+        label = key.get((table.lower(), column.lower()))
+        if label is None:
+            continue
+        text = text.strip()
+        s = stats[used][label["verdict"]]
+        s[0] += 1
+        s[1] += bool(text)
+        s[2] += bool(DOUBT.search(text))
+        sheet.append({"table": label["table"], "column": label["column"], "used_data": used, "truth": label["verdict"], "case": label["case"],
+                      "true_reading": label["true_reading"], "other_readings": label["other_readings"],
+                      "has_doubt_wording": bool(DOUBT.search(text)), "description": text, "asserts_a_reading (fill in)": ""})
+    out = here / "runs"
     out.mkdir(exist_ok=True)
     with (out / "descriptions_sheet.csv").open("w", encoding="utf-8", newline="") as fh:
         if sheet:
@@ -89,7 +96,7 @@ def score_descriptions(path, labels):
             w.writeheader()
             w.writerows(sheet)
     pct = lambda a, b: f"{100 * a / b:.0f}%" if b else "n/a"
-    L = ["# Snowflake column descriptions against the answer key", "",
+    L = [f"# {platform} column descriptions against the answer key", "",
          "Counted without a judge: was a description written, and does it contain any wording of doubt. "
          "A description with no doubt on a needs-context column asserts a meaning the data can't support; "
          "whether that meaning happens to be the true one is in `descriptions_sheet.csv` for a reader or a judge model.", ""]
@@ -120,7 +127,7 @@ def main():
     if a.verdicts:
         print("verdict report:", score_verdicts(a.verdicts, tables, labels, a.rows))
     if a.descriptions:
-        print("description report:", score_descriptions(a.descriptions, labels))
+        print("description report:", score_descriptions(snowflake_descriptions(a.descriptions), labels))
     if not (a.verdicts or a.descriptions):
         ap.error("give --verdicts and/or --descriptions")
 
